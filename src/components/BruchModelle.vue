@@ -2,6 +2,7 @@
 import { computed, ref } from "vue";
 import { generate } from "./BruchModelle.ts";
 import { fill, sector } from "./BruchMath.ts";
+import RichText from "./RichText.vue";
 const props = defineProps<{
   task: string;
   mode?: string;
@@ -35,7 +36,7 @@ function toggle(i: number): void {
 </script>
 <template>
   <div>
-    <p>{{ fill(task, { z: current.z, n: current.n }) }}</p>
+    <p><RichText :text="fill(task, { z: current.z, n: current.n })" /></p>
     <template v-if="view === 'line'"
       ><p>
         <strong>{{ labels.line }}</strong>
@@ -98,7 +99,7 @@ function toggle(i: number): void {
         </button>
       </div></template
     >
-    <p v-if="checked" aria-live="polite">{{ fill(counter, { z: count, n: current.n }) }}</p>
+    <p v-if="checked" aria-live="polite"><RichText :text="fill(counter, { z: count, n: current.n })" /></p>
   </div>
 </template>
 <style scoped>
@@ -156,6 +157,12 @@ circle {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
+}
+.strip button {
+  min-height: 44px;
+  border: 1px solid currentColor;
+  background-color: var(--page-background);
+  color: inherit;
 }
 .strip button,
 .strip button[aria-pressed="true"] {

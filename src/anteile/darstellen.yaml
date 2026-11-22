@@ -3,7 +3,7 @@
   "title": "Was bedeutet ein Bruch?",
   "competencies": ["brueche-begriff"],
   "description": "Was ein Bruch bedeutet und wie Zähler und Nenner zusammengehören.",
-  "scope": "Der Nenner nennt die Anzahl gleich großer Teile **pro Ganzem**. Der Zähler nennt die ausgewählten Teile. Der Bruchstrich bedeutet auch geteilt durch. Ein Ganzes muss feststehen: Ein Viertel einer großen Tafel kann mehr sein als ein Viertel einer kleinen Tafel. Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: 3/4. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.",
+  "scope": "Der Nenner nennt die Anzahl gleich großer Teile **pro Ganzem**. Der Zähler nennt die ausgewählten Teile. Der Bruchstrich bedeutet auch geteilt durch. Ein Ganzes muss feststehen: Ein Viertel einer großen Tafel kann mehr sein als ein Viertel einer kleinen Tafel. Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: $\\frac{3}{4}$. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.",
   "blocks":
     [
       {
@@ -52,7 +52,7 @@
                     },
                   "stage": "parts",
                 },
-              "nojs": "Ein Bruch beschreibt einen Teil von einem Ganzen. In den Bildern ist das Ganze ein Kreis, ein Streifen oder die gesamte Menge an Plättchen. Die grünen Stücke sind ausgewählt; Die Streifenflächen sind zusätzlich schraffiert; in der Mengenansicht sind ausgewählte Punkte ausgefüllt. Mit „Nenner“ stellst du ein, in wie viele gleich große Teile du das Ganze zerlegst. Mit „Zähler“ wählst du aus, wie viele davon dazugehören. Ändere zuerst nur einen Regler und vergleiche die Bilder. In der Übung klickst du die benötigten Teile an; ein weiterer Klick nimmt die Markierung zurück. Danach drückst du „Prüfen“.\n\nIm Anfangsbild sind drei von vier Kreisteilen und drei von vier Streifenfeldern markiert. Im Mengenbild sind sechs von acht Plättchen markiert. Jedes Bild zeigt denselben Anteil: 3/4.",
+              "nojs": "Ein Bruch beschreibt einen Teil von einem Ganzen. In den Bildern ist das Ganze ein Kreis, ein Streifen oder die gesamte Menge an Plättchen. Die grünen Stücke sind ausgewählt; Die Streifenflächen sind zusätzlich schraffiert; in der Mengenansicht sind ausgewählte Punkte ausgefüllt. Mit „Nenner“ stellst du ein, in wie viele gleich große Teile du das Ganze zerlegst. Mit „Zähler“ wählst du aus, wie viele davon dazugehören. Ändere zuerst nur einen Regler und vergleiche die Bilder. In der Übung klickst du die benötigten Teile an; ein weiterer Klick nimmt die Markierung zurück. Danach drückst du „Prüfen“.\n\nIm Anfangsbild sind drei von vier Kreisteilen und drei von vier Streifenfeldern markiert. Im Mengenbild sind sechs von acht Plättchen markiert. Jedes Bild zeigt denselben Anteil: $\\frac{3}{4}$.",
             },
             {
               "type": "note",
@@ -80,7 +80,7 @@
                 [
                   {
                     "type": "text",
-                    "text": "Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: 3/4. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.",
+                    "text": "Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: $\\frac{3}{4}$. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.",
                   },
                 ],
             },
@@ -127,13 +127,13 @@
             {
               "type": "single-choice",
               "id": "verstehen",
-              "text": "Was beschreibt der Nenner bei 3/4?",
+              "text": "Was beschreibt der Nenner bei $\\frac{3}{4}$?",
               "options":
                 [
                   {
                     "text": "Vier gleich große Teile pro Ganzem.",
                     "correct": true,
-                    "info": "Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: 3/4. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.",
+                    "info": "Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: $\\frac{3}{4}$. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.",
                   },
                   {
                     "text": "Drei ausgewählte Teile.",
@@ -146,7 +146,7 @@
                     "info": "Der Nenner beschreibt die Unterteilung eines Ganzen, nicht die Zahl ausgewählter Ganzer.",
                   },
                 ],
-              "explanation": "Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: 3/4. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.",
+              "explanation": "Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: $\\frac{3}{4}$. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.",
             },
             {
               "type": "generated",
@@ -154,7 +154,7 @@
               "given": { "n": { "oneOf": [3, 4, 5, 6, 8, 10] } },
               "task":
                 {
-                  "text": "Ein Ganzes ist in {{n}} gleiche Teile geteilt. Ein Teil ist markiert. Welcher Nenner gehört zum Bruch 1/…?",
+                  "text": "Ein Ganzes ist in {{n}} gleiche Teile geteilt. Ein Teil ist markiert. Welcher Nenner gehört zum Bruch $\\frac{1}{?}$?",
                 },
               "answer": { "value": "n", "compare": "number" },
               "mistakes":

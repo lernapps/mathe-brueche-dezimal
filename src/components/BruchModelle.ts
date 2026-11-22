@@ -21,12 +21,12 @@ export function check(task: Task, answer: unknown): boolean {
 export const solution = (task: Task): Answer => task.z;
 export const wrong = (task: Task): Answer => task.z + 1;
 export const mistakes = (task: Task): Answer[] => [wrong(task), 0];
-export const show = (answer: unknown, task: Task): string => `${String(answer)}/${task.n}`;
+export const show = (answer: unknown, task: Task): string => `$\\frac{${String(answer)}}{${task.n}}$`;
 export const template = (props: Props): string => props.task;
 export const params = (task: Task): Record<string, number> => ({ z: task.z, n: task.n });
 export const describe = (task: Task, props: Props) => ({
   task: `${fill(props.task, params(task))}\n\n${task.mode === "line" ? `Die Strecke von 0 bis 1 besteht aus ${task.n} gleich langen Abschnitten. Der Punkt wird mit dem Regler von 0 aus verschoben. Zähle die Abschnitte zwischen den Strichen.` : task.mode === "mixed" ? `Mehrere gleich große Streifen stehen für mehrere Ganze. Jeder Streifen hat ${task.n} gleich große Felder. Klicke die gefragten Teile an; erneutes Klicken nimmt eine Markierung zurück.` : `Die Aufgabe zeigt jeweils einen Kreis, einen Streifen oder eine Menge mit ${task.n} gleich großen Teilen. Klicke Teile an und danach auf Prüfen. Markierte Teile sind farbig, im Streifen zusätzlich schraffiert, in der Mengenansicht als ausgefüllte Punkte gekennzeichnet.`}`,
-  solution: `${task.z}/${task.n}: ${task.z} gleich große Teile bei ${task.n} Teilen pro Ganzem.`,
+  solution: `$\\frac{${task.z}}{${task.n}}$: ${task.z} gleich große Teile bei ${task.n} Teilen pro Ganzem.`,
 });
 export const reason = (task: Task, answer: unknown, props: Props) =>
   fill(props.mistakes[answer === 0 ? 1 : 0] ?? "", params(task));

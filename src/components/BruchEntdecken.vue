@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from "vue";
 import BruchBild from "./BruchBild.vue";
+import BruchZahl from "./BruchZahl.vue";
 const props = defineProps<{
   stage?: string;
   numerator: string;
@@ -24,7 +25,7 @@ const total = computed(() => n.value * 2);
       <input v-model.number="n" type="range" min="1" max="12" @input="z = Math.min(z, stage === 'mixed' ? n * 3 : n)"
     /></label>
     <p>
-      <strong>{{ Math.min(z, stage === "mixed" ? n * 3 : n) }}/{{ n }}</strong>
+      <strong><BruchZahl :z="Math.min(z, stage === 'mixed' ? n * 3 : n)" :n="n" /></strong>
     </p>
     <BruchBild
       :view="stage === 'mixed' ? 'strip' : stage === 'line' ? 'line' : 'circle,strip,set'"

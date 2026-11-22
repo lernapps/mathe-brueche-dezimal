@@ -22,7 +22,8 @@ test("models render with text alternatives and no browser globals", async () => 
   );
   expect(html).not.toMatch(/<strong[^>]*>Zahlenstrahl<\/strong>/);
   expect(html).toContain("Kreis");
-  expect(html).toContain("3/4");
+  expect(html).toContain("<mfrac>");
+  expect(html).not.toContain("3/4");
 });
 
 test("later pages show only their own model", async () => {

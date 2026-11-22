@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { sector } from "./BruchMath.ts";
+import BruchZahl from "./BruchZahl.vue";
 const props = defineProps<{
   z: number;
   n: number;
@@ -21,7 +22,7 @@ const objects = computed(() => props.total ?? props.n);
           :key="whole"
           viewBox="0 0 120 120"
           role="img"
-          :aria-label="`${labels.selected}: ${Math.min(n, Math.max(0, z - (whole - 1) * n))}/${n}`"
+          :aria-label="`${labels.selected}: ${Math.min(n, Math.max(0, z - (whole - 1) * n))} von ${n} Teilen`"
         >
           <path v-for="i in n" :key="i" :d="sector(i - 1, n)" :class="{ on: (whole - 1) * n + i <= z }" />
         </svg>
@@ -35,16 +36,16 @@ const objects = computed(() => props.total ?? props.n);
         :key="whole"
         class="strip"
         role="img"
-        :aria-label="`${labels.selected}: ${Math.min(n, Math.max(0, z - (whole - 1) * n))}/${n}`"
+        :aria-label="`${labels.selected}: ${Math.min(n, Math.max(0, z - (whole - 1) * n))} von ${n} Teilen`"
         :style="{ gridTemplateColumns: `repeat(${n},1fr)` }"
       >
         <span v-for="i in n" :key="i" :class="{ on: (whole - 1) * n + i <= z }" aria-hidden="true"></span>
       </div>
-      <span>{{ labels.selected }}: {{ z }}/{{ n }}</span>
+      <span>{{ labels.selected }}: <BruchZahl :z="z" :n="n" /></span>
     </div>
     <div v-if="!view || view.includes('line')" class="model">
       <strong>{{ labels.line }}</strong
-      ><svg viewBox="0 0 300 76" role="img" :aria-label="`${labels.line}: ${z}/${n}`">
+      ><svg viewBox="0 0 300 76" role="img" :aria-label="`${labels.line}: ${z} von ${n} Teilen`">
         <line x1="12" y1="26" x2="288" y2="26" />
         <g v-for="i in wholes * n + 1" :key="i">
           <line :x1="12 + ((i - 1) * 276) / (wholes * n)" y1="20" :x2="12 + ((i - 1) * 276) / (wholes * n)" y2="32" />
@@ -53,7 +54,7 @@ const objects = computed(() => props.total ?? props.n);
           </text>
         </g>
         <circle :cx="12 + (z * 276) / (wholes * n)" cy="26" r="6" /></svg
-      ><span>{{ labels.selected }}: {{ z }}/{{ n }}</span>
+      ><span>{{ labels.selected }}: <BruchZahl :z="z" :n="n" /></span>
     </div>
     <div v-if="(!view || view.includes('set')) && z <= n && (objects * z) % n === 0" class="model">
       <strong>{{ labels.set }}</strong>

@@ -33,3 +33,15 @@ export function sector(index: number, total: number): string {
 export function fill(text: string, values: Record<string, string | number>): string {
   return text.replace(/\{([A-Za-z]+)\}/g, (whole, name: string) => String(values[name] ?? whole));
 }
+/** Splits a text into plain strings and fractions written `3/4`, so a component can typeset them. */
+export function splitFractions(text: string): (string | Fraction)[] {
+  const parts: (string | Fraction)[] = [];
+  let last = 0;
+  for (const match of text.matchAll(/(\d+)\/(\d+)/g)) {
+    if (match.index > last) parts.push(text.slice(last, match.index));
+    parts.push({ z: Number(match[1]), n: Number(match[2]) });
+    last = match.index + match[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts;
+}
