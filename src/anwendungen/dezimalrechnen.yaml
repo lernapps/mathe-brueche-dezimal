@@ -1,6 +1,7 @@
-# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
   "title": "Dezimalzahlen addieren und subtrahieren",
+  "competencies": ["dezimalbrueche-rechnen"],
   "description": "Gleiche Stellenwerte zusammenlegen oder wegnehmen: Komma unter Komma.",
   "scope": "Addition und Subtraktion von Dezimalzahlen werden getrennt hergeleitet. Gleiche Stellenwerte stehen untereinander, Komma unter Komma. Endnullen hinter dem Komma ändern den Wert nicht. Bei der Addition werden zehn Hundertstel zu einem Zehntel und zehn Zehntel zu einem Ganzen gebündelt. 0,75 + 0,50 = 1,25. Bei der Subtraktion können größere Stellenwerte in zehn kleinere getauscht werden. 1,20 sind 11 Zehntel und 10 Hundertstel; davon 3 Zehntel und 5 Hundertstel weggenommen ergeben 0,85. Also 1,20 − 0,35 = 0,85. Die Übungen enthalten ausschließlich Addition und Subtraktion, keine Punktrechnung.",
   "blocks":
@@ -131,13 +132,6 @@
                   },
                 ],
               "explanation": "0,5 sind fünf Zehntel. Jedes Zehntel besteht aus zehn Hundertsteln. Deshalb sind fünf Zehntel dasselbe wie fünfzig Hundertstel: 0,5 = 0,50. Eine Null am Ende nach dem Komma verändert den Wert nicht.",
-              "links":
-                [
-                  {
-                    "title": "Dezimalzahlen addieren und subtrahieren (ARD alpha)",
-                    "url": "https://www.ardalpha.de/lernen/grips/faecher/grips-mathe/07-dezimalbrueche-addieren-nachlesen108.html",
-                  },
-                ],
             },
             {
               "type": "generated",

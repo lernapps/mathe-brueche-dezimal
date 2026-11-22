@@ -1,6 +1,7 @@
-# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
   "title": "Brüche im Alltag anwenden",
+  "competencies": ["bruchrechnung-grundaufgaben"],
   "description": "Was ist gegeben und was wird gesucht? Zeichne zuerst die Situation.",
   "scope": "Ordne die Angaben: Ganzes, Bruchteil oder Anteil. Entscheide dann, welche Rechnung die Frage beantwortet. Nenne die Einheit und prüfe durch Schätzen, ob das Ergebnis sinnvoll ist. Beim Vergleichen von Anteilen brauchst du dieselbe Bezugsgröße. 3/4 Liter Saft werden gleich auf zwei Gefäße verteilt: 3/4 : 2 = 3/8 Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit 5/20 = 1/4 = 25 %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.",
   "blocks":
@@ -94,13 +95,6 @@
                   },
                 ],
               "explanation": "3/4 Liter Saft werden gleich auf zwei Gefäße verteilt: 3/4 : 2 = 3/8 Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit 5/20 = 1/4 = 25 %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.",
-              "links":
-                [
-                  {
-                    "title": "Weiterlesen zur Herleitung",
-                    "url": "https://unterrichten.zum.de/wiki/Teil,_Anteil_und_Ganzes_bei_der_Bruchrechnung",
-                  },
-                ],
             },
             {
               "type": "generated",

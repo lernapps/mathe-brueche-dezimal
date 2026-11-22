@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+{
+  "title": "Das brauchst du hier",
+  "description": "Vorrangregeln, Rechengesetze und Potenzen, die du für Teiler und Primfaktoren brauchst.",
+  "recap": ["mathematik/grundrechenarten-rechengesetze", "mathematik/potenzen"],
+  "scope": "Vorrangregeln, Rechengesetze und Potenzen als Voraussetzung für Teiler und Primfaktoren.",
+  "blocks":
+    [
+      {
+        "type": "text",
+        "text": "Für Teiler und Primfaktoren rechnest du viel mit Malaufgaben und mit Potenzen. Prüfe dich selbst, ohne etwas einzutippen.",
+      },
+      {
+        "type": "text",
+        "text": "Ich kann Klammern und Vorrangregeln beachten und Rechengesetze für vorteilhaftes Rechnen nutzen.",
+      },
+      { "type": "text", "text": "Punktrechnung geht vor Strichrechnung, eine Klammer geht vor beidem:" },
+      { "type": "formula", "formula": "3 + 4 \\cdot 2 = 11" },
+      { "type": "formula", "formula": "(3 + 4) \\cdot 2 = 14" },
+      {
+        "type": "text",
+        "text": "Beim Malnehmen darfst du Faktoren tauschen und so vorteilhaft rechnen: Statt 25 · 7 · 4 rechnest du erst 25 · 4 = 100 und dann 100 · 7 = 700.",
+      },
+      {
+        "type": "text",
+        "text": "Ich kann Potenzen mit natürlichen Exponenten berechnen und Zehnerpotenzen zum Darstellen großer Zahlen nutzen.",
+      },
+      { "type": "text", "text": "Der Exponent sagt, wie oft die Basis mit sich selbst malgenommen wird:" },
+      { "type": "formula", "formula": "2^3 = 2 \\cdot 2 \\cdot 2 = 8" },
+      { "type": "formula", "formula": "10^3 = 10 \\cdot 10 \\cdot 10 = 1000" },
+      {
+        "type": "text",
+        "text": "Antworte in Gedanken: Was ist 2 + 3 · 4? Was ist 3² ? Wenn du beides sicher hast, kannst du weitermachen.",
+      },
+    ],
+}

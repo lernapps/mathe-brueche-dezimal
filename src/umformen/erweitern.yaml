@@ -1,6 +1,7 @@
-# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
   "title": "Brüche erweitern",
+  "competencies": ["brueche-kuerzen-erweitern"],
   "description": "Wenn jedes Stück halbiert wird, ist dann mehr Kuchen da?",
   "scope": "Erweitern wird am gleichmäßigen Unterteilen aller Kuchenstücke hergeleitet. Zwei Drittel bleiben derselbe Anteil, wenn jedes der drei Stücke in gleich viele kleinere Stücke geteilt wird. Zähler und Nenner werden mit demselben Faktor multipliziert; die Fläche bleibt gleich.",
   "blocks":
@@ -135,13 +136,6 @@
                   },
                 ],
               "explanation": "2/3 mit 2 erweitern: 2 · 2 = 4 und 3 · 2 = 6. Also 2/3 = 4/6. Jedes Drittel wurde in zwei Sechstel unterteilt.",
-              "links":
-                [
-                  {
-                    "title": "Weiterlesen zur Herleitung",
-                    "url": "https://de.serlo.org/mathe/1509/brueche-kuerzen-und-erweitern",
-                  },
-                ],
             },
             {
               "type": "generated",

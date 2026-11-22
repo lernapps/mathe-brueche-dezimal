@@ -1,6 +1,7 @@
-# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
   "title": "Das Ganze berechnen",
+  "competencies": ["bruchrechnung-grundaufgaben"],
   "description": "Neun Plättchen sind drei Viertel. Wie viele gehören zu einem Viertel und wie viele zum Ganzen?",
   "scope": "Ganzes = Bruchteil : Anteil. Du kannst zuerst durch den Zähler teilen und dann mit dem Nenner multiplizieren. So schließt du von den ausgewählten Gruppen auf alle Gruppen. 9 Plättchen sind 3/4. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.",
   "blocks":
@@ -124,13 +125,6 @@
                   },
                 ],
               "explanation": "9 Plättchen sind 3/4. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.",
-              "links":
-                [
-                  {
-                    "title": "Weiterlesen zur Herleitung",
-                    "url": "https://unterrichten.zum.de/wiki/Teil,_Anteil_und_Ganzes_bei_der_Bruchrechnung",
-                  },
-                ],
             },
             {
               "type": "generated",

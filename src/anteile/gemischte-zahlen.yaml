@@ -1,6 +1,7 @@
-# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
   "title": "Mehr als ein Ganzes",
+  "competencies": ["brueche-begriff"],
   "description": "Kann der Zähler größer als der Nenner sein? Baue mehrere Ganze aus gleich großen Bruchteilen.",
   "scope": "Ein unechter Bruch hat mindestens den Wert 1. Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch. Beim Umwandeln teilst du den Zähler durch den Nenner: Ganze plus Rest. 7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
   "blocks":
@@ -146,13 +147,6 @@
                   },
                 ],
               "explanation": "7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
-              "links":
-                [
-                  {
-                    "title": "Weiterlesen zur Herleitung",
-                    "url": "https://de.serlo.org/mathe/19479/einfuehrung-zu-bruechen",
-                  },
-                ],
             },
             {
               "type": "generated",

@@ -1,6 +1,7 @@
-# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
   "title": "Eine fehlende Zahl finden",
+  "competencies": ["brueche-addieren-subtrahieren"],
   "description": "Welche Zahl ergänzt einen Bruch zu einem Ganzen? Nutze den Streifen als Kontrolle.",
   "scope": "Bei einer Gleichung soll links und rechts derselbe Wert stehen. Finde die fehlende Zahl mit der Umkehroperation und setze sie zur Probe ein. Ein fehlender Summand entsteht durch Subtraktion, ein fehlender Faktor durch Division. x + 1/4 = 3/4. Also x = 3/4 − 1/4 = 2/4 = 1/2. Probe: 1/2 + 1/4 = 3/4.",
   "blocks":
@@ -86,13 +87,6 @@
                   { "text": "1/4", "correct": false, "info": "Ein Viertel plus ein Viertel ergibt erst zwei Viertel." },
                 ],
               "explanation": "x + 1/4 = 3/4. Also x = 3/4 − 1/4 = 2/4 = 1/2. Probe: 1/2 + 1/4 = 3/4.",
-              "links":
-                [
-                  {
-                    "title": "Weiterlesen zur Herleitung",
-                    "url": "https://de.serlo.org/mathe/50493/rechnen-mit-bruechen-ueberblick",
-                  },
-                ],
             },
             {
               "type": "generated",

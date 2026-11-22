@@ -1,6 +1,7 @@
-# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
   "title": "Gemeinsame Teiler und Vielfache",
+  "competencies": ["primfaktoren-ggt-kgv"],
   "description": "Welche Gruppengröße passt zu zwei Mengen? Welche Unterteilung passt zu zwei Brüchen?",
   "scope": "Teiler teilen eine Zahl ohne Rest. Vielfache entstehen durch Multiplikation mit natürlichen Zahlen. Der ggT ist der größte gemeinsame positive Teiler. Das kgV ist das kleinste gemeinsame positive Vielfache. Bei Brüchen hilft der ggT beim Kürzen und das kgV beim Hauptnenner. Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ggT = 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also kgV(4,6) = 12.",
   "blocks":
@@ -114,7 +115,6 @@
                   },
                 ],
               "explanation": "Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ggT = 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also kgV(4,6) = 12.",
-              "links": [{ "title": "Weiterlesen zur Herleitung", "url": "https://de.wikipedia.org/wiki/Teilbarkeit" }],
             },
             {
               "type": "generated",

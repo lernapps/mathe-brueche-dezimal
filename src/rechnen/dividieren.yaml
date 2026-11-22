@@ -1,6 +1,7 @@
-# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
   "title": "Durch Brüche dividieren",
+  "competencies": ["brueche-multiplizieren-dividieren"],
   "description": "Wie viele Achtelstücke passen in drei Viertel?",
   "scope": "Division kann fragen: Wie oft passt die zweite Größe in die erste? Zum Dividieren durch einen Bruch multiplizierst du mit seinem Kehrbruch. Nur der **zweite** Bruch wird umgekehrt. Durch 0 darfst du nicht teilen. 3/4 sind 6/8. Daher passen sechs Achtel in drei Viertel: 3/4 : 1/8 = 3/4 · 8/1 = 6.",
   "blocks":
@@ -129,13 +130,6 @@
                   },
                 ],
               "explanation": "3/4 sind 6/8. Daher passen sechs Achtel in drei Viertel: 3/4 : 1/8 = 3/4 · 8/1 = 6.",
-              "links":
-                [
-                  {
-                    "title": "Weiterlesen zur Herleitung",
-                    "url": "https://de.serlo.org/mathe/50493/rechnen-mit-bruechen-ueberblick",
-                  },
-                ],
             },
             {
               "type": "generated",

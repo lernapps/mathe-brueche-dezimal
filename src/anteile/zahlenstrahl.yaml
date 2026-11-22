@@ -1,6 +1,7 @@
-# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
   "title": "Brüche auf dem Zahlenstrahl",
+  "competencies": ["brueche-begriff"],
   "description": "Zwischen 0 und 1 liegt eine ganze Einheit. Wie findest du drei Viertel auf dieser Strecke?",
   "scope": "Teile jede Einheit in so viele gleich große **Abstände**, wie der Nenner angibt. Vom Nullpunkt gehst du so viele Schritte nach rechts, wie der Zähler angibt. Teile die Strecke von 0 bis 1 in vier gleich große Abstände. Der erste Schritt führt zu 1/4, der zweite zu 2/4 und der dritte zu 3/4. Vier Schritte führen zu 4/4, also zur 1.",
   "blocks":
@@ -146,13 +147,6 @@
                   },
                 ],
               "explanation": "Teile die Strecke von 0 bis 1 in vier gleich große Abstände. Der erste Schritt führt zu 1/4, der zweite zu 2/4 und der dritte zu 3/4. Vier Schritte führen zu 4/4, also zur 1.",
-              "links":
-                [
-                  {
-                    "title": "Weiterlesen zur Herleitung",
-                    "url": "https://de.serlo.org/mathe/19479/einfuehrung-zu-bruechen",
-                  },
-                ],
             },
             {
               "type": "generated",

@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+{
+  "title": "Das brauchst du hier",
+  "description": "Schriftliche Verfahren mit natürlichen Zahlen, die du beim Rechnen mit Dezimalzahlen brauchst.",
+  "recap": "mathematik/schriftliche-verfahren",
+  "scope": "Schriftliche Rechenverfahren mit natürlichen Zahlen als Voraussetzung für Dezimalzahlen.",
+  "blocks":
+    [
+      {
+        "type": "text",
+        "text": "Beim Rechnen mit Dezimalzahlen rechnest du Ziffer für Ziffer wie bei natürlichen Zahlen. Prüfe dich selbst, ohne etwas einzutippen.",
+      },
+      {
+        "type": "text",
+        "text": "Ich kann natürliche Zahlen schriftlich addieren, subtrahieren, multiplizieren und dividieren.",
+      },
+      {
+        "type": "text",
+        "text": "Beim Addieren stehen gleiche Stellen untereinander. Bei 348 + 275 rechnest du 8 + 5 = 13: Du schreibst 3 und merkst dir 1. Dann 4 + 7 + 1 = 12: Du schreibst 2 und merkst dir 1. Zuletzt 3 + 2 + 1 = 6. Das Ergebnis ist 623.",
+      },
+      {
+        "type": "text",
+        "text": "Subtrahieren, Multiplizieren und Dividieren laufen ebenso Stelle für Stelle. Antworte in Gedanken: Was ist 502 − 178? Was ist 24 · 13? Was ist 156 : 12? (Zur Kontrolle: 324, 312 und 13.)",
+      },
+    ],
+}

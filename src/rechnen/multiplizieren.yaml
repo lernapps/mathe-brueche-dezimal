@@ -1,6 +1,7 @@
-# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
   "title": "Brüche multiplizieren",
+  "competencies": ["brueche-multiplizieren-dividieren"],
   "description": "Kuchenstücke weiter teilen oder ein Rechteck bilden: zwei Bilder für dieselbe Multiplikation.",
   "scope": "Brüche multiplizieren lässt sich auf zwei Arten vorstellen. Kuchenmodell: Drei Viertel eines Kuchens sind ausgewählt. Jedes ausgewählte Viertel wird in drei gleich große Stücke geteilt; davon werden jeweils zwei genommen. Das ergibt sechs von zwölf Stücken des ganzen Kuchens: 2/3 · 3/4 = 6/12 = 1/2. Rechteckmodell: Ein Einheitsquadrat steht für eine Flächeneinheit. Ein Rechteck mit Breite 3/4 und Höhe 2/3 umfasst sechs von zwölf gleich großen Teilflächen des Einheitsquadrats und hat die Fläche 1/2. In beiden Modellen werden Zähler und Nenner multipliziert. Gemeinsame Faktoren dürfen vor dem Multiplizieren gekürzt werden. Bei einem positiven Faktor zwischen 0 und 1 wird eine positive Zahl kleiner.",
   "blocks":
@@ -157,13 +158,6 @@
                   },
                 ],
               "explanation": "Kuchen: Von jedem der drei Viertelstücke werden zwei von drei Stückchen genommen. Das sind 3 · 2 = 6 Stückchen. Der ganze Kuchen hätte 4 · 3 = 12 solcher Stückchen. Rechteck: Drei von vier Spalten und zwei von drei Zeilen bilden ein Rechteck aus 3 · 2 = 6 von insgesamt 4 · 3 = 12 Feldern. Beide Bilder zeigen 2/3 · 3/4 = 6/12 = 1/2. So wird verständlich, warum du Zähler mit Zähler und Nenner mit Nenner multiplizierst.",
-              "links":
-                [
-                  {
-                    "title": "Weiterlesen zur Herleitung",
-                    "url": "https://de.serlo.org/mathe/50493/rechnen-mit-bruechen-ueberblick",
-                  },
-                ],
             },
             {
               "type": "generated",

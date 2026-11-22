@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+{
+  "title": "Das brauchst du hier",
+  "description": "Was du über natürliche Zahlen schon können solltest, bevor es um Brüche geht.",
+  "recap": "mathematik/natuerliche-zahlen",
+  "scope": "Natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen als Voraussetzung für Brüche.",
+  "blocks":
+    [
+      {
+        "type": "text",
+        "text": "Brüche füllen die Lücken zwischen den natürlichen Zahlen. Dafür brauchst du die natürlichen Zahlen sicher. Prüfe dich selbst, ohne etwas einzutippen.",
+      },
+      { "type": "text", "text": "Ich kann natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen." },
+      {
+        "type": "text",
+        "text": "In der Zahl 4305 steht die 4 an der Tausenderstelle: vier Tausender, also 4000. Die 3 steht bei den Hundertern, also 300. An der Zehnerstelle steht eine 0, es gibt also keine Zehner. Die 5 sind fünf Einer. Antworte in Gedanken: Wie liest du 4305? Wie schreibst du 6 Tausender, 2 Zehner und 9 Einer?",
+      },
+      {
+        "type": "text",
+        "text": "Hast du beides sicher? Dann geht es mit dem Bruchbegriff los. Sonst sieh dir die Stellenwerttafel noch einmal an, bevor du weitermachst.",
+      },
+    ],
+}
