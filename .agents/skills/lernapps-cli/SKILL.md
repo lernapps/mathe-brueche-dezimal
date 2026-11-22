@@ -10,13 +10,18 @@ license: MIT
 
 - [references/platform-rules.md](references/platform-rules.md): a check names a `listing` rule, and before the
   listing.
+- [references/code-rules.md](references/code-rules.md): before you write TypeScript or a component, add a
+  dependency, store something on the device, change the configuration, or suppress a finding; and when a finding
+  names `strict-typescript`, `storage-through-wrapper`, `keep-the-preset`, `lockfile-matches` or
+  `suppression-reason`.
 
 ## Create
 
 1. Only after the creator's yes to the plan (`explore-before-code`). In the plan's folder:
    `npx --no -- lernapps create --archetype <archetype>`.
-2. No git repo yet: `git init --initial-branch=work`. Then `npm install` (dependencies, git hooks), and commit
-   everything on `work`.
+2. `create` installs nothing and commits nothing; its last lines say what follows, in this order: no git repo yet
+   (`lernapps init` makes one): `git init --initial-branch=work`; then `npm install` (runtime, git hooks); then commit
+   everything on `work` (`git add -A`, `git commit`; the hooks check it).
 3. Needs git, Node ≥ 22.18, registry.npmjs.org. Blocked → ask the creator to allow it, run again. Never write the
    app by hand.
 4. It keeps the plan and the installed skills, and writes the content guide's skeleton.
@@ -38,8 +43,10 @@ license: MIT
 A check says the rules hold; only a look says what a learner sees. Show the creator the pages before a push, and before
 a submission they declare something about.
 
-- Explainer or quiz: build (`npx vp build`), then `npx --no -- lernapps screenshots`. It writes one image of every page, one of
-  every figure, and an `index.html` that shows them in order to `screenshots/` (not part of the app: do not commit it).
+- Explainer or quiz: build (`npx vp build` writes `dist/`; `npm run build` writes `_site/`), then
+  `npx --no -- lernapps screenshots`: it takes the newer of `dist/` and `_site/`, or the folder you name. It writes
+  one image of every page, one of every figure, and an `index.html` that shows them in order to `screenshots/` (not
+  part of the app: do not commit it).
   Show the images, or the `index.html` where you can show HTML. Check every figure in its own image
   (`…-figure-<n>.png`): a page image is scaled down, its details are not readable. `--desktop` adds 1280 px images.
   Options: `npx --no -- lernapps screenshots --help`. The folder ignores itself in git, so a later check never sees it.
@@ -86,71 +93,3 @@ severity: error
 - Never bypass a hook: no `--no-verify`, no acceptance such as `ARC42_CONSISTENT` without a finding shown.
 - Never delete a test to make it pass.
 
-### `suppression-reason`: Suppress only in place, with the reason
-
-```rule
-id: suppression-reason
-scope: tooling
-severity: error
-```
-
-- Lint: only on the line, with the rule named and the reason after `--`:
-  `// oxlint-disable-next-line lernapps/no-request-before-click -- the video loads after a click`.
-- Types: only `// @ts-expect-error -- <reason>`; never `@ts-ignore` or `@ts-nocheck`.
-- The review reads every suppression.
-
-### `lockfile-matches`: Commit the lock file with every dependency change
-
-```rule
-id: lockfile-matches
-scope: tooling
-severity: error
-```
-
-- Change dependencies with `npm install`, never in `package.json` alone; commit `package-lock.json` with it.
-- A git pin (`github:…#<commit>`) moves in both files together.
-
-### `keep-the-preset`: Extend the preset, change nothing of it
-
-```rule
-id: keep-the-preset
-scope: [archetype:explainer, archetype:interactive, archetype:quiz]
-severity: error
-```
-
-- `vite.config.ts` is `export default lernapps()`, with only the app's own settings as generated
-  (`lernapps({ plugins: [quiz()] })`).
-- `tsconfig.json` extends `@lernapps/tooling/tsconfig.json` as generated.
-- The hooks come from the package (`prepare` in `package.json`); never replace one.
-- Never turn a lint rule off or lower its severity.
-
-### `strict-typescript`: TypeScript only, strict
-
-```rule
-id: strict-typescript
-scope: [archetype:explainer, archetype:interactive, archetype:quiz]
-severity: error
-```
-
-- Every source file is TypeScript; no JavaScript files.
-- Never `any`: use `unknown` and narrow it, or write the type.
-- Type the creator's data; validate it at build time.
-
-### `storage-through-wrapper`: Store only through the preset's storage
-
-```rule
-id: storage-through-wrapper
-scope: [archetype:explainer, archetype:interactive, archetype:quiz]
-severity: error
-```
-
-- Only `createStorage` from `@lernapps/tooling/storage`, named after the app's id in the catalog (own prefix
-  `lernapps:<id>:`, rule `own-data-only`; works when storage is blocked).
-- At most 100 kB under the prefix (keys and values, 2 bytes per UTF-16 unit). Beyond, `save` returns false and the
-  app keeps working.
-- A setting of the learner that holds for every app or every app of the archetype: `createSettings("<id>",
-  "<archetype>")`, saved only where the learner chose it (`"app"`, `"archetype"` or `"all"`); the app's own goes first.
-- Keep the learning state, not growing histories.
-- What only a reload must not lose, such as an answer being written, lasts while the tab is open:
-  `createStorage("<id>", { type: "sessionStorage" })` (sessionStorage, same prefix and limit).
-- Never `localStorage`, `sessionStorage`, IndexedDB or cookies directly.

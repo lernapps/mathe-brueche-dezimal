@@ -1,32 +1,29 @@
 # Exercises
 
-- Every page at least one, best in a last section "Übung".
-- What counts as right and each wrong answer's feedback: from "Content method" of the plan.
-- Wrong answer gets the most specific reason: chosen option's `info`, a matching `mistakes` entry (`generated`;
-  `number` with `answer`, `message`), the `hint`, else "look again". Write `info` per wrong option, 2–3 mistakes,
-  a `hint`.
+- Every page has at least one exercise, except a recap page (`topic-has-exercises`). An exercise component does not
+  count: the page also needs a question or a `generated` exercise.
+- What counts as right and what each wrong answer is told comes from "Content method" of the plan.
+- A wrong answer gets the most specific reason there is: the `info` of the chosen option, a matching entry of
+  `mistakes`, the `hint`, else "look again". So write an `info` that says why the option does not fit, two or three
+  `mistakes`, and a `hint`.
 
-## Quiz types
+## Questions
 
-- `single-choice`, `multiple-choice`, `true-false`, `number`, `ordering`, `matching`: blocks with the quiz fields
-  (`id`, `type`, `text`, `explanation`, `links`, type fields). Fields and how to write them: skill
-  `lernapps-content-questions`.
-
-```yaml
-- type: ordering
-  id: staende-ordnen
-  text: Bringe die Stände in ihre Rangfolge, den ersten Stand zuerst.
-  items: [die Geistlichen, der Adel, alle anderen]
-  explanation: Der erste Stand waren die Geistlichen, der zweite der Adel, der dritte alle anderen.
-  links:
-    - { title: Ständegesellschaft (Wikipedia), url: "https://de.wikipedia.org/wiki/Ständegesellschaft" }
-```
+- `single-choice`, `multiple-choice`, `true-false`, `number`, `ordering`, `matching` are blocks with the fields of a
+  quiz question. The fields of each type are in `references/question-types.md` of skill
+  `lernapps-content-questions`; how to write a good question is in that skill.
+- The schema requires `id`, `type`, `text`, `explanation` and `links` (at least one) for every question, and `text`,
+  `correct` and `info` for every option, the right one too. After a wrong answer the page shows the `info` of every
+  option.
 
 ## `generated`
 
 - New task per seed.
 - `given`: `int: [min, max]` + `step`; `decimal: [min, max]` + `step`; `oneOf: [...]`; `pick: <n>` `from:` list or
   `{ data: <name> }` (`distinct: true`; `pick: 1` = one record).
+- An inline `from:` list holds numbers or texts only: a record in it (`{ de: …, en: … }`) is read as a text by
+  language and takes text values only. Records with numbers (`{ name: Stein, masse: 2 }`) → a data file
+  (`src/data/<name>.yaml`, `blocks.md`) and `from: { data: <name> }`.
 - `where`: boolean expressions; failing draws are redrawn.
 - `task`: `text`. A figure that changes with the task: an exercise component (`components.md`).
 - `answer`: `value` (expression) and `compare`: `number` or
@@ -36,6 +33,9 @@
 - Expressions (no eval): exact fractions, `+ - * /`, parentheses, `== != < <= > >=`, `and`, `or`, `not`, strings,
   fields (`e.year`), index (`xs[0]`), lists, `round(x, n)`, `decimals`, `map(xs, field)`,
   `sortBy(xs, field)`, `reverse`.
+- `sqrt(x)`, `pow(x, n)`, `sin(x)`, `cos(x)`, `tan(x)`, `asin(x)`, `acos(x)`, `atan(x)`, angles in degrees
+  (`sin(30)` is `1/2`, `asin(0.5)` is `30`). A rational result is exact; any other (`sqrt(2)`, `sin(10)`) has 12
+  decimal places: give the answer with `round(…, n)` and `compare: { number: { decimals: n, tolerance } }`.
 
 ### Placeholders
 
@@ -68,6 +68,12 @@
 - Data-file example: `given: { events: { pick: 3, distinct: true, from: { data: ereignisse } } }`,
   `where: ["events[0].date != events[1].date"]`, `answer: { value: "map(sortBy(events, date), title)", compare: order }`,
   mistake `map(reverse(sortBy(events, date)), title)`.
+
+### Steps with every number
+
+- A step can name only drawn values, not one computed from them. For steps that show each number (rule
+  `explainer-steps-explain`), draw a record that holds them all from a data file (`pick: 1` from `{ data: … }`), e.g.
+  the given values, the factor and the result, and write `{{e.factor}}` in the step.
 
 ### Property test (200 fixed seeds; first problem with its seed)
 

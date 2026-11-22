@@ -19,6 +19,19 @@ At the checkpoint "list", without asking first: the pull request publishes nothi
    check it, how to open the pull request.
 2. Fill the entry from the plan's entry draft and <https://lernapps.net/apps/schemas/entry.v1.schema.json>, fetched
    now. The schema describes every field.
+   - `subject` is the id of a subject of the learning map (`mathematik`, `franzoesisch`), not its name; the catalog
+     shows the name from the map. Every listed app has one.
+   - An explainer: its pages come from `lernapps-pages.json` of the build, not from a list you write. A `strand` in
+     the entry equals the one in `src/app.yaml`.
+   - Any other app may give `strand` (`<subject>/<strand>` of its subject) and `competencies` (ids of that strand); a
+     unit app across strands gives `competencies` without `strand`. An app with neither is not on the map; that is
+     valid.
+   - The listing checks the place on the map again (`entry-learning-map`): what `lernapps check` warned about
+     (`competencies-on-map`, `prerequisites-in-order`, `recap-names-competencies`) may be an error there. The rules
+     are in `references/map-rules.md` of skill `lernapps-explainer-design`.
+   - The review adds two hints, never errors: a strand that could fit an app with `strand: none`
+     (`strand-from-map`), and a page that teaches more or other than its competencies say
+     (`content-matches-competencies`).
 3. Run the check the guide names. Fix its findings first: the pull request runs the same check.
 4. Open the pull request from the creator's fork as skill `lernapps-github` says.
 

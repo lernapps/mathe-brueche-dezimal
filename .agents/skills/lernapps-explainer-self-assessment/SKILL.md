@@ -6,6 +6,9 @@ license: MIT
 
 # Self-assessment of an explainer
 
+Four steps, each a section below: decide whether a chapter has one, choose its exercises, write it into
+`chapter.yaml`, then do one run yourself in the browser at `/einschaetzung/` before you commit ("Check").
+
 ## What it is
 
 - Two kinds of page: a content page of the app (`/<chapter>/<page>/`), and a step, one page of the
@@ -89,5 +92,6 @@ selfAssessment:
 
 - An exercise renamed or moved → change its reference in the same commit.
 - `einschaetzung` is reserved: no chapter or page may have that id.
+- A recap page (`recap`) has no exercise: it is never part of a self-assessment.
 - Never `selfAssessment` in `src/app.yaml` (build problem): the app's comes from the chapters.
 - Nothing about a real learner in any file (`no-learner-data-in-texts`).
