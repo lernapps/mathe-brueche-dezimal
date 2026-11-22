@@ -4,7 +4,7 @@
 # Archetype as in the app's first plan; set it when you start. Never changes.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit. Change the value line below, never this comment.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook. Never change it.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks. Never change it.
@@ -101,19 +101,19 @@ Die Aufgaben des Bestands rechnet der Fachprüfer nach (noch offen).
 
 ### Tasks
 
-- [ ] `grep '^phase:'` prints `phase: plan`; else set it.
-- [ ] Load skill `lernapps-content-growth`. Write the Code tasks as slices, one per competency, in the guide's
+- [x] `grep '^phase:'` prints `phase: plan`; else set it.
+- [x] Load skill `lernapps-content-growth`. Write the Code tasks as slices, one per competency, in the guide's
       order. Mark the slices sub-agents can write in parallel.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-<archetype>-design` says, choose its pattern with skill `lernapps-exercise-patterns` (both loaded
       in Explore), and say why the guide's patterns do not fit.
-- [ ] Each new component or interactive exercise: a sketch (static SVG or image, or the steps). Words alone are not
+- [x] Each new component or interactive exercise: a sketch (static SVG or image, or the steps). Words alone are not
       enough. Keep sketch files in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do,
+- [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do,
       what is new. At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes → change,
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes → change,
       ask again.
-- [ ] Set `phase: code`: change the value line (`grep '^phase:'` prints `phase: code`).
+- [x] Set `phase: code`: change the value line (`grep '^phase:'` prints `phase: code`).
 
 ### Content method
 
@@ -144,11 +144,11 @@ Die Aufgaben des Bestands rechnet der Fachprüfer nach (noch offen).
       content. The update replaces the `lernapps-*` skills: reread those you use.
 - [ ] Load skill `lernapps-<archetype>` and the content guide. Questions with options and feedback: also skill
       `lernapps-content-questions`.
-- [ ] R1 Quellen und Metadaten. Commit.
+- [ ] S0 `npx @lernapps/tooling@latest update` als eigener erster Commit auf `work` (Orchestrator: ja); Befunde zuerst beheben, danach `lernapps check`, Build und Tests grün.
+- [ ] R1 Quellen und Metadaten, Format 2 (`strand`, Bausteine je Seite). Commit.
 - [ ] R2 Schreibweisen und Prüftest. Commit.
-- [ ] R3 Musterseite `anteile/darstellen` nach den Regeln, durchgespielt. **Checkpoint:** Musterseite melden, warten.
-- [ ] R4 Übrige 20 Seiten (parallel, ein Commit je Kapitel).
-- [ ] R5 `lernapps update` (eigener Commit, Befunde zuerst), `strand`, Bausteine je Seite, `recap` je Kapitel. Nur nach Ja des Orchestrators.
+- [ ] R3 Musterseite `anteile/darstellen` komplett im neuen Format (Bausteine, Schreibweisen, gesetzte Brüche, recap des Kapitels), durchgespielt. **Checkpoint:** Musterseite melden, warten.
+- [ ] R4 Übrige 20 Seiten (parallel, ein Commit je Kapitel) und `recap` je Kapitel (6).
 - [ ] R6 Beide Prüfer über `work`; Befunde im Plan unter „Review“, getrennt, Offenes benannt.
 - [ ] `lernapps check` ohne Fehler.
 - [ ] After the first slice: show the creator a first look (`early-preview`) and go on.
