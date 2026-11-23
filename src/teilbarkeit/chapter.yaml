@@ -2,5 +2,5 @@
 {
   "title": "Teilbarkeit nutzen",
   "summary": "Du legst Bauklötze in gleich große Reihen und beschreibst das als Malaufgabe. So lernst du Faktoren und Primzahlen kennen. Danach suchst du Gruppengrößen, die zu zwei Zahlen passen, und Zahlen, die in beiden Einmaleinsreihen vorkommen. Das hilft dir später beim Umformen von Brüchen.",
-  "pages": ["recap", "regeln", "teiler-vielfache"],
+  "pages": ["recap", "regeln", "primfaktoren", "teiler-vielfache"],
 }
