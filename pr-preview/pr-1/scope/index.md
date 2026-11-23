@@ -4,9 +4,9 @@ Bruchrechnung mit anschaulichen Modellen. Hilf zuerst mit einer Frage zum nächs
 
 ## Anteile darstellen
 
-### Das brauchst du hier
+### Das brauchst du für dieses Kapitel
 
-Natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen als Voraussetzung für Brüche.
+Wiederholung der natürlichen Zahlen im Stellenwertsystem (Stellenwert, Ziffer) als Voraussetzung für Brüche, mit Selbsttest.
 
 ### Was bedeutet ein Bruch?
 
@@ -22,9 +22,9 @@ Ein unechter Bruch hat den Wert 1 oder mehr: Sein Zähler ist mindestens so gro�
 
 ## Teilbarkeit nutzen
 
-### Das brauchst du hier
+### Das brauchst du für dieses Kapitel
 
-Vorrangregeln, Rechengesetze und Potenzen als Voraussetzung für Teiler und Primfaktoren.
+Wiederholung von Vorrangregeln, Rechengesetzen (Vertauschungs-, Verbindungs-, Distributivgesetz) und Potenzen (Basis, Exponent, Zehnerpotenz) als Voraussetzung für Teiler und Primfaktoren, mit Selbsttest.
 
 ### Teilbarkeit und Primzahlen
 
@@ -64,6 +64,10 @@ Anteil = Bruchteil : Ganzes. Schreibe den Bruchteil in den Zähler und das Ganze
 
 ## Mit Brüchen rechnen
 
+### Das brauchst du für dieses Kapitel
+
+Kurze Wiederholung von Klammern, Vorrangregeln und Distributivgesetz als Voraussetzung für Rechnungen mit Brüchen in mehreren Schritten, mit Selbsttest.
+
 ### Addieren und subtrahieren
 
 Zum Addieren oder Subtrahieren brauchst du gleich große Bruchstücke. Bringe beide Brüche auf einen gemeinsamen Nenner. Rechne dann mit den Zählern; der Nenner bleibt. Prüfe, ob du das Ergebnis kürzen kannst. 1/2 + 1/3 = 3/6 + 2/6 = 5/6. Ebenso: 3/4 − 1/2 = 3/4 − 2/4 = 1/4.
@@ -86,9 +90,9 @@ Bei einer Gleichung soll links und rechts derselbe Wert stehen. Finde die fehlen
 
 ## Dezimalzahlen und Anwendungen
 
-### Das brauchst du hier
+### Das brauchst du für dieses Kapitel
 
-Schriftliche Rechenverfahren mit natürlichen Zahlen als Voraussetzung für Dezimalzahlen.
+Wiederholung der schriftlichen Verfahren mit natürlichen Zahlen (Übertrag, Rest) als Voraussetzung für das Rechnen mit Dezimalzahlen, mit Selbsttest.
 
 ### Bruch und Dezimalzahl
 

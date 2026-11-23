@@ -1,6 +1,6 @@
-# Das brauchst du hier
+# Das brauchst du für dieses Kapitel
 
-Natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen als Voraussetzung für Brüche.
+Wiederholung der natürlichen Zahlen im Stellenwertsystem (Stellenwert, Ziffer) als Voraussetzung für Brüche, mit Selbsttest.
 
 ## Gehört nicht dazu
 
