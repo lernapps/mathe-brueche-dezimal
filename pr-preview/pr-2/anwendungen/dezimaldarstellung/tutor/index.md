@@ -73,7 +73,7 @@ Zehn Hundertstel sind ein Zehntel, denn $\frac{10}{100} = \frac{1}{10}$. Nur die
 
 Dasselbe zeigt der Zahlenstrahl. Zwischen 0 und 1 liegen die Zehntel, also 0,1 bis 0,9. Eine Lupe vergrößert einen Abschnitt auf das Zehnfache: Aus einem Zehntel-Abschnitt werden zehn Hundertstel-Abschnitte.
 
-Bild: Ein Zahlenstrahl von 0 bis 1, jeder Zehntel-Abschnitt ist beschriftet. Der Abschnitt von 0,3 bis 0,4 ist grün umrandet. Darunter ist dieser Abschnitt auf das Zehnfache vergrößert und in zehn gleiche Teile von 0,30 bis 0,40 geteilt. Ein Punkt liegt bei 0,37. Bildunterschrift: Die Lupe vergrößert den Abschnitt von 0,3 bis 0,4 auf das Zehnfache. Der grüne Punkt liegt bei 0,37, das sind 7 Hundertstel nach 0,3.
+Bild: Ein Zahlenstrahl von 0 bis 1, jeder Zehntel-Abschnitt ist beschriftet. Der Abschnitt von 0,3 bis 0,4 ist grün umrandet. Darunter ist dieser Abschnitt auf das Zehnfache vergrößert und in zehn gleiche Teile von 0,30 bis 0,40 geteilt. Ein Punkt liegt bei 0,37. Von den Ecken des Abschnitts führen zwei Linien zu einem zweiten, zehnmal so langen Zahlenstrahl, daneben steht ein Lupensymbol. Bildunterschrift: Die Lupe vergrößert den Abschnitt von 0,3 bis 0,4 auf das Zehnfache. Der grüne Punkt liegt bei 0,37, das sind 7 Hundertstel nach 0,3.
 
 ### Am Beispiel nachvollziehen
 

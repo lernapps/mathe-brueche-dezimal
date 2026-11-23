@@ -49,7 +49,17 @@ Schriftliche Verfahren mit natürlichen Zahlen, die du beim Rechnen mit Dezimalz
 
 - **Übertrag**: Der **Übertrag** ist das, was du dir beim schriftlichen Rechnen für die nächste Stelle merkst. Bei 8 + 5 = 13 schreibst du 3 hin und merkst dir 1 Zehner.
 
+- **Entbündeln**: Beim **Entbündeln** tauschst du eine Einheit der nächsthöheren Stelle gegen zehn Einheiten der kleineren Stelle: 1 Hunderter = 10 Zehner. So kannst du beim schriftlichen Subtrahieren auch dann abziehen, wenn oben die kleinere Ziffer steht.
+
 - **Rest**: Der **Rest** ist das, was beim Teilen übrig bleibt. Es ist 17 : 5 = 3 Rest 2, denn 3 · 5 = 15 und 17 − 15 = 2.
+
+**Beispiel: Schriftlich subtrahieren über Nullen: 5002 − 1789**
+
+Oben stehen an der Zehner- und der Hunderterstelle Nullen, dort kannst du nichts abziehen. Du entbündelst von links: 5 Tausender werden 4 Tausender und 10 Hunderter, davon wird 1 Hunderter zu 10 Zehnern, davon 1 Zehner zu 10 Einern. Jetzt stehen oben 4 Tausender, 9 Hunderter, 9 Zehner und 12 Einer.
+
+Einer: 12 − 9 = 3. Zehner: 9 − 8 = 1. Hunderter: 9 − 7 = 2. Tausender: 4 − 1 = 3.
+
+$5002 - 1789 = 3213$
 
 **Beispiel: Schriftlich addieren: 348 + 275**
 
@@ -61,11 +71,11 @@ $348 + 275 = 623$
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-Interaktiv: Kurztest: Was ergibt 4765 + 3689? Antworten: 7344; 7454; 8454. Richtig ist 8454. Einer: 5 + 9 = 14 (4, Übertrag 1). Zehner: 6 + 8 + 1 = 15 (5, Übertrag 1). Hunderter: 7 + 6 + 1 = 14 (4, Übertrag 1). Tausender: 4 + 3 + 1 = 8. Falsche Antworten: 7344: Du hast alle Überträge vergessen. Jede Stelle über 9 gibt einen Übertrag an die nächste Stelle. 7454: Du hast den Übertrag der Hunderter vergessen: Bei den Tausendern rechnest du 4 + 3 + 1.
+Interaktiv: Kurztest: Was ergibt 4765 + 3689? Antworten: 7344; 8454; 7454. Richtig ist 8454. Einer: 5 + 9 = 14 (4, Übertrag 1). Zehner: 6 + 8 + 1 = 15 (5, Übertrag 1). Hunderter: 7 + 6 + 1 = 14 (4, Übertrag 1). Tausender: 4 + 3 + 1 = 8. Falsche Antworten: 7344: Du hast alle Überträge vergessen. Jede Stelle über 9 gibt einen Übertrag an die nächste Stelle. 7454: Du hast den Übertrag der Hunderter vergessen: Bei den Tausendern rechnest du 4 + 3 + 1.
 
 Interaktiv: Kurztest: Was ergibt 5002 − 1789? Antworten: 4787; 4213; 3213. Richtig ist 3213. Entbündeln über die Nullen: 5002 = 4 Tausender, 9 Hunderter, 9 Zehner, 12 Einer. Einer: 12 − 9 = 3, Zehner: 9 − 8 = 1, Hunderter: 9 − 7 = 2, Tausender: 4 − 1 = 3. Probe: 3213 + 1789 = 5002. Falsche Antworten: 4787: Du hast in jeder Stelle die kleinere Ziffer von der größeren abgezogen. Steht oben die kleinere Ziffer, musst du entbündeln. 4213: Du hast die Tausenderstelle nach dem Entbündeln nicht um 1 verkleinert.
 
-Interaktiv: Kurztest: Was ergibt 2184 : 14? Antworten: 15; 165; 156. Richtig ist 156. 21 : 14 = 1 Rest 7, dann 78 : 14 = 5 Rest 8, dann 84 : 14 = 6. Probe: 156 · 14 = 2184. Falsche Antworten: 15: Du hast die letzte Ziffer 4 nicht heruntergeholt. Nach 78 : 14 = 5 Rest 8 kommt noch 84 : 14 = 6. 165: Probe: 165 · 14 = 2310, nicht 2184. Die Ziffern des Ergebnisses stehen in der Reihenfolge der Schritte: 1, 5, 6.
+Interaktiv: Kurztest: Was ergibt 624 : 12? Antworten: 52; 5; 25. Richtig ist 52. 12 passt 5-mal in 62 (Rest 2), dann holst du die 4 herunter: 12 passt 2-mal in 24. Probe: 52 · 12 = 624. Falsche Antworten: 5: Du hast die letzte Ziffer 4 nicht heruntergeholt. Nach 62 : 12 = 5 Rest 2 kommt noch 24 : 12 = 2. 25: Du hast die Ziffern des Ergebnisses vertauscht. Probe: 25 · 12 = 300, nicht 624. Erst kommt die 5, dann die 2.
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Schriftliche Rechenverfahren“ auf der Lernlandkarte ([Lernlandkarte: Schriftliche Rechenverfahren](https://lernapps.net/apps/map/mathematik/c/schriftliche-verfahren/)) und rechne die Aufgaben danach noch einmal.
 
