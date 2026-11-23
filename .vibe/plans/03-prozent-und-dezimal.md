@@ -142,7 +142,7 @@ Lernende erkennen Prozent als Hundertstel und wechseln zwischen Bruch, Dezimalza
 <!-- archetype: code-start -->
 - [x] P1 Prozent-Grundbegriffe: Seite anwendungen/prozent (eingebauter Block hundred-grid), Daten prozentpaare, mindestens drei steigende Aufgaben mit Fehlerhinweisen. Du allein (Musterseite). Check, Commit.
 - [x] P2 Dezimalbrüche und Periode: Stellenwerttafel nach rechts (Konventionen #385, Kopf aus Kürzel und Name, Kommaspalte markiert), Zahlenstrahl mit Lupe, neue Seite anwendungen/periode, mindestens drei Aufgaben. Unteragent möglich (Dateien dezimaldarstellung, periode). Check, Commit.
-- [ ] P3 Teilbarkeit und Primfaktoren: Aufgaben zu den Teilbarkeitsregeln, Faktorbaum mit Potenzschreibweise, ggT und kgV aus Primfaktoren, nichttriviale Aufgaben. Unteragent möglich (Dateien teilbarkeit/*). Check, Commit.
+- [x] P3 Teilbarkeit und Primfaktoren: Aufgaben zu den Teilbarkeitsregeln, Faktorbaum mit Potenzschreibweise, ggT und kgV aus Primfaktoren, nichttriviale Aufgaben. Unteragent möglich (Dateien teilbarkeit/*). Check, Commit.
 - [ ] P4 Rechnen vertiefen: ungleichnamige Subtraktion, gemischte Zahlen, Division durch natürliche Zahlen, Runden variieren, Sachaufgaben mit Dezimalzahlen. Unteragent möglich (Dateien rechnen/*, anwendungen/runden, sachaufgaben). Check, Commit.
 - [ ] P5 Rückmeldungen nach Fehlertyp statt allgemeiner Hinweise und abwechslungsreichere Aufgabenarten auf den überarbeiteten Seiten. Nach P2 bis P4, du allein. Check, Commit.
 - [ ] P6 Zwei Prüfer: Lernenden-Prüfer (auch Dunkelmodus und Tastatur der übrigen Seiten, Spaltenköpfe z, h, t gegen E, Z, H, T) und Fachprüfer (alles Neue nachrechnen, Schreibweisen, Übernahmen); Befunde unter Review im Plan. Check, Commit.
