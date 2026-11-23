@@ -51,19 +51,11 @@ Klammern, Vorrangregeln und das Distributivgesetz, die du für Rechnungen mit me
 
 **Klammern** gehen zuerst. Dann kommt die **Punktrechnung** (Multiplikation und Division, · und :) vor der **Strichrechnung** (Addition und Subtraktion, + und −). Das **Distributivgesetz** verteilt eine Zahl auf die **Summanden** in einer Klammer, das sind die Zahlen, die addiert werden: $4 \cdot (2 + 3) = 4 \cdot 2 + 4 \cdot 3 = 20$. Alle Begriffe stehen mit Erklärung auf der Seite „Das brauchst du für dieses Kapitel“ im Kapitel „Teilbarkeit nutzen“.
 
-**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.
+**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-**Aufgabe 1:** Was ergibt $(2 + 3) \cdot 4$?
+Interaktiv: Kurztest: Was ergibt (2 + 3) · 4? Antworten: 14; 20; 12. Richtig ist 20. Die Klammer geht zuerst: 2 + 3 = 5, dann 5 · 4 = 20. Falsche Antworten: 14: Du hast die Klammer übersehen: 2 + 3 · 4 = 14. Hier geht die Klammer zuerst. 12: Du hast nur 3 · 4 gerechnet. Die Klammer fasst 2 + 3 zusammen.
 
-**Merke: Lösung 1**
-
-**Ergebnis: 20.** Die Klammer geht zuerst: 2 + 3 = 5, dann 5 · 4 = 20. Wer 14 hat, hat die Klammer übersehen: 2 + 3 · 4 = 14.
-
-**Aufgabe 2:** Was ergibt $5 \cdot (3 + 4)$, wenn du die 5 auf beide Summanden verteilst?
-
-**Merke: Lösung 2**
-
-**Ergebnis: 35.** 5 · 3 + 5 · 4 = 15 + 20 = 35. Wer 19 hat, hat nur eine Zahl in der Klammer mit 5 multipliziert: 5 · 3 + 4.
+Interaktiv: Kurztest: Was ergibt 5 · (3 + 4), wenn du die 5 auf beide Summanden verteilst? Antworten: 19; 35; 20. Richtig ist 35. 5 · 3 + 5 · 4 = 15 + 20 = 35. Falsche Antworten: 19: Du hast nur 3 mit 5 multipliziert: 5 · 3 + 4. Die 5 gehört zu beiden Summanden. 20: Das ist nur 5 · 4. Es fehlt noch 5 · 3 = 15.
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.
 

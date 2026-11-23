@@ -59,19 +59,11 @@ $+ 0 \cdot 10 + 5 \cdot 1$
 
 Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz frei, damit die anderen Ziffern ihren Stellenwert behalten. Die Hunderterstelle ist die dritte Stelle von rechts.
 
-**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.
+**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-**Aufgabe 1:** Welchen Wert hat die 3 in der Zahl 4305?
+Interaktiv: Kurztest: Welchen Wert hat die 3 in der Zahl 4305? Antworten: 3; 30; 300; 3000. Richtig ist 300. Die 3 steht an der Hunderterstelle: 3 · 100 = 300. Falsche Antworten: 3: Das ist die Ziffer selbst. Ihr Wert hängt vom Platz ab: Sie steht bei den Hundertern. 30: 30 wäre die 3 an der Zehnerstelle. In 4305 steht an der Zehnerstelle eine 0. 3000: 3000 wäre die 3 an der Tausenderstelle. Dort steht in 4305 die 4.
 
-**Merke: Lösung 1**
-
-**Ergebnis: 300.** Die 3 steht an der Hunderterstelle: 3 · 100 = 300. Wer 3 oder 30 geantwortet hat, hat den Stellenwert nicht beachtet.
-
-**Aufgabe 2:** Wie lautet die Zahl aus 6 Tausendern, 2 Zehnern und 9 Einern?
-
-**Merke: Lösung 2**
-
-**Ergebnis: 6029.** 6 · 1000 + 2 · 10 + 9 = 6029. An der Hunderterstelle steht eine 0, weil es keine Hunderter gibt. Wer 629 hat, hat diese 0 vergessen.
+Interaktiv: Kurztest: Wie lautet die Zahl aus 6 Tausendern, 2 Zehnern und 9 Einern? Antworten: 629; 6290; 6029. Richtig ist 6029. 6 · 1000 + 0 · 100 + 2 · 10 + 9 = 6029. Falsche Antworten: 629: Du hast die 0 an der Hunderterstelle vergessen. Es gibt keine Hunderter, aber der Platz bleibt mit einer 0 besetzt. 6290: Das wären 6 Tausender, 2 Hunderter und 9 Zehner. Die 9 sind Einer und gehören ganz nach rechts.
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Natürliche Zahlen im Stellenwertsystem“ auf der Lernlandkarte ([Lernlandkarte: Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/)) und rechne die Aufgaben danach noch einmal.
 
