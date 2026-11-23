@@ -1,26 +1,92 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
-  "title": "Das brauchst du hier",
-  "description": "Schriftliche Verfahren mit natürlichen Zahlen, die du beim Rechnen mit Dezimalzahlen brauchst.",
+  "title": "Das brauchst du für dieses Kapitel",
+  "description": "Schriftliche Verfahren mit natürlichen Zahlen, die du beim Rechnen mit Dezimalzahlen brauchst: mit Begriffen, Beispiel und Selbsttest.",
   "recap": "mathematik/schriftliche-verfahren",
-  "scope": "Schriftliche Rechenverfahren mit natürlichen Zahlen als Voraussetzung für Dezimalzahlen.",
+  "scope": "Wiederholung der schriftlichen Verfahren mit natürlichen Zahlen (Übertrag, Rest) als Voraussetzung für das Rechnen mit Dezimalzahlen, mit Selbsttest.",
   "blocks":
     [
       {
         "type": "text",
-        "text": "Beim Rechnen mit Dezimalzahlen rechnest du Ziffer für Ziffer wie bei natürlichen Zahlen. Prüfe dich selbst, ohne etwas einzutippen.",
+        "text": "**Wofür ist diese Seite?** Mit Dezimalzahlen rechnest du Stelle für Stelle wie mit natürlichen Zahlen, nur mit einem Komma. Darum brauchst du die schriftlichen Verfahren sicher. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben zum Selbsttest. Lies die Lösungen: So merkst du, ob du bereit bist.",
       },
       {
-        "type": "text",
-        "text": "Ich kann natürliche Zahlen schriftlich addieren, subtrahieren, multiplizieren und dividieren.",
+        "type": "section",
+        "id": "schriftliche-verfahren",
+        "title": "Schriftliche Rechenverfahren",
+        "blocks":
+          [
+            {
+              "type": "definition",
+              "term": "Übertrag",
+              "explanation": "Der **Übertrag** ist das, was du dir beim schriftlichen Rechnen für die nächste Stelle merkst. Bei 8 + 5 = 13 schreibst du 3 hin und merkst dir 1 Zehner.",
+            },
+            {
+              "type": "definition",
+              "term": "Rest",
+              "explanation": "Der **Rest** ist das, was beim Teilen übrig bleibt. Es ist 17 : 5 = 3 Rest 2, denn 3 · 5 = 15 und 17 − 15 = 2.",
+            },
+            {
+              "type": "example",
+              "title": "Schriftlich addieren: 348 + 275",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Gleiche Stellen stehen untereinander. Einer: 8 + 5 = 13, du schreibst 3 und merkst dir 1. Zehner: 4 + 7 + 1 = 12, du schreibst 2 und merkst dir 1. Hunderter: 3 + 2 + 1 = 6.",
+                  },
+                  { "type": "formula", "formula": "348 + 275 = 623" },
+                  {
+                    "type": "text",
+                    "text": "**Schriftlich teilen: 156 : 12.** 12 passt 1-mal in 15, das sind 12 und es bleibt Rest 3. Du holst die 6 herunter: 36. 12 passt 3-mal in 36. Das Ergebnis ist 13. Subtrahieren und Multiplizieren gehen ebenfalls Stelle für Stelle.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.",
+            },
+            { "type": "text", "text": "**Aufgabe 1:** Was ergibt $348 + 275$?" },
+            {
+              "type": "note",
+              "title": "Lösung 1",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "**Ergebnis: 623.** Einer: 8 + 5 = 13 (3, Übertrag 1). Zehner: 4 + 7 + 1 = 12 (2, Übertrag 1). Hunderter: 3 + 2 + 1 = 6. Ergebnis 623. Wer 513 hat, hat die Überträge vergessen.",
+                  },
+                ],
+            },
+            { "type": "text", "text": "**Aufgabe 2:** Was ergibt $156 : 12$?" },
+            {
+              "type": "note",
+              "title": "Lösung 2",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "**Ergebnis: 13.** 12 passt 1-mal in 15 (Rest 3), dann holst du die 6 herunter: 12 passt 3-mal in 36. Ergebnis 13. Probe: 13 · 12 = 156. Wer 1 hat, hat die 6 nicht heruntergeholt.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Schriftliche Rechenverfahren“ auf der Lernlandkarte ([Lernlandkarte: Schriftliche Rechenverfahren](https://lernapps.net/apps/map/mathematik/c/schriftliche-verfahren/)) und rechne die Aufgaben danach noch einmal.",
+            },
+          ],
       },
       {
-        "type": "text",
-        "text": "Beim Addieren stehen gleiche Stellen untereinander. Bei 348 + 275 rechnest du 8 + 5 = 13: Du schreibst 3 und merkst dir 1. Dann 4 + 7 + 1 = 12: Du schreibst 2 und merkst dir 1. Zuletzt 3 + 2 + 1 = 6. Das Ergebnis ist 623.",
-      },
-      {
-        "type": "text",
-        "text": "Subtrahieren, Multiplizieren und Dividieren laufen ebenso Stelle für Stelle. Antworte in Gedanken: Was ist 502 − 178? Was ist 24 · 13? Was ist 156 : 12? (Zur Kontrolle: 324, 312 und 13.)",
+        "type": "section",
+        "id": "bereit",
+        "title": "Du bist bereit, wenn du …",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "- zwei Zahlen wie 348 und 275 schriftlich addieren kannst und dir den Übertrag merkst\n- schriftlich subtrahieren, multiplizieren und dividieren kannst\n- bei einer Division den Rest angeben kannst",
+            },
+          ],
       },
     ],
 }

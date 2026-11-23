@@ -17,9 +17,8 @@
               "text": "In einer längeren Rechnung stehen mehrere Rechenschritte. Klammern und Rechenzeichen legen fest, welcher Schritt zuerst kommt.",
             },
             {
-              "type": "definition",
-              "term": "Vorrangregel",
-              "explanation": "Vorrangregeln bestimmen die Rechenreihenfolge: zuerst Klammern, dann Multiplikation und Division, danach Addition und Subtraktion.",
+              "type": "text",
+              "text": "Die **Vorrangregeln** bestimmen die Rechenreihenfolge: zuerst Klammern, dann Multiplikation und Division, danach Addition und Subtraktion.",
             },
           ],
       },
