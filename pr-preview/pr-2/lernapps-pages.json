@@ -4,7 +4,7 @@
   "pages": [
     {
       "path": "anteile/recap/",
-      "title": "Das brauchst du hier",
+      "title": "Das brauchst du für dieses Kapitel",
       "recap": "mathematik/natuerliche-zahlen"
     },
     {
@@ -30,7 +30,7 @@
     },
     {
       "path": "teilbarkeit/recap/",
-      "title": "Das brauchst du hier",
+      "title": "Das brauchst du für dieses Kapitel",
       "recap": [
         "mathematik/grundrechenarten-rechengesetze",
         "mathematik/potenzen"
@@ -100,6 +100,11 @@
       ]
     },
     {
+      "path": "rechnen/recap/",
+      "title": "Das brauchst du für dieses Kapitel",
+      "recap": "mathematik/grundrechenarten-rechengesetze"
+    },
+    {
       "path": "rechnen/plus-minus/",
       "title": "Addieren und subtrahieren",
       "competencies": [
@@ -136,7 +141,7 @@
     },
     {
       "path": "anwendungen/recap/",
-      "title": "Das brauchst du hier",
+      "title": "Das brauchst du für dieses Kapitel",
       "recap": "mathematik/schriftliche-verfahren"
     },
     {

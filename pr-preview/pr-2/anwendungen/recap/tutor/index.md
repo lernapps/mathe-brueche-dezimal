@@ -1,6 +1,6 @@
-# Das brauchst du hier – für deinen KI-Tutor
+# Das brauchst du für dieses Kapitel – für deinen KI-Tutor
 
-Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Brüche und Dezimalzahlen“ von lernapps.net, gerade auf der Seite „Das brauchst du hier“, und steckt dort in einer Aufgabe. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
+Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Brüche und Dezimalzahlen“ von lernapps.net, gerade auf der Seite „Das brauchst du für dieses Kapitel“, und steckt dort in einer Aufgabe. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
 
 Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
@@ -37,16 +37,46 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - `klar-und-woertlich`: Schreib wörtlich: keine Ironie, keine Redewendungen. Im Gegensatz zu oben fragst du am Anfang mit zwei oder drei Antworten zur Auswahl und nennst immer „Abschnitt x von y“.
 - `rechnen-anschaulich`: Zeig Zahlen der Seite als Menge, z. B. „37 sind 3 Zehner und 7 Einer“, aber nie das Ergebnis einer Aufgabe. Ein Schritt pro Nachricht, nie Zeitdruck.
 
-## Kontext: die Seite „Das brauchst du hier“
+## Kontext: die Seite „Das brauchst du für dieses Kapitel“
 
 Diese Seite ist eine Wiederholung: Sie wiederholt etwas, das das Kind schon können sollte, und hat keine Aufgabe. Erklär mit dem Inhalt der Seite und frag nach, ob das Kind ihn verstanden hat. Üben kann es das in anderen Apps; welche das sind, steht hier: https://lernapps.net/apps/map/mathematik/c/schriftliche-verfahren/
 
-Schriftliche Verfahren mit natürlichen Zahlen, die du beim Rechnen mit Dezimalzahlen brauchst.
+Schriftliche Verfahren mit natürlichen Zahlen, die du beim Rechnen mit Dezimalzahlen brauchst: mit Begriffen, Beispiel und Selbsttest.
 
-Beim Rechnen mit Dezimalzahlen rechnest du Ziffer für Ziffer wie bei natürlichen Zahlen. Prüfe dich selbst, ohne etwas einzutippen.
+**Wofür ist diese Seite?** Mit Dezimalzahlen rechnest du Stelle für Stelle wie mit natürlichen Zahlen, nur mit einem Komma. Darum brauchst du die schriftlichen Verfahren sicher. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben zum Selbsttest. Lies die Lösungen: So merkst du, ob du bereit bist.
 
-Ich kann natürliche Zahlen schriftlich addieren, subtrahieren, multiplizieren und dividieren.
+### Schriftliche Rechenverfahren
 
-Beim Addieren stehen gleiche Stellen untereinander. Bei 348 + 275 rechnest du 8 + 5 = 13: Du schreibst 3 und merkst dir 1. Dann 4 + 7 + 1 = 12: Du schreibst 2 und merkst dir 1. Zuletzt 3 + 2 + 1 = 6. Das Ergebnis ist 623.
+- **Übertrag**: Der **Übertrag** ist das, was du dir beim schriftlichen Rechnen für die nächste Stelle merkst. Bei 8 + 5 = 13 schreibst du 3 hin und merkst dir 1 Zehner.
 
-Subtrahieren, Multiplizieren und Dividieren laufen ebenso Stelle für Stelle. Antworte in Gedanken: Was ist 502 − 178? Was ist 24 · 13? Was ist 156 : 12? (Zur Kontrolle: 324, 312 und 13.)
+- **Rest**: Der **Rest** ist das, was beim Teilen übrig bleibt. Es ist 17 : 5 = 3 Rest 2, denn 3 · 5 = 15 und 17 − 15 = 2.
+
+**Beispiel: Schriftlich addieren: 348 + 275**
+
+Gleiche Stellen stehen untereinander. Einer: 8 + 5 = 13, du schreibst 3 und merkst dir 1. Zehner: 4 + 7 + 1 = 12, du schreibst 2 und merkst dir 1. Hunderter: 3 + 2 + 1 = 6.
+
+$348 + 275 = 623$
+
+**Schriftlich teilen: 156 : 12.** 12 passt 1-mal in 15, das sind 12 und es bleibt Rest 3. Du holst die 6 herunter: 36. 12 passt 3-mal in 36. Das Ergebnis ist 13. Subtrahieren und Multiplizieren gehen ebenfalls Stelle für Stelle.
+
+**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.
+
+**Aufgabe 1:** Was ergibt $348 + 275$?
+
+**Merke: Lösung 1**
+
+**Ergebnis: 623.** Einer: 8 + 5 = 13 (3, Übertrag 1). Zehner: 4 + 7 + 1 = 12 (2, Übertrag 1). Hunderter: 3 + 2 + 1 = 6. Ergebnis 623. Wer 513 hat, hat die Überträge vergessen.
+
+**Aufgabe 2:** Was ergibt $156 : 12$?
+
+**Merke: Lösung 2**
+
+**Ergebnis: 13.** 12 passt 1-mal in 15 (Rest 3), dann holst du die 6 herunter: 12 passt 3-mal in 36. Ergebnis 13. Probe: 13 · 12 = 156. Wer 1 hat, hat die 6 nicht heruntergeholt.
+
+Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Schriftliche Rechenverfahren“ auf der Lernlandkarte ([Lernlandkarte: Schriftliche Rechenverfahren](https://lernapps.net/apps/map/mathematik/c/schriftliche-verfahren/)) und rechne die Aufgaben danach noch einmal.
+
+### Du bist bereit, wenn du …
+
+- zwei Zahlen wie 348 und 275 schriftlich addieren kannst und dir den Übertrag merkst
+- schriftlich subtrahieren, multiplizieren und dividieren kannst
+- bei einer Division den Rest angeben kannst

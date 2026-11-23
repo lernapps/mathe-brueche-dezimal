@@ -1,8 +1,8 @@
 # Teilbarkeit nutzen
 
-## Das brauchst du hier
+## Das brauchst du für dieses Kapitel
 
-Vorrangregeln, Rechengesetze und Potenzen als Voraussetzung für Teiler und Primfaktoren.
+Wiederholung von Vorrangregeln, Rechengesetzen (Vertauschungs-, Verbindungs-, Distributivgesetz) und Potenzen (Basis, Exponent, Zehnerpotenz) als Voraussetzung für Teiler und Primfaktoren, mit Selbsttest.
 
 ## Teiler, Vielfache und Teilbarkeitsregeln
 

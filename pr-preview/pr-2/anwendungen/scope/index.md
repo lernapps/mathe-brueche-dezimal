@@ -1,8 +1,8 @@
 # Dezimalzahlen und Anwendungen
 
-## Das brauchst du hier
+## Das brauchst du für dieses Kapitel
 
-Schriftliche Rechenverfahren mit natürlichen Zahlen als Voraussetzung für Dezimalzahlen.
+Wiederholung der schriftlichen Verfahren mit natürlichen Zahlen (Übertrag, Rest) als Voraussetzung für das Rechnen mit Dezimalzahlen, mit Selbsttest.
 
 ## Bruch und Dezimalzahl
 

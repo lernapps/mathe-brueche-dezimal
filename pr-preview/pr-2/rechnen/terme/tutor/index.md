@@ -47,7 +47,7 @@ Welcher Schritt muss zuerst kommen? Vergleiche Klammern, Punkt vor Strich und da
 
 In einer längeren Rechnung stehen mehrere Rechenschritte. Klammern und Rechenzeichen legen fest, welcher Schritt zuerst kommt.
 
-- **Vorrangregel**: Vorrangregeln bestimmen die Rechenreihenfolge: zuerst Klammern, dann Multiplikation und Division, danach Addition und Subtraktion.
+Die **Vorrangregeln** bestimmen die Rechenreihenfolge: zuerst Klammern, dann Multiplikation und Division, danach Addition und Subtraktion.
 
 ### Anschaulich erklärt
 

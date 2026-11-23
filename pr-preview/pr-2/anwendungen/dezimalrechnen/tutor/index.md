@@ -47,7 +47,7 @@ Gleiche Stellenwerte zusammenlegen oder wegnehmen: Komma unter Komma.
 
 Du hast 0,75 Euro und bekommst 0,50 Euro dazu. Beim Zusammenlegen rechnest du Euro zu Euro und Cent zu Cent. Beim Ausgeben nimmst du solche Beträge wieder weg. Bei Dezimalzahlen helfen dir dafür die Stellenwerte: Ganze, Zehntel, Hundertstel.
 
-- **Stellenwert**: Der Stellenwert sagt, ob eine Ziffer Einer, Zehntel, Hundertstel oder eine andere Zehnerpotenz zählt.
+Der Stellenwert sagt, ob eine Ziffer Einer, Zehntel, Hundertstel oder eine andere Zehnerpotenz zählt.
 
 ### Anschaulich erklärt
 
