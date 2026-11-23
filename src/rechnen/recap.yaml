@@ -29,34 +29,55 @@
             },
             {
               "type": "text",
-              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.",
-            },
-            { "type": "text", "text": "**Aufgabe 1:** Was ergibt $(2 + 3) \\cdot 4$?" },
-            {
-              "type": "note",
-              "title": "Lösung 1",
-              "blocks":
-                [
-                  {
-                    "type": "text",
-                    "text": "**Ergebnis: 20.** Die Klammer geht zuerst: 2 + 3 = 5, dann 5 · 4 = 20. Wer 14 hat, hat die Klammer übersehen: 2 + 3 · 4 = 14.",
-                  },
-                ],
+              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.",
             },
             {
-              "type": "text",
-              "text": "**Aufgabe 2:** Was ergibt $5 \\cdot (3 + 4)$, wenn du die 5 auf beide Summanden verteilst?",
+              "type": "vue-component",
+              "id": "test-klammer",
+              "component": "Kurztest",
+              "props":
+                {
+                  "question": "Was ergibt (2 + 3) · 4?",
+                  "options":
+                    [
+                      {
+                        "text": "14",
+                        "correct": false,
+                        "info": "Du hast die Klammer übersehen: 2 + 3 · 4 = 14. Hier geht die Klammer zuerst.",
+                      },
+                      { "text": "20", "correct": true, "info": "Die Klammer geht zuerst: 2 + 3 = 5, dann 5 · 4 = 20." },
+                      {
+                        "text": "12",
+                        "correct": false,
+                        "info": "Du hast nur 3 · 4 gerechnet. Die Klammer fasst 2 + 3 zusammen.",
+                      },
+                    ],
+                  "right": "Richtig.",
+                  "wrong": "Nicht richtig.",
+                },
+              "nojs": "Kurztest: Was ergibt (2 + 3) · 4? Antworten: 14; 20; 12. Richtig ist 20. Die Klammer geht zuerst: 2 + 3 = 5, dann 5 · 4 = 20. Falsche Antworten: 14: Du hast die Klammer übersehen: 2 + 3 · 4 = 14. Hier geht die Klammer zuerst. 12: Du hast nur 3 · 4 gerechnet. Die Klammer fasst 2 + 3 zusammen.",
             },
             {
-              "type": "note",
-              "title": "Lösung 2",
-              "blocks":
-                [
-                  {
-                    "type": "text",
-                    "text": "**Ergebnis: 35.** 5 · 3 + 5 · 4 = 15 + 20 = 35. Wer 19 hat, hat nur eine Zahl in der Klammer mit 5 multipliziert: 5 · 3 + 4.",
-                  },
-                ],
+              "type": "vue-component",
+              "id": "test-verteilen-2",
+              "component": "Kurztest",
+              "props":
+                {
+                  "question": "Was ergibt 5 · (3 + 4), wenn du die 5 auf beide Summanden verteilst?",
+                  "options":
+                    [
+                      {
+                        "text": "19",
+                        "correct": false,
+                        "info": "Du hast nur 3 mit 5 multipliziert: 5 · 3 + 4. Die 5 gehört zu beiden Summanden.",
+                      },
+                      { "text": "35", "correct": true, "info": "5 · 3 + 5 · 4 = 15 + 20 = 35." },
+                      { "text": "20", "correct": false, "info": "Das ist nur 5 · 4. Es fehlt noch 5 · 3 = 15." },
+                    ],
+                  "right": "Richtig.",
+                  "wrong": "Nicht richtig.",
+                },
+              "nojs": "Kurztest: Was ergibt 5 · (3 + 4), wenn du die 5 auf beide Summanden verteilst? Antworten: 19; 35; 20. Richtig ist 35. 5 · 3 + 5 · 4 = 15 + 20 = 35. Falsche Antworten: 19: Du hast nur 3 mit 5 multipliziert: 5 · 3 + 4. Die 5 gehört zu beiden Summanden. 20: Das ist nur 5 · 4. Es fehlt noch 5 · 3 = 15.",
             },
             {
               "type": "text",

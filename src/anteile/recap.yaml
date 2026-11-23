@@ -41,31 +41,64 @@
             },
             {
               "type": "text",
-              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.",
+              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.",
             },
-            { "type": "text", "text": "**Aufgabe 1:** Welchen Wert hat die 3 in der Zahl 4305?" },
             {
-              "type": "note",
-              "title": "Lösung 1",
-              "blocks":
-                [
-                  {
-                    "type": "text",
-                    "text": "**Ergebnis: 300.** Die 3 steht an der Hunderterstelle: 3 · 100 = 300. Wer 3 oder 30 geantwortet hat, hat den Stellenwert nicht beachtet.",
-                  },
-                ],
+              "type": "vue-component",
+              "id": "test-wert",
+              "component": "Kurztest",
+              "props":
+                {
+                  "question": "Welchen Wert hat die 3 in der Zahl 4305?",
+                  "options":
+                    [
+                      {
+                        "text": "3",
+                        "correct": false,
+                        "info": "Das ist die Ziffer selbst. Ihr Wert hängt vom Platz ab: Sie steht bei den Hundertern.",
+                      },
+                      {
+                        "text": "30",
+                        "correct": false,
+                        "info": "30 wäre die 3 an der Zehnerstelle. In 4305 steht an der Zehnerstelle eine 0.",
+                      },
+                      { "text": "300", "correct": true, "info": "Die 3 steht an der Hunderterstelle: 3 · 100 = 300." },
+                      {
+                        "text": "3000",
+                        "correct": false,
+                        "info": "3000 wäre die 3 an der Tausenderstelle. Dort steht in 4305 die 4.",
+                      },
+                    ],
+                  "right": "Richtig.",
+                  "wrong": "Nicht richtig.",
+                },
+              "nojs": "Kurztest: Welchen Wert hat die 3 in der Zahl 4305? Antworten: 3; 30; 300; 3000. Richtig ist 300. Die 3 steht an der Hunderterstelle: 3 · 100 = 300. Falsche Antworten: 3: Das ist die Ziffer selbst. Ihr Wert hängt vom Platz ab: Sie steht bei den Hundertern. 30: 30 wäre die 3 an der Zehnerstelle. In 4305 steht an der Zehnerstelle eine 0. 3000: 3000 wäre die 3 an der Tausenderstelle. Dort steht in 4305 die 4.",
             },
-            { "type": "text", "text": "**Aufgabe 2:** Wie lautet die Zahl aus 6 Tausendern, 2 Zehnern und 9 Einern?" },
             {
-              "type": "note",
-              "title": "Lösung 2",
-              "blocks":
-                [
-                  {
-                    "type": "text",
-                    "text": "**Ergebnis: 6029.** 6 · 1000 + 2 · 10 + 9 = 6029. An der Hunderterstelle steht eine 0, weil es keine Hunderter gibt. Wer 629 hat, hat diese 0 vergessen.",
-                  },
-                ],
+              "type": "vue-component",
+              "id": "test-schreiben",
+              "component": "Kurztest",
+              "props":
+                {
+                  "question": "Wie lautet die Zahl aus 6 Tausendern, 2 Zehnern und 9 Einern?",
+                  "options":
+                    [
+                      {
+                        "text": "629",
+                        "correct": false,
+                        "info": "Du hast die 0 an der Hunderterstelle vergessen. Es gibt keine Hunderter, aber der Platz bleibt mit einer 0 besetzt.",
+                      },
+                      {
+                        "text": "6290",
+                        "correct": false,
+                        "info": "Das wären 6 Tausender, 2 Hunderter und 9 Zehner. Die 9 sind Einer und gehören ganz nach rechts.",
+                      },
+                      { "text": "6029", "correct": true, "info": "6 · 1000 + 0 · 100 + 2 · 10 + 9 = 6029." },
+                    ],
+                  "right": "Richtig.",
+                  "wrong": "Nicht richtig.",
+                },
+              "nojs": "Kurztest: Wie lautet die Zahl aus 6 Tausendern, 2 Zehnern und 9 Einern? Antworten: 629; 6290; 6029. Richtig ist 6029. 6 · 1000 + 0 · 100 + 2 · 10 + 9 = 6029. Falsche Antworten: 629: Du hast die 0 an der Hunderterstelle vergessen. Es gibt keine Hunderter, aber der Platz bleibt mit einer 0 besetzt. 6290: Das wären 6 Tausender, 2 Hunderter und 9 Zehner. Die 9 sind Einer und gehören ganz nach rechts.",
             },
             {
               "type": "text",

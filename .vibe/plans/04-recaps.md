@@ -210,3 +210,7 @@ Alle Rechnungen der Selbsttests und Beispiele nachgerechnet: ohne Fehler. Defini
 - `lernapps-explainer-self-assessment`: Gelesen bis zur Entscheidung; eine Selbsteinschätzung (`selfAssessment` je Kapitel) hat die App nicht und ist nicht Teil des Auftrags „Recaps überarbeiten“; es wurden keine Übungsaufgaben geändert, nur Recap-Seiten. Ich habe keine angelegt; die Aufgabe habe ich mit `plan done` getickt, ohne sie zu erfüllen. Ob die App eine Selbsteinschätzung bekommt, entscheidet der Mensch.
 - Die Aufgaben „Branch von main“ und „Update“ aus Code (Plan 04) habe ich nicht getan: Die Arbeit läuft auf `work` (Auftrag), `lernapps update` lief schon in Plan 02.
 - Explore: Recherche im Sinn von „Quellen öffnen“ und Interview entfielen; der Auftrag kam vom Menschen über den Orchestrator.
+
+### Nachbesserung: Kurztest-Komponente
+
+Auf Wunsch des Orchestrators ersetzt die gemeinsame Komponente `Kurztest` (aus `/tmp/epic/docs/mathe-epic/components/`) die Aufgabe-plus-Lösungskasten-Paare in den vier Recaps: eine Frage mit Auswahl, sofortige Rückmeldung mit Grund (je Option), Tastatur über Radiogruppe, `nojs` mit Frage, Optionen und Antwort. Elf Kurztests (anteile 2, teilbarkeit 5, anwendungen 2, rechnen 2); jede falsche Option nennt den häufigsten Fehler. Texte der Komponente sind Klartext (Eigenschaften), darum stehen Potenzen dort als Hochzahl (3², 2⁴). Dateien unverändert übernommen; Tests und Kontrast liegen bei der Vorlage. Offen: Tastatur und Dunkelmodus der Komponente nicht von mir geprüft.
