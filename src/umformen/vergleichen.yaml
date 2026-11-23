@@ -150,6 +150,13 @@
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
             },
+            {
+              "type": "ordering",
+              "id": "ordnen",
+              "text": "Ordne die Anteile der Größe nach, den kleinsten zuerst.",
+              "items": ["ein Viertel", "ein Drittel", "ein Halb", "drei Viertel"],
+              "explanation": "Bringe alle auf den Nenner 12: $\\frac{3}{12}$, $\\frac{4}{12}$, $\\frac{6}{12}$, $\\frac{9}{12}$. Bei gleichem Nenner ist der Bruch mit dem größeren Zähler größer.",
+            },
           ],
       },
     ],

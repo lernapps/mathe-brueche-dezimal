@@ -149,6 +149,13 @@
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
             },
+            {
+              "type": "true-false",
+              "id": "kuerzen-falsch",
+              "text": "Stimmt das? Du kürzt $\\frac{6}{9}$, indem du von Zähler und Nenner jeweils 3 abziehst.",
+              "answer": false,
+              "explanation": "Kürzen heißt: Zähler und Nenner durch dieselbe Zahl teilen. Mit 3 gekürzt ergibt $\\frac{6}{9}$ = $\\frac{2}{3}$. Abziehen ergäbe $\\frac{3}{6}$, das ist $\\frac{1}{2}$ und damit ein anderer Wert.",
+            },
           ],
       },
     ],
