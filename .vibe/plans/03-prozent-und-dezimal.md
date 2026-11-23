@@ -165,7 +165,7 @@ Lernende erkennen Prozent als Hundertstel und wechseln zwischen Bruch, Dezimalza
 ### Tasks
 
 <!-- archetype: increment-commit -->
-- [ ] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
+- [x] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
       says.
 - [ ] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
       and wait for the yes.
