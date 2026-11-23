@@ -43,11 +43,13 @@ Diese Seite ist eine Wiederholung: Sie wiederholt etwas, das das Kind schon kön
 
 Klammern, Vorrangregeln und das Distributivgesetz, die du für Rechnungen mit mehreren Schritten brauchst: Kurzwiederholung mit Selbsttest.
 
-Auf der Seite „Rechenregeln und Klammern“ rechnest du Brüche in mehreren Schritten. Dafür brauchst du dieselben Regeln wie bei natürlichen Zahlen. Hier ist die Kurzfassung mit einem Selbsttest.
+**Wofür ist diese Seite?** Auf der Seite „Rechenregeln und Klammern“ rechnest du Brüche in mehreren Schritten. Dafür brauchst du dieselben Regeln wie bei natürlichen Zahlen. Hier ist die Kurzfassung mit zwei Aufgaben zum Selbsttest.
 
 ### Vorrangregeln und Rechengesetze
 
-**Klammern** gehen zuerst, dann kommt die **Punktrechnung** vor der **Strichrechnung**. Das **Distributivgesetz** verteilt eine Zahl auf die Summanden einer Klammer: $4 \cdot (2 + 3) = 4 \cdot 2 + 4 \cdot 3 = 20$.
+**Beispiel: Kurz erinnert**
+
+**Klammern** gehen zuerst. Dann kommt die **Punktrechnung** (Multiplikation und Division, · und :) vor der **Strichrechnung** (Addition und Subtraktion, + und −). Das **Distributivgesetz** verteilt eine Zahl auf die **Summanden** in einer Klammer, das sind die Zahlen, die addiert werden: $4 \cdot (2 + 3) = 4 \cdot 2 + 4 \cdot 3 = 20$. Alle Begriffe stehen mit Erklärung auf der Seite „Das brauchst du für dieses Kapitel“ im Kapitel „Teilbarkeit nutzen“.
 
 **Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.
 
@@ -55,11 +57,17 @@ Auf der Seite „Rechenregeln und Klammern“ rechnest du Brüche in mehreren Sc
 
 **Merke: Lösung 1**
 
-**Ergebnis: 20.** Die Klammer geht zuerst: 2 + 3 = 5, dann 5 · 4 = 20. Wer 14 hat, hat zuerst malgenommen: 2 + 3 · 4.
+**Ergebnis: 20.** Die Klammer geht zuerst: 2 + 3 = 5, dann 5 · 4 = 20. Wer 14 hat, hat die Klammer übersehen: 2 + 3 · 4 = 14.
 
-Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Vorrangregeln und Rechengesetze“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/). Übe danach die Kurzaufgaben noch einmal.
+**Aufgabe 2:** Was ergibt $5 \cdot (3 + 4)$, wenn du die 5 auf beide Summanden verteilst?
+
+**Merke: Lösung 2**
+
+**Ergebnis: 35.** 5 · 3 + 5 · 4 = 15 + 20 = 35. Wer 19 hat, hat nur eine Zahl in der Klammer mit 5 multipliziert: 5 · 3 + 4.
+
+Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.
 
 ### Du bist bereit, wenn du …
 
-- Klammern und Vorrangregeln beachten kannst
-- das Distributivgesetz anwenden kannst
+- bei einer Rechnung mit Klammern die richtige Reihenfolge nennen kannst
+- mit dem Distributivgesetz eine Zahl auf die Summanden verteilen kannst

@@ -43,21 +43,25 @@ Diese Seite ist eine Wiederholung: Sie wiederholt etwas, das das Kind schon kön
 
 Vorrangregeln, Rechengesetze und Potenzen, die du für Teiler und Primfaktoren brauchst: mit Begriffen, Beispielen und Selbsttest.
 
-Für Teiler und Primfaktoren rechnest du viel mit Malaufgaben und mit Potenzen. Unten stehen die Begriffe, die du dafür brauchst, je ein Beispiel und Kurzaufgaben zum Selbsttest. Lies die Rückmeldung: So merkst du, ob du bereit bist.
+**Wofür ist diese Seite?** Für Teiler und Primfaktoren rechnest du viel mit Malaufgaben und mit Potenzen. Du solltest außerdem das Teilen mit Rest kennen, zum Beispiel $17 : 5 = 3$ Rest 2. Unten stehen die Begriffe, die du dafür brauchst, je ein Beispiel und Kurzaufgaben zum Selbsttest. Lies die Lösungen: So merkst du, ob du bereit bist.
 
 ### Vorrangregeln und Rechengesetze
 
 - **Vorrangregel**: Die **Vorrangregel** sagt, was du zuerst rechnest: Klammern zuerst, dann Punktrechnung (· und :), dann Strichrechnung (+ und −). Es ist $3 + 4 \cdot 2 = 11$, aber $(3 + 4) \cdot 2 = 14$.
 
-- **Vertauschungsgesetz**: Das **Vertauschungsgesetz** erlaubt beim Addieren und Malnehmen, die Zahlen zu tauschen: $7 \cdot 4 = 4 \cdot 7 = 28$.
+- **Summand**: Ein **Summand** ist eine Zahl, die addiert wird. In $7 + 3$ sind 7 und 3 die Summanden.
 
-- **Verbindungsgesetz**: Das **Verbindungsgesetz** erlaubt beim Addieren und Malnehmen, anders zusammenzufassen: $(25 \cdot 4) \cdot 7 = 25 \cdot (4 \cdot 7) = 700$.
+- **Vertauschungsgesetz**: Das **Vertauschungsgesetz** (Kommutativgesetz) erlaubt beim Addieren und beim Multiplizieren, die Zahlen zu tauschen: $3 + 5 = 5 + 3$ und $7 \cdot 4 = 4 \cdot 7 = 28$.
 
-- **Distributivgesetz**: Das **Distributivgesetz** (Verteilungsgesetz) sagt: Eine Zahl, die mit einer Summe malgenommen wird, darfst du auf jeden Summanden verteilen: $6 \cdot (7 + 3) = 6 \cdot 7 + 6 \cdot 3 = 60$.
+- **Verbindungsgesetz**: Das **Verbindungsgesetz** (Assoziativgesetz) erlaubt beim Addieren und beim Multiplizieren, die Klammern anders zu setzen: $(8 + 5) + 5 = 8 + (5 + 5) = 18$ und $(25 \cdot 4) \cdot 7 = 25 \cdot (4 \cdot 7) = 700$.
+
+- **Distributivgesetz**: Das **Distributivgesetz** (Verteilungsgesetz) sagt: Eine Zahl, die mit einer Summe multipliziert wird, darfst du auf jeden Summanden verteilen: $6 \cdot (7 + 3) = 6 \cdot 7 + 6 \cdot 3 = 60$.
 
 **Beispiel: Vorteilhaft rechnen**
 
-$6 \cdot 17 + 6 \cdot 3 = 6 \cdot (17 + 3) = 6 \cdot 20 = 120$
+$6 \cdot 17 + 6 \cdot 3 = 6 \cdot (17 + 3)$
+
+$= 6 \cdot 20 = 120$
 
 Die 6 steht in beiden Produkten. Du ziehst sie vor die Klammer und rechnest zuerst die Summe 17 + 3 = 20: Das geht schneller als beide Produkte einzeln.
 
@@ -69,13 +73,19 @@ Die 6 steht in beiden Produkten. Du ziehst sie vor die Klammer und rechnest zuer
 
 **Ergebnis: 14.** Punktrechnung geht vor Strichrechnung: Zuerst 3 · 4 = 12, dann 2 + 12 = 14. Wer 20 hat, ist von links nach rechts gegangen: (2 + 3) · 4.
 
-**Aufgabe 2:** Was ergibt $6 \cdot 17 + 6 \cdot 3$? Tipp: Ziehe die 6 vor die Klammer.
+**Aufgabe 2:** Was ergibt $6 \cdot 17 + 6 \cdot 3$? Es gibt einen schnellen Weg.
 
 **Merke: Lösung 2**
 
-**Ergebnis: 120.** 6 · (17 + 3) = 6 · 20 = 120. Einzeln gerechnet: 102 + 18 = 120.
+**Ergebnis: 120.** Die 6 steht in beiden Produkten: 6 · (17 + 3) = 6 · 20 = 120. Einzeln gerechnet kommst du auch auf 102 + 18 = 120, nur langsamer. Wer 105 hat, hat nur eine 6 verteilt: 6 · 17 + 3.
 
-Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Vorrangregeln und Rechengesetze“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/). Übe danach die Kurzaufgaben noch einmal.
+**Aufgabe 3:** Was ergibt $25 \cdot 7 \cdot 4$? Rechne vorteilhaft.
+
+**Merke: Lösung 3**
+
+**Ergebnis: 700.** Tausche die Faktoren: Erst 25 · 4 = 100, dann 100 · 7 = 700. Von links nach rechts geht es auch: 175 · 4 = 700. Wer 100 oder 70 hat, hat einen Faktor vergessen.
+
+Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.
 
 ### Potenzen und Zehnerpotenzen
 
@@ -85,7 +95,7 @@ Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Vorrangre
 
 - **Exponent**: Der **Exponent** einer Potenz sagt, wie oft die Basis als Faktor vorkommt. In $2^3$ ist der Exponent 3.
 
-- **Zehnerpotenz**: Eine **Zehnerpotenz** hat die Basis 10. Sie hat so viele Nullen wie der Exponent: $10^3 = 10 \cdot 10 \cdot 10 = 1000$.
+- **Zehnerpotenz**: Eine **Zehnerpotenz** hat die Basis 10. Ausgeschrieben hat sie so viele Nullen, wie der Exponent angibt: $10^3 = 10 \cdot 10 \cdot 10 = 1000$ hat drei Nullen.
 
 **Beispiel: Potenzen ausrechnen**
 
@@ -97,22 +107,23 @@ Der Exponent sagt nicht, womit du malnimmst, sondern wie oft die Basis als Fakto
 
 **Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.
 
-**Aufgabe 3:** Was ist $3^2$?
-
-**Merke: Lösung 3**
-
-**Ergebnis: 9.** 3² = 3 · 3 = 9. Wer 6 hat, hat 3 · 2 gerechnet: Der Exponent zählt die Faktoren.
-
-**Aufgabe 4:** Was ist $2^4$?
+**Aufgabe 4:** Was ist $3^2$?
 
 **Merke: Lösung 4**
 
+**Ergebnis: 9.** $3^2 = 3 \cdot 3 = 9$. Wer 6 hat, hat 3 · 2 gerechnet: Der Exponent zählt die Faktoren.
+
+**Aufgabe 5:** Was ist $2^4$?
+
+**Merke: Lösung 5**
+
 **Ergebnis: 16.** 2 · 2 · 2 · 2 = 16. Wer 8 hat, hat 2 · 4 gerechnet.
 
-Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Potenzen und Zehnerpotenzen“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/potenzen/). Übe danach die Kurzaufgaben noch einmal.
+Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Potenzen und Zehnerpotenzen“ auf der Lernlandkarte ([Lernlandkarte: Potenzen und Zehnerpotenzen](https://lernapps.net/apps/map/mathematik/c/potenzen/)) und rechne die Aufgaben danach noch einmal.
 
 ### Du bist bereit, wenn du …
 
-- Klammern und Vorrangregeln beachten und Rechengesetze für vorteilhaftes Rechnen nutzen kannst
-- Potenzen mit natürlichen Exponenten berechnen kannst
+- bei einer Rechnung mit Klammern, Punkt- und Strichrechnung die richtige Reihenfolge nennen kannst
+- mit Vertauschungs-, Verbindungs- und Distributivgesetz vorteilhaft rechnen kannst
+- eine Potenz wie $2^4$ als Produkt schreiben und ausrechnen kannst
 - Basis und Exponent unterscheiden kannst

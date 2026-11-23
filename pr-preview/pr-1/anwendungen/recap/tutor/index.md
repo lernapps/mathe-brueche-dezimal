@@ -43,7 +43,7 @@ Diese Seite ist eine Wiederholung: Sie wiederholt etwas, das das Kind schon kön
 
 Schriftliche Verfahren mit natürlichen Zahlen, die du beim Rechnen mit Dezimalzahlen brauchst: mit Begriffen, Beispiel und Selbsttest.
 
-Mit Dezimalzahlen rechnest du Stelle für Stelle wie mit natürlichen Zahlen. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben zum Selbsttest. Lies die Rückmeldung: So merkst du, ob du bereit bist.
+**Wofür ist diese Seite?** Mit Dezimalzahlen rechnest du Stelle für Stelle wie mit natürlichen Zahlen, nur mit einem Komma. Darum brauchst du die schriftlichen Verfahren sicher. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben zum Selbsttest. Lies die Lösungen: So merkst du, ob du bereit bist.
 
 ### Schriftliche Rechenverfahren
 
@@ -57,7 +57,7 @@ Gleiche Stellen stehen untereinander. Einer: 8 + 5 = 13, du schreibst 3 und merk
 
 $348 + 275 = 623$
 
-Subtrahieren, Multiplizieren und Teilen gehen ebenfalls Stelle für Stelle.
+**Schriftlich teilen: 156 : 12.** 12 passt 1-mal in 15, das sind 12 und es bleibt Rest 3. Du holst die 6 herunter: 36. 12 passt 3-mal in 36. Das Ergebnis ist 13. Subtrahieren und Multiplizieren gehen ebenfalls Stelle für Stelle.
 
 **Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.
 
@@ -65,17 +65,18 @@ Subtrahieren, Multiplizieren und Teilen gehen ebenfalls Stelle für Stelle.
 
 **Merke: Lösung 1**
 
-**Ergebnis: 623.** Einer: 8 + 5 = 13 (3, Übertrag 1). Zehner: 4 + 7 + 1 = 12 (2, Übertrag 1). Hunderter: 3 + 2 + 1 = 6. Ergebnis 623.
+**Ergebnis: 623.** Einer: 8 + 5 = 13 (3, Übertrag 1). Zehner: 4 + 7 + 1 = 12 (2, Übertrag 1). Hunderter: 3 + 2 + 1 = 6. Ergebnis 623. Wer 513 hat, hat die Überträge vergessen.
 
 **Aufgabe 2:** Was ergibt $156 : 12$?
 
 **Merke: Lösung 2**
 
-**Ergebnis: 13.** 12 passt 1-mal in 15 (Rest 3), dann 12 in 36: 3-mal. Ergebnis 13. Probe: 13 · 12 = 156.
+**Ergebnis: 13.** 12 passt 1-mal in 15 (Rest 3), dann holst du die 6 herunter: 12 passt 3-mal in 36. Ergebnis 13. Probe: 13 · 12 = 156. Wer 1 hat, hat die 6 nicht heruntergeholt.
 
-Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Schriftliche Rechenverfahren“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/schriftliche-verfahren/). Übe danach die Kurzaufgaben noch einmal.
+Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Schriftliche Rechenverfahren“ auf der Lernlandkarte ([Lernlandkarte: Schriftliche Rechenverfahren](https://lernapps.net/apps/map/mathematik/c/schriftliche-verfahren/)) und rechne die Aufgaben danach noch einmal.
 
 ### Du bist bereit, wenn du …
 
-- natürliche Zahlen schriftlich addieren, subtrahieren, multiplizieren und dividieren kannst
-- den Übertrag und den Rest beim Rechnen richtig behandelst
+- zwei Zahlen wie 348 und 275 schriftlich addieren kannst und dir den Übertrag merkst
+- schriftlich subtrahieren, multiplizieren und dividieren kannst
+- bei einer Division den Rest angeben kannst

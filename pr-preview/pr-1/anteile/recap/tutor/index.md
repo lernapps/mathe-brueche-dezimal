@@ -43,7 +43,7 @@ Diese Seite ist eine Wiederholung: Sie wiederholt etwas, das das Kind schon kön
 
 Was du über natürliche Zahlen können solltest, bevor es um Brüche geht: mit Begriffen, Beispiel und Selbsttest.
 
-Dieses Kapitel beginnt mit Brüchen. Dafür musst du natürliche Zahlen sicher lesen und schreiben. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben. Rechne sie und lies die Rückmeldung: So merkst du, ob du bereit bist.
+**Wofür ist diese Seite?** Dieses Kapitel beginnt mit Brüchen. Ein Bruch teilt ein Ganzes in gleich große Teile, und die Teile zählst du mit natürlichen Zahlen. Darum musst du natürliche Zahlen sicher lesen und schreiben. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben. Rechne sie und lies die Lösungen: So merkst du, ob du bereit bist.
 
 ### Natürliche Zahlen im Stellenwertsystem
 
@@ -53,9 +53,11 @@ Dieses Kapitel beginnt mit Brüchen. Dafür musst du natürliche Zahlen sicher l
 
 **Beispiel: Eine Zahl auseinanderlegen**
 
-$4305 = 4 \cdot 1000 + 3 \cdot 100 + 0 \cdot 10 + 5 \cdot 1$
+$4305 = 4 \cdot 1000 + 3 \cdot 100$
 
-Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz frei, damit die anderen Ziffern ihren Stellenwert behalten.
+$+ 0 \cdot 10 + 5 \cdot 1$
+
+Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz frei, damit die anderen Ziffern ihren Stellenwert behalten. Die Hunderterstelle ist die dritte Stelle von rechts.
 
 **Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.
 
@@ -69,11 +71,12 @@ Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz fre
 
 **Merke: Lösung 2**
 
-**Ergebnis: 6029.** 6 · 1000 + 2 · 10 + 9 = 6029. An der Hunderterstelle steht eine 0, weil es keine Hunderter gibt.
+**Ergebnis: 6029.** 6 · 1000 + 2 · 10 + 9 = 6029. An der Hunderterstelle steht eine 0, weil es keine Hunderter gibt. Wer 629 hat, hat diese 0 vergessen.
 
-Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Natürliche Zahlen im Stellenwertsystem“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/). Übe danach die Kurzaufgaben noch einmal.
+Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Natürliche Zahlen im Stellenwertsystem“ auf der Lernlandkarte ([Lernlandkarte: Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/)) und rechne die Aufgaben danach noch einmal.
 
 ### Du bist bereit, wenn du …
 
-- natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen kannst
+- eine Zahl wie 4305 in Tausender, Hunderter, Zehner und Einer zerlegen kannst
 - den Stellenwert einer Ziffer nennen kannst
+- eine Zahl aus ihren Tausendern, Hundertern, Zehnern und Einern aufschreiben kannst
