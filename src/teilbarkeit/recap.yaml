@@ -119,18 +119,26 @@
                   "question": "Was ergibt 25 · 7 · 4? Rechne vorteilhaft.",
                   "options":
                     [
-                      { "text": "175", "correct": false, "info": "Das ist 25 · 7. Es fehlt noch der Faktor 4." },
+                      {
+                        "text": "175",
+                        "correct": false,
+                        "info": "Das ist 25 · 7. Es fehlt noch der Faktor 4. Tausche die Faktoren, dann kommt 25 · 4 zuerst.",
+                      },
                       {
                         "text": "700",
                         "correct": true,
                         "info": "Tausche die Faktoren: Zuerst 25 · 4 = 100, dann 100 · 7 = 700.",
                       },
-                      { "text": "100", "correct": false, "info": "Das ist 25 · 4. Es fehlt noch der Faktor 7." },
+                      {
+                        "text": "100",
+                        "correct": false,
+                        "info": "Das ist 25 · 4. Es fehlt noch der Faktor 7: Dann rechnest du 100 · 7.",
+                      },
                     ],
                   "right": "Richtig.",
                   "wrong": "Nicht richtig.",
                 },
-              "nojs": "Kurztest: Was ergibt 25 · 7 · 4? Rechne vorteilhaft. Antworten: 175; 700; 100. Richtig ist 700. Tausche die Faktoren: Zuerst 25 · 4 = 100, dann 100 · 7 = 700. Falsche Antworten: 175: Das ist 25 · 7. Es fehlt noch der Faktor 4. 100: Das ist 25 · 4. Es fehlt noch der Faktor 7.",
+              "nojs": "Kurztest: Was ergibt 25 · 7 · 4? Rechne vorteilhaft. Antworten: 175; 700; 100. Richtig ist 700. Tausche die Faktoren: Zuerst 25 · 4 = 100, dann 100 · 7 = 700. Falsche Antworten: 175: Das ist 25 · 7. Es fehlt noch der Faktor 4. Tausche die Faktoren, dann kommt 25 · 4 zuerst. 100: Das ist 25 · 4. Es fehlt noch der Faktor 7: Dann rechnest du 100 · 7.",
             },
             {
               "type": "text",
