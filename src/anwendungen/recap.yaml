@@ -44,31 +44,97 @@
             },
             {
               "type": "text",
-              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.",
+              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.",
             },
-            { "type": "text", "text": "**Aufgabe 1:** Was ergibt $348 + 275$?" },
             {
-              "type": "note",
-              "title": "Lösung 1",
-              "blocks":
-                [
-                  {
-                    "type": "text",
-                    "text": "**Ergebnis: 623.** Einer: 8 + 5 = 13 (3, Übertrag 1). Zehner: 4 + 7 + 1 = 12 (2, Übertrag 1). Hunderter: 3 + 2 + 1 = 6. Ergebnis 623. Wer 513 hat, hat die Überträge vergessen.",
-                  },
-                ],
+              "type": "vue-component",
+              "id": "test-addieren",
+              "component": "Kurztest",
+              "props":
+                {
+                  "question": "Was ergibt 348 + 275?",
+                  "options":
+                    [
+                      {
+                        "text": "513",
+                        "correct": false,
+                        "info": "Du hast beide Überträge vergessen. 8 + 5 = 13 ergibt 3 und Übertrag 1.",
+                      },
+                      {
+                        "text": "613",
+                        "correct": false,
+                        "info": "Du hast einen Übertrag vergessen. Einer: 3 und Übertrag 1; Zehner: 4 + 7 + 1 = 12, also 2 und Übertrag 1.",
+                      },
+                      {
+                        "text": "623",
+                        "correct": true,
+                        "info": "Einer: 8 + 5 = 13 (3, Übertrag 1). Zehner: 4 + 7 + 1 = 12 (2, Übertrag 1). Hunderter: 3 + 2 + 1 = 6.",
+                      },
+                    ],
+                  "right": "Richtig.",
+                  "wrong": "Nicht richtig.",
+                },
+              "nojs": "Kurztest: Was ergibt 348 + 275? Antworten: 513; 613; 623. Richtig ist 623. Einer: 8 + 5 = 13 (3, Übertrag 1). Zehner: 4 + 7 + 1 = 12 (2, Übertrag 1). Hunderter: 3 + 2 + 1 = 6. Falsche Antworten: 513: Du hast beide Überträge vergessen. 8 + 5 = 13 ergibt 3 und Übertrag 1. 613: Du hast einen Übertrag vergessen. Einer: 3 und Übertrag 1; Zehner: 4 + 7 + 1 = 12, also 2 und Übertrag 1.",
             },
-            { "type": "text", "text": "**Aufgabe 2:** Was ergibt $156 : 12$?" },
             {
-              "type": "note",
-              "title": "Lösung 2",
-              "blocks":
-                [
-                  {
-                    "type": "text",
-                    "text": "**Ergebnis: 13.** 12 passt 1-mal in 15 (Rest 3), dann holst du die 6 herunter: 12 passt 3-mal in 36. Ergebnis 13. Probe: 13 · 12 = 156. Wer 1 hat, hat die 6 nicht heruntergeholt.",
-                  },
-                ],
+              "type": "vue-component",
+              "id": "test-subtrahieren",
+              "component": "Kurztest",
+              "props":
+                {
+                  "question": "Was ergibt 502 − 178?",
+                  "options":
+                    [
+                      {
+                        "text": "476",
+                        "correct": false,
+                        "info": "Du hast in jeder Stelle die kleinere Ziffer von der größeren abgezogen. Wenn oben die kleinere Ziffer steht, musst du entbündeln.",
+                      },
+                      {
+                        "text": "324",
+                        "correct": true,
+                        "info": "Einer: 12 − 8 = 4, Zehner: 9 − 7 = 2, Hunderter: 4 − 1 = 3. Probe: 324 + 178 = 502.",
+                      },
+                      {
+                        "text": "424",
+                        "correct": false,
+                        "info": "Du hast die Hunderterstelle nicht um 1 verkleinert, nachdem du entbündelt hast. Aus 5 Hundertern werden 4 Hunderter und 10 Zehner.",
+                      },
+                    ],
+                  "right": "Richtig.",
+                  "wrong": "Nicht richtig.",
+                },
+              "nojs": "Kurztest: Was ergibt 502 − 178? Antworten: 476; 324; 424. Richtig ist 324. Einer: 12 − 8 = 4, Zehner: 9 − 7 = 2, Hunderter: 4 − 1 = 3. Probe: 324 + 178 = 502. Falsche Antworten: 476: Du hast in jeder Stelle die kleinere Ziffer von der größeren abgezogen. Wenn oben die kleinere Ziffer steht, musst du entbündeln. 424: Du hast die Hunderterstelle nicht um 1 verkleinert, nachdem du entbündelt hast. Aus 5 Hundertern werden 4 Hunderter und 10 Zehner.",
+            },
+            {
+              "type": "vue-component",
+              "id": "test-teilen",
+              "component": "Kurztest",
+              "props":
+                {
+                  "question": "Was ergibt 156 : 12?",
+                  "options":
+                    [
+                      {
+                        "text": "1",
+                        "correct": false,
+                        "info": "Du hast die 6 nicht heruntergeholt. Nach 12 in 15 (Rest 3) kommt 36.",
+                      },
+                      {
+                        "text": "13",
+                        "correct": true,
+                        "info": "12 passt 1-mal in 15 (Rest 3), dann 12 in 36: 3-mal. Probe: 13 · 12 = 156.",
+                      },
+                      {
+                        "text": "14",
+                        "correct": false,
+                        "info": "Probe: 14 · 12 = 168, nicht 156. Wahrscheinlich hast du 36 : 12 zu 4 statt zu 3 gerechnet.",
+                      },
+                    ],
+                  "right": "Richtig.",
+                  "wrong": "Nicht richtig.",
+                },
+              "nojs": "Kurztest: Was ergibt 156 : 12? Antworten: 1; 13; 14. Richtig ist 13. 12 passt 1-mal in 15 (Rest 3), dann 12 in 36: 3-mal. Probe: 13 · 12 = 156. Falsche Antworten: 1: Du hast die 6 nicht heruntergeholt. Nach 12 in 15 (Rest 3) kommt 36. 14: Probe: 14 · 12 = 168, nicht 156. Wahrscheinlich hast du 36 : 12 zu 4 statt zu 3 gerechnet.",
             },
             {
               "type": "text",
