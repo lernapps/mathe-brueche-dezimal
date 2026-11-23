@@ -96,7 +96,7 @@
               "image": "images/zahlenstrahl-lupe.svg",
               "source": "eigene Zeichnung",
               "licence": "MIT",
-              "alt": "Ein Zahlenstrahl von 0 bis 1, jeder Zehntel-Abschnitt ist beschriftet. Der Abschnitt von 0,3 bis 0,4 ist grün umrandet. Darunter ist dieser Abschnitt auf das Zehnfache vergrößert und in zehn gleiche Teile von 0,30 bis 0,40 geteilt. Ein Punkt liegt bei 0,37.",
+              "alt": "Ein Zahlenstrahl von 0 bis 1, jeder Zehntel-Abschnitt ist beschriftet. Der Abschnitt von 0,3 bis 0,4 ist grün umrandet. Darunter ist dieser Abschnitt auf das Zehnfache vergrößert und in zehn gleiche Teile von 0,30 bis 0,40 geteilt. Ein Punkt liegt bei 0,37. Von den Ecken des Abschnitts führen zwei Linien zu einem zweiten, zehnmal so langen Zahlenstrahl, daneben steht ein Lupensymbol.",
               "caption": "Die Lupe vergrößert den Abschnitt von 0,3 bis 0,4 auf das Zehnfache. Der grüne Punkt liegt bei 0,37, das sind 7 Hundertstel nach 0,3.",
             },
           ],

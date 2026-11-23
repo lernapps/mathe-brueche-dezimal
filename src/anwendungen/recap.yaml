@@ -23,8 +23,29 @@
             },
             {
               "type": "definition",
+              "term": "Entbündeln",
+              "explanation": "Beim **Entbündeln** tauschst du eine Einheit der nächsthöheren Stelle gegen zehn Einheiten der kleineren Stelle: 1 Hunderter = 10 Zehner. So kannst du beim schriftlichen Subtrahieren auch dann abziehen, wenn oben die kleinere Ziffer steht.",
+            },
+            {
+              "type": "definition",
               "term": "Rest",
               "explanation": "Der **Rest** ist das, was beim Teilen übrig bleibt. Es ist 17 : 5 = 3 Rest 2, denn 3 · 5 = 15 und 17 − 15 = 2.",
+            },
+            {
+              "type": "example",
+              "title": "Schriftlich subtrahieren über Nullen: 5002 − 1789",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Oben stehen an der Zehner- und der Hunderterstelle Nullen, dort kannst du nichts abziehen. Du entbündelst von links: 5 Tausender werden 4 Tausender und 10 Hunderter, davon wird 1 Hunderter zu 10 Zehnern, davon 1 Zehner zu 10 Einern. Jetzt stehen oben 4 Tausender, 9 Hunderter, 9 Zehner und 12 Einer.",
+                  },
+                  {
+                    "type": "text",
+                    "text": "Einer: 12 − 9 = 3. Zehner: 9 − 8 = 1. Hunderter: 9 − 7 = 2. Tausender: 4 − 1 = 3.",
+                  },
+                  { "type": "formula", "formula": "5002 - 1789 = 3213" },
+                ],
             },
             {
               "type": "example",
@@ -61,20 +82,20 @@
                         "info": "Du hast alle Überträge vergessen. Jede Stelle über 9 gibt einen Übertrag an die nächste Stelle.",
                       },
                       {
-                        "text": "7454",
-                        "correct": false,
-                        "info": "Du hast den Übertrag der Hunderter vergessen: Bei den Tausendern rechnest du 4 + 3 + 1.",
-                      },
-                      {
                         "text": "8454",
                         "correct": true,
                         "info": "Einer: 5 + 9 = 14 (4, Übertrag 1). Zehner: 6 + 8 + 1 = 15 (5, Übertrag 1). Hunderter: 7 + 6 + 1 = 14 (4, Übertrag 1). Tausender: 4 + 3 + 1 = 8.",
+                      },
+                      {
+                        "text": "7454",
+                        "correct": false,
+                        "info": "Du hast den Übertrag der Hunderter vergessen: Bei den Tausendern rechnest du 4 + 3 + 1.",
                       },
                     ],
                   "right": "Richtig.",
                   "wrong": "Nicht richtig.",
                 },
-              "nojs": "Kurztest: Was ergibt 4765 + 3689? Antworten: 7344; 7454; 8454. Richtig ist 8454. Einer: 5 + 9 = 14 (4, Übertrag 1). Zehner: 6 + 8 + 1 = 15 (5, Übertrag 1). Hunderter: 7 + 6 + 1 = 14 (4, Übertrag 1). Tausender: 4 + 3 + 1 = 8. Falsche Antworten: 7344: Du hast alle Überträge vergessen. Jede Stelle über 9 gibt einen Übertrag an die nächste Stelle. 7454: Du hast den Übertrag der Hunderter vergessen: Bei den Tausendern rechnest du 4 + 3 + 1.",
+              "nojs": "Kurztest: Was ergibt 4765 + 3689? Antworten: 7344; 8454; 7454. Richtig ist 8454. Einer: 5 + 9 = 14 (4, Übertrag 1). Zehner: 6 + 8 + 1 = 15 (5, Übertrag 1). Hunderter: 7 + 6 + 1 = 14 (4, Übertrag 1). Tausender: 4 + 3 + 1 = 8. Falsche Antworten: 7344: Du hast alle Überträge vergessen. Jede Stelle über 9 gibt einen Übertrag an die nächste Stelle. 7454: Du hast den Übertrag der Hunderter vergessen: Bei den Tausendern rechnest du 4 + 3 + 1.",
             },
             {
               "type": "vue-component",
@@ -112,29 +133,29 @@
               "component": "Kurztest",
               "props":
                 {
-                  "question": "Was ergibt 2184 : 14?",
+                  "question": "Was ergibt 624 : 12?",
                   "options":
                     [
                       {
-                        "text": "15",
-                        "correct": false,
-                        "info": "Du hast die letzte Ziffer 4 nicht heruntergeholt. Nach 78 : 14 = 5 Rest 8 kommt noch 84 : 14 = 6.",
-                      },
-                      {
-                        "text": "165",
-                        "correct": false,
-                        "info": "Probe: 165 · 14 = 2310, nicht 2184. Die Ziffern des Ergebnisses stehen in der Reihenfolge der Schritte: 1, 5, 6.",
-                      },
-                      {
-                        "text": "156",
+                        "text": "52",
                         "correct": true,
-                        "info": "21 : 14 = 1 Rest 7, dann 78 : 14 = 5 Rest 8, dann 84 : 14 = 6. Probe: 156 · 14 = 2184.",
+                        "info": "12 passt 5-mal in 62 (Rest 2), dann holst du die 4 herunter: 12 passt 2-mal in 24. Probe: 52 · 12 = 624.",
+                      },
+                      {
+                        "text": "5",
+                        "correct": false,
+                        "info": "Du hast die letzte Ziffer 4 nicht heruntergeholt. Nach 62 : 12 = 5 Rest 2 kommt noch 24 : 12 = 2.",
+                      },
+                      {
+                        "text": "25",
+                        "correct": false,
+                        "info": "Du hast die Ziffern des Ergebnisses vertauscht. Probe: 25 · 12 = 300, nicht 624. Erst kommt die 5, dann die 2.",
                       },
                     ],
                   "right": "Richtig.",
                   "wrong": "Nicht richtig.",
                 },
-              "nojs": "Kurztest: Was ergibt 2184 : 14? Antworten: 15; 165; 156. Richtig ist 156. 21 : 14 = 1 Rest 7, dann 78 : 14 = 5 Rest 8, dann 84 : 14 = 6. Probe: 156 · 14 = 2184. Falsche Antworten: 15: Du hast die letzte Ziffer 4 nicht heruntergeholt. Nach 78 : 14 = 5 Rest 8 kommt noch 84 : 14 = 6. 165: Probe: 165 · 14 = 2310, nicht 2184. Die Ziffern des Ergebnisses stehen in der Reihenfolge der Schritte: 1, 5, 6.",
+              "nojs": "Kurztest: Was ergibt 624 : 12? Antworten: 52; 5; 25. Richtig ist 52. 12 passt 5-mal in 62 (Rest 2), dann holst du die 4 herunter: 12 passt 2-mal in 24. Probe: 52 · 12 = 624. Falsche Antworten: 5: Du hast die letzte Ziffer 4 nicht heruntergeholt. Nach 62 : 12 = 5 Rest 2 kommt noch 24 : 12 = 2. 25: Du hast die Ziffern des Ergebnisses vertauscht. Probe: 25 · 12 = 300, nicht 624. Erst kommt die 5, dann die 2.",
             },
             {
               "type": "text",

@@ -43,6 +43,19 @@
             },
             {
               "type": "example",
+              "title": "Mehrere Rechenzeichen",
+              "blocks":
+                [
+                  { "type": "formula", "formula": "30 + 4 \\cdot 5 - 2 \\cdot 3" },
+                  { "type": "formula", "formula": "= 30 + 20 - 6 = 44" },
+                  {
+                    "type": "text",
+                    "text": "Zuerst rechnest du jede Punktrechnung für sich (4 · 5 und 2 · 3), dann von links nach rechts plus und minus.",
+                  },
+                ],
+            },
+            {
+              "type": "example",
               "title": "Vorteilhaft rechnen",
               "blocks":
                 [
@@ -97,12 +110,12 @@
                   "question": "Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten.",
                   "options":
                     [
-                      { "text": "266", "correct": false, "info": "Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434." },
                       {
                         "text": "700",
                         "correct": true,
                         "info": "Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700.",
                       },
+                      { "text": "266", "correct": false, "info": "Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434." },
                       {
                         "text": "328",
                         "correct": false,
@@ -112,7 +125,7 @@
                   "right": "Richtig.",
                   "wrong": "Nicht richtig.",
                 },
-              "nojs": "Kurztest: Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten. Antworten: 266; 700; 328. Richtig ist 700. Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700. Falsche Antworten: 266: Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434. 328: Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7.",
+              "nojs": "Kurztest: Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten. Antworten: 700; 266; 328. Richtig ist 700. Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700. Falsche Antworten: 266: Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434. 328: Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7.",
             },
             {
               "type": "vue-component",
@@ -175,6 +188,7 @@
                 [
                   { "type": "formula", "formula": "3^2 = 3 \\cdot 3 = 9" },
                   { "type": "formula", "formula": "2^4 = 2 \\cdot 2 \\cdot 2 \\cdot 2 = 16" },
+                  { "type": "formula", "formula": "3 \\cdot 3 \\cdot 3 \\cdot 7 \\cdot 7 = 3^3 \\cdot 7^2" },
                   {
                     "type": "text",
                     "text": "Der Exponent sagt nicht, womit du malnimmst, sondern wie oft die Basis als Faktor steht: $2^4$ ist nicht $2 \\cdot 4$.",
@@ -225,25 +239,25 @@
                   "options":
                     [
                       {
+                        "text": "2³ · 5²",
+                        "correct": true,
+                        "info": "Dreimal die 2 und zweimal die 5: 2³ · 5² = 8 · 25 = 200.",
+                      },
+                      {
                         "text": "2⁵ · 5²",
                         "correct": false,
                         "info": "Du hast alle fünf Faktoren gezählt und der 2 zugeschrieben. Die 2 steht nur dreimal.",
                       },
                       {
-                        "text": "3² · 2²",
+                        "text": "3² · 5²",
                         "correct": false,
-                        "info": "Du hast Basis und Exponent vertauscht: dreimal die 2 ist 2³, nicht 3².",
-                      },
-                      {
-                        "text": "2³ · 5²",
-                        "correct": true,
-                        "info": "Dreimal die 2 und zweimal die 5: 2³ · 5² = 8 · 25 = 200.",
+                        "info": "Du hast bei beiden Potenzen Basis und Exponent vertauscht: dreimal die 2 ist 2³, nicht 3², und zweimal die 5 ist 5², nicht 2².",
                       },
                     ],
                   "right": "Richtig.",
                   "wrong": "Nicht richtig.",
                 },
-              "nojs": "Kurztest: Schreibe 2 · 2 · 2 · 5 · 5 als Potenzen. Antworten: 2⁵ · 5²; 3² · 2²; 2³ · 5². Richtig ist 2³ · 5². Dreimal die 2 und zweimal die 5: 2³ · 5² = 8 · 25 = 200. Falsche Antworten: 2⁵ · 5²: Du hast alle fünf Faktoren gezählt und der 2 zugeschrieben. Die 2 steht nur dreimal. 3² · 2²: Du hast Basis und Exponent vertauscht: dreimal die 2 ist 2³, nicht 3².",
+              "nojs": "Kurztest: Schreibe 2 · 2 · 2 · 5 · 5 als Potenzen. Antworten: 2³ · 5²; 2⁵ · 5²; 3² · 5². Richtig ist 2³ · 5². Dreimal die 2 und zweimal die 5: 2³ · 5² = 8 · 25 = 200. Falsche Antworten: 2⁵ · 5²: Du hast alle fünf Faktoren gezählt und der 2 zugeschrieben. Die 2 steht nur dreimal. 3² · 5²: Du hast bei beiden Potenzen Basis und Exponent vertauscht: dreimal die 2 ist 2³, nicht 3², und zweimal die 5 ist 5², nicht 2².",
             },
             {
               "type": "text",
