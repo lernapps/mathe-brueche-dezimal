@@ -2,8 +2,8 @@
 {
   "title": "Durch Brüche dividieren",
   "competencies": ["brueche-multiplizieren-dividieren"],
-  "description": "Wie viele Achtelstücke passen in drei Viertel?",
-  "scope": "Division kann fragen: Wie oft passt die zweite Größe in die erste? Zum Dividieren durch einen Bruch multiplizierst du mit seinem Kehrbruch. Nur der **zweite** Bruch wird umgekehrt. Durch 0 darfst du nicht teilen. 3/4 sind 6/8. Daher passen sechs Achtel in drei Viertel: 3/4 : 1/8 = 3/4 · 8/1 = 6.",
+  "description": "Wie viele Achtelstücke passen in drei Viertel? Und was heißt geteilt durch 2?",
+  "scope": "Division kann fragen: Wie oft passt der Divisor in den Dividenden? Zum Dividieren durch einen Bruch multiplizierst du mit seinem Kehrbruch. Nur der **zweite** Bruch, der Divisor, wird umgekehrt; der Dividend bleibt. Durch 0 darfst du nicht teilen. 3/4 sind 6/8. Daher passen sechs Achtel in drei Viertel: 3/4 : 1/8 = 3/4 · 8/1 = 6. Durch eine natürliche Zahl teilen: Die Zahl ist ein Bruch mit Nenner 1, ihr Kehrbruch ist 1 durch die Zahl. 3/4 : 2 = 3/4 · 1/2 = 3/8. Der Nenner wird mit der Zahl multipliziert. Durch einen Bruch mit größerem Zähler teilen: 3/4 : 3/8 = 3/4 · 8/3 = 24/12 = 2; zwei Stücke der Größe 3/8 passen in 3/4. Dividend und Divisor dürfen nicht vertauscht werden: 3/8 : 3/4 = 1/2, nicht 2. Das Ergebnis ist vollständig gekürzt anzugeben.",
   "blocks":
     [
       {
@@ -20,6 +20,11 @@
               "type": "definition",
               "term": "Kehrbruch",
               "explanation": "Den Kehrbruch eines von null verschiedenen Bruchs erhältst du durch Vertauschen von Zähler und Nenner.",
+            },
+            {
+              "type": "definition",
+              "term": "Dividend und Divisor",
+              "explanation": "Bei 12 : 3 ist 12 der Dividend, die Zahl, die geteilt wird. 3 ist der Divisor, die Zahl, durch die du teilst. Bei Brüchen ist es genauso: In $\\frac{3}{4} : \\frac{1}{8}$ ist $\\frac{3}{4}$ der Dividend und $\\frac{1}{8}$ der Divisor.",
             },
           ],
       },
@@ -43,10 +48,12 @@
                   "task": "Wie oft passt {b}/{d} in {z}/{n}? Lege die Stücke hinein und gib die Anzahl an.",
                   "mistakes":
                     [
-                      "Prüfe die gefragte Größe und die Unterteilung. Rechne den Schritt aus dem Beispiel mit deinen Zahlen nach.",
-                      "Schreibe eine ganze Zahl oder einen Bruch mit / (zum Beispiel 13/12). Eine gemischte Zahl schreibst du als einen Bruch.",
+                      "Das stimmt nicht. Lege Stücke der Größe {b}/{d} in den Probierstreifen, bis die gestrichelte Grenze von {z}/{n} erreicht ist, und zähle sie.",
+                      "Das kann ich nicht lesen. Tippe die Anzahl als ganze Zahl oder als Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner).",
+                      "Du hast mit {b}/{d} multipliziert. Gefragt ist, wie oft {b}/{d} in {z}/{n} hineinpasst. Dafür dividierst du: Mit dem Kehrbruch {d}/{b} des Divisors malnehmen.",
+                      "Du hast Dividend und Divisor vertauscht. Du hast gezählt, wie oft {z}/{n} in {b}/{d} passt. Gefragt ist, wie oft das kleine Stück {b}/{d} in {z}/{n} passt.",
                     ],
-                  "inputLabel": "Deine Antwort (Bruch mit / oder ganze Zahl)",
+                  "inputLabel": "Deine Anzahl (ganze Zahl oder Bruch mit /)",
                   "givenLabel": "Gegeben",
                   "ownLabel": "So schreibst du das",
                   "toolLabel": "Oben siehst du die vorhandene Menge und die Größe eines Stücks. Mit + und − legst du solche Stücke in den Probierstreifen. Die gestrichelte Grenze zeigt, wie weit deine vorhandene Menge reicht. Wie viele Stücke brauchst du genau bis zu dieser Grenze? Gib die Anzahl selbst ein.",
@@ -68,6 +75,76 @@
                   "rejected": [{ "answer": "1/0" }, { "answer": "" }],
                 },
               "nojs": "Teilen kann bedeuten: Wie oft passt ein Stück in eine Menge hinein? Der obere Streifen zeigt die Menge, die du hast. Der zweite zeigt die Größe eines Stücks. Beide ganzen Streifen sind gleich groß. Mit + und − probierst du aus, wie viele Stücke in den oberen Anteil passen. Im unteren Probierstreifen ist jedes Feld so groß wie ein solches Stück; es füllt sich von links nach rechts. Suche die Stückzahl, bei der seine gefüllte Länge genau zur gegebenen Menge passt. Diese Stückzahl gibst du ins Antwortfeld ein.",
+            },
+            {
+              "type": "section",
+              "id": "stueck-bruch",
+              "title": "Ein Stück mit mehreren Feldern",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Eben bestand ein Stück aus einem Feld. Jetzt besteht es aus mehreren Feldern, zum Beispiel $\\frac{3}{8}$ aus drei Achteln. Die Frage bleibt gleich: Wie oft passt das Stück in die vorhandene Menge? Dein Stück ist hier der Divisor.",
+                  },
+                  {
+                    "type": "vue-component",
+                    "component": "BruchRechnen",
+                    "id": "modell-bruch",
+                    "props":
+                      {
+                        "kind": "divide2",
+                        "task": "Wie oft passt {b}/{d} in {z}/{n}? Lege die Stücke hinein und gib die Anzahl an.",
+                        "mistakes":
+                          [
+                            "Das stimmt nicht. Lege Stücke der Größe {b}/{d} in den Probierstreifen, bis die gestrichelte Grenze von {z}/{n} erreicht ist, und zähle sie.",
+                            "Das kann ich nicht lesen. Tippe die Anzahl als ganze Zahl oder als Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner).",
+                            "Du hast mit {b}/{d} multipliziert. Gefragt ist, wie oft {b}/{d} in {z}/{n} hineinpasst. Dafür dividierst du: Mit dem Kehrbruch {d}/{b} des Divisors malnehmen.",
+                            "Du hast Dividend und Divisor vertauscht. Du hast gezählt, wie oft {z}/{n} in {b}/{d} passt. Gefragt ist, wie oft das kleine Stück {b}/{d} in {z}/{n} passt.",
+                          ],
+                        "inputLabel": "Deine Anzahl (ganze Zahl oder Bruch mit /)",
+                        "givenLabel": "Gegeben",
+                        "ownLabel": "So schreibst du das",
+                        "toolLabel": "Ein Stück besteht jetzt aus mehreren Feldern. Mit + und − legst du ganze Stücke in den Probierstreifen. Die gestrichelte Grenze zeigt, wie weit deine vorhandene Menge reicht. Wie viele Stücke brauchst du genau bis zu dieser Grenze? Gib die Anzahl selbst ein.",
+                        "pieceLabel": "Bruchstück",
+                        "stepLabel": "Teile pro Ganzem",
+                        "labels":
+                          {
+                            "circle": "Kreis",
+                            "strip": "Bruchstreifen",
+                            "line": "Zahlenstrahl",
+                            "set": "Menge",
+                            "whole": "Ganzes",
+                            "selected": "Ausgewählt",
+                          },
+                      },
+                    "examples":
+                      {
+                        "accepted": [{ "answer": "2", "seed": 1 }, { "answer": "4/2", "seed": 1 }],
+                        "rejected": [{ "answer": "1/0" }, { "answer": "" }],
+                      },
+                    "nojs": "Du legst Stücke der Größe $\\frac{3}{8}$ nacheinander in einen Probierstreifen, bis die Grenze von $\\frac{3}{4}$ erreicht ist. Es passen genau zwei Stücke.",
+                  },
+                ],
+            },
+            {
+              "type": "section",
+              "id": "durch-zahl",
+              "title": "Durch eine natürliche Zahl teilen",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Du hast $\\frac{3}{4}$ Liter Saft und füllst ihn in 2 gleich große Gläser. Wie viel kommt in ein Glas? Hier fragst du nicht, wie oft etwas hineinpasst, sondern du verteilst in gleiche Teile. Jedes Viertel wird halbiert. Die Zahl 2 ist der Divisor: Teilen durch 2 heißt, mit dem Kehrbruch $\\frac{1}{2}$ malzunehmen.",
+                  },
+                  {
+                    "type": "figure",
+                    "image": "images/p4-geteilt-zahl.svg",
+                    "source": "eigene Zeichnung",
+                    "licence": "MIT",
+                    "alt": "Ein Streifen aus vier gleich großen Feldern, drei davon gefüllt, steht für drei Viertel. Darunter ist jedes Viertel halbiert, also acht Felder. Die sechs gefüllten Felder sind abwechselnd mit 1 und 2 beschriftet: Die Felder mit der 1 gehören in das erste Glas, die mit der 2 in das zweite. Jedes Glas bekommt drei Achtel.",
+                    "caption": "Drei Viertel Liter auf zwei Gläser verteilt: Jedes Glas bekommt drei von acht Feldern.",
+                  },
+                ],
             },
             {
               "type": "note",
@@ -96,6 +173,55 @@
                   {
                     "type": "text",
                     "text": "$\\frac{3}{4}$ sind $\\frac{6}{8}$. Daher passen sechs Achtel in drei Viertel: $\\frac{3}{4} : \\frac{1}{8} = \\frac{3}{4} \\cdot \\frac{8}{1} = 6$.",
+                  },
+                ],
+            },
+            {
+              "type": "example",
+              "title": "Durch eine natürliche Zahl",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Du schreibst die 2 als $\\frac{2}{1}$. Ihr Kehrbruch ist $\\frac{1}{2}$. Du rechnest mit dem Kehrbruch mal, also wird nur der Nenner mit 2 multipliziert:",
+                  },
+                  {
+                    "type": "formula",
+                    "formula": "\\frac{3}{4} : 2 = \\frac{3}{4} \\cdot \\frac{1}{2} = \\frac{3}{8}",
+                  },
+                ],
+            },
+            {
+              "type": "example",
+              "title": "Durch einen Bruch mit größerem Zähler",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Der Divisor $\\frac{3}{8}$ hat den Kehrbruch $\\frac{8}{3}$. Du kürzt die 3 oben mit der 3 unten und die 4 mit der 8:",
+                  },
+                  {
+                    "type": "formula",
+                    "formula": "\\frac{3}{4} : \\frac{3}{8} = \\frac{3}{4} \\cdot \\frac{8}{3} = \\frac{1}{1} \\cdot \\frac{2}{1} = 2",
+                  },
+                  {
+                    "type": "figure",
+                    "image": "images/p4-geteilt-bruch.svg",
+                    "source": "eigene Zeichnung",
+                    "licence": "MIT",
+                    "alt": "Ein Streifen aus acht Feldern, sechs davon gefüllt, steht für drei Viertel. Darunter liegen zwei Stücke aus je drei Feldern nebeneinander bis zur Grenze der drei Viertel. Zwei Stücke der Größe drei Achtel passen also in drei Viertel.",
+                    "caption": "Zwei Stücke der Größe drei Achtel füllen drei Viertel genau.",
+                  },
+                ],
+            },
+            {
+              "type": "note",
+              "title": "Dividend und Divisor nicht vertauschen",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "$\\frac{3}{4} : \\frac{3}{8}$ ist 2, aber $\\frac{3}{8} : \\frac{3}{4}$ ist nur $\\frac{1}{2}$. Der Divisor steht hinten und nur er wird umgekehrt. Der Dividend vorn bleibt unverändert.",
                   },
                 ],
             },
@@ -144,6 +270,10 @@
                     "message": "Das wäre die Zahl der Bruchstücke in einem Ganzen. Gegeben sind zwei Ganze.",
                   },
                   { "value": "2", "message": "Du hast die Anzahl Ganzer statt der Anzahl Bruchstücke angegeben." },
+                  {
+                    "value": "n/2",
+                    "message": "Du hast {{n}} durch 2 geteilt. In zwei Ganze passen doppelt so viele Stücke wie in ein Ganzes: Du rechnest mal 2.",
+                  },
                 ],
               "hint": "Division kann fragen: Wie oft passt die zweite Größe in die erste? Zum Dividieren durch einen Bruch multiplizierst du mit seinem Kehrbruch.",
               "steps":
@@ -152,6 +282,75 @@
                   "In zwei Ganze passen doppelt so viele: $2 \\cdot {{n}} = {{answer}}$.",
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "single-choice",
+              "id": "kehrbruch",
+              "text": "Wie rechnest du $\\frac{3}{4} : 2$?",
+              "options":
+                [
+                  {
+                    "text": "$\\frac{3}{4} \\cdot \\frac{1}{2}$",
+                    "correct": true,
+                    "info": "Richtig: Der Divisor 2 hat den Kehrbruch $\\frac{1}{2}$. Du teilst jedes Viertel in zwei Teile.",
+                  },
+                  {
+                    "text": "$\\frac{3}{4} \\cdot 2$",
+                    "correct": false,
+                    "info": "Das ist eine Multiplikation. Wenn du durch 2 teilst, wird das Ergebnis kleiner als $\\frac{3}{4}$.",
+                  },
+                  {
+                    "text": "$\\frac{4}{3} \\cdot \\frac{1}{2}$",
+                    "correct": false,
+                    "info": "Hier wurde der Dividend $\\frac{3}{4}$ umgekehrt. Umgekehrt wird nur der Divisor, also die 2.",
+                  },
+                ],
+              "explanation": "Durch 2 teilen heißt: mit dem Kehrbruch $\\frac{1}{2}$ malnehmen. $\\frac{3}{4} : 2 = \\frac{3}{4} \\cdot \\frac{1}{2} = \\frac{3}{8}$.",
+            },
+            {
+              "type": "vue-component",
+              "component": "BruchTippen",
+              "id": "durch-zahl-rechnen",
+              "props":
+                {
+                  "kind": "geteilt-natuerlich",
+                  "task": "Berechne {z}/{n} : {k}. Gib das Ergebnis vollständig gekürzt an.",
+                  "mistakes":
+                    [
+                      "Das ist nicht richtig. Durch {k} teilen heißt: {z}/{n} wird in {k} gleiche Teile geteilt. Dabei wird der Nenner mit {k} multipliziert. Kürze dann, wenn es geht.",
+                      "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
+                      "Der Wert stimmt, aber du kannst noch kürzen: Teile Zähler und Nenner durch dieselbe Zahl, bis es nicht mehr geht.",
+                      "Du hast mit {k} multipliziert statt durch {k} zu teilen. Wird {z}/{n} geteilt, ist das Ergebnis kleiner als {z}/{n}.",
+                      "Du hast Dividend und Divisor vertauscht. Das ist {k} : {z}/{n}. Gefragt ist {z}/{n} : {k}: Vorn steht, was geteilt wird (der Dividend), hinten die Zahl, durch die du teilst (der Divisor).",
+                    ],
+                  "inputLabel": "Dein Ergebnis (Bruch mit Schrägstrich, gemischte Zahl mit Leerzeichen)",
+                  "ownLabel": "So schreibst du das",
+                },
+              "examples":
+                { "accepted": [{ "answer": "3/8", "seed": 1 }], "rejected": [{ "answer": "" }, { "answer": "1/0" }] },
+            },
+            {
+              "type": "vue-component",
+              "component": "BruchTippen",
+              "id": "durch-bruch",
+              "props":
+                {
+                  "kind": "geteilt-bruch",
+                  "task": "Berechne {z}/{n} : {b}/{d}. Der Divisor ist {b}/{d}. Gib das Ergebnis vollständig gekürzt an, als ganze Zahl, Bruch oder gemischte Zahl.",
+                  "mistakes":
+                    [
+                      "Das ist nicht richtig. Frage dich: Wie oft passt {b}/{d} in {z}/{n}? Multipliziere {z}/{n} mit dem Kehrbruch {d}/{b} des Divisors und kürze.",
+                      "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
+                      "Der Wert stimmt, aber du kannst noch kürzen. Teile Zähler und Nenner durch dieselbe Zahl, bis es nicht mehr geht.",
+                      "Du hast mit {b}/{d} multipliziert. Beim Dividieren musst du den Divisor {b}/{d} umkehren und mit seinem Kehrbruch {d}/{b} malnehmen.",
+                      "Du hast Dividend und Divisor vertauscht. {b}/{d} : {z}/{n} fragt, wie oft {z}/{n} in {b}/{d} passt. Gefragt ist, wie oft {b}/{d} in {z}/{n} passt.",
+                      "Du hast beide Brüche umgekehrt. Nur der zweite Bruch, der Divisor, wird zum Kehrbruch. Der erste Bruch bleibt, wie er ist.",
+                    ],
+                  "inputLabel": "Dein Ergebnis (Bruch mit Schrägstrich, gemischte Zahl mit Leerzeichen)",
+                  "ownLabel": "So schreibst du das",
+                },
+              "examples":
+                { "accepted": [{ "answer": "2", "seed": 1 }], "rejected": [{ "answer": "" }, { "answer": "1/0" }] },
             },
           ],
       },

@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+[
+  { "n": 4, "d": 6, "kgv": 12, "produkt": 24, "summe": 10, "groesser": 6, "va": "4, 8, 12", "vb": "6, 12" },
+  { "n": 6, "d": 8, "kgv": 24, "produkt": 48, "summe": 14, "groesser": 8, "va": "6, 12, 18, 24", "vb": "8, 16, 24" },
+  { "n": 6, "d": 9, "kgv": 18, "produkt": 54, "summe": 15, "groesser": 9, "va": "6, 12, 18", "vb": "9, 18" },
+  { "n": 4, "d": 10, "kgv": 20, "produkt": 40, "summe": 14, "groesser": 10, "va": "4, 8, 12, 16, 20", "vb": "10, 20" },
+  { "n": 8, "d": 12, "kgv": 24, "produkt": 96, "summe": 20, "groesser": 12, "va": "8, 16, 24", "vb": "12, 24" },
+  { "n": 10, "d": 15, "kgv": 30, "produkt": 150, "summe": 25, "groesser": 15, "va": "10, 20, 30", "vb": "15, 30" },
+  {
+    "n": 9,
+    "d": 12,
+    "kgv": 36,
+    "produkt": 108,
+    "summe": 21,
+    "groesser": 12,
+    "va": "9, 18, 27, 36",
+    "vb": "12, 24, 36",
+  },
+  {
+    "n": 6,
+    "d": 10,
+    "kgv": 30,
+    "produkt": 60,
+    "summe": 16,
+    "groesser": 10,
+    "va": "6, 12, 18, 24, 30",
+    "vb": "10, 20, 30",
+  },
+]

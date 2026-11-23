@@ -6,4 +6,9 @@
   { "azahl": "4,5", "bzahl": "0,5", "faktor": 10, "erweiterta": 45, "erweitertb": 5 },
   { "azahl": "0,75", "bzahl": "0,25", "faktor": 100, "erweiterta": 75, "erweitertb": 25 },
   { "azahl": "1,25", "bzahl": "0,25", "faktor": 100, "erweiterta": 125, "erweitertb": 25 },
+  { "azahl": "3,6", "bzahl": "0,4", "faktor": 10, "erweiterta": 36, "erweitertb": 4 },
+  { "azahl": "1,5", "bzahl": "0,5", "faktor": 10, "erweiterta": 15, "erweitertb": 5 },
+  { "azahl": "9,6", "bzahl": "0,8", "faktor": 10, "erweiterta": 96, "erweitertb": 8 },
+  { "azahl": "0,45", "bzahl": "0,15", "faktor": 100, "erweiterta": 45, "erweitertb": 15 },
+  { "azahl": "2,1", "bzahl": "0,35", "faktor": 100, "erweiterta": 210, "erweitertb": 35 },
 ]
