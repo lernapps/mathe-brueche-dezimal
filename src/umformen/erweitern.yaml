@@ -44,7 +44,7 @@
                   "explanation": "Unterteilung pro ursprünglichem Stück: {f}. Insgesamt hat der Kuchen jetzt {n} gleich große Teile. Davon gehören {z} zu deinem Anteil. Die markierte Kuchenfläche bleibt gleich.",
                   "imageLabel": "Kuchen aus {n} gleich großen Stücken, davon {z} markiert.",
                 },
-              "nojs": "Der Kreis stellt einen ganzen Kuchen dar. Zwei seiner drei gleich großen Stücke sind grün markiert. Die grüne Fläche ist dein Kuchenanteil. Mit dem Regler zerschneidest du JEDES Stück gleich oft – auch die nicht markierten. Die dicken Linien zeigen die ursprünglichen Drittel, die dünnen die neuen Schnittkanten. Beobachte: Es werden mehr Stücke, aber nicht mehr Kuchen. Zähle die markierten und alle Stücke. So erhältst du eine andere Bruchschreibweise für denselben Anteil. In der Übung tippst du deinen erweiterten Bruch mit / ein.\n\nBeispiel: Jedes Drittel halbieren. Aus drei Stücken werden sechs, aus den zwei markierten Stücken werden vier. 2/3 und 4/6 beschreiben dieselbe Kuchenfläche.",
+              "nojs": "Der Kreis stellt einen ganzen Kuchen dar. Zwei seiner drei gleich großen Stücke sind grün markiert. Die grüne Fläche ist dein Kuchenanteil. Mit dem Regler zerschneidest du JEDES Stück gleich oft – auch die nicht markierten. Die dicken Linien zeigen die ursprünglichen Drittel, die dünnen die neuen Schnittkanten. Beobachte: Es werden mehr Stücke, aber nicht mehr Kuchen. Zähle die markierten und alle Stücke. So erhältst du eine andere Bruchschreibweise für denselben Anteil. In der Übung tippst du deinen erweiterten Bruch mit / ein.\n\nBeispiel: Jedes Drittel halbieren. Aus drei Stücken werden sechs, aus den zwei markierten Stücken werden vier. $\\frac{2}{3}$ und $\\frac{4}{6}$ beschreiben dieselbe Kuchenfläche.",
             },
           ],
       },
@@ -122,7 +122,7 @@
                   {
                     "text": "Der Wert des Bruchs.",
                     "correct": true,
-                    "info": "2/3 mit 2 erweitern: 2 · 2 = 4 und 3 · 2 = 6. Also 2/3 = 4/6. Jedes Drittel wurde in zwei Sechstel unterteilt.",
+                    "info": "$\\frac{2}{3}$ mit 2 erweitern: 2 · 2 = 4 und 3 · 2 = 6. Also $\\frac{2}{3} = \\frac{4}{6}$. Jedes Drittel wurde in zwei Sechstel unterteilt.",
                   },
                   {
                     "text": "Die Zahl der Teilstücke.",
@@ -135,13 +135,13 @@
                     "info": "Die Teilstücke werden kleiner, weil jedes weiter unterteilt wird.",
                   },
                 ],
-              "explanation": "2/3 mit 2 erweitern: 2 · 2 = 4 und 3 · 2 = 6. Also 2/3 = 4/6. Jedes Drittel wurde in zwei Sechstel unterteilt.",
+              "explanation": "$\\frac{2}{3}$ mit 2 erweitern: 2 · 2 = 4 und 3 · 2 = 6. Also $\\frac{2}{3} = \\frac{4}{6}$. Jedes Drittel wurde in zwei Sechstel unterteilt.",
             },
             {
               "type": "generated",
               "id": "aufgaben",
               "given": { "n": { "oneOf": [3, 4, 5, 6, 8, 10] } },
-              "task": { "text": "Erweitere 1/{{n}} mit 3. Welcher Nenner entsteht?" },
+              "task": { "text": "Erweitere $\\frac{1}{{{n}}}$ mit 3. Welcher Nenner entsteht?" },
               "answer": { "value": "n*3", "compare": "number" },
               "mistakes":
                 [

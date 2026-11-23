@@ -94,7 +94,7 @@
                 [
                   {
                     "type": "text",
-                    "text": "6/8 mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also 6/8 = 3/4. Je zwei Achtel werden zu einem Viertel gebündelt.",
+                    "text": "$\\frac{6}{8}$ mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also $\\frac{6}{8} = \\frac{3}{4}$. Je zwei Achtel werden zu einem Viertel gebündelt.",
                   },
                 ],
             },
@@ -113,20 +113,28 @@
               "options":
                 [
                   {
-                    "text": "3/4",
+                    "text": "$\\frac{3}{4}$",
                     "correct": true,
-                    "info": "6/8 mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also 6/8 = 3/4. Je zwei Achtel werden zu einem Viertel gebündelt.",
+                    "info": "$\\frac{6}{8}$ mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also $\\frac{6}{8} = \\frac{3}{4}$. Je zwei Achtel werden zu einem Viertel gebündelt.",
                   },
-                  { "text": "6/8", "correct": false, "info": "Zähler und Nenner sind beide durch 2 teilbar." },
-                  { "text": "9/12", "correct": false, "info": "Zähler und Nenner sind beide durch 3 teilbar." },
+                  {
+                    "text": "$\\frac{6}{8}$",
+                    "correct": false,
+                    "info": "Zähler und Nenner sind beide durch 2 teilbar.",
+                  },
+                  {
+                    "text": "$\\frac{9}{12}$",
+                    "correct": false,
+                    "info": "Zähler und Nenner sind beide durch 3 teilbar.",
+                  },
                 ],
-              "explanation": "6/8 mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also 6/8 = 3/4. Je zwei Achtel werden zu einem Viertel gebündelt.",
+              "explanation": "$\\frac{6}{8}$ mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also $\\frac{6}{8} = \\frac{3}{4}$. Je zwei Achtel werden zu einem Viertel gebündelt.",
             },
             {
               "type": "generated",
               "id": "aufgaben",
               "given": { "e": { "pick": 1, "from": { "data": "grundzahlen" } } },
-              "task": { "text": "Kürze 6/{{e.sechsfach}} mit 6. Welcher Nenner entsteht?" },
+              "task": { "text": "Kürze $\\frac{6}{{{e.sechsfach}}}$ mit 6. Welcher Nenner entsteht?" },
               "answer": { "value": "e.sechsfach / 6", "compare": "number" },
               "mistakes":
                 [

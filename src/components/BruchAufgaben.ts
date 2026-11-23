@@ -1,4 +1,4 @@
-import { equal, fill, gcd, parse, reduce } from "./BruchMath.ts";
+import { equal, fill, gcd, parse, reduce, tex } from "./BruchMath.ts";
 export interface Props {
   kind: string;
   task: string;
@@ -97,7 +97,7 @@ export function params(t: Task): Record<string, number> {
   return values;
 }
 export const template = (p: Props): string => p.task;
-export const show = (answer: unknown): string => (String(answer) === "" ? "Keine Eingabe" : String(answer));
+export const show = (answer: unknown): string => (String(answer) === "" ? "Keine Eingabe" : tex(String(answer)));
 export function reason(t: Task, a: unknown, p: Props): string {
   let index = 0;
   if (typeof a !== "string" || a.trim() === "") index = 1;
@@ -139,7 +139,10 @@ export function describe(t: Task, p: Props): { task: string; solution: string } 
     multiply: `Das ganze Rechteck hat ${t.n} Spalten und ${t.d} Zeilen. Blau mit Rautenmuster kennzeichnet ${t.z} Spalten für ${t.z}/${t.n}; Orange mit Punktmuster kennzeichnet ${t.b} Zeilen für ${t.b}/${t.d}. Markiere die Felder, die zu beiden gehören. Darunter stehen die Gesamtzahl der Teilflächen und die Anzahl deiner eigenen Markierungen. Vergleiche beide Anzahlen, um den Ergebnisbruch anzugeben.`,
     divide: `Der erste Streifen zeigt die vorhandene Menge ${t.z}/${t.n}, der zweite ein Stück der Größe ${t.b}/${t.d}. Mit Plus und Minus legst du Stücke in einen Probierstreifen. Eine gestrichelte Grenze zeigt die Länge der vorhandenen Menge. Suche die Stückzahl, die genau bis zu dieser Grenze reicht.`,
   };
-  return { task: `${fill(p.task, params(t))}\n\n${drawings[t.kind] ?? ""}`, solution: paths[t.kind] ?? result };
+  return {
+    task: tex(`${fill(p.task, params(t))}\n\n${drawings[t.kind] ?? ""}`),
+    solution: tex(paths[t.kind] ?? result),
+  };
 }
 export const about = {
   task: "Bruchmodell verändern, fehlende Größe berechnen oder Brüche vergleichen; die Frage nennt den gesuchten Wert.",

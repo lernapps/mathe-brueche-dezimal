@@ -90,7 +90,7 @@
                 [
                   {
                     "type": "text",
-                    "text": "9 Plättchen sind 3/4. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.",
+                    "text": "9 Plättchen sind $\\frac{3}{4}$. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.",
                   },
                 ],
             },
@@ -105,13 +105,13 @@
             {
               "type": "single-choice",
               "id": "verstehen",
-              "text": "9 sind 3/4. Welche Rechnung liefert das Ganze?",
+              "text": "9 sind $\\frac{3}{4}$. Welche Rechnung liefert das Ganze?",
               "options":
                 [
                   {
                     "text": "9 : 3 · 4",
                     "correct": true,
-                    "info": "9 Plättchen sind 3/4. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.",
+                    "info": "9 Plättchen sind $\\frac{3}{4}$. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.",
                   },
                   {
                     "text": "9 : 4 · 3",
@@ -124,13 +124,16 @@
                     "info": "Drei Gruppen sind schon gegeben. Ermittle zuerst eine Gruppe durch Teilen.",
                   },
                 ],
-              "explanation": "9 Plättchen sind 3/4. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.",
+              "explanation": "9 Plättchen sind $\\frac{3}{4}$. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.",
             },
             {
               "type": "generated",
               "id": "aufgaben",
               "given": { "e": { "pick": 1, "from": { "data": "grundzahlen" } } },
-              "task": { "text": "{{e.dreifach}} Plättchen sind 3/4 des Ganzen. Wie viele Plättchen hat das Ganze?" },
+              "task":
+                {
+                  "text": "{{e.dreifach}} Plättchen sind $\\frac{3}{4}$ des Ganzen. Wie viele Plättchen hat das Ganze?",
+                },
               "answer": { "value": "e.dreifach / 3 * 4", "compare": "number" },
               "mistakes":
                 [

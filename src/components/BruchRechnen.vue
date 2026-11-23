@@ -2,7 +2,7 @@
 import { computed, ref } from "vue";
 import BruchEingabe from "./BruchEingabe.vue";
 import { generate, params } from "./BruchAufgaben.ts";
-import { fill } from "./BruchMath.ts";
+import { fill, spoken } from "./BruchMath.ts";
 const props = defineProps<{
   kind: string;
   task: string;
@@ -39,10 +39,11 @@ function update(value: string): void {
 function toggle(i: number): void {
   marked.value = marked.value.includes(i) ? marked.value.filter((x) => x !== i) : [...marked.value, i];
 }
+import RichText from "./RichText.vue";
 </script>
 <template>
   <div>
-    <p>{{ fill(task, params(taskNow)) }}</p>
+    <p><RichText :text="fill(task, params(taskNow))" /></p>
     <p>{{ givenLabel }}</p>
     <template v-for="(strip, index) in givenStrips" :key="index">
       <p
@@ -50,12 +51,12 @@ function toggle(i: number): void {
         class="factor-caption"
         :class="index === 0 ? 'column-caption-color' : 'row-caption-color'"
       >
-        {{ fill((index === 0 ? columnLabel : rowLabel) ?? "", params(taskNow)) }}
+        <RichText :text="fill((index === 0 ? columnLabel : rowLabel) ?? '', params(taskNow))" />
       </p>
       <div
         class="strip"
         role="img"
-        :aria-label="`${givenLabel}: ${strip.z}/${strip.n}`"
+        :aria-label="`${givenLabel}: ${spoken(`${strip.z}/${strip.n}`)}`"
         :class="{
           'column-factor': kind === 'multiply' && index === 0,
           'row-factor': kind === 'multiply' && index === 1,
@@ -68,8 +69,8 @@ function toggle(i: number): void {
       <p>{{ toolLabel }}</p>
       <template v-if="kind === 'multiply'">
         <div class="product-model">
-          <p class="column-caption">{{ fill(columnLabel ?? "", params(taskNow)) }}</p>
-          <p class="row-caption">{{ fill(rowLabel ?? "", params(taskNow)) }}</p>
+          <p class="column-caption"><RichText :text="fill(columnLabel ?? '', params(taskNow))" /></p>
+          <p class="row-caption"><RichText :text="fill(rowLabel ?? '', params(taskNow))" /></p>
           <div
             class="matrix"
             :style="{
@@ -126,7 +127,7 @@ function toggle(i: number): void {
           :key="index"
           class="strip"
           role="img"
-          :aria-label="`${givenLabel}: ${strip.z}/${strip.n}`"
+          :aria-label="`${givenLabel}: ${spoken(`${strip.z}/${strip.n}`)}`"
         >
           <span v-for="i in strip.n" :key="i" :class="{ on: i <= strip.z }" aria-hidden="true"></span>
           <svg

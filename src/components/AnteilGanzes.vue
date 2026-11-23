@@ -2,7 +2,7 @@
 import { computed, ref } from "vue";
 import BruchEingabe from "./BruchEingabe.vue";
 import { generate, params } from "./BruchAufgaben.ts";
-import { fill } from "./BruchMath.ts";
+import { fill, spoken } from "./BruchMath.ts";
 const props = defineProps<{
   kind: string;
   task: string;
@@ -28,10 +28,11 @@ function update(value: string): void {
 function toggle(i: number): void {
   marked.value = marked.value.includes(i) ? marked.value.filter((x) => x !== i) : [...marked.value, i];
 }
+import RichText from "./RichText.vue";
 </script>
 <template>
   <div>
-    <p>{{ fill(task, params(taskNow)) }}</p>
+    <p><RichText :text="fill(task, params(taskNow))" /></p>
     <p>{{ givenLabel }}</p>
     <template v-if="kind !== 'whole'"
       ><div class="cells">
@@ -47,7 +48,7 @@ function toggle(i: number): void {
         </button>
       </div></template
     ><template v-else
-      ><div class="strip" role="img" :aria-label="`${givenLabel}: ${taskNow.z}/${taskNow.n}`">
+      ><div class="strip" role="img" :aria-label="`${givenLabel}: ${spoken(`${taskNow.z}/${taskNow.n}`)}`">
         <span v-for="i in taskNow.n" :key="i" :class="{ on: i <= taskNow.z }">{{ i <= taskNow.z ? "" : "?" }}</span>
       </div></template
     >

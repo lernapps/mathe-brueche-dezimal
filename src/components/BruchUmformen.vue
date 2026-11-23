@@ -26,10 +26,11 @@ function update(value: string): void {
   input.value = value;
   emit("answer", value);
 }
+import RichText from "./RichText.vue";
 </script>
 <template>
   <div>
-    <p>{{ fill(task, params(taskNow)) }}</p>
+    <p><RichText :text="fill(task, params(taskNow))" /></p>
     <p>
       <strong>{{ givenLabel }}</strong>
     </p>

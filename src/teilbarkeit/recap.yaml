@@ -30,7 +30,7 @@
       { "type": "formula", "formula": "10^3 = 10 \\cdot 10 \\cdot 10 = 1000" },
       {
         "type": "text",
-        "text": "Antworte in Gedanken: Was ist 2 + 3 · 4? Was ist 3² ? Wenn du beides sicher hast, kannst du weitermachen.",
+        "text": "Antworte in Gedanken: Was ist 2 + 3 · 4? Was ist 3² ? (Zur Kontrolle: 14 und 9.) Wenn du beides sicher hast, kannst du weitermachen.",
       },
     ],
 }

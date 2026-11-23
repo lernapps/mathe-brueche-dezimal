@@ -45,3 +45,7 @@ export function splitFractions(text: string): (string | Fraction)[] {
   if (last < text.length) parts.push(text.slice(last));
   return parts;
 }
+/** A text for MathML-capable text blocks: every `3/4` becomes `$\\frac{3}{4}$`. */
+export const tex = (text: string): string => text.replace(/(\d+)\/(\d+)/g, "$\\frac{$1}{$2}$");
+/** A text for screen readers (aria-label): every `3/4` is read as "3 durch 4". */
+export const spoken = (text: string): string => text.replace(/(\d+)\/(\d+)/g, "$1 durch $2");

@@ -114,13 +114,13 @@
             {
               "type": "single-choice",
               "id": "verstehen",
-              "text": "Welche Rechnung ergibt 3/4 von 12?",
+              "text": "Welche Rechnung ergibt $\\frac{3}{4}$ von 12?",
               "options":
                 [
                   {
                     "text": "12 : 4 · 3",
                     "correct": true,
-                    "info": "12 Plättchen in vier Gruppen: 12 : 4 = 3 pro Gruppe. Drei Gruppen enthalten 3 · 3 = 9 Plättchen. Also sind 3/4 von 12 gleich 9.",
+                    "info": "12 Plättchen in vier Gruppen: 12 : 4 = 3 pro Gruppe. Drei Gruppen enthalten 3 · 3 = 9 Plättchen. Also sind $\\frac{3}{4}$ von 12 gleich 9.",
                   },
                   {
                     "text": "12 : 3 · 4",
@@ -133,7 +133,7 @@
                     "info": "Ein Anteil einer Größe entsteht durch Teilen und Multiplizieren, nicht durch Addieren der drei Zahlen.",
                   },
                 ],
-              "explanation": "12 Plättchen in vier Gruppen: 12 : 4 = 3 pro Gruppe. Drei Gruppen enthalten 3 · 3 = 9 Plättchen. Also sind 3/4 von 12 gleich 9.",
+              "explanation": "12 Plättchen in vier Gruppen: 12 : 4 = 3 pro Gruppe. Drei Gruppen enthalten 3 · 3 = 9 Plättchen. Also sind $\\frac{3}{4}$ von 12 gleich 9.",
             },
             {
               "type": "generated",

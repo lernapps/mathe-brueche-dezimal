@@ -2,7 +2,7 @@
 defineOptions({ nojs: "caption" });
 import { computed, ref } from "vue";
 import { expanded } from "./KuchenTeilen.ts";
-import { sector, fill } from "./BruchMath.ts";
+import { sector, fill, spoken } from "./BruchMath.ts";
 const props = defineProps<{
   beforeLabel: string;
   afterLabel: string;
@@ -12,6 +12,8 @@ const props = defineProps<{
 }>();
 const factor = ref(1);
 const result = computed(() => expanded(factor.value));
+import RichText from "./RichText.vue";
+import BruchZahl from "./BruchZahl.vue";
 </script>
 <template>
   <div class="cake-lab">
@@ -20,20 +22,20 @@ const result = computed(() => expanded(factor.value));
     /></label>
     <div class="cakes">
       <figure>
-        <svg viewBox="0 0 120 120" role="img" :aria-label="fill(imageLabel, { z: 2, n: 3 })">
+        <svg viewBox="0 0 120 120" role="img" :aria-label="spoken(fill(imageLabel, { z: 2, n: 3 }))">
           <path v-for="i in 3" :key="i" :d="sector(i - 1, 3)" :class="{ selected: i <= 2 }" />
         </svg>
-        <figcaption>{{ beforeLabel }}: 2/3</figcaption>
+        <figcaption>{{ beforeLabel }}: <BruchZahl :z="2" :n="3" /></figcaption>
       </figure>
       <figure>
-        <svg viewBox="0 0 120 120" role="img" :aria-label="fill(imageLabel, { z: result.z, n: result.n })">
+        <svg viewBox="0 0 120 120" role="img" :aria-label="spoken(fill(imageLabel, { z: result.z, n: result.n }))">
           <path v-for="i in result.n" :key="i" :d="sector(i - 1, result.n)" :class="{ selected: i <= result.z }" />
           <path v-for="i in 3" :key="`outline-${i}`" :d="sector(i - 1, 3)" class="original" />
         </svg>
-        <figcaption>{{ afterLabel }}: {{ result.z }}/{{ result.n }}</figcaption>
+        <figcaption>{{ afterLabel }}: <BruchZahl :z="result.z" :n="result.n" /></figcaption>
       </figure>
     </div>
-    <p aria-live="polite">{{ fill(explanation, { f: factor, z: result.z, n: result.n }) }}</p>
+    <p aria-live="polite"><RichText :text="fill(explanation, { f: factor, z: result.z, n: result.n })" /></p>
   </div>
 </template>
 <style scoped>

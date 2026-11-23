@@ -12,7 +12,7 @@ const props = defineProps<{
 defineOptions({ nojs: "caption" });
 const z = ref(props.stage === "mixed" ? 5 : 3);
 const n = ref(4);
-const total = computed(() => n.value * 2);
+const total = computed(() => n.value);
 </script>
 <template>
   <div class="explore">

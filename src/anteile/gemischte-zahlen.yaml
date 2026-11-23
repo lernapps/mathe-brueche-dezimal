@@ -52,7 +52,7 @@
                     },
                   "stage": "mixed",
                 },
-              "nojs": "Ein Streifen steht für ein Ganzes. Alle Streifen sind gleich groß und gleich unterteilt. Wählst du mehr Teile aus, als in einen Streifen passen, geht es im nächsten weiter. Lass den Nenner gleich und erhöhe den Zähler: Wann ist ein Streifen voll? Wie viele Teile bleiben im nächsten übrig? Die vollen Streifen ergeben die ganzen Zahlen, die übrigen Teile den Restbruch. In der Übung klickst du die gefragte Anzahl Teilstücke an. Mit erneutem Klicken entfernst du eine Markierung.\n\nIm Anfangsbild sind fünf Viertel ausgewählt: Ein Streifen mit vier Vierteln ist voll, im nächsten ist ein Viertel markiert. Das ist 1 Ganzes und 1/4, kurz 1 1/4.",
+              "nojs": "Ein Streifen steht für ein Ganzes. Alle Streifen sind gleich groß und gleich unterteilt. Wählst du mehr Teile aus, als in einen Streifen passen, geht es im nächsten weiter. Lass den Nenner gleich und erhöhe den Zähler: Wann ist ein Streifen voll? Wie viele Teile bleiben im nächsten übrig? Die vollen Streifen ergeben die ganzen Zahlen, die übrigen Teile den Restbruch. In der Übung klickst du die gefragte Anzahl Teilstücke an. Mit erneutem Klicken entfernst du eine Markierung.\n\nIm Anfangsbild sind fünf Viertel ausgewählt: Ein Streifen mit vier Vierteln ist voll, im nächsten ist ein Viertel markiert. Das ist 1 Ganzes und $\\frac{1}{4}$, kurz $1\\frac{1}{4}$.",
             },
             {
               "type": "note",
@@ -80,7 +80,7 @@
                 [
                   {
                     "type": "text",
-                    "text": "7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
+                    "text": "$\\frac{7}{3}$ sind zwei Ganze und ein Drittel: $2 + \\frac{1}{3}$. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
                   },
                 ],
             },
@@ -127,13 +127,13 @@
             {
               "type": "single-choice",
               "id": "verstehen",
-              "text": "Wie viele Ganze stecken in 7/3?",
+              "text": "Wie viele Ganze stecken in $\\frac{7}{3}$?",
               "options":
                 [
                   {
                     "text": "Zwei Ganze.",
                     "correct": true,
-                    "info": "7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
+                    "info": "$\\frac{7}{3}$ sind zwei Ganze und ein Drittel: $2 + \\frac{1}{3}$. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
                   },
                   {
                     "text": "Drei Ganze.",
@@ -146,14 +146,16 @@
                     "info": "Sieben Drittel sind sieben Teilstücke, nicht sieben Ganze.",
                   },
                 ],
-              "explanation": "7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
+              "explanation": "$\\frac{7}{3}$ sind zwei Ganze und ein Drittel: $2 + \\frac{1}{3}$. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
             },
             {
               "type": "generated",
               "id": "aufgaben",
               "given": { "n": { "oneOf": [2, 3, 4, 5, 6, 7] } },
               "task":
-                { "text": "Schreibe 2 + 1/{{n}} als unechten Bruch. Welcher Zähler gehört über den Nenner {{n}}?" },
+                {
+                  "text": "Schreibe $2 + \\frac{1}{{{n}}}$ als unechten Bruch. Welcher Zähler gehört über den Nenner {{n}}?",
+                },
               "answer": { "value": "2*n+1", "compare": "number" },
               "mistakes":
                 [

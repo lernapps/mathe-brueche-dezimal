@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, useId } from "vue";
 import { cakeSelection } from "./KuchenMultiplizieren.ts";
-import { sector, fill } from "./BruchMath.ts";
+import { sector, fill, spoken } from "./BruchMath.ts";
 defineOptions({ nojs: "caption" });
 const props = defineProps<{
   instruction: string;
@@ -20,6 +20,8 @@ function subdivide(value: number): void {
   d.value = value;
   b.value = value;
 }
+import RichText from "./RichText.vue";
+import BruchZahl from "./BruchZahl.vue";
 </script>
 <template>
   <div class="cake-product">
@@ -36,7 +38,7 @@ function subdivide(value: number): void {
     <label>{{ numeratorLabel }}: {{ b }}<input :key="d" v-model.number="b" type="range" min="0" :max="d" /></label>
     <div class="cakes">
       <figure>
-        <svg viewBox="0 0 120 120" role="img" :aria-label="fill(imageLabel, { z: 3, n: 4 })">
+        <svg viewBox="0 0 120 120" role="img" :aria-label="spoken(fill(imageLabel, { z: 3, n: 4 }))">
           <defs>
             <pattern :id="patternId" width="10" height="10" patternUnits="userSpaceOnUse">
               <rect width="10" height="10" fill="#16765d" />
@@ -55,10 +57,10 @@ function subdivide(value: number): void {
             :style="{ fill: i <= 3 ? `url(#${patternId})` : 'var(--page-background)' }"
           />
         </svg>
-        <figcaption>{{ beforeLabel }}: 3/4</figcaption>
+        <figcaption>{{ beforeLabel }}: <BruchZahl :z="3" :n="4" /></figcaption>
       </figure>
       <figure>
-        <svg viewBox="0 0 120 120" role="img" :aria-label="fill(imageLabel, { z: 3 * b, n: 4 * d })">
+        <svg viewBox="0 0 120 120" role="img" :aria-label="spoken(fill(imageLabel, { z: 3 * b, n: 4 * d }))">
           <path
             v-for="(selected, index) in selection"
             :key="index"
@@ -67,10 +69,10 @@ function subdivide(value: number): void {
           />
           <path v-for="i in 4" :key="`original-${i}`" :d="sector(i - 1, 4)" class="original" />
         </svg>
-        <figcaption>{{ afterLabel }}: {{ b }}/{{ d }} · 3/4</figcaption>
+        <figcaption>{{ afterLabel }}: <BruchZahl :z="b" :n="d" /> · <BruchZahl :z="3" :n="4" /></figcaption>
       </figure>
     </div>
-    <p aria-live="polite">{{ fill(resultLabel, { b, d, z: 3 * b, n: 4 * d }) }}</p>
+    <p aria-live="polite"><RichText :text="fill(resultLabel, { b, d, z: 3 * b, n: 4 * d })" /></p>
   </div>
 </template>
 <style scoped>
