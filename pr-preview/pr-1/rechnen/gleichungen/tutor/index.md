@@ -85,7 +85,7 @@ $x + \frac{1}{4} = \frac{3}{4}$. Also $x = \frac{3}{4} - \frac{1}{4} = \frac{2}{
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Ergänze: x/{n} + $\frac{1}{{n}} = 1$. Welchen Wert hat der Zähler x?“
+- Aufgabe: „Ergänze: $\frac{x}{{n}} + \frac{1}{{n}} = 1$. Welchen Wert hat der Zähler x?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Bei einer Gleichung soll links und rechts derselbe Wert stehen.“
 - Lösungsweg:

@@ -57,7 +57,7 @@ Interaktiv: Ein Bruch beschreibt einen Teil von einem Ganzen. In den Bildern ist
 
 **Merke: Was du dabei beobachten kannst**
 
-Ändere nur den Zähler: Was bleibt gleich, was ändert sich? Ändere nur den Nenner: Was passiert mit den Teilen? Machst du den Nenner kleiner als den Zähler, nimmt der Zähler mit: Du kannst nie mehr Teile auswählen, als das Ganze hat. Und das Ganze muss immer feststehen: Ein Viertel einer großen Pizza ist mehr als ein Viertel einer kleinen Pizza.
+Ändere nur den Zähler: Was bleibt gleich, was ändert sich? Ändere nur den Nenner: Was passiert mit den Teilen? Machst du den Nenner kleiner als den Zähler, nimmt der Zähler mit: In diesem Bild kannst du nie mehr Teile auswählen, als das Ganze hat. Und das Ganze muss immer feststehen: Ein Viertel einer großen Pizza ist mehr als ein Viertel einer kleinen Pizza.
 
 ### Am Beispiel nachvollziehen
 

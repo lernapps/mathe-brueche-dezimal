@@ -59,7 +59,7 @@ Gleiche Zahlen, andere Reihenfolge:
 
 **Merke: Was du dabei beobachten kannst**
 
-Klammern zuerst, dann Punktrechnung vor Strichrechnung. Addition und Multiplikation sind vertauschbar und dürfen umgruppiert werden. Das Distributivgesetz verteilt eine Multiplikation auf eine Summe: a · (b + c) = a · b + a · c. Diese Regeln gelten nicht entsprechend für Subtraktion und Division.
+Klammern zuerst, dann Punktrechnung vor Strichrechnung. Addition und Multiplikation sind vertauschbar und dürfen umgruppiert werden. Das Distributivgesetz verteilt eine Multiplikation auf eine Summe: a · (b + c) = a · b + a · c. Beim Subtrahieren und Dividieren darfst du die Zahlen nicht vertauschen oder umgruppieren: 8 − 3 ist nicht 3 − 8, und 12 : 4 ist nicht 4 : 12.
 
 ### Am Beispiel nachvollziehen
 

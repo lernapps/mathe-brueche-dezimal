@@ -69,11 +69,11 @@ Wenn du die Faktoren ausprobieren kannst, helfen diese Regeln, schneller einen p
 
 Teilbarkeitsregeln helfen beim Finden von Faktoren:
 - Teilbar durch | Woran du es erkennst
-- 2 | Letzte Ziffer 0, 2, 4, 6 oder 8
+- 2 | Die letzte Ziffer ist gerade
 - 5 | Letzte Ziffer 0 oder 5
 - 10 | Letzte Ziffer 0
 - 4 | Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl
-- 25 | Endung 00, 25, 50 oder 75
+- 25 | Die letzten beiden Ziffern sind 00 oder ein Vielfaches von 25
 - 100 | Endung 00
 - 3 | Quersumme durch 3 teilbar
 - 9 | Quersumme durch 9 teilbar
@@ -103,18 +103,18 @@ Jetzt bleiben nur Primzahlen übrig: 2, 2, 2 und 3. Du könntest auch mit 24 = 2
 - Aufgabe: Welche Zahl ist eine Primzahl?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 13 – 132 ist durch 3 teilbar, denn 1 + 3 + 2 = 6 ist durch 3 teilbar. Durch 4 ist sie ebenfalls teilbar, denn 32 ist durch 4 teilbar. 12 = 2 · 2 · 3 ist eine Primfaktorzerlegung.
+  - ✓ 13 – 13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler.
   - ✗ 1 – Die 1 hat nur einen positiven Teiler. Eine Primzahl braucht genau zwei.
   - ✗ 15 – 15 hat außer 1 und 15 auch die Teiler 3 und 5.
 - Lösung: 13
-- Erklärung: 132 ist durch 3 teilbar, denn 1 + 3 + 2 = 6 ist durch 3 teilbar. Durch 4 ist sie ebenfalls teilbar, denn 32 ist durch 4 teilbar. 12 = 2 · 2 · 3 ist eine Primfaktorzerlegung.
+- Erklärung: 13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
 - Aufgabe: „{e.dreifach} Gegenstände werden gleichmäßig auf 3 Gruppen verteilt. Wie viele sind in einer Gruppe?“
 - Antwortformat: eine Zahl eintippen
-- Tipp der App: „Eine Zahl ist durch 2 teilbar, wenn ihre letzte Ziffer gerade ist, durch 5 bei Endziffer 0 oder 5, durch 10 bei Endziffer 0.“
+- Tipp der App: „Verteile gleichmäßig: Teile die Anzahl durch 3. Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist.“
 - Lösungsweg:
   - Die {e.dreifach} Gegenstände werden auf drei gleich große Gruppen verteilt.
   - {e.dreifach} : 3 = {answer}. So viele Gegenstände liegen in jeder Gruppe.

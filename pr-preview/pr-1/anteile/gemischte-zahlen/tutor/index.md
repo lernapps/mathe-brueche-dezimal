@@ -45,7 +45,7 @@ Kann der Zähler größer als der Nenner sein? Baue mehrere Ganze aus gleich gro
 
 ### Eine ganze Pizza reicht nicht
 
-Eine Pizza reicht nicht immer. Was, wenn du eine ganze Pizza und noch ein halbes Stück einer zweiten meinst?
+Eine Pizza reicht nicht immer. Was, wenn du eine ganze Pizza und noch eine halbe zweite Pizza meinst?
 
 - **Gemischte Zahl**: Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch. Beide Teile werden addiert.
 

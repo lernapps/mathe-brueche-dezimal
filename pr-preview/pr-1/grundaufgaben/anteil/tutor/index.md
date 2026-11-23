@@ -47,7 +47,7 @@ Sechs von acht Plättchen sind markiert. Welcher Anteil ist das?
 
 Du kennst die Größe einer ganzen Menge und die Größe eines Teils davon. Wie kannst du mit einem Bruch ausdrücken, wie groß der Teil im Vergleich zum Ganzen ist?
 
-- **Anteil**: Der Anteil beschreibt das Verhältnis von Bruchteil zu Ganzem. Er ist eine Zahl, zum Beispiel drei Viertel.
+- **Anteil**: Der Anteil sagt, welcher Teil des Ganzen gemeint ist. Er ist eine Zahl, zum Beispiel drei Viertel. Du erhältst ihn, indem du den Bruchteil durch das Ganze teilst.
 
 ### Ausprobieren
 
@@ -90,19 +90,19 @@ Nr. | z (verdeckt) | n (verdeckt) | b (verdeckt) | d (verdeckt) | f (verdeckt) |
 3 | 1 | 5 | 1 | 3 | 2 | 25 | 5 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
 4 | 1 | 6 | 1 | 3 | 2 | 36 | 6 | $\frac{1}{6}$ | $\frac{7}{6}$ | Keine Eingabe
 5 | 2 | 3 | 1 | 4 | 2 | 6 | 4 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
-6 | 2 | 4 | 1 | 3 | 2 | 12 | 6 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+6 | 2 | 4 | 1 | 3 | 2 | 12 | 6 | $\frac{1}{2}$ | $\frac{6}{4}$ | Keine Eingabe
 7 | 2 | 5 | 1 | 3 | 2 | 20 | 8 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
-8 | 2 | 6 | 1 | 3 | 2 | 30 | 10 | $\frac{2}{6}$ | $\frac{8}{6}$ | Keine Eingabe
+8 | 2 | 6 | 1 | 3 | 2 | 30 | 10 | $\frac{1}{3}$ | $\frac{8}{6}$ | Keine Eingabe
 9 | 1 | 3 | 1 | 4 | 2 | 18 | 6 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
 10 | 3 | 4 | 1 | 3 | 2 | 8 | 6 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
 11 | 3 | 5 | 1 | 3 | 2 | 15 | 9 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
-12 | 3 | 6 | 1 | 3 | 2 | 24 | 12 | $\frac{3}{6}$ | $\frac{9}{6}$ | Keine Eingabe
+12 | 3 | 6 | 1 | 3 | 2 | 24 | 12 | $\frac{1}{2}$ | $\frac{9}{6}$ | Keine Eingabe
 13 | 2 | 3 | 1 | 4 | 2 | 15 | 10 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
 14 | 1 | 4 | 1 | 3 | 2 | 24 | 6 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
 15 | 4 | 5 | 1 | 3 | 2 | 10 | 8 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
-16 | 4 | 6 | 1 | 3 | 2 | 18 | 12 | $\frac{4}{6}$ | $\frac{10}{6}$ | Keine Eingabe
+16 | 4 | 6 | 1 | 3 | 2 | 18 | 12 | $\frac{2}{3}$ | $\frac{10}{6}$ | Keine Eingabe
 17 | 1 | 3 | 1 | 4 | 2 | 12 | 4 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
-18 | 2 | 4 | 1 | 3 | 2 | 20 | 10 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+18 | 2 | 4 | 1 | 3 | 2 | 20 | 10 | $\frac{1}{2}$ | $\frac{6}{4}$ | Keine Eingabe
 19 | 1 | 5 | 1 | 3 | 2 | 30 | 6 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
 20 | 5 | 6 | 1 | 3 | 2 | 12 | 10 | $\frac{5}{6}$ | $\frac{11}{6}$ | Keine Eingabe
 21 | 2 | 3 | 1 | 4 | 2 | 9 | 6 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
@@ -112,7 +112,7 @@ Nr. | z (verdeckt) | n (verdeckt) | b (verdeckt) | d (verdeckt) | f (verdeckt) |
 25 | 1 | 4 | 1 | 3 | 2 | 12 | 3 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
 26 | 3 | 5 | 1 | 3 | 2 | 20 | 12 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
 27 | 2 | 3 | 1 | 4 | 2 | 18 | 12 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
-28 | 2 | 4 | 1 | 3 | 2 | 8 | 4 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+28 | 2 | 4 | 1 | 3 | 2 | 8 | 4 | $\frac{1}{2}$ | $\frac{6}{4}$ | Keine Eingabe
 29 | 4 | 5 | 1 | 3 | 2 | 15 | 12 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
 30 | 1 | 3 | 1 | 4 | 2 | 15 | 5 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
 31 | 3 | 4 | 1 | 3 | 2 | 24 | 18 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
@@ -120,13 +120,13 @@ Nr. | z (verdeckt) | n (verdeckt) | b (verdeckt) | d (verdeckt) | f (verdeckt) |
 33 | 2 | 3 | 1 | 4 | 2 | 12 | 8 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
 34 | 1 | 4 | 1 | 3 | 2 | 20 | 5 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
 35 | 2 | 5 | 1 | 3 | 2 | 30 | 12 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
-36 | 2 | 4 | 1 | 3 | 2 | 16 | 8 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+36 | 2 | 4 | 1 | 3 | 2 | 16 | 8 | $\frac{1}{2}$ | $\frac{6}{4}$ | Keine Eingabe
 37 | 3 | 5 | 1 | 3 | 2 | 25 | 15 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
 38 | 3 | 4 | 1 | 3 | 2 | 12 | 9 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
 39 | 4 | 5 | 1 | 3 | 2 | 20 | 16 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
 40 | 1 | 4 | 1 | 3 | 2 | 8 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
 41 | 1 | 5 | 1 | 3 | 2 | 15 | 3 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
-42 | 2 | 4 | 1 | 3 | 2 | 24 | 12 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+42 | 2 | 4 | 1 | 3 | 2 | 24 | 12 | $\frac{1}{2}$ | $\frac{6}{4}$ | Keine Eingabe
 43 | 2 | 5 | 1 | 3 | 2 | 10 | 4 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
 44 | 3 | 4 | 1 | 3 | 2 | 20 | 15 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
 45 | 3 | 5 | 1 | 3 | 2 | 30 | 18 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe

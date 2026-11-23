@@ -63,7 +63,7 @@ Ordne die Angaben: Ganzes, Bruchteil oder Anteil. Entscheide dann, welche Rechnu
 
 **Beispiel: Schritt für Schritt**
 
-$\frac{3}{4}$ Liter Saft werden gleich auf zwei Gefäße verteilt: $\frac{3}{4} : 2 = \frac{3}{8}$ Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit $\frac{5}{20} = \frac{1}{4} = 25$ %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.
+$\frac{3}{4}$ Liter Saft werden gleich auf zwei Gefäße verteilt: $\frac{3}{4} : 2 = \frac{3}{8}$ Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit $\frac{5}{20} = \frac{1}{4} = 25$ %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.
 
 ### Üben
 

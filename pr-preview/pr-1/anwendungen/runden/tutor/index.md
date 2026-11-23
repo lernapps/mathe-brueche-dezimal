@@ -78,7 +78,7 @@ Bestimme zuerst die Rundungsstelle. Entscheidend ist die Ziffer direkt rechts da
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ 0,75 – 0,746 auf Hundertstel: Die Hundertstelziffer ist 4, danach steht 6. Daher wird auf 0,75 gerundet. 0,744 wird auf 0,74 gerundet.
   - ✗ 0,74 – Das schneidet die Tausendstelziffer ab. Eine 6 verlangt Aufrunden.
-  - ✗ 0,8 – Das wäre auf Zehntel gerundet. Gefragt sind Hundertstel.
+  - ✗ 0,8 – 0,8 bekommst du nur, wenn du doppelt rundest: 0,746 wird zu 0,75 und dann zu 0,8. Gerundet wird immer vom Ausgangswert aus. Auf Zehntel wäre es 0,7; gefragt sind aber Hundertstel.
 - Lösung: 0,75
 - Erklärung: 0,746 auf Hundertstel: Die Hundertstelziffer ist 4, danach steht 6. Daher wird auf 0,75 gerundet. 0,744 wird auf 0,74 gerundet.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
