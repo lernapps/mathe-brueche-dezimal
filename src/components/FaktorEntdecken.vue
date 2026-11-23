@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineOptions({ nojs: "caption" });
 import { computed, ref } from "vue";
-import { divisors, isPrime, split } from "./FaktorEntdecken.ts";
+import { factorPairs, isPrime, powers, split } from "./FaktorEntdecken.ts";
 import { fill } from "./BruchMath.ts";
 const props = defineProps<{
   numberLabel: string;
@@ -11,11 +11,14 @@ const props = defineProps<{
   primeLabel: string;
   finishedLabel: string;
   resetLabel: string;
+  powerLabel: string;
+  powerSpoken: string;
 }>();
 const number = ref(12);
 const leaves = ref<number[]>([12]);
 const selected = ref(0);
-const choices = computed(() => divisors(leaves.value[selected.value] ?? number.value));
+const choices = computed(() => factorPairs(leaves.value[selected.value] ?? number.value));
+const short = computed(() => powers(leaves.value));
 const finished = computed(() => leaves.value.every(isPrime));
 function reset(): void {
   leaves.value = [number.value];
@@ -51,12 +54,21 @@ function divide(factor: number): void {
     </p>
     <p v-if="choices.length">{{ splitLabel }}</p>
     <div class="choices">
-      <button v-for="factor in choices" :key="factor" type="button" @click="divide(factor)">
-        {{ factor }} · {{ (leaves[selected] ?? number) / factor }}
+      <button v-for="[factor, other] in choices" :key="factor" type="button" @click="divide(factor)">
+        {{ factor }} · {{ other }}
       </button>
     </div>
     <p v-if="choices.length === 0" aria-live="polite">{{ fill(primeLabel, { n: leaves[selected] ?? number }) }}</p>
     <p v-if="finished" aria-live="polite">{{ finishedLabel }}</p>
+    <p v-if="finished" class="powers">
+      {{ powerLabel }} {{ number }} =
+      <template v-for="(power, i) in short" :key="power.base"
+        ><span v-if="i > 0"> · </span
+        ><span :aria-label="fill(powerSpoken, { base: power.base, exponent: power.exponent })"
+          >{{ power.base }}<sup v-if="power.exponent > 1">{{ power.exponent }}</sup></span
+        ></template
+      >
+    </p>
     <p class="reset-actions">
       <button type="button" @click="reset">{{ resetLabel }}</button>
     </p>
