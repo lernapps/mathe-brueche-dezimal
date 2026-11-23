@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook. Never change it.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks. Never change it.
-failedChecks: { accessible: 2, checks-pass: 14 }
+failedChecks: { accessible: 2, checks-pass: 18 }
 ---
 
 # Increment: Bereinigung des Bestands nach den Mathe-Regeln (auf `work`, vor PR 1)
