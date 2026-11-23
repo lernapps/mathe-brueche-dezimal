@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+[
+  { "l": 36, "b": 48, "ggt": 12, "kgv": 144, "halb": 6, "rl": 3, "rb": 4 },
+  { "l": 60, "b": 45, "ggt": 15, "kgv": 180, "halb": 5, "rl": 4, "rb": 3 },
+  { "l": 48, "b": 72, "ggt": 24, "kgv": 144, "halb": 12, "rl": 2, "rb": 3 },
+  { "l": 84, "b": 60, "ggt": 12, "kgv": 420, "halb": 6, "rl": 7, "rb": 5 },
+  { "l": 90, "b": 120, "ggt": 30, "kgv": 360, "halb": 15, "rl": 3, "rb": 4 },
+  { "l": 80, "b": 100, "ggt": 20, "kgv": 400, "halb": 10, "rl": 4, "rb": 5 },
+  { "l": 72, "b": 96, "ggt": 24, "kgv": 288, "halb": 12, "rl": 3, "rb": 4 },
+  { "l": 45, "b": 75, "ggt": 15, "kgv": 225, "halb": 5, "rl": 3, "rb": 5 },
+]

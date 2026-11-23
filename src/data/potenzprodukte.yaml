@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+[
+  { "tex": "2³ · 3²", "wert": 72, "mal": 36, "summe": 17, "ausgeschrieben": "2 · 2 · 2 · 3 · 3" },
+  { "tex": "2² · 3²", "wert": 36, "mal": 24, "summe": 13, "ausgeschrieben": "2 · 2 · 3 · 3" },
+  { "tex": "2³ · 5", "wert": 40, "mal": 30, "summe": 13, "ausgeschrieben": "2 · 2 · 2 · 5" },
+  { "tex": "3² · 5", "wert": 45, "mal": 30, "summe": 14, "ausgeschrieben": "3 · 3 · 5" },
+  { "tex": "2⁴ · 3", "wert": 48, "mal": 24, "summe": 19, "ausgeschrieben": "2 · 2 · 2 · 2 · 3" },
+  { "tex": "2² · 5²", "wert": 100, "mal": 40, "summe": 29, "ausgeschrieben": "2 · 2 · 5 · 5" },
+  { "tex": "3² · 7", "wert": 63, "mal": 42, "summe": 16, "ausgeschrieben": "3 · 3 · 7" },
+  { "tex": "2³ · 7", "wert": 56, "mal": 42, "summe": 15, "ausgeschrieben": "2 · 2 · 2 · 7" },
+]

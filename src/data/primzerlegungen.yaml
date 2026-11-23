@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+[
+  { "zahl": 24, "p": 2, "e": 3, "gesamt": 4, "produkt": "2 · 2 · 2 · 3", "potenz": "2³ · 3" },
+  { "zahl": 40, "p": 2, "e": 3, "gesamt": 4, "produkt": "2 · 2 · 2 · 5", "potenz": "2³ · 5" },
+  { "zahl": 56, "p": 2, "e": 3, "gesamt": 4, "produkt": "2 · 2 · 2 · 7", "potenz": "2³ · 7" },
+  { "zahl": 90, "p": 3, "e": 2, "gesamt": 4, "produkt": "2 · 3 · 3 · 5", "potenz": "2 · 3² · 5" },
+  { "zahl": 126, "p": 3, "e": 2, "gesamt": 4, "produkt": "2 · 3 · 3 · 7", "potenz": "2 · 3² · 7" },
+  { "zahl": 252, "p": 3, "e": 2, "gesamt": 5, "produkt": "2 · 2 · 3 · 3 · 7", "potenz": "2² · 3² · 7" },
+  { "zahl": 50, "p": 5, "e": 2, "gesamt": 3, "produkt": "2 · 5 · 5", "potenz": "2 · 5²" },
+  { "zahl": 150, "p": 5, "e": 2, "gesamt": 4, "produkt": "2 · 3 · 5 · 5", "potenz": "2 · 3 · 5²" },
+  { "zahl": 98, "p": 7, "e": 2, "gesamt": 3, "produkt": "2 · 7 · 7", "potenz": "2 · 7²" },
+]
