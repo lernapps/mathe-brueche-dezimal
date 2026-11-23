@@ -1,132 +1,207 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
-{
-  "title": "Bruch und Dezimalzahl",
-  "competencies": ["dezimalbrueche"],
-  "description": "Ein Anteil kann verschiedene Schreibweisen haben. Wie passen Viertel zu Hundertsteln?",
-  "scope": "Zehntel, Hundertstel und Tausendstel gehören zu den Stellen nach dem Komma. 3/4 = 75/100 = 0,75. Allgemein kannst du den Zähler durch den Nenner teilen. Die Division endet oder wird periodisch. Bei vollständig gekürzten Brüchen endet sie genau dann, wenn der Nenner nur Primfaktoren 2 und 5 enthält. 1/8 = 0,125. Bei 1/3 wiederholt sich die 3 ohne Ende: 0,333… . Das ist nicht genau 0,33; 0,33 ist nur eine Näherung. Einfache Prozentangaben sind Hundertstel: 25 % = 25/100 = 1/4.",
-  "blocks":
-    [
-      {
-        "type": "section",
-        "id": "regel",
-        "title": "Ein halber Liter oder 0,5 Liter?",
-        "blocks":
-          [
-            {
-              "type": "text",
-              "text": "Auf einem Messbecher steht vielleicht 0,5 Liter statt ein halber Liter. Beide Schreibweisen können dieselbe Menge beschreiben.",
-            },
-            {
-              "type": "definition",
-              "term": "Dezimalzahl",
-              "explanation": "Bei einer Dezimalzahl benennt jede Stelle nach dem Komma kleinere Teile eines Ganzen: Zehntel, Hundertstel, Tausendstel und so weiter.",
-            },
-          ],
-      },
-      {
-        "type": "section",
-        "id": "entdecken",
-        "title": "Anschaulich erklärt",
-        "blocks":
-          [
-            {
-              "type": "text",
-              "text": "Ein Bruch und eine Dezimalzahl können denselben Anteil beschreiben. Stell dir ein Quadrat aus 100 gleich großen Kästchen vor. Teile es in vier gleich große Gruppen und markiere drei Gruppen: Das sind drei Viertel. Überlege, wie viele Hundertstelkästchen dazu gehören. Die Tabelle zeigt die beiden Schreibweisen nebeneinander. Bei eigenen Brüchen kannst du auf Zehntel oder Hundertstel erweitern oder den Zähler durch den Nenner teilen. Trage bei der Übung die ausdrücklich gefragte Zahl ein.",
-            },
-            {
-              "type": "figure",
-              "draw": { "kind": "hundred-grid", "filled": 75 },
-              "alt": "Ein Quadrat aus zehn Zeilen und zehn Spalten enthält 100 gleich große Kästchen. 75 davon sind gefüllt. Das sind drei Viertel des Quadrats.",
-              "caption": "Drei Viertel desselben Ganzen: 75 von 100 Kästchen.",
-            },
-            {
-              "type": "table",
-              "caption": "Derselbe Anteil in drei Schreibweisen",
-              "header": ["Viertel", "Hundertstel", "Dezimalzahl"],
-              "rows": [["$\\frac{3}{4}$", "$\\frac{75}{100}$", "0,75"]],
-            },
-            {
-              "type": "note",
-              "title": "Was du dabei beobachten kannst",
-              "blocks":
-                [
-                  {
-                    "type": "text",
-                    "text": "Zehntel, Hundertstel und Tausendstel gehören zu den Stellen nach dem Komma. $\\frac{3}{4} = \\frac{75}{100} = 0{,}75$. Allgemein kannst du den Zähler durch den Nenner teilen. Die Division endet oder wird periodisch. Bei vollständig gekürzten Brüchen endet sie genau dann, wenn der Nenner nur Primfaktoren 2 und 5 enthält.",
-                  },
-                ],
-            },
-          ],
-      },
-      {
-        "type": "section",
-        "id": "beispiel",
-        "title": "Am Beispiel nachvollziehen",
-        "blocks":
-          [
-            {
-              "type": "example",
-              "title": "Schritt für Schritt",
-              "blocks":
-                [
-                  {
-                    "type": "text",
-                    "text": "$\\frac{1}{8} = 0{,}125$. Bei $\\frac{1}{3}$ wiederholt sich die 3 ohne Ende: 0,333… . Das ist nicht genau 0,33; 0,33 ist nur eine Näherung. Einfache Prozentangaben sind Hundertstel: 25 % = $\\frac{25}{100} = \\frac{1}{4}$.",
-                  },
-                ],
-            },
-          ],
-      },
-      {
-        "type": "section",
-        "id": "ueben",
-        "title": "Üben",
-        "blocks":
-          [
-            {
-              "type": "single-choice",
-              "id": "verstehen",
-              "text": "Welche Gleichheit stimmt genau?",
-              "options":
-                [
-                  {
-                    "text": "$\\frac{3}{4} = 0{,}75$",
-                    "correct": true,
-                    "info": "$\\frac{1}{8} = 0{,}125$. Bei $\\frac{1}{3}$ wiederholt sich die 3 ohne Ende: 0,333… . Das ist nicht genau 0,33; 0,33 ist nur eine Näherung. Einfache Prozentangaben sind Hundertstel: 25 % = $\\frac{25}{100} = \\frac{1}{4}$.",
-                  },
-                  {
-                    "text": "$\\frac{1}{3} = 0{,}33$",
-                    "correct": false,
-                    "info": "0,33 endet nach zwei Stellen. Bei einem Drittel wiederholt sich die 3 ohne Ende.",
-                  },
-                  {
-                    "text": "$\\frac{1}{8} = 0{,}18$",
-                    "correct": false,
-                    "info": "Ein Achtel bedeutet 1 geteilt durch 8, nicht das Aneinanderhängen beider Ziffern.",
-                  },
-                ],
-              "explanation": "$\\frac{1}{8} = 0{,}125$. Bei $\\frac{1}{3}$ wiederholt sich die 3 ohne Ende: 0,333… . Das ist nicht genau 0,33; 0,33 ist nur eine Näherung. Einfache Prozentangaben sind Hundertstel: 25 % = $\\frac{25}{100} = \\frac{1}{4}$.",
-            },
-            {
-              "type": "generated",
-              "id": "aufgaben",
-              "given": { "n": { "oneOf": [3, 4, 5, 6, 8, 10] } },
-              "task": { "text": "Schreibe $\\frac{{{n}}}{10}$ als Dezimalzahl." },
-              "answer": { "value": "n/10", "compare": "number" },
-              "mistakes":
-                [
-                  { "value": "n", "message": "Du hast noch nicht durch 10 geteilt." },
-                  { "value": "n/100", "message": "Zehntel sind nicht Hundertstel. Prüfe die Stelle nach dem Komma." },
-                ],
-              "hint": "Zehntel, Hundertstel und Tausendstel gehören zu den Stellen nach dem Komma.",
-              "steps":
-                [
-                  "Beim Teilen durch 10 rückt jede Ziffer eine Stelle nach rechts in der Stellenwerttafel.",
-                  "{{n}} Zehntel sind als Dezimalzahl {{answer}}.",
-                ],
-              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
-            },
-          ],
-      },
-    ],
-}
+title: Bruch und Dezimalzahl
+competencies: [dezimalbrueche]
+description: Einen Bruch als Dezimalzahl schreiben, mit Stellenwerttafel, Zahlenstrahl mit Lupe, Erweitern und schriftlichem Teilen.
+scope: 'Ein Bruch lässt sich als Dezimalzahl schreiben. Zehntel, Hundertstel und Tausendstel sind die Stellen rechts vom Komma, die Stellenwerttafel zeigt sie, und zehn Hundertstel werden zu einem Zehntel gebündelt. Auf dem Zahlenstrahl von 0 bis 1 vergrößert die Lupe einen Abschnitt auf das Zehnfache. Zwei Wege vom Bruch zur Dezimalzahl, zum Beispiel 3/4 = 75/100 = 0,75 durch Erweitern auf den Nenner 10, 100 oder 1000 und 3/8 = 3 : 8 = 0,375 durch schriftliches Teilen. Brüche, bei denen das Teilen nie endet wie 1/3, gehören zur Seite "periode". Prozent gehört nicht zu dieser Seite.'
+blocks:
+  - type: section
+    id: regel
+    title: Ein halber Liter oder 0,5 Liter?
+    blocks:
+      - type: text
+        text: |-
+          Auf einem Messbecher steht 0,5 Liter. Das ist dieselbe Menge wie ein halber Liter. Stell dir 1 Liter in 10 gleiche Teile geteilt vor. Jedes Teil ist ein **Zehntel**, also $\frac{1}{10}$. Bei 100 gleichen Teilen heißt jedes ein **Hundertstel** ($\frac{1}{100}$), bei 1000 ein **Tausendstel** ($\frac{1}{1000}$). Fünf Zehntel schreibst du als 0,5.
+      - type: definition
+        term: Dezimalzahl
+        explanation: Eine Dezimalzahl schreibt Ganze und Teile eines Ganzen nebeneinander. Das Komma trennt die Ganzen von den Teilen. Rechts vom Komma stehen zuerst die Zehntel, dann die Hundertstel, dann die Tausendstel.
+      - type: text
+        text: |-
+          Jede Ziffer hat einen festen Platz, ihren **Stellenwert**. Die Stellenwerttafel zeigt die Plätze. Links vom Komma steht E für Einer. Rechts vom Komma stehen z für Zehntel, h für Hundertstel und t für Tausendstel. Die Ziffern rechts vom Komma heißen Stellen nach dem Komma.
+      - type: table
+        caption: Die Plätze der Stellenwerttafel, hier untereinander, mit den Zahlen 0,375 und 2,408
+        header: [Platz, "0,375", "2,408"]
+        rowHeaders: true
+        rows:
+          - [E Einer, "0", "2"]
+          - [Komma, ",", ","]
+          - [z Zehntel, "3", "4"]
+          - [h Hundertstel, "7", "0"]
+          - [t Tausendstel, "5", "8"]
+      - type: text
+        text: |-
+          Die erste Zahl liest du so: 0 Einer, 3 Zehntel, 7 Hundertstel und 5 Tausendstel. Sie hat drei Stellen nach dem Komma.
+  - type: section
+    id: entdecken
+    title: Ausprobieren
+    blocks:
+      - type: text
+        text: |-
+          Hier liegen 13 Plättchen in der Spalte der Hundertstel. Drücke „Bündeln“: Zehn Hundertstel werden zu einem Zehntel. Die Zahl unter der Tafel zeigt, was gleich bleibt. „Neu anfangen“ legt die Plättchen zurück.
+      - type: vue-component
+        component: StellenwertBuendeln
+        props:
+          e: 0
+          z: 0
+          h: 13
+          t: 0
+          einer: E Einer
+          zehntel: z Zehntel
+          hundertstel: h Hundertstel
+          tausendstel: t Tausendstel
+          komma: Komma
+          bundleText: Bündeln
+          becomesText: werden
+          resetText: Neu anfangen
+          numberText: "Die Zahl unter der Tafel:"
+        nojs: |-
+          Die Stellenwerttafel hat die Spalten E (Einer), Komma, z (Zehntel), h (Hundertstel) und t (Tausendstel). Jedes Plättchen steht für eine Einheit seiner Spalte. Am Anfang liegen 13 Plättchen in der Spalte h. Die Zahl unter der Tafel ist 0,13. Mit „Bündeln“ werden zehn Plättchen einer Spalte zu einem Plättchen der Spalte links davon: 10 h werden 1 z. Danach liegen 1 Plättchen in z und 3 in h. Die Zahl unter der Tafel bleibt 0,13.
+      - type: note
+        title: Was du dabei beobachten kannst
+        blocks:
+          - type: text
+            text: |-
+              Zehn Hundertstel sind ein Zehntel, denn $\frac{10}{100} = \frac{1}{10}$. Nur die Plättchen wandern, die Zahl bleibt gleich: 13 Hundertstel sind 1 Zehntel und 3 Hundertstel, also 0,13.
+      - type: text
+        text: |-
+          Dasselbe zeigt der Zahlenstrahl. Zwischen 0 und 1 liegen die Zehntel, also 0,1 bis 0,9. Eine Lupe vergrößert einen Abschnitt auf das Zehnfache: Aus einem Zehntel-Abschnitt werden zehn Hundertstel-Abschnitte.
+      - type: figure
+        image: images/zahlenstrahl-lupe.svg
+        source: eigene Zeichnung
+        licence: MIT
+        alt: Ein Zahlenstrahl von 0 bis 1, jeder Zehntel-Abschnitt ist beschriftet. Der Abschnitt von 0,3 bis 0,4 ist grün umrandet. Darunter ist dieser Abschnitt auf das Zehnfache vergrößert und in zehn gleiche Teile von 0,30 bis 0,40 geteilt. Ein Punkt liegt bei 0,37.
+        caption: Die Lupe vergrößert den Abschnitt von 0,3 bis 0,4 auf das Zehnfache. Der grüne Punkt liegt bei 0,37, das sind 7 Hundertstel nach 0,3.
+  - type: section
+    id: beispiel
+    title: Am Beispiel nachvollziehen
+    blocks:
+      - type: example
+        title: Erweitern auf Hundertstel
+        blocks:
+          - type: text
+            text: |-
+              Du willst $\frac{3}{4}$ als Dezimalzahl schreiben. Hundertstel haben zwei Stellen nach dem Komma. Wegen 4 · 25 = 100 erweiterst du mit 25:
+          - type: formula
+            formula: '\frac{3}{4} = \frac{3 \cdot 25}{4 \cdot 25} = \frac{75}{100} = 0{,}75'
+          - type: figure
+            draw: { kind: hundred-grid, filled: 75 }
+            alt: Ein Quadrat aus zehn Zeilen und zehn Spalten mit 100 gleich großen Kästchen. 75 davon sind gefüllt. Das sind drei Viertel des Quadrats.
+            caption: Drei Viertel desselben Ganzen sind 75 von 100 Kästchen, also 75 Hundertstel.
+      - type: example
+        title: Schriftlich teilen
+        blocks:
+          - type: text
+            text: |-
+              Für $\frac{3}{8}$ gibt es keine Zahl, die 8 zu 10, 100 oder 1000 macht. Dann teilst du, denn der Bruchstrich bedeutet „geteilt durch“. $\frac{3}{8}$ ist also 3 : 8. Du schreibst 3 als 3,000 und teilst Stelle für Stelle. Was übrig bleibt, heißt Rest.
+          - type: table
+            caption: "Die Rechnung 3 : 8 Stelle für Stelle"
+            header: [Stelle, Rechnung, Rest]
+            rowHeaders: true
+            rows:
+              - [Einer, "3 : 8 = 0", "3"]
+              - [Zehntel, "30 : 8 = 3", "6"]
+              - [Hundertstel, "60 : 8 = 7", "4"]
+              - [Tausendstel, "40 : 8 = 5", "0"]
+          - type: text
+            text: |-
+              Die Ergebnisziffern 0, 3, 7 und 5 stehen hinter dem Komma. Der Rest ist 0, die Rechnung ist zu Ende:
+          - type: formula
+            formula: '\frac{3}{8} = 3 : 8 = 0{,}375'
+      - type: text
+        text: |-
+          Diese Brüche solltest du kennen.
+      - type: table
+        caption: Wichtige Brüche und ihre Dezimalzahlen
+        header: [Bruch, Erweitert, Dezimalzahl]
+        rows:
+          - ["$\\frac{1}{2}$", "$\\frac{5}{10}$", "0,5"]
+          - ["$\\frac{1}{5}$", "$\\frac{2}{10}$", "0,2"]
+          - ["$\\frac{1}{4}$", "$\\frac{25}{100}$", "0,25"]
+          - ["$\\frac{1}{20}$", "$\\frac{5}{100}$", "0,05"]
+          - ["$\\frac{1}{8}$", "$\\frac{125}{1000}$", "0,125"]
+      - type: note
+        title: Geht das immer?
+        blocks:
+          - type: text
+            text: |-
+              Bei $\frac{1}{3}$ wird der Rest nie 0, das Teilen hört nicht auf. Wie du damit umgehst, lernst du auf der [nächsten Seite](/anwendungen/periode/).
+  - type: section
+    id: ueben
+    title: Üben
+    blocks:
+      - type: single-choice
+        id: verstehen
+        text: Welche Dezimalzahl gehört zu $\frac{7}{100}$?
+        options:
+          - text: "0,07"
+            correct: true
+            info: "7 Hundertstel haben zwei Stellen nach dem Komma. Die 7 steht an der Stelle der Hundertstel: 0,07."
+          - text: "0,7"
+            correct: false
+            info: "0,7 sind 7 Zehntel, also $\\frac{7}{10}$. Bei $\\frac{7}{100}$ steht die 7 eine Stelle weiter rechts."
+          - text: "7,100"
+            correct: false
+            info: "Der Nenner wird nicht hinter das Komma geschrieben. Er sagt nur, in wie viele gleiche Teile das Ganze geteilt ist."
+        explanation: "Der Nenner 100 heißt Hundertstel, und Hundertstel stehen an der zweiten Stelle nach dem Komma. So wird aus $\\frac{7}{100}$ die Zahl 0,07."
+      - type: generated
+        id: aufgaben
+        given:
+          n: { oneOf: [1, 3, 7, 9, 21, 37, 49, 63, 87, 91] }
+          d: { oneOf: [10, 100] }
+        where: ["n < d"]
+        task:
+          text: "Schreibe $\\frac{{{n}}}{{{d}}}$ als Dezimalzahl."
+        answer: { value: "n / d", compare: { number: { format: decimal, decimals: 2 } } }
+        mistakes:
+          - value: "n / (d * 10)"
+            message: "Das Komma steht eine Stelle zu weit links. Zähle die Nullen im Nenner {{d}}: So viele Stellen stehen nach dem Komma."
+          - value: "n * 10 / d"
+            message: "Das Komma steht eine Stelle zu weit rechts. Zähle die Nullen im Nenner {{d}}: So viele Stellen stehen nach dem Komma."
+        hint: Zehntel haben eine Stelle nach dem Komma, Hundertstel haben zwei.
+        steps:
+          - "Der Nenner {{d}} sagt, wie viele Stellen nach dem Komma stehen: bei 10 eine, bei 100 zwei."
+          - "$\\frac{{{n}}}{{{d}}}$ ist als Dezimalzahl {{answer}}."
+        examples: { accepted: [answer], rejected: [answer + 1] }
+      - type: generated
+        id: erweitern
+        given:
+          e: { pick: 1, from: { data: erweiterndezimal } }
+        task:
+          text: "Erweitere $\\frac{{{e.z}}}{{{e.n}}}$ mit {{e.faktor}} auf den Nenner {{e.nn}}. Wie heißt die Dezimalzahl?"
+        answer: { value: "e.z / e.n", compare: { number: { format: decimal, decimals: 2 } } }
+        mistakes:
+          - value: "e.z / e.nn"
+            message: "Beim Erweitern musst du auch den Zähler mit {{e.faktor}} malnehmen, nicht nur den Nenner."
+          - value: "e.zn / (e.nn * 10)"
+            message: "Das Komma steht eine Stelle zu weit links. Der Nenner {{e.nn}} sagt, wie viele Stellen nach dem Komma stehen."
+          - value: "e.zn"
+            message: "Das ist der Zähler des erweiterten Bruchs. Die Dezimalzahl hat Stellen nach dem Komma: Zähle die Nullen im Nenner {{e.nn}}."
+        hint: "Multipliziere Zähler und Nenner mit {{e.faktor}}. Dann steht im Nenner {{e.nn}}."
+        steps:
+          - "Zähler und Nenner mit {{e.faktor}} malnehmen: $\\frac{{{e.z}}}{{{e.n}}} = \\frac{{{e.z}} \\cdot {{e.faktor}}}{{{e.n}} \\cdot {{e.faktor}}} = \\frac{{{e.zn}}}{{{e.nn}}}$."
+          - "Der Nenner {{e.nn}} gibt die Stellen nach dem Komma an. Die Dezimalzahl ist {{e.dez}}."
+      - type: generated
+        id: teilen
+        given:
+          e: { pick: 1, from: { data: teilendezimal } }
+        task:
+          text: "Schreibe $\\frac{{{e.z}}}{{{e.n}}}$ als Dezimalzahl. Du kannst erweitern oder schriftlich teilen."
+        answer: { value: "e.z / e.n", compare: { number: { format: decimal, decimals: 3 } } }
+        mistakes:
+          - value: "e.n / e.z"
+            message: "Du hast den Nenner durch den Zähler geteilt. Der Bruchstrich heißt: Zähler geteilt durch Nenner."
+          - value: "e.z / e.n / 10"
+            message: "Das Komma steht eine Stelle zu weit links. Prüfe mit der Rechnung: Der Rest muss am Ende 0 sein."
+        hint: "Rechne {{e.z}} : {{e.n}} schriftlich und hänge an die {{e.z}} Nullen nach dem Komma an. Oder erweitere auf den Nenner 10, 100 oder 1000."
+        steps:
+          - "Der Bruch bedeutet {{e.z}} : {{e.n}}. Teile Stelle für Stelle, bis der Rest 0 ist."
+          - "$\\frac{{{e.z}}}{{{e.n}}}$ ist als Dezimalzahl {{e.dez}}."
+      - type: matching
+        id: zuordnen
+        text: Ordne jedem Bruch seine Dezimalzahl zu.
+        pairs:
+          - { left: Ein Fünftel, right: "0,2" }
+          - { left: Drei Viertel, right: "0,75" }
+          - { left: Ein Achtel, right: "0,125" }
+          - { left: Ein Zwanzigstel, right: "0,05" }
+        distractors: ["0,25"]
+        explanation: "Erweitere oder teile: $\\frac{1}{5} = \\frac{2}{10}$, $\\frac{3}{4} = \\frac{75}{100}$, $\\frac{1}{8} = 1 : 8 = 0{,}125$ und $\\frac{1}{20} = \\frac{5}{100}$."
