@@ -1,23 +1,88 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
-  "title": "Das brauchst du hier",
-  "description": "Was du über natürliche Zahlen schon können solltest, bevor es um Brüche geht.",
+  "title": "Das brauchst du für dieses Kapitel",
+  "description": "Was du über natürliche Zahlen können solltest, bevor es um Brüche geht: mit Begriffen, Beispiel und Selbsttest.",
   "recap": "mathematik/natuerliche-zahlen",
-  "scope": "Natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen als Voraussetzung für Brüche.",
+  "scope": "Wiederholung der natürlichen Zahlen im Stellenwertsystem (Stellenwert, Ziffer) als Voraussetzung für Brüche, mit Selbsttest.",
   "blocks":
     [
       {
         "type": "text",
-        "text": "Gleich geht es um Brüche. Dafür musst du natürliche Zahlen sicher lesen und schreiben. Prüfe dich selbst, ohne etwas einzutippen.",
-      },
-      { "type": "text", "text": "Ich kann natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen." },
-      {
-        "type": "text",
-        "text": "In der Zahl 4305 steht die 4 an der Tausenderstelle: vier Tausender, also 4000. Die 3 steht bei den Hundertern, also 300. An der Zehnerstelle steht eine 0, es gibt also keine Zehner. Die 5 sind fünf Einer. Antworte in Gedanken: Wie liest du 4305? Wie schreibst du 6 Tausender, 2 Zehner und 9 Einer? (Zur Kontrolle: viertausenddreihundertfünf und 6029.)",
+        "text": "Dieses Kapitel beginnt mit Brüchen. Dafür musst du natürliche Zahlen sicher lesen und schreiben. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben. Rechne sie und lies die Rückmeldung: So merkst du, ob du bereit bist.",
       },
       {
-        "type": "text",
-        "text": "Hast du beides sicher? Dann geht es mit Brüchen los. Sonst übe das Lesen und Schreiben großer Zahlen noch einmal, bevor du weitermachst.",
+        "type": "section",
+        "id": "natuerliche-zahlen",
+        "title": "Natürliche Zahlen im Stellenwertsystem",
+        "blocks":
+          [
+            {
+              "type": "definition",
+              "term": "Ziffer",
+              "explanation": "Eine **Ziffer** ist eines der Zeichen 0 bis 9. Die Zahl 4305 hat vier Ziffern: 4, 3, 0 und 5.",
+            },
+            {
+              "type": "definition",
+              "term": "Stellenwert",
+              "explanation": "Der **Stellenwert** sagt, wie viel eine Ziffer an ihrem Platz wert ist. In 4305 steht die 3 an der Hunderterstelle: Sie ist 300 wert.",
+            },
+            {
+              "type": "example",
+              "title": "Eine Zahl auseinanderlegen",
+              "blocks":
+                [
+                  { "type": "formula", "formula": "4305 = 4 \\cdot 1000 + 3 \\cdot 100 + 0 \\cdot 10 + 5 \\cdot 1" },
+                  {
+                    "type": "text",
+                    "text": "Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz frei, damit die anderen Ziffern ihren Stellenwert behalten.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.",
+            },
+            { "type": "text", "text": "**Aufgabe 1:** Welchen Wert hat die 3 in der Zahl 4305?" },
+            {
+              "type": "note",
+              "title": "Lösung 1",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "**Ergebnis: 300.** Die 3 steht an der Hunderterstelle: 3 · 100 = 300. Wer 3 oder 30 geantwortet hat, hat den Stellenwert nicht beachtet.",
+                  },
+                ],
+            },
+            { "type": "text", "text": "**Aufgabe 2:** Wie lautet die Zahl aus 6 Tausendern, 2 Zehnern und 9 Einern?" },
+            {
+              "type": "note",
+              "title": "Lösung 2",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "**Ergebnis: 6029.** 6 · 1000 + 2 · 10 + 9 = 6029. An der Hunderterstelle steht eine 0, weil es keine Hunderter gibt.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Natürliche Zahlen im Stellenwertsystem“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/). Übe danach die Kurzaufgaben noch einmal.",
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "bereit",
+        "title": "Du bist bereit, wenn du …",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "- natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen kannst\n- den Stellenwert einer Ziffer nennen kannst",
+            },
+          ],
       },
     ],
 }

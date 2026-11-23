@@ -1,0 +1,58 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+{
+  "title": "Das brauchst du für dieses Kapitel",
+  "description": "Klammern, Vorrangregeln und das Distributivgesetz, die du für Rechnungen mit mehreren Schritten brauchst: Kurzwiederholung mit Selbsttest.",
+  "recap": "mathematik/grundrechenarten-rechengesetze",
+  "scope": "Kurze Wiederholung von Klammern, Vorrangregeln und Distributivgesetz als Voraussetzung für Rechnungen mit Brüchen in mehreren Schritten, mit Selbsttest.",
+  "blocks":
+    [
+      {
+        "type": "text",
+        "text": "Auf der Seite „Rechenregeln und Klammern“ rechnest du Brüche in mehreren Schritten. Dafür brauchst du dieselben Regeln wie bei natürlichen Zahlen. Hier ist die Kurzfassung mit einem Selbsttest.",
+      },
+      {
+        "type": "section",
+        "id": "rechengesetze-kurz",
+        "title": "Vorrangregeln und Rechengesetze",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "**Klammern** gehen zuerst, dann kommt die **Punktrechnung** vor der **Strichrechnung**. Das **Distributivgesetz** verteilt eine Zahl auf die Summanden einer Klammer: $4 \\cdot (2 + 3) = 4 \\cdot 2 + 4 \\cdot 3 = 20$.",
+            },
+            {
+              "type": "text",
+              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.",
+            },
+            { "type": "text", "text": "**Aufgabe 1:** Was ergibt $(2 + 3) \\cdot 4$?" },
+            {
+              "type": "note",
+              "title": "Lösung 1",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "**Ergebnis: 20.** Die Klammer geht zuerst: 2 + 3 = 5, dann 5 · 4 = 20. Wer 14 hat, hat zuerst malgenommen: 2 + 3 · 4.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Vorrangregeln und Rechengesetze“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/). Übe danach die Kurzaufgaben noch einmal.",
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "bereit",
+        "title": "Du bist bereit, wenn du …",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "- Klammern und Vorrangregeln beachten kannst\n- das Distributivgesetz anwenden kannst",
+            },
+          ],
+      },
+    ],
+}

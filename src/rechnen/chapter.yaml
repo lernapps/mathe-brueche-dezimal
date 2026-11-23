@@ -2,5 +2,5 @@
 {
   "title": "Mit Brüchen rechnen",
   "summary": "Du lernst vier Arten, mit Brüchen zu rechnen: Anteile zusammenlegen, etwas wegnehmen, einen Teil von einem Teil nehmen und prüfen, wie oft ein Stück hineinpasst. Danach löst du Rechnungen mit mehreren Schritten und findest fehlende Zahlen. Bilder helfen dir zu verstehen, warum die Rechenregeln funktionieren.",
-  "pages": ["plus-minus", "multiplizieren", "dividieren", "terme", "gleichungen"],
+  "pages": ["recap", "plus-minus", "multiplizieren", "dividieren", "terme", "gleichungen"],
 }

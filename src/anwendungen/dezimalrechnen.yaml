@@ -17,9 +17,8 @@
               "text": "Du hast 0,75 Euro und bekommst 0,50 Euro dazu. Beim Zusammenlegen rechnest du Euro zu Euro und Cent zu Cent. Beim Ausgeben nimmst du solche Beträge wieder weg. Bei Dezimalzahlen helfen dir dafür die Stellenwerte: Ganze, Zehntel, Hundertstel.",
             },
             {
-              "type": "definition",
-              "term": "Stellenwert",
-              "explanation": "Der Stellenwert sagt, ob eine Ziffer Einer, Zehntel, Hundertstel oder eine andere Zehnerpotenz zählt.",
+              "type": "text",
+              "text": "Der Stellenwert sagt, ob eine Ziffer Einer, Zehntel, Hundertstel oder eine andere Zehnerpotenz zählt.",
             },
           ],
       },
