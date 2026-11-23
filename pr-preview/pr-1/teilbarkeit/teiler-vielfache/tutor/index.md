@@ -61,7 +61,7 @@ Interaktiv: Jetzt siehst du zwei gleich lange Streifen: Jeder ist ein Ganzes. De
 
 **Beispiel: Schritt für Schritt**
 
-Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ggT = 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also kgV(4,6) = 12.
+Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ist der größte gemeinsame Teiler (ggT) 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also ist das kleinste gemeinsame Vielfache (kgV) von 4 und 6 gleich 12.
 
 ### Üben
 
@@ -74,11 +74,11 @@ Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ggT = 6
 - Aufgabe: Was ist das kgV von 4 und 6?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 12 – Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ggT = 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also kgV(4,6) = 12.
+  - ✓ 12 – Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ist der größte gemeinsame Teiler (ggT) 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also ist das kleinste gemeinsame Vielfache (kgV) von 4 und 6 gleich 12.
   - ✗ 2 – 2 ist der größte gemeinsame Teiler, aber kein Vielfaches von 4 und 6.
   - ✗ 24 – 24 ist ein gemeinsames Vielfaches, aber 12 ist kleiner und ebenfalls gemeinsam.
 - Lösung: 12
-- Erklärung: Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ggT = 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also kgV(4,6) = 12.
+- Erklärung: Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ist der größte gemeinsame Teiler (ggT) 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also ist das kleinste gemeinsame Vielfache (kgV) von 4 und 6 gleich 12.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben

@@ -18,7 +18,7 @@ Teile jede Einheit in so viele gleich große **Abstände**, wie der Nenner angib
 
 ### Mehr als ein Ganzes
 
-Ein unechter Bruch hat mindestens den Wert 1. Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch. Beim Umwandeln teilst du den Zähler durch den Nenner: Ganze plus Rest. 7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.
+Ein unechter Bruch hat den Wert 1 oder mehr: Sein Zähler ist mindestens so groß wie sein Nenner. Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch, also einem Bruch, der kleiner als 1 ist. Beim Umwandeln teilst du den Zähler durch den Nenner: Ganze plus Rest. 7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.
 
 ## Teilbarkeit nutzen
 
@@ -32,7 +32,7 @@ Faktor und Produkt an Reihen von Bauklötzen erläutern. Zusammengesetzte Zahlen
 
 ### Gemeinsame Teiler und Vielfache
 
-Teiler teilen eine Zahl ohne Rest. Vielfache entstehen durch Multiplikation mit natürlichen Zahlen. Der ggT ist der größte gemeinsame positive Teiler. Das kgV ist das kleinste gemeinsame positive Vielfache. Bei Brüchen hilft der ggT beim Kürzen und das kgV beim Hauptnenner. Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ggT = 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also kgV(4,6) = 12.
+Teiler teilen eine Zahl ohne Rest. Vielfache entstehen durch Multiplikation mit natürlichen Zahlen. Der ggT ist der größte gemeinsame positive Teiler. Das kgV ist das kleinste gemeinsame positive Vielfache. Bei Brüchen hilft der ggT beim Kürzen und das kgV beim Hauptnenner. Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ist der größte gemeinsame Teiler (ggT) 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also ist das kleinste gemeinsame Vielfache (kgV) von 4 und 6 gleich 12.
 
 ## Umformen und vergleichen
 
@@ -82,7 +82,7 @@ Klammern zuerst, dann Punktrechnung vor Strichrechnung. Addition und Multiplikat
 
 ### Eine fehlende Zahl finden
 
-Bei einer Gleichung soll links und rechts derselbe Wert stehen. Finde die fehlende Zahl mit der Umkehroperation und setze sie zur Probe ein. Ein fehlender Summand entsteht durch Subtraktion, ein fehlender Faktor durch Division. x + 1/4 = 3/4. Also x = 3/4 − 1/4 = 2/4 = 1/2. Probe: 1/2 + 1/4 = 3/4.
+Bei einer Gleichung soll links und rechts derselbe Wert stehen. Finde die fehlende Zahl mit der Umkehrrechnung (Plus und Minus heben sich auf, Mal und Geteilt auch) und setze sie zur Probe ein. Ein fehlender Summand entsteht durch Subtraktion, ein fehlender Faktor durch Division. x + 1/4 = 3/4. Also x = 3/4 − 1/4 = 2/4 = 1/2. Probe: 1/2 + 1/4 = 3/4.
 
 ## Dezimalzahlen und Anwendungen
 

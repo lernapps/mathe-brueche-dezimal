@@ -45,9 +45,9 @@ Was ein Bruch bedeutet und wie Zähler und Nenner zusammengehören.
 
 ### Was ist ein Bruch?
 
-Was ist überhaupt ein Bruch? Mit einem Beinbruch hat er hier nichts zu tun. Mit einem Bruchteil schon eher! Stell dir vor, ihr teilt eine Pizza in vier gleich große Stücke. Du nimmst eines: Das ist ein Viertel der Pizza.
+Was ist überhaupt ein Bruch? Mit einem Beinbruch hat er hier nichts zu tun. Mit einem Teil des Ganzen schon eher! Stell dir vor, ihr teilt eine Pizza in vier gleich große Stücke. Du nimmst eines: Das ist ein Viertel der Pizza.
 
-- **Bruch**: Ein Ganzes wird in gleich große Teile geteilt. Der Nenner sagt, wie viele Teile ein Ganzes bilden; der Zähler zählt die ausgewählten Teile.
+- **Bruch**: Ein Ganzes wird in gleich große Teile geteilt. Der Nenner sagt, wie viele Teile ein Ganzes bilden; der Zähler zählt die ausgewählten Teile. Zähler und Nenner trennt der Bruchstrich.
 
 ### Ausprobieren
 
@@ -57,7 +57,7 @@ Interaktiv: Ein Bruch beschreibt einen Teil von einem Ganzen. In den Bildern ist
 
 **Merke: Was du dabei beobachten kannst**
 
-Ändere nur den Zähler: Was bleibt gleich, was ändert sich? Ändere nur den Nenner: Was passiert mit den Teilen? Machst du den Nenner kleiner als den Zähler, nimmt der Zähler mit: In diesem Bild kannst du nie mehr Teile auswählen, als das Ganze hat. Und das Ganze muss immer feststehen: Ein Viertel einer großen Pizza ist mehr als ein Viertel einer kleinen Pizza.
+Ändere nur den Zähler: Was bleibt gleich, was ändert sich? Ändere nur den Nenner: Was passiert mit den Teilen? Stellst du den Nenner kleiner ein als den Zähler, wird der Zähler automatisch kleiner: In diesem Bild kannst du nie mehr Teile auswählen, als das Ganze hat. Und das Ganze muss immer feststehen: Ein Viertel einer großen Pizza ist mehr als ein Viertel einer kleinen Pizza.
 
 ### Am Beispiel nachvollziehen
 

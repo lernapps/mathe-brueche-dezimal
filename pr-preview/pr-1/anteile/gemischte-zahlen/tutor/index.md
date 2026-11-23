@@ -47,7 +47,7 @@ Kann der Zähler größer als der Nenner sein? Baue mehrere Ganze aus gleich gro
 
 Eine Pizza reicht nicht immer. Was, wenn du eine ganze Pizza und noch eine halbe zweite Pizza meinst?
 
-- **Gemischte Zahl**: Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch. Beide Teile werden addiert.
+- **Gemischte Zahl**: Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch, also einem Bruch, der kleiner als 1 ist. Beide Teile werden addiert.
 
 ### Ausprobieren
 
@@ -57,7 +57,7 @@ Interaktiv: Ein Streifen steht für ein Ganzes. Alle Streifen sind gleich groß 
 
 **Merke: Was du dabei beobachten kannst**
 
-Ein unechter Bruch hat mindestens den Wert 1. Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch. Beim Umwandeln teilst du den Zähler durch den Nenner: Ganze plus Rest.
+Ein unechter Bruch hat den Wert 1 oder mehr: Sein Zähler ist mindestens so groß wie sein Nenner. Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch, also einem Bruch, der kleiner als 1 ist. Beim Umwandeln teilst du den Zähler durch den Nenner: Ganze plus Rest.
 
 ### Am Beispiel nachvollziehen
 
@@ -140,7 +140,7 @@ Nr. | z | n | Lösung | F1 | F2
 
 - Aufgabe: „Schreibe $2 + \frac{1}{{n}}$ als unechten Bruch. Welcher Zähler gehört über den Nenner {n}?“
 - Antwortformat: eine Zahl eintippen
-- Tipp der App: „Ein unechter Bruch hat mindestens den Wert 1.“
+- Tipp der App: „Ein unechter Bruch hat den Wert 1 oder mehr: Sein Zähler ist mindestens so groß wie sein Nenner.“
 - Lösungsweg:
   - Ein Ganzes enthält {n} Teilstücke. Zwei Ganze enthalten zweimal {n} Teilstücke.
   - Dazu kommt ein weiteres Teilstück: $2 \cdot {n} + 1 = {answer}$. Der Nenner bleibt {n}.

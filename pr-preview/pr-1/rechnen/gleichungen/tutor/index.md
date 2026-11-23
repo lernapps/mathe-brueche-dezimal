@@ -45,7 +45,7 @@ Welche Zahl ergänzt einen Bruch zu einem Ganzen? Nutze den Streifen als Kontrol
 
 ### Welche Zahl fehlt?
 
-Eine Rechenwaage soll auf beiden Seiten denselben Wert zeigen. Welche Zahl fehlt noch?
+Links und rechts vom Gleichheitszeichen soll derselbe Wert stehen. Welche Zahl fehlt noch?
 
 - **Gleichung**: Eine Gleichung behauptet, dass zwei Ausdrücke denselben Wert haben. Eine gesuchte Zahl muss diese Gleichheit erfüllen.
 
@@ -57,7 +57,7 @@ Bild: Ein ganzer Streifen ist in vier gleich große Teile geteilt. Drei Teile si
 
 **Merke: Was du dabei beobachten kannst**
 
-Bei einer Gleichung soll links und rechts derselbe Wert stehen. Finde die fehlende Zahl mit der Umkehroperation und setze sie zur Probe ein. Ein fehlender Summand entsteht durch Subtraktion, ein fehlender Faktor durch Division.
+Bei einer Gleichung soll links und rechts derselbe Wert stehen. Finde die fehlende Zahl mit der Umkehrrechnung (Plus und Minus heben sich auf, Mal und Geteilt auch) und setze sie zur Probe ein. Ein fehlender Summand entsteht durch Subtraktion, ein fehlender Faktor durch Division.
 
 ### Am Beispiel nachvollziehen
 
