@@ -1,12 +1,16 @@
-# Bruchrechnung – Schritt für Schritt
+# Brüche und Dezimalzahlen
 
 Bruchrechnung mit anschaulichen Modellen. Hilf zuerst mit einer Frage zum nächsten Schritt. Zeige auf Wunsch einen Lösungsweg. Unterscheide Anteil, Bruchteil und Ganzes, prüfe Einheiten und erkenne gleichwertige Brüche an.
 
 ## Anteile darstellen
 
+### Das brauchst du hier
+
+Natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen als Voraussetzung für Brüche.
+
 ### Was bedeutet ein Bruch?
 
-Der Nenner nennt die Anzahl gleich großer Teile **pro Ganzem**. Der Zähler nennt die ausgewählten Teile. Der Bruchstrich bedeutet auch geteilt durch. Ein Ganzes muss feststehen: Ein Viertel einer großen Tafel kann mehr sein als ein Viertel einer kleinen Tafel. Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: 3/4. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.
+Der Nenner nennt die Anzahl gleich großer Teile **pro Ganzem**. Der Zähler nennt die ausgewählten Teile. Der Bruchstrich bedeutet auch geteilt durch. Ein Ganzes muss feststehen: Ein Viertel einer großen Tafel kann mehr sein als ein Viertel einer kleinen Tafel. Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: $\frac{3}{4}$. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.
 
 ### Brüche auf dem Zahlenstrahl
 
@@ -17,6 +21,10 @@ Teile jede Einheit in so viele gleich große **Abstände**, wie der Nenner angib
 Ein unechter Bruch hat mindestens den Wert 1. Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch. Beim Umwandeln teilst du den Zähler durch den Nenner: Ganze plus Rest. 7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.
 
 ## Teilbarkeit nutzen
+
+### Das brauchst du hier
+
+Vorrangregeln, Rechengesetze und Potenzen als Voraussetzung für Teiler und Primfaktoren.
 
 ### Teilbarkeit und Primzahlen
 
@@ -77,6 +85,10 @@ Klammern zuerst, dann Punktrechnung vor Strichrechnung. Addition und Multiplikat
 Bei einer Gleichung soll links und rechts derselbe Wert stehen. Finde die fehlende Zahl mit der Umkehroperation und setze sie zur Probe ein. Ein fehlender Summand entsteht durch Subtraktion, ein fehlender Faktor durch Division. x + 1/4 = 3/4. Also x = 3/4 − 1/4 = 2/4 = 1/2. Probe: 1/2 + 1/4 = 3/4.
 
 ## Dezimalzahlen und Anwendungen
+
+### Das brauchst du hier
+
+Schriftliche Rechenverfahren mit natürlichen Zahlen als Voraussetzung für Dezimalzahlen.
 
 ### Bruch und Dezimalzahl
 
