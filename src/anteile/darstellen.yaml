@@ -14,12 +14,12 @@
           [
             {
               "type": "text",
-              "text": "Was ist überhaupt ein Bruch? Mit einem Beinbruch hat er hier nichts zu tun. Mit einem Bruchteil schon eher! Stell dir vor, ihr teilt eine Pizza in vier gleich große Stücke. Du nimmst eines: Das ist ein Viertel der Pizza.",
+              "text": "Was ist überhaupt ein Bruch? Mit einem Beinbruch hat er hier nichts zu tun. Mit einem Teil des Ganzen schon eher! Stell dir vor, ihr teilt eine Pizza in vier gleich große Stücke. Du nimmst eines: Das ist ein Viertel der Pizza.",
             },
             {
               "type": "definition",
               "term": "Bruch",
-              "explanation": "Ein Ganzes wird in gleich große Teile geteilt. Der Nenner sagt, wie viele Teile ein Ganzes bilden; der Zähler zählt die ausgewählten Teile.",
+              "explanation": "Ein Ganzes wird in gleich große Teile geteilt. Der Nenner sagt, wie viele Teile ein Ganzes bilden; der Zähler zählt die ausgewählten Teile. Zähler und Nenner trennt der Bruchstrich.",
             },
           ],
       },
@@ -61,7 +61,7 @@
                 [
                   {
                     "type": "text",
-                    "text": "Ändere nur den Zähler: Was bleibt gleich, was ändert sich? Ändere nur den Nenner: Was passiert mit den Teilen? Machst du den Nenner kleiner als den Zähler, nimmt der Zähler mit: In diesem Bild kannst du nie mehr Teile auswählen, als das Ganze hat. Und das Ganze muss immer feststehen: Ein Viertel einer großen Pizza ist mehr als ein Viertel einer kleinen Pizza.",
+                    "text": "Ändere nur den Zähler: Was bleibt gleich, was ändert sich? Ändere nur den Nenner: Was passiert mit den Teilen? Stellst du den Nenner kleiner ein als den Zähler, wird der Zähler automatisch kleiner: In diesem Bild kannst du nie mehr Teile auswählen, als das Ganze hat. Und das Ganze muss immer feststehen: Ein Viertel einer großen Pizza ist mehr als ein Viertel einer kleinen Pizza.",
                   },
                 ],
             },

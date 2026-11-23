@@ -220,3 +220,23 @@ Die Aufgaben des Bestands rechnet der Fachprüfer nach (noch offen).
 - KMK-Bildungsstandards stehen jetzt in den Quellen (Adresse aus der Karte, Abruf 200, application/pdf); den Inhalt des PDFs habe ich nicht gelesen.
 - Der No-JS-Test vergleicht Überschriften mit normalisiertem Text: ein geschütztes Leerzeichen in einem `title` lässt ihn scheitern. Titel behalten deshalb ein gewöhnliches Leerzeichen (Abweichung von Regel 2).
 - Lernenden-Prüfer (Unteragent, Klasse 5) hat `anteile/darstellen` durchgespielt; umgesetzt: kürzere Einleitung, Leitfragen statt Wiederholung, neues Beispiel, getrennte Rückmeldung für zu viele/zu wenige Teile, ein Plättchen je Teil, Kontrollantworten in den Recaps. Offen (Laufzeit, nicht änderbar): Eingabe „1/6“ oder Text im Antwortfeld liefert nur „Antworte zuerst …“.
+
+## Review
+
+Zwei Prüfer, die nicht geschrieben haben (Unteragenten). Stand: Commit nach 3abc7c8, `lernapps check` Exit 0.
+
+### Lernenden-Prüfer (Klasse 5)
+
+Musterseite `anteile/darstellen` (hell/dunkel, 360 px und 1280 px, ohne JavaScript) und danach alle 24 Seiten bei 360 px hell. Nicht geprüft: Dunkelmodus der übrigen Seiten, Figuren bei 1280 px, Tastaturbedienung, Screenreader.
+- Umgesetzt: Einleitung der Musterseite gekürzt, Leitfragen statt Wiederholung, neues Beispiel, getrennte Rückmeldung zu viele/zu wenige Teile (auch Zahlenstrahl, gemischte Zahlen), ein Plättchen je Teil, Kontrollantworten in den Recaps, „Bruchstrich“ eingeführt, „echter Bruch“ erklärt, ggT/kgV beim ersten Auftreten ausgeschrieben, Satz zum Nenner verständlich, Kapitelzusammenfassung ohne falsches Versprechen, Gleichungsseite ohne „Rechenwaage“ und mit erklärter Umkehrrechnung, Bruch in der Gleichungsaufgabe gesetzt, Vergleichs-Rückmeldung eigen, gekürzter Anteil wird verlangt.
+- Offen, Laufzeit des Werkzeugs: Recap-Seiten zeigen die Karten-ID („Baustein mathematik/natuerliche-zahlen“); Eingabe „1/6“ oder Text im Zahlfeld liefert „Antworte zuerst …“; Aufgabennummer („Nr. 45“) zufällig.
+- Offen, Inhalt für Plan 03: Periodische Dezimalzahlen und Teilen von 3 : 4 ohne Beispiel; „Stellenwert/Tausendstel/Prozent“ vor der Einführung (Prozent kommt in Plan 03); Potenzen im Recap ohne Potenzschreibweise (kommt mit S5); ggT/kgV-Aufgaben trivial; Addition mit ungleichen Nennern und Subtraktion ungleichnamig ohne eigene Aufgabe; Multiplikation/Division ohne Division durch natürliche Zahl; allgemeine Hinweise bei Tippaufgaben („Lies dazu noch einmal …“) ohne Fehlertyp; Sachaufgaben ohne Dezimalzahlen; `compare` zeigt teils zwei gleiche Brüche; einzelne Aufgaben mit nur einer festen Variante.
+- Nicht belegt: ob jedes Wort der Seiten vor seiner Einführung auf einer früheren Seite steht (nur stichprobenartig gelesen).
+
+### Fachlicher Prüfer
+
+Alle generated-Aufgaben über alle Datenwerte, die Logik der Komponenten (Seeds 1 bis 400), alle Einzelauswahlfragen, Schreibweisen, sechs Web-Stichproben auf Übernahmen.
+- Rechenwerte: ohne Befund.
+- Umgesetzt: F1 (0,8 als Doppelrundung), F2 (Rückmeldung zu 13), F3 (Regel zu Subtraktion/Division), U1 (Meldung bei nicht lesbarer Eingabe), U2 (Vergleich), U3 (kgV), U5, U6, U7, U8 (gekürzter Anteil, Lösung gekürzt), U10 (Hinweis), N1 (Bruch gesetzt), N2 (geschützte Leerzeichen nach Formeln und vor gebeugten Einheiten), S3/S4 (Tabelle und Definition eigenständig formuliert).
+- Offen, Plan 03: U4 (ungleichnamige Subtraktion), Abdeckung der Bausteine 3 (Dezimalbrüche/Periode), 5 (Prozent), 6 (Teilbarkeitsregeln anwenden), 7 (Primfaktoren/ggT/kgV), Variation der Aufgaben, FaktorEntdecken bei Primzahl-Startzahl (U11), Division durch natürliche Zahlen.
+- Offen/nicht geprüft: Titel behalten gewöhnliches Leerzeichen (No-JS-Test); scope-Seiten (nicht verlinkt, noindex) enthalten `a/b`; Vergleich mit ARD alpha und TU Berlin nicht abgerufen; sechs Stichproben sind keine Vollprüfung; Hell/Dunkel und Tastatur nicht geprüft.
