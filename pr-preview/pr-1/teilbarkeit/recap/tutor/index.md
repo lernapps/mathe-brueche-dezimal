@@ -65,25 +65,13 @@ $= 6 \cdot 20 = 120$
 
 Die 6 steht in beiden Produkten. Du ziehst sie vor die Klammer und rechnest zuerst die Summe 17 + 3 = 20: Das geht schneller als beide Produkte einzeln.
 
-**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.
+**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-**Aufgabe 1:** Was ergibt $2 + 3 \cdot 4$?
+Interaktiv: Kurztest: Was ergibt 2 + 3 · 4? Antworten: 20; 12; 14. Richtig ist 14. Zuerst 3 · 4 = 12, dann 2 + 12 = 14. Falsche Antworten: 20: Das wäre (2 + 3) · 4. Ohne Klammer geht die Punktrechnung vor: zuerst 3 · 4. 12: Du hast die 2 vergessen: Nach 3 · 4 = 12 kommt noch + 2.
 
-**Merke: Lösung 1**
+Interaktiv: Kurztest: Was ergibt 6 · 17 + 6 · 3? Es gibt einen schnellen Weg. Antworten: 102; 120; 105. Richtig ist 120. Die 6 steht in beiden Produkten: 6 · (17 + 3) = 6 · 20 = 120. Einzeln gerechnet: 102 + 18 = 120. Falsche Antworten: 102: Das ist nur 6 · 17. Es fehlt noch 6 · 3 = 18. 105: Du hast nur eine 6 verteilt: 6 · 17 + 3. Beide Produkte brauchen die 6.
 
-**Ergebnis: 14.** Punktrechnung geht vor Strichrechnung: Zuerst 3 · 4 = 12, dann 2 + 12 = 14. Wer 20 hat, ist von links nach rechts gegangen: (2 + 3) · 4.
-
-**Aufgabe 2:** Was ergibt $6 \cdot 17 + 6 \cdot 3$? Es gibt einen schnellen Weg.
-
-**Merke: Lösung 2**
-
-**Ergebnis: 120.** Die 6 steht in beiden Produkten: 6 · (17 + 3) = 6 · 20 = 120. Einzeln gerechnet kommst du auch auf 102 + 18 = 120, nur langsamer. Wer 105 hat, hat nur eine 6 verteilt: 6 · 17 + 3.
-
-**Aufgabe 3:** Was ergibt $25 \cdot 7 \cdot 4$? Rechne vorteilhaft.
-
-**Merke: Lösung 3**
-
-**Ergebnis: 700.** Tausche die Faktoren: Erst 25 · 4 = 100, dann 100 · 7 = 700. Von links nach rechts geht es auch: 175 · 4 = 700. Wer 100 oder 70 hat, hat einen Faktor vergessen.
+Interaktiv: Kurztest: Was ergibt 25 · 7 · 4? Rechne vorteilhaft. Antworten: 175; 700; 100. Richtig ist 700. Tausche die Faktoren: Zuerst 25 · 4 = 100, dann 100 · 7 = 700. Falsche Antworten: 175: Das ist 25 · 7. Es fehlt noch der Faktor 4. 100: Das ist 25 · 4. Es fehlt noch der Faktor 7.
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.
 
@@ -105,19 +93,11 @@ $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 = 16$
 
 Der Exponent sagt nicht, womit du malnimmst, sondern wie oft die Basis als Faktor steht: $2^4$ ist nicht $2 \cdot 4$.
 
-**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.
+**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-**Aufgabe 4:** Was ist $3^2$?
+Interaktiv: Kurztest: Was ist 3²? Antworten: 6; 9; 5. Richtig ist 9. 3² = 3 · 3 = 9. Falsche Antworten: 6: Das wäre 3 · 2. Der Exponent zählt, wie oft die 3 als Faktor steht. 5: Das wäre 3 + 2. Bei einer Potenz wird multipliziert, nicht addiert.
 
-**Merke: Lösung 4**
-
-**Ergebnis: 9.** $3^2 = 3 \cdot 3 = 9$. Wer 6 hat, hat 3 · 2 gerechnet: Der Exponent zählt die Faktoren.
-
-**Aufgabe 5:** Was ist $2^4$?
-
-**Merke: Lösung 5**
-
-**Ergebnis: 16.** 2 · 2 · 2 · 2 = 16. Wer 8 hat, hat 2 · 4 gerechnet.
+Interaktiv: Kurztest: Was ist 2⁴? Antworten: 16; 8; 6. Richtig ist 16. 2 · 2 · 2 · 2 = 16. Falsche Antworten: 8: Das wäre 2 · 4. Die 2 steht viermal als Faktor. 6: Das wäre 2 + 4. Bei einer Potenz wird multipliziert.
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Potenzen und Zehnerpotenzen“ auf der Lernlandkarte ([Lernlandkarte: Potenzen und Zehnerpotenzen](https://lernapps.net/apps/map/mathematik/c/potenzen/)) und rechne die Aufgaben danach noch einmal.
 
