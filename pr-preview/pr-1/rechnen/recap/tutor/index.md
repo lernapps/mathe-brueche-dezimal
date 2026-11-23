@@ -53,7 +53,7 @@ Klammern, Vorrangregeln und das Distributivgesetz, die du für Rechnungen mit me
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-Interaktiv: Kurztest: Was ergibt 3 · (14 − 6) + 12 : 4? Antworten: 39; 9; 27. Richtig ist 27. Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27. Falsche Antworten: 39: Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst. 9: Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.
+Interaktiv: Kurztest: Was ergibt 3 · (14 − 6) + 12 : 4? Antworten: 39; 27; 9. Richtig ist 27. Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27. Falsche Antworten: 39: Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst. 9: Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.
 
 Interaktiv: Kurztest: Was ergibt 12 · 35? Zerlege 35 in 30 + 5. Antworten: 365; 360; 420. Richtig ist 420. 12 · 30 + 12 · 5 = 360 + 60 = 420. Falsche Antworten: 365: Du hast 12 · 30 + 5 gerechnet. Auch die 5 muss mit 12 multipliziert werden. 360: Das ist nur 12 · 30. Es fehlt noch 12 · 5 = 60.
 

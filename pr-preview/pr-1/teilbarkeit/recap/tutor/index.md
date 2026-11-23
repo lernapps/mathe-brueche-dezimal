@@ -57,6 +57,14 @@ Vorrangregeln, Rechengesetze und Potenzen, die du für Teiler und Primfaktoren b
 
 - **Distributivgesetz**: Das **Distributivgesetz** (Verteilungsgesetz) sagt: Eine Zahl, die mit einer Summe multipliziert wird, darfst du auf jeden Summanden verteilen: $6 \cdot (7 + 3) = 6 \cdot 7 + 6 \cdot 3 = 60$.
 
+**Beispiel: Mehrere Rechenzeichen**
+
+$30 + 4 \cdot 5 - 2 \cdot 3$
+
+$= 30 + 20 - 6 = 44$
+
+Zuerst rechnest du jede Punktrechnung für sich (4 · 5 und 2 · 3), dann von links nach rechts plus und minus.
+
 **Beispiel: Vorteilhaft rechnen**
 
 $6 \cdot 17 + 6 \cdot 3 = 6 \cdot (17 + 3)$
@@ -69,7 +77,7 @@ Die 6 steht in beiden Produkten. Du ziehst sie vor die Klammer und rechnest zuer
 
 Interaktiv: Kurztest: Was ergibt 48 + 6 · 7 − 3 · 5? Antworten: 1875; 90; 75. Richtig ist 75. Punkt vor Strich: 6 · 7 = 42 und 3 · 5 = 15. Dann 48 + 42 − 15 = 75. Falsche Antworten: 1875: Du hast von links nach rechts gerechnet. Zuerst kommt die Punktrechnung: 6 · 7 und 3 · 5. 90: Du hast − 3 · 5 vergessen: 48 + 42 = 90, dann noch − 15.
 
-Interaktiv: Kurztest: Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten. Antworten: 266; 700; 328. Richtig ist 700. Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700. Falsche Antworten: 266: Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434. 328: Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7.
+Interaktiv: Kurztest: Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten. Antworten: 700; 266; 328. Richtig ist 700. Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700. Falsche Antworten: 266: Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434. 328: Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7.
 
 Interaktiv: Kurztest: Was ergibt 5 · 13 · 20? Tausche die Faktoren so, dass du leicht rechnest. Antworten: 65; 1300; 100. Richtig ist 1300. Tausche: 5 · 20 = 100, dann 100 · 13 = 1300. Falsche Antworten: 65: Das ist 5 · 13. Es fehlt noch der Faktor 20. 100: Das ist 5 · 20. Es fehlt noch der Faktor 13: 100 · 13.
 
@@ -91,13 +99,15 @@ $3^2 = 3 \cdot 3 = 9$
 
 $2^4 = 2 \cdot 2 \cdot 2 \cdot 2 = 16$
 
+$3 \cdot 3 \cdot 3 \cdot 7 \cdot 7 = 3^3 \cdot 7^2$
+
 Der Exponent sagt nicht, womit du malnimmst, sondern wie oft die Basis als Faktor steht: $2^4$ ist nicht $2 \cdot 4$.
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
 Interaktiv: Kurztest: Was ist 2⁵ + 3²? Antworten: 16; 34; 41. Richtig ist 41. 2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41. Falsche Antworten: 16: Du hast die Exponenten als Faktoren genommen: 2 · 5 und 3 · 2. Der Exponent sagt, wie oft die Basis als Faktor steht. 34: Du hast Basis und Exponent vertauscht: 5² = 25. In 2⁵ ist die Basis 2, es sind fünf Faktoren 2: 32.
 
-Interaktiv: Kurztest: Schreibe 2 · 2 · 2 · 5 · 5 als Potenzen. Antworten: 2⁵ · 5²; 3² · 2²; 2³ · 5². Richtig ist 2³ · 5². Dreimal die 2 und zweimal die 5: 2³ · 5² = 8 · 25 = 200. Falsche Antworten: 2⁵ · 5²: Du hast alle fünf Faktoren gezählt und der 2 zugeschrieben. Die 2 steht nur dreimal. 3² · 2²: Du hast Basis und Exponent vertauscht: dreimal die 2 ist 2³, nicht 3².
+Interaktiv: Kurztest: Schreibe 2 · 2 · 2 · 5 · 5 als Potenzen. Antworten: 2³ · 5²; 2⁵ · 5²; 3² · 5². Richtig ist 2³ · 5². Dreimal die 2 und zweimal die 5: 2³ · 5² = 8 · 25 = 200. Falsche Antworten: 2⁵ · 5²: Du hast alle fünf Faktoren gezählt und der 2 zugeschrieben. Die 2 steht nur dreimal. 3² · 5²: Du hast bei beiden Potenzen Basis und Exponent vertauscht: dreimal die 2 ist 2³, nicht 3², und zweimal die 5 ist 5², nicht 2².
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Potenzen und Zehnerpotenzen“ auf der Lernlandkarte ([Lernlandkarte: Potenzen und Zehnerpotenzen](https://lernapps.net/apps/map/mathematik/c/potenzen/)) und rechne die Aufgaben danach noch einmal.
 
