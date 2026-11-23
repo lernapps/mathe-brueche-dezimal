@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook. Never change it.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks. Never change it.
-failedChecks: { accessible: 2, checks-pass: 7 }
+failedChecks: { accessible: 2, checks-pass: 14 }
 ---
 
 # Increment: Bereinigung des Bestands nach den Mathe-Regeln (auf `work`, vor PR 1)
@@ -142,13 +142,13 @@ Die Aufgaben des Bestands rechnet der Fachprüfer nach (noch offen).
 - [x] Kein neuer Branch: die Bereinigung läuft auf `work` (Entscheidung des Menschen über den Orchestrator). Plan hier committen.
 - [x] Load skill `lernapps-cli`. Update the app as it says. Commit the update alone; fix its findings before
       content. The update replaces the `lernapps-*` skills: reread those you use.
-- [ ] Load skill `lernapps-<archetype>` and the content guide. Questions with options and feedback: also skill
+- [x] Load skill `lernapps-<archetype>` and the content guide. Questions with options and feedback: also skill
       `lernapps-content-questions`.
 - [x] S0 `npx @lernapps/tooling@latest update` als eigener erster Commit auf `work` (Orchestrator: ja); Befunde zuerst beheben, danach `lernapps check`, Build und Tests grün.
 - [x] R1 Quellen und Metadaten, Format 2 (`strand`, Bausteine je Seite). Commit.
-- [ ] R2 Schreibweisen und Prüftest. Commit.
-- [ ] R3 Musterseite `anteile/darstellen` komplett im neuen Format (Bausteine, Schreibweisen, gesetzte Brüche, recap des Kapitels), durchgespielt. **Checkpoint:** Musterseite melden, warten.
-- [ ] R4 Übrige 20 Seiten (parallel, ein Commit je Kapitel) und `recap` je Kapitel (6).
+- [x] R2 Schreibweisen und Prüftest. Commit.
+- [x] R3 Musterseite `anteile/darstellen` komplett im neuen Format (Bausteine, Schreibweisen, gesetzte Brüche, recap des Kapitels), durchgespielt. **Checkpoint:** Musterseite melden, warten.
+- [x] R4 Übrige 20 Seiten (parallel, ein Commit je Kapitel) und `recap` je Kapitel (6).
 - [ ] R6 Beide Prüfer über `work`; Befunde im Plan unter „Review“, getrennt, Offenes benannt.
 - [ ] `lernapps check` ohne Fehler.
 - [ ] After the first slice: show the creator a first look (`early-preview`) and go on.
@@ -217,4 +217,6 @@ Die Aufgaben des Bestands rechnet der Fachprüfer nach (noch offen).
 - Das Werkzeug zählt in der No-JS-Prüfung jedes `<math>` außerhalb beschriebener Aufgaben als Formel des Inhalts. Komponenten setzen Brüche deshalb mit `BruchZahl.vue` in HTML (Zähler über Nenner, `role="math"`), nicht in MathML.
 - Der Baustein `hundred-grid` (`draw: { kind: hundred-grid, filled: 12 }`) ist als Figur eingebaut: für Plan 03 genügt wohl ein Block statt einer neuen Komponente `Hunderterfeld` (`prefer-built-in-block`).
 - `lernapps check` meldet 14 Hinweise (keine Fehler): 11 Seiten mit weniger als vier Aufgaben (Regel 3.1 verlangt je Baustein mindestens drei), gleiche Aufgabenarten auf allen Seiten, zwei Seiten mit spätem ersten Bild.
-- KMK-Bildungsstandards stehen nicht in den Quellen: keine geprüfte Adresse (die geratene gab 404).
+- KMK-Bildungsstandards stehen jetzt in den Quellen (Adresse aus der Karte, Abruf 200, application/pdf); den Inhalt des PDFs habe ich nicht gelesen.
+- Der No-JS-Test vergleicht Überschriften mit normalisiertem Text: ein geschütztes Leerzeichen in einem `title` lässt ihn scheitern. Titel behalten deshalb ein gewöhnliches Leerzeichen (Abweichung von Regel 2).
+- Lernenden-Prüfer (Unteragent, Klasse 5) hat `anteile/darstellen` durchgespielt; umgesetzt: kürzere Einleitung, Leitfragen statt Wiederholung, neues Beispiel, getrennte Rückmeldung für zu viele/zu wenige Teile, ein Plättchen je Teil, Kontrollantworten in den Recaps. Offen (Laufzeit, nicht änderbar): Eingabe „1/6“ oder Text im Antwortfeld liefert nur „Antworte zuerst …“.

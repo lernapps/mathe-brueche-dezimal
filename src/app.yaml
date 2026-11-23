@@ -10,6 +10,10 @@
     [
       { "title": "Lernlandkarte Mathematik", "url": "https://lernapps.net/apps/map/mathematik/" },
       {
+        "title": "KMK-Bildungsstandards Mathematik Erster und Mittlerer Schulabschluss (2022)",
+        "url": "https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2022/2022_06_23-Bista-ESA-MSA-Mathe.pdf",
+      },
+      {
         "title": "Kerncurriculum Mathematik Hessen – Gymnasium, S. 26",
         "url": "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-07/kerncurriculum_mathematik_gymnasium.pdf",
       },
