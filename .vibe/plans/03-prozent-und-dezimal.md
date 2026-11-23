@@ -216,3 +216,7 @@ Alle neuen Daten, alle 40 `generated`-Aufgaben über die ganze Datenmenge, Kompo
 - Nicht geändert: Titel behalten ein gewöhnliches Leerzeichen (No-JS-Test); Kommaspalte fehlt in den Rechentabellen (fünf Spalten passen bei 360 px nicht, die Zahl steht mit Komma in der ersten Spalte); Preise erscheinen als „1,6 €“ (Platzhalter ohne zweite Nachkommastelle); F9 (doppelte Fehlerwerte, harmlos); F10 (`solution()` zeigt „2/1“ und ungekürzte Brüche; wo sie angezeigt wird, nicht geprüft).
 - Originalität: acht Stichproben ohne Wortlaut-Treffer; kurze Regelformeln zur Teilbarkeit liegen nah an Wikipedia (Sachformeln, unvermeidbar; „letzte Ziffer gerade“ umformuliert). Nicht geprüft: unterrichten.zum.de, Schulbücher, Arbeitsblätter, Aufgaben außerhalb der acht Stichproben.
 - Abdeckung: alle zehn Bausteine mit mindestens drei Aufgaben mit steigender Schwierigkeit; Prozent-Grundbegriffe jetzt mit einer Seite und sechs Aufgaben.
+
+### Klartext-Brüche in Rückmeldungen (Ausnahme in regeln.md Abschnitt 2)
+
+Rückmeldungen von Komponenten und `mistakes` von `generated` sind Klartext (Laufzeit); dort steht `a/b` bis die Laufzeit Formeln kann. Zählung des Fachprüfers (Stellen/Texte je Seite): plus-minus 30 Stellen in 23 Texten, multiplizieren 6/14, dividieren 38/19, terme 9/9, gleichungen 13/10; die übrigen neuen Seiten 0. Insgesamt rund 96 Stellen in 75 Texten (nicht die frühere Schätzung 40); die Aufgabentexte der Komponenten sind gesetzt.
