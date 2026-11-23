@@ -53,7 +53,7 @@ Drei Viertel Liter Saft sollen gleichmäßig auf zwei Gefäße verteilt werden. 
 
 Ausgangswerte untersuchen:
 - Gegeben | Achte auf
-- 3/4 Liter und 2 Gefäße | Gesuchte Menge pro Gefäß
+- $\frac{3}{4}$ Liter und 2 Gefäße | Gesuchte Menge pro Gefäß
 
 **Merke: Was du dabei beobachten kannst**
 
@@ -63,7 +63,7 @@ Ordne die Angaben: Ganzes, Bruchteil oder Anteil. Entscheide dann, welche Rechnu
 
 **Beispiel: Schritt für Schritt**
 
-3/4 Liter Saft werden gleich auf zwei Gefäße verteilt: 3/4 : 2 = 3/8 Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit 5/20 = 1/4 = 25 %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.
+$\frac{3}{4}$ Liter Saft werden gleich auf zwei Gefäße verteilt: $\frac{3}{4} : 2 = \frac{3}{8}$ Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit $\frac{5}{20} = \frac{1}{4} = 25$ %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.
 
 ### Üben
 
@@ -73,19 +73,19 @@ Ordne die Angaben: Ganzes, Bruchteil oder Anteil. Entscheide dann, welche Rechnu
 
 ### Aufgabe verstehen
 
-- Aufgabe: 3/4 Liter werden auf zwei gleiche Gefäße verteilt. Wie viel erhält jedes?
+- Aufgabe: $\frac{3}{4}$ Liter werden auf zwei gleiche Gefäße verteilt. Wie viel erhält jedes?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 3/8 Liter – 3/4 Liter Saft werden gleich auf zwei Gefäße verteilt: 3/4 : 2 = 3/8 Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit 5/20 = 1/4 = 25 %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.
-  - ✗ 3/2 Liter – Beim Verteilen auf zwei Gefäße wird die Menge pro Gefäß kleiner.
-  - ✗ 3/6 Liter – Du teilst drei Viertel durch zwei, nicht den Nenner durch eine beliebige neue Zahl.
-- Lösung: 3/8 Liter
-- Erklärung: 3/4 Liter Saft werden gleich auf zwei Gefäße verteilt: 3/4 : 2 = 3/8 Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit 5/20 = 1/4 = 25 %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.
+  - ✓ $\frac{3}{8}$ Liter – $\frac{3}{4}$ Liter Saft werden gleich auf zwei Gefäße verteilt: $\frac{3}{4} : 2 = \frac{3}{8}$ Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit $\frac{5}{20} = \frac{1}{4} = 25$ %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.
+  - ✗ $\frac{3}{2}$ Liter – Beim Verteilen auf zwei Gefäße wird die Menge pro Gefäß kleiner.
+  - ✗ $\frac{3}{6}$ Liter – Du teilst drei Viertel durch zwei, nicht den Nenner durch eine beliebige neue Zahl.
+- Lösung: $\frac{3}{8}$ Liter
+- Erklärung: $\frac{3}{4}$ Liter Saft werden gleich auf zwei Gefäße verteilt: $\frac{3}{4} : 2 = \frac{3}{8}$ Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit $\frac{5}{20} = \frac{1}{4} = 25$ %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Eine Strecke ist {e.vierfach} km lang. Du gehst 3/4 davon. Wie viele Kilometer sind das?“
+- Aufgabe: „Eine Strecke ist {e.vierfach} km lang. Du gehst $\frac{3}{4}$ davon. Wie viele Kilometer sind das?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Ordne die Angaben: Ganzes, Bruchteil oder Anteil.“
 - Lösungsweg:

@@ -63,7 +63,7 @@ Anteil = Bruchteil : Ganzes. Schreibe den Bruchteil in den Zähler und das Ganze
 
 **Beispiel: Schritt für Schritt**
 
-6 von 8 sind 6/8 = 3/4. 50 cm von 2 m sind 50 cm von 200 cm, also 50/200 = 1/4.
+6 von 8 sind $\frac{6}{8} = \frac{3}{4}$. 50 cm von 2 m sind 50 cm von 200 cm, also $\frac{50}{200} = \frac{1}{4}$.
 
 ### Üben
 
@@ -85,56 +85,56 @@ Anteil = Bruchteil : Ganzes. Schreibe den Bruchteil in den Zähler und das Ganze
 
 ```
 Nr. | z (verdeckt) | n (verdeckt) | b (verdeckt) | d (verdeckt) | f (verdeckt) | G | part | Lösung | F1 | F2
-1 | 1 | 3 | 1 | 4 | 2 | 9 | 3 | 1/3 | 4/3 | Keine Eingabe
-2 | 1 | 4 | 1 | 3 | 2 | 16 | 4 | 1/4 | 5/4 | Keine Eingabe
-3 | 1 | 5 | 1 | 3 | 2 | 25 | 5 | 1/5 | 6/5 | Keine Eingabe
-4 | 1 | 6 | 1 | 3 | 2 | 36 | 6 | 1/6 | 7/6 | Keine Eingabe
-5 | 2 | 3 | 1 | 4 | 2 | 6 | 4 | 2/3 | 5/3 | Keine Eingabe
-6 | 2 | 4 | 1 | 3 | 2 | 12 | 6 | 2/4 | 6/4 | Keine Eingabe
-7 | 2 | 5 | 1 | 3 | 2 | 20 | 8 | 2/5 | 7/5 | Keine Eingabe
-8 | 2 | 6 | 1 | 3 | 2 | 30 | 10 | 2/6 | 8/6 | Keine Eingabe
-9 | 1 | 3 | 1 | 4 | 2 | 18 | 6 | 1/3 | 4/3 | Keine Eingabe
-10 | 3 | 4 | 1 | 3 | 2 | 8 | 6 | 3/4 | 7/4 | Keine Eingabe
-11 | 3 | 5 | 1 | 3 | 2 | 15 | 9 | 3/5 | 8/5 | Keine Eingabe
-12 | 3 | 6 | 1 | 3 | 2 | 24 | 12 | 3/6 | 9/6 | Keine Eingabe
-13 | 2 | 3 | 1 | 4 | 2 | 15 | 10 | 2/3 | 5/3 | Keine Eingabe
-14 | 1 | 4 | 1 | 3 | 2 | 24 | 6 | 1/4 | 5/4 | Keine Eingabe
-15 | 4 | 5 | 1 | 3 | 2 | 10 | 8 | 4/5 | 9/5 | Keine Eingabe
-16 | 4 | 6 | 1 | 3 | 2 | 18 | 12 | 4/6 | 10/6 | Keine Eingabe
-17 | 1 | 3 | 1 | 4 | 2 | 12 | 4 | 1/3 | 4/3 | Keine Eingabe
-18 | 2 | 4 | 1 | 3 | 2 | 20 | 10 | 2/4 | 6/4 | Keine Eingabe
-19 | 1 | 5 | 1 | 3 | 2 | 30 | 6 | 1/5 | 6/5 | Keine Eingabe
-20 | 5 | 6 | 1 | 3 | 2 | 12 | 10 | 5/6 | 11/6 | Keine Eingabe
-21 | 2 | 3 | 1 | 4 | 2 | 9 | 6 | 2/3 | 5/3 | Keine Eingabe
-22 | 3 | 4 | 1 | 3 | 2 | 16 | 12 | 3/4 | 7/4 | Keine Eingabe
-23 | 2 | 5 | 1 | 3 | 2 | 25 | 10 | 2/5 | 7/5 | Keine Eingabe
-24 | 1 | 3 | 1 | 4 | 2 | 6 | 2 | 1/3 | 4/3 | Keine Eingabe
-25 | 1 | 4 | 1 | 3 | 2 | 12 | 3 | 1/4 | 5/4 | Keine Eingabe
-26 | 3 | 5 | 1 | 3 | 2 | 20 | 12 | 3/5 | 8/5 | Keine Eingabe
-27 | 2 | 3 | 1 | 4 | 2 | 18 | 12 | 2/3 | 5/3 | Keine Eingabe
-28 | 2 | 4 | 1 | 3 | 2 | 8 | 4 | 2/4 | 6/4 | Keine Eingabe
-29 | 4 | 5 | 1 | 3 | 2 | 15 | 12 | 4/5 | 9/5 | Keine Eingabe
-30 | 1 | 3 | 1 | 4 | 2 | 15 | 5 | 1/3 | 4/3 | Keine Eingabe
-31 | 3 | 4 | 1 | 3 | 2 | 24 | 18 | 3/4 | 7/4 | Keine Eingabe
-32 | 1 | 5 | 1 | 3 | 2 | 10 | 2 | 1/5 | 6/5 | Keine Eingabe
-33 | 2 | 3 | 1 | 4 | 2 | 12 | 8 | 2/3 | 5/3 | Keine Eingabe
-34 | 1 | 4 | 1 | 3 | 2 | 20 | 5 | 1/4 | 5/4 | Keine Eingabe
-35 | 2 | 5 | 1 | 3 | 2 | 30 | 12 | 2/5 | 7/5 | Keine Eingabe
-36 | 2 | 4 | 1 | 3 | 2 | 16 | 8 | 2/4 | 6/4 | Keine Eingabe
-37 | 3 | 5 | 1 | 3 | 2 | 25 | 15 | 3/5 | 8/5 | Keine Eingabe
-38 | 3 | 4 | 1 | 3 | 2 | 12 | 9 | 3/4 | 7/4 | Keine Eingabe
-39 | 4 | 5 | 1 | 3 | 2 | 20 | 16 | 4/5 | 9/5 | Keine Eingabe
-40 | 1 | 4 | 1 | 3 | 2 | 8 | 2 | 1/4 | 5/4 | Keine Eingabe
-41 | 1 | 5 | 1 | 3 | 2 | 15 | 3 | 1/5 | 6/5 | Keine Eingabe
-42 | 2 | 4 | 1 | 3 | 2 | 24 | 12 | 2/4 | 6/4 | Keine Eingabe
-43 | 2 | 5 | 1 | 3 | 2 | 10 | 4 | 2/5 | 7/5 | Keine Eingabe
-44 | 3 | 4 | 1 | 3 | 2 | 20 | 15 | 3/4 | 7/4 | Keine Eingabe
-45 | 3 | 5 | 1 | 3 | 2 | 30 | 18 | 3/5 | 8/5 | Keine Eingabe
-46 | 4 | 5 | 1 | 3 | 2 | 25 | 20 | 4/5 | 9/5 | Keine Eingabe
-47 | 1 | 5 | 1 | 3 | 2 | 20 | 4 | 1/5 | 6/5 | Keine Eingabe
-48 | 2 | 5 | 1 | 3 | 2 | 15 | 6 | 2/5 | 7/5 | Keine Eingabe
-49 | 3 | 5 | 1 | 3 | 2 | 10 | 6 | 3/5 | 8/5 | Keine Eingabe
-50 | 4 | 5 | 1 | 3 | 2 | 30 | 24 | 4/5 | 9/5 | Keine Eingabe
+1 | 1 | 3 | 1 | 4 | 2 | 9 | 3 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+2 | 1 | 4 | 1 | 3 | 2 | 16 | 4 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+3 | 1 | 5 | 1 | 3 | 2 | 25 | 5 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+4 | 1 | 6 | 1 | 3 | 2 | 36 | 6 | $\frac{1}{6}$ | $\frac{7}{6}$ | Keine Eingabe
+5 | 2 | 3 | 1 | 4 | 2 | 6 | 4 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
+6 | 2 | 4 | 1 | 3 | 2 | 12 | 6 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+7 | 2 | 5 | 1 | 3 | 2 | 20 | 8 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+8 | 2 | 6 | 1 | 3 | 2 | 30 | 10 | $\frac{2}{6}$ | $\frac{8}{6}$ | Keine Eingabe
+9 | 1 | 3 | 1 | 4 | 2 | 18 | 6 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+10 | 3 | 4 | 1 | 3 | 2 | 8 | 6 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
+11 | 3 | 5 | 1 | 3 | 2 | 15 | 9 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+12 | 3 | 6 | 1 | 3 | 2 | 24 | 12 | $\frac{3}{6}$ | $\frac{9}{6}$ | Keine Eingabe
+13 | 2 | 3 | 1 | 4 | 2 | 15 | 10 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
+14 | 1 | 4 | 1 | 3 | 2 | 24 | 6 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+15 | 4 | 5 | 1 | 3 | 2 | 10 | 8 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
+16 | 4 | 6 | 1 | 3 | 2 | 18 | 12 | $\frac{4}{6}$ | $\frac{10}{6}$ | Keine Eingabe
+17 | 1 | 3 | 1 | 4 | 2 | 12 | 4 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+18 | 2 | 4 | 1 | 3 | 2 | 20 | 10 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+19 | 1 | 5 | 1 | 3 | 2 | 30 | 6 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+20 | 5 | 6 | 1 | 3 | 2 | 12 | 10 | $\frac{5}{6}$ | $\frac{11}{6}$ | Keine Eingabe
+21 | 2 | 3 | 1 | 4 | 2 | 9 | 6 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
+22 | 3 | 4 | 1 | 3 | 2 | 16 | 12 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
+23 | 2 | 5 | 1 | 3 | 2 | 25 | 10 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+24 | 1 | 3 | 1 | 4 | 2 | 6 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+25 | 1 | 4 | 1 | 3 | 2 | 12 | 3 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+26 | 3 | 5 | 1 | 3 | 2 | 20 | 12 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+27 | 2 | 3 | 1 | 4 | 2 | 18 | 12 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
+28 | 2 | 4 | 1 | 3 | 2 | 8 | 4 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+29 | 4 | 5 | 1 | 3 | 2 | 15 | 12 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
+30 | 1 | 3 | 1 | 4 | 2 | 15 | 5 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+31 | 3 | 4 | 1 | 3 | 2 | 24 | 18 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
+32 | 1 | 5 | 1 | 3 | 2 | 10 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+33 | 2 | 3 | 1 | 4 | 2 | 12 | 8 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
+34 | 1 | 4 | 1 | 3 | 2 | 20 | 5 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+35 | 2 | 5 | 1 | 3 | 2 | 30 | 12 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+36 | 2 | 4 | 1 | 3 | 2 | 16 | 8 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+37 | 3 | 5 | 1 | 3 | 2 | 25 | 15 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+38 | 3 | 4 | 1 | 3 | 2 | 12 | 9 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
+39 | 4 | 5 | 1 | 3 | 2 | 20 | 16 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
+40 | 1 | 4 | 1 | 3 | 2 | 8 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+41 | 1 | 5 | 1 | 3 | 2 | 15 | 3 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+42 | 2 | 4 | 1 | 3 | 2 | 24 | 12 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+43 | 2 | 5 | 1 | 3 | 2 | 10 | 4 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+44 | 3 | 4 | 1 | 3 | 2 | 20 | 15 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
+45 | 3 | 5 | 1 | 3 | 2 | 30 | 18 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+46 | 4 | 5 | 1 | 3 | 2 | 25 | 20 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
+47 | 1 | 5 | 1 | 3 | 2 | 20 | 4 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+48 | 2 | 5 | 1 | 3 | 2 | 15 | 6 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+49 | 3 | 5 | 1 | 3 | 2 | 10 | 6 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+50 | 4 | 5 | 1 | 3 | 2 | 30 | 24 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
 ```
 
 ### Aufgabe verstehen
@@ -142,21 +142,21 @@ Nr. | z (verdeckt) | n (verdeckt) | b (verdeckt) | d (verdeckt) | f (verdeckt) |
 - Aufgabe: Welcher Anteil sind 6 von 8?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 3/4 – 6 von 8 sind 6/8 = 3/4. 50 cm von 2 m sind 50 cm von 200 cm, also 50/200 = 1/4.
-  - ✗ 4/3 – Hier stehen Ganzes und Bruchteil verkehrt herum.
-  - ✗ 2/8 – Die zwei nicht markierten Plättchen sind der Rest. Gesucht sind die sechs markierten.
-- Lösung: 3/4
-- Erklärung: 6 von 8 sind 6/8 = 3/4. 50 cm von 2 m sind 50 cm von 200 cm, also 50/200 = 1/4.
+  - ✓ $\frac{3}{4}$ – 6 von 8 sind $\frac{6}{8} = \frac{3}{4}$. 50 cm von 2 m sind 50 cm von 200 cm, also $\frac{50}{200} = \frac{1}{4}$.
+  - ✗ $\frac{4}{3}$ – Hier stehen Ganzes und Bruchteil verkehrt herum.
+  - ✗ $\frac{2}{8}$ – Die zwei nicht markierten Plättchen sind der Rest. Gesucht sind die sechs markierten.
+- Lösung: $\frac{3}{4}$
+- Erklärung: 6 von 8 sind $\frac{6}{8} = \frac{3}{4}$. 50 cm von 2 m sind 50 cm von 200 cm, also $\frac{50}{200} = \frac{1}{4}$.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Von {e.vierfach} Plättchen sind {e.dreifach} markiert. Ergänze den vollständig gekürzten Anteil 3/… .“
+- Aufgabe: „Von {e.vierfach} Plättchen sind {e.dreifach} markiert. Ergänze den vollständig gekürzten Anteil $\frac{3}{?}$“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Anteil = Bruchteil : Ganzes.“
 - Lösungsweg:
-  - Der Anteil ist {e.dreifach}/{e.vierfach}. Zähler und Nenner sind durch {e.basis} teilbar.
-  - Kürzen ergibt 3/4. Der gesuchte Nenner ist 4.
+  - Der Anteil ist $\frac{{e.dreifach}}{{e.vierfach}}$. Zähler und Nenner sind durch {e.basis} teilbar.
+  - Kürzen ergibt $\frac{3}{4}$. Der gesuchte Nenner ist 4.
 - Typische Fehler und was die App sagt:
   - F1: „Drei ist hier der Zähler. Gefragt ist der Nenner.“
   - F2: „Das ist die Gesamtmenge vor dem Kürzen. Kürze auch den Nenner.“

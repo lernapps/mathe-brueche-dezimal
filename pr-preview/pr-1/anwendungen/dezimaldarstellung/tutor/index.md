@@ -45,7 +45,7 @@ Ein Anteil kann verschiedene Schreibweisen haben. Wie passen Viertel zu Hunderts
 
 ### Ein halber Liter oder 0,5 Liter?
 
-Auf einem Messbecher steht vielleicht 0,5 Liter statt ein halber Liter. Beide Schreibweisen können dieselbe Menge beschreiben.
+Auf einem Messbecher steht vielleicht 0,5 Liter statt ein halber Liter. Beide Schreibweisen können dieselbe Menge beschreiben.
 
 - **Dezimalzahl**: Bei einer Dezimalzahl benennt jede Stelle nach dem Komma kleinere Teile eines Ganzen: Zehntel, Hundertstel, Tausendstel und so weiter.
 
@@ -57,17 +57,17 @@ Bild: Ein Quadrat aus zehn Zeilen und zehn Spalten enthält 100 gleich große K�
 
 Derselbe Anteil in drei Schreibweisen:
 - Viertel | Hundertstel | Dezimalzahl
-- 3/4 | 75/100 | 0,75
+- $\frac{3}{4}$ | $\frac{75}{100}$ | 0,75
 
 **Merke: Was du dabei beobachten kannst**
 
-Zehntel, Hundertstel und Tausendstel gehören zu den Stellen nach dem Komma. 3/4 = 75/100 = 0,75. Allgemein kannst du den Zähler durch den Nenner teilen. Die Division endet oder wird periodisch. Bei vollständig gekürzten Brüchen endet sie genau dann, wenn der Nenner nur Primfaktoren 2 und 5 enthält.
+Zehntel, Hundertstel und Tausendstel gehören zu den Stellen nach dem Komma. $\frac{3}{4} = \frac{75}{100} = 0{,}75$. Allgemein kannst du den Zähler durch den Nenner teilen. Die Division endet oder wird periodisch. Bei vollständig gekürzten Brüchen endet sie genau dann, wenn der Nenner nur Primfaktoren 2 und 5 enthält.
 
 ### Am Beispiel nachvollziehen
 
 **Beispiel: Schritt für Schritt**
 
-1/8 = 0,125. Bei 1/3 wiederholt sich die 3 ohne Ende: 0,333… . Das ist nicht genau 0,33; 0,33 ist nur eine Näherung. Einfache Prozentangaben sind Hundertstel: 25 % = 25/100 = 1/4.
+$\frac{1}{8} = 0{,}125$. Bei $\frac{1}{3}$ wiederholt sich die 3 ohne Ende: 0,333… . Das ist nicht genau 0,33; 0,33 ist nur eine Näherung. Einfache Prozentangaben sind Hundertstel: 25 % = $\frac{25}{100} = \frac{1}{4}$.
 
 ### Üben
 
@@ -80,16 +80,16 @@ Zehntel, Hundertstel und Tausendstel gehören zu den Stellen nach dem Komma. 3/4
 - Aufgabe: Welche Gleichheit stimmt genau?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 3/4 = 0,75 – 1/8 = 0,125. Bei 1/3 wiederholt sich die 3 ohne Ende: 0,333… . Das ist nicht genau 0,33; 0,33 ist nur eine Näherung. Einfache Prozentangaben sind Hundertstel: 25 % = 25/100 = 1/4.
-  - ✗ 1/3 = 0,33 – 0,33 endet nach zwei Stellen. Bei einem Drittel wiederholt sich die 3 ohne Ende.
-  - ✗ 1/8 = 0,18 – Ein Achtel bedeutet 1 geteilt durch 8, nicht das Aneinanderhängen beider Ziffern.
-- Lösung: 3/4 = 0,75
-- Erklärung: 1/8 = 0,125. Bei 1/3 wiederholt sich die 3 ohne Ende: 0,333… . Das ist nicht genau 0,33; 0,33 ist nur eine Näherung. Einfache Prozentangaben sind Hundertstel: 25 % = 25/100 = 1/4.
+  - ✓ $\frac{3}{4} = 0{,}75$ – $\frac{1}{8} = 0{,}125$. Bei $\frac{1}{3}$ wiederholt sich die 3 ohne Ende: 0,333… . Das ist nicht genau 0,33; 0,33 ist nur eine Näherung. Einfache Prozentangaben sind Hundertstel: 25 % = $\frac{25}{100} = \frac{1}{4}$.
+  - ✗ $\frac{1}{3} = 0{,}33$ – 0,33 endet nach zwei Stellen. Bei einem Drittel wiederholt sich die 3 ohne Ende.
+  - ✗ $\frac{1}{8} = 0{,}18$ – Ein Achtel bedeutet 1 geteilt durch 8, nicht das Aneinanderhängen beider Ziffern.
+- Lösung: $\frac{3}{4} = 0{,}75$
+- Erklärung: $\frac{1}{8} = 0{,}125$. Bei $\frac{1}{3}$ wiederholt sich die 3 ohne Ende: 0,333… . Das ist nicht genau 0,33; 0,33 ist nur eine Näherung. Einfache Prozentangaben sind Hundertstel: 25 % = $\frac{25}{100} = \frac{1}{4}$.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Schreibe {n}/10 als Dezimalzahl.“
+- Aufgabe: „Schreibe $\frac{{n}}{10}$ als Dezimalzahl.“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Zehntel, Hundertstel und Tausendstel gehören zu den Stellen nach dem Komma.“
 - Lösungsweg:

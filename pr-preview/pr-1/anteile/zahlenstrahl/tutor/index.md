@@ -53,7 +53,7 @@ Eine Zahl kann auch einen Platz auf einer Strecke haben. Wir betrachten zunächs
 
 Der Zahlenstrahl ist wie ein Lineal für Zahlen. Die Strecke von 0 bis 1 ist ein Ganzes. Der Nenner sagt, wie viele gleich lange Abschnitte du daraus machst. Jeder Abstand zwischen zwei Strichen ist ein Teilstück – zähle also die Abstände, nicht die Striche. Der Zähler sagt, wie viele dieser Schritte du von 0 nach rechts gehst. Der grüne Punkt zeigt die gewählte Stelle. Probiere die Regler aus. In der Übung verschiebst du den Punkt und drückst anschließend „Prüfen“.
 
-Interaktiv: Der Zahlenstrahl ist wie ein Lineal für Zahlen. Die Strecke von 0 bis 1 ist ein Ganzes. Der Nenner sagt, wie viele gleich lange Abschnitte du daraus machst. Jeder Abstand zwischen zwei Strichen ist ein Teilstück – zähle also die Abstände, nicht die Striche. Der Zähler sagt, wie viele dieser Schritte du von 0 nach rechts gehst. Der grüne Punkt zeigt die gewählte Stelle. Probiere die Regler aus. In der Übung verschiebst du den Punkt und drückst anschließend „Prüfen“. Im Anfangsbild ist die Strecke von 0 bis 1 in vier gleich lange Abschnitte geteilt. Der Punkt liegt nach dem dritten Abschnitt, also bei 3/4.
+Interaktiv: Der Zahlenstrahl ist wie ein Lineal für Zahlen. Die Strecke von 0 bis 1 ist ein Ganzes. Der Nenner sagt, wie viele gleich lange Abschnitte du daraus machst. Jeder Abstand zwischen zwei Strichen ist ein Teilstück – zähle also die Abstände, nicht die Striche. Der Zähler sagt, wie viele dieser Schritte du von 0 nach rechts gehst. Der grüne Punkt zeigt die gewählte Stelle. Probiere die Regler aus. In der Übung verschiebst du den Punkt und drückst anschließend „Prüfen“. Im Anfangsbild ist die Strecke von 0 bis 1 in vier gleich lange Abschnitte geteilt. Der Punkt liegt nach dem dritten Abschnitt, also bei $\frac{3}{4}$.
 
 **Merke: Was du dabei beobachten kannst**
 
@@ -63,7 +63,7 @@ Teile jede Einheit in so viele gleich große **Abstände**, wie der Nenner angib
 
 **Beispiel: Schritt für Schritt**
 
-Teile die Strecke von 0 bis 1 in vier gleich große Abstände. Der erste Schritt führt zu 1/4, der zweite zu 2/4 und der dritte zu 3/4. Vier Schritte führen zu 4/4, also zur 1.
+Teile die Strecke von 0 bis 1 in vier gleich große Abstände. Der erste Schritt führt zu $\frac{1}{4}$, der zweite zu $\frac{2}{4}$ und der dritte zu $\frac{3}{4}$. Vier Schritte führen zu $\frac{4}{4}$, also zur 1.
 
 ### Üben
 
@@ -126,24 +126,24 @@ Nr. | z | n | Lösung | F1 | F2
 
 ### Aufgabe verstehen
 
-- Aufgabe: Wo liegt 3/4?
+- Aufgabe: Wo liegt $\frac{3}{4}$?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Zwischen 0 und 1. – Teile die Strecke von 0 bis 1 in vier gleich große Abstände. Der erste Schritt führt zu 1/4, der zweite zu 2/4 und der dritte zu 3/4. Vier Schritte führen zu 4/4, also zur 1.
+  - ✓ Zwischen 0 und 1. – Teile die Strecke von 0 bis 1 in vier gleich große Abstände. Der erste Schritt führt zu $\frac{1}{4}$, der zweite zu $\frac{2}{4}$ und der dritte zu $\frac{3}{4}$. Vier Schritte führen zu $\frac{4}{4}$, also zur 1.
   - ✗ Genau bei 3. – Drei Viertelschritte sind keine drei Ganzen. Jeder Schritt ist nur ein Viertel lang.
   - ✗ Rechts von 1. – Drei von vier gleich großen Abständen erreichen die 1 noch nicht.
 - Lösung: Zwischen 0 und 1.
-- Erklärung: Teile die Strecke von 0 bis 1 in vier gleich große Abstände. Der erste Schritt führt zu 1/4, der zweite zu 2/4 und der dritte zu 3/4. Vier Schritte führen zu 4/4, also zur 1.
+- Erklärung: Teile die Strecke von 0 bis 1 in vier gleich große Abstände. Der erste Schritt führt zu $\frac{1}{4}$, der zweite zu $\frac{2}{4}$ und der dritte zu $\frac{3}{4}$. Vier Schritte führen zu $\frac{4}{4}$, also zur 1.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Eine Einheit hat {n} gleiche Abstände. Wie viele davon brauchst du für {n}/{n}?“
+- Aufgabe: „Eine Einheit hat {n} gleiche Abstände. Wie viele davon brauchst du für $\frac{{n}}{{n}}$?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Teile jede Einheit in so viele gleich große **Abstände**, wie der Nenner angibt.“
 - Lösungsweg:
-  - Zwischen 0 und 1 liegen {n} gleich große Abstände. Ein Schritt ist also 1/{n} lang.
-  - Für {n}/{n} gehst du alle {n} Schritte und erreichst genau 1. Der Startpunkt zählt nicht als Schritt.
+  - Zwischen 0 und 1 liegen {n} gleich große Abstände. Ein Schritt ist also $\frac{1}{{n}}$ lang.
+  - Für $\frac{{n}}{{n}}$ gehst du alle {n} Schritte und erreichst genau 1. Der Startpunkt zählt nicht als Schritt.
 - Typische Fehler und was die App sagt:
   - F1: „Du hast den Startpunkt mitgezählt. Gefragt ist die Anzahl der Abstände.“
   - F2: „Ein Ganzes ist hier in mehrere gleich große Abstände unterteilt.“

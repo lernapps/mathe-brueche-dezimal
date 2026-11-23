@@ -45,7 +45,7 @@ Malnehmen mit Zehnteln und Hundertsteln; beim Teilen beide Zahlen gleich vergrö
 
 ### Malnehmen und Teilen: Was macht das Komma?
 
-Wie viel sind drei Zehntel von zwei Zehnteln? Und wie viele Portionen von 0,25 Litern passen in 0,75 Liter? Bei diesen Fragen multiplizierst oder dividierst du. Die beiden Rechenarten werden hier getrennt erklärt. Das Komma steht jeweils an der Stelle, die zu den Größen passt.
+Wie viel sind drei Zehntel von zwei Zehnteln? Und wie viele Portionen von 0,25 Litern passen in 0,75 Liter? Bei diesen Fragen multiplizierst oder dividierst du. Die beiden Rechenarten werden hier getrennt erklärt. Das Komma steht jeweils an der Stelle, die zu den Größen passt.
 
 ### Anschaulich erklärt
 
@@ -57,7 +57,7 @@ Bild: Ein Einheitsquadrat ist in zehn Spalten und zehn Zeilen geteilt. Ein grün
 
 #### Geteilt: dieselbe Rechnung in einer anderen Einheit
 
-In 0,75 Litern sollen Portionen von je 0,25 Litern gezählt werden. In Litern wirken die Zahlen klein. Rechne beide Mengen in Zentiliter um: Es sind 75 Zentiliter und Portionen von je 25 Zentilitern. Die Anzahl der Portionen ändert sich durch die neue Einheit nicht. Du hast beide Zahlen mit 100 multipliziert. Genau deshalb darfst du bei einer Division das Komma in BEIDEN Zahlen gleich weit verschieben.
+In 0,75 Litern sollen Portionen von je 0,25 Litern gezählt werden. In Litern wirken die Zahlen klein. Rechne beide Mengen in Zentiliter um: Es sind 75 Zentiliter und Portionen von je 25 Zentilitern. Die Anzahl der Portionen ändert sich durch die neue Einheit nicht. Du hast beide Zahlen mit 100 multipliziert. Genau deshalb darfst du bei einer Division das Komma in BEIDEN Zahlen gleich weit verschieben.
 
 Dieselbe Portionsfrage in zwei Einheiten:
 - Einheit | Menge insgesamt | Menge pro Portion

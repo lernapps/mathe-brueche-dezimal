@@ -51,19 +51,19 @@ Was ist überhaupt ein Bruch? Mit einem Beinbruch hat er hier nichts zu tun. Mit
 
 ### Ausprobieren
 
-Ein Bruch beschreibt einen Teil von einem Ganzen. In den Bildern ist das Ganze ein Kreis, ein Streifen oder die gesamte Menge an Plättchen. Die grünen Stücke sind ausgewählt; Die Streifenflächen sind zusätzlich schraffiert; in der Mengenansicht sind ausgewählte Punkte ausgefüllt. Mit „Nenner“ stellst du ein, in wie viele gleich große Teile du das Ganze zerlegst. Mit „Zähler“ wählst du aus, wie viele davon dazugehören. Ändere zuerst nur einen Regler und vergleiche die Bilder. In der Übung klickst du die benötigten Teile an; ein weiterer Klick nimmt die Markierung zurück. Danach drückst du „Prüfen“.
+Hier siehst du denselben Anteil als Kreis, als Streifen und als Plättchen. Mit „Nenner“ legst du fest, in wie viele gleich große Teile das Ganze zerlegt wird. Mit „Zähler“ wählst du aus, wie viele Teile gefärbt sind.
 
-Interaktiv: Ein Bruch beschreibt einen Teil von einem Ganzen. In den Bildern ist das Ganze ein Kreis, ein Streifen oder die gesamte Menge an Plättchen. Die grünen Stücke sind ausgewählt; Die Streifenflächen sind zusätzlich schraffiert; in der Mengenansicht sind ausgewählte Punkte ausgefüllt. Mit „Nenner“ stellst du ein, in wie viele gleich große Teile du das Ganze zerlegst. Mit „Zähler“ wählst du aus, wie viele davon dazugehören. Ändere zuerst nur einen Regler und vergleiche die Bilder. In der Übung klickst du die benötigten Teile an; ein weiterer Klick nimmt die Markierung zurück. Danach drückst du „Prüfen“. Im Anfangsbild sind drei von vier Kreisteilen und drei von vier Streifenfeldern markiert. Im Mengenbild sind sechs von acht Plättchen markiert. Jedes Bild zeigt denselben Anteil: $\frac{3}{4}$.
+Interaktiv: Ein Bruch beschreibt einen Teil von einem Ganzen. In den Bildern ist das Ganze ein Kreis, ein Streifen oder die gesamte Menge an Plättchen. Die grünen Stücke sind ausgewählt; Die Streifenflächen sind zusätzlich schraffiert; in der Mengenansicht sind ausgewählte Punkte ausgefüllt. Mit „Nenner“ stellst du ein, in wie viele gleich große Teile du das Ganze zerlegst. Mit „Zähler“ wählst du aus, wie viele davon dazugehören. Ändere zuerst nur einen Regler und vergleiche die Bilder. In der Übung klickst du die benötigten Teile an; ein weiterer Klick nimmt die Markierung zurück. Danach drückst du „Prüfen“. Im Anfangsbild sind drei von vier Kreisteilen und drei von vier Streifenfeldern markiert. Im Mengenbild sind drei von vier Plättchen markiert. Jedes Bild zeigt denselben Anteil: $\frac{3}{4}$.
 
 **Merke: Was du dabei beobachten kannst**
 
-Der Nenner nennt die Anzahl gleich großer Teile **pro Ganzem**. Der Zähler nennt die ausgewählten Teile. Der Bruchstrich bedeutet auch geteilt durch. Ein Ganzes muss feststehen: Ein Viertel einer großen Tafel kann mehr sein als ein Viertel einer kleinen Tafel.
+Ändere nur den Zähler: Was bleibt gleich, was ändert sich? Ändere nur den Nenner: Was passiert mit den Teilen? Machst du den Nenner kleiner als den Zähler, nimmt der Zähler mit: Du kannst nie mehr Teile auswählen, als das Ganze hat. Und das Ganze muss immer feststehen: Ein Viertel einer großen Pizza ist mehr als ein Viertel einer kleinen Pizza.
 
 ### Am Beispiel nachvollziehen
 
 **Beispiel: Schritt für Schritt**
 
-Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: $\frac{3}{4}$. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.
+Ein Streifen besteht aus acht gleich großen Feldern. Fünf sind markiert: $\frac{5}{8}$. Die 8 unter dem Bruchstrich sagt: Acht gleich große Teile bilden das Ganze. Die 5 darüber sagt: Fünf davon sind ausgewählt.
 
 ### Üben
 
@@ -138,7 +138,7 @@ Nr. | z | n | Lösung | F1 | F2
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Ein Ganzes ist in {n} gleiche Teile geteilt. Ein Teil ist markiert. Welcher Nenner gehört zum Bruch $\frac{1}{?}$?“
+- Aufgabe: „Ein Ganzes ist in {n} gleiche Teile geteilt. Ein Teil ist markiert. Gib den fehlenden Nenner an: $\frac{1}{?}$“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Der Nenner nennt die Anzahl gleich großer Teile **pro Ganzem**.“
 - Lösungsweg:

@@ -43,10 +43,10 @@ Diese Seite ist eine Wiederholung: Sie wiederholt etwas, das das Kind schon kön
 
 Was du über natürliche Zahlen schon können solltest, bevor es um Brüche geht.
 
-Brüche füllen die Lücken zwischen den natürlichen Zahlen. Dafür brauchst du die natürlichen Zahlen sicher. Prüfe dich selbst, ohne etwas einzutippen.
+Gleich geht es um Brüche. Dafür musst du natürliche Zahlen sicher lesen und schreiben. Prüfe dich selbst, ohne etwas einzutippen.
 
 Ich kann natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen.
 
-In der Zahl 4305 steht die 4 an der Tausenderstelle: vier Tausender, also 4000. Die 3 steht bei den Hundertern, also 300. An der Zehnerstelle steht eine 0, es gibt also keine Zehner. Die 5 sind fünf Einer. Antworte in Gedanken: Wie liest du 4305? Wie schreibst du 6 Tausender, 2 Zehner und 9 Einer?
+In der Zahl 4305 steht die 4 an der Tausenderstelle: vier Tausender, also 4000. Die 3 steht bei den Hundertern, also 300. An der Zehnerstelle steht eine 0, es gibt also keine Zehner. Die 5 sind fünf Einer. Antworte in Gedanken: Wie liest du 4305? Wie schreibst du 6 Tausender, 2 Zehner und 9 Einer? (Zur Kontrolle: viertausenddreihundertfünf und 6029.)
 
-Hast du beides sicher? Dann geht es mit dem Bruchbegriff los. Sonst sieh dir die Stellenwerttafel noch einmal an, bevor du weitermachst.
+Hast du beides sicher? Dann geht es mit Brüchen los. Sonst übe das Lesen und Schreiben großer Zahlen noch einmal, bevor du weitermachst.

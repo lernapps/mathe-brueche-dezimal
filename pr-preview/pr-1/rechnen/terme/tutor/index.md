@@ -55,7 +55,7 @@ In der Tabelle stehen zwei fast gleiche Rechnungen. Rechts kommt eine Klammer hi
 
 Gleiche Zahlen, andere Reihenfolge:
 - Ohne Klammer | Mit Klammer
-- 1/2 + 1/3 · 3 | (1/2 + 1/3) · 3
+- $\frac{1}{2} + \frac{1}{3} \cdot 3$ | ($\frac{1}{2} + \frac{1}{3}$) · 3
 
 **Merke: Was du dabei beobachten kannst**
 
@@ -65,7 +65,7 @@ Klammern zuerst, dann Punktrechnung vor Strichrechnung. Addition und Multiplikat
 
 **Beispiel: Schritt für Schritt**
 
-1/2 + 1/3 · 3 = 1/2 + 1 = 3/2. Mit Klammern: (1/2 + 1/3) · 3 = 5/6 · 3 = 5/2. Die Klammer verändert die Reihenfolge.
+$\frac{1}{2} + \frac{1}{3} \cdot 3 = \frac{1}{2} + 1 = \frac{3}{2}$. Mit Klammern: ($\frac{1}{2} + \frac{1}{3}$) · $3 = \frac{5}{6} \cdot 3 = \frac{5}{2}$. Die Klammer verändert die Reihenfolge.
 
 ### Üben
 
@@ -75,23 +75,23 @@ Klammern zuerst, dann Punktrechnung vor Strichrechnung. Addition und Multiplikat
 
 ### Aufgabe verstehen
 
-- Aufgabe: Was wird bei 1/2 + 1/3 · 3 zuerst gerechnet?
+- Aufgabe: Was wird bei $\frac{1}{2} + \frac{1}{3} \cdot 3$ zuerst gerechnet?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 1/3 · 3 – 1/2 + 1/3 · 3 = 1/2 + 1 = 3/2. Mit Klammern: (1/2 + 1/3) · 3 = 5/6 · 3 = 5/2. Die Klammer verändert die Reihenfolge.
-  - ✗ 1/2 + 1/3 – Die Multiplikation hat Vorrang vor der Addition.
-  - ✗ 1/2 · 3 – Diese beiden Zahlen sind in diesem Term nicht miteinander multipliziert.
-- Lösung: 1/3 · 3
-- Erklärung: 1/2 + 1/3 · 3 = 1/2 + 1 = 3/2. Mit Klammern: (1/2 + 1/3) · 3 = 5/6 · 3 = 5/2. Die Klammer verändert die Reihenfolge.
+  - ✓ $\frac{1}{3} \cdot 3$ – $\frac{1}{2} + \frac{1}{3} \cdot 3 = \frac{1}{2} + 1 = \frac{3}{2}$. Mit Klammern: ($\frac{1}{2} + \frac{1}{3}$) · $3 = \frac{5}{6} \cdot 3 = \frac{5}{2}$. Die Klammer verändert die Reihenfolge.
+  - ✗ $\frac{1}{2} + \frac{1}{3}$ – Die Multiplikation hat Vorrang vor der Addition.
+  - ✗ $\frac{1}{2} \cdot 3$ – Diese beiden Zahlen sind in diesem Term nicht miteinander multipliziert.
+- Lösung: $\frac{1}{3} \cdot 3$
+- Erklärung: $\frac{1}{2} + \frac{1}{3} \cdot 3 = \frac{1}{2} + 1 = \frac{3}{2}$. Mit Klammern: ($\frac{1}{2} + \frac{1}{3}$) · $3 = \frac{5}{6} \cdot 3 = \frac{5}{2}$. Die Klammer verändert die Reihenfolge.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Berechne 1 + (1/{n} · {n}).“
+- Aufgabe: „Berechne 1 + ($\frac{1}{{n}} \cdot {n}$).“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Klammern zuerst, dann Punktrechnung vor Strichrechnung.“
 - Lösungsweg:
-  - In der Klammer wird zuerst multipliziert. {n} Stücke der Größe 1/{n} ergeben zusammen 1.
+  - In der Klammer wird zuerst multipliziert. {n} Stücke der Größe $\frac{1}{{n}}$ ergeben zusammen 1.
   - Danach kommt die führende 1 hinzu: 1 + 1 = 2.
 - Typische Fehler und was die App sagt:
   - F1: „Berechne zuerst die Multiplikation in der Klammer.“

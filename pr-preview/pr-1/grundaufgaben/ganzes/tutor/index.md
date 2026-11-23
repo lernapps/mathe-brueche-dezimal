@@ -61,7 +61,7 @@ Ganzes = Bruchteil : Anteil. Du kannst zuerst durch den Zähler teilen und dann 
 
 **Beispiel: Schritt für Schritt**
 
-9 Plättchen sind 3/4. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.
+9 Plättchen sind $\frac{3}{4}$. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.
 
 ### Üben
 
@@ -83,73 +83,73 @@ Ganzes = Bruchteil : Anteil. Du kannst zuerst durch den Zähler teilen und dann 
 
 ```
 Nr. | z | n | b (verdeckt) | d (verdeckt) | f (verdeckt) | part | Lösung | F1 | F2
-1 | 1 | 3 | 1 | 4 | 2 | 3 | 9/1 | 10/1 | Keine Eingabe
-2 | 1 | 4 | 1 | 3 | 2 | 4 | 16/1 | 17/1 | Keine Eingabe
-3 | 1 | 5 | 1 | 3 | 2 | 5 | 25/1 | 26/1 | Keine Eingabe
-4 | 1 | 6 | 1 | 3 | 2 | 6 | 36/1 | 37/1 | Keine Eingabe
-5 | 2 | 3 | 1 | 4 | 2 | 4 | 6/1 | 7/1 | Keine Eingabe
-6 | 2 | 4 | 1 | 3 | 2 | 6 | 12/1 | 13/1 | Keine Eingabe
-7 | 2 | 5 | 1 | 3 | 2 | 8 | 20/1 | 21/1 | Keine Eingabe
-8 | 2 | 6 | 1 | 3 | 2 | 10 | 30/1 | 31/1 | Keine Eingabe
-9 | 1 | 3 | 1 | 4 | 2 | 6 | 18/1 | 19/1 | Keine Eingabe
-10 | 3 | 4 | 1 | 3 | 2 | 6 | 8/1 | 9/1 | Keine Eingabe
-11 | 3 | 5 | 1 | 3 | 2 | 9 | 15/1 | 16/1 | Keine Eingabe
-12 | 3 | 6 | 1 | 3 | 2 | 12 | 24/1 | 25/1 | Keine Eingabe
-13 | 2 | 3 | 1 | 4 | 2 | 10 | 15/1 | 16/1 | Keine Eingabe
-14 | 1 | 4 | 1 | 3 | 2 | 6 | 24/1 | 25/1 | Keine Eingabe
-15 | 4 | 5 | 1 | 3 | 2 | 8 | 10/1 | 11/1 | Keine Eingabe
-16 | 4 | 6 | 1 | 3 | 2 | 12 | 18/1 | 19/1 | Keine Eingabe
-17 | 1 | 3 | 1 | 4 | 2 | 4 | 12/1 | 13/1 | Keine Eingabe
-18 | 2 | 4 | 1 | 3 | 2 | 10 | 20/1 | 21/1 | Keine Eingabe
-19 | 1 | 5 | 1 | 3 | 2 | 6 | 30/1 | 31/1 | Keine Eingabe
-20 | 5 | 6 | 1 | 3 | 2 | 10 | 12/1 | 13/1 | Keine Eingabe
-21 | 2 | 3 | 1 | 4 | 2 | 6 | 9/1 | 10/1 | Keine Eingabe
-22 | 3 | 4 | 1 | 3 | 2 | 12 | 16/1 | 17/1 | Keine Eingabe
-23 | 2 | 5 | 1 | 3 | 2 | 10 | 25/1 | 26/1 | Keine Eingabe
-24 | 1 | 3 | 1 | 4 | 2 | 2 | 6/1 | 7/1 | Keine Eingabe
-25 | 1 | 4 | 1 | 3 | 2 | 3 | 12/1 | 13/1 | Keine Eingabe
-26 | 3 | 5 | 1 | 3 | 2 | 12 | 20/1 | 21/1 | Keine Eingabe
-27 | 2 | 3 | 1 | 4 | 2 | 12 | 18/1 | 19/1 | Keine Eingabe
-28 | 2 | 4 | 1 | 3 | 2 | 4 | 8/1 | 9/1 | Keine Eingabe
-29 | 4 | 5 | 1 | 3 | 2 | 12 | 15/1 | 16/1 | Keine Eingabe
-30 | 1 | 3 | 1 | 4 | 2 | 5 | 15/1 | 16/1 | Keine Eingabe
-31 | 3 | 4 | 1 | 3 | 2 | 18 | 24/1 | 25/1 | Keine Eingabe
-32 | 1 | 5 | 1 | 3 | 2 | 2 | 10/1 | 11/1 | Keine Eingabe
-33 | 2 | 3 | 1 | 4 | 2 | 8 | 12/1 | 13/1 | Keine Eingabe
-34 | 1 | 4 | 1 | 3 | 2 | 5 | 20/1 | 21/1 | Keine Eingabe
-35 | 2 | 5 | 1 | 3 | 2 | 12 | 30/1 | 31/1 | Keine Eingabe
-36 | 2 | 4 | 1 | 3 | 2 | 8 | 16/1 | 17/1 | Keine Eingabe
-37 | 3 | 5 | 1 | 3 | 2 | 15 | 25/1 | 26/1 | Keine Eingabe
-38 | 3 | 4 | 1 | 3 | 2 | 9 | 12/1 | 13/1 | Keine Eingabe
-39 | 4 | 5 | 1 | 3 | 2 | 16 | 20/1 | 21/1 | Keine Eingabe
-40 | 1 | 4 | 1 | 3 | 2 | 2 | 8/1 | 9/1 | Keine Eingabe
-41 | 1 | 5 | 1 | 3 | 2 | 3 | 15/1 | 16/1 | Keine Eingabe
-42 | 2 | 4 | 1 | 3 | 2 | 12 | 24/1 | 25/1 | Keine Eingabe
-43 | 2 | 5 | 1 | 3 | 2 | 4 | 10/1 | 11/1 | Keine Eingabe
-44 | 3 | 4 | 1 | 3 | 2 | 15 | 20/1 | 21/1 | Keine Eingabe
-45 | 3 | 5 | 1 | 3 | 2 | 18 | 30/1 | 31/1 | Keine Eingabe
-46 | 4 | 5 | 1 | 3 | 2 | 20 | 25/1 | 26/1 | Keine Eingabe
-47 | 1 | 5 | 1 | 3 | 2 | 4 | 20/1 | 21/1 | Keine Eingabe
-48 | 2 | 5 | 1 | 3 | 2 | 6 | 15/1 | 16/1 | Keine Eingabe
-49 | 3 | 5 | 1 | 3 | 2 | 6 | 10/1 | 11/1 | Keine Eingabe
-50 | 4 | 5 | 1 | 3 | 2 | 24 | 30/1 | 31/1 | Keine Eingabe
+1 | 1 | 3 | 1 | 4 | 2 | 3 | $\frac{9}{1}$ | $\frac{10}{1}$ | Keine Eingabe
+2 | 1 | 4 | 1 | 3 | 2 | 4 | $\frac{16}{1}$ | $\frac{17}{1}$ | Keine Eingabe
+3 | 1 | 5 | 1 | 3 | 2 | 5 | $\frac{25}{1}$ | $\frac{26}{1}$ | Keine Eingabe
+4 | 1 | 6 | 1 | 3 | 2 | 6 | $\frac{36}{1}$ | $\frac{37}{1}$ | Keine Eingabe
+5 | 2 | 3 | 1 | 4 | 2 | 4 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+6 | 2 | 4 | 1 | 3 | 2 | 6 | $\frac{12}{1}$ | $\frac{13}{1}$ | Keine Eingabe
+7 | 2 | 5 | 1 | 3 | 2 | 8 | $\frac{20}{1}$ | $\frac{21}{1}$ | Keine Eingabe
+8 | 2 | 6 | 1 | 3 | 2 | 10 | $\frac{30}{1}$ | $\frac{31}{1}$ | Keine Eingabe
+9 | 1 | 3 | 1 | 4 | 2 | 6 | $\frac{18}{1}$ | $\frac{19}{1}$ | Keine Eingabe
+10 | 3 | 4 | 1 | 3 | 2 | 6 | $\frac{8}{1}$ | $\frac{9}{1}$ | Keine Eingabe
+11 | 3 | 5 | 1 | 3 | 2 | 9 | $\frac{15}{1}$ | $\frac{16}{1}$ | Keine Eingabe
+12 | 3 | 6 | 1 | 3 | 2 | 12 | $\frac{24}{1}$ | $\frac{25}{1}$ | Keine Eingabe
+13 | 2 | 3 | 1 | 4 | 2 | 10 | $\frac{15}{1}$ | $\frac{16}{1}$ | Keine Eingabe
+14 | 1 | 4 | 1 | 3 | 2 | 6 | $\frac{24}{1}$ | $\frac{25}{1}$ | Keine Eingabe
+15 | 4 | 5 | 1 | 3 | 2 | 8 | $\frac{10}{1}$ | $\frac{11}{1}$ | Keine Eingabe
+16 | 4 | 6 | 1 | 3 | 2 | 12 | $\frac{18}{1}$ | $\frac{19}{1}$ | Keine Eingabe
+17 | 1 | 3 | 1 | 4 | 2 | 4 | $\frac{12}{1}$ | $\frac{13}{1}$ | Keine Eingabe
+18 | 2 | 4 | 1 | 3 | 2 | 10 | $\frac{20}{1}$ | $\frac{21}{1}$ | Keine Eingabe
+19 | 1 | 5 | 1 | 3 | 2 | 6 | $\frac{30}{1}$ | $\frac{31}{1}$ | Keine Eingabe
+20 | 5 | 6 | 1 | 3 | 2 | 10 | $\frac{12}{1}$ | $\frac{13}{1}$ | Keine Eingabe
+21 | 2 | 3 | 1 | 4 | 2 | 6 | $\frac{9}{1}$ | $\frac{10}{1}$ | Keine Eingabe
+22 | 3 | 4 | 1 | 3 | 2 | 12 | $\frac{16}{1}$ | $\frac{17}{1}$ | Keine Eingabe
+23 | 2 | 5 | 1 | 3 | 2 | 10 | $\frac{25}{1}$ | $\frac{26}{1}$ | Keine Eingabe
+24 | 1 | 3 | 1 | 4 | 2 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+25 | 1 | 4 | 1 | 3 | 2 | 3 | $\frac{12}{1}$ | $\frac{13}{1}$ | Keine Eingabe
+26 | 3 | 5 | 1 | 3 | 2 | 12 | $\frac{20}{1}$ | $\frac{21}{1}$ | Keine Eingabe
+27 | 2 | 3 | 1 | 4 | 2 | 12 | $\frac{18}{1}$ | $\frac{19}{1}$ | Keine Eingabe
+28 | 2 | 4 | 1 | 3 | 2 | 4 | $\frac{8}{1}$ | $\frac{9}{1}$ | Keine Eingabe
+29 | 4 | 5 | 1 | 3 | 2 | 12 | $\frac{15}{1}$ | $\frac{16}{1}$ | Keine Eingabe
+30 | 1 | 3 | 1 | 4 | 2 | 5 | $\frac{15}{1}$ | $\frac{16}{1}$ | Keine Eingabe
+31 | 3 | 4 | 1 | 3 | 2 | 18 | $\frac{24}{1}$ | $\frac{25}{1}$ | Keine Eingabe
+32 | 1 | 5 | 1 | 3 | 2 | 2 | $\frac{10}{1}$ | $\frac{11}{1}$ | Keine Eingabe
+33 | 2 | 3 | 1 | 4 | 2 | 8 | $\frac{12}{1}$ | $\frac{13}{1}$ | Keine Eingabe
+34 | 1 | 4 | 1 | 3 | 2 | 5 | $\frac{20}{1}$ | $\frac{21}{1}$ | Keine Eingabe
+35 | 2 | 5 | 1 | 3 | 2 | 12 | $\frac{30}{1}$ | $\frac{31}{1}$ | Keine Eingabe
+36 | 2 | 4 | 1 | 3 | 2 | 8 | $\frac{16}{1}$ | $\frac{17}{1}$ | Keine Eingabe
+37 | 3 | 5 | 1 | 3 | 2 | 15 | $\frac{25}{1}$ | $\frac{26}{1}$ | Keine Eingabe
+38 | 3 | 4 | 1 | 3 | 2 | 9 | $\frac{12}{1}$ | $\frac{13}{1}$ | Keine Eingabe
+39 | 4 | 5 | 1 | 3 | 2 | 16 | $\frac{20}{1}$ | $\frac{21}{1}$ | Keine Eingabe
+40 | 1 | 4 | 1 | 3 | 2 | 2 | $\frac{8}{1}$ | $\frac{9}{1}$ | Keine Eingabe
+41 | 1 | 5 | 1 | 3 | 2 | 3 | $\frac{15}{1}$ | $\frac{16}{1}$ | Keine Eingabe
+42 | 2 | 4 | 1 | 3 | 2 | 12 | $\frac{24}{1}$ | $\frac{25}{1}$ | Keine Eingabe
+43 | 2 | 5 | 1 | 3 | 2 | 4 | $\frac{10}{1}$ | $\frac{11}{1}$ | Keine Eingabe
+44 | 3 | 4 | 1 | 3 | 2 | 15 | $\frac{20}{1}$ | $\frac{21}{1}$ | Keine Eingabe
+45 | 3 | 5 | 1 | 3 | 2 | 18 | $\frac{30}{1}$ | $\frac{31}{1}$ | Keine Eingabe
+46 | 4 | 5 | 1 | 3 | 2 | 20 | $\frac{25}{1}$ | $\frac{26}{1}$ | Keine Eingabe
+47 | 1 | 5 | 1 | 3 | 2 | 4 | $\frac{20}{1}$ | $\frac{21}{1}$ | Keine Eingabe
+48 | 2 | 5 | 1 | 3 | 2 | 6 | $\frac{15}{1}$ | $\frac{16}{1}$ | Keine Eingabe
+49 | 3 | 5 | 1 | 3 | 2 | 6 | $\frac{10}{1}$ | $\frac{11}{1}$ | Keine Eingabe
+50 | 4 | 5 | 1 | 3 | 2 | 24 | $\frac{30}{1}$ | $\frac{31}{1}$ | Keine Eingabe
 ```
 
 ### Aufgabe verstehen
 
-- Aufgabe: 9 sind 3/4. Welche Rechnung liefert das Ganze?
+- Aufgabe: 9 sind $\frac{3}{4}$. Welche Rechnung liefert das Ganze?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 9 : 3 · 4 – 9 Plättchen sind 3/4. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.
+  - ✓ 9 : 3 · 4 – 9 Plättchen sind $\frac{3}{4}$. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.
   - ✗ 9 : 4 · 3 – Das würde drei Viertel von neun berechnen; neun ist aber schon der Bruchteil.
   - ✗ 9 · 3 · 4 – Drei Gruppen sind schon gegeben. Ermittle zuerst eine Gruppe durch Teilen.
 - Lösung: 9 : 3 · 4
-- Erklärung: 9 Plättchen sind 3/4. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.
+- Erklärung: 9 Plättchen sind $\frac{3}{4}$. Ein Viertel sind 9 : 3 = 3 Plättchen. Vier Viertel sind 3 · 4 = 12 Plättchen.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „{e.dreifach} Plättchen sind 3/4 des Ganzen. Wie viele Plättchen hat das Ganze?“
+- Aufgabe: „{e.dreifach} Plättchen sind $\frac{3}{4}$ des Ganzen. Wie viele Plättchen hat das Ganze?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Ganzes = Bruchteil : Anteil.“
 - Lösungsweg:

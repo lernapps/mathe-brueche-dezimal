@@ -53,7 +53,7 @@ Eine Pizza reicht nicht immer. Was, wenn du eine ganze Pizza und noch ein halbes
 
 Ein Streifen steht für ein Ganzes. Alle Streifen sind gleich groß und gleich unterteilt. Wählst du mehr Teile aus, als in einen Streifen passen, geht es im nächsten weiter. Lass den Nenner gleich und erhöhe den Zähler: Wann ist ein Streifen voll? Wie viele Teile bleiben im nächsten übrig? Die vollen Streifen ergeben die ganzen Zahlen, die übrigen Teile den Restbruch. In der Übung klickst du die gefragte Anzahl Teilstücke an. Mit erneutem Klicken entfernst du eine Markierung.
 
-Interaktiv: Ein Streifen steht für ein Ganzes. Alle Streifen sind gleich groß und gleich unterteilt. Wählst du mehr Teile aus, als in einen Streifen passen, geht es im nächsten weiter. Lass den Nenner gleich und erhöhe den Zähler: Wann ist ein Streifen voll? Wie viele Teile bleiben im nächsten übrig? Die vollen Streifen ergeben die ganzen Zahlen, die übrigen Teile den Restbruch. In der Übung klickst du die gefragte Anzahl Teilstücke an. Mit erneutem Klicken entfernst du eine Markierung. Im Anfangsbild sind fünf Viertel ausgewählt: Ein Streifen mit vier Vierteln ist voll, im nächsten ist ein Viertel markiert. Das ist 1 Ganzes und 1/4, kurz 1 1/4.
+Interaktiv: Ein Streifen steht für ein Ganzes. Alle Streifen sind gleich groß und gleich unterteilt. Wählst du mehr Teile aus, als in einen Streifen passen, geht es im nächsten weiter. Lass den Nenner gleich und erhöhe den Zähler: Wann ist ein Streifen voll? Wie viele Teile bleiben im nächsten übrig? Die vollen Streifen ergeben die ganzen Zahlen, die übrigen Teile den Restbruch. In der Übung klickst du die gefragte Anzahl Teilstücke an. Mit erneutem Klicken entfernst du eine Markierung. Im Anfangsbild sind fünf Viertel ausgewählt: Ein Streifen mit vier Vierteln ist voll, im nächsten ist ein Viertel markiert. Das ist 1 Ganzes und $\frac{1}{4}$, kurz $1\frac{1}{4}$.
 
 **Merke: Was du dabei beobachten kannst**
 
@@ -63,7 +63,7 @@ Ein unechter Bruch hat mindestens den Wert 1. Eine gemischte Zahl besteht aus ei
 
 **Beispiel: Schritt für Schritt**
 
-7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.
+$\frac{7}{3}$ sind zwei Ganze und ein Drittel: $2 + \frac{1}{3}$. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.
 
 ### Üben
 
@@ -126,19 +126,19 @@ Nr. | z | n | Lösung | F1 | F2
 
 ### Aufgabe verstehen
 
-- Aufgabe: Wie viele Ganze stecken in 7/3?
+- Aufgabe: Wie viele Ganze stecken in $\frac{7}{3}$?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Zwei Ganze. – 7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.
+  - ✓ Zwei Ganze. – $\frac{7}{3}$ sind zwei Ganze und ein Drittel: $2 + \frac{1}{3}$. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.
   - ✗ Drei Ganze. – Drei Ganze wären neun Drittel; sieben Drittel reichen dafür nicht.
   - ✗ Sieben Ganze. – Sieben Drittel sind sieben Teilstücke, nicht sieben Ganze.
 - Lösung: Zwei Ganze.
-- Erklärung: 7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.
+- Erklärung: $\frac{7}{3}$ sind zwei Ganze und ein Drittel: $2 + \frac{1}{3}$. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Schreibe 2 + 1/{n} als unechten Bruch. Welcher Zähler gehört über den Nenner {n}?“
+- Aufgabe: „Schreibe $2 + \frac{1}{{n}}$ als unechten Bruch. Welcher Zähler gehört über den Nenner {n}?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Ein unechter Bruch hat mindestens den Wert 1.“
 - Lösungsweg:

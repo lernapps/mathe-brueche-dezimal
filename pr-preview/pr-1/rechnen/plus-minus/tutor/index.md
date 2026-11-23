@@ -67,7 +67,7 @@ Zum Addieren oder Subtrahieren brauchst du gleich große Bruchstücke. Bringe be
 
 **Beispiel: Schritt für Schritt**
 
-1/2 + 1/3 = 3/6 + 2/6 = 5/6. Ebenso: 3/4 − 1/2 = 3/4 − 2/4 = 1/4.
+$\frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}$. Ebenso: $\frac{3}{4} - \frac{1}{2} = \frac{3}{4} - \frac{2}{4} = \frac{1}{4}$.
 
 ### Üben
 
@@ -89,56 +89,56 @@ Zum Addieren oder Subtrahieren brauchst du gleich große Bruchstücke. Bringe be
 
 ```
 Nr. | z | n | b | d | f (verdeckt) | Lösung | F1 | F2
-1 | 1 | 3 | 1 | 4 | 2 | 7/12 | 19/12 | Keine Eingabe
-2 | 1 | 4 | 1 | 3 | 2 | 7/12 | 19/12 | Keine Eingabe
-3 | 1 | 5 | 1 | 3 | 2 | 8/15 | 23/15 | Keine Eingabe
-4 | 1 | 6 | 1 | 3 | 2 | 9/18 | 27/18 | Keine Eingabe
-5 | 2 | 3 | 1 | 4 | 2 | 11/12 | 23/12 | Keine Eingabe
-6 | 2 | 4 | 1 | 3 | 2 | 10/12 | 22/12 | Keine Eingabe
-7 | 2 | 5 | 1 | 3 | 2 | 11/15 | 26/15 | Keine Eingabe
-8 | 2 | 6 | 1 | 3 | 2 | 12/18 | 30/18 | Keine Eingabe
-9 | 1 | 3 | 1 | 4 | 2 | 7/12 | 19/12 | Keine Eingabe
-10 | 3 | 4 | 1 | 3 | 2 | 13/12 | 25/12 | Keine Eingabe
-11 | 3 | 5 | 1 | 3 | 2 | 14/15 | 29/15 | Keine Eingabe
-12 | 3 | 6 | 1 | 3 | 2 | 15/18 | 33/18 | Keine Eingabe
-13 | 2 | 3 | 1 | 4 | 2 | 11/12 | 23/12 | Keine Eingabe
-14 | 1 | 4 | 1 | 3 | 2 | 7/12 | 19/12 | Keine Eingabe
-15 | 4 | 5 | 1 | 3 | 2 | 17/15 | 32/15 | Keine Eingabe
-16 | 4 | 6 | 1 | 3 | 2 | 18/18 | 36/18 | Keine Eingabe
-17 | 1 | 3 | 1 | 4 | 2 | 7/12 | 19/12 | Keine Eingabe
-18 | 2 | 4 | 1 | 3 | 2 | 10/12 | 22/12 | Keine Eingabe
-19 | 1 | 5 | 1 | 3 | 2 | 8/15 | 23/15 | Keine Eingabe
-20 | 5 | 6 | 1 | 3 | 2 | 21/18 | 39/18 | Keine Eingabe
-21 | 2 | 3 | 1 | 4 | 2 | 11/12 | 23/12 | Keine Eingabe
-22 | 3 | 4 | 1 | 3 | 2 | 13/12 | 25/12 | Keine Eingabe
-23 | 2 | 5 | 1 | 3 | 2 | 11/15 | 26/15 | Keine Eingabe
-24 | 1 | 3 | 1 | 4 | 2 | 7/12 | 19/12 | Keine Eingabe
-25 | 1 | 4 | 1 | 3 | 2 | 7/12 | 19/12 | Keine Eingabe
-26 | 3 | 5 | 1 | 3 | 2 | 14/15 | 29/15 | Keine Eingabe
-27 | 2 | 3 | 1 | 4 | 2 | 11/12 | 23/12 | Keine Eingabe
-28 | 2 | 4 | 1 | 3 | 2 | 10/12 | 22/12 | Keine Eingabe
-29 | 4 | 5 | 1 | 3 | 2 | 17/15 | 32/15 | Keine Eingabe
-30 | 1 | 3 | 1 | 4 | 2 | 7/12 | 19/12 | Keine Eingabe
-31 | 3 | 4 | 1 | 3 | 2 | 13/12 | 25/12 | Keine Eingabe
-32 | 1 | 5 | 1 | 3 | 2 | 8/15 | 23/15 | Keine Eingabe
-33 | 2 | 3 | 1 | 4 | 2 | 11/12 | 23/12 | Keine Eingabe
-34 | 1 | 4 | 1 | 3 | 2 | 7/12 | 19/12 | Keine Eingabe
-35 | 2 | 5 | 1 | 3 | 2 | 11/15 | 26/15 | Keine Eingabe
-36 | 2 | 4 | 1 | 3 | 2 | 10/12 | 22/12 | Keine Eingabe
-37 | 3 | 5 | 1 | 3 | 2 | 14/15 | 29/15 | Keine Eingabe
-38 | 3 | 4 | 1 | 3 | 2 | 13/12 | 25/12 | Keine Eingabe
-39 | 4 | 5 | 1 | 3 | 2 | 17/15 | 32/15 | Keine Eingabe
-40 | 1 | 4 | 1 | 3 | 2 | 7/12 | 19/12 | Keine Eingabe
-41 | 1 | 5 | 1 | 3 | 2 | 8/15 | 23/15 | Keine Eingabe
-42 | 2 | 4 | 1 | 3 | 2 | 10/12 | 22/12 | Keine Eingabe
-43 | 2 | 5 | 1 | 3 | 2 | 11/15 | 26/15 | Keine Eingabe
-44 | 3 | 4 | 1 | 3 | 2 | 13/12 | 25/12 | Keine Eingabe
-45 | 3 | 5 | 1 | 3 | 2 | 14/15 | 29/15 | Keine Eingabe
-46 | 4 | 5 | 1 | 3 | 2 | 17/15 | 32/15 | Keine Eingabe
-47 | 1 | 5 | 1 | 3 | 2 | 8/15 | 23/15 | Keine Eingabe
-48 | 2 | 5 | 1 | 3 | 2 | 11/15 | 26/15 | Keine Eingabe
-49 | 3 | 5 | 1 | 3 | 2 | 14/15 | 29/15 | Keine Eingabe
-50 | 4 | 5 | 1 | 3 | 2 | 17/15 | 32/15 | Keine Eingabe
+1 | 1 | 3 | 1 | 4 | 2 | $\frac{7}{12}$ | $\frac{19}{12}$ | Keine Eingabe
+2 | 1 | 4 | 1 | 3 | 2 | $\frac{7}{12}$ | $\frac{19}{12}$ | Keine Eingabe
+3 | 1 | 5 | 1 | 3 | 2 | $\frac{8}{15}$ | $\frac{23}{15}$ | Keine Eingabe
+4 | 1 | 6 | 1 | 3 | 2 | $\frac{9}{18}$ | $\frac{27}{18}$ | Keine Eingabe
+5 | 2 | 3 | 1 | 4 | 2 | $\frac{11}{12}$ | $\frac{23}{12}$ | Keine Eingabe
+6 | 2 | 4 | 1 | 3 | 2 | $\frac{10}{12}$ | $\frac{22}{12}$ | Keine Eingabe
+7 | 2 | 5 | 1 | 3 | 2 | $\frac{11}{15}$ | $\frac{26}{15}$ | Keine Eingabe
+8 | 2 | 6 | 1 | 3 | 2 | $\frac{12}{18}$ | $\frac{30}{18}$ | Keine Eingabe
+9 | 1 | 3 | 1 | 4 | 2 | $\frac{7}{12}$ | $\frac{19}{12}$ | Keine Eingabe
+10 | 3 | 4 | 1 | 3 | 2 | $\frac{13}{12}$ | $\frac{25}{12}$ | Keine Eingabe
+11 | 3 | 5 | 1 | 3 | 2 | $\frac{14}{15}$ | $\frac{29}{15}$ | Keine Eingabe
+12 | 3 | 6 | 1 | 3 | 2 | $\frac{15}{18}$ | $\frac{33}{18}$ | Keine Eingabe
+13 | 2 | 3 | 1 | 4 | 2 | $\frac{11}{12}$ | $\frac{23}{12}$ | Keine Eingabe
+14 | 1 | 4 | 1 | 3 | 2 | $\frac{7}{12}$ | $\frac{19}{12}$ | Keine Eingabe
+15 | 4 | 5 | 1 | 3 | 2 | $\frac{17}{15}$ | $\frac{32}{15}$ | Keine Eingabe
+16 | 4 | 6 | 1 | 3 | 2 | $\frac{18}{18}$ | $\frac{36}{18}$ | Keine Eingabe
+17 | 1 | 3 | 1 | 4 | 2 | $\frac{7}{12}$ | $\frac{19}{12}$ | Keine Eingabe
+18 | 2 | 4 | 1 | 3 | 2 | $\frac{10}{12}$ | $\frac{22}{12}$ | Keine Eingabe
+19 | 1 | 5 | 1 | 3 | 2 | $\frac{8}{15}$ | $\frac{23}{15}$ | Keine Eingabe
+20 | 5 | 6 | 1 | 3 | 2 | $\frac{21}{18}$ | $\frac{39}{18}$ | Keine Eingabe
+21 | 2 | 3 | 1 | 4 | 2 | $\frac{11}{12}$ | $\frac{23}{12}$ | Keine Eingabe
+22 | 3 | 4 | 1 | 3 | 2 | $\frac{13}{12}$ | $\frac{25}{12}$ | Keine Eingabe
+23 | 2 | 5 | 1 | 3 | 2 | $\frac{11}{15}$ | $\frac{26}{15}$ | Keine Eingabe
+24 | 1 | 3 | 1 | 4 | 2 | $\frac{7}{12}$ | $\frac{19}{12}$ | Keine Eingabe
+25 | 1 | 4 | 1 | 3 | 2 | $\frac{7}{12}$ | $\frac{19}{12}$ | Keine Eingabe
+26 | 3 | 5 | 1 | 3 | 2 | $\frac{14}{15}$ | $\frac{29}{15}$ | Keine Eingabe
+27 | 2 | 3 | 1 | 4 | 2 | $\frac{11}{12}$ | $\frac{23}{12}$ | Keine Eingabe
+28 | 2 | 4 | 1 | 3 | 2 | $\frac{10}{12}$ | $\frac{22}{12}$ | Keine Eingabe
+29 | 4 | 5 | 1 | 3 | 2 | $\frac{17}{15}$ | $\frac{32}{15}$ | Keine Eingabe
+30 | 1 | 3 | 1 | 4 | 2 | $\frac{7}{12}$ | $\frac{19}{12}$ | Keine Eingabe
+31 | 3 | 4 | 1 | 3 | 2 | $\frac{13}{12}$ | $\frac{25}{12}$ | Keine Eingabe
+32 | 1 | 5 | 1 | 3 | 2 | $\frac{8}{15}$ | $\frac{23}{15}$ | Keine Eingabe
+33 | 2 | 3 | 1 | 4 | 2 | $\frac{11}{12}$ | $\frac{23}{12}$ | Keine Eingabe
+34 | 1 | 4 | 1 | 3 | 2 | $\frac{7}{12}$ | $\frac{19}{12}$ | Keine Eingabe
+35 | 2 | 5 | 1 | 3 | 2 | $\frac{11}{15}$ | $\frac{26}{15}$ | Keine Eingabe
+36 | 2 | 4 | 1 | 3 | 2 | $\frac{10}{12}$ | $\frac{22}{12}$ | Keine Eingabe
+37 | 3 | 5 | 1 | 3 | 2 | $\frac{14}{15}$ | $\frac{29}{15}$ | Keine Eingabe
+38 | 3 | 4 | 1 | 3 | 2 | $\frac{13}{12}$ | $\frac{25}{12}$ | Keine Eingabe
+39 | 4 | 5 | 1 | 3 | 2 | $\frac{17}{15}$ | $\frac{32}{15}$ | Keine Eingabe
+40 | 1 | 4 | 1 | 3 | 2 | $\frac{7}{12}$ | $\frac{19}{12}$ | Keine Eingabe
+41 | 1 | 5 | 1 | 3 | 2 | $\frac{8}{15}$ | $\frac{23}{15}$ | Keine Eingabe
+42 | 2 | 4 | 1 | 3 | 2 | $\frac{10}{12}$ | $\frac{22}{12}$ | Keine Eingabe
+43 | 2 | 5 | 1 | 3 | 2 | $\frac{11}{15}$ | $\frac{26}{15}$ | Keine Eingabe
+44 | 3 | 4 | 1 | 3 | 2 | $\frac{13}{12}$ | $\frac{25}{12}$ | Keine Eingabe
+45 | 3 | 5 | 1 | 3 | 2 | $\frac{14}{15}$ | $\frac{29}{15}$ | Keine Eingabe
+46 | 4 | 5 | 1 | 3 | 2 | $\frac{17}{15}$ | $\frac{32}{15}$ | Keine Eingabe
+47 | 1 | 5 | 1 | 3 | 2 | $\frac{8}{15}$ | $\frac{23}{15}$ | Keine Eingabe
+48 | 2 | 5 | 1 | 3 | 2 | $\frac{11}{15}$ | $\frac{26}{15}$ | Keine Eingabe
+49 | 3 | 5 | 1 | 3 | 2 | $\frac{14}{15}$ | $\frac{29}{15}$ | Keine Eingabe
+50 | 4 | 5 | 1 | 3 | 2 | $\frac{17}{15}$ | $\frac{32}{15}$ | Keine Eingabe
 ```
 
 ### Aufgabe minus-modell
@@ -155,73 +155,73 @@ Nr. | z | n | b | d | f (verdeckt) | Lösung | F1 | F2
 
 ```
 Nr. | z | n | b | d | f (verdeckt) | Lösung | F1 | F2
-1 | 2 | 3 | 1 | 3 | 2 | 1/3 | 4/3 | Keine Eingabe
-2 | 2 | 4 | 1 | 4 | 2 | 1/4 | 5/4 | Keine Eingabe
-3 | 2 | 5 | 1 | 5 | 2 | 1/5 | 6/5 | Keine Eingabe
-4 | 2 | 6 | 1 | 6 | 2 | 1/6 | 7/6 | Keine Eingabe
-5 | 2 | 3 | 1 | 3 | 2 | 1/3 | 4/3 | Keine Eingabe
-6 | 2 | 4 | 1 | 4 | 2 | 1/4 | 5/4 | Keine Eingabe
-7 | 2 | 5 | 1 | 5 | 2 | 1/5 | 6/5 | Keine Eingabe
-8 | 2 | 6 | 1 | 6 | 2 | 1/6 | 7/6 | Keine Eingabe
-9 | 2 | 3 | 1 | 3 | 2 | 1/3 | 4/3 | Keine Eingabe
-10 | 3 | 4 | 1 | 4 | 2 | 2/4 | 6/4 | Keine Eingabe
-11 | 3 | 5 | 1 | 5 | 2 | 2/5 | 7/5 | Keine Eingabe
-12 | 3 | 6 | 1 | 6 | 2 | 2/6 | 8/6 | Keine Eingabe
-13 | 2 | 3 | 1 | 3 | 2 | 1/3 | 4/3 | Keine Eingabe
-14 | 2 | 4 | 1 | 4 | 2 | 1/4 | 5/4 | Keine Eingabe
-15 | 4 | 5 | 1 | 5 | 2 | 3/5 | 8/5 | Keine Eingabe
-16 | 4 | 6 | 1 | 6 | 2 | 3/6 | 9/6 | Keine Eingabe
-17 | 2 | 3 | 1 | 3 | 2 | 1/3 | 4/3 | Keine Eingabe
-18 | 2 | 4 | 1 | 4 | 2 | 1/4 | 5/4 | Keine Eingabe
-19 | 2 | 5 | 1 | 5 | 2 | 1/5 | 6/5 | Keine Eingabe
-20 | 5 | 6 | 1 | 6 | 2 | 4/6 | 10/6 | Keine Eingabe
-21 | 2 | 3 | 1 | 3 | 2 | 1/3 | 4/3 | Keine Eingabe
-22 | 3 | 4 | 1 | 4 | 2 | 2/4 | 6/4 | Keine Eingabe
-23 | 2 | 5 | 1 | 5 | 2 | 1/5 | 6/5 | Keine Eingabe
-24 | 2 | 3 | 1 | 3 | 2 | 1/3 | 4/3 | Keine Eingabe
-25 | 2 | 4 | 1 | 4 | 2 | 1/4 | 5/4 | Keine Eingabe
-26 | 3 | 5 | 1 | 5 | 2 | 2/5 | 7/5 | Keine Eingabe
-27 | 2 | 3 | 1 | 3 | 2 | 1/3 | 4/3 | Keine Eingabe
-28 | 2 | 4 | 1 | 4 | 2 | 1/4 | 5/4 | Keine Eingabe
-29 | 4 | 5 | 1 | 5 | 2 | 3/5 | 8/5 | Keine Eingabe
-30 | 2 | 3 | 1 | 3 | 2 | 1/3 | 4/3 | Keine Eingabe
-31 | 3 | 4 | 1 | 4 | 2 | 2/4 | 6/4 | Keine Eingabe
-32 | 2 | 5 | 1 | 5 | 2 | 1/5 | 6/5 | Keine Eingabe
-33 | 2 | 3 | 1 | 3 | 2 | 1/3 | 4/3 | Keine Eingabe
-34 | 2 | 4 | 1 | 4 | 2 | 1/4 | 5/4 | Keine Eingabe
-35 | 2 | 5 | 1 | 5 | 2 | 1/5 | 6/5 | Keine Eingabe
-36 | 2 | 4 | 1 | 4 | 2 | 1/4 | 5/4 | Keine Eingabe
-37 | 3 | 5 | 1 | 5 | 2 | 2/5 | 7/5 | Keine Eingabe
-38 | 3 | 4 | 1 | 4 | 2 | 2/4 | 6/4 | Keine Eingabe
-39 | 4 | 5 | 1 | 5 | 2 | 3/5 | 8/5 | Keine Eingabe
-40 | 2 | 4 | 1 | 4 | 2 | 1/4 | 5/4 | Keine Eingabe
-41 | 2 | 5 | 1 | 5 | 2 | 1/5 | 6/5 | Keine Eingabe
-42 | 2 | 4 | 1 | 4 | 2 | 1/4 | 5/4 | Keine Eingabe
-43 | 2 | 5 | 1 | 5 | 2 | 1/5 | 6/5 | Keine Eingabe
-44 | 3 | 4 | 1 | 4 | 2 | 2/4 | 6/4 | Keine Eingabe
-45 | 3 | 5 | 1 | 5 | 2 | 2/5 | 7/5 | Keine Eingabe
-46 | 4 | 5 | 1 | 5 | 2 | 3/5 | 8/5 | Keine Eingabe
-47 | 2 | 5 | 1 | 5 | 2 | 1/5 | 6/5 | Keine Eingabe
-48 | 2 | 5 | 1 | 5 | 2 | 1/5 | 6/5 | Keine Eingabe
-49 | 3 | 5 | 1 | 5 | 2 | 2/5 | 7/5 | Keine Eingabe
-50 | 4 | 5 | 1 | 5 | 2 | 3/5 | 8/5 | Keine Eingabe
+1 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+2 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+3 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+4 | 2 | 6 | 1 | 6 | 2 | $\frac{1}{6}$ | $\frac{7}{6}$ | Keine Eingabe
+5 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+6 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+7 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+8 | 2 | 6 | 1 | 6 | 2 | $\frac{1}{6}$ | $\frac{7}{6}$ | Keine Eingabe
+9 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+10 | 3 | 4 | 1 | 4 | 2 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+11 | 3 | 5 | 1 | 5 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+12 | 3 | 6 | 1 | 6 | 2 | $\frac{2}{6}$ | $\frac{8}{6}$ | Keine Eingabe
+13 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+14 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+15 | 4 | 5 | 1 | 5 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+16 | 4 | 6 | 1 | 6 | 2 | $\frac{3}{6}$ | $\frac{9}{6}$ | Keine Eingabe
+17 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+18 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+19 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+20 | 5 | 6 | 1 | 6 | 2 | $\frac{4}{6}$ | $\frac{10}{6}$ | Keine Eingabe
+21 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+22 | 3 | 4 | 1 | 4 | 2 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+23 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+24 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+25 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+26 | 3 | 5 | 1 | 5 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+27 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+28 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+29 | 4 | 5 | 1 | 5 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+30 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+31 | 3 | 4 | 1 | 4 | 2 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+32 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+33 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+34 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+35 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+36 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+37 | 3 | 5 | 1 | 5 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+38 | 3 | 4 | 1 | 4 | 2 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+39 | 4 | 5 | 1 | 5 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+40 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+41 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+42 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+43 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+44 | 3 | 4 | 1 | 4 | 2 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
+45 | 3 | 5 | 1 | 5 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+46 | 4 | 5 | 1 | 5 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+47 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+48 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+49 | 3 | 5 | 1 | 5 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+50 | 4 | 5 | 1 | 5 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
 ```
 
 ### Aufgabe verstehen
 
-- Aufgabe: Wie viel ist 1/2 + 1/3?
+- Aufgabe: Wie viel ist $\frac{1}{2} + \frac{1}{3}$?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 5/6 – 1/2 + 1/3 = 3/6 + 2/6 = 5/6. Ebenso: 3/4 − 1/2 = 3/4 − 2/4 = 1/4.
-  - ✗ 2/5 – Halbe und Drittel sind verschieden groß. Du brauchst zuerst gleich große Teilstücke.
-  - ✗ 1/5 – Die Zähler dürfen erst nach gemeinsamer Unterteilung zusammengezählt werden.
-- Lösung: 5/6
-- Erklärung: 1/2 + 1/3 = 3/6 + 2/6 = 5/6. Ebenso: 3/4 − 1/2 = 3/4 − 2/4 = 1/4.
+  - ✓ $\frac{5}{6}$ – $\frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}$. Ebenso: $\frac{3}{4} - \frac{1}{2} = \frac{3}{4} - \frac{2}{4} = \frac{1}{4}$.
+  - ✗ $\frac{2}{5}$ – Halbe und Drittel sind verschieden groß. Du brauchst zuerst gleich große Teilstücke.
+  - ✗ $\frac{1}{5}$ – Die Zähler dürfen erst nach gemeinsamer Unterteilung zusammengezählt werden.
+- Lösung: $\frac{5}{6}$
+- Erklärung: $\frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}$. Ebenso: $\frac{3}{4} - \frac{1}{2} = \frac{3}{4} - \frac{2}{4} = \frac{1}{4}$.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Berechne 1/{n} + 2/{n}. Welcher Zähler steht über dem unveränderten Nenner {n}?“
+- Aufgabe: „Berechne $\frac{1}{{n}} + \frac{2}{{n}}$. Welcher Zähler steht über dem unveränderten Nenner {n}?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Zum Addieren oder Subtrahieren brauchst du gleich große Bruchstücke.“
 - Lösungsweg:

@@ -63,7 +63,7 @@ Beim Kürzen teilst du Zähler und Nenner durch denselben gemeinsamen Teiler. De
 
 **Beispiel: Schritt für Schritt**
 
-6/8 mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also 6/8 = 3/4. Je zwei Achtel werden zu einem Viertel gebündelt.
+$\frac{6}{8}$ mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also $\frac{6}{8} = \frac{3}{4}$. Je zwei Achtel werden zu einem Viertel gebündelt.
 
 ### Üben
 
@@ -85,56 +85,56 @@ Beim Kürzen teilst du Zähler und Nenner durch denselben gemeinsamen Teiler. De
 
 ```
 Nr. | z | n | b (verdeckt) | d (verdeckt) | f (verdeckt) | Lösung | F1 | F2
-1 | 2 | 6 | 1 | 4 | 2 | 1/3 | 4/3 | Keine Eingabe
-2 | 2 | 8 | 1 | 3 | 2 | 1/4 | 5/4 | Keine Eingabe
-3 | 2 | 10 | 1 | 3 | 2 | 1/5 | 6/5 | Keine Eingabe
-4 | 2 | 12 | 1 | 3 | 2 | 1/6 | 7/6 | Keine Eingabe
-5 | 4 | 6 | 1 | 4 | 2 | 2/3 | 5/3 | Keine Eingabe
-6 | 4 | 8 | 1 | 3 | 2 | 1/2 | 3/2 | Keine Eingabe
-7 | 4 | 10 | 1 | 3 | 2 | 2/5 | 7/5 | Keine Eingabe
-8 | 4 | 12 | 1 | 3 | 2 | 1/3 | 4/3 | Keine Eingabe
-9 | 2 | 6 | 1 | 4 | 2 | 1/3 | 4/3 | Keine Eingabe
-10 | 6 | 8 | 1 | 3 | 2 | 3/4 | 7/4 | Keine Eingabe
-11 | 6 | 10 | 1 | 3 | 2 | 3/5 | 8/5 | Keine Eingabe
-12 | 6 | 12 | 1 | 3 | 2 | 1/2 | 3/2 | Keine Eingabe
-13 | 4 | 6 | 1 | 4 | 2 | 2/3 | 5/3 | Keine Eingabe
-14 | 2 | 8 | 1 | 3 | 2 | 1/4 | 5/4 | Keine Eingabe
-15 | 8 | 10 | 1 | 3 | 2 | 4/5 | 9/5 | Keine Eingabe
-16 | 8 | 12 | 1 | 3 | 2 | 2/3 | 5/3 | Keine Eingabe
-17 | 2 | 6 | 1 | 4 | 2 | 1/3 | 4/3 | Keine Eingabe
-18 | 4 | 8 | 1 | 3 | 2 | 1/2 | 3/2 | Keine Eingabe
-19 | 2 | 10 | 1 | 3 | 2 | 1/5 | 6/5 | Keine Eingabe
-20 | 10 | 12 | 1 | 3 | 2 | 5/6 | 11/6 | Keine Eingabe
-21 | 4 | 6 | 1 | 4 | 2 | 2/3 | 5/3 | Keine Eingabe
-22 | 6 | 8 | 1 | 3 | 2 | 3/4 | 7/4 | Keine Eingabe
-23 | 4 | 10 | 1 | 3 | 2 | 2/5 | 7/5 | Keine Eingabe
-24 | 2 | 6 | 1 | 4 | 2 | 1/3 | 4/3 | Keine Eingabe
-25 | 2 | 8 | 1 | 3 | 2 | 1/4 | 5/4 | Keine Eingabe
-26 | 6 | 10 | 1 | 3 | 2 | 3/5 | 8/5 | Keine Eingabe
-27 | 4 | 6 | 1 | 4 | 2 | 2/3 | 5/3 | Keine Eingabe
-28 | 4 | 8 | 1 | 3 | 2 | 1/2 | 3/2 | Keine Eingabe
-29 | 8 | 10 | 1 | 3 | 2 | 4/5 | 9/5 | Keine Eingabe
-30 | 2 | 6 | 1 | 4 | 2 | 1/3 | 4/3 | Keine Eingabe
-31 | 6 | 8 | 1 | 3 | 2 | 3/4 | 7/4 | Keine Eingabe
-32 | 2 | 10 | 1 | 3 | 2 | 1/5 | 6/5 | Keine Eingabe
-33 | 4 | 6 | 1 | 4 | 2 | 2/3 | 5/3 | Keine Eingabe
-34 | 2 | 8 | 1 | 3 | 2 | 1/4 | 5/4 | Keine Eingabe
-35 | 4 | 10 | 1 | 3 | 2 | 2/5 | 7/5 | Keine Eingabe
-36 | 4 | 8 | 1 | 3 | 2 | 1/2 | 3/2 | Keine Eingabe
-37 | 6 | 10 | 1 | 3 | 2 | 3/5 | 8/5 | Keine Eingabe
-38 | 6 | 8 | 1 | 3 | 2 | 3/4 | 7/4 | Keine Eingabe
-39 | 8 | 10 | 1 | 3 | 2 | 4/5 | 9/5 | Keine Eingabe
-40 | 2 | 8 | 1 | 3 | 2 | 1/4 | 5/4 | Keine Eingabe
-41 | 2 | 10 | 1 | 3 | 2 | 1/5 | 6/5 | Keine Eingabe
-42 | 4 | 8 | 1 | 3 | 2 | 1/2 | 3/2 | Keine Eingabe
-43 | 4 | 10 | 1 | 3 | 2 | 2/5 | 7/5 | Keine Eingabe
-44 | 6 | 8 | 1 | 3 | 2 | 3/4 | 7/4 | Keine Eingabe
-45 | 6 | 10 | 1 | 3 | 2 | 3/5 | 8/5 | Keine Eingabe
-46 | 8 | 10 | 1 | 3 | 2 | 4/5 | 9/5 | Keine Eingabe
-47 | 2 | 10 | 1 | 3 | 2 | 1/5 | 6/5 | Keine Eingabe
-48 | 4 | 10 | 1 | 3 | 2 | 2/5 | 7/5 | Keine Eingabe
-49 | 6 | 10 | 1 | 3 | 2 | 3/5 | 8/5 | Keine Eingabe
-50 | 8 | 10 | 1 | 3 | 2 | 4/5 | 9/5 | Keine Eingabe
+1 | 2 | 6 | 1 | 4 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+2 | 2 | 8 | 1 | 3 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+3 | 2 | 10 | 1 | 3 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+4 | 2 | 12 | 1 | 3 | 2 | $\frac{1}{6}$ | $\frac{7}{6}$ | Keine Eingabe
+5 | 4 | 6 | 1 | 4 | 2 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
+6 | 4 | 8 | 1 | 3 | 2 | $\frac{1}{2}$ | $\frac{3}{2}$ | Keine Eingabe
+7 | 4 | 10 | 1 | 3 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+8 | 4 | 12 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+9 | 2 | 6 | 1 | 4 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+10 | 6 | 8 | 1 | 3 | 2 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
+11 | 6 | 10 | 1 | 3 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+12 | 6 | 12 | 1 | 3 | 2 | $\frac{1}{2}$ | $\frac{3}{2}$ | Keine Eingabe
+13 | 4 | 6 | 1 | 4 | 2 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
+14 | 2 | 8 | 1 | 3 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+15 | 8 | 10 | 1 | 3 | 2 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
+16 | 8 | 12 | 1 | 3 | 2 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
+17 | 2 | 6 | 1 | 4 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+18 | 4 | 8 | 1 | 3 | 2 | $\frac{1}{2}$ | $\frac{3}{2}$ | Keine Eingabe
+19 | 2 | 10 | 1 | 3 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+20 | 10 | 12 | 1 | 3 | 2 | $\frac{5}{6}$ | $\frac{11}{6}$ | Keine Eingabe
+21 | 4 | 6 | 1 | 4 | 2 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
+22 | 6 | 8 | 1 | 3 | 2 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
+23 | 4 | 10 | 1 | 3 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+24 | 2 | 6 | 1 | 4 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+25 | 2 | 8 | 1 | 3 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+26 | 6 | 10 | 1 | 3 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+27 | 4 | 6 | 1 | 4 | 2 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
+28 | 4 | 8 | 1 | 3 | 2 | $\frac{1}{2}$ | $\frac{3}{2}$ | Keine Eingabe
+29 | 8 | 10 | 1 | 3 | 2 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
+30 | 2 | 6 | 1 | 4 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
+31 | 6 | 8 | 1 | 3 | 2 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
+32 | 2 | 10 | 1 | 3 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+33 | 4 | 6 | 1 | 4 | 2 | $\frac{2}{3}$ | $\frac{5}{3}$ | Keine Eingabe
+34 | 2 | 8 | 1 | 3 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+35 | 4 | 10 | 1 | 3 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+36 | 4 | 8 | 1 | 3 | 2 | $\frac{1}{2}$ | $\frac{3}{2}$ | Keine Eingabe
+37 | 6 | 10 | 1 | 3 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+38 | 6 | 8 | 1 | 3 | 2 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
+39 | 8 | 10 | 1 | 3 | 2 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
+40 | 2 | 8 | 1 | 3 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
+41 | 2 | 10 | 1 | 3 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+42 | 4 | 8 | 1 | 3 | 2 | $\frac{1}{2}$ | $\frac{3}{2}$ | Keine Eingabe
+43 | 4 | 10 | 1 | 3 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+44 | 6 | 8 | 1 | 3 | 2 | $\frac{3}{4}$ | $\frac{7}{4}$ | Keine Eingabe
+45 | 6 | 10 | 1 | 3 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+46 | 8 | 10 | 1 | 3 | 2 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
+47 | 2 | 10 | 1 | 3 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
+48 | 4 | 10 | 1 | 3 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
+49 | 6 | 10 | 1 | 3 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+50 | 8 | 10 | 1 | 3 | 2 | $\frac{4}{5}$ | $\frac{9}{5}$ | Keine Eingabe
 ```
 
 ### Aufgabe verstehen
@@ -142,16 +142,16 @@ Nr. | z | n | b (verdeckt) | d (verdeckt) | f (verdeckt) | Lösung | F1 | F2
 - Aufgabe: Welcher Bruch ist vollständig gekürzt?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 3/4 – 6/8 mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also 6/8 = 3/4. Je zwei Achtel werden zu einem Viertel gebündelt.
-  - ✗ 6/8 – Zähler und Nenner sind beide durch 2 teilbar.
-  - ✗ 9/12 – Zähler und Nenner sind beide durch 3 teilbar.
-- Lösung: 3/4
-- Erklärung: 6/8 mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also 6/8 = 3/4. Je zwei Achtel werden zu einem Viertel gebündelt.
+  - ✓ $\frac{3}{4}$ – $\frac{6}{8}$ mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also $\frac{6}{8} = \frac{3}{4}$. Je zwei Achtel werden zu einem Viertel gebündelt.
+  - ✗ $\frac{6}{8}$ – Zähler und Nenner sind beide durch 2 teilbar.
+  - ✗ $\frac{9}{12}$ – Zähler und Nenner sind beide durch 3 teilbar.
+- Lösung: $\frac{3}{4}$
+- Erklärung: $\frac{6}{8}$ mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also $\frac{6}{8} = \frac{3}{4}$. Je zwei Achtel werden zu einem Viertel gebündelt.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Kürze 6/{e.sechsfach} mit 6. Welcher Nenner entsteht?“
+- Aufgabe: „Kürze $\frac{6}{{e.sechsfach}}$ mit 6. Welcher Nenner entsteht?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Beim Kürzen teilst du Zähler und Nenner durch denselben gemeinsamen Teiler.“
 - Lösungsweg:

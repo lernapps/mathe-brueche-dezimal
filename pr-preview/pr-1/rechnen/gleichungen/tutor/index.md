@@ -51,9 +51,9 @@ Eine Rechenwaage soll auf beiden Seiten denselben Wert zeigen. Welche Zahl fehlt
 
 ### Anschaulich erklärt
 
-Gesucht ist ein fehlender Anteil: x + 1/4 soll genau 3/4 ergeben. x ist der Platzhalter für die Zahl, die du noch nicht kennst. Der Streifen zeigt das Ziel 3/4. Davon ist 1/4 schon bekannt. Überlege, welcher Anteil noch fehlt. Rechne zur Kontrolle deinen Vorschlag plus 1/4. Kommt dabei 3/4 heraus? In den Übungen ersetzt du den Platzhalter durch deine Zahl und prüfst auf dieselbe Weise nach.
+Gesucht ist ein fehlender Anteil: $x + \frac{1}{4}$ soll genau $\frac{3}{4}$ ergeben. x ist der Platzhalter für die Zahl, die du noch nicht kennst. Der Streifen zeigt das Ziel $\frac{3}{4}$. Davon ist $\frac{1}{4}$ schon bekannt. Überlege, welcher Anteil noch fehlt. Rechne zur Kontrolle deinen Vorschlag plus $\frac{1}{4}$. Kommt dabei $\frac{3}{4}$ heraus? In den Übungen ersetzt du den Platzhalter durch deine Zahl und prüfst auf dieselbe Weise nach.
 
-Bild: Ein ganzer Streifen ist in vier gleich große Teile geteilt. Drei Teile sind gefüllt: das Ziel 3/4. Ein Viertel davon ist bereits bekannt; der fehlende Anteil ergänzt dieses Viertel zu drei Vierteln. Bildunterschrift: Ziel: 3/4. Davon ist 1/4 schon bekannt. Welcher Anteil fehlt?
+Bild: Ein ganzer Streifen ist in vier gleich große Teile geteilt. Drei Teile sind gefüllt: das Ziel 3 durch 4. Ein Viertel davon ist bereits bekannt; der fehlende Anteil ergänzt dieses Viertel zu drei Vierteln. Bildunterschrift: Ziel: $\frac{3}{4}$. Davon ist $\frac{1}{4}$ schon bekannt. Welcher Anteil fehlt?
 
 **Merke: Was du dabei beobachten kannst**
 
@@ -63,7 +63,7 @@ Bei einer Gleichung soll links und rechts derselbe Wert stehen. Finde die fehlen
 
 **Beispiel: Schritt für Schritt**
 
-x + 1/4 = 3/4. Also x = 3/4 − 1/4 = 2/4 = 1/2. Probe: 1/2 + 1/4 = 3/4.
+$x + \frac{1}{4} = \frac{3}{4}$. Also $x = \frac{3}{4} - \frac{1}{4} = \frac{2}{4} = \frac{1}{2}$. Probe: $\frac{1}{2} + \frac{1}{4} = \frac{3}{4}$.
 
 ### Üben
 
@@ -73,23 +73,23 @@ x + 1/4 = 3/4. Also x = 3/4 − 1/4 = 2/4 = 1/2. Probe: 1/2 + 1/4 = 3/4.
 
 ### Aufgabe verstehen
 
-- Aufgabe: Welche Zahl löst x + 1/4 = 3/4?
+- Aufgabe: Welche Zahl löst $x + \frac{1}{4} = \frac{3}{4}$?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 1/2 – x + 1/4 = 3/4. Also x = 3/4 − 1/4 = 2/4 = 1/2. Probe: 1/2 + 1/4 = 3/4.
-  - ✗ 1 – Mit 1 wäre die linke Seite größer als 3/4.
-  - ✗ 1/4 – Ein Viertel plus ein Viertel ergibt erst zwei Viertel.
-- Lösung: 1/2
-- Erklärung: x + 1/4 = 3/4. Also x = 3/4 − 1/4 = 2/4 = 1/2. Probe: 1/2 + 1/4 = 3/4.
+  - ✓ $\frac{1}{2}$ – $x + \frac{1}{4} = \frac{3}{4}$. Also $x = \frac{3}{4} - \frac{1}{4} = \frac{2}{4} = \frac{1}{2}$. Probe: $\frac{1}{2} + \frac{1}{4} = \frac{3}{4}$.
+  - ✗ 1 – Mit 1 wäre die linke Seite größer als $\frac{3}{4}$.
+  - ✗ $\frac{1}{4}$ – Ein Viertel plus ein Viertel ergibt erst zwei Viertel.
+- Lösung: $\frac{1}{2}$
+- Erklärung: $x + \frac{1}{4} = \frac{3}{4}$. Also $x = \frac{3}{4} - \frac{1}{4} = \frac{2}{4} = \frac{1}{2}$. Probe: $\frac{1}{2} + \frac{1}{4} = \frac{3}{4}$.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Ergänze: x/{n} + 1/{n} = 1. Welchen Wert hat der Zähler x?“
+- Aufgabe: „Ergänze: x/{n} + $\frac{1}{{n}} = 1$. Welchen Wert hat der Zähler x?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Bei einer Gleichung soll links und rechts derselbe Wert stehen.“
 - Lösungsweg:
-  - Ein Ganzes besteht aus {n}/{n}. Ein {n}-tel ist schon vorhanden.
+  - Ein Ganzes besteht aus $\frac{{n}}{{n}}$. Ein {n}-tel ist schon vorhanden.
   - Es fehlen {n} − 1 = {answer} weitere {n}-tel. Das ist der gesuchte Zähler x.
 - Typische Fehler und was die App sagt:
   - F1: „Der fehlende Summand entsteht durch Subtrahieren, nicht durch Addieren.“

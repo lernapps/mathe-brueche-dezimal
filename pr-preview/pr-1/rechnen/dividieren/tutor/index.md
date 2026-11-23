@@ -63,7 +63,7 @@ Division kann fragen: Wie oft passt die zweite Größe in die erste? Zum Dividie
 
 **Beispiel: Schritt für Schritt**
 
-3/4 sind 6/8. Daher passen sechs Achtel in drei Viertel: 3/4 : 1/8 = 3/4 · 8/1 = 6.
+$\frac{3}{4}$ sind $\frac{6}{8}$. Daher passen sechs Achtel in drei Viertel: $\frac{3}{4} : \frac{1}{8} = \frac{3}{4} \cdot \frac{8}{1} = 6$.
 
 ### Üben
 
@@ -85,77 +85,77 @@ Division kann fragen: Wie oft passt die zweite Größe in die erste? Zum Dividie
 
 ```
 Nr. | z | n | b | d | f (verdeckt) | Lösung | F1 | F2
-1 | 1 | 3 | 1 | 6 | 2 | 2/1 | 3/1 | Keine Eingabe
-2 | 1 | 4 | 1 | 8 | 2 | 2/1 | 3/1 | Keine Eingabe
-3 | 1 | 5 | 1 | 10 | 2 | 2/1 | 3/1 | Keine Eingabe
-4 | 1 | 6 | 1 | 12 | 2 | 2/1 | 3/1 | Keine Eingabe
-5 | 2 | 3 | 1 | 6 | 2 | 4/1 | 5/1 | Keine Eingabe
-6 | 2 | 4 | 1 | 8 | 2 | 4/1 | 5/1 | Keine Eingabe
-7 | 2 | 5 | 1 | 10 | 2 | 4/1 | 5/1 | Keine Eingabe
-8 | 2 | 6 | 1 | 12 | 2 | 4/1 | 5/1 | Keine Eingabe
-9 | 1 | 3 | 1 | 6 | 2 | 2/1 | 3/1 | Keine Eingabe
-10 | 3 | 4 | 1 | 8 | 2 | 6/1 | 7/1 | Keine Eingabe
-11 | 3 | 5 | 1 | 10 | 2 | 6/1 | 7/1 | Keine Eingabe
-12 | 3 | 6 | 1 | 12 | 2 | 6/1 | 7/1 | Keine Eingabe
-13 | 2 | 3 | 1 | 6 | 2 | 4/1 | 5/1 | Keine Eingabe
-14 | 1 | 4 | 1 | 8 | 2 | 2/1 | 3/1 | Keine Eingabe
-15 | 4 | 5 | 1 | 10 | 2 | 8/1 | 9/1 | Keine Eingabe
-16 | 4 | 6 | 1 | 12 | 2 | 8/1 | 9/1 | Keine Eingabe
-17 | 1 | 3 | 1 | 6 | 2 | 2/1 | 3/1 | Keine Eingabe
-18 | 2 | 4 | 1 | 8 | 2 | 4/1 | 5/1 | Keine Eingabe
-19 | 1 | 5 | 1 | 10 | 2 | 2/1 | 3/1 | Keine Eingabe
-20 | 5 | 6 | 1 | 12 | 2 | 10/1 | 11/1 | Keine Eingabe
-21 | 2 | 3 | 1 | 6 | 2 | 4/1 | 5/1 | Keine Eingabe
-22 | 3 | 4 | 1 | 8 | 2 | 6/1 | 7/1 | Keine Eingabe
-23 | 2 | 5 | 1 | 10 | 2 | 4/1 | 5/1 | Keine Eingabe
-24 | 1 | 3 | 1 | 6 | 2 | 2/1 | 3/1 | Keine Eingabe
-25 | 1 | 4 | 1 | 8 | 2 | 2/1 | 3/1 | Keine Eingabe
-26 | 3 | 5 | 1 | 10 | 2 | 6/1 | 7/1 | Keine Eingabe
-27 | 2 | 3 | 1 | 6 | 2 | 4/1 | 5/1 | Keine Eingabe
-28 | 2 | 4 | 1 | 8 | 2 | 4/1 | 5/1 | Keine Eingabe
-29 | 4 | 5 | 1 | 10 | 2 | 8/1 | 9/1 | Keine Eingabe
-30 | 1 | 3 | 1 | 6 | 2 | 2/1 | 3/1 | Keine Eingabe
-31 | 3 | 4 | 1 | 8 | 2 | 6/1 | 7/1 | Keine Eingabe
-32 | 1 | 5 | 1 | 10 | 2 | 2/1 | 3/1 | Keine Eingabe
-33 | 2 | 3 | 1 | 6 | 2 | 4/1 | 5/1 | Keine Eingabe
-34 | 1 | 4 | 1 | 8 | 2 | 2/1 | 3/1 | Keine Eingabe
-35 | 2 | 5 | 1 | 10 | 2 | 4/1 | 5/1 | Keine Eingabe
-36 | 2 | 4 | 1 | 8 | 2 | 4/1 | 5/1 | Keine Eingabe
-37 | 3 | 5 | 1 | 10 | 2 | 6/1 | 7/1 | Keine Eingabe
-38 | 3 | 4 | 1 | 8 | 2 | 6/1 | 7/1 | Keine Eingabe
-39 | 4 | 5 | 1 | 10 | 2 | 8/1 | 9/1 | Keine Eingabe
-40 | 1 | 4 | 1 | 8 | 2 | 2/1 | 3/1 | Keine Eingabe
-41 | 1 | 5 | 1 | 10 | 2 | 2/1 | 3/1 | Keine Eingabe
-42 | 2 | 4 | 1 | 8 | 2 | 4/1 | 5/1 | Keine Eingabe
-43 | 2 | 5 | 1 | 10 | 2 | 4/1 | 5/1 | Keine Eingabe
-44 | 3 | 4 | 1 | 8 | 2 | 6/1 | 7/1 | Keine Eingabe
-45 | 3 | 5 | 1 | 10 | 2 | 6/1 | 7/1 | Keine Eingabe
-46 | 4 | 5 | 1 | 10 | 2 | 8/1 | 9/1 | Keine Eingabe
-47 | 1 | 5 | 1 | 10 | 2 | 2/1 | 3/1 | Keine Eingabe
-48 | 2 | 5 | 1 | 10 | 2 | 4/1 | 5/1 | Keine Eingabe
-49 | 3 | 5 | 1 | 10 | 2 | 6/1 | 7/1 | Keine Eingabe
-50 | 4 | 5 | 1 | 10 | 2 | 8/1 | 9/1 | Keine Eingabe
+1 | 1 | 3 | 1 | 6 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+2 | 1 | 4 | 1 | 8 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+3 | 1 | 5 | 1 | 10 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+4 | 1 | 6 | 1 | 12 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+5 | 2 | 3 | 1 | 6 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+6 | 2 | 4 | 1 | 8 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+7 | 2 | 5 | 1 | 10 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+8 | 2 | 6 | 1 | 12 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+9 | 1 | 3 | 1 | 6 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+10 | 3 | 4 | 1 | 8 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+11 | 3 | 5 | 1 | 10 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+12 | 3 | 6 | 1 | 12 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+13 | 2 | 3 | 1 | 6 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+14 | 1 | 4 | 1 | 8 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+15 | 4 | 5 | 1 | 10 | 2 | $\frac{8}{1}$ | $\frac{9}{1}$ | Keine Eingabe
+16 | 4 | 6 | 1 | 12 | 2 | $\frac{8}{1}$ | $\frac{9}{1}$ | Keine Eingabe
+17 | 1 | 3 | 1 | 6 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+18 | 2 | 4 | 1 | 8 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+19 | 1 | 5 | 1 | 10 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+20 | 5 | 6 | 1 | 12 | 2 | $\frac{10}{1}$ | $\frac{11}{1}$ | Keine Eingabe
+21 | 2 | 3 | 1 | 6 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+22 | 3 | 4 | 1 | 8 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+23 | 2 | 5 | 1 | 10 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+24 | 1 | 3 | 1 | 6 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+25 | 1 | 4 | 1 | 8 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+26 | 3 | 5 | 1 | 10 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+27 | 2 | 3 | 1 | 6 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+28 | 2 | 4 | 1 | 8 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+29 | 4 | 5 | 1 | 10 | 2 | $\frac{8}{1}$ | $\frac{9}{1}$ | Keine Eingabe
+30 | 1 | 3 | 1 | 6 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+31 | 3 | 4 | 1 | 8 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+32 | 1 | 5 | 1 | 10 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+33 | 2 | 3 | 1 | 6 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+34 | 1 | 4 | 1 | 8 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+35 | 2 | 5 | 1 | 10 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+36 | 2 | 4 | 1 | 8 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+37 | 3 | 5 | 1 | 10 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+38 | 3 | 4 | 1 | 8 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+39 | 4 | 5 | 1 | 10 | 2 | $\frac{8}{1}$ | $\frac{9}{1}$ | Keine Eingabe
+40 | 1 | 4 | 1 | 8 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+41 | 1 | 5 | 1 | 10 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+42 | 2 | 4 | 1 | 8 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+43 | 2 | 5 | 1 | 10 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+44 | 3 | 4 | 1 | 8 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+45 | 3 | 5 | 1 | 10 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+46 | 4 | 5 | 1 | 10 | 2 | $\frac{8}{1}$ | $\frac{9}{1}$ | Keine Eingabe
+47 | 1 | 5 | 1 | 10 | 2 | $\frac{2}{1}$ | $\frac{3}{1}$ | Keine Eingabe
+48 | 2 | 5 | 1 | 10 | 2 | $\frac{4}{1}$ | $\frac{5}{1}$ | Keine Eingabe
+49 | 3 | 5 | 1 | 10 | 2 | $\frac{6}{1}$ | $\frac{7}{1}$ | Keine Eingabe
+50 | 4 | 5 | 1 | 10 | 2 | $\frac{8}{1}$ | $\frac{9}{1}$ | Keine Eingabe
 ```
 
 ### Aufgabe verstehen
 
-- Aufgabe: Wie rechnest du 3/4 : 1/8?
+- Aufgabe: Wie rechnest du $\frac{3}{4} : \frac{1}{8}$?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 3/4 · 8/1 – 3/4 sind 6/8. Daher passen sechs Achtel in drei Viertel: 3/4 : 1/8 = 3/4 · 8/1 = 6.
-  - ✗ 4/3 · 1/8 – Hier wurde der erste Bruch umgekehrt. Umgekehrt wird der Divisor, also der zweite Bruch.
-  - ✗ 3/4 · 1/8 – Das wäre eine Multiplikation ohne Kehrbruch; gefragt ist die Zahl passender Achtelstücke.
-- Lösung: 3/4 · 8/1
-- Erklärung: 3/4 sind 6/8. Daher passen sechs Achtel in drei Viertel: 3/4 : 1/8 = 3/4 · 8/1 = 6.
+  - ✓ $\frac{3}{4} \cdot \frac{8}{1}$ – $\frac{3}{4}$ sind $\frac{6}{8}$. Daher passen sechs Achtel in drei Viertel: $\frac{3}{4} : \frac{1}{8} = \frac{3}{4} \cdot \frac{8}{1} = 6$.
+  - ✗ $\frac{4}{3} \cdot \frac{1}{8}$ – Hier wurde der erste Bruch umgekehrt. Umgekehrt wird der Divisor, also der zweite Bruch.
+  - ✗ $\frac{3}{4} \cdot \frac{1}{8}$ – Das wäre eine Multiplikation ohne Kehrbruch; gefragt ist die Zahl passender Achtelstücke.
+- Lösung: $\frac{3}{4} \cdot \frac{8}{1}$
+- Erklärung: $\frac{3}{4}$ sind $\frac{6}{8}$. Daher passen sechs Achtel in drei Viertel: $\frac{3}{4} : \frac{1}{8} = \frac{3}{4} \cdot \frac{8}{1} = 6$.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Wie oft passt 1/{n} in 2 Ganze?“
+- Aufgabe: „Wie oft passt $\frac{1}{{n}}$ in 2 Ganze?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Division kann fragen: Wie oft passt die zweite Größe in die erste? Zum Dividieren durch einen Bruch multiplizierst du mit seinem Kehrbruch.“
 - Lösungsweg:
-  - In ein Ganzes passen {n} Stücke der Größe 1/{n}.
+  - In ein Ganzes passen {n} Stücke der Größe $\frac{1}{{n}}$.
   - In zwei Ganze passen doppelt so viele: $2 \cdot {n} = {answer}$.
 - Typische Fehler und was die App sagt:
   - F1: „Das wäre die Zahl der Bruchstücke in einem Ganzen. Gegeben sind zwei Ganze.“

@@ -63,4 +63,4 @@ $2^3 = 2 \cdot 2 \cdot 2 = 8$
 
 $10^3 = 10 \cdot 10 \cdot 10 = 1000$
 
-Antworte in Gedanken: Was ist 2 + 3 · 4? Was ist 3² ? Wenn du beides sicher hast, kannst du weitermachen.
+Antworte in Gedanken: Was ist 2 + 3 · 4? Was ist 3² ? (Zur Kontrolle: 14 und 9.) Wenn du beides sicher hast, kannst du weitermachen.

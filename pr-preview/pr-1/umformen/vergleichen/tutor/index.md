@@ -61,7 +61,7 @@ Bei gleichem Nenner entscheidet der Zähler. Bei gleichem positiven Zähler ist 
 
 **Beispiel: Schritt für Schritt**
 
-2/3 = 8/12 und 3/4 = 9/12. Daher ist 2/3 kleiner als 3/4. Die Bezugs-Ganzen müssen gleich groß sein, wenn du die Flächen vergleichst.
+$\frac{2}{3} = \frac{8}{12}$ und $\frac{3}{4} = \frac{9}{12}$. Daher ist $\frac{2}{3}$ kleiner als $\frac{3}{4}$. Die Bezugs-Ganzen müssen gleich groß sein, wenn du die Flächen vergleichst.
 
 ### Üben
 
@@ -140,16 +140,16 @@ Nr. | z | n | b | d | f (verdeckt) | Lösung | F1 | F2
 - Aufgabe: Welcher Vergleich stimmt?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 2/3 &lt; 3/4 – 2/3 = 8/12 und 3/4 = 9/12. Daher ist 2/3 kleiner als 3/4. Die Bezugs-Ganzen müssen gleich groß sein, wenn du die Flächen vergleichst.
-  - ✗ 2/3 > 3/4 – Acht Zwölftel sind kleiner als neun Zwölftel.
-  - ✗ 2/3 = 3/4 – Die Anteile sind verschieden: 8/12 und 9/12.
-- Lösung: 2/3 &lt; 3/4
-- Erklärung: 2/3 = 8/12 und 3/4 = 9/12. Daher ist 2/3 kleiner als 3/4. Die Bezugs-Ganzen müssen gleich groß sein, wenn du die Flächen vergleichst.
+  - ✓ $\frac{2}{3} < \frac{3}{4}$ – $\frac{2}{3} = \frac{8}{12}$ und $\frac{3}{4} = \frac{9}{12}$. Daher ist $\frac{2}{3}$ kleiner als $\frac{3}{4}$. Die Bezugs-Ganzen müssen gleich groß sein, wenn du die Flächen vergleichst.
+  - ✗ $\frac{2}{3} > \frac{3}{4}$ – Acht Zwölftel sind kleiner als neun Zwölftel.
+  - ✗ $\frac{2}{3} = \frac{3}{4}$ – Die Anteile sind verschieden: $\frac{8}{12}$ und $\frac{9}{12}$.
+- Lösung: $\frac{2}{3} < \frac{3}{4}$
+- Erklärung: $\frac{2}{3} = \frac{8}{12}$ und $\frac{3}{4} = \frac{9}{12}$. Daher ist $\frac{2}{3}$ kleiner als $\frac{3}{4}$. Die Bezugs-Ganzen müssen gleich groß sein, wenn du die Flächen vergleichst.
 - Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Vergleiche 1/{n} und 2/{n}. Gib den Zähler des größeren Bruchs an.“
+- Aufgabe: „Vergleiche $\frac{1}{{n}}$ und $\frac{2}{{n}}$. Gib den Zähler des größeren Bruchs an.“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Bei gleichem Nenner entscheidet der Zähler.“
 - Lösungsweg:
