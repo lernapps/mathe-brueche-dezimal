@@ -46,20 +46,20 @@
                         "info": "Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst.",
                       },
                       {
-                        "text": "9",
-                        "correct": false,
-                        "info": "Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.",
-                      },
-                      {
                         "text": "27",
                         "correct": true,
                         "info": "Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27.",
+                      },
+                      {
+                        "text": "9",
+                        "correct": false,
+                        "info": "Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.",
                       },
                     ],
                   "right": "Richtig.",
                   "wrong": "Nicht richtig.",
                 },
-              "nojs": "Kurztest: Was ergibt 3 · (14 − 6) + 12 : 4? Antworten: 39; 9; 27. Richtig ist 27. Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27. Falsche Antworten: 39: Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst. 9: Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.",
+              "nojs": "Kurztest: Was ergibt 3 · (14 − 6) + 12 : 4? Antworten: 39; 27; 9. Richtig ist 27. Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27. Falsche Antworten: 39: Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst. 9: Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.",
             },
             {
               "type": "vue-component",

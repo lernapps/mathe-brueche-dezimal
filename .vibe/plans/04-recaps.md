@@ -228,3 +228,11 @@ Gezielter Durchgang, geändert nur, was dagegen verstieß:
 6. `links:` an Aufgaben: kein Block hat welche (in Plan 02 entfernt). Nichts zu ändern.
 Seiten mit inhaltlicher Änderung: 5 (4 Recaps, `anwendungen/runden`); dazu die Zeichnung der Lupe im Inkrement-Branch. Ein Lernenden-Prüfer nur für die Recap-Tests: nicht gestartet (die Texte sind neue Aufgaben, die der Fachprüfer nachrechnen sollte: offen, siehe unten).
 Offen: Die neuen Kurztests sind von mir selbst nachgerechnet (Summen, Teilungen, Potenzen), nicht von einem zweiten Prüfer.
+
+### Nachforderung: Prüfer für die zwölf neuen Kurztests und die Lupe
+
+Lernenden-Prüfer (Klasse 5, nur die vier Recaps): Texte verständlich, Begriffe fett und erklärt, Selbsttests schaffbar mit Papier. Umgesetzt: Beispiel „Schriftlich subtrahieren über Nullen: 5002 − 1789“ und Begriff „Entbündeln“ (stand ohne Erklärung); Beispiel „Mehrere Rechenzeichen“ (30 + 4 · 5 − 2 · 3 = 44); Umkehrrichtung der Potenzschreibweise (3·3·3·7·7 = 3³·7²); Kurztest „624 : 12“ statt der zu leichten Aufgabe; falsche Option bei den Exponenten benennt beide Fehler; richtige Antwort steht nicht immer an letzter Stelle; „25 084“ mit schmalem Leerzeichen.
+
+Fachlicher Prüfer: alle zwölf Kurztests (Antworten und Rückmeldungen je Option) und die Rechnungen der Beispiele nachgerechnet, kein Rechenfehler. Die Lupe-Zeichnung zeigt Abschnitt 0,3 bis 0,4 und den zehnmal so langen Zahlenstrahl richtig. Umgesetzt: Alternativtext der Lupe nennt die zwei Verbindungslinien und das Lupensymbol.
+Offen: Der Hinweis zum Exponenten 1 folgt in #386.
+
