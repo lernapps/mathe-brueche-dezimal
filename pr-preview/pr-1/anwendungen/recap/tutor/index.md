@@ -63,7 +63,9 @@ $348 + 275 = 623$
 
 Interaktiv: Kurztest: Was ergibt 348 + 275? Antworten: 513; 613; 623. Richtig ist 623. Einer: 8 + 5 = 13 (3, Übertrag 1). Zehner: 4 + 7 + 1 = 12 (2, Übertrag 1). Hunderter: 3 + 2 + 1 = 6. Falsche Antworten: 513: Du hast beide Überträge vergessen. 8 + 5 = 13 ergibt 3 und Übertrag 1. 613: Du hast einen Übertrag vergessen. Einer: 3 und Übertrag 1; Zehner: 4 + 7 + 1 = 12, also 2 und Übertrag 1.
 
-Interaktiv: Kurztest: Was ergibt 156 : 12? Antworten: 1; 13; 14. Richtig ist 13. 12 passt 1-mal in 15 (Rest 3), dann 12 in 36: 3-mal. Probe: 13 · 12 = 156. Falsche Antworten: 1: Du hast die 6 nicht heruntergeholt. Nach 12 in 15 (Rest 3) kommt 36. 14: Probe: 14 · 12 = 168, nicht 156.
+Interaktiv: Kurztest: Was ergibt 502 − 178? Antworten: 476; 324; 424. Richtig ist 324. Einer: 12 − 8 = 4, Zehner: 9 − 7 = 2, Hunderter: 4 − 1 = 3. Probe: 324 + 178 = 502. Falsche Antworten: 476: Du hast in jeder Stelle die kleinere Ziffer von der größeren abgezogen. Wenn oben die kleinere Ziffer steht, musst du entbündeln. 424: Du hast die Hunderterstelle nicht um 1 verkleinert, nachdem du entbündelt hast. Aus 5 Hundertern werden 4 Hunderter und 10 Zehner.
+
+Interaktiv: Kurztest: Was ergibt 156 : 12? Antworten: 1; 13; 14. Richtig ist 13. 12 passt 1-mal in 15 (Rest 3), dann 12 in 36: 3-mal. Probe: 13 · 12 = 156. Falsche Antworten: 1: Du hast die 6 nicht heruntergeholt. Nach 12 in 15 (Rest 3) kommt 36. 14: Probe: 14 · 12 = 168, nicht 156. Wahrscheinlich hast du 36 : 12 zu 4 statt zu 3 gerechnet.
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Schriftliche Rechenverfahren“ auf der Lernlandkarte ([Lernlandkarte: Schriftliche Rechenverfahren](https://lernapps.net/apps/map/mathematik/c/schriftliche-verfahren/)) und rechne die Aufgaben danach noch einmal.
 

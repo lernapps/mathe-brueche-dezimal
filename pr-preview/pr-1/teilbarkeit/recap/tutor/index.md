@@ -71,7 +71,7 @@ Interaktiv: Kurztest: Was ergibt 2 + 3 · 4? Antworten: 20; 12; 14. Richtig ist 
 
 Interaktiv: Kurztest: Was ergibt 6 · 17 + 6 · 3? Es gibt einen schnellen Weg. Antworten: 102; 120; 105. Richtig ist 120. Die 6 steht in beiden Produkten: 6 · (17 + 3) = 6 · 20 = 120. Einzeln gerechnet: 102 + 18 = 120. Falsche Antworten: 102: Das ist nur 6 · 17. Es fehlt noch 6 · 3 = 18. 105: Du hast nur eine 6 verteilt: 6 · 17 + 3. Beide Produkte brauchen die 6.
 
-Interaktiv: Kurztest: Was ergibt 25 · 7 · 4? Rechne vorteilhaft. Antworten: 175; 700; 100. Richtig ist 700. Tausche die Faktoren: Zuerst 25 · 4 = 100, dann 100 · 7 = 700. Falsche Antworten: 175: Das ist 25 · 7. Es fehlt noch der Faktor 4. 100: Das ist 25 · 4. Es fehlt noch der Faktor 7.
+Interaktiv: Kurztest: Was ergibt 25 · 7 · 4? Rechne vorteilhaft. Antworten: 175; 700; 100. Richtig ist 700. Tausche die Faktoren: Zuerst 25 · 4 = 100, dann 100 · 7 = 700. Falsche Antworten: 175: Das ist 25 · 7. Es fehlt noch der Faktor 4. Tausche die Faktoren, dann kommt 25 · 4 zuerst. 100: Das ist 25 · 4. Es fehlt noch der Faktor 7: Dann rechnest du 100 · 7.
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.
 
