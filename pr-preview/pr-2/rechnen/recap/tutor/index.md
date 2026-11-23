@@ -53,9 +53,9 @@ Klammern, Vorrangregeln und das Distributivgesetz, die du für Rechnungen mit me
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-Interaktiv: Kurztest: Was ergibt (2 + 3) · 4? Antworten: 14; 20; 12. Richtig ist 20. Die Klammer geht zuerst: 2 + 3 = 5, dann 5 · 4 = 20. Falsche Antworten: 14: Du hast die Klammer übersehen: 2 + 3 · 4 = 14. Hier geht die Klammer zuerst. 12: Du hast nur 3 · 4 gerechnet. Die Klammer fasst 2 + 3 zusammen.
+Interaktiv: Kurztest: Was ergibt 3 · (14 − 6) + 12 : 4? Antworten: 39; 9; 27. Richtig ist 27. Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27. Falsche Antworten: 39: Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst. 9: Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.
 
-Interaktiv: Kurztest: Was ergibt 5 · (3 + 4), wenn du die 5 auf beide Summanden verteilst? Antworten: 19; 35; 20. Richtig ist 35. 5 · 3 + 5 · 4 = 15 + 20 = 35. Falsche Antworten: 19: Du hast nur 3 mit 5 multipliziert: 5 · 3 + 4. Die 5 gehört zu beiden Summanden. 20: Das ist nur 5 · 4. Es fehlt noch 5 · 3 = 15.
+Interaktiv: Kurztest: Was ergibt 12 · 35? Zerlege 35 in 30 + 5. Antworten: 365; 360; 420. Richtig ist 420. 12 · 30 + 12 · 5 = 360 + 60 = 420. Falsche Antworten: 365: Du hast 12 · 30 + 5 gerechnet. Auch die 5 muss mit 12 multipliziert werden. 360: Das ist nur 12 · 30. Es fehlt noch 12 · 5 = 60.
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.
 

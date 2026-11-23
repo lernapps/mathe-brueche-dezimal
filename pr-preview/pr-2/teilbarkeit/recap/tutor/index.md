@@ -67,11 +67,11 @@ Die 6 steht in beiden Produkten. Du ziehst sie vor die Klammer und rechnest zuer
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-Interaktiv: Kurztest: Was ergibt 2 + 3 · 4? Antworten: 20; 12; 14. Richtig ist 14. Zuerst 3 · 4 = 12, dann 2 + 12 = 14. Falsche Antworten: 20: Das wäre (2 + 3) · 4. Ohne Klammer geht die Punktrechnung vor: zuerst 3 · 4. 12: Du hast die 2 vergessen: Nach 3 · 4 = 12 kommt noch + 2.
+Interaktiv: Kurztest: Was ergibt 48 + 6 · 7 − 3 · 5? Antworten: 1875; 90; 75. Richtig ist 75. Punkt vor Strich: 6 · 7 = 42 und 3 · 5 = 15. Dann 48 + 42 − 15 = 75. Falsche Antworten: 1875: Du hast von links nach rechts gerechnet. Zuerst kommt die Punktrechnung: 6 · 7 und 3 · 5. 90: Du hast − 3 · 5 vergessen: 48 + 42 = 90, dann noch − 15.
 
-Interaktiv: Kurztest: Was ergibt 6 · 17 + 6 · 3? Es gibt einen schnellen Weg. Antworten: 102; 120; 105. Richtig ist 120. Die 6 steht in beiden Produkten: 6 · (17 + 3) = 6 · 20 = 120. Einzeln gerechnet: 102 + 18 = 120. Falsche Antworten: 102: Das ist nur 6 · 17. Es fehlt noch 6 · 3 = 18. 105: Du hast nur eine 6 verteilt: 6 · 17 + 3. Beide Produkte brauchen die 6.
+Interaktiv: Kurztest: Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten. Antworten: 266; 700; 328. Richtig ist 700. Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700. Falsche Antworten: 266: Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434. 328: Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7.
 
-Interaktiv: Kurztest: Was ergibt 25 · 7 · 4? Rechne vorteilhaft. Antworten: 175; 700; 100. Richtig ist 700. Tausche die Faktoren: Zuerst 25 · 4 = 100, dann 100 · 7 = 700. Falsche Antworten: 175: Das ist 25 · 7. Es fehlt noch der Faktor 4. Tausche die Faktoren, dann kommt 25 · 4 zuerst. 100: Das ist 25 · 4. Es fehlt noch der Faktor 7: Dann rechnest du 100 · 7.
+Interaktiv: Kurztest: Was ergibt 5 · 13 · 20? Tausche die Faktoren so, dass du leicht rechnest. Antworten: 65; 1300; 100. Richtig ist 1300. Tausche: 5 · 20 = 100, dann 100 · 13 = 1300. Falsche Antworten: 65: Das ist 5 · 13. Es fehlt noch der Faktor 20. 100: Das ist 5 · 20. Es fehlt noch der Faktor 13: 100 · 13.
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.
 
@@ -95,9 +95,9 @@ Der Exponent sagt nicht, womit du malnimmst, sondern wie oft die Basis als Fakto
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-Interaktiv: Kurztest: Was ist 3²? Antworten: 6; 9; 5. Richtig ist 9. 3² = 3 · 3 = 9. Falsche Antworten: 6: Das wäre 3 · 2. Der Exponent zählt, wie oft die 3 als Faktor steht. 5: Das wäre 3 + 2. Bei einer Potenz wird multipliziert, nicht addiert.
+Interaktiv: Kurztest: Was ist 2⁵ + 3²? Antworten: 16; 34; 41. Richtig ist 41. 2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41. Falsche Antworten: 16: Du hast die Exponenten als Faktoren genommen: 2 · 5 und 3 · 2. Der Exponent sagt, wie oft die Basis als Faktor steht. 34: Du hast Basis und Exponent vertauscht: 5² = 25. In 2⁵ ist die Basis 2, es sind fünf Faktoren 2: 32.
 
-Interaktiv: Kurztest: Was ist 2⁴? Antworten: 16; 8; 6. Richtig ist 16. 2 · 2 · 2 · 2 = 16. Falsche Antworten: 8: Das wäre 2 · 4. Die 2 steht viermal als Faktor. 6: Das wäre 2 + 4. Bei einer Potenz wird multipliziert.
+Interaktiv: Kurztest: Schreibe 2 · 2 · 2 · 5 · 5 als Potenzen. Antworten: 2⁵ · 5²; 3² · 2²; 2³ · 5². Richtig ist 2³ · 5². Dreimal die 2 und zweimal die 5: 2³ · 5² = 8 · 25 = 200. Falsche Antworten: 2⁵ · 5²: Du hast alle fünf Faktoren gezählt und der 2 zugeschrieben. Die 2 steht nur dreimal. 3² · 2²: Du hast Basis und Exponent vertauscht: dreimal die 2 ist 2³, nicht 3².
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Potenzen und Zehnerpotenzen“ auf der Lernlandkarte ([Lernlandkarte: Potenzen und Zehnerpotenzen](https://lernapps.net/apps/map/mathematik/c/potenzen/)) und rechne die Aufgaben danach noch einmal.
 

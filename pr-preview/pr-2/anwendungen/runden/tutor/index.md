@@ -51,7 +51,7 @@ Eine Messung ist oft genauer angegeben, als du sie brauchst. Beim Runden wählst
 
 Runden heißt, eine nahe gelegene Zahl mit weniger Nachkommastellen anzugeben. Auf dem Zahlenstrahl liegt 0,746 zwischen den Hundertstelwerten 0,74 und 0,75. Die Mitte ist 0,745. Liegt die Zahl rechts von der Mitte, ist der obere Nachbar näher: Du rundest auf. Liegt sie links, ist der untere näher: Du rundest ab. Beispiel A zeigt 0,746, Beispiel B zeigt 0,743. Bei jeder Übung steht dabei, auf welche Stelle du runden sollst. Gib nur den gerundeten Wert ein.
 
-Bild: Zwei Zahlenstrahlen zwischen 0,74 und 0,75 mit elf Strichen, die Mitte 0,745 ist beschriftet. Beispiel A: Der Punkt 0,746 liegt rechts von der Mitte, ein Pfeil zeigt zum näheren Nachbarn 0,75. Beispiel B: Der Punkt 0,743 liegt links von der Mitte, ein Pfeil zeigt zum näheren Nachbarn 0,74. Bildunterschrift: Zwei Zahlen zwischen 0,74 und 0,75: 0,746 liegt näher an 0,75, 0,743 liegt näher an 0,74.
+Bild: Zwei Zahlenstrahlen zwischen 0,74 und 0,75 mit elf Strichen, die Mitte 0,745 ist beschriftet. Beispiel A: Der Punkt 0,746 liegt rechts von der Mitte, eine Linie unter dem Zahlenstrahl zeigt zum näheren Nachbarn 0,75. Beispiel B: Der Punkt 0,743 liegt links von der Mitte, eine Linie unter dem Zahlenstrahl zeigt zum näheren Nachbarn 0,74. Bildunterschrift: Zwei Zahlen zwischen 0,74 und 0,75: 0,746 liegt näher an 0,75, 0,743 liegt näher an 0,74.
 
 **Merke: Was du dabei beobachten kannst**
 

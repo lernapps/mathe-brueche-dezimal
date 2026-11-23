@@ -61,9 +61,9 @@ Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz fre
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-Interaktiv: Kurztest: Welchen Wert hat die 3 in der Zahl 4305? Antworten: 3; 30; 300; 3000. Richtig ist 300. Die 3 steht an der Hunderterstelle: 3 · 100 = 300. Falsche Antworten: 3: Das ist die Ziffer selbst. Ihr Wert hängt vom Platz ab: Sie steht bei den Hundertern. 30: 30 wäre die 3 an der Zehnerstelle. In 4305 steht an der Zehnerstelle eine 0. 3000: 3000 wäre die 3 an der Tausenderstelle. Dort steht in 4305 die 4.
+Interaktiv: Kurztest: Welchen Wert hat die 5 in der Zahl 25 084? Antworten: 5; 50; 500; 5000. Richtig ist 5000. Die 5 steht an der Tausenderstelle: 5 · 1000 = 5000. Falsche Antworten: 5: Das ist die Ziffer selbst. Ihr Wert hängt vom Platz ab: Sie steht bei den Tausendern. 50: 50 wäre die 5 an der Zehnerstelle. In 25 084 steht dort eine 8. 500: 500 wäre die 5 an der Hunderterstelle. In 25 084 steht dort eine 0.
 
-Interaktiv: Kurztest: Wie lautet die Zahl aus 6 Tausendern, 2 Zehnern und 9 Einern? Antworten: 629; 6290; 6029. Richtig ist 6029. 6 · 1000 + 0 · 100 + 2 · 10 + 9 = 6029. Falsche Antworten: 629: Du hast die 0 an der Hunderterstelle vergessen. Es gibt keine Hunderter, aber der Platz bleibt mit einer 0 besetzt. 6290: Das wären 6 Tausender, 2 Hunderter und 9 Zehner. Die 9 sind Einer und gehören ganz nach rechts.
+Interaktiv: Kurztest: Wie lautet die Zahl aus 6 Tausendern, 12 Hundertern und 9 Einern? Antworten: 6129; 7029; 7209. Richtig ist 7209. 12 Hunderter = 1 Tausender + 2 Hunderter. Also 7 Tausender, 2 Hunderter, 0 Zehner, 9 Einer: 7209. Falsche Antworten: 6129: Du hast die 12 einfach hinter die 6 geschrieben. 12 Hunderter sind 1200, das ist 1 Tausender und 2 Hunderter. 7029: Hier steht die 2 an der Zehnerstelle. 12 Hunderter sind 1 Tausender und 2 Hunderter, die Zehnerstelle bleibt 0.
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Natürliche Zahlen im Stellenwertsystem“ auf der Lernlandkarte ([Lernlandkarte: Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/)) und rechne die Aufgaben danach noch einmal.
 
