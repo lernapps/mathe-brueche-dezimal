@@ -14,7 +14,7 @@
           [
             {
               "type": "text",
-              "text": "Eine Pizza reicht nicht immer. Was, wenn du eine ganze Pizza und noch ein halbes Stück einer zweiten meinst?",
+              "text": "Eine Pizza reicht nicht immer. Was, wenn du eine ganze Pizza und noch eine halbe zweite Pizza meinst?",
             },
             {
               "type": "definition",
@@ -107,8 +107,9 @@
                   "mode": "mixed",
                   "mistakes":
                     [
-                      "Vergleiche die Zahl der ausgewählten Teile mit dem Zähler. Die Teilung pro Ganzem gibt der Nenner an.",
-                      "Wähle zuerst Teile oder einen Teilstrich aus.",
+                      "Du hast mehr Felder markiert, als gefragt sind. Zähle die Felder über alle Streifen zusammen.",
+                      "Markiere zuerst Felder.",
+                      "Du hast weniger Felder markiert, als gefragt sind. Der Zähler {z} sagt, wie viele Felder gehören dazu.",
                     ],
                   "cell": "Teil {i}, {n} Teile pro Ganzem",
                   "counter": "Deine Darstellung: {z}/{n}",

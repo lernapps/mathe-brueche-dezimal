@@ -86,11 +86,11 @@
                     "header": ["Teilbar durch", "Woran du es erkennst"],
                     "rows":
                       [
-                        ["2", "Letzte Ziffer 0, 2, 4, 6 oder 8"],
+                        ["2", "Die letzte Ziffer ist gerade"],
                         ["5", "Letzte Ziffer 0 oder 5"],
                         ["10", "Letzte Ziffer 0"],
                         ["4", "Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl"],
-                        ["25", "Endung 00, 25, 50 oder 75"],
+                        ["25", "Die letzten beiden Ziffern sind 00 oder ein Vielfaches von 25"],
                         ["100", "Endung 00"],
                         ["3", "Quersumme durch 3 teilbar"],
                         ["9", "Quersumme durch 9 teilbar"],
@@ -137,7 +137,7 @@
                   {
                     "text": "13",
                     "correct": true,
-                    "info": "132 ist durch 3 teilbar, denn 1 + 3 + 2 = 6 ist durch 3 teilbar. Durch 4 ist sie ebenfalls teilbar, denn 32 ist durch 4 teilbar. 12 = 2 · 2 · 3 ist eine Primfaktorzerlegung.",
+                    "info": "13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler.",
                   },
                   {
                     "text": "1",
@@ -146,7 +146,7 @@
                   },
                   { "text": "15", "correct": false, "info": "15 hat außer 1 und 15 auch die Teiler 3 und 5." },
                 ],
-              "explanation": "132 ist durch 3 teilbar, denn 1 + 3 + 2 = 6 ist durch 3 teilbar. Durch 4 ist sie ebenfalls teilbar, denn 32 ist durch 4 teilbar. 12 = 2 · 2 · 3 ist eine Primfaktorzerlegung.",
+              "explanation": "13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler.",
             },
             {
               "type": "generated",
@@ -162,7 +162,7 @@
                   { "value": "e.dreifach", "message": "Das ist die Gesamtmenge, nicht die Menge in einer Gruppe." },
                   { "value": "1", "message": "Teile die gesamte Menge in drei gleich große Gruppen." },
                 ],
-              "hint": "Eine Zahl ist durch 2 teilbar, wenn ihre letzte Ziffer gerade ist, durch 5 bei Endziffer 0 oder 5, durch 10 bei Endziffer 0.",
+              "hint": "Verteile gleichmäßig: Teile die Anzahl durch 3. Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist.",
               "steps":
                 [
                   "Die {{e.dreifach}} Gegenstände werden auf drei gleich große Gruppen verteilt.",

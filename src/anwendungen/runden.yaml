@@ -91,7 +91,7 @@
                   {
                     "text": "0,8",
                     "correct": false,
-                    "info": "Das wäre auf Zehntel gerundet. Gefragt sind Hundertstel.",
+                    "info": "0,8 bekommst du nur, wenn du doppelt rundest: 0,746 wird zu 0,75 und dann zu 0,8. Gerundet wird immer vom Ausgangswert aus. Auf Zehntel wäre es 0,7; gefragt sind aber Hundertstel.",
                   },
                 ],
               "explanation": "0,746 auf Hundertstel: Die Hundertstelziffer ist 4, danach steht 6. Daher wird auf 0,75 gerundet. 0,744 wird auf 0,74 gerundet.",

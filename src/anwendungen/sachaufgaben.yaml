@@ -32,7 +32,7 @@
               "type": "table",
               "caption": "Ausgangswerte untersuchen",
               "header": ["Gegeben", "Achte auf"],
-              "rows": [["$\\frac{3}{4}$ Liter und 2 Gefäße", "Gesuchte Menge pro Gefäß"]],
+              "rows": [["$\\frac{3}{4}$ Liter und 2 Gefäße", "Gesuchte Menge pro Gefäß"]],
             },
             {
               "type": "note",
@@ -60,7 +60,7 @@
                 [
                   {
                     "type": "text",
-                    "text": "$\\frac{3}{4}$ Liter Saft werden gleich auf zwei Gefäße verteilt: $\\frac{3}{4} : 2 = \\frac{3}{8}$ Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit $\\frac{5}{20} = \\frac{1}{4} = 25$ %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.",
+                    "text": "$\\frac{3}{4}$ Liter Saft werden gleich auf zwei Gefäße verteilt: $\\frac{3}{4} : 2 = \\frac{3}{8}$ Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit $\\frac{5}{20} = \\frac{1}{4} = 25$ %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.",
                   },
                 ],
             },
@@ -75,26 +75,26 @@
             {
               "type": "single-choice",
               "id": "verstehen",
-              "text": "$\\frac{3}{4}$ Liter werden auf zwei gleiche Gefäße verteilt. Wie viel erhält jedes?",
+              "text": "$\\frac{3}{4}$ Liter werden auf zwei gleiche Gefäße verteilt. Wie viel erhält jedes?",
               "options":
                 [
                   {
-                    "text": "$\\frac{3}{8}$ Liter",
+                    "text": "$\\frac{3}{8}$ Liter",
                     "correct": true,
-                    "info": "$\\frac{3}{4}$ Liter Saft werden gleich auf zwei Gefäße verteilt: $\\frac{3}{4} : 2 = \\frac{3}{8}$ Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit $\\frac{5}{20} = \\frac{1}{4} = 25$ %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.",
+                    "info": "$\\frac{3}{4}$ Liter Saft werden gleich auf zwei Gefäße verteilt: $\\frac{3}{4} : 2 = \\frac{3}{8}$ Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit $\\frac{5}{20} = \\frac{1}{4} = 25$ %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.",
                   },
                   {
-                    "text": "$\\frac{3}{2}$ Liter",
+                    "text": "$\\frac{3}{2}$ Liter",
                     "correct": false,
                     "info": "Beim Verteilen auf zwei Gefäße wird die Menge pro Gefäß kleiner.",
                   },
                   {
-                    "text": "$\\frac{3}{6}$ Liter",
+                    "text": "$\\frac{3}{6}$ Liter",
                     "correct": false,
                     "info": "Du teilst drei Viertel durch zwei, nicht den Nenner durch eine beliebige neue Zahl.",
                   },
                 ],
-              "explanation": "$\\frac{3}{4}$ Liter Saft werden gleich auf zwei Gefäße verteilt: $\\frac{3}{4} : 2 = \\frac{3}{8}$ Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit $\\frac{5}{20} = \\frac{1}{4} = 25$ %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.",
+              "explanation": "$\\frac{3}{4}$ Liter Saft werden gleich auf zwei Gefäße verteilt: $\\frac{3}{4} : 2 = \\frac{3}{8}$ Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit $\\frac{5}{20} = \\frac{1}{4} = 25$ %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.",
             },
             {
               "type": "generated",

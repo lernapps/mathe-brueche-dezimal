@@ -101,7 +101,7 @@
               "type": "generated",
               "id": "aufgaben",
               "given": { "n": { "oneOf": [3, 4, 5, 6, 8, 10] } },
-              "task": { "text": "Ergänze: x/{{n}} + $\\frac{1}{{{n}}} = 1$. Welchen Wert hat der Zähler x?" },
+              "task": { "text": "Ergänze: $\\frac{x}{{{n}}} + \\frac{1}{{{n}}} = 1$. Welchen Wert hat der Zähler x?" },
               "answer": { "value": "n-1", "compare": "number" },
               "mistakes":
                 [

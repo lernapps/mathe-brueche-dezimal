@@ -29,7 +29,7 @@ const CHECKS: [string, RegExp][] = [
   ["Zahl mit fünf Stellen ohne schmales Leerzeichen", /(?<![\d,.])\d{5,}(?![\d,])/],
   [
     "Zahl und Einheit mit gewöhnlichem Leerzeichen statt geschütztem",
-    /[\d}] (?:cm|mm|km|kg|ml|cl|m|g|l|€|%|Liter|Euro|Zentiliter)(?![\wäöüß])/,
+    /[\d}] (?:cm|mm|km|kg|ml|cl|m|g|l|€|%|Liter|Litern|Euro|Zentiliter|Zentilitern)(?![\wäöüß])/,
   ],
   ["Zahl und Einheit ohne geschütztes Leerzeichen", /\d(?:cm|mm|km|kg|ml|cl|€|%)(?![\wäöü])/],
 ];

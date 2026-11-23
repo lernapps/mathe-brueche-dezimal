@@ -107,8 +107,9 @@
                   "mode": "line",
                   "mistakes":
                     [
-                      "Vergleiche die Zahl der ausgewählten Teile mit dem Zähler. Die Teilung pro Ganzem gibt der Nenner an.",
-                      "Wähle zuerst Teile oder einen Teilstrich aus.",
+                      "Du bist zu weit gegangen. Der Zähler {z} sagt, wie viele Abschnitte du von 0 aus gehst.",
+                      "Verschiebe zuerst den Punkt mit dem Regler.",
+                      "Du bist noch nicht weit genug gegangen. Der Zähler {z} sagt, wie viele Abschnitte du von 0 aus gehst.",
                     ],
                   "cell": "Wähle die Position",
                   "counter": "Deine Darstellung: {z}/{n}",

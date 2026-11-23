@@ -86,7 +86,7 @@
                   "mistakes":
                     [
                       "Prüfe die gefragte Größe und die Unterteilung. Rechne den Schritt aus dem Beispiel mit deinen Zahlen nach.",
-                      "Gib zuerst eine Antwort ein oder markiere Teile.",
+                      "Schreibe eine ganze Zahl oder einen Bruch mit / (zum Beispiel 13/12). Eine gemischte Zahl schreibst du als einen Bruch.",
                     ],
                   "inputLabel": "Deine Antwort (Bruch mit / oder ganze Zahl)",
                   "givenLabel": "Gegeben",

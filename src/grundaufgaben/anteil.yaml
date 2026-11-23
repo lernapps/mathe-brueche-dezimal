@@ -19,7 +19,7 @@
             {
               "type": "definition",
               "term": "Anteil",
-              "explanation": "Der Anteil beschreibt das Verhältnis von Bruchteil zu Ganzem. Er ist eine Zahl, zum Beispiel drei Viertel.",
+              "explanation": "Der Anteil sagt, welcher Teil des Ganzen gemeint ist. Er ist eine Zahl, zum Beispiel drei Viertel. Du erhältst ihn, indem du den Bruchteil durch das Ganze teilst.",
             },
           ],
       },
@@ -44,7 +44,8 @@
                   "mistakes":
                     [
                       "Prüfe die gefragte Größe und die Unterteilung. Rechne den Schritt aus dem Beispiel mit deinen Zahlen nach.",
-                      "Gib zuerst eine Antwort ein oder markiere Teile.",
+                      "Schreibe eine ganze Zahl oder einen Bruch mit / (zum Beispiel 13/12). Eine gemischte Zahl schreibst du als einen Bruch.",
+                      "Der Bruch hat den richtigen Wert, lässt sich aber noch kürzen. Kürze ihn vollständig.",
                     ],
                   "inputLabel": "Deine Antwort (Bruch mit / oder ganze Zahl)",
                   "givenLabel": "Gegeben",
@@ -64,8 +65,8 @@
                 },
               "examples":
                 {
-                  "accepted": [{ "answer": "1/3", "seed": 1 }, { "answer": "2/6", "seed": 1 }],
-                  "rejected": [{ "answer": "1/0" }, { "answer": "" }],
+                  "accepted": [{ "answer": "1/3", "seed": 1 }],
+                  "rejected": [{ "answer": "2/6", "seed": 1 }, { "answer": "1/0" }, { "answer": "" }],
                 },
               "nojs": "Alle Plättchen zusammen bilden das Ganze. Gesucht ist diesmal keine Anzahl, sondern ein Bruch: Wie viele Plättchen gehören zum ausgewählten Teil, verglichen mit allen? Die Aufgabe nennt beide Anzahlen. Du kannst die passende Anzahl Plättchen anklicken, um den Teil sichtbar zu machen. Zähle dann ausgewählte und alle Plättchen. Die erste Anzahl kommt über den Bruchstrich, die zweite darunter. Gib den Bruch mit / ein und kürze ihn, wenn möglich. Das Anklicken füllt das Antwortfeld nicht aus.",
             },

@@ -7,6 +7,9 @@ test("exact properties and alternate answers across all supported tasks", () => 
       expect(check(t, solution(t))).toBe(true);
       expect(check(t, wrong(t))).toBe(false);
       expect(check(t, "1/0")).toBe(false);
-      if (!["expand", "reduce", "compare"].includes(kind)) expect(check(t, `${t.rz * 2}/${t.rn * 2}`)).toBe(true);
+      if (!["expand", "reduce", "compare", "ratio"].includes(kind))
+        expect(check(t, `${t.rz * 2}/${t.rn * 2}`)).toBe(true);
+      // the task asks for a fully reduced share: an unreduced one is right in value, but not accepted
+      if (kind === "ratio" && t.rz > 0) expect(check(t, `${t.rz * 2}/${t.rn * 2}`)).toBe(false);
     }
 });

@@ -83,11 +83,17 @@ export function check(t: Task, a: unknown): boolean {
   const q = parse(a);
   if (!q) return false;
   if (t.kind === "expand") return q.z === t.rz && q.n === t.rn;
-  if (t.kind === "reduce") return equal(q, { z: t.rz, n: t.rn }) && gcd(q.z, q.n) === 1;
+  if (t.kind === "reduce" || t.kind === "ratio") return equal(q, { z: t.rz, n: t.rn }) && gcd(q.z, q.n) === 1;
   return equal(q, { z: t.rz, n: t.rn });
 }
-export const solution = (t: Task): string =>
-  t.kind === "compare" ? (t.rz < 0 ? "<" : t.rz > 0 ? ">" : "=") : `${t.rz}/${t.rn}`;
+export function solution(t: Task): string {
+  if (t.kind === "compare") return t.rz < 0 ? "<" : t.rz > 0 ? ">" : "=";
+  if (t.kind === "ratio") {
+    const q = reduce(t.rz, t.rn);
+    return q.n === 1 ? String(q.z) : `${q.z}/${q.n}`;
+  }
+  return `${t.rz}/${t.rn}`;
+}
 export const wrong = (t: Task): string => (t.kind === "compare" ? (t.rz < 0 ? ">" : "<") : `${t.rz + t.rn}/${t.rn}`);
 export const mistakes = (t: Task): string[] => [wrong(t), ""];
 export function params(t: Task): Record<string, number> {
@@ -105,7 +111,7 @@ export function reason(t: Task, a: unknown, p: Props): string {
     const input = parse(a);
     if (!input) index = 1;
     else if (equal(input, { z: t.rz, n: t.rn })) {
-      if (t.kind === "reduce" && gcd(input.z, input.n) > 1) index = 2;
+      if ((t.kind === "reduce" || t.kind === "ratio") && gcd(input.z, input.n) > 1) index = 2;
       else if (t.kind === "expand") index = 3;
     }
   }
@@ -115,6 +121,7 @@ export function describe(t: Task, p: Props): { task: string; solution: string } 
   const q = t.rz >= 0 ? reduce(t.rz, t.rn) : { z: t.rz, n: t.rn };
   const result = q.n === 1 ? String(q.z) : `${q.z}/${q.n}`;
   const common = t.n * t.d;
+  const lcm = common / gcd(t.n, t.d);
   const paths: Record<string, string> = {
     expand: `Zähler und Nenner mit ${t.f} multiplizieren: ${t.z} · ${t.f} = ${t.rz} und ${t.n} · ${t.f} = ${t.rn}. Der erweiterte Bruch lautet ${t.rz}/${t.rn}.`,
     reduce: `Zähler und Nenner durch ${gcd(t.z, t.n)} teilen. So entsteht ${result}; die beiden Zahlen haben keinen gemeinsamen Teiler größer als 1.`,
@@ -122,7 +129,7 @@ export function describe(t: Task, p: Props): { task: string; solution: string } 
     part: `${t.G} Gegenstände auf ${t.n} Gruppen verteilen: ${t.G / t.n} pro Gruppe. ${t.z} Gruppen enthalten ${t.part} Gegenstände.`,
     whole: `${t.part} Gegenstände bilden ${t.z} Gruppen. Eine Gruppe hat ${t.part / t.z} Gegenstände. Alle ${t.n} Gruppen haben zusammen ${t.G} Gegenstände.`,
     ratio: `Der Anteil ist Bruchteil geteilt durch Ganzes: ${t.part}/${t.G}. Kürzen ergibt ${result}.`,
-    add: `Gemeinsam unterteilen: ${t.z * t.d}/${common} + ${t.b * t.n}/${common}. Zähler addieren, Nenner beibehalten und gegebenenfalls kürzen: ${result}.`,
+    add: `Gemeinsam unterteilen, am besten mit dem kleinsten gemeinsamen Vielfachen ${lcm} der Nenner: ${t.z * (lcm / t.n)}/${lcm} + ${t.b * (lcm / t.d)}/${lcm}. Zähler addieren, Nenner beibehalten und gegebenenfalls kürzen: ${result}.`,
     subtract: `Die Teile haben denselben Nenner ${t.n}. ${t.z} Teile minus ${t.b} Teil ergibt ${t.rz}/${t.rn}, also ${result}.`,
     multiply: `${t.b}/${t.d} von ${t.z}/${t.n}: Wähle ${t.b} von ${t.d} Zeilen der ${t.z} ausgewählten Spalten. Das sind ${t.rz} von ${t.rn} Feldern, also ${result}.`,
     divide: `${t.z}/${t.n} sind ${t.z * 2}/${t.d}. Darin passen ${t.z * 2} Stücke der Größe 1/${t.d}.`,
