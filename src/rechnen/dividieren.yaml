@@ -134,7 +134,7 @@
                 [
                   {
                     "type": "text",
-                    "text": "Du hast $\\frac{3}{4}$ Liter Saft und füllst ihn in 2 gleich große Gläser. Wie viel kommt in ein Glas? Hier fragst du nicht, wie oft etwas hineinpasst, sondern du verteilst in gleiche Teile. Jedes Viertel wird halbiert. Die Zahl 2 ist der Divisor: Teilen durch 2 heißt, mit dem Kehrbruch $\\frac{1}{2}$ malzunehmen.",
+                    "text": "Du hast $\\frac{3}{4}$ Liter Saft und füllst ihn in 2 gleich große Gläser. Wie viel kommt in ein Glas? Hier fragst du nicht, wie oft etwas hineinpasst, sondern du verteilst in gleiche Teile. Jedes Viertel wird halbiert. Die Zahl 2 ist der Divisor: Teilen durch 2 heißt, mit dem Kehrbruch $\\frac{1}{2}$ malzunehmen.",
                   },
                   {
                     "type": "figure",

@@ -75,7 +75,7 @@
                         "task": "Berechne {z}/{n} · {b}/{d}. Nutze das Rechteck zum Ausprobieren und gib den Ergebnisbruch an.",
                         "mistakes":
                           [
-                            "Das stimmt nicht. Zähle im Rechteck die Felder, die zu beiden Brüchen gehören, und vergleiche sie mit allen Feldern des Quadrats: {n} · {d} Feldern.",
+                            "Das stimmt nicht. Zähle im Rechteck die Felder, die zu beiden Brüchen gehören, und vergleiche sie mit allen {n} · {d} Feldern des Quadrats.",
                             "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
                             "Du hast addiert statt multipliziert. {z}/{n} + {b}/{d} würde die Stücke zusammenlegen. Hier nimmst du einen Teil von einem Teil.",
                             "Du hast die Nenner addiert. Das ganze Rechteck hat {n} · {d} Felder: Die Nenner werden multipliziert.",
@@ -230,7 +230,7 @@
                     [
                       "Das ist nicht richtig. {k} · {z}/{n} heißt: {k} Mal {z}/{n}. Multipliziere nur den Zähler mit {k}. Kürze dann, wenn es geht.",
                       "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
-                      "Der Wert stimmt, aber du kannst noch kürzen: Teile Zähler und Nenner durch dieselbe Zahl, bis es nicht mehr geht. Am besten kürzt du schon vor dem Multiplizieren, wenn {k} und der Nenner {n} einen gemeinsamen Teiler haben.",
+                      "Der Wert stimmt, aber du kannst noch kürzen: Teile Zähler und Nenner durch dieselbe Zahl, bis es nicht mehr geht. Am besten prüfst du schon vor dem Multiplizieren, ob {k} und der Nenner {n} einen gemeinsamen Teiler haben.",
                       "Du hast auch den Nenner mit {k} multipliziert. Dann hättest du {z}/{n} nur erweitert, sein Wert bleibt gleich. Bei {k} · {z}/{n} wird nur der Zähler mit {k} multipliziert.",
                       "Du hast {k} zum Zähler addiert. Malnehmen heißt hier: {k} Mal dasselbe Stück nehmen, also Zähler mal {k}.",
                     ],

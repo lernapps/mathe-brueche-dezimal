@@ -150,7 +150,7 @@
                   },
                   {
                     "value": "e.falsch",
-                    "message": "Du hast auf eine andere Stelle gerundet. Die Aufgabe verlangt {{e.auf}}.",
+                    "message": "Die Zahl ist noch nicht gerundet oder du hast auf eine andere Stelle gerundet. Die Aufgabe verlangt {{e.auf}}.",
                   },
                 ],
               "hint": "Finde die Rundungsstelle ({{e.auf}}). Die Ziffer direkt rechts davon entscheidet: 0 bis 4 abrunden, 5 bis 9 aufrunden.",

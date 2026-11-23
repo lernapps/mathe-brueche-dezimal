@@ -1,167 +1,267 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
-title: Wenn das Teilen nie endet
-competencies: [dezimalbrueche]
-description: Warum manche Brüche abbrechende und andere periodische Dezimalzahlen haben, und woran du das am Nenner erkennst.
-scope: Beim schriftlichen Teilen des Zählers durch den Nenner wird der Rest irgendwann 0, dann bricht die Dezimalzahl ab, oder ein Rest kehrt wieder, dann wiederholen sich Ziffern und die Dezimalzahl ist periodisch. Die sich wiederholenden Ziffern heißen Periode und bekommen einen Periodenstrich, zum Beispiel 1/3 = 0,3 mit Strich über der 3 und 5/6 = 0,83 mit Strich nur über der 3. Ein vollständig gekürzter Bruch hat eine abbrechende Dezimalzahl genau dann, wenn der Nenner nur die Primfaktoren 2 und 5 hat, zum Beispiel 1/8 und 1/20, aber nicht 1/3, 1/6 oder 1/7. 0,33 ist nur eine Näherung von 1/3. Das algebraische Rückumwandeln periodischer Dezimalzahlen gehört nicht dazu.
-blocks:
-  - type: section
-    id: regel
-    title: Ein Liter Saft für drei Gläser
-    blocks:
-      - type: text
-        text: |-
-          Du teilst 1 Liter Saft gerecht auf 3 Gläser. Jedes Glas bekommt $\frac{1}{3}$ Liter. Als Dezimalzahl rechnest du 1 : 3 schriftlich wie auf der Seite davor: Du hängst Nullen an und teilst Stelle für Stelle.
-      - type: table
-        caption: "Die Rechnung 1 : 3 Stelle für Stelle"
-        header: [Stelle, Rechnung, Rest]
-        rowHeaders: true
-        rows:
-          - [Einer, "1 : 3 = 0", "1"]
-          - [Zehntel, "10 : 3 = 3", "1"]
-          - [Hundertstel, "10 : 3 = 3", "1"]
-          - [Tausendstel, "10 : 3 = 3", "1"]
-      - type: text
-        text: |-
-          Der Rest ist jedes Mal 1. Darum rechnest du immer wieder 10 : 3 = 3. Die Rechnung endet nie, und die 3 kommt immer wieder.
-      - type: definition
-        term: Periode
-        explanation: "Die Ziffern, die sich nach dem Komma immer wieder wiederholen, heißen Periode. Eine Dezimalzahl mit Periode heißt periodisch. Über die Periode setzt du einen Periodenstrich: $\\frac{1}{3}$ = 0,3̅. Eine Dezimalzahl, die nach einigen Stellen aufhört, bricht ab."
-  - type: section
-    id: entdecken
-    title: Anschaulich erklärt
-    blocks:
-      - type: text
-        text: |-
-          Vergleiche mit $\frac{3}{4}$. Hier wird der Rest nach drei Schritten 0.
-      - type: table
-        caption: "Die Rechnung 3 : 4 Stelle für Stelle"
-        header: [Stelle, Rechnung, Rest]
-        rowHeaders: true
-        rows:
-          - [Einer, "3 : 4 = 0", "3"]
-          - [Zehntel, "30 : 4 = 7", "2"]
-          - [Hundertstel, "20 : 4 = 5", "0"]
-      - type: text
-        text: |-
-          Bei Rest 0 ist die Rechnung zu Ende: $\frac{3}{4} = 0{,}75$ bricht ab. Bei $\frac{1}{3}$ kehrt derselbe Rest wieder, darum wiederholen sich die Ziffern. Beim Teilen durch 3 gibt es nur die Reste 0, 1 und 2. Spätestens nach drei Schritten endet die Rechnung oder ein Rest kommt zurück.
-      - type: text
-        text: |-
-          Ob eine Dezimalzahl abbricht, siehst du am Nenner. Kürze den Bruch zuerst vollständig. Zerlege dann den Nenner in Primfaktoren. Das sind Primzahlen, die du malnimmst, um die Zahl zu erhalten: $20 = 2 \cdot 2 \cdot 5$ hat die Primfaktoren 2 und 5. Kommen nur 2 und 5 vor, kannst du auf Zehntel, Hundertstel oder Tausendstel erweitern, denn $10 = 2 \cdot 5$. Dann bricht die Dezimalzahl ab. Kommt ein anderer Primfaktor vor, ist sie periodisch.
-      - type: table
-        caption: Brüche mit abbrechender und periodischer Dezimalzahl
-        header: [Bruch, Nenner in Primfaktoren, Dezimalzahl]
-        rows:
-          - ["$\\frac{1}{8}$", "2 · 2 · 2", "0,125 bricht ab"]
-          - ["$\\frac{1}{20}$", "2 · 2 · 5", "0,05 bricht ab"]
-          - ["$\\frac{1}{3}$", "3", "0,3̅ periodisch"]
-          - ["$\\frac{1}{6}$", "2 · 3", "0,16̅ periodisch"]
-          - ["$\\frac{1}{7}$", "7", "0,1̅4̅2̅8̅5̅7̅ periodisch"]
-      - type: note
-        title: Erst kürzen
-        blocks:
-          - type: text
-            text: |-
-              Im Nenner von $\frac{3}{6}$ steckt der Primfaktor 3. Gekürzt ist der Bruch $\frac{1}{2}$, und das bricht ab: 0,5. Darum kürzt du zuerst vollständig.
-  - type: section
-    id: beispiel
-    title: Am Beispiel nachvollziehen
-    blocks:
-      - type: example
-        title: Ein Bruch mit Periode
-        blocks:
-          - type: text
-            text: |-
-              Schreibe $\frac{5}{6}$ als Dezimalzahl. Der Nenner 6 ist $2 \cdot 3$, der Primfaktor 3 verrät: Die Dezimalzahl bricht nicht ab. Du teilst 5 : 6:
-          - type: table
-            caption: "Die Rechnung 5 : 6 Stelle für Stelle"
-            header: [Stelle, Rechnung, Rest]
-            rowHeaders: true
-            rows:
-              - [Einer, "5 : 6 = 0", "5"]
-              - [Zehntel, "50 : 6 = 8", "2"]
-              - [Hundertstel, "20 : 6 = 3", "2"]
-              - [Tausendstel, "20 : 6 = 3", "2"]
-          - type: text
-            text: |-
-              Der Rest 2 kehrt wieder, also wiederholt sich die 3. Die 8 steht davor und wiederholt sich nicht. Darum steht der Periodenstrich nur über der 3: $\frac{5}{6}$ = 0,83̅.
-      - type: example
-        title: Erst kürzen, dann entscheiden
-        blocks:
-          - type: text
-            text: |-
-              Bricht $\frac{9}{12}$ ab? Im Nenner 12 = 2 · 2 · 3 steckt die 3. Aber gekürzt ist $\frac{9}{12} = \frac{3}{4}$, und 4 = 2 · 2 hat nur den Primfaktor 2. Also bricht die Dezimalzahl ab: $\frac{3}{4} = 0{,}75$.
-  - type: section
-    id: ueben
-    title: Üben
-    blocks:
-      - type: single-choice
-        id: abbricht
-        text: Bricht die Dezimalzahl von $\frac{1}{4}$ ab?
-        options:
-          - text: "Ja, denn 1 : 4 geht nach zwei Stellen auf."
-            correct: true
-            info: "Richtig: 10 : 4 = 2 Rest 2, dann 20 : 4 = 5 Rest 0. Der Rest wird 0, es entsteht 0,25."
-          - text: Nein, denn 4 ist keine Primzahl.
-            correct: false
-            info: "Ob der Nenner eine Primzahl ist, entscheidet nichts. Es kommt auf die Primfaktoren an: 4 = 2 · 2 hat nur den Primfaktor 2."
-          - text: Nein, denn die Rechnung hat einen Rest.
-            correct: false
-            info: "Einen Rest gibt es zwischendurch fast immer. Entscheidend ist, ob er irgendwann 0 wird. Hier wird er es nach zwei Stellen."
-        explanation: "Beim Teilen 1 : 4 wird der Rest nach zwei Stellen 0. Auch der Nenner zeigt es: 4 = 2 · 2 hat nur den Primfaktor 2, darum bricht die Dezimalzahl ab."
-      - type: true-false
-        id: naeherung
-        text: "Stimmt diese Aussage? $\\frac{1}{3} = 0{,}33$"
-        answer: false
-        explanation: "0,33 ist nur eine Näherung: $\\frac{33}{100}$ ist etwas weniger als $\\frac{1}{3}$. Genau ist $\\frac{1}{3}$ = 0,3̅, die 3 wiederholt sich ohne Ende."
-      - type: multiple-choice
-        id: welche
-        text: Bei welchen Brüchen bricht die Dezimalzahl ab? Wähle alle richtigen.
-        options:
-          - text: $\frac{3}{8}$
-            correct: true
-            info: "Der Nenner 8 = 2 · 2 · 2 hat nur den Primfaktor 2. Es entsteht 0,375."
-          - text: $\frac{1}{6}$
-            correct: false
-            info: "Der Nenner 6 = 2 · 3 hat den Primfaktor 3. Die Dezimalzahl 0,16̅ ist periodisch."
-          - text: $\frac{7}{20}$
-            correct: true
-            info: "Der Nenner 20 = 2 · 2 · 5 hat nur die Primfaktoren 2 und 5. Es entsteht 0,35."
-          - text: $\frac{4}{12}$
-            correct: false
-            info: "Gekürzt ist der Bruch $\\frac{1}{3}$, und der Nenner 3 ist ein anderer Primfaktor. Es entsteht 0,3̅."
-          - text: $\frac{3}{12}$
-            correct: true
-            info: "Gekürzt ist der Bruch $\\frac{1}{4}$, und 4 = 2 · 2 hat nur den Primfaktor 2. Es entsteht 0,25."
-        explanation: "Kürze zuerst vollständig und zerlege dann den Nenner. Bricht ab, wenn nur die Primfaktoren 2 und 5 vorkommen."
-      - type: generated
-        id: ziffern
-        given:
-          e: { pick: 1, from: { data: periodenbrueche } }
-        task:
-          text: "Teile $\\frac{{{e.z}}}{{{e.n}}}$ schriftlich. Schreibe die ersten vier Stellen nach dem Komma, ohne zu runden."
-        answer: { value: "e.vier / 10000", compare: { number: { format: decimal, decimals: 4 } } }
-        mistakes:
-          - value: "e.zwei / 100"
-            message: "Du hast nach zwei Stellen aufgehört. Teile weiter, bis vier Stellen nach dem Komma stehen."
-          - value: "e.n / e.z"
-            message: "Du hast den Nenner durch den Zähler geteilt. Teile den Zähler {{e.z}} durch den Nenner {{e.n}}."
-        hint: "Rechne {{e.z}} : {{e.n}} Stelle für Stelle. Hänge an den Rest eine Null an und teile wieder."
-        steps:
-          - "Du teilst {{e.z}} : {{e.n}} Stelle für Stelle. Weil der Rest wiederkehrt, wiederholen sich Ziffern: {{e.lang}}"
-          - "Die ersten vier Stellen nach dem Komma sind 0,{{e.vier}}. Genau ist die Zahl periodisch: {{e.dez}}."
-      - type: generated
-        id: periode
-        given:
-          e: { pick: 1, from: { data: periodenbrueche } }
-        task:
-          text: "$\\frac{{{e.z}}}{{{e.n}}}$ beginnt als Dezimalzahl mit {{e.lang}} Welche Ziffern bilden die Periode? Gib sie ohne Komma ein."
-        answer: { value: "e.periode", compare: { number: { format: integer } } }
-        mistakes:
-          - value: "e.mehr"
-            message: "Du hast mehr Ziffern aufgeschrieben, als sich wiederholen. Die Periode ist nur die Ziffernfolge, die immer wiederkehrt. Ziffern davor gehören nicht dazu."
-          - value: "e.laenge"
-            message: "Das ist die Anzahl der Ziffern in der Periode. Gefragt sind die Ziffern selbst."
-        hint: "Suche die Ziffernfolge, die sich in gleicher Reihenfolge wiederholt. Ziffern vor der ersten Wiederholung gehören nicht zur Periode."
-        steps:
-          - "In {{e.lang}} wiederholt sich die Ziffernfolge {{e.periode}}."
-          - "Mit Periodenstrich schreibst du die Zahl genau: {{e.dez}}."
+{
+  "title": "Wenn das Teilen nie endet",
+  "competencies": ["dezimalbrueche"],
+  "description": "Warum manche Brüche abbrechende und andere periodische Dezimalzahlen haben, und woran du das am Nenner erkennst.",
+  "scope": "Beim schriftlichen Teilen des Zählers durch den Nenner wird der Rest irgendwann 0, dann bricht die Dezimalzahl ab, oder ein Rest kehrt wieder, dann wiederholen sich Ziffern und die Dezimalzahl ist periodisch. Die sich wiederholenden Ziffern heißen Periode und bekommen einen Periodenstrich, zum Beispiel 1/3 = 0,3 mit Strich über der 3 und 5/6 = 0,83 mit Strich nur über der 3. Ein vollständig gekürzter Bruch hat eine abbrechende Dezimalzahl genau dann, wenn der Nenner nur die Primfaktoren 2 und 5 hat, zum Beispiel 1/8 und 1/20, aber nicht 1/3, 1/6 oder 1/7. 0,33 ist nur eine Näherung von 1/3. Das algebraische Rückumwandeln periodischer Dezimalzahlen gehört nicht dazu.",
+  "blocks":
+    [
+      {
+        "type": "section",
+        "id": "regel",
+        "title": "Ein Liter Saft für drei Gläser",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "Du teilst 1 Liter Saft gerecht auf 3 Gläser. Jedes Glas bekommt $\\frac{1}{3}$ Liter. Als Dezimalzahl rechnest du 1 : 3 schriftlich wie auf der Seite davor: Du hängst Nullen an und teilst Stelle für Stelle.",
+            },
+            {
+              "type": "table",
+              "caption": "Die Rechnung 1 : 3 Stelle für Stelle",
+              "header": ["Stelle", "Rechnung", "Rest"],
+              "rowHeaders": true,
+              "rows":
+                [
+                  ["E Einer", "1 : 3 = 0", "1"],
+                  ["z Zehntel", "10 : 3 = 3", "1"],
+                  ["h Hundertstel", "10 : 3 = 3", "1"],
+                  ["t Tausendstel", "10 : 3 = 3", "1"],
+                ],
+            },
+            {
+              "type": "text",
+              "text": "Der Rest ist jedes Mal 1. Darum rechnest du immer wieder 10 : 3 = 3. Die Rechnung endet nie, und die 3 kommt immer wieder.",
+            },
+            {
+              "type": "definition",
+              "term": "Periode",
+              "explanation": "Die Ziffern, die sich nach dem Komma immer wieder wiederholen, heißen Periode. Eine Dezimalzahl mit Periode heißt periodisch. Über die Periode setzt du einen Periodenstrich: $\\frac{1}{3}$ = 0,3̅. Eine Dezimalzahl, die nach einigen Stellen aufhört, bricht ab.",
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "entdecken",
+        "title": "Anschaulich erklärt",
+        "blocks":
+          [
+            { "type": "text", "text": "Vergleiche mit $\\frac{3}{4}$. Hier wird der Rest nach drei Schritten 0." },
+            {
+              "type": "table",
+              "caption": "Die Rechnung 3 : 4 Stelle für Stelle",
+              "header": ["Stelle", "Rechnung", "Rest"],
+              "rowHeaders": true,
+              "rows":
+                [["E Einer", "3 : 4 = 0", "3"], ["z Zehntel", "30 : 4 = 7", "2"], ["h Hundertstel", "20 : 4 = 5", "0"]],
+            },
+            {
+              "type": "text",
+              "text": "Bei Rest 0 ist die Rechnung zu Ende: $\\frac{3}{4} = 0{,}75$ bricht ab. Bei $\\frac{1}{3}$ kehrt derselbe Rest wieder, darum wiederholen sich die Ziffern. Beim Teilen durch 3 gibt es nur die Reste 0, 1 und 2. Spätestens nach drei Schritten endet die Rechnung oder ein Rest kommt zurück.",
+            },
+            {
+              "type": "text",
+              "text": "Ob eine Dezimalzahl abbricht, siehst du am Nenner. Kürze den Bruch zuerst vollständig. Zerlege dann den Nenner in Primfaktoren. Das sind Primzahlen, die du malnimmst, um die Zahl zu erhalten: $20 = 2 \\cdot 2 \\cdot 5$ hat die Primfaktoren 2 und 5. Kommen nur 2 und 5 vor, kannst du auf Zehntel, Hundertstel oder Tausendstel erweitern, denn $10 = 2 \\cdot 5$. Dann bricht die Dezimalzahl ab. Kommt ein anderer Primfaktor vor, ist sie periodisch.",
+            },
+            {
+              "type": "table",
+              "caption": "Brüche mit abbrechender und periodischer Dezimalzahl",
+              "header": ["Bruch", "Nenner in Primfaktoren", "Dezimalzahl"],
+              "rows":
+                [
+                  ["$\\frac{1}{8}$", "2 · 2 · 2", "0,125 bricht ab"],
+                  ["$\\frac{1}{20}$", "2 · 2 · 5", "0,05 bricht ab"],
+                  ["$\\frac{1}{3}$", "3", "0,3̅ periodisch"],
+                  ["$\\frac{1}{6}$", "2 · 3", "0,16̅ periodisch"],
+                  ["$\\frac{1}{7}$", "7", "0,1̅4̅2̅8̅5̅7̅ periodisch"],
+                ],
+            },
+            {
+              "type": "note",
+              "title": "Erst kürzen",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Im Nenner von $\\frac{3}{6}$ steckt der Primfaktor 3. Gekürzt ist der Bruch $\\frac{1}{2}$, und das bricht ab: 0,5. Darum kürzt du zuerst vollständig.",
+                  },
+                ],
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "beispiel",
+        "title": "Am Beispiel nachvollziehen",
+        "blocks":
+          [
+            {
+              "type": "example",
+              "title": "Ein Bruch mit Periode",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Schreibe $\\frac{5}{6}$ als Dezimalzahl. Der Nenner 6 ist $2 \\cdot 3$, der Primfaktor 3 verrät: Die Dezimalzahl bricht nicht ab. Du teilst 5 : 6:",
+                  },
+                  {
+                    "type": "table",
+                    "caption": "Die Rechnung 5 : 6 Stelle für Stelle",
+                    "header": ["Stelle", "Rechnung", "Rest"],
+                    "rowHeaders": true,
+                    "rows":
+                      [
+                        ["E Einer", "5 : 6 = 0", "5"],
+                        ["z Zehntel", "50 : 6 = 8", "2"],
+                        ["h Hundertstel", "20 : 6 = 3", "2"],
+                        ["t Tausendstel", "20 : 6 = 3", "2"],
+                      ],
+                  },
+                  {
+                    "type": "text",
+                    "text": "Der Rest 2 kehrt wieder, also wiederholt sich die 3. Die 8 steht davor und wiederholt sich nicht. Darum steht der Periodenstrich nur über der 3: $\\frac{5}{6}$ = 0,83̅.",
+                  },
+                ],
+            },
+            {
+              "type": "example",
+              "title": "Erst kürzen, dann entscheiden",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Bricht $\\frac{9}{12}$ ab? Im Nenner 12 = 2 · 2 · 3 steckt die 3. Aber gekürzt ist $\\frac{9}{12} = \\frac{3}{4}$, und 4 = 2 · 2 hat nur den Primfaktor 2. Also bricht die Dezimalzahl ab: $\\frac{3}{4} = 0{,}75$.",
+                  },
+                ],
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "ueben",
+        "title": "Üben",
+        "blocks":
+          [
+            {
+              "type": "single-choice",
+              "id": "abbricht",
+              "text": "Bricht die Dezimalzahl von $\\frac{1}{4}$ ab?",
+              "options":
+                [
+                  {
+                    "text": "Ja, denn 1 : 4 geht nach zwei Stellen auf.",
+                    "correct": true,
+                    "info": "Richtig: 10 : 4 = 2 Rest 2, dann 20 : 4 = 5 Rest 0. Der Rest wird 0, es entsteht 0,25.",
+                  },
+                  {
+                    "text": "Nein, denn 4 ist keine Primzahl.",
+                    "correct": false,
+                    "info": "Ob der Nenner eine Primzahl ist, entscheidet nichts. Es kommt auf die Primfaktoren an: 4 = 2 · 2 hat nur den Primfaktor 2.",
+                  },
+                  {
+                    "text": "Nein, denn die Rechnung hat einen Rest.",
+                    "correct": false,
+                    "info": "Einen Rest gibt es zwischendurch fast immer. Entscheidend ist, ob er irgendwann 0 wird. Hier wird er es nach zwei Stellen.",
+                  },
+                ],
+              "explanation": "Beim Teilen 1 : 4 wird der Rest nach zwei Stellen 0. Auch der Nenner zeigt es: 4 = 2 · 2 hat nur den Primfaktor 2, darum bricht die Dezimalzahl ab.",
+            },
+            {
+              "type": "true-false",
+              "id": "naeherung",
+              "text": "Stimmt diese Aussage? $\\frac{1}{3} = 0{,}33$",
+              "answer": false,
+              "explanation": "0,33 ist nur eine Näherung: $\\frac{33}{100}$ ist etwas weniger als $\\frac{1}{3}$. Genau ist $\\frac{1}{3}$ = 0,3̅, die 3 wiederholt sich ohne Ende.",
+            },
+            {
+              "type": "multiple-choice",
+              "id": "welche",
+              "text": "Bei welchen Brüchen bricht die Dezimalzahl ab? Wähle alle richtigen.",
+              "options":
+                [
+                  {
+                    "text": "$\\frac{3}{8}$",
+                    "correct": true,
+                    "info": "Der Nenner 8 = 2 · 2 · 2 hat nur den Primfaktor 2. Es entsteht 0,375.",
+                  },
+                  {
+                    "text": "$\\frac{1}{6}$",
+                    "correct": false,
+                    "info": "Der Nenner 6 = 2 · 3 hat den Primfaktor 3. Die Dezimalzahl 0,16̅ ist periodisch.",
+                  },
+                  {
+                    "text": "$\\frac{7}{20}$",
+                    "correct": true,
+                    "info": "Der Nenner 20 = 2 · 2 · 5 hat nur die Primfaktoren 2 und 5. Es entsteht 0,35.",
+                  },
+                  {
+                    "text": "$\\frac{4}{12}$",
+                    "correct": false,
+                    "info": "Gekürzt ist der Bruch $\\frac{1}{3}$, und der Nenner 3 ist ein anderer Primfaktor. Es entsteht 0,3̅.",
+                  },
+                  {
+                    "text": "$\\frac{3}{12}$",
+                    "correct": true,
+                    "info": "Gekürzt ist der Bruch $\\frac{1}{4}$, und 4 = 2 · 2 hat nur den Primfaktor 2. Es entsteht 0,25.",
+                  },
+                ],
+              "explanation": "Kürze zuerst vollständig und zerlege dann den Nenner. Bricht ab, wenn nur die Primfaktoren 2 und 5 vorkommen.",
+            },
+            {
+              "type": "generated",
+              "id": "ziffern",
+              "given": { "e": { "pick": 1, "from": { "data": "periodenbrueche" } } },
+              "task":
+                {
+                  "text": "Teile $\\frac{{{e.z}}}{{{e.n}}}$ schriftlich. Schreibe die ersten vier Stellen nach dem Komma, ohne zu runden.",
+                },
+              "answer": { "value": "e.vier / 10000", "compare": { "number": { "format": "decimal", "decimals": 4 } } },
+              "mistakes":
+                [
+                  {
+                    "value": "e.zwei / 100",
+                    "message": "Du hast nach zwei Stellen aufgehört. Teile weiter, bis vier Stellen nach dem Komma stehen.",
+                  },
+                  {
+                    "value": "e.n / e.z",
+                    "message": "Du hast den Nenner durch den Zähler geteilt. Teile den Zähler {{e.z}} durch den Nenner {{e.n}}.",
+                  },
+                ],
+              "hint": "Rechne {{e.z}} : {{e.n}} Stelle für Stelle. Hänge an den Rest eine Null an und teile wieder.",
+              "steps":
+                [
+                  "Du teilst {{e.z}} : {{e.n}} Stelle für Stelle. Weil der Rest wiederkehrt, wiederholen sich Ziffern: {{e.lang}}",
+                  "Die ersten vier Stellen nach dem Komma sind 0,{{e.vier}}. Genau ist die Zahl periodisch: {{e.dez}}.",
+                ],
+            },
+            {
+              "type": "generated",
+              "id": "periode",
+              "given": { "e": { "pick": 1, "from": { "data": "periodenbrueche" } } },
+              "task":
+                {
+                  "text": "$\\frac{{{e.z}}}{{{e.n}}}$ beginnt als Dezimalzahl mit {{e.lang}} Welche Ziffern bilden die Periode? Gib sie ohne Komma ein.",
+                },
+              "answer": { "value": "e.periode", "compare": { "number": { "format": "integer" } } },
+              "mistakes":
+                [
+                  {
+                    "value": "e.mehr",
+                    "message": "Du hast mehr Ziffern aufgeschrieben, als sich wiederholen. Die Periode ist nur die Ziffernfolge, die immer wiederkehrt. Ziffern davor gehören nicht dazu.",
+                  },
+                  {
+                    "value": "e.laenge",
+                    "message": "Das ist die Anzahl der Ziffern in der Periode. Gefragt sind die Ziffern selbst.",
+                  },
+                ],
+              "hint": "Suche die Ziffernfolge, die sich in gleicher Reihenfolge wiederholt. Ziffern vor der ersten Wiederholung gehören nicht zur Periode.",
+              "steps":
+                [
+                  "In {{e.lang}} wiederholt sich die Ziffernfolge {{e.periode}}.",
+                  "Mit Periodenstrich schreibst du die Zahl genau: {{e.dez}}.",
+                ],
+            },
+          ],
+      },
+    ],
+}

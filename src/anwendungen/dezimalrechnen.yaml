@@ -46,7 +46,7 @@
                   {
                     "type": "table",
                     "caption": "Beide Zahlen sind nach Stellenwerten ausgerichtet",
-                    "header": ["Zahl", "Ganze", "Zehntel", "Hundertstel"],
+                    "header": ["Zahl", "E Einer", "z Zehntel", "h Hundertstel"],
                     "rows": [["0,75", "0", "7", "5"], ["0,50", "0", "5", "0"]],
                   },
                 ],
@@ -64,7 +64,7 @@
                   {
                     "type": "table",
                     "caption": "Der Anfang der Minusrechnung",
-                    "header": ["Zahl", "Ganze", "Zehntel", "Hundertstel"],
+                    "header": ["Zahl", "E Einer", "z Zehntel", "h Hundertstel"],
                     "rows": [["1,20", "1", "2", "0"], ["0,35", "0", "3", "5"]],
                   },
                 ],
@@ -149,7 +149,7 @@
                   { "value": "(e.a100+e.b100)/1000", "message": "Die Teile sind Hundertstel, keine Tausendstel." },
                   {
                     "value": "(e.a100+e.b100)/10",
-                    "message": "Das Komma steht an der falschen Stelle: Dein Ergebnis ist zehnmal so groß wie die Summe. Schätze vorher: {{e.azahl}} + {{e.bzahl}} ist nur etwas mehr als {{e.azahl}}.",
+                    "message": "Das Komma steht an der falschen Stelle: Dein Ergebnis ist zehnmal so groß wie die Summe. Schätze vorher: Runde beide Zahlen auf ganze Zahlen und addiere sie.",
                   },
                 ],
               "hint": "Schreibe beide Zahlen in Hundertsteln und ordne Komma unter Komma.",

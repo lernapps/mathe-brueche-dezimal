@@ -43,7 +43,7 @@
                   "task": "Berechne {z}/{n} + {b}/{d}. Finde eine gemeinsame Unterteilung und gib das Ergebnis als Bruch ein.",
                   "mistakes":
                     [
-                      "Das stimmt nicht. Das kgV der Nenner {n} und {d} ist {l}: Suche mit dem Regler ein Raster, das beide Streifen trifft, und zusammenzählen dann die gleich großen Stücke.",
+                      "Das stimmt nicht. Das kgV der Nenner {n} und {d} ist {l}: Suche mit dem Regler ein Raster, das beide Streifen trifft, und zähle dann die gleich großen Stücke zusammen.",
                       "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
                       "Du hast Zähler und Nenner einzeln gerechnet. Das darfst du nicht: {z}/{n} und {b}/{d} sind verschieden große Stücke. Erst ein gemeinsames Raster suchen, dann nur die Zähler rechnen.",
                       "Du hast zwar den gemeinsamen Nenner {l} genommen, aber die Zähler nicht mit erweitert. Jedes Stück der beiden Streifen muss in {l}-tel zerlegt werden.",
@@ -81,7 +81,7 @@
                   "task": "Berechne {z}/{n} − {b}/{d}. Finde eine gemeinsame Unterteilung und gib den Rest als Bruch ein.",
                   "mistakes":
                     [
-                      "Das stimmt nicht. Das kgV der Nenner {n} und {d} ist {l}: Suche mit dem Regler ein Raster, das beide Streifen trifft, und wegnehmen dann die gleich großen Stücke.",
+                      "Das stimmt nicht. Das kgV der Nenner {n} und {d} ist {l}: Suche mit dem Regler ein Raster, das beide Streifen trifft, und nimm dann die gleich großen Stücke weg.",
                       "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
                       "Du hast Zähler und Nenner einzeln gerechnet. Das darfst du nicht: {z}/{n} und {b}/{d} sind verschieden große Stücke. Erst ein gemeinsames Raster suchen, dann nur die Zähler rechnen.",
                       "Du hast zwar den gemeinsamen Nenner {l} genommen, aber die Zähler nicht mit erweitert. Jedes Stück der beiden Streifen muss in {l}-tel zerlegt werden.",

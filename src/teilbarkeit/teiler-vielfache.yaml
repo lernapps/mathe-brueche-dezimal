@@ -18,7 +18,7 @@
             },
             {
               "type": "text",
-              "text": "Zwei Bilder aus dem Alltag zeigen, wofür das gut ist. **Fliesen:** Du willst eine Wand mit gleich großen, quadratischen Fliesen belegen, ohne eine zu zerschneiden. Welche Seitenlänge ist für beide Wandmaße möglich, und welche ist die größte? **Fahrplan:** Zwei Buslinien fahren zusammen los, die eine alle 12, die andere alle 18 Minuten. Wann fahren beide wieder gleichzeitig ab? Den ggT brauchst du später beim Kürzen von Brüchen, das kgV beim Finden eines gemeinsamen Nenners: Beide Werkzeuge kommen wieder.",
+              "text": "Zwei Bilder aus dem Alltag zeigen, wofür das gut ist. **Fliesen:** Du willst eine Wand mit gleich großen, quadratischen Fliesen belegen, ohne eine zu zerschneiden. Welche Seitenlänge ist für beide Wandmaße möglich, und welche ist die größte? **Fahrplan:** Zwei Buslinien fahren zusammen los, die eine alle 12, die andere alle 18 Minuten. Wann fahren beide wieder gleichzeitig ab? Den ggT brauchst du später beim Kürzen von Brüchen, das kgV beim Finden eines gemeinsamen Nenners: Beide Werkzeuge kommen wieder.",
             },
             {
               "type": "definition",
@@ -143,14 +143,14 @@
                 [
                   {
                     "type": "text",
-                    "text": "Linie 1 fährt alle 12 Minuten, Linie 2 alle 18 Minuten, beide starten um 7 Uhr. Beide fahren zu einem Zeitpunkt ab, der ein Vielfaches von 12 und von 18 ist. Der erste solche Zeitpunkt ist das kgV.",
+                    "text": "Linie 1 fährt alle 12 Minuten, Linie 2 alle 18 Minuten, beide starten um 7 Uhr. Beide fahren zu einem Zeitpunkt ab, der ein Vielfaches von 12 und von 18 ist. Der erste solche Zeitpunkt ist das kgV.",
                   },
                   { "type": "formula", "formula": "12 = 2^2 \\cdot 3" },
                   { "type": "formula", "formula": "18 = 2 \\cdot 3^2" },
                   { "type": "formula", "formula": "\\text{kgV} = 2^2 \\cdot 3^2 = 36" },
                   {
                     "type": "text",
-                    "text": "Nach 36 Minuten fahren beide wieder gleichzeitig ab: Linie 1 zum dritten Mal (3 · 12), Linie 2 zum zweiten Mal (2 · 18).",
+                    "text": "Nach 36 Minuten fahren beide wieder gleichzeitig ab: Linie 1 zum dritten Mal (3 · 12), Linie 2 zum zweiten Mal (2 · 18).",
                   },
                 ],
             },
@@ -161,7 +161,7 @@
                 [
                   {
                     "type": "text",
-                    "text": "Eine Wandfläche ist 36 cm breit und 48 cm hoch. Die Seite einer quadratischen Fliese muss ein Teiler von 36 und von 48 sein, sonst müsstest du eine Fliese zerschneiden. Die größte solche Seite ist der ggT.",
+                    "text": "Ein Wandstück ist 36 cm breit und 48 cm hoch. Die Seite einer quadratischen Fliese muss ein Teiler von 36 und von 48 sein, sonst müsstest du eine Fliese zerschneiden. Die größte solche Seite ist der ggT.",
                   },
                   { "type": "formula", "formula": "\\text{ggT}(36, 48) = 12" },
                   {
@@ -350,14 +350,14 @@
               "given": { "e": { "pick": 1, "from": { "data": "fahrplaene" } } },
               "task":
                 {
-                  "text": "Zwei Buslinien fahren um 7 Uhr gleichzeitig an der Haltestelle ab. Linie 1 fährt alle {{e.a}} Minuten, Linie 2 alle {{e.b}} Minuten. Nach wie vielen Minuten fahren beide zum ersten Mal wieder gleichzeitig ab?",
+                  "text": "Zwei Buslinien fahren um 7 Uhr gleichzeitig an der Haltestelle ab. Linie 1 fährt alle {{e.a}} Minuten, Linie 2 alle {{e.b}} Minuten. Nach wie vielen Minuten fahren beide zum ersten Mal wieder gleichzeitig ab?",
                 },
               "answer": { "value": "e.kgv", "compare": "number" },
               "mistakes":
                 [
                   {
                     "value": "e.produkt",
-                    "message": "Nach {{e.a}} · {{e.b}} Minuten treffen sich die Busse auch, aber nicht zum ersten Mal. Gesucht ist das kleinste gemeinsame Vielfache.",
+                    "message": "Nach {{e.a}} · {{e.b}} Minuten treffen sich die Busse auch, aber nicht zum ersten Mal. Gesucht ist das kleinste gemeinsame Vielfache.",
                   },
                   {
                     "value": "e.ggt",
@@ -368,7 +368,7 @@
               "steps":
                 [
                   "Gesucht ist das kgV von {{e.a}} und {{e.b}}. Das ist {{answer}}.",
-                  "Nach {{answer}} Minuten ist Linie 1 genau {{e.ra}}-mal und Linie 2 genau {{e.rb}}-mal gefahren: {{e.ra}} · {{e.a}} = {{e.rb}} · {{e.b}} = {{answer}}.",
+                  "Nach {{answer}} Minuten ist Linie 1 genau {{e.ra}}-mal und Linie 2 genau {{e.rb}}-mal gefahren: {{e.ra}} · {{e.a}} = {{e.rb}} · {{e.b}} = {{answer}}.",
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
             },
@@ -378,7 +378,7 @@
               "given": { "e": { "pick": 1, "from": { "data": "fliesenboeden" } } },
               "task":
                 {
-                  "text": "Eine Wandfläche ist {{e.l}} cm breit und {{e.b}} cm hoch. Sie soll ohne Zuschneiden mit gleich großen, quadratischen Fliesen belegt werden. Wie viele Zentimeter ist die Seite der größten möglichen Fliese lang?",
+                  "text": "Ein Wandstück ist {{e.l}} cm breit und {{e.b}} cm hoch. Sie soll ohne Zuschneiden mit gleich großen, quadratischen Fliesen belegt werden. Wie viele Zentimeter ist die Seite der größten möglichen Fliese lang?",
                 },
               "answer": { "value": "e.ggt", "compare": "number" },
               "mistakes":
