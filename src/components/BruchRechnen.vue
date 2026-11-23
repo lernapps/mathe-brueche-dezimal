@@ -104,16 +104,20 @@ import RichText from "./RichText.vue";
           {{ totalLabel }}: {{ taskNow.n * taskNow.d }} · {{ markedLabel }}: {{ marked.length }}
         </p>
       </template>
-      <template v-else-if="kind === 'divide'"
+      <template v-else-if="kind === 'divide' || kind === 'divide2'"
         ><div class="pieces">
           <button type="button" :aria-label="`${pieceLabel} −`" @click="pieces = Math.max(0, pieces - 1)">−</button
           ><span>{{ pieceLabel }}: {{ pieces }}</span
-          ><button type="button" :aria-label="`${pieceLabel} +`" @click="pieces = Math.min(taskNow.d, pieces + 1)">
+          ><button
+            type="button"
+            :aria-label="`${pieceLabel} +`"
+            @click="pieces = Math.min(Math.floor(taskNow.d / taskNow.b), pieces + 1)"
+          >
             +
           </button>
         </div>
         <div class="strip" role="img" :aria-label="`${pieceLabel}: ${pieces}`">
-          <span v-for="i in taskNow.d" :key="i" :class="{ on: i <= pieces }" aria-hidden="true"></span>
+          <span v-for="i in taskNow.d" :key="i" :class="{ on: i <= pieces * taskNow.b }" aria-hidden="true"></span>
           <span
             class="fit-boundary"
             :style="{ left: `${(taskNow.z / taskNow.n) * 100}%` }"

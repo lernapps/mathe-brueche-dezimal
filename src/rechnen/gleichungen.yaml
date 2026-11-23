@@ -3,7 +3,7 @@
   "title": "Eine fehlende Zahl finden",
   "competencies": ["brueche-addieren-subtrahieren"],
   "description": "Welche Zahl ergänzt einen Bruch zu einem Ganzen? Nutze den Streifen als Kontrolle.",
-  "scope": "Bei einer Gleichung soll links und rechts derselbe Wert stehen. Finde die fehlende Zahl mit der Umkehrrechnung (Plus und Minus heben sich auf, Mal und Geteilt auch) und setze sie zur Probe ein. Ein fehlender Summand entsteht durch Subtraktion, ein fehlender Faktor durch Division. x + 1/4 = 3/4. Also x = 3/4 − 1/4 = 2/4 = 1/2. Probe: 1/2 + 1/4 = 3/4.",
+  "scope": "Bei einer Gleichung soll links und rechts derselbe Wert stehen. Finde die fehlende Zahl mit der Umkehrrechnung (Plus und Minus heben sich auf, Mal und Geteilt auch) und setze sie zur Probe ein. Ein fehlender Summand entsteht durch Subtraktion, ein fehlender Faktor durch Division. x + 1/4 = 3/4. Also x = 3/4 − 1/4 = 2/4 = 1/2. Probe: 1/2 + 1/4 = 3/4. Ein fehlender Faktor: x · 3/8 = 3/4, also x = 3/4 : 3/8 = 3/4 · 8/3 = 2. Probe: 2 · 3/8 = 3/4. Mit verschiedenen Nennern: x + 1/6 = 3/4, also x = 3/4 − 1/6 = 9/12 − 2/12 = 7/12.",
   "blocks":
     [
       {
@@ -35,9 +35,11 @@
             },
             {
               "type": "figure",
-              "draw": { "kind": "bar", "part": 3, "whole": 4 },
-              "alt": "Ein ganzer Streifen ist in vier gleich große Teile geteilt. Drei Teile sind gefüllt: das Ziel 3 durch 4. Ein Viertel davon ist bereits bekannt; der fehlende Anteil ergänzt dieses Viertel zu drei Vierteln.",
-              "caption": "Ziel: $\\frac{3}{4}$. Davon ist $\\frac{1}{4}$ schon bekannt. Welcher Anteil fehlt?",
+              "image": "images/p4-gleichung-streifen.svg",
+              "source": "eigene Zeichnung",
+              "licence": "MIT",
+              "alt": "Ein Streifen aus vier gleich großen Feldern. Drei Felder sind gefüllt und von einer Klammer mit dem Ziel drei Viertel überspannt. Das erste gefüllte Feld ist hell und als bekannt beschriftet, ein Viertel. Die beiden übrigen gefüllten Felder sind dunkel und mit einem Fragezeichen beschriftet: gesucht ist x. Das vierte Feld ist leer.",
+              "caption": "Ziel: $\\frac{3}{4}$. Das helle Feld ist mit $\\frac{1}{4}$ schon bekannt. Welcher Anteil x fehlt?",
             },
             {
               "type": "note",
@@ -110,6 +112,10 @@
                     "message": "Der fehlende Summand entsteht durch Subtrahieren, nicht durch Addieren.",
                   },
                   { "value": "n", "message": "Das wäre ein ganzes Ganzes vor dem zusätzlichen Bruchteil." },
+                  {
+                    "value": "1",
+                    "message": "Auf der rechten Seite steht ein Ganzes, das sind {{n}} Stücke gleicher Größe. Der Zähler x ergänzt die 1 zu {{n}}, nicht zu 1.",
+                  },
                 ],
               "hint": "Bei einer Gleichung soll links und rechts derselbe Wert stehen.",
               "steps":
@@ -118,6 +124,57 @@
                   "Es fehlen {{n}} − 1 = {{answer}} weitere {{n}}-tel. Das ist der gesuchte Zähler x.",
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "vue-component",
+              "component": "BruchTippen",
+              "id": "summand",
+              "props":
+                {
+                  "kind": "gleichung-summand",
+                  "task": "Löse x + {b}/{d} = {z}/{n}. Gib x vollständig gekürzt an.",
+                  "mistakes":
+                    [
+                      "Das ist nicht richtig. Der fehlende Summand ist die Differenz: Rechne {z}/{n} − {b}/{d}. Setze dein x zur Probe ein.",
+                      "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
+                      "Der Wert stimmt, aber du kannst noch kürzen. Teile Zähler und Nenner durch dieselbe Zahl, bis es nicht mehr geht. Das passiert oft, wenn du mit einem größeren gemeinsamen Nenner als dem kleinsten gerechnet hast, zum Beispiel mit dem Produkt der Nenner.",
+                      "Du hast addiert. Das ist nicht die Umkehrrechnung von Plus. Ein fehlender Summand entsteht durch Subtraktion: x = {z}/{n} − {b}/{d}.",
+                      "Du hast Zähler und Nenner einzeln subtrahiert. Bringe {z}/{n} und {b}/{d} auf einen gemeinsamen Nenner und subtrahiere dann nur die Zähler.",
+                    ],
+                  "inputLabel": "Dein x (Bruch mit Schrägstrich)",
+                  "ownLabel": "So schreibst du das",
+                },
+              "examples":
+                { "accepted": [{ "answer": "1/2", "seed": 1 }], "rejected": [{ "answer": "" }, { "answer": "1/0" }] },
+            },
+            {
+              "type": "true-false",
+              "id": "probe",
+              "text": "Für die Gleichung $x + \\frac{1}{3} = \\frac{5}{6}$ ist $x = \\frac{1}{2}$ die Lösung.",
+              "answer": true,
+              "explanation": "Probe: Du setzt $\\frac{1}{2}$ für x ein. $\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$. Links und rechts steht derselbe Wert, also stimmt die Lösung.",
+            },
+            {
+              "type": "vue-component",
+              "component": "BruchTippen",
+              "id": "faktor",
+              "props":
+                {
+                  "kind": "gleichung-faktor",
+                  "task": "Löse x · {b}/{d} = {z}/{n}. Gib x vollständig gekürzt an, als Bruch, ganze oder gemischte Zahl.",
+                  "mistakes":
+                    [
+                      "Das ist nicht richtig. Der fehlende Faktor ist der Quotient: x = {z}/{n} : {b}/{d}. Setze dein x zur Probe ein.",
+                      "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
+                      "Der Wert stimmt, aber du kannst noch kürzen. Teile Zähler und Nenner durch dieselbe Zahl, bis es nicht mehr geht. Das passiert oft, wenn du mit einem größeren gemeinsamen Nenner als dem kleinsten gerechnet hast, zum Beispiel mit dem Produkt der Nenner.",
+                      "Du hast multipliziert. Das ist nicht die Umkehrrechnung von Mal. Ein fehlender Faktor entsteht durch Division: x = {z}/{n} : {b}/{d}.",
+                      "Du hast Dividend und Divisor vertauscht. Gerechnet hast du {b}/{d} : {z}/{n}. Der Bruch {z}/{n} hinter dem Gleichheitszeichen ist der Dividend.",
+                    ],
+                  "inputLabel": "Dein x (Bruch mit Schrägstrich oder ganze Zahl)",
+                  "ownLabel": "So schreibst du das",
+                },
+              "examples":
+                { "accepted": [{ "answer": "2", "seed": 1 }], "rejected": [{ "answer": "" }, { "answer": "1/0" }] },
             },
           ],
       },

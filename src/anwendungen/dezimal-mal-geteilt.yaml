@@ -138,6 +138,10 @@
                     "message": "Beide Faktoren haben eine Nachkommastelle. Zusammen brauchst du zwei, nicht eine.",
                   },
                   { "value": "(e.a10+e.b10)/10", "message": "Das ist die Addition. Gefragt ist das Produkt." },
+                  {
+                    "value": "e.produkt/1000",
+                    "message": "Du hast das Komma um drei Stellen verschoben. Zwei Faktoren mit je einer Stelle nach dem Komma geben zusammen zwei Stellen.",
+                  },
                 ],
               "hint": "Multipliziere zunächst ohne Komma. Beide Faktoren haben je eine Nachkommastelle.",
               "steps":
@@ -190,6 +194,10 @@
                   {
                     "value": "e.erweiterta/e.erweitertb*e.faktor",
                     "message": "Hier wurde nur die erste Zahl vergrößert. Beide Kommas müssen gleich weit verschoben werden.",
+                  },
+                  {
+                    "value": "e.erweitertb/e.erweiterta",
+                    "message": "Du hast Dividend und Divisor vertauscht. Gefragt ist {{e.azahl}} : {{e.bzahl}}: Vorn steht die Zahl, die geteilt wird, hinten der Divisor.",
                   },
                 ],
               "hint": "Mache die zweite Zahl ganzzahlig. Vergrößere dazu beide Zahlen um denselben Faktor.",

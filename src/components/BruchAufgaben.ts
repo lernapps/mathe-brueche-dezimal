@@ -1,4 +1,5 @@
 import { equal, fill, gcd, parse, reduce, tex } from "./BruchMath.ts";
+import { parseAnswer } from "./BruchTippen.ts";
 export interface Props {
   kind: string;
   task: string;
@@ -17,6 +18,26 @@ export interface Task {
   rn: number;
 }
 export type Answer = string;
+/** Subtraction with unlike denominators: z/n − b/d, never negative. */
+const SUBTRACT = [
+  [3, 4, 1, 2],
+  [5, 6, 1, 3],
+  [2, 3, 1, 4],
+  [3, 4, 1, 6],
+  [5, 6, 1, 4],
+  [7, 10, 1, 2],
+];
+/** Division by a non-unit fraction: z/n : b/d with a whole number of pieces, d a multiple of n for the picture. */
+const DIVIDE2 = [
+  [3, 4, 3, 8],
+  [2, 3, 2, 9],
+  [5, 6, 5, 12],
+  [3, 4, 3, 16],
+  [2, 5, 2, 15],
+  [4, 5, 2, 10],
+];
+/** The kinds whose answer may also be written as a mixed number ("1 1/12"). */
+const MIXED = ["add", "subtract", "multiply", "divide", "divide2"];
 export function generate(seed: number, p: Props): Task {
   const n = [3, 4, 5, 6][(seed - 1) % 4] ?? 4;
   const z = 1 + (Math.floor((seed - 1) / 4) % (n - 1));
@@ -53,13 +74,13 @@ export function generate(seed: number, p: Props): Task {
       t.rz = z;
       t.rn = n;
       break;
-    case "subtract":
-      t.b = 1;
-      t.d = n;
-      t.z = Math.max(2, z);
-      t.rz = t.z - 1;
-      t.rn = n;
+    case "subtract": {
+      const c = SUBTRACT[(seed - 1) % SUBTRACT.length] ?? [3, 4, 1, 2];
+      [t.z, t.n, t.b, t.d] = c as [number, number, number, number];
+      t.rz = t.z * t.d - t.b * t.n;
+      t.rn = t.n * t.d;
       break;
+    }
     case "multiply":
       t.b = 2;
       t.d = 3;
@@ -71,6 +92,12 @@ export function generate(seed: number, p: Props): Task {
       t.d = n * 2;
       t.rz = z * 2;
       break;
+    case "divide2": {
+      const c = DIVIDE2[(seed - 1) % DIVIDE2.length] ?? [3, 4, 3, 8];
+      [t.z, t.n, t.b, t.d] = c as [number, number, number, number];
+      t.rz = (t.z * t.d) / (t.n * t.b);
+      break;
+    }
     default:
       t.rz = z * t.d + t.b * n;
       t.rn = n * t.d;
@@ -80,7 +107,7 @@ export function generate(seed: number, p: Props): Task {
 export function check(t: Task, a: unknown): boolean {
   if (typeof a !== "string") return false;
   if (t.kind === "compare") return a === (t.rz < 0 ? "<" : t.rz > 0 ? ">" : "=");
-  const q = parse(a);
+  const q = MIXED.includes(t.kind) ? parseAnswer(a) : parse(a);
   if (!q) return false;
   if (t.kind === "expand") return q.z === t.rz && q.n === t.rn;
   if (t.kind === "reduce" || t.kind === "ratio") return equal(q, { z: t.rz, n: t.rn }) && gcd(q.z, q.n) === 1;
@@ -104,18 +131,49 @@ export function params(t: Task): Record<string, number> {
 }
 export const template = (p: Props): string => p.task;
 export const show = (answer: unknown): string => (String(answer) === "" ? "Keine Eingabe" : tex(String(answer)));
+/** The two typical slips of add, subtract, multiply and divide, as fractions: messages 2 and 3 of the props. */
+function slips(t: Task): Fraction2[] {
+  const common = (t.n * t.d) / gcd(t.n, t.d);
+  switch (t.kind) {
+    case "add":
+    case "subtract":
+      return [
+        { z: t.kind === "add" ? t.z + t.b : t.z - t.b, n: t.n + t.d },
+        { z: t.kind === "add" ? t.z + t.b : t.z - t.b, n: common },
+      ];
+    case "multiply":
+      return [
+        { z: t.z * t.d + t.b * t.n, n: t.n * t.d },
+        { z: t.z * t.b, n: t.n + t.d },
+      ];
+    case "divide":
+    case "divide2":
+      return [
+        { z: t.z * t.b, n: t.n * t.d },
+        { z: t.b * t.n, n: t.d * t.z },
+      ];
+    default:
+      return [];
+  }
+}
+type Fraction2 = { z: number; n: number };
 export function reason(t: Task, a: unknown, p: Props): string {
   let index = 0;
+  let values: Record<string, string | number> = params(t);
   if (typeof a !== "string" || a.trim() === "") index = 1;
   else if (t.kind !== "compare") {
-    const input = parse(a);
+    const input = MIXED.includes(t.kind) ? parseAnswer(a) : parse(a);
     if (!input) index = 1;
     else if (equal(input, { z: t.rz, n: t.rn })) {
       if ((t.kind === "reduce" || t.kind === "ratio") && gcd(input.z, input.n) > 1) index = 2;
       else if (t.kind === "expand") index = 3;
+    } else {
+      const found = slips(t).findIndex((s) => s.n > 0 && s.z >= 0 && equal(input, s));
+      if (found >= 0) index = 2 + found;
+      values = { ...values, l: (t.n * t.d) / gcd(t.n, t.d), rz: t.rz, rn: t.rn };
     }
   }
-  return fill(p.mistakes[index] ?? p.mistakes[0] ?? "", params(t));
+  return fill(p.mistakes[index] ?? p.mistakes[0] ?? "", values);
 }
 export function describe(t: Task, p: Props): { task: string; solution: string } {
   const q = t.rz >= 0 ? reduce(t.rz, t.rn) : { z: t.rz, n: t.rn };
@@ -130,9 +188,10 @@ export function describe(t: Task, p: Props): { task: string; solution: string } 
     whole: `${t.part} Gegenstände bilden ${t.z} Gruppen. Eine Gruppe hat ${t.part / t.z} Gegenstände. Alle ${t.n} Gruppen haben zusammen ${t.G} Gegenstände.`,
     ratio: `Der Anteil ist Bruchteil geteilt durch Ganzes: ${t.part}/${t.G}. Kürzen ergibt ${result}.`,
     add: `Gemeinsam unterteilen, am besten mit dem kleinsten gemeinsamen Vielfachen ${lcm} der Nenner: ${t.z * (lcm / t.n)}/${lcm} + ${t.b * (lcm / t.d)}/${lcm}. Zähler addieren, Nenner beibehalten und gegebenenfalls kürzen: ${result}.`,
-    subtract: `Die Teile haben denselben Nenner ${t.n}. ${t.z} Teile minus ${t.b} Teil ergibt ${t.rz}/${t.rn}, also ${result}.`,
+    subtract: `Der kleinste gemeinsame Nenner ist das kgV von ${t.n} und ${t.d}, also ${lcm}. ${t.z}/${t.n} = ${t.z * (lcm / t.n)}/${lcm} und ${t.b}/${t.d} = ${t.b * (lcm / t.d)}/${lcm}. Zähler subtrahieren, Nenner beibehalten und gegebenenfalls kürzen: ${result}.`,
     multiply: `${t.b}/${t.d} von ${t.z}/${t.n}: Wähle ${t.b} von ${t.d} Zeilen der ${t.z} ausgewählten Spalten. Das sind ${t.rz} von ${t.rn} Feldern, also ${result}.`,
     divide: `${t.z}/${t.n} sind ${t.z * 2}/${t.d}. Darin passen ${t.z * 2} Stücke der Größe 1/${t.d}.`,
+    divide2: `${t.z}/${t.n} sind ${(t.z * t.d) / t.n}/${t.d}. Darin passen ${t.rz} Stücke der Größe ${t.b}/${t.d}, denn ${t.rz} · ${t.b} = ${(t.z * t.d) / t.n}.`,
   };
   const drawings: Record<string, string> = {
     expand: `Ein ganzer Kreis ist in ${t.n} gleich große Sektoren geteilt; ${t.z} sind markiert. Unterteile jeden Sektor ${t.f}-fach. Das zweite Bild zeigt nur deine eingegebene Bruchschreibweise.`,
@@ -144,6 +203,7 @@ export function describe(t: Task, p: Props): { task: string; solution: string } 
     add: `Zwei gleich lange Streifen zeigen ${t.z}/${t.n} und ${t.b}/${t.d}. Der Regler legt ein gleichmäßiges gestricheltes Raster über beide. Suche eine Unterteilung, die zu allen alten Feldgrenzen passt, und zähle diese gleich großen Stücke zusammen.`,
     subtract: `Zwei gleich lange Streifen zeigen ${t.z}/${t.n} und ${t.b}/${t.d}. Das gestrichelte Raster folgt deiner gewählten Unterteilung. Nimm die Stücke des zweiten Anteils vom ersten weg und bestimme den Rest.`,
     multiply: `Das ganze Rechteck hat ${t.n} Spalten und ${t.d} Zeilen. Blau mit Rautenmuster kennzeichnet ${t.z} Spalten für ${t.z}/${t.n}; Orange mit Punktmuster kennzeichnet ${t.b} Zeilen für ${t.b}/${t.d}. Markiere die Felder, die zu beiden gehören. Darunter stehen die Gesamtzahl der Teilflächen und die Anzahl deiner eigenen Markierungen. Vergleiche beide Anzahlen, um den Ergebnisbruch anzugeben.`,
+    divide2: `Der erste Streifen zeigt die vorhandene Menge ${t.z}/${t.n}, der zweite ein Stück der Größe ${t.b}/${t.d}, das aus ${t.b} Feldern besteht. Mit Plus und Minus legst du solche Stücke in einen Probierstreifen. Eine gestrichelte Grenze zeigt die Länge der vorhandenen Menge. Suche die Stückzahl, die genau bis zu dieser Grenze reicht.`,
     divide: `Der erste Streifen zeigt die vorhandene Menge ${t.z}/${t.n}, der zweite ein Stück der Größe ${t.b}/${t.d}. Mit Plus und Minus legst du Stücke in einen Probierstreifen. Eine gestrichelte Grenze zeigt die Länge der vorhandenen Menge. Suche die Stückzahl, die genau bis zu dieser Grenze reicht.`,
   };
   return {
