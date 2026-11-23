@@ -2,5 +2,6 @@
 {
   "title": "Dezimalzahlen und Anwendungen",
   "summary": "Ein halber Liter lässt sich auch als 0,5 Liter schreiben. Zuerst wechselst du zwischen Bruch und Dezimalzahl. Danach lernst du auf getrennten Seiten Plus und Minus sowie Mal und Geteilt mit Dezimalzahlen. Anschließend rundest du und löst Sachaufgaben mit Brüchen, Mengen und Einheiten.",
-  "pages": ["recap", "dezimaldarstellung", "dezimalrechnen", "dezimal-mal-geteilt", "runden", "sachaufgaben"],
+  "pages":
+    ["recap", "dezimaldarstellung", "prozent", "dezimalrechnen", "dezimal-mal-geteilt", "runden", "sachaufgaben"],
 }
