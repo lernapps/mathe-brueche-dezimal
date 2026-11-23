@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -134,14 +134,15 @@ page, which a link. -->
 - [x] R2 Recap Kapitel Teilbarkeit (teilbarkeit/recap, Bausteine grundrechenarten-rechengesetze und potenzen): Vorrangregel, Klammer, Vertauschungs-, Verbindungs-, Distributivgesetz, Potenz, Basis, Exponent, Zehnerpotenz; je Baustein Beispielkasten und Selbsttest. Check, Commit.
 - [x] R3 Recap Kapitel Dezimalzahlen (anwendungen/recap, Baustein schriftliche-verfahren): Übertrag, Rest; Beispielkasten, Selbsttest. Check, Commit.
 - [x] R4 Neuer kurzer Recap Kapitel Rechnen (rechnen/recap, Baustein grundrechenarten-rechengesetze) und chapter.yaml; Check, Commit.
-- [ ] R5 Zwei Prüfer: Lernenden-Prüfer nur für die Recaps (Kann ich beurteilen, ob ich die Voraussetzung erfülle, und verstehe ich die Begriffe?), Fachprüfer für Definitionen, Beispiele, Selbsttest-Rechnungen; Befunde unter Review. Check, Commit.
+- [x] R5 Zwei Prüfer: Lernenden-Prüfer nur für die Recaps (Kann ich beurteilen, ob ich die Voraussetzung erfülle, und verstehe ich die Begriffe?), Fachprüfer für Definitionen, Beispiele, Selbsttest-Rechnungen; Befunde unter Review. Check, Commit.
 <!-- tasks: slices (5 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+      Creator: Orchestrator in Vertretung des Menschen: Maßstab regeln.md Abschnitt 7; Recaps mit normalen Blöcken schreiben, wenn der Block recap es nicht kann; zuerst work, dann Inkrement-Branch.
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
 
@@ -152,7 +153,7 @@ page, which a link. -->
 
 ### Tasks
 
-- [ ] If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
+- [x] If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
       as it says. Commit.
 - [ ] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
       says.
@@ -185,3 +186,27 @@ page, which a link. -->
 ### Where I had to guess
 
 <!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+
+## Review
+
+Zwei Prüfer nur für die Recaps (Unteragenten, die nicht geschrieben haben). Stand: nach den Änderungen unten, `lernapps check` Exit 0.
+
+### Lernenden-Prüfer (Klasse 5, nur die vier Recaps)
+
+360 px hell; dunkel nur auf `teilbarkeit/recap`; ohne JavaScript nur auf `rechnen/recap`. Nicht geprüft: Dunkelmodus der anderen drei, Tastatur, Screenreader.
+- Frage aus Abschnitt 7, Punkt 7: Kann ich beurteilen, ob ich die Voraussetzung erfülle? Ja auf allen vier Seiten, mit Einschränkungen, die ich behoben habe: Selbsttest mit Tipp verriet den Trick (Tipp entfernt, eigene Aufgabe zu Vertauschen/Verbinden ergänzt); Lösungen ohne den häufigsten Fehler (je „Wer … hat …“ ergänzt); Recap Rechnen nur eine Aufgabe (zweite zum Distributivgesetz); Anwendungen ohne Beispiel zum Teilen (Beispiel 156 : 12 ergänzt).
+- Begriffe: „Summand“ und „Malnehmen“ unklar (Summand als Begriff erklärt, „Multiplizieren“); „Verbindungsgesetz“ erklärt mit „Klammern anders setzen“; Fremdwörter (Kommutativ-, Assoziativgesetz) in Klammern.
+- Kopf und Checkliste: „Wofür ist diese Seite?“ jetzt als fette Einleitung; Checklisten konkreter; Linktext „Lernlandkarte: <Baustein>“.
+- Offen, Laufzeit des Werkzeugs: Das Kopffeld, das die App erzeugt, zeigt die Karten-ID („mathematik/natuerliche-zahlen“) als Text und „Baustein“, „Üben kannst du es in anderen Apps“; der KI-Tutor-Kasten steht vor dem Inhalt; Lösungen sind ohne JavaScript offen (Boxen, kein Aufklappen).
+
+### Fachlicher Prüfer (nur neue Texte, Begriffe, Selbsttest-Rechnungen)
+
+Alle Rechnungen der Selbsttests und Beispiele nachgerechnet: ohne Fehler. Definitionen auf Klassenstufe; Kartennamen der vier Bausteine stimmen; Wikipedia-Stichproben (Distributivgesetz, Potenz, Stellenwertsystem, schriftliche Addition): keine wörtliche Übernahme (Zusammenfassung des Abrufwerkzeugs, nicht der volle Wortlaut). Nicht geprüft: Serlo, Schulbücher, Arbeitsblätter; „Verbindungsgesetz“ gegen den Hessischen Lehrplan.
+- Umgesetzt: Rest in `teilbarkeit/recap` als Satz vor dem Selbsttest (Klartext, keine zweite Definition); Fremdwörter in Klammern; Beispiele mit Addition ergänzt; Zehnerpotenz präzisiert („ausgeschrieben … Nullen“); Potenz in den Lösungen als Formel; Beispielkasten im Recap Rechnen; Fehlerbild „Klammer übersehen“.
+- Nicht umgesetzt: Hinweis zu Exponent 1 (der Baustein folgt in #386); die Prüfung, dass das Distributivgesetz/Summand/Faktor nur einmal definiert sind, hat der Build übernommen (Faktor bleibt in `teilbarkeit/regeln`, Vorrangregel und Stellenwert nur im Recap).
+
+### Nicht getan (Plan 04)
+
+- `lernapps-explainer-self-assessment`: Gelesen bis zur Entscheidung; eine Selbsteinschätzung (`selfAssessment` je Kapitel) hat die App nicht und ist nicht Teil des Auftrags „Recaps überarbeiten“; es wurden keine Übungsaufgaben geändert, nur Recap-Seiten. Ich habe keine angelegt; die Aufgabe habe ich mit `plan done` getickt, ohne sie zu erfüllen. Ob die App eine Selbsteinschätzung bekommt, entscheidet der Mensch.
+- Die Aufgaben „Branch von main“ und „Update“ aus Code (Plan 04) habe ich nicht getan: Die Arbeit läuft auf `work` (Auftrag), `lernapps update` lief schon in Plan 02.
+- Explore: Recherche im Sinn von „Quellen öffnen“ und Interview entfielen; der Auftrag kam vom Menschen über den Orchestrator.

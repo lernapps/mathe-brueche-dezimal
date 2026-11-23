@@ -205,3 +205,9 @@ Zuerst Kompetenz, Quelle und Methode hier ergänzen, dann `src/<kapitel>/chapter
 - Dezimalrechnen ist in zwei Lernseiten geteilt: `dezimalrechnen` für Addition/Subtraktion, `dezimal-mal-geteilt` für Multiplikation/Division. Jede Rechenart hat eine eigene Herleitung, einen getrennten Beispielkasten mit Rechenschritten und eine variierte Übung mit sechs Datensätzen. Stellenwerttausch, Zehntelrechteck und gleichmäßige Skalierung der Division werden getrennt begründet. Daten in dezimalpaare/dezimalprodukte/dezimalquotienten. 21 Lernseiten, Kapitel Anwendungen nun fünf Seiten; der alte Plus/Minus-Pfad und die Übungs-ID aufgaben bleiben erhalten.
 
 - Die abgenommene erste Fassung enthält keinen zusätzlichen Kapitel-Einstufungstest. Auf Wunsch des Nutzers ist der fertig durchgesehene Funktionsumfang für die Veröffentlichung abgeschlossen; die vorhandenen Übungen bleiben unmittelbar auf den Lernseiten.
+
+## Recap-Seiten (nach regeln.md Abschnitt 7)
+
+- Vier Recap-Seiten (`anteile/recap`, `teilbarkeit/recap`, `anwendungen/recap`, `rechnen/recap`), je Voraussetzung von außen ein Abschnitt in der Wortwahl der Karte: fette Fachbegriffe als `definition` (ein Begriff einmal im ganzen Explainer, sie stehen im Glossar), ein Beispielkasten, „Kannst du das?“ mit ein bis zwei Aufgaben und Lösungskasten (mit dem häufigsten Fehler), Kartenlink, Schluss „Du bist bereit, wenn du …“.
+- Der Seitentyp `recap` erlaubt keine Aufgabenblöcke (Build: „descriptive blocks only“): der Selbsttest ist Aufgabe plus Lösungskasten ohne sofortige Rückmeldung. Das vom Werkzeug erzeugte Kopffeld zeigt die Karten-ID als Text.
+- Begriffe nur dort als `definition`: Ziffer, Stellenwert (`anteile/recap`); Summand, Vorrangregel, Vertauschungs-, Verbindungs-, Distributivgesetz, Potenz, Basis, Exponent, Zehnerpotenz (`teilbarkeit/recap`); Übertrag, Rest (`anwendungen/recap`). `rechnen/recap` erinnert nur kurz und verweist auf den Recap im Kapitel Teilbarkeit.

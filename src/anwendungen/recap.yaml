@@ -8,7 +8,7 @@
     [
       {
         "type": "text",
-        "text": "Mit Dezimalzahlen rechnest du Stelle für Stelle wie mit natürlichen Zahlen. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben zum Selbsttest. Lies die Rückmeldung: So merkst du, ob du bereit bist.",
+        "text": "**Wofür ist diese Seite?** Mit Dezimalzahlen rechnest du Stelle für Stelle wie mit natürlichen Zahlen, nur mit einem Komma. Darum brauchst du die schriftlichen Verfahren sicher. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben zum Selbsttest. Lies die Lösungen: So merkst du, ob du bereit bist.",
       },
       {
         "type": "section",
@@ -38,7 +38,7 @@
                   { "type": "formula", "formula": "348 + 275 = 623" },
                   {
                     "type": "text",
-                    "text": "Subtrahieren, Multiplizieren und Teilen gehen ebenfalls Stelle für Stelle.",
+                    "text": "**Schriftlich teilen: 156 : 12.** 12 passt 1-mal in 15, das sind 12 und es bleibt Rest 3. Du holst die 6 herunter: 36. 12 passt 3-mal in 36. Das Ergebnis ist 13. Subtrahieren und Multiplizieren gehen ebenfalls Stelle für Stelle.",
                   },
                 ],
             },
@@ -54,7 +54,7 @@
                 [
                   {
                     "type": "text",
-                    "text": "**Ergebnis: 623.** Einer: 8 + 5 = 13 (3, Übertrag 1). Zehner: 4 + 7 + 1 = 12 (2, Übertrag 1). Hunderter: 3 + 2 + 1 = 6. Ergebnis 623.",
+                    "text": "**Ergebnis: 623.** Einer: 8 + 5 = 13 (3, Übertrag 1). Zehner: 4 + 7 + 1 = 12 (2, Übertrag 1). Hunderter: 3 + 2 + 1 = 6. Ergebnis 623. Wer 513 hat, hat die Überträge vergessen.",
                   },
                 ],
             },
@@ -66,13 +66,13 @@
                 [
                   {
                     "type": "text",
-                    "text": "**Ergebnis: 13.** 12 passt 1-mal in 15 (Rest 3), dann 12 in 36: 3-mal. Ergebnis 13. Probe: 13 · 12 = 156.",
+                    "text": "**Ergebnis: 13.** 12 passt 1-mal in 15 (Rest 3), dann holst du die 6 herunter: 12 passt 3-mal in 36. Ergebnis 13. Probe: 13 · 12 = 156. Wer 1 hat, hat die 6 nicht heruntergeholt.",
                   },
                 ],
             },
             {
               "type": "text",
-              "text": "Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Schriftliche Rechenverfahren“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/schriftliche-verfahren/). Übe danach die Kurzaufgaben noch einmal.",
+              "text": "Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Schriftliche Rechenverfahren“ auf der Lernlandkarte ([Lernlandkarte: Schriftliche Rechenverfahren](https://lernapps.net/apps/map/mathematik/c/schriftliche-verfahren/)) und rechne die Aufgaben danach noch einmal.",
             },
           ],
       },
@@ -84,7 +84,7 @@
           [
             {
               "type": "text",
-              "text": "- natürliche Zahlen schriftlich addieren, subtrahieren, multiplizieren und dividieren kannst\n- den Übertrag und den Rest beim Rechnen richtig behandelst",
+              "text": "- zwei Zahlen wie 348 und 275 schriftlich addieren kannst und dir den Übertrag merkst\n- schriftlich subtrahieren, multiplizieren und dividieren kannst\n- bei einer Division den Rest angeben kannst",
             },
           ],
       },

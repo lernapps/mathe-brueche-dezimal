@@ -8,7 +8,7 @@
     [
       {
         "type": "text",
-        "text": "Für Teiler und Primfaktoren rechnest du viel mit Malaufgaben und mit Potenzen. Unten stehen die Begriffe, die du dafür brauchst, je ein Beispiel und Kurzaufgaben zum Selbsttest. Lies die Rückmeldung: So merkst du, ob du bereit bist.",
+        "text": "**Wofür ist diese Seite?** Für Teiler und Primfaktoren rechnest du viel mit Malaufgaben und mit Potenzen. Du solltest außerdem das Teilen mit Rest kennen, zum Beispiel $17 : 5 = 3$ Rest 2. Unten stehen die Begriffe, die du dafür brauchst, je ein Beispiel und Kurzaufgaben zum Selbsttest. Lies die Lösungen: So merkst du, ob du bereit bist.",
       },
       {
         "type": "section",
@@ -23,25 +23,31 @@
             },
             {
               "type": "definition",
+              "term": "Summand",
+              "explanation": "Ein **Summand** ist eine Zahl, die addiert wird. In $7 + 3$ sind 7 und 3 die Summanden.",
+            },
+            {
+              "type": "definition",
               "term": "Vertauschungsgesetz",
-              "explanation": "Das **Vertauschungsgesetz** erlaubt beim Addieren und Malnehmen, die Zahlen zu tauschen: $7 \\cdot 4 = 4 \\cdot 7 = 28$.",
+              "explanation": "Das **Vertauschungsgesetz** (Kommutativgesetz) erlaubt beim Addieren und beim Multiplizieren, die Zahlen zu tauschen: $3 + 5 = 5 + 3$ und $7 \\cdot 4 = 4 \\cdot 7 = 28$.",
             },
             {
               "type": "definition",
               "term": "Verbindungsgesetz",
-              "explanation": "Das **Verbindungsgesetz** erlaubt beim Addieren und Malnehmen, anders zusammenzufassen: $(25 \\cdot 4) \\cdot 7 = 25 \\cdot (4 \\cdot 7) = 700$.",
+              "explanation": "Das **Verbindungsgesetz** (Assoziativgesetz) erlaubt beim Addieren und beim Multiplizieren, die Klammern anders zu setzen: $(8 + 5) + 5 = 8 + (5 + 5) = 18$ und $(25 \\cdot 4) \\cdot 7 = 25 \\cdot (4 \\cdot 7) = 700$.",
             },
             {
               "type": "definition",
               "term": "Distributivgesetz",
-              "explanation": "Das **Distributivgesetz** (Verteilungsgesetz) sagt: Eine Zahl, die mit einer Summe malgenommen wird, darfst du auf jeden Summanden verteilen: $6 \\cdot (7 + 3) = 6 \\cdot 7 + 6 \\cdot 3 = 60$.",
+              "explanation": "Das **Distributivgesetz** (Verteilungsgesetz) sagt: Eine Zahl, die mit einer Summe multipliziert wird, darfst du auf jeden Summanden verteilen: $6 \\cdot (7 + 3) = 6 \\cdot 7 + 6 \\cdot 3 = 60$.",
             },
             {
               "type": "example",
               "title": "Vorteilhaft rechnen",
               "blocks":
                 [
-                  { "type": "formula", "formula": "6 \\cdot 17 + 6 \\cdot 3 = 6 \\cdot (17 + 3) = 6 \\cdot 20 = 120" },
+                  { "type": "formula", "formula": "6 \\cdot 17 + 6 \\cdot 3 = 6 \\cdot (17 + 3)" },
+                  { "type": "formula", "formula": "= 6 \\cdot 20 = 120" },
                   {
                     "type": "text",
                     "text": "Die 6 steht in beiden Produkten. Du ziehst sie vor die Klammer und rechnest zuerst die Summe 17 + 3 = 20: Das geht schneller als beide Produkte einzeln.",
@@ -66,7 +72,7 @@
             },
             {
               "type": "text",
-              "text": "**Aufgabe 2:** Was ergibt $6 \\cdot 17 + 6 \\cdot 3$? Tipp: Ziehe die 6 vor die Klammer.",
+              "text": "**Aufgabe 2:** Was ergibt $6 \\cdot 17 + 6 \\cdot 3$? Es gibt einen schnellen Weg.",
             },
             {
               "type": "note",
@@ -75,13 +81,25 @@
                 [
                   {
                     "type": "text",
-                    "text": "**Ergebnis: 120.** 6 · (17 + 3) = 6 · 20 = 120. Einzeln gerechnet: 102 + 18 = 120.",
+                    "text": "**Ergebnis: 120.** Die 6 steht in beiden Produkten: 6 · (17 + 3) = 6 · 20 = 120. Einzeln gerechnet kommst du auch auf 102 + 18 = 120, nur langsamer. Wer 105 hat, hat nur eine 6 verteilt: 6 · 17 + 3.",
+                  },
+                ],
+            },
+            { "type": "text", "text": "**Aufgabe 3:** Was ergibt $25 \\cdot 7 \\cdot 4$? Rechne vorteilhaft." },
+            {
+              "type": "note",
+              "title": "Lösung 3",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "**Ergebnis: 700.** Tausche die Faktoren: Erst 25 · 4 = 100, dann 100 · 7 = 700. Von links nach rechts geht es auch: 175 · 4 = 700. Wer 100 oder 70 hat, hat einen Faktor vergessen.",
                   },
                 ],
             },
             {
               "type": "text",
-              "text": "Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Vorrangregeln und Rechengesetze“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/). Übe danach die Kurzaufgaben noch einmal.",
+              "text": "Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.",
             },
           ],
       },
@@ -109,7 +127,7 @@
             {
               "type": "definition",
               "term": "Zehnerpotenz",
-              "explanation": "Eine **Zehnerpotenz** hat die Basis 10. Sie hat so viele Nullen wie der Exponent: $10^3 = 10 \\cdot 10 \\cdot 10 = 1000$.",
+              "explanation": "Eine **Zehnerpotenz** hat die Basis 10. Ausgeschrieben hat sie so viele Nullen, wie der Exponent angibt: $10^3 = 10 \\cdot 10 \\cdot 10 = 1000$ hat drei Nullen.",
             },
             {
               "type": "example",
@@ -128,28 +146,28 @@
               "type": "text",
               "text": "**Kannst du das?** Rechne im Kopf oder auf Papier. Unter jeder Aufgabe steht die Lösung mit dem häufigsten Fehler.",
             },
-            { "type": "text", "text": "**Aufgabe 3:** Was ist $3^2$?" },
+            { "type": "text", "text": "**Aufgabe 4:** Was ist $3^2$?" },
             {
               "type": "note",
-              "title": "Lösung 3",
+              "title": "Lösung 4",
               "blocks":
                 [
                   {
                     "type": "text",
-                    "text": "**Ergebnis: 9.** 3² = 3 · 3 = 9. Wer 6 hat, hat 3 · 2 gerechnet: Der Exponent zählt die Faktoren.",
+                    "text": "**Ergebnis: 9.** $3^2 = 3 \\cdot 3 = 9$. Wer 6 hat, hat 3 · 2 gerechnet: Der Exponent zählt die Faktoren.",
                   },
                 ],
             },
-            { "type": "text", "text": "**Aufgabe 4:** Was ist $2^4$?" },
+            { "type": "text", "text": "**Aufgabe 5:** Was ist $2^4$?" },
             {
               "type": "note",
-              "title": "Lösung 4",
+              "title": "Lösung 5",
               "blocks":
                 [{ "type": "text", "text": "**Ergebnis: 16.** 2 · 2 · 2 · 2 = 16. Wer 8 hat, hat 2 · 4 gerechnet." }],
             },
             {
               "type": "text",
-              "text": "Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Potenzen und Zehnerpotenzen“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/potenzen/). Übe danach die Kurzaufgaben noch einmal.",
+              "text": "Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Potenzen und Zehnerpotenzen“ auf der Lernlandkarte ([Lernlandkarte: Potenzen und Zehnerpotenzen](https://lernapps.net/apps/map/mathematik/c/potenzen/)) und rechne die Aufgaben danach noch einmal.",
             },
           ],
       },
@@ -161,7 +179,7 @@
           [
             {
               "type": "text",
-              "text": "- Klammern und Vorrangregeln beachten und Rechengesetze für vorteilhaftes Rechnen nutzen kannst\n- Potenzen mit natürlichen Exponenten berechnen kannst\n- Basis und Exponent unterscheiden kannst",
+              "text": "- bei einer Rechnung mit Klammern, Punkt- und Strichrechnung die richtige Reihenfolge nennen kannst\n- mit Vertauschungs-, Verbindungs- und Distributivgesetz vorteilhaft rechnen kannst\n- eine Potenz wie $2^4$ als Produkt schreiben und ausrechnen kannst\n- Basis und Exponent unterscheiden kannst",
             },
           ],
       },

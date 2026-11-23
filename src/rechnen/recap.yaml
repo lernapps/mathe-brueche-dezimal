@@ -8,7 +8,7 @@
     [
       {
         "type": "text",
-        "text": "Auf der Seite „Rechenregeln und Klammern“ rechnest du Brüche in mehreren Schritten. Dafür brauchst du dieselben Regeln wie bei natürlichen Zahlen. Hier ist die Kurzfassung mit einem Selbsttest.",
+        "text": "**Wofür ist diese Seite?** Auf der Seite „Rechenregeln und Klammern“ rechnest du Brüche in mehreren Schritten. Dafür brauchst du dieselben Regeln wie bei natürlichen Zahlen. Hier ist die Kurzfassung mit zwei Aufgaben zum Selbsttest.",
       },
       {
         "type": "section",
@@ -17,8 +17,15 @@
         "blocks":
           [
             {
-              "type": "text",
-              "text": "**Klammern** gehen zuerst, dann kommt die **Punktrechnung** vor der **Strichrechnung**. Das **Distributivgesetz** verteilt eine Zahl auf die Summanden einer Klammer: $4 \\cdot (2 + 3) = 4 \\cdot 2 + 4 \\cdot 3 = 20$.",
+              "type": "example",
+              "title": "Kurz erinnert",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "**Klammern** gehen zuerst. Dann kommt die **Punktrechnung** (Multiplikation und Division, · und :) vor der **Strichrechnung** (Addition und Subtraktion, + und −). Das **Distributivgesetz** verteilt eine Zahl auf die **Summanden** in einer Klammer, das sind die Zahlen, die addiert werden: $4 \\cdot (2 + 3) = 4 \\cdot 2 + 4 \\cdot 3 = 20$. Alle Begriffe stehen mit Erklärung auf der Seite „Das brauchst du für dieses Kapitel“ im Kapitel „Teilbarkeit nutzen“.",
+                  },
+                ],
             },
             {
               "type": "text",
@@ -32,13 +39,28 @@
                 [
                   {
                     "type": "text",
-                    "text": "**Ergebnis: 20.** Die Klammer geht zuerst: 2 + 3 = 5, dann 5 · 4 = 20. Wer 14 hat, hat zuerst malgenommen: 2 + 3 · 4.",
+                    "text": "**Ergebnis: 20.** Die Klammer geht zuerst: 2 + 3 = 5, dann 5 · 4 = 20. Wer 14 hat, hat die Klammer übersehen: 2 + 3 · 4 = 14.",
                   },
                 ],
             },
             {
               "type": "text",
-              "text": "Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Vorrangregeln und Rechengesetze“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/). Übe danach die Kurzaufgaben noch einmal.",
+              "text": "**Aufgabe 2:** Was ergibt $5 \\cdot (3 + 4)$, wenn du die 5 auf beide Summanden verteilst?",
+            },
+            {
+              "type": "note",
+              "title": "Lösung 2",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "**Ergebnis: 35.** 5 · 3 + 5 · 4 = 15 + 20 = 35. Wer 19 hat, hat nur eine Zahl in der Klammer mit 5 multipliziert: 5 · 3 + 4.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.",
             },
           ],
       },
@@ -50,7 +72,7 @@
           [
             {
               "type": "text",
-              "text": "- Klammern und Vorrangregeln beachten kannst\n- das Distributivgesetz anwenden kannst",
+              "text": "- bei einer Rechnung mit Klammern die richtige Reihenfolge nennen kannst\n- mit dem Distributivgesetz eine Zahl auf die Summanden verteilen kannst",
             },
           ],
       },

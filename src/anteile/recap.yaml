@@ -8,7 +8,7 @@
     [
       {
         "type": "text",
-        "text": "Dieses Kapitel beginnt mit Brüchen. Dafür musst du natürliche Zahlen sicher lesen und schreiben. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben. Rechne sie und lies die Rückmeldung: So merkst du, ob du bereit bist.",
+        "text": "**Wofür ist diese Seite?** Dieses Kapitel beginnt mit Brüchen. Ein Bruch teilt ein Ganzes in gleich große Teile, und die Teile zählst du mit natürlichen Zahlen. Darum musst du natürliche Zahlen sicher lesen und schreiben. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben. Rechne sie und lies die Lösungen: So merkst du, ob du bereit bist.",
       },
       {
         "type": "section",
@@ -31,10 +31,11 @@
               "title": "Eine Zahl auseinanderlegen",
               "blocks":
                 [
-                  { "type": "formula", "formula": "4305 = 4 \\cdot 1000 + 3 \\cdot 100 + 0 \\cdot 10 + 5 \\cdot 1" },
+                  { "type": "formula", "formula": "4305 = 4 \\cdot 1000 + 3 \\cdot 100" },
+                  { "type": "formula", "formula": "+ 0 \\cdot 10 + 5 \\cdot 1" },
                   {
                     "type": "text",
-                    "text": "Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz frei, damit die anderen Ziffern ihren Stellenwert behalten.",
+                    "text": "Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz frei, damit die anderen Ziffern ihren Stellenwert behalten. Die Hunderterstelle ist die dritte Stelle von rechts.",
                   },
                 ],
             },
@@ -62,13 +63,13 @@
                 [
                   {
                     "type": "text",
-                    "text": "**Ergebnis: 6029.** 6 · 1000 + 2 · 10 + 9 = 6029. An der Hunderterstelle steht eine 0, weil es keine Hunderter gibt.",
+                    "text": "**Ergebnis: 6029.** 6 · 1000 + 2 · 10 + 9 = 6029. An der Hunderterstelle steht eine 0, weil es keine Hunderter gibt. Wer 629 hat, hat diese 0 vergessen.",
                   },
                 ],
             },
             {
               "type": "text",
-              "text": "Wenn du hier unsicher bist: Lies auf der Lernlandkarte den Baustein „Natürliche Zahlen im Stellenwertsystem“: [Kartenseite](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/). Übe danach die Kurzaufgaben noch einmal.",
+              "text": "Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Natürliche Zahlen im Stellenwertsystem“ auf der Lernlandkarte ([Lernlandkarte: Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/)) und rechne die Aufgaben danach noch einmal.",
             },
           ],
       },
@@ -80,7 +81,7 @@
           [
             {
               "type": "text",
-              "text": "- natürliche Zahlen im Stellenwertsystem lesen, schreiben und darstellen kannst\n- den Stellenwert einer Ziffer nennen kannst",
+              "text": "- eine Zahl wie 4305 in Tausender, Hunderter, Zehner und Einer zerlegen kannst\n- den Stellenwert einer Ziffer nennen kannst\n- eine Zahl aus ihren Tausendern, Hundertern, Zehnern und Einern aufschreiben kannst",
             },
           ],
       },
