@@ -23,7 +23,7 @@
             },
             {
               "type": "text",
-              "text": "Jede Ziffer hat einen festen Platz, ihren **Stellenwert**. Die Stellenwerttafel zeigt die Plätze. Links vom Komma steht E für Einer. Rechts vom Komma stehen z für Zehntel, h für Hundertstel und t für Tausendstel. Die Ziffern rechts vom Komma heißen Stellen nach dem Komma.",
+              "text": "Jede Ziffer hat einen festen Platz, ihren **Stellenwert**. Die Stellenwerttafel zeigt die Plätze. Links vom Komma steht E für Einer. Rechts vom Komma stehen z für Zehntel, h für Hundertstel und t für Tausendstel. Pass auf: Die kleinen Buchstaben z, h und t sind nicht die großen Z, H und T der ganzen Zahlen (Zehner, Hunderter, Tausender). Zehntel stehen rechts vom Komma, Zehner links davon. Die Ziffern rechts vom Komma heißen Stellen nach dem Komma.",
             },
             {
               "type": "table",

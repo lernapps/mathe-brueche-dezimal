@@ -57,7 +57,7 @@
           [
             {
               "type": "text",
-              "text": "So findest du alle Teiler einer Zahl: Suche alle Malaufgaben mit dem Ergebnis dieser Zahl. Jede Malaufgabe liefert zwei Teiler. Nur bei einer Aufgabe wie 4 · 4 ist es ein Teiler. Du musst nur bis zu dem Faktor suchen, bei dem sich die Paare wiederholen.",
+              "text": "So findest du alle Teiler einer Zahl: Suche alle Malaufgaben mit dem Ergebnis dieser Zahl. Jede Malaufgabe liefert zwei Teiler. Nur bei einer Aufgabe wie 4 · 4 ergibt sich bloß ein Teiler. Du musst nur bis zu dem Faktor suchen, bei dem sich die Paare wiederholen.",
             },
             {
               "type": "table",
@@ -195,7 +195,7 @@
             {
               "type": "matching",
               "id": "regeln-zuordnen",
-              "text": "Ordne jeder Regel die Zahl zu, für die sie gilt.",
+              "text": "Ordne jeder Regel zu, wofür sie gilt.",
               "pairs":
                 [
                   { "left": "Die letzte Ziffer ist 0 oder 5", "right": "durch 5 teilbar" },
@@ -203,7 +203,6 @@
                   { "left": "Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl", "right": "durch 4 teilbar" },
                   { "left": "Die Zahl endet auf 00", "right": "durch 100 teilbar" },
                 ],
-              "distractors": ["durch 8 teilbar"],
               "explanation": "Die Endziffer entscheidet bei 2, 5 und 10, die letzten zwei Ziffern bei 4, 25 und 100 und die Quersumme bei 3 und 9. Für 8 gibt es hier keine Regel.",
             },
             {

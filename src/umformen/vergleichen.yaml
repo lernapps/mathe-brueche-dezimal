@@ -38,7 +38,7 @@
                   "task": "Vergleiche {z}/{n} und {b}/{d}. Wähle das passende Zeichen.",
                   "mistakes":
                     [
-                      "Vergleiche noch einmal: Bringe beide Brüche auf denselben Nenner und vergleiche dann die Zähler.",
+                      "Vergleiche noch einmal: Haben beide Brüche denselben Nenner, vergleichst du die Zähler. Sonst bringst du sie zuerst auf denselben Nenner.",
                       "Wähle eines der Zeichen <, > oder =.",
                       "Der Wert stimmt, aber Zähler und Nenner haben noch einen gemeinsamen Teiler größer als 1. Kürze noch weiter.",
                       "Der Wert stimmt. Verwende aber den in der Aufgabe verlangten Erweiterungsfaktor für Zähler und Nenner.",

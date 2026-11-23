@@ -185,7 +185,7 @@
               "hint": "Ordne gleiche Stellen untereinander. Tausche bei Bedarf ein größeres Teil in zehn kleinere.",
               "steps":
                 [
-                  "Die Beträge entsprechen {{e.a100}} und {{e.b100}} Hundertsteln.",
+                  "Als Hundertstel sind das {{e.a100}} und {{e.b100}}.",
                   "Nach dem Wegnehmen bleiben {{e.differenz100}} Hundertstel: {{answer}}. Prüfe, indem du {{e.bzahl}} wieder addierst.",
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },

@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -145,14 +145,15 @@ Lernende erkennen Prozent als Hundertstel und wechseln zwischen Bruch, Dezimalza
 - [x] P3 Teilbarkeit und Primfaktoren: Aufgaben zu den Teilbarkeitsregeln, Faktorbaum mit Potenzschreibweise, ggT und kgV aus Primfaktoren, nichttriviale Aufgaben. Unteragent möglich (Dateien teilbarkeit/*). Check, Commit.
 - [x] P4 Rechnen vertiefen: ungleichnamige Subtraktion, gemischte Zahlen, Division durch natürliche Zahlen, Runden variieren, Sachaufgaben mit Dezimalzahlen. Unteragent möglich (Dateien rechnen/*, anwendungen/runden, sachaufgaben). Check, Commit.
 - [x] P5 Rückmeldungen nach Fehlertyp statt allgemeiner Hinweise und abwechslungsreichere Aufgabenarten auf den überarbeiteten Seiten. Nach P2 bis P4, du allein. Check, Commit.
-- [ ] P6 Zwei Prüfer: Lernenden-Prüfer (auch Dunkelmodus und Tastatur der übrigen Seiten, Spaltenköpfe z, h, t gegen E, Z, H, T) und Fachprüfer (alles Neue nachrechnen, Schreibweisen, Übernahmen); Befunde unter Review im Plan. Check, Commit.
+- [x] P6 Zwei Prüfer: Lernenden-Prüfer (auch Dunkelmodus und Tastatur der übrigen Seiten, Spaltenköpfe z, h, t gegen E, Z, H, T) und Fachprüfer (alles Neue nachrechnen, Schreibweisen, Übernahmen); Befunde unter Review im Plan. Check, Commit.
 <!-- tasks: slices (6 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+      Creator: Orchestrator in Vertretung des Menschen: Musterseite anwendungen/prozent angenommen, P2 bis P5 dürfen folgen.
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
 
@@ -195,3 +196,23 @@ Lernende erkennen Prozent als Hundertstel und wechseln zwischen Bruch, Dezimalza
 ### Where I had to guess
 
 <!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+
+## Review
+
+Zwei Prüfer für das Neue, die nicht geschrieben haben (Unteragenten); die Prozent-Seite hatte vorher einen eigenen Lernenden-Prüfer (Klasse 6). Stand: Commit nach 5d7d1f1, `lernapps check` Exit 0.
+
+### Lernenden-Prüfer (Klasse 5 bis 6)
+
+21 Seiten bei 360 px hell; Dunkelmodus auf 10 Seiten (Kontrastscan, Bilder von etwa 6); Tastatur auf `dezimaldarstellung`, `primfaktoren`, `plus-minus`; ohne JavaScript auf drei Seiten. Nicht geprüft: Dunkelmodus der übrigen 11 Seiten, Screenreader, Tastatur der übrigen Seiten.
+- Umgesetzt: Hinweis auf `dezimaldarstellung`, dass die kleinen z, h, t (Zehntel, Hundertstel, Tausendstel) nicht die großen Z, H, T der ganzen Zahlen sind; Fokus nach „Bündeln“ bleibt auf der Seite (Ergebnis), Meldung „nichts mehr zu bündeln“; ggT und kgV beim ersten Auftreten ausgeschrieben; Zuordnung der Teilbarkeitsregeln mit passender Aufgabe und ohne unpassende Antwort; Satz zu den Teilern; Rückmeldungen auf `dezimalrechnen`, `dezimal-mal-geteilt` und `vergleichen` klarer; widersprüchlicher Hinweis zu gemischten Zahlen auf den Grundaufgaben entfernt.
+- Offen, Laufzeit des Werkzeugs: Rückmeldungen der Komponenten sind Klartext, Brüche stehen dort als „a/b“ (plus-minus etwa 30, multiplizieren 6, dividieren 38, terme 9, gleichungen 13 Stellen); „Prüfen“ der Komponenten ist ohne Eingabe grau ohne Hinweis; „Antworte zuerst: Wähle, tippe oder ordne alles zu“ auch bei Tippaufgaben; zufällige Aufgabennummer („Nr. 58“); Fokus nach Auswahl im Faktorwerkzeug.
+- Offen, Inhalt: Viele Tippaufgaben (`generated`) zeigen für untypische Fehler „Lies dazu noch einmal den Text“ (z. B. regeln, periode, Sachaufgaben); Hinweise wie „Distributivgesetz“, „Platzhalter“, „Summand“, „relative Häufigkeit“, „Abschneiden“, „unechter Bruch“ vor oder ohne Einführung; kgV/ggT in einer Zuordnung vor der Erklärung; Tabelle „Exponenten“ in Dunkelmodus am Rand abgeschnitten; Plättchen und gestrichelte Linien im ggT-Werkzeug klein und im Dunkelmodus blass; Faktorbaum auf grüner Fläche im Dunkelmodus; Textmenge über dem Richtwert auf mehreren Seiten (periode, primfaktoren, regeln, teiler-vielfache, sachaufgaben).
+
+### Fachlicher Prüfer
+
+Alle neuen Daten, alle 40 `generated`-Aufgaben über die ganze Datenmenge, Komponentenlogik (Seeds 1 bis 400), Texte und Bilder, Schreibweisen, acht Web-Stichproben auf Übernahmen.
+- Rechenwerte, Daten, Bilder: ohne Befund.
+- Umgesetzt: F1 (Hinweis „Nullen“), F2 (falscher Satz zu 3/8), F4 (Alltagsgrößen), F5 (Stellenwert-Köpfe in den Rechentabellen), F6 (geschützte Leerzeichen bei Minuten und nach Formeln), F7 (x kursiv), F8 (sechs Rückmeldesätze), F11 (Kapitelzusammenfassungen).
+- Nicht geändert: Titel behalten ein gewöhnliches Leerzeichen (No-JS-Test); Kommaspalte fehlt in den Rechentabellen (fünf Spalten passen bei 360 px nicht, die Zahl steht mit Komma in der ersten Spalte); Preise erscheinen als „1,6 €“ (Platzhalter ohne zweite Nachkommastelle); F9 (doppelte Fehlerwerte, harmlos); F10 (`solution()` zeigt „2/1“ und ungekürzte Brüche; wo sie angezeigt wird, nicht geprüft).
+- Originalität: acht Stichproben ohne Wortlaut-Treffer; kurze Regelformeln zur Teilbarkeit liegen nah an Wikipedia (Sachformeln, unvermeidbar; „letzte Ziffer gerade“ umformuliert). Nicht geprüft: unterrichten.zum.de, Schulbücher, Arbeitsblätter, Aufgaben außerhalb der acht Stichproben.
+- Abdeckung: alle zehn Bausteine mit mindestens drei Aufgaben mit steigender Schwierigkeit; Prozent-Grundbegriffe jetzt mit einer Seite und sechs Aufgaben.

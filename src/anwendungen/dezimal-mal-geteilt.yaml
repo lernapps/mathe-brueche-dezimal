@@ -147,7 +147,7 @@
               "steps":
                 [
                   "Ohne Komma rechnest du {{e.a10}} · {{e.b10}} = {{e.produkt}}.",
-                  "Die beiden Faktoren stehen jeweils für Zehntel. Das Ergebnis zählt daher Hundertstel: {{answer}}. Endnullen nach dem Komma dürfen entfallen.",
+                  "Zehntel mal Zehntel ergibt Hundertstel. Das Ergebnis ist also {{answer}}. Endnullen nach dem Komma dürfen entfallen.",
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
             },

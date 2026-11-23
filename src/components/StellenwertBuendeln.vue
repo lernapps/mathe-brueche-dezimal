@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineOptions({ nojs: "caption" });
-import { computed, ref } from "vue";
+import { computed, nextTick, ref } from "vue";
 import { LEFT, bundle, canBundle, clamp, format, thousandths } from "./StellenwertBuendeln.ts";
 import type { Spalte } from "./StellenwertBuendeln.ts";
 const props = defineProps<{
@@ -19,6 +19,7 @@ const props = defineProps<{
   numberText: string;
 }>();
 const start = computed(() => clamp({ e: props.e, z: props.z, h: props.h, t: props.t }));
+const bundleCols: Spalte[] = ["z", "h", "t"];
 const state = ref({ ...start.value });
 const total = computed(() => format(thousandths(state.value)));
 const names = computed<Record<"e" | Spalte, string>>(() => ({
@@ -30,14 +31,17 @@ const names = computed<Record<"e" | Spalte, string>>(() => ({
 const abbr = (key: "e" | Spalte) => names.value[key].split(" ")[0] ?? "";
 const rest = (key: "e" | Spalte) => names.value[key].split(" ").slice(1).join(" ");
 const buttonText = (col: Spalte) => `${props.bundleText}: 10 ${abbr(col)} ${props.becomesText} 1 ${abbr(LEFT[col])}`;
+const numberEl = ref<HTMLElement | null>(null);
+const nothingLeft = computed(() => !bundleCols.some((col) => canBundle(state.value, col)));
 const doBundle = (col: Spalte) => {
   state.value = bundle(state.value, col);
+  // the pressed button may be disabled now: keep the keyboard focus on the page, at the result
+  void nextTick(() => numberEl.value?.focus());
 };
 const reset = () => {
   state.value = { ...start.value };
 };
 const places: ("e" | Spalte)[] = ["e", "z", "h", "t"];
-const bundleCols: Spalte[] = ["z", "h", "t"];
 </script>
 <template>
   <div class="board">
@@ -72,7 +76,10 @@ const bundleCols: Spalte[] = ["z", "h", "t"];
       </button>
       <button type="button" class="reset" @click="reset">{{ resetText }}</button>
     </div>
-    <p class="number" aria-live="polite">
+    <p v-if="nothingLeft" class="done" aria-live="polite">
+      Hier lässt sich nichts mehr bündeln. Mit „Neu anfangen“ legst du die Plättchen zurück.
+    </p>
+    <p ref="numberEl" class="number" tabindex="-1" aria-live="polite">
       {{ numberText }} <strong>{{ total }}</strong>
     </p>
   </div>
