@@ -106,9 +106,20 @@ import RichText from "./RichText.vue";
       </template>
       <template v-else-if="kind === 'divide'"
         ><div class="pieces">
-          <button type="button" :aria-label="`${pieceLabel} −`" @click="pieces = Math.max(0, pieces - 1)">−</button
+          <button
+            type="button"
+            :aria-label="`${pieceLabel} −`"
+            :disabled="pieces <= 0"
+            @click="pieces = Math.max(0, pieces - 1)"
+          >
+            −</button
           ><span>{{ pieceLabel }}: {{ pieces }}</span
-          ><button type="button" :aria-label="`${pieceLabel} +`" @click="pieces = Math.min(taskNow.d, pieces + 1)">
+          ><button
+            type="button"
+            :aria-label="`${pieceLabel} +`"
+            :disabled="pieces >= taskNow.d"
+            @click="pieces = Math.min(taskNow.d, pieces + 1)"
+          >
             +
           </button>
         </div>
@@ -334,6 +345,10 @@ input[type="range"] {
   gap: 0.7rem;
   align-items: center;
   flex-wrap: wrap;
+}
+button:disabled {
+  opacity: 0.45;
+  cursor: default;
 }
 button:focus-visible,
 input:focus-visible {

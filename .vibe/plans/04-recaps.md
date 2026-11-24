@@ -8,7 +8,7 @@ phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 1 }
+failedChecks: { checks-pass: 2 }
 ---
 
 # Increment: recaps
@@ -236,3 +236,11 @@ Lernenden-Prüfer (Klasse 5, nur die vier Recaps): Texte verständlich, Begriffe
 Fachlicher Prüfer: alle zwölf Kurztests (Antworten und Rückmeldungen je Option) und die Rechnungen der Beispiele nachgerechnet, kein Rechenfehler. Die Lupe-Zeichnung zeigt Abschnitt 0,3 bis 0,4 und den zehnmal so langen Zahlenstrahl richtig. Umgesetzt: Alternativtext der Lupe nennt die zwei Verbindungslinien und das Lupensymbol.
 Offen: Der Hinweis zum Exponenten 1 folgt in #386.
 
+
+### Neue Runde: Update und Rückmeldungen 7 bis 9
+
+- `lernapps update`: app-templates ^0.14.0 → ^0.19.0, tooling ^0.18.5 → ^0.18.6, Workflows v0.18.6, `lernapps-*`-Skills ersetzt (eigener Commit). `lernapps check` Exit 0, 72 Tests (Inkrement).
+- 7 (Wiederholung nur im Recap): Die Komponente `Kurztest` ist gelöscht. Jeder Recap hat höchstens zwei normale Übungen (`single-choice` mit Grund je Option), zusammen acht statt zwölf: Stellenwert und Schreiben (Zahlen), Verteilen und Potenz (Teilbarkeit), Subtrahieren über Nullen und schriftliches Teilen (Anwendungen), Klammer und Zerlegen (Rechnen). Inhaltsseiten: kein Abschnitt „Kannst du das schon?“; ein Rückgriff („Erinnerst du dich an …“) auf `dezimal-mal-geteilt` und `plus-minus` ist durch den Anlass ersetzt.
+- 8 (Wozu vor Wie): Seiten und Abschnitte durchgesehen. Der Einstieg jeder Seite nennt den Anlass. Geändert wurden sechs Abschnittsanfänge: `periode` (Vergleich mit 3/4), `dezimal-mal-geteilt` (Mal), `regeln` (Alle Teiler finden), `primfaktoren` (Faktorbaum, Potenzen), `plus-minus` (Ausprobieren). Die Abschnitte „Anschaulich erklärt“ setzen den Anlass des Seiteneinstiegs fort und blieben.
+- 9 (Buttons): Alle Buttons nutzen `--page-*`-Variablen; die Bündeln-Knöpfe der Stellenwerttafel sind deaktiviert, wenn nichts zu bündeln ist, mit Meldung. Neu: Plus/Minus in `BruchRechnen` sind an den Grenzen deaktiviert (sichtbar abgeblendet). Die Lupe ist eine Zeichnung ohne Button.
+- Offen: Ob die Buttons die Klassen der Laufzeit statt eigener Selektoren nutzen sollen, ist ohne Liste der Laufzeit-Klassen nicht zu prüfen; sie nutzen die Variablen der Laufzeit.

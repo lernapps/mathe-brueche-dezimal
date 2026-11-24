@@ -32,56 +32,44 @@
               "text": "**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.",
             },
             {
-              "type": "vue-component",
+              "type": "single-choice",
               "id": "test-klammer",
-              "component": "Kurztest",
-              "props":
-                {
-                  "question": "Was ergibt 3 · (14 − 6) + 12 : 4?",
-                  "options":
-                    [
-                      {
-                        "text": "39",
-                        "correct": false,
-                        "info": "Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst.",
-                      },
-                      {
-                        "text": "27",
-                        "correct": true,
-                        "info": "Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27.",
-                      },
-                      {
-                        "text": "9",
-                        "correct": false,
-                        "info": "Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.",
-                      },
-                    ],
-                  "right": "Richtig.",
-                  "wrong": "Nicht richtig.",
-                },
-              "nojs": "Kurztest: Was ergibt 3 · (14 − 6) + 12 : 4? Antworten: 39; 27; 9. Richtig ist 27. Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27. Falsche Antworten: 39: Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst. 9: Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.",
+              "text": "Was ergibt 3 · (14 − 6) + 12 : 4?",
+              "explanation": "Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27.",
+              "options":
+                [
+                  {
+                    "text": "27",
+                    "correct": true,
+                    "info": "Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27.",
+                  },
+                  {
+                    "text": "39",
+                    "correct": false,
+                    "info": "Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst.",
+                  },
+                  {
+                    "text": "9",
+                    "correct": false,
+                    "info": "Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.",
+                  },
+                ],
             },
             {
-              "type": "vue-component",
+              "type": "single-choice",
               "id": "test-verteilen-2",
-              "component": "Kurztest",
-              "props":
-                {
-                  "question": "Was ergibt 12 · 35? Zerlege 35 in 30 + 5.",
-                  "options":
-                    [
-                      {
-                        "text": "365",
-                        "correct": false,
-                        "info": "Du hast 12 · 30 + 5 gerechnet. Auch die 5 muss mit 12 multipliziert werden.",
-                      },
-                      { "text": "360", "correct": false, "info": "Das ist nur 12 · 30. Es fehlt noch 12 · 5 = 60." },
-                      { "text": "420", "correct": true, "info": "12 · 30 + 12 · 5 = 360 + 60 = 420." },
-                    ],
-                  "right": "Richtig.",
-                  "wrong": "Nicht richtig.",
-                },
-              "nojs": "Kurztest: Was ergibt 12 · 35? Zerlege 35 in 30 + 5. Antworten: 365; 360; 420. Richtig ist 420. 12 · 30 + 12 · 5 = 360 + 60 = 420. Falsche Antworten: 365: Du hast 12 · 30 + 5 gerechnet. Auch die 5 muss mit 12 multipliziert werden. 360: Das ist nur 12 · 30. Es fehlt noch 12 · 5 = 60.",
+              "text": "Was ergibt 12 · 35? Zerlege 35 in 30 + 5.",
+              "explanation": "12 · 30 + 12 · 5 = 360 + 60 = 420.",
+              "options":
+                [
+                  {
+                    "text": "365",
+                    "correct": false,
+                    "info": "Du hast 12 · 30 + 5 gerechnet. Auch die 5 muss mit 12 multipliziert werden.",
+                  },
+                  { "text": "420", "correct": true, "info": "12 · 30 + 12 · 5 = 360 + 60 = 420." },
+                  { "text": "360", "correct": false, "info": "Das ist nur 12 · 30. Es fehlt noch 12 · 5 = 60." },
+                ],
             },
             {
               "type": "text",
