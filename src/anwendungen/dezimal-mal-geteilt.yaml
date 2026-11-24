@@ -32,7 +32,7 @@
                 [
                   {
                     "type": "text",
-                    "text": "Erinnerst du dich an das Rechteckmodell für Brüche? Das Quadrat unten ist ein Ganzes. Seine Breite und Höhe sind jeweils in zehn gleiche Abschnitte geteilt. Zwei Spalten entsprechen der Breite 0,2, drei Zeilen der Höhe 0,3. Ihr gemeinsames Rechteck enthält sechs der hundert Kästchen: 0,06. So erklärt sich, warum du die Nachkommastellen beider Faktoren zusammenzählst.",
+                    "text": "Wenn du wissen willst, warum beim Malnehmen die Nachkommastellen zusammenzählen, hilft ein Rechteck. Das Quadrat unten ist ein Ganzes. Seine Breite und Höhe sind jeweils in zehn gleiche Abschnitte geteilt. Zwei Spalten entsprechen der Breite 0,2, drei Zeilen der Höhe 0,3. Ihr gemeinsames Rechteck enthält sechs der hundert Kästchen: 0,06. So erklärt sich, warum du die Nachkommastellen beider Faktoren zusammenzählst.",
                   },
                   {
                     "type": "figure",

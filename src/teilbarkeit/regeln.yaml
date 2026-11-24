@@ -57,7 +57,7 @@
           [
             {
               "type": "text",
-              "text": "So findest du alle Teiler einer Zahl: Suche alle Malaufgaben mit dem Ergebnis dieser Zahl. Jede Malaufgabe liefert zwei Teiler. Nur bei einer Aufgabe wie 4 · 4 ergibt sich bloß ein Teiler. Du musst nur bis zu dem Faktor suchen, bei dem sich die Paare wiederholen.",
+              "text": "Wenn du alle Zahlen finden willst, die in eine Zahl passen, suchst du ihre Teiler. So gehst du vor: Suche alle Malaufgaben mit dem Ergebnis dieser Zahl. Jede Malaufgabe liefert zwei Teiler. Nur bei einer Aufgabe wie 4 · 4 ergibt sich bloß ein Teiler. Du musst nur bis zu dem Faktor suchen, bei dem sich die Paare wiederholen.",
             },
             {
               "type": "table",
