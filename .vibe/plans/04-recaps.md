@@ -8,7 +8,7 @@ phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: { checks-pass: 1 }
+failedChecks: { checks-pass: 2 }
 ---
 
 # Increment: recaps
