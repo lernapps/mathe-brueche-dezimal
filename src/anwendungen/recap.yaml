@@ -57,9 +57,21 @@
                     "text": "Gleiche Stellen stehen untereinander. Einer: 8 + 5 = 13, du schreibst 3 und merkst dir 1. Zehner: 4 + 7 + 1 = 12, du schreibst 2 und merkst dir 1. Hunderter: 3 + 2 + 1 = 6.",
                   },
                   { "type": "formula", "formula": "348 + 275 = 623" },
+                ],
+            },
+            {
+              "type": "example",
+              "title": "Schriftlich teilen: 156 : 12",
+              "blocks":
+                [
                   {
                     "type": "text",
-                    "text": "**Schriftlich teilen: 156 : 12.** 12 passt 1-mal in 15, das sind 12 und es bleibt Rest 3. Du holst die 6 herunter: 36. 12 passt 3-mal in 36. Das Ergebnis ist 13. Subtrahieren und Multiplizieren gehen ebenfalls Stelle für Stelle.",
+                    "text": "12 passt 1-mal in 15, das sind 12 und es bleibt Rest 3. Du holst die 6 herunter: 36. 12 passt 3-mal in 36.",
+                  },
+                  { "type": "formula", "formula": "156 : 12 = 13" },
+                  {
+                    "type": "text",
+                    "text": "Probe: 13 · 12 = 156. Auch beim Multiplizieren rechnest du Stelle für Stelle.",
                   },
                 ],
             },
@@ -70,22 +82,22 @@
             {
               "type": "single-choice",
               "id": "test-subtrahieren",
-              "text": "Was ergibt 5002 − 1789?",
-              "explanation": "Entbündeln über die Nullen: 5002 = 4 Tausender, 9 Hunderter, 9 Zehner, 12 Einer. Einer: 12 − 9 = 3, Zehner: 9 − 8 = 1, Hunderter: 9 − 7 = 2, Tausender: 4 − 1 = 3. Probe: 3213 + 1789 = 5002.",
+              "text": "Was ergibt 6004 − 2357?",
+              "explanation": "Entbündeln über die Nullen: 6004 = 5 Tausender, 9 Hunderter, 9 Zehner, 14 Einer. Einer: 14 − 7 = 7, Zehner: 9 − 5 = 4, Hunderter: 9 − 3 = 6, Tausender: 5 − 2 = 3. Probe: 3647 + 2357 = 6004.",
               "options":
                 [
                   {
-                    "text": "4787",
+                    "text": "4353",
                     "correct": false,
                     "info": "Du hast in jeder Stelle die kleinere Ziffer von der größeren abgezogen. Steht oben die kleinere Ziffer, musst du entbündeln.",
                   },
                   {
-                    "text": "3213",
+                    "text": "3647",
                     "correct": true,
-                    "info": "Entbündeln über die Nullen: 5002 = 4 Tausender, 9 Hunderter, 9 Zehner, 12 Einer. Einer: 12 − 9 = 3, Zehner: 9 − 8 = 1, Hunderter: 9 − 7 = 2, Tausender: 4 − 1 = 3. Probe: 3213 + 1789 = 5002.",
+                    "info": "Entbündeln über die Nullen: 6004 = 5 Tausender, 9 Hunderter, 9 Zehner, 14 Einer. Einer: 14 − 7 = 7, Zehner: 9 − 5 = 4, Hunderter: 9 − 3 = 6, Tausender: 5 − 2 = 3. Probe: 3647 + 2357 = 6004.",
                   },
                   {
-                    "text": "4213",
+                    "text": "4647",
                     "correct": false,
                     "info": "Du hast die Tausenderstelle nach dem Entbündeln nicht um 1 verkleinert.",
                   },
