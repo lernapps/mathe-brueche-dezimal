@@ -31,8 +31,7 @@
               "title": "Eine Zahl auseinanderlegen",
               "blocks":
                 [
-                  { "type": "formula", "formula": "4305 = 4 \\cdot 1000 + 3 \\cdot 100" },
-                  { "type": "formula", "formula": "+ 0 \\cdot 10 + 5 \\cdot 1" },
+                  { "type": "formula", "formula": "4305 = 4 \\cdot 1000 + 3 \\cdot 100 + 0 \\cdot 10 + 5 \\cdot 1" },
                   {
                     "type": "text",
                     "text": "Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz frei, damit die anderen Ziffern ihren Stellenwert behalten. Die Hunderterstelle ist die dritte Stelle von rechts.",
