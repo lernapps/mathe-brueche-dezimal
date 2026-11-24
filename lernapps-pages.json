@@ -38,14 +38,21 @@
     },
     {
       "path": "teilbarkeit/regeln/",
-      "title": "Teilbarkeit und Primzahlen",
+      "title": "Teiler, Vielfache und Teilbarkeitsregeln",
       "competencies": [
         "teilbarkeit"
       ]
     },
     {
+      "path": "teilbarkeit/primfaktoren/",
+      "title": "Primzahlen und Primfaktoren",
+      "competencies": [
+        "primfaktoren-ggt-kgv"
+      ]
+    },
+    {
       "path": "teilbarkeit/teiler-vielfache/",
-      "title": "Gemeinsame Teiler und Vielfache",
+      "title": "ggT und kgV",
       "competencies": [
         "primfaktoren-ggt-kgv"
       ]
@@ -145,6 +152,20 @@
       ]
     },
     {
+      "path": "anwendungen/periode/",
+      "title": "Wenn das Teilen nie endet",
+      "competencies": [
+        "dezimalbrueche"
+      ]
+    },
+    {
+      "path": "anwendungen/prozent/",
+      "title": "Prozent heißt Hundertstel",
+      "competencies": [
+        "prozent-grundbegriffe"
+      ]
+    },
+    {
       "path": "anwendungen/dezimalrechnen/",
       "title": "Dezimalzahlen addieren und subtrahieren",
       "competencies": [
@@ -167,7 +188,7 @@
     },
     {
       "path": "anwendungen/sachaufgaben/",
-      "title": "Brüche im Alltag anwenden",
+      "title": "Brüche und Dezimalzahlen im Alltag",
       "competencies": [
         "bruchrechnung-grundaufgaben"
       ]

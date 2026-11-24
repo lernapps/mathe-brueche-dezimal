@@ -113,21 +113,27 @@ $0,75 : 0,25 = 75 : 25 = 3$
 - Tipp der App: „Multipliziere zunächst ohne Komma. Beide Faktoren haben je eine Nachkommastelle.“
 - Lösungsweg:
   - Ohne Komma rechnest du {e.a10} · {e.b10} = {e.produkt}.
-  - Die beiden Faktoren stehen jeweils für Zehntel. Das Ergebnis zählt daher Hundertstel: {answer}. Endnullen nach dem Komma dürfen entfallen.
+  - Zehntel mal Zehntel ergibt Hundertstel. Das Ergebnis ist also {answer}. Endnullen nach dem Komma dürfen entfallen.
 - Typische Fehler und was die App sagt:
   - F1: „Beide Faktoren haben eine Nachkommastelle. Zusammen brauchst du zwei, nicht eine.“
   - F2: „Das ist die Addition. Gefragt ist das Produkt.“
+  - F3: „Du hast das Komma um drei Stellen verschoben. Zwei Faktoren mit je einer Stelle nach dem Komma geben zusammen zwei Stellen.“
 - Link zu Nummer n: `../?aufgaben=n&via=tutor#aufgaben`
 - Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
 
 ```
-Nr. | e.azahl | e.bzahl | e.a10 | e.b10 | e.produkt | Lösung | F1 | F2
-1 | 1,5 | 0,6 | 15 | 6 | 90 | 0,9 | 9 | 2,1
-2 | 0,4 | 0,5 | 4 | 5 | 20 | 0,2 | 2 | 0,9
-3 | 0,3 | 0,4 | 3 | 4 | 12 | 0,12 | 1,2 | 0,7
-4 | 1,2 | 0,3 | 12 | 3 | 36 | 0,36 | 3,6 | 1,5
-5 | 0,6 | 0,2 | 6 | 2 | 12 | 0,12 | 1,2 | 0,8
-6 | 0,2 | 0,3 | 2 | 3 | 6 | 0,06 | 0,6 | 0,5
+Nr. | e.azahl | e.bzahl | e.a10 | e.b10 | e.produkt | Lösung | F1 | F2 | F3
+1 | 3,2 | 0,5 | 32 | 5 | 160 | 1,6 | 16 | 3,7 | 0,16
+2 | 1,2 | 0,3 | 12 | 3 | 36 | 0,36 | 3,6 | 1,5 | 0,036
+3 | 0,6 | 0,2 | 6 | 2 | 12 | 0,12 | 1,2 | 0,8 | 0,012
+4 | 2,5 | 0,4 | 25 | 4 | 100 | 1 | 10 | 2,9 | 0,1
+5 | 0,7 | 0,8 | 7 | 8 | 56 | 0,56 | 5,6 | 1,5 | 0,056
+6 | 0,4 | 0,5 | 4 | 5 | 20 | 0,2 | 2 | 0,9 | 0,02
+7 | 0,9 | 0,9 | 9 | 9 | 81 | 0,81 | 8,1 | 1,8 | 0,081
+8 | 1,2 | 1,5 | 12 | 15 | 180 | 1,8 | 18 | 2,7 | 0,18
+9 | 1,5 | 0,6 | 15 | 6 | 90 | 0,9 | 9 | 2,1 | 0,09
+10 | 0,3 | 0,4 | 3 | 4 | 12 | 0,12 | 1,2 | 0,7 | 0,012
+11 | 0,2 | 0,3 | 2 | 3 | 6 | 0,06 | 0,6 | 0,5 | 0,006
 ```
 
 ### Aufgabe division-verstehen
@@ -153,15 +159,21 @@ Nr. | e.azahl | e.bzahl | e.a10 | e.b10 | e.produkt | Lösung | F1 | F2
 - Typische Fehler und was die App sagt:
   - F1: „Hier wurde nur die zweite Zahl vergrößert. Vergrößere beide Zahlen mit demselben Faktor.“
   - F2: „Hier wurde nur die erste Zahl vergrößert. Beide Kommas müssen gleich weit verschoben werden.“
+  - F3: „Du hast Dividend und Divisor vertauscht. Gefragt ist {e.azahl} : {e.bzahl}: Vorn steht die Zahl, die geteilt wird, hinten der Divisor.“
 - Link zu Nummer n: `../?geteilt-aufgaben=n&via=tutor#geteilt-aufgaben`
 - Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
 
 ```
-Nr. | e.azahl | e.bzahl | e.faktor | e.erweiterta | e.erweitertb | Lösung | F1 | F2
-1 | 1,8 | 0,3 | 10 | 18 | 3 | 6 | 0,6 | 60
-2 | 2,8 | 0,4 | 10 | 28 | 4 | 7 | 0,7 | 70
-3 | 0,75 | 0,25 | 100 | 75 | 25 | 3 | 0,03 | 300
-4 | 1,25 | 0,25 | 100 | 125 | 25 | 5 | 0,05 | 500
-5 | 0,8 | 0,2 | 10 | 8 | 2 | 4 | 0,4 | 40
-6 | 4,5 | 0,5 | 10 | 45 | 5 | 9 | 0,9 | 90
+Nr. | e.azahl | e.bzahl | e.faktor | e.erweiterta | e.erweitertb | Lösung | F1 | F2 | F3
+1 | 2,8 | 0,4 | 10 | 28 | 4 | 7 | 0,7 | 70 | 0,142857
+2 | 0,75 | 0,25 | 100 | 75 | 25 | 3 | 0,03 | 300 | 0,333333
+3 | 9,6 | 0,8 | 10 | 96 | 8 | 12 | 1,2 | 120 | 0,083333
+4 | 0,45 | 0,15 | 100 | 45 | 15 | 3 | 0,03 | 300 | 0,333333
+5 | 4,5 | 0,5 | 10 | 45 | 5 | 9 | 0,9 | 90 | 0,111111
+6 | 1,25 | 0,25 | 100 | 125 | 25 | 5 | 0,05 | 500 | 0,2
+7 | 1,8 | 0,3 | 10 | 18 | 3 | 6 | 0,6 | 60 | 0,166667
+8 | 3,6 | 0,4 | 10 | 36 | 4 | 9 | 0,9 | 90 | 0,111111
+9 | 1,5 | 0,5 | 10 | 15 | 5 | 3 | 0,3 | 30 | 0,333333
+10 | 2,1 | 0,35 | 100 | 210 | 35 | 6 | 0,06 | 600 | 0,166667
+11 | 0,8 | 0,2 | 10 | 8 | 2 | 4 | 0,4 | 40 | 0,25
 ```

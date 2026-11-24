@@ -71,6 +71,8 @@ Anteil = Bruchteil : Ganzes. Schreibe den Bruchteil in den Zähler und das Ganze
 
 - Aufgabe `aufgaben` (unten)
 
+- Aufgabe `zuordnen-anteil` (unten)
+
 ### Aufgabe modell
 
 - Was zu tun ist: Bruchmodell verändern, fehlende Größe berechnen oder Brüche vergleichen; die Frage nennt den gesuchten Wert.
@@ -172,3 +174,11 @@ Nr. | e.vierfach | e.dreifach | e.basis | Lösung | F1 | F2
 5 | 24 | 18 | 6 | 4 | 3 | 24
 6 | 12 | 9 | 3 | 4 | 3 | 12
 ```
+
+### Aufgabe zuordnen-anteil
+
+- Aufgabe: Ordne jedem Teil vom Ganzen den passenden Anteil zu. Kürze zuerst, wenn es geht.
+- Antwortformat: jedem Eintrag links den passenden rechts zuordnen
+- Lösung: 6 von 8 Plättchen – drei Viertel; 5 von 10 Plättchen – ein Halb; 4 von 10 Plättchen – zwei Fünftel; 3 von 9 Plättchen – ein Drittel
+- Erklärung: Der Anteil ist Teil durch Ganzes, vollständig gekürzt: $\frac{6}{8}$ = $\frac{3}{4}$, $\frac{5}{10}$ = $\frac{1}{2}$, $\frac{4}{10}$ = $\frac{2}{5}$, $\frac{3}{9}$ = $\frac{1}{3}$.
+- Link: [../?via=tutor#zuordnen-anteil](../?via=tutor#zuordnen-anteil)

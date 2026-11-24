@@ -71,6 +71,8 @@ $\frac{6}{8}$ mit 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4. Also $\frac{6}{8} = \frac{
 
 - Aufgabe `aufgaben` (unten)
 
+- Aufgabe `kuerzen-falsch` (unten)
+
 ### Aufgabe modell
 
 - Was zu tun ist: Bruchmodell verändern, fehlende Größe berechnen oder Brüche vergleichen; die Frage nennt den gesuchten Wert.
@@ -172,3 +174,11 @@ Nr. | e.sechsfach | Lösung | F1 | F2
 5 | 36 | 6 | 36 | 30
 6 | 18 | 3 | 18 | 12
 ```
+
+### Aufgabe kuerzen-falsch
+
+- Aufgabe: Stimmt das? Du kürzt $\frac{6}{9}$, indem du von Zähler und Nenner jeweils 3 abziehst.
+- Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
+- Lösung: Die Aussage stimmt nicht.
+- Erklärung: Kürzen heißt: Zähler und Nenner durch dieselbe Zahl teilen. Mit 3 gekürzt ergibt $\frac{6}{9}$ = $\frac{2}{3}$. Abziehen ergäbe $\frac{3}{6}$, das ist $\frac{1}{2}$ und damit ein anderer Wert.
+- Link: [../?via=tutor#kuerzen-falsch](../?via=tutor#kuerzen-falsch)

@@ -6,7 +6,15 @@ Wiederholung der schriftlichen Verfahren mit natürlichen Zahlen (Übertrag, Res
 
 ## Bruch und Dezimalzahl
 
-Zehntel, Hundertstel und Tausendstel gehören zu den Stellen nach dem Komma. 3/4 = 75/100 = 0,75. Allgemein kannst du den Zähler durch den Nenner teilen. Die Division endet oder wird periodisch. Bei vollständig gekürzten Brüchen endet sie genau dann, wenn der Nenner nur Primfaktoren 2 und 5 enthält. 1/8 = 0,125. Bei 1/3 wiederholt sich die 3 ohne Ende: 0,333… . Das ist nicht genau 0,33; 0,33 ist nur eine Näherung. Einfache Prozentangaben sind Hundertstel: 25 % = 25/100 = 1/4.
+Ein Bruch lässt sich als Dezimalzahl schreiben. Zehntel, Hundertstel und Tausendstel sind die Stellen rechts vom Komma, die Stellenwerttafel zeigt sie, und zehn Hundertstel werden zu einem Zehntel gebündelt. Auf dem Zahlenstrahl von 0 bis 1 vergrößert die Lupe einen Abschnitt auf das Zehnfache. Zwei Wege vom Bruch zur Dezimalzahl, zum Beispiel 3/4 = 75/100 = 0,75 durch Erweitern auf den Nenner 10, 100 oder 1000 und 3/8 = 3 : 8 = 0,375 durch schriftliches Teilen. Brüche, bei denen das Teilen nie endet wie 1/3, gehören zur Seite "periode". Prozent gehört nicht zu dieser Seite.
+
+## Wenn das Teilen nie endet
+
+Beim schriftlichen Teilen des Zählers durch den Nenner wird der Rest irgendwann 0, dann bricht die Dezimalzahl ab, oder ein Rest kehrt wieder, dann wiederholen sich Ziffern und die Dezimalzahl ist periodisch. Die sich wiederholenden Ziffern heißen Periode und bekommen einen Periodenstrich, zum Beispiel 1/3 = 0,3 mit Strich über der 3 und 5/6 = 0,83 mit Strich nur über der 3. Ein vollständig gekürzter Bruch hat eine abbrechende Dezimalzahl genau dann, wenn der Nenner nur die Primfaktoren 2 und 5 hat, zum Beispiel 1/8 und 1/20, aber nicht 1/3, 1/6 oder 1/7. 0,33 ist nur eine Näherung von 1/3. Das algebraische Rückumwandeln periodischer Dezimalzahlen gehört nicht dazu.
+
+## Prozent heißt Hundertstel
+
+Prozent heißt Hundertstel: 1 % ist 1/100 vom Ganzen. Ein Anteil lässt sich als Bruch, als Dezimalzahl und in Prozent schreiben, zum Beispiel 3/4 = 75/100 = 0,75 = 75 %. Um einen Bruch in Prozent zu schreiben, erweiterst du ihn auf den Nenner 100; dann steht die Prozentzahl im Zähler. Die Prozentrechnung mit Grundwert, Prozentwert und Prozentsatz gehört nicht zu dieser Seite.
 
 ## Dezimalzahlen addieren und subtrahieren
 
@@ -18,11 +26,11 @@ Diese Lernseite behandelt nur Multiplikation und Division von Dezimalzahlen. Bei
 
 ## Dezimalzahlen runden
 
-Bestimme zuerst die Rundungsstelle. Entscheidend ist die Ziffer direkt rechts davon: Bei 0 bis 4 bleibt die Rundungsziffer, bei 5 bis 9 wird sie um 1 erhöht. Die folgenden Stellen entfallen. Benutze für gerundete Werte ein Näherungszeichen, wenn du sie mit dem Ausgangswert vergleichst. 0,746 auf Hundertstel: Die Hundertstelziffer ist 4, danach steht 6. Daher wird auf 0,75 gerundet. 0,744 wird auf 0,74 gerundet.
+Bestimme zuerst die Rundungsstelle: Zehntel, Hundertstel oder eine ganze Zahl. Entscheidend ist die Ziffer direkt rechts davon: Bei 0 bis 4 bleibt die Rundungsziffer (abrunden), bei 5 bis 9 wird sie um 1 erhöht (aufrunden). Die folgenden Stellen entfallen. Auf dem Zahlenstrahl liegt eine Zahl zwischen zwei Nachbarn; die Mitte entscheidet: Rechts von der Mitte wird aufgerundet, links davon abgerundet. Gerundet wird immer von der Ausgangszahl aus, nie in Schritten. Runden und Abschneiden sind verschieden. Das Zeichen ≈ liest du als ungefähr: 0,746 ≈ 0,75. 0,746 auf Hundertstel: Die Hundertstelziffer ist 4, danach steht 6, also 0,75. 0,743 auf Hundertstel: danach steht 3, also 0,74. 3,47 auf Zehntel: 3,5. 18,46 auf eine ganze Zahl: 18, weil nur die Zehntelziffer 4 zählt; 18,46 wird nicht erst zu 18,5.
 
-## Brüche im Alltag anwenden
+## Brüche und Dezimalzahlen im Alltag
 
-Ordne die Angaben: Ganzes, Bruchteil oder Anteil. Entscheide dann, welche Rechnung die Frage beantwortet. Nenne die Einheit und prüfe durch Schätzen, ob das Ergebnis sinnvoll ist. Beim Vergleichen von Anteilen brauchst du dieselbe Bezugsgröße. 3/4 Liter Saft werden gleich auf zwei Gefäße verteilt: 3/4 : 2 = 3/8 Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit 5/20 = 1/4 = 25 %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.
+Ordne die Angaben: Ganzes, Bruchteil oder Anteil. Entscheide dann, welche Rechnung die Frage beantwortet. Nenne die Einheit und prüfe durch Schätzen, ob das Ergebnis sinnvoll ist. Beim Vergleichen von Anteilen brauchst du dieselbe Bezugsgröße. 3/4 Liter Saft werden gleich auf zwei Gefäße verteilt: 3/4 : 2 = 3/8 Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit 5/20 = 1/4 = 25 %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage. Auch mit Dezimalzahlen und Einheiten: Ein Heft kostet 1,60 €, vier Hefte kosten 4 · 1,60 € = 6,40 €. 1,2 Liter auf 4 Gläser: 1,2 : 4 = 0,3 Liter pro Glas. 2,5 Kilometer von 7,8 Kilometern gefahren: 7,8 − 2,5 = 5,3 Kilometer bleiben. Ein Tank mit 40 Litern ist zu 2/5 gefüllt: 40 : 5 · 2 = 16 Liter. Schätze vorher und nenne zum Ergebnis die Einheit.
 
 ## Gehört nicht dazu
 

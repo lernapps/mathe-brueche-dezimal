@@ -6,17 +6,16 @@
     <script type="module" crossorigin src="../../assets/index-C7yglwom.js"></script>
     <link rel="modulepreload" crossorigin href="../../assets/tasks-DADUYy52-D5IfZDbd.js">
     <link rel="stylesheet" crossorigin href="../../assets/index-CieAblO6.css">
-    <title>Teilbarkeit und Primzahlen – Brüche und Dezimalzahlen</title>
-    <meta name="description" content="Zahlen als Produkte zerlegen und dabei Primzahlen entdecken." />
+    <title>Teiler, Vielfache und Teilbarkeitsregeln – Brüche und Dezimalzahlen</title>
+    <meta name="description" content="Teiler und Vielfache finden und mit Teilbarkeitsregeln schnell prüfen, ob eine Zahl teilbar ist." />
     <meta name="lernapps-archetype" content="explainer" />
     <link rel="alternate" hreflang="de" href="../../teilbarkeit/regeln/" />
-    <script type="module" crossorigin src="../../assets/islands-C-eAtSOc.js"></script>
   </head>
   <body>
-    <nav class="explainer-breadcrumbs" aria-label="Du bist hier"><ol><li><a href="../../">Start</a></li><li><a href="../../teilbarkeit/">Teilbarkeit nutzen</a></li><li aria-current="page">Teilbarkeit und Primzahlen</li></ol></nav>
+    <nav class="explainer-breadcrumbs" aria-label="Du bist hier"><ol><li><a href="../../">Start</a></li><li><a href="../../teilbarkeit/">Teilbarkeit nutzen</a></li><li aria-current="page">Teiler, Vielfache und Teilbarkeitsregeln</li></ol></nav>
 <main class="explainer" id="inhalt-der-seite">
 <div class="explainer-title-row">
-<h1>Teilbarkeit und Primzahlen</h1>
+<h1>Teiler, Vielfache und Teilbarkeitsregeln</h1>
 <div class="explainer-tutor explainer-tutor-page">
 <details class="explainer-tutor-off">
 <summary>Mit einem KI-Tutor lernen</summary>
@@ -28,130 +27,271 @@
 </details>
 <p class="explainer-tutor-bar" hidden><button type="button" class="explainer-tutor-go"></button></p>
 <p class="explainer-tutor-status" role="status" aria-live="polite"></p>
-<script type="application/json" class="explainer-tutor-prompt">{"start":"Lade ⟦base⟧teilbarkeit/regeln/tutor/⟦query⟧ und sei mein Tutor.","base":"⟦base⟧","query":"⟦query⟧","root":"../../","storage":"mathe-brueche-dezimal","page":{"id":"regeln","title":"Teilbarkeit und Primzahlen","exercises":[{"id":"verstehen","section":"ueben","numbered":false},{"id":"aufgaben","section":"ueben","numbered":true},{"id":"primfaktoren","section":"ueben","numbered":true}],"sections":["regel","entdecken","entdecken/primzahlen","entdecken/abkuerzungen","beispiel","ueben"]},"tutor":"teilbarkeit/regeln/tutor/","markdown":"teilbarkeit/regeln/tutor/index.md","ways":[{"name":"Claude","url":"https://claude.ai/new?q={prompt}"},{"name":"ChatGPT","url":"https://chatgpt.com/?q={prompt}"},{"name":"Mistral Vibe","url":"https://chat.mistral.ai/chat?q={prompt}","paste":true}],"placeholder":"Ich brauche Hilfe bei einer Lern-Einheit. Ich schreibe Dir gleich, worum es geht.","go":"Mit {name} lernen","done":"✓ Kopiert – jetzt in {name} einfügen","copy":"Text kopieren","copied":"Der Prompt ist kopiert. Füg ihn in den Chat deines KI-Assistenten ein.","failed":"Kopieren ging nicht. Versuch es noch einmal."}</script>
+<script type="application/json" class="explainer-tutor-prompt">{"start":"Lade ⟦base⟧teilbarkeit/regeln/tutor/⟦query⟧ und sei mein Tutor.","base":"⟦base⟧","query":"⟦query⟧","root":"../../","storage":"mathe-brueche-dezimal","page":{"id":"regeln","title":"Teiler, Vielfache und Teilbarkeitsregeln","exercises":[{"id":"aufgaben","section":"ueben","numbered":true},{"id":"teiler-zaehlen","section":"ueben","numbered":false},{"id":"vielfache","section":"ueben","numbered":false},{"id":"regeln-zuordnen","section":"ueben","numbered":false},{"id":"durch-3","section":"ueben","numbered":false},{"id":"ziffer-ergaenzen","section":"ueben","numbered":true},{"id":"durch-4","section":"ueben","numbered":false}],"sections":["regel","entdecken","entdecken/abkuerzungen","beispiel","ueben"]},"tutor":"teilbarkeit/regeln/tutor/","markdown":"teilbarkeit/regeln/tutor/index.md","ways":[{"name":"Claude","url":"https://claude.ai/new?q={prompt}"},{"name":"ChatGPT","url":"https://chatgpt.com/?q={prompt}"},{"name":"Mistral Vibe","url":"https://chat.mistral.ai/chat?q={prompt}","paste":true}],"placeholder":"Ich brauche Hilfe bei einer Lern-Einheit. Ich schreibe Dir gleich, worum es geht.","go":"Mit {name} lernen","done":"✓ Kopiert – jetzt in {name} einfügen","copy":"Text kopieren","copied":"Der Prompt ist kopiert. Füg ihn in den Chat deines KI-Assistenten ein.","failed":"Kopieren ging nicht. Versuch es noch einmal."}</script>
 </div>
 </div>
-<nav class="explainer-toc" aria-label="Auf dieser Seite"><p class="explainer-toc-title">Auf dieser Seite</p><ol><li><a href="#regel">Zahlen als Malaufgabe</a></li><li><a href="#entdecken">Ausprobieren</a><ol><li><a href="#entdecken/primzahlen">Wo das Zerlegen endet</a></li><li><a href="#entdecken/abkuerzungen">Abkürzungen beim Suchen</a></li></ol></li><li><a href="#beispiel">Am Beispiel nachvollziehen</a></li><li><a href="#ueben">Üben</a></li></ol></nav>
+<nav class="explainer-toc" aria-label="Auf dieser Seite"><p class="explainer-toc-title">Auf dieser Seite</p><ol><li><a href="#regel">Zwölf Bauklötze in Reihen</a></li><li><a href="#entdecken">Alle Teiler finden</a><ol><li><a href="#entdecken/abkuerzungen">Abkürzungen: Teilbarkeitsregeln</a></li></ol></li><li><a href="#beispiel">Am Beispiel nachvollziehen</a></li><li><a href="#ueben">Üben</a></li></ol></nav>
 <section class="explainer-section">
-<h2 id="regel">Zahlen als Malaufgabe</h2>
-<div class="explainer-block" data-block="regel/1" data-block-id="9be010ee" data-block-type="text" data-block-order="1">
-<div class="block-text"><p>Stell dir zwölf Bauklötze vor. Du kannst daraus drei Reihen mit je vier Klötzen legen – oder zwei Reihen mit je sechs. Dieselbe Anzahl lässt sich also auf verschiedene Arten als Malaufgabe schreiben.</p></div>
+<h2 id="regel">Zwölf Bauklötze in Reihen</h2>
+<div class="explainer-block" data-block="regel/1" data-block-id="9ece3759" data-block-type="text" data-block-order="1">
+<div class="block-text"><p>Nach dieser Seite kannst du alle Teiler und Vielfache einer Zahl finden. Mit Teilbarkeitsregeln erkennst du außerdem schnell, ob eine Zahl durch 2, 3, 4, 5, 9, 10, 25 oder 100 teilbar ist. Du brauchst dafür nur das Malnehmen und das Teilen.</p></div>
 </div>
-<div class="explainer-block" data-block="regel/2" data-block-id="e3820f13" data-block-type="definition" data-block-order="2">
+<div class="explainer-block" data-block="regel/2" data-block-id="95175653" data-block-type="text" data-block-order="2">
+<div class="block-text"><p>Zwölf Bauklötze kannst du in gleich lange Reihen legen: eine Reihe mit 12, zwei Reihen mit je 6 oder drei Reihen mit je 4. Jede Anordnung ist eine Malaufgabe.</p></div>
+</div>
+<div class="explainer-block" data-block="regel/3" data-block-id="76560bd3" data-block-type="figure" data-block-order="3">
+<figure class="block-figure"><div class="block-image-credit block-image-fill"><img src="../../images/teiler-rechtecke.svg" alt="Dreimal zwölf gleich große Quadrate. Oben liegen sie in einer Reihe mit 12, in der Mitte in 2 Reihen mit je 6, unten in 3 Reihen mit je 4. Neben jeder Anordnung steht die Malaufgabe." loading="lazy" decoding="async"><span class="block-credit" tabindex="0" role="img" data-info="Quelle: eigene Zeichnung. Lizenz: MIT." aria-label="Quelle: eigene Zeichnung. Lizenz: MIT.">© MIT</span></div><figcaption><p>Zwölf Klötze, drei Anordnungen: 1 · 12, 2 · 6 und 3 · 4.</p></figcaption></figure>
+</div>
+<div class="explainer-block" data-block="regel/4" data-block-id="e3820f13" data-block-type="definition" data-block-order="4">
 <dl class="explainer-definition"><dt><dfn id="begriff-faktor"><a href="../../glossar/#faktor">Faktor</a></dfn></dt><dd><p>Die Zahlen, die du miteinander multiplizierst, heißen Faktoren. Das Ergebnis heißt Produkt. Bei 3 · 4 = 12 sind 3 und 4 die Faktoren.</p></dd></dl>
 </div>
-</section>
-<section class="explainer-section">
-<h2 id="entdecken">Ausprobieren</h2>
-<div class="explainer-block" data-block="entdecken/1" data-block-id="420c167b" data-block-type="text" data-block-order="3">
-<div class="block-text"><p>Stell dir 12 Bauklötze vor: Du kannst daraus 3 Reihen mit je 4 Klötzen legen. Die Rechnung 3 · 4 beschreibt diese Anordnung. Die Zahlen 3 und 4 heißen Faktoren. Unten kannst du so eine Zahl immer weiter aufteilen: Wähle einen Faktor und darunter eine passende Malaufgabe. Die neuen Faktoren ersetzen den alten, aber das Ergebnis bleibt gleich. Ein Stern bedeutet: Diese Zahl lässt sich nicht weiter in zwei ganze Faktoren größer als 1 zerlegen. Probiere unterschiedliche Zerlegungen aus und vergleiche die Zahlen, bei denen du landest.</p></div>
+<div class="explainer-block" data-block="regel/5" data-block-id="5a30b8c9" data-block-type="definition" data-block-order="5">
+<dl class="explainer-definition"><dt><dfn id="begriff-teiler"><a href="../../glossar/#teiler">Teiler</a></dfn></dt><dd><p>Eine Zahl ist ein Teiler einer anderen, wenn sie diese ohne Rest teilt. 3 ist ein Teiler von 12, denn 12 : 3 = 4 ohne Rest. 5 ist kein Teiler von 12, denn es bleibt der Rest 2.</p></dd></dl>
 </div>
-<div class="explainer-block" data-block="entdecken/2" data-block-id="92330d99" data-block-type="vue-component" data-block-order="4">
-<div class="explainer-component" data-component="FaktorEntdecken" data-nojs="caption" data-caption="Beschreibung als Text">
-<div class="explainer-island" hidden><div class="factor-lab" data-v-e5229ebd><p data-v-e5229ebd>Wähle eine Zahl. Tippe dann auf einen Faktor, den du weiter zerlegen möchtest, und wähle eine passende Malaufgabe. Was bleibt am Ende übrig?</p><label data-v-e5229ebd>Deine Zahl: 12<input value="12" type="range" min="2" max="48" data-v-e5229ebd></label><p class="product" data-v-e5229ebd><strong data-v-e5229ebd>12 = </strong><!--[--><!--[--><!----><button type="button" aria-pressed="true" aria-label="Faktor 12 untersuchen" data-v-e5229ebd>12<!----></button><!--]--><!--]--></p><p data-v-e5229ebd>So kannst du den gewählten Faktor zerlegen:</p><div class="choices" data-v-e5229ebd><!--[--><button type="button" data-v-e5229ebd>2 · 6</button><button type="button" data-v-e5229ebd>3 · 4</button><button type="button" data-v-e5229ebd>4 · 3</button><button type="button" data-v-e5229ebd>6 · 2</button><!--]--></div><!----><!----><p class="reset-actions" data-v-e5229ebd><button type="button" data-v-e5229ebd>Noch einmal zerlegen</button></p></div></div>
-<div class="explainer-nojs"><p>Stell dir 12 Bauklötze vor: Du kannst daraus 3 Reihen mit je 4 Klötzen legen. Die Rechnung 3 · 4 beschreibt diese Anordnung. Die Zahlen 3 und 4 heißen Faktoren. Unten kannst du so eine Zahl immer weiter aufteilen: Wähle einen Faktor und darunter eine passende Malaufgabe. Die neuen Faktoren ersetzen den alten, aber das Ergebnis bleibt gleich. Ein Stern bedeutet: Diese Zahl lässt sich nicht weiter in zwei ganze Faktoren größer als 1 zerlegen. Probiere unterschiedliche Zerlegungen aus und vergleiche die Zahlen, bei denen du landest.</p>
-<p>Beispiel: 12 = 3 · 4 = 3 · 2 · 2. Die Faktoren 3, 2 und 2 lassen sich nicht weiter in ganze Faktoren größer als 1 zerlegen.</p></div>
-<script type="application/json" class="explainer-component-props">{"numberLabel":"Deine Zahl","instruction":"Wähle eine Zahl. Tippe dann auf einen Faktor, den du weiter zerlegen möchtest, und wähle eine passende Malaufgabe. Was bleibt am Ende übrig?","chooseLabel":"Faktor {n} untersuchen","splitLabel":"So kannst du den gewählten Faktor zerlegen:","primeLabel":"{n} lässt sich nicht in zwei ganze Faktoren größer als 1 zerlegen. Mit solchen Zahlen endet das Zerlegen.","finishedLabel":"Jetzt lässt sich keiner der Faktoren weiter zerlegen. Alle sind Primzahlen; die Sterne markieren diese Endpunkte.","resetLabel":"Noch einmal zerlegen"}</script>
+<div class="explainer-block" data-block="regel/6" data-block-id="00195ab0" data-block-type="definition" data-block-order="6">
+<dl class="explainer-definition"><dt><dfn id="begriff-vielfaches"><a href="../../glossar/#vielfaches">Vielfaches</a></dfn></dt><dd><p>Ein Vielfaches von 3 entsteht, wenn du 3 mit 1, 2, 3, … malnimmst: 3, 6, 9, 12, … Die 12 ist also ein Vielfaches von 3.</p></dd></dl>
 </div>
-</div>
-<section class="explainer-section">
-<h3 id="entdecken/primzahlen">Wo das Zerlegen endet</h3>
-<div class="explainer-block" data-block="entdecken/primzahlen/1" data-block-id="f46ea909" data-block-type="text" data-block-order="5">
-<div class="block-text"><p>Du kannst 12 als 3 · 4 schreiben. Die 4 lässt sich weiter zerlegen: 4 = 2 · 2. Bei 12 = 3 · 2 · 2 geht es nicht weiter, wenn alle Faktoren größer als 1 sein sollen.</p></div>
-</div>
-<div class="explainer-block" data-block="entdecken/primzahlen/2" data-block-id="c59606c1" data-block-type="definition" data-block-order="6">
-<dl class="explainer-definition"><dt><dfn id="begriff-primzahl"><a href="../../glossar/#primzahl">Primzahl</a></dfn></dt><dd><p>Eine Primzahl ist eine natürliche Zahl größer als 1, die sich nicht in zwei ganze Faktoren größer als 1 zerlegen lässt. Sie hat genau zwei positive Teiler: 1 und sich selbst. Die 1 ist keine Primzahl.</p></dd></dl>
-</div>
-<div class="explainer-block" data-block="entdecken/primzahlen/3" data-block-id="a1ee6cb6" data-block-type="definition" data-block-order="7">
-<dl class="explainer-definition"><dt><dfn id="begriff-primfaktorzerlegung"><a href="../../glossar/#primfaktorzerlegung">Primfaktorzerlegung</a></dfn></dt><dd><p>Bei einer Primfaktorzerlegung wird eine Zahl als Produkt von Primzahlen geschrieben. Du zerlegst zusammengesetzte Faktoren weiter, bis nur noch Primzahlen übrig sind.</p></dd></dl>
+<div class="explainer-block" data-block="regel/7" data-block-id="01a9c649" data-block-type="text" data-block-order="7">
+<div class="block-text"><p>Teiler und Vielfache gehören zusammen. Aus 3 · 4 = 12 liest du ab: 3 und 4 sind Teiler von 12, und 12 ist ein Vielfaches von 3 und von 4.</p></div>
 </div>
 </section>
 <section class="explainer-section">
-<h3 id="entdecken/abkuerzungen">Abkürzungen beim Suchen</h3>
-<div class="explainer-block" data-block="entdecken/abkuerzungen/1" data-block-id="30285386" data-block-type="text" data-block-order="8">
-<div class="block-text"><p>Wenn du die Faktoren ausprobieren kannst, helfen diese Regeln, schneller einen passenden zu finden. Die Quersumme ist die Summe aller Ziffern einer Zahl.</p></div>
+<h2 id="entdecken">Alle Teiler finden</h2>
+<div class="explainer-block" data-block="entdecken/1" data-block-id="da37c480" data-block-type="text" data-block-order="8">
+<div class="block-text"><p>Wenn du alle Zahlen finden willst, die in eine Zahl passen, suchst du ihre Teiler. So gehst du vor: Suche alle Malaufgaben mit dem Ergebnis dieser Zahl. Jede Malaufgabe liefert zwei Teiler. Nur bei einer Aufgabe wie 4 · 4 ergibt sich bloß ein Teiler. Du musst nur bis zu dem Faktor suchen, bei dem sich die Paare wiederholen.</p></div>
 </div>
-<div class="explainer-block" data-block="entdecken/abkuerzungen/2" data-block-id="3218e140" data-block-type="table" data-block-order="9">
-<div class="block-table" role="region" aria-label="Teilbarkeitsregeln helfen beim Finden von Faktoren" tabindex="0"><table><caption>Teilbarkeitsregeln helfen beim Finden von Faktoren</caption><thead><tr><th scope="col">Teilbar durch</th><th scope="col">Woran du es erkennst</th></tr></thead><tbody><tr><td>2</td><td>Die letzte Ziffer ist gerade</td></tr><tr><td>5</td><td>Letzte Ziffer 0 oder 5</td></tr><tr><td>10</td><td>Letzte Ziffer 0</td></tr><tr><td>4</td><td>Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl</td></tr><tr><td>25</td><td>Die letzten beiden Ziffern sind 00 oder ein Vielfaches von 25</td></tr><tr><td>100</td><td>Endung 00</td></tr><tr><td>3</td><td>Quersumme durch 3 teilbar</td></tr><tr><td>9</td><td>Quersumme durch 9 teilbar</td></tr></tbody></table></div>
+<div class="explainer-block" data-block="entdecken/2" data-block-id="068f5cb3" data-block-type="table" data-block-order="9">
+<div class="block-table" role="region" aria-label="Alle Malaufgaben und alle Teiler von drei Zahlen" tabindex="0"><table><caption>Alle Malaufgaben und alle Teiler von drei Zahlen</caption><thead><tr><th scope="col">Zahl</th><th scope="col">Malaufgaben</th><th scope="col">Alle Teiler</th></tr></thead><tbody><tr><td>12</td><td>1 · 12, 2 · 6, 3 · 4</td><td>1, 2, 3, 4, 6, 12</td></tr><tr><td>18</td><td>1 · 18, 2 · 9, 3 · 6</td><td>1, 2, 3, 6, 9, 18</td></tr><tr><td>16</td><td>1 · 16, 2 · 8, 4 · 4</td><td>1, 2, 4, 8, 16</td></tr></tbody></table></div>
+</div>
+<section class="explainer-section">
+<h3 id="entdecken/abkuerzungen">Abkürzungen: Teilbarkeitsregeln</h3>
+<div class="explainer-block" data-block="entdecken/abkuerzungen/1" data-block-id="cb135a11" data-block-type="text" data-block-order="10">
+<div class="block-text"><p>Bei großen Zahlen ist das Suchen mühsam. Für einige Teiler verrät dir eine Regel sofort, ob sie passen. Die Quersumme ist die Summe aller Ziffern einer Zahl: 351 hat die Quersumme 3 + 5 + 1 = 9.</p></div>
+</div>
+<div class="explainer-block" data-block="entdecken/abkuerzungen/2" data-block-id="9331f10f" data-block-type="table" data-block-order="11">
+<div class="block-table" role="region" aria-label="Teilbarkeitsregeln mit je einem Beispiel" tabindex="0"><table><caption>Teilbarkeitsregeln mit je einem Beispiel</caption><thead><tr><th scope="col">Teilbar durch</th><th scope="col">Woran du es erkennst</th><th scope="col">Beispiel</th></tr></thead><tbody><tr><td>2</td><td>Die letzte Ziffer ist gerade (0, 2, 4, 6 oder 8)</td><td>478 endet auf 8</td></tr><tr><td>5</td><td>Die letzte Ziffer ist 0 oder 5</td><td>435 endet auf 5</td></tr><tr><td>10</td><td>Die letzte Ziffer ist 0</td><td>370 endet auf 0</td></tr><tr><td>4</td><td>Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl</td><td>1316: 16 : 4 = 4 ohne Rest</td></tr><tr><td>25</td><td>Die letzten zwei Ziffern sind 00, 25, 50 oder 75</td><td>1375 endet auf 75</td></tr><tr><td>100</td><td>Die Zahl endet auf 00</td><td>2500 endet auf 00</td></tr><tr><td>3</td><td>Die Quersumme ist durch 3 teilbar</td><td>123: 1 + 2 + 3 = 6</td></tr><tr><td>9</td><td>Die Quersumme ist durch 9 teilbar</td><td>477: 4 + 7 + 7 = 18</td></tr></tbody></table></div>
+</div>
+<div class="explainer-block" data-block="entdecken/abkuerzungen/3" data-block-id="66d3b7c3" data-block-type="note" data-block-order="12">
+<div class="explainer-box explainer-note">
+<h4 class="explainer-box-title">Merke</h4>
+<div class="explainer-block" data-block="entdecken/abkuerzungen/3/1" data-block-id="7bbd1897" data-block-type="text" data-block-order="13">
+<div class="block-text"><p>Bei 3 und 9 entscheidet die Quersumme, nicht die letzte Ziffer: 703 endet auf 3, aber die Quersumme 10 ist nicht durch 3 teilbar. Bei 4 reicht die letzte Ziffer auch nicht: 14 endet auf 4, ist aber nicht durch 4 teilbar.</p>
+<p>Bei 2, 5 und 10 genügt die letzte Ziffer, weil 10 durch 2, 5 und 10 teilbar ist. Alle Zehner davor sind dann schon teilbar. Genauso genügen bei 4, 25 und 100 die letzten zwei Ziffern, weil 100 durch 4, 25 und 100 teilbar ist.</p></div>
+</div>
+</div>
 </div>
 </section>
 </section>
 <section class="explainer-section">
 <h2 id="beispiel">Am Beispiel nachvollziehen</h2>
-<div class="explainer-block" data-block="beispiel/1" data-block-id="6ff59eb5" data-block-type="example" data-block-order="10">
+<div class="explainer-block" data-block="beispiel/1" data-block-id="a9dd3fde" data-block-type="example" data-block-order="14">
 <div class="explainer-box explainer-example">
-<h3 class="explainer-box-title">24 Schritt für Schritt zerlegen</h3>
-<div class="explainer-block" data-block="beispiel/1/1" data-block-id="b748ea8b" data-block-type="formula" data-block-order="11">
-<div class="block-formula"><math display="block" class="tml-display" style="display:block math;"><mrow><mn>24</mn><mo>=</mo><mn>4</mn><mo>⋅</mo><mn>6</mn></mrow></math></div>
+<h3 class="explainer-box-title">Wodurch ist 2376 teilbar?</h3>
+<div class="explainer-block" data-block="beispiel/1/1" data-block-id="6ab11607" data-block-type="text" data-block-order="15">
+<div class="block-text"><p>Prüfe 2376 nacheinander mit den Regeln:</p>
+<ul>
+<li>Die letzte Ziffer 6 ist gerade: durch 2 teilbar.</li>
+<li>Die letzte Ziffer ist weder 0 noch 5: nicht durch 5 teilbar.</li>
+<li>Die letzten zwei Ziffern 76: 76 : 4 = 19 ohne Rest, also durch 4 teilbar.</li>
+<li>Die Quersumme von 2376 ist:</li>
+</ul></div>
 </div>
-<div class="explainer-block" data-block="beispiel/1/2" data-block-id="718fce12" data-block-type="text" data-block-order="12">
-<div class="block-text"><p>Die Faktoren 4 und 6 lassen sich beide weiter zerlegen.</p></div>
+<div class="explainer-block" data-block="beispiel/1/2" data-block-id="5cbb0662" data-block-type="formula" data-block-order="16">
+<div class="block-formula"><math display="block" class="tml-display" style="display:block math;"><mrow><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>18</mn></mrow></math></div>
 </div>
-<div class="explainer-block" data-block="beispiel/1/3" data-block-id="62b69557" data-block-type="formula" data-block-order="13">
-<div class="block-formula"><math display="block" class="tml-display" style="display:block math;"><mrow><mn>24</mn><mo>=</mo><mrow><mo fence="true" form="prefix" stretchy="false">(</mo><mn>2</mn><mo>⋅</mo><mn>2</mn><mo fence="true" form="postfix" stretchy="false">)</mo></mrow><mo>⋅</mo><mrow><mo fence="true" form="prefix" stretchy="false">(</mo><mn>2</mn><mo>⋅</mo><mn>3</mn><mo fence="true" form="postfix" stretchy="false">)</mo></mrow></mrow></math></div>
-</div>
-<div class="explainer-block" data-block="beispiel/1/4" data-block-id="0bfc21b1" data-block-type="text" data-block-order="14">
-<div class="block-text"><p>Jetzt bleiben nur Primzahlen übrig: 2, 2, 2 und 3. Du könntest auch mit 24 = 2 · 12 beginnen; am Ende erhältst du dieselben Primfaktoren in vielleicht anderer Reihenfolge.</p></div>
+<div class="explainer-block" data-block="beispiel/1/3" data-block-id="084cfc93" data-block-type="text" data-block-order="17">
+<div class="block-text"><p>18 ist durch 3 und durch 9 teilbar. Also ist 2376 durch 3 und durch 9 teilbar. Zur Probe: 2376 : 9 = 264 ohne Rest.</p></div>
 </div>
 </div>
 </div>
 </section>
 <section class="explainer-section">
 <h2 id="ueben">Üben</h2>
-<div class="explainer-block" data-block="ueben/1" data-block-id="5b7c8606" data-block-type="single-choice" data-block-order="15">
-<div class="explainer-exercise explainer-question" id="verstehen">
+<div class="explainer-block" data-block="ueben/1" data-block-id="02a9141a" data-block-type="generated" data-block-order="18">
+<div class="explainer-exercise explainer-generated" id="aufgaben">
 <p class="explainer-exercise-label">Aufgabe</p>
-<div class="question" id="frage-verstehen" data-id="verstehen" data-type="single-choice">
+<div class="explainer-live" hidden></div>
+<p class="explainer-worked-intro">Drei Beispielaufgaben, jede mit ihrer Lösung:</p>
+<ol class="explainer-worked"><li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 1</p><p class="explainer-task">30 Gegenstände werden gleichmäßig auf 3 Gruppen verteilt. Wie viele sind in einer Gruppe?</p><details class="explainer-hint"><summary>Tipp</summary><p>Verteile gleichmäßig: Teile die Anzahl durch 3. Es bleibt kein Rest, also ist 3 ein Teiler der Anzahl.</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Die 30 Gegenstände werden auf drei gleich große Gruppen verteilt.</li><li>30 : 3 = 10. So viele Gegenstände liegen in jeder Gruppe. Es bleibt kein Rest, darum ist 3 ein Teiler von 30.</li></ol><p><strong>Richtige Antwort:</strong> 10</p></details></li>
+<li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 2</p><p class="explainer-task">15 Gegenstände werden gleichmäßig auf 3 Gruppen verteilt. Wie viele sind in einer Gruppe?</p><details class="explainer-hint"><summary>Tipp</summary><p>Verteile gleichmäßig: Teile die Anzahl durch 3. Es bleibt kein Rest, also ist 3 ein Teiler der Anzahl.</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Die 15 Gegenstände werden auf drei gleich große Gruppen verteilt.</li><li>15 : 3 = 5. So viele Gegenstände liegen in jeder Gruppe. Es bleibt kein Rest, darum ist 3 ein Teiler von 15.</li></ol><p><strong>Richtige Antwort:</strong> 5</p></details></li>
+<li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 3</p><p class="explainer-task">12 Gegenstände werden gleichmäßig auf 3 Gruppen verteilt. Wie viele sind in einer Gruppe?</p><details class="explainer-hint"><summary>Tipp</summary><p>Verteile gleichmäßig: Teile die Anzahl durch 3. Es bleibt kein Rest, also ist 3 ein Teiler der Anzahl.</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Die 12 Gegenstände werden auf drei gleich große Gruppen verteilt.</li><li>12 : 3 = 4. So viele Gegenstände liegen in jeder Gruppe. Es bleibt kein Rest, darum ist 3 ein Teiler von 12.</li></ol><p><strong>Richtige Antwort:</strong> 4</p></details></li></ol>
+<script type="application/json" class="explainer-exercise-data">{"kind":"generated","lang":"de","spec":{"type":"generated","id":"aufgaben","given":{"e":{"pick":1,"from":{"data":"grundzahlen"}}},"task":{"text":"{{e.dreifach}} Gegenstände werden gleichmäßig auf 3 Gruppen verteilt. Wie viele sind in einer Gruppe?"},"answer":{"value":"e.dreifach / 3","compare":"number"},"mistakes":[{"value":"e.dreifach","message":"Das ist die Gesamtmenge, nicht die Menge in einer Gruppe."},{"value":"1","message":"Teile die gesamte Menge in drei gleich große Gruppen."}],"hint":"Verteile gleichmäßig: Teile die Anzahl durch 3. Es bleibt kein Rest, also ist 3 ein Teiler der Anzahl.","steps":["Die {{e.dreifach}} Gegenstände werden auf drei gleich große Gruppen verteilt.","{{e.dreifach}} : 3 = {{answer}}. So viele Gegenstände liegen in jeder Gruppe. Es bleibt kein Rest, darum ist 3 ein Teiler von {{e.dreifach}}."]},"templates":{"de":{"task":"⟦e.dreifach⟧ Gegenstände werden gleichmäßig auf 3 Gruppen verteilt. Wie viele sind in einer Gruppe?","steps":["Die ⟦e.dreifach⟧ Gegenstände werden auf drei gleich große Gruppen verteilt.","⟦e.dreifach⟧ : 3 = ⟦answer⟧. So viele Gegenstände liegen in jeder Gruppe. Es bleibt kein Rest, darum ist 3 ein Teiler von ⟦e.dreifach⟧."],"hint":"Verteile gleichmäßig: Teile die Anzahl durch 3. Es bleibt kein Rest, also ist 3 ein Teiler der Anzahl.","messages":["Das ist die Gesamtmenge, nicht die Menge in einer Gruppe.","Teile die gesamte Menge in drei gleich große Gruppen."]}},"data":{"grundzahlen":[{"basis":3,"dreifach":9,"vierfach":12,"doppelt":6,"sechsfach":18,"rundungszahl":0.346},{"basis":4,"dreifach":12,"vierfach":16,"doppelt":8,"sechsfach":24,"rundungszahl":0.446},{"basis":5,"dreifach":15,"vierfach":20,"doppelt":10,"sechsfach":30,"rundungszahl":0.546},{"basis":6,"dreifach":18,"vierfach":24,"doppelt":12,"sechsfach":36,"rundungszahl":0.646},{"basis":8,"dreifach":24,"vierfach":32,"doppelt":16,"sechsfach":48,"rundungszahl":0.846},{"basis":10,"dreifach":30,"vierfach":40,"doppelt":20,"sechsfach":60,"rundungszahl":1.046}]},"seeds":[1,2,3,4,6,25],"texts":{"newTask":"Neue Aufgabe","practice":"Übe selbst, mit immer neuen Aufgaben:","hint":"Tipp","solution":"Lösung","taskNumber":"Aufgabe Nr. {n}"}}</script>
+</div>
+</div>
+<div class="explainer-block" data-block="ueben/2" data-block-id="e82ecda5" data-block-type="number" data-block-order="19">
+<div class="explainer-exercise explainer-question" id="teiler-zaehlen">
+<p class="explainer-exercise-label">Aufgabe</p>
+<div class="question" id="frage-teiler-zaehlen" data-id="teiler-zaehlen" data-type="number">
 <form class="question-form" novalidate>
 <fieldset>
-<legend class="question-text">Welche Zahl ist eine Primzahl?</legend>
-<label class="question-option"><input type="radio" name="frage-verstehen" value="0"> <span>13</span></label>
-<label class="question-option"><input type="radio" name="frage-verstehen" value="1"> <span>1</span></label>
-<label class="question-option"><input type="radio" name="frage-verstehen" value="2"> <span>15</span></label>
+<legend class="question-text">Wie viele Teiler hat die Zahl 18? Zähle 1 und 18 mit.</legend>
+<label class="question-number">Deine Antwort <input type="text" inputmode="decimal" autocomplete="off" name="frage-teiler-zaehlen">  </label>
+</fieldset>
+<div class="question-feedback-row"><div class="question-feedback" role="status"></div></div>
+<div class="question-reveal" hidden>
+<p><strong>Richtige Antwort:</strong> 6</p>
+<p class="question-explanation">Die Malaufgaben 1 · 18, 2 · 9 und 3 · 6 liefern die sechs Teiler 1, 2, 3, 6, 9 und 18. Wer nur 4 oder 5 nennt, hat meist nur die kleinen Faktoren gezählt und die großen Partner 18, 9 und 6 vergessen.</p>
+</div>
+<p class="question-actions" hidden><button type="submit" class="question-check">Prüfen</button></p>
+</form>
+</div>
+<details class="explainer-solution"><summary>Lösung</summary>
+<p><strong>Richtige Antwort:</strong> 6</p>
+<p class="question-explanation">Die Malaufgaben 1 · 18, 2 · 9 und 3 · 6 liefern die sechs Teiler 1, 2, 3, 6, 9 und 18. Wer nur 4 oder 5 nennt, hat meist nur die kleinen Faktoren gezählt und die großen Partner 18, 9 und 6 vergessen.</p>
+</details>
+<script type="application/json" class="explainer-exercise-data">{"kind":"question","lang":"de","question":{"id":"teiler-zaehlen","text":"Wie viele Teiler hat die Zahl 18? Zähle 1 und 18 mit.","explanation":"Die Malaufgaben 1 · 18, 2 · 9 und 3 · 6 liefern die sechs Teiler 1, 2, 3, 6, 9 und 18. Wer nur 4 oder 5 nennt, hat meist nur die kleinen Faktoren gezählt und die großen Partner 18, 9 und 6 vergessen.","links":[],"type":"number","answer":6,"tolerance":0},"rendered":{}}</script>
+</div>
+</div>
+<div class="explainer-block" data-block="ueben/3" data-block-id="f11bf860" data-block-type="multiple-choice" data-block-order="20">
+<div class="explainer-exercise explainer-question" id="vielfache">
+<p class="explainer-exercise-label">Aufgabe</p>
+<div class="question" id="frage-vielfache" data-id="vielfache" data-type="multiple-choice">
+<form class="question-form" novalidate>
+<fieldset>
+<legend class="question-text">Welche Zahlen sind Vielfache von 6?</legend>
+<label class="question-option"><input type="checkbox" name="frage-vielfache" value="0"> <span>18</span></label>
+<label class="question-option"><input type="checkbox" name="frage-vielfache" value="1"> <span>36</span></label>
+<label class="question-option"><input type="checkbox" name="frage-vielfache" value="2"> <span>3</span></label>
+<label class="question-option"><input type="checkbox" name="frage-vielfache" value="3"> <span>16</span></label>
 </fieldset>
 <div class="question-feedback-row"><div class="question-feedback" role="status"></div></div>
 <div class="question-reveal" hidden>
 <ul class="question-infos">
-<li class="question-info question-info-right" data-option="0"><p class="question-info-head"><strong>13</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler.</p></li>
-<li class="question-info" data-option="1"><p class="question-info-head"><strong>1</strong></p><p>Die 1 hat nur einen positiven Teiler. Eine Primzahl braucht genau zwei.</p></li>
-<li class="question-info" data-option="2"><p class="question-info-head"><strong>15</strong></p><p>15 hat außer 1 und 15 auch die Teiler 3 und 5.</p></li>
+<li class="question-info question-info-right" data-option="0"><p class="question-info-head"><strong>18</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>18 = 3 · 6, also ein Vielfaches von 6.</p></li>
+<li class="question-info question-info-right" data-option="1"><p class="question-info-head"><strong>36</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>36 = 6 · 6, also ein Vielfaches von 6.</p></li>
+<li class="question-info" data-option="2"><p class="question-info-head"><strong>3</strong></p><p>3 ist ein Teiler von 6, kein Vielfaches. Vielfache von 6 sind mindestens so groß wie 6.</p></li>
+<li class="question-info" data-option="3"><p class="question-info-head"><strong>16</strong></p><p>16 steht nicht in der Reihe 6, 12, 18, 24, … .</p></li>
 </ul>
-<p class="question-explanation">13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler.</p>
+<p class="question-explanation">Die Vielfachen von 6 sind 6, 12, 18, 24, 30, 36, … Teiler sind kleiner oder gleich der Zahl, Vielfache größer oder gleich.</p>
 </div>
 <p class="question-actions" hidden><button type="submit" class="question-check">Prüfen</button></p>
 </form>
 </div>
 <details class="explainer-solution"><summary>Lösung</summary>
 <ul class="question-infos">
-<li class="question-info question-info-right" data-option="0"><p class="question-info-head"><strong>13</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler.</p></li>
-<li class="question-info" data-option="1"><p class="question-info-head"><strong>1</strong></p><p>Die 1 hat nur einen positiven Teiler. Eine Primzahl braucht genau zwei.</p></li>
-<li class="question-info" data-option="2"><p class="question-info-head"><strong>15</strong></p><p>15 hat außer 1 und 15 auch die Teiler 3 und 5.</p></li>
+<li class="question-info question-info-right" data-option="0"><p class="question-info-head"><strong>18</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>18 = 3 · 6, also ein Vielfaches von 6.</p></li>
+<li class="question-info question-info-right" data-option="1"><p class="question-info-head"><strong>36</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>36 = 6 · 6, also ein Vielfaches von 6.</p></li>
+<li class="question-info" data-option="2"><p class="question-info-head"><strong>3</strong></p><p>3 ist ein Teiler von 6, kein Vielfaches. Vielfache von 6 sind mindestens so groß wie 6.</p></li>
+<li class="question-info" data-option="3"><p class="question-info-head"><strong>16</strong></p><p>16 steht nicht in der Reihe 6, 12, 18, 24, … .</p></li>
 </ul>
-<p class="question-explanation">13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler.</p>
+<p class="question-explanation">Die Vielfachen von 6 sind 6, 12, 18, 24, 30, 36, … Teiler sind kleiner oder gleich der Zahl, Vielfache größer oder gleich.</p>
 </details>
-<script type="application/json" class="explainer-exercise-data">{"kind":"question","lang":"de","question":{"id":"verstehen","text":"Welche Zahl ist eine Primzahl?","explanation":"13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler.","links":[],"type":"single-choice","options":[{"text":"13","correct":true,"info":"13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler."},{"text":"1","correct":false,"info":"Die 1 hat nur einen positiven Teiler. Eine Primzahl braucht genau zwei."},{"text":"15","correct":false,"info":"15 hat außer 1 und 15 auch die Teiler 3 und 5."}]},"rendered":{}}</script>
+<script type="application/json" class="explainer-exercise-data">{"kind":"question","lang":"de","question":{"id":"vielfache","text":"Welche Zahlen sind Vielfache von 6?","explanation":"Die Vielfachen von 6 sind 6, 12, 18, 24, 30, 36, … Teiler sind kleiner oder gleich der Zahl, Vielfache größer oder gleich.","links":[],"type":"multiple-choice","options":[{"text":"18","correct":true,"info":"18 = 3 · 6, also ein Vielfaches von 6."},{"text":"36","correct":true,"info":"36 = 6 · 6, also ein Vielfaches von 6."},{"text":"3","correct":false,"info":"3 ist ein Teiler von 6, kein Vielfaches. Vielfache von 6 sind mindestens so groß wie 6."},{"text":"16","correct":false,"info":"16 steht nicht in der Reihe 6, 12, 18, 24, … ."}]},"rendered":{}}</script>
 </div>
 </div>
-<div class="explainer-block" data-block="ueben/2" data-block-id="dabf7d00" data-block-type="generated" data-block-order="16">
-<div class="explainer-exercise explainer-generated" id="aufgaben">
+<div class="explainer-block" data-block="ueben/4" data-block-id="5f34d20a" data-block-type="matching" data-block-order="21">
+<div class="explainer-exercise explainer-question" id="regeln-zuordnen">
+<p class="explainer-exercise-label">Aufgabe</p>
+<div class="question" id="frage-regeln-zuordnen" data-id="regeln-zuordnen" data-type="matching">
+<form class="question-form" novalidate>
+<fieldset>
+<legend class="question-text">Ordne jeder Regel zu, wofür sie gilt.</legend>
+<p class="question-hint">Wähle zu jedem Eintrag das Passende.</p>
+<ul class="question-pairs">
+<li><label><span>Die letzte Ziffer ist 0 oder 5</span> <select name="frage-regeln-zuordnen-0" data-left="0"><option value="">bitte wählen</option><option value="2">durch 4 teilbar</option><option value="1">durch 3 teilbar</option><option value="0">durch 5 teilbar</option><option value="3">durch 100 teilbar</option></select></label></li>
+<li><label><span>Die Quersumme ist durch 3 teilbar</span> <select name="frage-regeln-zuordnen-1" data-left="1"><option value="">bitte wählen</option><option value="2">durch 4 teilbar</option><option value="1">durch 3 teilbar</option><option value="0">durch 5 teilbar</option><option value="3">durch 100 teilbar</option></select></label></li>
+<li><label><span>Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl</span> <select name="frage-regeln-zuordnen-2" data-left="2"><option value="">bitte wählen</option><option value="2">durch 4 teilbar</option><option value="1">durch 3 teilbar</option><option value="0">durch 5 teilbar</option><option value="3">durch 100 teilbar</option></select></label></li>
+<li><label><span>Die Zahl endet auf 00</span> <select name="frage-regeln-zuordnen-3" data-left="3"><option value="">bitte wählen</option><option value="2">durch 4 teilbar</option><option value="1">durch 3 teilbar</option><option value="0">durch 5 teilbar</option><option value="3">durch 100 teilbar</option></select></label></li>
+</ul>
+</fieldset>
+<div class="question-feedback-row"><div class="question-feedback" role="status"></div></div>
+<div class="question-reveal" hidden>
+<p><strong>Richtige Antwort:</strong> Die letzte Ziffer ist 0 oder 5 – durch 5 teilbar; Die Quersumme ist durch 3 teilbar – durch 3 teilbar; Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl – durch 4 teilbar; Die Zahl endet auf 00 – durch 100 teilbar</p>
+<p class="question-explanation">Die Endziffer entscheidet bei 2, 5 und 10, die letzten zwei Ziffern bei 4, 25 und 100 und die Quersumme bei 3 und 9. Für 8 gibt es hier keine Regel.</p>
+</div>
+<p class="question-actions" hidden><button type="submit" class="question-check">Prüfen</button></p>
+</form>
+</div>
+<details class="explainer-solution"><summary>Lösung</summary>
+<p><strong>Richtige Antwort:</strong> Die letzte Ziffer ist 0 oder 5 – durch 5 teilbar; Die Quersumme ist durch 3 teilbar – durch 3 teilbar; Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl – durch 4 teilbar; Die Zahl endet auf 00 – durch 100 teilbar</p>
+<p class="question-explanation">Die Endziffer entscheidet bei 2, 5 und 10, die letzten zwei Ziffern bei 4, 25 und 100 und die Quersumme bei 3 und 9. Für 8 gibt es hier keine Regel.</p>
+</details>
+<script type="application/json" class="explainer-exercise-data">{"kind":"question","lang":"de","question":{"id":"regeln-zuordnen","text":"Ordne jeder Regel zu, wofür sie gilt.","explanation":"Die Endziffer entscheidet bei 2, 5 und 10, die letzten zwei Ziffern bei 4, 25 und 100 und die Quersumme bei 3 und 9. Für 8 gibt es hier keine Regel.","links":[],"type":"matching","pairs":[{"left":"Die letzte Ziffer ist 0 oder 5","right":"durch 5 teilbar"},{"left":"Die Quersumme ist durch 3 teilbar","right":"durch 3 teilbar"},{"left":"Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl","right":"durch 4 teilbar"},{"left":"Die Zahl endet auf 00","right":"durch 100 teilbar"}]},"rendered":{}}</script>
+</div>
+</div>
+<div class="explainer-block" data-block="ueben/5" data-block-id="8cb9a5d2" data-block-type="multiple-choice" data-block-order="22">
+<div class="explainer-exercise explainer-question" id="durch-3">
+<p class="explainer-exercise-label">Aufgabe</p>
+<div class="question" id="frage-durch-3" data-id="durch-3" data-type="multiple-choice">
+<form class="question-form" novalidate>
+<fieldset>
+<legend class="question-text">Welche dieser Zahlen sind durch 3 teilbar?</legend>
+<label class="question-option"><input type="checkbox" name="frage-durch-3" value="0"> <span>123</span></label>
+<label class="question-option"><input type="checkbox" name="frage-durch-3" value="1"> <span>703</span></label>
+<label class="question-option"><input type="checkbox" name="frage-durch-3" value="2"> <span>351</span></label>
+<label class="question-option"><input type="checkbox" name="frage-durch-3" value="3"> <span>245</span></label>
+<label class="question-option"><input type="checkbox" name="frage-durch-3" value="4"> <span>1002</span></label>
+</fieldset>
+<div class="question-feedback-row"><div class="question-feedback" role="status"></div></div>
+<div class="question-reveal" hidden>
+<ul class="question-infos">
+<li class="question-info question-info-right" data-option="0"><p class="question-info-head"><strong>123</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>Die Quersumme 1 + 2 + 3 = 6 ist durch 3 teilbar.</p></li>
+<li class="question-info" data-option="1"><p class="question-info-head"><strong>703</strong></p><p>Die letzte Ziffer 3 entscheidet nicht. Die Quersumme 7 + 0 + 3 = 10 ist nicht durch 3 teilbar.</p></li>
+<li class="question-info question-info-right" data-option="2"><p class="question-info-head"><strong>351</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>Die Quersumme 3 + 5 + 1 = 9 ist durch 3 teilbar.</p></li>
+<li class="question-info" data-option="3"><p class="question-info-head"><strong>245</strong></p><p>Die Quersumme 2 + 4 + 5 = 11 ist nicht durch 3 teilbar.</p></li>
+<li class="question-info question-info-right" data-option="4"><p class="question-info-head"><strong>1002</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>Die Quersumme 1 + 0 + 0 + 2 = 3 ist durch 3 teilbar. Auch Nullen zählen mit, sie ändern die Summe nur nicht.</p></li>
+</ul>
+<p class="question-explanation">Du zählst alle Ziffern zusammen und prüfst die Summe. Nur die letzte Ziffer anzusehen führt bei 3 in die Irre.</p>
+</div>
+<p class="question-actions" hidden><button type="submit" class="question-check">Prüfen</button></p>
+</form>
+</div>
+<details class="explainer-solution"><summary>Lösung</summary>
+<ul class="question-infos">
+<li class="question-info question-info-right" data-option="0"><p class="question-info-head"><strong>123</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>Die Quersumme 1 + 2 + 3 = 6 ist durch 3 teilbar.</p></li>
+<li class="question-info" data-option="1"><p class="question-info-head"><strong>703</strong></p><p>Die letzte Ziffer 3 entscheidet nicht. Die Quersumme 7 + 0 + 3 = 10 ist nicht durch 3 teilbar.</p></li>
+<li class="question-info question-info-right" data-option="2"><p class="question-info-head"><strong>351</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>Die Quersumme 3 + 5 + 1 = 9 ist durch 3 teilbar.</p></li>
+<li class="question-info" data-option="3"><p class="question-info-head"><strong>245</strong></p><p>Die Quersumme 2 + 4 + 5 = 11 ist nicht durch 3 teilbar.</p></li>
+<li class="question-info question-info-right" data-option="4"><p class="question-info-head"><strong>1002</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>Die Quersumme 1 + 0 + 0 + 2 = 3 ist durch 3 teilbar. Auch Nullen zählen mit, sie ändern die Summe nur nicht.</p></li>
+</ul>
+<p class="question-explanation">Du zählst alle Ziffern zusammen und prüfst die Summe. Nur die letzte Ziffer anzusehen führt bei 3 in die Irre.</p>
+</details>
+<script type="application/json" class="explainer-exercise-data">{"kind":"question","lang":"de","question":{"id":"durch-3","text":"Welche dieser Zahlen sind durch 3 teilbar?","explanation":"Du zählst alle Ziffern zusammen und prüfst die Summe. Nur die letzte Ziffer anzusehen führt bei 3 in die Irre.","links":[],"type":"multiple-choice","options":[{"text":"123","correct":true,"info":"Die Quersumme 1 + 2 + 3 = 6 ist durch 3 teilbar."},{"text":"703","correct":false,"info":"Die letzte Ziffer 3 entscheidet nicht. Die Quersumme 7 + 0 + 3 = 10 ist nicht durch 3 teilbar."},{"text":"351","correct":true,"info":"Die Quersumme 3 + 5 + 1 = 9 ist durch 3 teilbar."},{"text":"245","correct":false,"info":"Die Quersumme 2 + 4 + 5 = 11 ist nicht durch 3 teilbar."},{"text":"1002","correct":true,"info":"Die Quersumme 1 + 0 + 0 + 2 = 3 ist durch 3 teilbar. Auch Nullen zählen mit, sie ändern die Summe nur nicht."}]},"rendered":{}}</script>
+</div>
+</div>
+<div class="explainer-block" data-block="ueben/6" data-block-id="a6a28000" data-block-type="generated" data-block-order="23">
+<div class="explainer-exercise explainer-generated" id="ziffer-ergaenzen">
 <p class="explainer-exercise-label">Aufgabe</p>
 <div class="explainer-live" hidden></div>
 <p class="explainer-worked-intro">Drei Beispielaufgaben, jede mit ihrer Lösung:</p>
-<ol class="explainer-worked"><li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 1</p><p class="explainer-task">30 Gegenstände werden gleichmäßig auf 3 Gruppen verteilt. Wie viele sind in einer Gruppe?</p><details class="explainer-hint"><summary>Tipp</summary><p>Verteile gleichmäßig: Teile die Anzahl durch 3. Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist.</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Die 30 Gegenstände werden auf drei gleich große Gruppen verteilt.</li><li>30 : 3 = 10. So viele Gegenstände liegen in jeder Gruppe.</li></ol><p><strong>Richtige Antwort:</strong> 10</p></details></li>
-<li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 2</p><p class="explainer-task">15 Gegenstände werden gleichmäßig auf 3 Gruppen verteilt. Wie viele sind in einer Gruppe?</p><details class="explainer-hint"><summary>Tipp</summary><p>Verteile gleichmäßig: Teile die Anzahl durch 3. Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist.</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Die 15 Gegenstände werden auf drei gleich große Gruppen verteilt.</li><li>15 : 3 = 5. So viele Gegenstände liegen in jeder Gruppe.</li></ol><p><strong>Richtige Antwort:</strong> 5</p></details></li>
-<li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 3</p><p class="explainer-task">12 Gegenstände werden gleichmäßig auf 3 Gruppen verteilt. Wie viele sind in einer Gruppe?</p><details class="explainer-hint"><summary>Tipp</summary><p>Verteile gleichmäßig: Teile die Anzahl durch 3. Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist.</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Die 12 Gegenstände werden auf drei gleich große Gruppen verteilt.</li><li>12 : 3 = 4. So viele Gegenstände liegen in jeder Gruppe.</li></ol><p><strong>Richtige Antwort:</strong> 4</p></details></li></ol>
-<script type="application/json" class="explainer-exercise-data">{"kind":"generated","lang":"de","spec":{"type":"generated","id":"aufgaben","given":{"e":{"pick":1,"from":{"data":"grundzahlen"}}},"task":{"text":"{{e.dreifach}} Gegenstände werden gleichmäßig auf 3 Gruppen verteilt. Wie viele sind in einer Gruppe?"},"answer":{"value":"e.dreifach / 3","compare":"number"},"mistakes":[{"value":"e.dreifach","message":"Das ist die Gesamtmenge, nicht die Menge in einer Gruppe."},{"value":"1","message":"Teile die gesamte Menge in drei gleich große Gruppen."}],"hint":"Verteile gleichmäßig: Teile die Anzahl durch 3. Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist.","steps":["Die {{e.dreifach}} Gegenstände werden auf drei gleich große Gruppen verteilt.","{{e.dreifach}} : 3 = {{answer}}. So viele Gegenstände liegen in jeder Gruppe."]},"templates":{"de":{"task":"⟦e.dreifach⟧ Gegenstände werden gleichmäßig auf 3 Gruppen verteilt. Wie viele sind in einer Gruppe?","steps":["Die ⟦e.dreifach⟧ Gegenstände werden auf drei gleich große Gruppen verteilt.","⟦e.dreifach⟧ : 3 = ⟦answer⟧. So viele Gegenstände liegen in jeder Gruppe."],"hint":"Verteile gleichmäßig: Teile die Anzahl durch 3. Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist.","messages":["Das ist die Gesamtmenge, nicht die Menge in einer Gruppe.","Teile die gesamte Menge in drei gleich große Gruppen."]}},"data":{"grundzahlen":[{"basis":3,"dreifach":9,"vierfach":12,"doppelt":6,"sechsfach":18,"rundungszahl":0.346},{"basis":4,"dreifach":12,"vierfach":16,"doppelt":8,"sechsfach":24,"rundungszahl":0.446},{"basis":5,"dreifach":15,"vierfach":20,"doppelt":10,"sechsfach":30,"rundungszahl":0.546},{"basis":6,"dreifach":18,"vierfach":24,"doppelt":12,"sechsfach":36,"rundungszahl":0.646},{"basis":8,"dreifach":24,"vierfach":32,"doppelt":16,"sechsfach":48,"rundungszahl":0.846},{"basis":10,"dreifach":30,"vierfach":40,"doppelt":20,"sechsfach":60,"rundungszahl":1.046}]},"seeds":[1,2,3,4,6,25],"texts":{"newTask":"Neue Aufgabe","practice":"Übe selbst, mit immer neuen Aufgaben:","hint":"Tipp","solution":"Lösung","taskNumber":"Aufgabe Nr. {n}"}}</script>
+<ol class="explainer-worked"><li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 1</p><p class="explainer-task">Die Zahl 25□ hat als letzte Ziffer ein leeres Kästchen. Welche ist die kleinste Ziffer, die du einsetzen kannst, damit die Zahl durch 9 teilbar wird?</p><details class="explainer-hint"><summary>Tipp</summary><p>Berechne die Quersumme von 25. Welche Ziffer musst du dazuzählen, damit die Summe in der 9er-Reihe steht?</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Die Quersumme von 25 ist 2 + 5 = 7.</li><li>7 steht noch nicht in der 9er-Reihe. Mit der Ziffer 2 wird die Quersumme 9, und die steht drin.</li><li>Die Zahl 252 ist also durch 9 teilbar, und keine kleinere Ziffer passt.</li></ol><p><strong>Richtige Antwort:</strong> 2</p></details></li>
+<li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 2</p><p class="explainer-task">Die Zahl 58□ hat als letzte Ziffer ein leeres Kästchen. Welche ist die kleinste Ziffer, die du einsetzen kannst, damit die Zahl durch 3 teilbar wird?</p><details class="explainer-hint"><summary>Tipp</summary><p>Berechne die Quersumme von 58. Welche Ziffer musst du dazuzählen, damit die Summe in der 3er-Reihe steht?</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Die Quersumme von 58 ist 5 + 8 = 13.</li><li>13 steht noch nicht in der 3er-Reihe. Mit der Ziffer 2 wird die Quersumme 15, und die steht drin.</li><li>Die Zahl 582 ist also durch 3 teilbar, und keine kleinere Ziffer passt.</li></ol><p><strong>Richtige Antwort:</strong> 2</p></details></li>
+<li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 3</p><p class="explainer-task">Die Zahl 134□ hat als letzte Ziffer ein leeres Kästchen. Welche ist die kleinste Ziffer, die du einsetzen kannst, damit die Zahl durch 9 teilbar wird?</p><details class="explainer-hint"><summary>Tipp</summary><p>Berechne die Quersumme von 134. Welche Ziffer musst du dazuzählen, damit die Summe in der 9er-Reihe steht?</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Die Quersumme von 134 ist 1 + 3 + 4 = 8.</li><li>8 steht noch nicht in der 9er-Reihe. Mit der Ziffer 1 wird die Quersumme 9, und die steht drin.</li><li>Die Zahl 1341 ist also durch 9 teilbar, und keine kleinere Ziffer passt.</li></ol><p><strong>Richtige Antwort:</strong> 1</p></details></li></ol>
+<script type="application/json" class="explainer-exercise-data">{"kind":"generated","lang":"de","spec":{"type":"generated","id":"ziffer-ergaenzen","given":{"e":{"pick":1,"from":{"data":"ziffernergaenzen"}}},"task":{"text":"Die Zahl {{e.zahl}}□ hat als letzte Ziffer ein leeres Kästchen. Welche ist die kleinste Ziffer, die du einsetzen kannst, damit die Zahl durch {{e.d}} teilbar wird?"},"answer":{"value":"e.ziffer","compare":"number"},"mistakes":[{"value":"e.rest","message":"Das ist der Rest, der bei der Quersumme von {{e.zahl}} bleibt. Gesucht ist die Ziffer, die bis zum nächsten Vielfachen von {{e.d}} fehlt."},{"value":"e.slip","message":"Du hast eine Ziffer gewählt, die selbst durch {{e.d}} teilbar ist. Bei {{e.d}} entscheidet aber die Quersumme aller Ziffern, nicht die letzte Ziffer allein."}],"hint":"Berechne die Quersumme von {{e.zahl}}. Welche Ziffer musst du dazuzählen, damit die Summe in der {{e.d}}er-Reihe steht?","steps":["Die Quersumme von {{e.zahl}} ist {{e.rechnung}} = {{e.q}}.","{{e.q}} steht noch nicht in der {{e.d}}er-Reihe. Mit der Ziffer {{answer}} wird die Quersumme {{e.qneu}}, und die steht drin.","Die Zahl {{e.neu}} ist also durch {{e.d}} teilbar, und keine kleinere Ziffer passt."]},"templates":{"de":{"task":"Die Zahl ⟦e.zahl⟧□ hat als letzte Ziffer ein leeres Kästchen. Welche ist die kleinste Ziffer, die du einsetzen kannst, damit die Zahl durch ⟦e.d⟧ teilbar wird?","steps":["Die Quersumme von ⟦e.zahl⟧ ist ⟦e.rechnung⟧ = ⟦e.q⟧.","⟦e.q⟧ steht noch nicht in der ⟦e.d⟧er-Reihe. Mit der Ziffer ⟦answer⟧ wird die Quersumme ⟦e.qneu⟧, und die steht drin.","Die Zahl ⟦e.neu⟧ ist also durch ⟦e.d⟧ teilbar, und keine kleinere Ziffer passt."],"hint":"Berechne die Quersumme von ⟦e.zahl⟧. Welche Ziffer musst du dazuzählen, damit die Summe in der ⟦e.d⟧er-Reihe steht?","messages":["Das ist der Rest, der bei der Quersumme von ⟦e.zahl⟧ bleibt. Gesucht ist die Ziffer, die bis zum nächsten Vielfachen von ⟦e.d⟧ fehlt.","Du hast eine Ziffer gewählt, die selbst durch ⟦e.d⟧ teilbar ist. Bei ⟦e.d⟧ entscheidet aber die Quersumme aller Ziffern, nicht die letzte Ziffer allein."]}},"data":{"ziffernergaenzen":[{"zahl":25,"d":3,"q":7,"rechnung":"2 + 5","rest":1,"ziffer":2,"neu":252,"qneu":9,"slip":3},{"zahl":41,"d":3,"q":5,"rechnung":"4 + 1","rest":2,"ziffer":1,"neu":411,"qneu":6,"slip":3},{"zahl":58,"d":3,"q":13,"rechnung":"5 + 8","rest":1,"ziffer":2,"neu":582,"qneu":15,"slip":3},{"zahl":64,"d":3,"q":10,"rechnung":"6 + 4","rest":1,"ziffer":2,"neu":642,"qneu":12,"slip":3},{"zahl":86,"d":3,"q":14,"rechnung":"8 + 6","rest":2,"ziffer":1,"neu":861,"qneu":15,"slip":3},{"zahl":215,"d":3,"q":8,"rechnung":"2 + 1 + 5","rest":2,"ziffer":1,"neu":2151,"qneu":9,"slip":3},{"zahl":347,"d":3,"q":14,"rechnung":"3 + 4 + 7","rest":2,"ziffer":1,"neu":3471,"qneu":15,"slip":3},{"zahl":25,"d":9,"q":7,"rechnung":"2 + 5","rest":7,"ziffer":2,"neu":252,"qneu":9,"slip":9},{"zahl":47,"d":9,"q":11,"rechnung":"4 + 7","rest":2,"ziffer":7,"neu":477,"qneu":18,"slip":9},{"zahl":58,"d":9,"q":13,"rechnung":"5 + 8","rest":4,"ziffer":5,"neu":585,"qneu":18,"slip":9},{"zahl":134,"d":9,"q":8,"rechnung":"1 + 3 + 4","rest":8,"ziffer":1,"neu":1341,"qneu":9,"slip":9},{"zahl":62,"d":9,"q":8,"rechnung":"6 + 2","rest":8,"ziffer":1,"neu":621,"qneu":9,"slip":9},{"zahl":71,"d":9,"q":8,"rechnung":"7 + 1","rest":8,"ziffer":1,"neu":711,"qneu":9,"slip":9},{"zahl":236,"d":9,"q":11,"rechnung":"2 + 3 + 6","rest":2,"ziffer":7,"neu":2367,"qneu":18,"slip":9}]},"seeds":[1,2,4,5,6,7,8,12,13,15,26,29,41,53],"texts":{"newTask":"Neue Aufgabe","practice":"Übe selbst, mit immer neuen Aufgaben:","hint":"Tipp","solution":"Lösung","taskNumber":"Aufgabe Nr. {n}"}}</script>
 </div>
 </div>
-<div class="explainer-block" data-block="ueben/3" data-block-id="67b2a8ec" data-block-type="generated" data-block-order="17">
-<div class="explainer-exercise explainer-generated" id="primfaktoren">
+<div class="explainer-block" data-block="ueben/7" data-block-id="2d4f6788" data-block-type="single-choice" data-block-order="24">
+<div class="explainer-exercise explainer-question" id="durch-4">
 <p class="explainer-exercise-label">Aufgabe</p>
-<div class="explainer-live" hidden></div>
-<p class="explainer-worked-intro">Drei Beispielaufgaben, jede mit ihrer Lösung:</p>
-<ol class="explainer-worked"><li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 1</p><p class="explainer-task">Zerlege 14 vollständig in Primfaktoren. Eine 2 ist schon gefunden: 14 = 2 · … . Welcher Primfaktor fehlt?</p><details class="explainer-hint"><summary>Tipp</summary><p>Suche die Zahl, die mit 2 multipliziert die Ausgangszahl ergibt. Prüfe danach, ob sie selbst prim ist.</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Teile 14 durch den schon gefundenen Primfaktor 2. Das ergibt 7.</li><li>7 ist eine Primzahl. Damit ist 14 = 2 · 7 vollständig in Primfaktoren zerlegt.</li></ol><p><strong>Richtige Antwort:</strong> 7</p></details></li>
-<li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 2</p><p class="explainer-task">Zerlege 4 vollständig in Primfaktoren. Eine 2 ist schon gefunden: 4 = 2 · … . Welcher Primfaktor fehlt?</p><details class="explainer-hint"><summary>Tipp</summary><p>Suche die Zahl, die mit 2 multipliziert die Ausgangszahl ergibt. Prüfe danach, ob sie selbst prim ist.</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Teile 4 durch den schon gefundenen Primfaktor 2. Das ergibt 2.</li><li>2 ist eine Primzahl. Damit ist 4 = 2 · 2 vollständig in Primfaktoren zerlegt.</li></ol><p><strong>Richtige Antwort:</strong> 2</p></details></li>
-<li class="explainer-worked-task"><p class="explainer-task-number">Aufgabe Nr. 3</p><p class="explainer-task">Zerlege 6 vollständig in Primfaktoren. Eine 2 ist schon gefunden: 6 = 2 · … . Welcher Primfaktor fehlt?</p><details class="explainer-hint"><summary>Tipp</summary><p>Suche die Zahl, die mit 2 multipliziert die Ausgangszahl ergibt. Prüfe danach, ob sie selbst prim ist.</p></details><details class="explainer-solution"><summary>Lösung</summary><ol class="explainer-steps"><li>Teile 6 durch den schon gefundenen Primfaktor 2. Das ergibt 3.</li><li>3 ist eine Primzahl. Damit ist 6 = 2 · 3 vollständig in Primfaktoren zerlegt.</li></ol><p><strong>Richtige Antwort:</strong> 3</p></details></li></ol>
-<script type="application/json" class="explainer-exercise-data">{"kind":"generated","lang":"de","spec":{"type":"generated","id":"primfaktoren","given":{"e":{"pick":1,"from":{"data":"primfaktoren"}}},"task":{"text":"Zerlege {{e.zahl}} vollständig in Primfaktoren. Eine 2 ist schon gefunden: {{e.zahl}} = 2 · … . Welcher Primfaktor fehlt?"},"answer":{"value":"e.prime","compare":"number"},"mistakes":[{"value":"1","message":"Mit 1 bleibt der andere Faktor unverändert. Gesucht ist ein Primfaktor größer als 1."},{"value":"e.zahl","message":"Das ist die Ausgangszahl. Teile sie durch den schon gefundenen Faktor 2."}],"hint":"Suche die Zahl, die mit 2 multipliziert die Ausgangszahl ergibt. Prüfe danach, ob sie selbst prim ist.","steps":["Teile {{e.zahl}} durch den schon gefundenen Primfaktor 2. Das ergibt {{answer}}.","{{answer}} ist eine Primzahl. Damit ist {{e.zahl}} = 2 · {{answer}} vollständig in Primfaktoren zerlegt."]},"templates":{"de":{"task":"Zerlege ⟦e.zahl⟧ vollständig in Primfaktoren. Eine 2 ist schon gefunden: ⟦e.zahl⟧ = 2 · … . Welcher Primfaktor fehlt?","steps":["Teile ⟦e.zahl⟧ durch den schon gefundenen Primfaktor 2. Das ergibt ⟦answer⟧.","⟦answer⟧ ist eine Primzahl. Damit ist ⟦e.zahl⟧ = 2 · ⟦answer⟧ vollständig in Primfaktoren zerlegt."],"hint":"Suche die Zahl, die mit 2 multipliziert die Ausgangszahl ergibt. Prüfe danach, ob sie selbst prim ist.","messages":["Mit 1 bleibt der andere Faktor unverändert. Gesucht ist ein Primfaktor größer als 1.","Das ist die Ausgangszahl. Teile sie durch den schon gefundenen Faktor 2."]}},"data":{"primfaktoren":[{"zahl":4,"prime":2},{"zahl":6,"prime":3},{"zahl":10,"prime":5},{"zahl":14,"prime":7},{"zahl":22,"prime":11},{"zahl":26,"prime":13}]},"seeds":[1,2,4,5,16,18],"texts":{"newTask":"Neue Aufgabe","practice":"Übe selbst, mit immer neuen Aufgaben:","hint":"Tipp","solution":"Lösung","taskNumber":"Aufgabe Nr. {n}"}}</script>
+<div class="question" id="frage-durch-4" data-id="durch-4" data-type="single-choice">
+<form class="question-form" novalidate>
+<fieldset>
+<legend class="question-text">Mia sagt: „2154 ist durch 4 teilbar, weil die letzte Ziffer 4 durch 4 teilbar ist.“ Stimmt das?</legend>
+<label class="question-option"><input type="radio" name="frage-durch-4" value="0"> <span>Nein, denn die letzten zwei Ziffern 54 sind nicht durch 4 teilbar.</span></label>
+<label class="question-option"><input type="radio" name="frage-durch-4" value="1"> <span>Ja, die letzte Ziffer genügt.</span></label>
+<label class="question-option"><input type="radio" name="frage-durch-4" value="2"> <span>Nein, denn die Zahl ist ungerade.</span></label>
+</fieldset>
+<div class="question-feedback-row"><div class="question-feedback" role="status"></div></div>
+<div class="question-reveal" hidden>
+<ul class="question-infos">
+<li class="question-info question-info-right" data-option="0"><p class="question-info-head"><strong>Nein, denn die letzten zwei Ziffern 54 sind nicht durch 4 teilbar.</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>54 : 4 = 13 Rest 2. Bei 4 prüfst du die letzten zwei Ziffern.</p></li>
+<li class="question-info" data-option="1"><p class="question-info-head"><strong>Ja, die letzte Ziffer genügt.</strong></p><p>Für 4 genügt die letzte Ziffer nicht. Dann wäre auch 14 durch 4 teilbar, aber 14 : 4 hat den Rest 2.</p></li>
+<li class="question-info" data-option="2"><p class="question-info-head"><strong>Nein, denn die Zahl ist ungerade.</strong></p><p>2154 endet auf 4 und ist gerade. Gerade Zahlen sind durch 2 teilbar, für 4 braucht es mehr.</p></li>
+</ul>
+<p class="question-explanation">Für die Teilbarkeit durch 4 zählen die letzten zwei Ziffern. 54 ist nicht durch 4 teilbar, also ist auch 2154 nicht durch 4 teilbar.</p>
+</div>
+<p class="question-actions" hidden><button type="submit" class="question-check">Prüfen</button></p>
+</form>
+</div>
+<details class="explainer-solution"><summary>Lösung</summary>
+<ul class="question-infos">
+<li class="question-info question-info-right" data-option="0"><p class="question-info-head"><strong>Nein, denn die letzten zwei Ziffern 54 sind nicht durch 4 teilbar.</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>54 : 4 = 13 Rest 2. Bei 4 prüfst du die letzten zwei Ziffern.</p></li>
+<li class="question-info" data-option="1"><p class="question-info-head"><strong>Ja, die letzte Ziffer genügt.</strong></p><p>Für 4 genügt die letzte Ziffer nicht. Dann wäre auch 14 durch 4 teilbar, aber 14 : 4 hat den Rest 2.</p></li>
+<li class="question-info" data-option="2"><p class="question-info-head"><strong>Nein, denn die Zahl ist ungerade.</strong></p><p>2154 endet auf 4 und ist gerade. Gerade Zahlen sind durch 2 teilbar, für 4 braucht es mehr.</p></li>
+</ul>
+<p class="question-explanation">Für die Teilbarkeit durch 4 zählen die letzten zwei Ziffern. 54 ist nicht durch 4 teilbar, also ist auch 2154 nicht durch 4 teilbar.</p>
+</details>
+<script type="application/json" class="explainer-exercise-data">{"kind":"question","lang":"de","question":{"id":"durch-4","text":"Mia sagt: „2154 ist durch 4 teilbar, weil die letzte Ziffer 4 durch 4 teilbar ist.“ Stimmt das?","explanation":"Für die Teilbarkeit durch 4 zählen die letzten zwei Ziffern. 54 ist nicht durch 4 teilbar, also ist auch 2154 nicht durch 4 teilbar.","links":[],"type":"single-choice","options":[{"text":"Nein, denn die letzten zwei Ziffern 54 sind nicht durch 4 teilbar.","correct":true,"info":"54 : 4 = 13 Rest 2. Bei 4 prüfst du die letzten zwei Ziffern."},{"text":"Ja, die letzte Ziffer genügt.","correct":false,"info":"Für 4 genügt die letzte Ziffer nicht. Dann wäre auch 14 durch 4 teilbar, aber 14 : 4 hat den Rest 2."},{"text":"Nein, denn die Zahl ist ungerade.","correct":false,"info":"2154 endet auf 4 und ist gerade. Gerade Zahlen sind durch 2 teilbar, für 4 braucht es mehr."}]},"rendered":{}}</script>
 </div>
 </div>
 </section>
@@ -193,10 +333,10 @@
 <span class="explainer-feedback-local">Nur in diesem Browser gespeichert</span>
 <button type="button" class="explainer-feedback-off">Beenden</button>
 </div>
-<script type="application/json" class="explainer-feedback-data">{"storage":"mathe-brueche-dezimal","app":"Brüche und Dezimalzahlen","root":"../../","repository":"lernapps/mathe-brueche-dezimal","revision":"35466a2","page":{"title":"Teilbarkeit und Primzahlen","order":5}}</script>
+<script type="application/json" class="explainer-feedback-data">{"storage":"mathe-brueche-dezimal","app":"Brüche und Dezimalzahlen","root":"../../","repository":"lernapps/mathe-brueche-dezimal","revision":"81053c9","page":{"title":"Teiler, Vielfache und Teilbarkeitsregeln","order":5}}</script>
 </aside>
 </template>
-<nav class="explainer-pager" aria-label="Weiterblättern"><a rel="prev" href="../../teilbarkeit/recap/">Zurück: Das brauchst du für dieses Kapitel</a><a rel="next" href="../../teilbarkeit/teiler-vielfache/">Weiter: Gemeinsame Teiler und Vielfache</a></nav>
+<nav class="explainer-pager" aria-label="Weiterblättern"><a rel="prev" href="../../teilbarkeit/recap/">Zurück: Das brauchst du für dieses Kapitel</a><a rel="next" href="../../teilbarkeit/primfaktoren/">Weiter: Primzahlen und Primfaktoren</a></nav>
 <footer class="page-footer"><p>Eine Erklär-App auf lernapps.net · <a href="https://lernapps.net/imprint/">Impressum</a> · <a href="https://lernapps.net/privacy/">Datenschutz</a></p></footer>
   </body>
 </html>

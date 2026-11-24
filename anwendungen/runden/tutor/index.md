@@ -41,7 +41,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Dezimalzahlen runden“
 
-Zwischen welchen zwei Hundertsteln liegt eine Zahl? Welches davon ist näher?
+Auf- und abrunden: Zu welchem Nachbarn auf dem Zahlenstrahl ist die Zahl näher?
 
 ### Wie genau brauchst du die Zahl?
 
@@ -49,27 +49,39 @@ Eine Messung ist oft genauer angegeben, als du sie brauchst. Beim Runden wählst
 
 ### Anschaulich erklärt
 
-Runden heißt, eine nahe gelegene Zahl mit weniger Nachkommastellen anzugeben. In der Tabelle steht 0,746 zwischen den Hundertstelwerten 0,74 und 0,75. Stell dir die drei Zahlen auf einer Strecke vor: Zu welchem Nachbarn ist der Abstand kleiner? 0,746 hat zu 0,74 den Abstand 0,006 und zu 0,75 den Abstand 0,004. Probiere danach weitere Zahlen aus. Bei einer Übung steht immer dabei, auf welche Stelle du runden sollst. Gib nur den gerundeten Wert ein.
+Runden heißt, eine nahe gelegene Zahl mit weniger Nachkommastellen anzugeben. Auf dem Zahlenstrahl liegt 0,746 zwischen den Hundertstelwerten 0,74 und 0,75. Die Mitte ist 0,745. Liegt die Zahl rechts von der Mitte, ist der obere Nachbar näher: Du rundest auf. Liegt sie links, ist der untere näher: Du rundest ab. Beispiel A zeigt 0,746, Beispiel B zeigt 0,743. Bei jeder Übung steht dabei, auf welche Stelle du runden sollst. Gib nur den gerundeten Wert ein.
 
-Eine Zahl zwischen zwei Hundertstelwerten:
-- Unterer Nachbar | Ausgangszahl | Oberer Nachbar
-- 0,74 | 0,746 | 0,75
+Bild: Zwei Zahlenstrahlen zwischen 0,74 und 0,75 mit elf Strichen, die Mitte 0,745 ist beschriftet. Beispiel A: Der Punkt 0,746 liegt rechts von der Mitte, eine Linie unter dem Zahlenstrahl zeigt zum näheren Nachbarn 0,75. Beispiel B: Der Punkt 0,743 liegt links von der Mitte, eine Linie unter dem Zahlenstrahl zeigt zum näheren Nachbarn 0,74. Bildunterschrift: Zwei Zahlen zwischen 0,74 und 0,75: 0,746 liegt näher an 0,75, 0,743 liegt näher an 0,74.
 
 **Merke: Was du dabei beobachten kannst**
 
-Bestimme zuerst die Rundungsstelle. Entscheidend ist die Ziffer direkt rechts davon: Bei 0 bis 4 bleibt die Rundungsziffer, bei 5 bis 9 wird sie um 1 erhöht. Die folgenden Stellen entfallen. Benutze für gerundete Werte ein Näherungszeichen, wenn du sie mit dem Ausgangswert vergleichst.
+Bestimme zuerst die Rundungsstelle: Zehntel, Hundertstel oder eine ganze Zahl. Entscheidend ist die Ziffer direkt rechts davon: Bei 0 bis 4 bleibt die Rundungsziffer, bei 5 bis 9 wird sie um 1 erhöht. Die folgenden Stellen entfallen. Runde immer von der Ausgangszahl aus, nicht in Schritten.
 
 ### Am Beispiel nachvollziehen
 
-**Beispiel: Schritt für Schritt**
+**Beispiel: Aufrunden und abrunden auf Hundertstel**
 
-0,746 auf Hundertstel: Die Hundertstelziffer ist 4, danach steht 6. Daher wird auf 0,75 gerundet. 0,744 wird auf 0,74 gerundet.
+0,746 auf Hundertstel: Die Hundertstelziffer ist 4, danach steht 6. Daher wird auf 0,75 aufgerundet. 0,743 hat danach eine 3 und wird auf 0,74 abgerundet. Das Zeichen ≈ liest du als „ist ungefähr“, es verbindet die Zahl mit ihrem gerundeten Wert:
+
+$0{,}746 \approx 0{,}75 \qquad 0{,}743 \approx 0{,}74$
+
+**Beispiel: Zehntel und ganze Zahl**
+
+3,47 auf Zehntel: Die Zehntelziffer ist 4, danach steht 7. Es wird auf 3,5 aufgerundet. 18,46 auf eine ganze Zahl: Nur die Zehntelziffer 4 entscheidet, also wird auf 18 abgerundet. Du rundest nicht zuerst auf 18,5 und dann auf 19: Gerundet wird immer von der Ausgangszahl aus.
+
+$3{,}47 \approx 3{,}5 \qquad 18{,}46 \approx 18$
 
 ### Üben
 
 - Aufgabe `verstehen` (unten)
 
 - Aufgabe `aufgaben` (unten)
+
+- Aufgabe `stelle` (unten)
+
+- Aufgabe `welche` (unten)
+
+- Aufgabe `abschneiden` (unten)
 
 ### Aufgabe verstehen
 
@@ -106,3 +118,61 @@ Nr. | e.rundungszahl | Lösung | F1 | F2
 5 | 0,646 | 0,65 | 0,64 | 0,6
 6 | 0,346 | 0,35 | 0,34 | 0,3
 ```
+
+### Aufgabe stelle
+
+- Aufgabe: „Runde {e.zahl} auf {e.auf}.“
+- Antwortformat: eine Zahl eintippen
+- Tipp der App: „Finde die Rundungsstelle ({e.auf}). Die Ziffer direkt rechts davon entscheidet: 0 bis 4 abrunden, 5 bis 9 aufrunden.“
+- Lösungsweg:
+  - Die Rundungsstelle ist {e.auf}. Die Ziffer direkt rechts davon ist {e.ziffer}.
+  - Bei {e.ziffer} wird {e.richtung}gerundet. Alle Stellen danach entfallen: {answer}.
+- Typische Fehler und was die App sagt:
+  - F1: „Du bist zum falschen Nachbarn gerundet. Schau auf die Ziffer direkt rechts von der Rundungsstelle: Bei 0 bis 4 rundest du ab, bei 5 bis 9 auf.“
+  - F2: „Die Zahl ist noch nicht gerundet oder du hast auf eine andere Stelle gerundet. Die Aufgabe verlangt {e.auf}.“
+- Link zu Nummer n: `../?stelle=n&via=tutor#stelle`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
+
+```
+Nr. | e.zahl | e.auf | e.ziffer | e.richtung | Lösung | F1 | F2
+1 | 0,65 | Zehntel | 5 | auf | 0,7 | 0,6 | 1
+2 | 18,46 | eine ganze Zahl | 4 | ab | 18 | 19 | 18,5
+3 | 0,758 | Hundertstel | 8 | auf | 0,76 | 0,75 | 0,8
+4 | 9,087 | Hundertstel | 7 | auf | 9,09 | 9,08 | 9,1
+5 | 4,52 | Zehntel | 2 | ab | 4,5 | 4,6 | 5
+6 | 3,614 | Hundertstel | 4 | ab | 3,61 | 3,62 | 3,6
+7 | 12,86 | Zehntel | 6 | auf | 12,9 | 12,8 | 13
+8 | 8,14 | Zehntel | 4 | ab | 8,1 | 8,2 | 8
+9 | 6,23 | Zehntel | 3 | ab | 6,2 | 6,3 | 6
+10 | 9,5 | eine ganze Zahl | 5 | auf | 10 | 9 | 9,5
+11 | 15,48 | eine ganze Zahl | 4 | ab | 15 | 16 | 15,5
+12 | 3,47 | Zehntel | 7 | auf | 3,5 | 3,4 | 3
+13 | 5,123 | Hundertstel | 3 | ab | 5,12 | 5,13 | 5,1
+14 | 7,62 | eine ganze Zahl | 6 | auf | 8 | 7 | 7,6
+15 | 1,274 | Hundertstel | 4 | ab | 1,27 | 1,28 | 1,3
+16 | 2,346 | Hundertstel | 6 | auf | 2,35 | 2,34 | 2,3
+17 | 23,7 | eine ganze Zahl | 7 | auf | 24 | 23 | 23,7
+18 | 42,3 | eine ganze Zahl | 3 | ab | 42 | 43 | 42,3
+```
+
+### Aufgabe welche
+
+- Aufgabe: Welche Zahlen werden beim Runden auf Zehntel zu 4,2? Wähle alle aus.
+- Antwortformat: alle richtigen Antworten wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ 4,15 – Die Hundertstelziffer ist 5. Bei 5 wird aufgerundet: 4,15 ≈ 4,2.
+  - ✓ 4,19 – Die Hundertstelziffer 9 verlangt Aufrunden: 4,19 ≈ 4,2.
+  - ✓ 4,24 – Die Hundertstelziffer 4 verlangt Abrunden: 4,24 ≈ 4,2.
+  - ✗ 4,26 – Die Hundertstelziffer 6 verlangt Aufrunden: 4,26 ≈ 4,3, nicht 4,2.
+  - ✗ 4,14 – Die Hundertstelziffer 4 verlangt Abrunden: 4,14 ≈ 4,1, nicht 4,2.
+- Lösung: 4,15; 4,19; 4,24
+- Erklärung: Auf dem Zahlenstrahl liegen alle Zahlen von 4,15 bis unter 4,25 näher an 4,2 als an 4,1 oder 4,3. Die Grenzen sind die Mitten 4,15 und 4,25.
+- Link: [../?via=tutor#welche](../?via=tutor#welche)
+
+### Aufgabe abschneiden
+
+- Aufgabe: Runden und Abschneiden ergeben immer dasselbe Ergebnis.
+- Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
+- Lösung: Die Aussage stimmt nicht.
+- Erklärung: Beim Abschneiden werden die Stellen einfach weggelassen. Beim Runden entscheidet die Ziffer rechts von der Rundungsstelle. 0,746 auf Hundertstel gerundet ist 0,75, abgeschnitten wäre es 0,74.
+- Link: [../?via=tutor#abschneiden](../?via=tutor#abschneiden)

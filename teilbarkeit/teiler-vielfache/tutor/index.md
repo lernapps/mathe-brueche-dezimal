@@ -1,6 +1,6 @@
-# Gemeinsame Teiler und Vielfache – für deinen KI-Tutor
+# ggT und kgV – für deinen KI-Tutor
 
-Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Brüche und Dezimalzahlen“ von lernapps.net, gerade auf der Seite „Gemeinsame Teiler und Vielfache“, und steckt dort in einer Aufgabe. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
+Du hilfst einem Kind beim Lernen. Es arbeitet mit der Lern-App „Brüche und Dezimalzahlen“ von lernapps.net, gerade auf der Seite „ggT und kgV“, und steckt dort in einer Aufgabe. Gelöst wird in der App, sie prüft die Antworten. Du erklärst.
 
 Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
@@ -39,15 +39,19 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 - `klar-und-woertlich`: Schreib wörtlich: keine Ironie, keine Redewendungen. Im Gegensatz zu oben fragst du am Anfang mit zwei oder drei Antworten zur Auswahl und nennst immer „Abschnitt x von y“.
 - `rechnen-anschaulich`: Zeig Zahlen der Seite als Menge, z. B. „37 sind 3 Zehner und 7 Einer“, aber nie das Ergebnis einer Aufgabe. Ein Schritt pro Nachricht, nie Zeitdruck.
 
-## Kontext: die Seite „Gemeinsame Teiler und Vielfache“
+## Kontext: die Seite „ggT und kgV“
 
-Welche Gruppengröße passt zu zwei Mengen? Welche Unterteilung passt zu zwei Brüchen?
+Den größten gemeinsamen Teiler und das kleinste gemeinsame Vielfache bestimmen: aus Listen und aus den Primfaktoren.
 
 ### Was passt zu beiden Zahlen?
 
-Zwölf und achtzehn Plättchen sollen in gleich große Päckchen. Welche Päckchengröße funktioniert für beide Mengen?
+Nach dieser Seite kannst du zu zwei Zahlen den größten Teiler und das kleinste Vielfache finden, das beiden gemeinsam ist. Du kannst sie aufschreiben oder aus den Primfaktoren ablesen. Du brauchst dafür Teiler und Vielfache sowie die Primfaktorzerlegung der Seiten davor.
 
-- **Teiler und Vielfache**: Ein Teiler teilt eine Zahl ohne Rest. Ein Vielfaches entsteht, wenn du eine Zahl mit einer natürlichen Zahl multiplizierst.
+Zwei Bilder aus dem Alltag zeigen, wofür das gut ist. **Fliesen:** Du willst eine Wand mit gleich großen, quadratischen Fliesen belegen, ohne eine zu zerschneiden. Welche Seitenlänge ist für beide Wandmaße möglich, und welche ist die größte? **Fahrplan:** Zwei Buslinien fahren zusammen los, die eine alle 12, die andere alle 18 Minuten. Wann fahren beide wieder gleichzeitig ab? Den ggT brauchst du später beim Kürzen von Brüchen, das kgV beim Finden eines gemeinsamen Nenners: Beide Werkzeuge kommen wieder.
+
+- **ggT**: Der größte gemeinsame Teiler (ggT) zweier Zahlen ist die größte Zahl, die beide ohne Rest teilt. Die Zahlen 12 und 18 haben die gemeinsamen Teiler 1, 2, 3 und 6, also ist ggT(12, 18) = 6.
+
+- **kgV**: Das kleinste gemeinsame Vielfache (kgV) zweier Zahlen ist die kleinste Zahl größer als 0, die in beiden Einmaleinsreihen vorkommt. Bei 4 und 6 sind 12, 24, 36, … gemeinsame Vielfache, also ist kgV(4, 6) = 12.
 
 ### Ausprobieren
 
@@ -59,27 +63,72 @@ Interaktiv: Jetzt siehst du zwei gleich lange Streifen: Jeder ist ein Ganzes. De
 
 ### Am Beispiel nachvollziehen
 
-**Beispiel: Schritt für Schritt**
+**Beispiel: Mit Listen: ggT(12, 18) und kgV(4, 6)**
 
-Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ist der größte gemeinsame Teiler (ggT) 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also ist das kleinste gemeinsame Vielfache (kgV) von 4 und 6 gleich 12.
+Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Gemeinsam sind 1, 2, 3 und 6, also ist der ggT 6.
+
+Vielfache von 4: 4, 8, 12, 16, … Vielfache von 6: 6, 12, 18, … Das erste gemeinsame Vielfache ist 12, also ist das kgV von 4 und 6 gleich 12.
+
+Bei großen Zahlen werden die Listen lang. Dann helfen die Primfaktoren. Jeder Primfaktor hat in beiden Zahlen einen Exponenten; kommt er in einer Zahl nicht vor, ist sein Exponent dort 0.
+
+**Beispiel: Mit Primfaktoren: ggT und kgV von 36 und 48**
+
+Die Zerlegungen sind $36 = 2^2 \cdot 3^2$ und $48 = 2^4 \cdot 3$. Die Tabelle zeigt, mit welchem Exponenten jeder Primfaktor vorkommt.
+
+Exponenten der Primfaktoren 2 und 3:
+- Faktor | in 36 | in 48 | kleinster | größter
+- 2 | 2 | 4 | 2 | 4
+- 3 | 2 | 1 | 1 | 2
+
+Für den **ggT** nimmst du jeden Primfaktor mit dem kleinsten Exponenten. Für das **kgV** nimmst du jeden Primfaktor mit dem größten Exponenten.
+
+$\text{ggT} = 2^2 \cdot 3 = 12$
+
+$\text{kgV} = 2^4 \cdot 3^2 = 16 \cdot 9 = 144$
+
+Zur Probe: 36 : 12 = 3 und 48 : 12 = 4 gehen ohne Rest auf. 144 : 36 = 4 und 144 : 48 = 3 gehen ebenfalls auf.
+
+### Fahrplan und Fliesen
+
+**Beispiel: Fahrplan: Wann treffen sich die Busse wieder?**
+
+Linie 1 fährt alle 12 Minuten, Linie 2 alle 18 Minuten, beide starten um 7 Uhr. Beide fahren zu einem Zeitpunkt ab, der ein Vielfaches von 12 und von 18 ist. Der erste solche Zeitpunkt ist das kgV.
+
+$12 = 2^2 \cdot 3$
+
+$18 = 2 \cdot 3^2$
+
+$\text{kgV} = 2^2 \cdot 3^2 = 36$
+
+Nach 36 Minuten fahren beide wieder gleichzeitig ab: Linie 1 zum dritten Mal (3 · 12), Linie 2 zum zweiten Mal (2 · 18).
+
+**Beispiel: Fliesen: Wie groß ist die größte quadratische Fliese?**
+
+Ein Wandstück ist 36 cm breit und 48 cm hoch. Die Seite einer quadratischen Fliese muss ein Teiler von 36 und von 48 sein, sonst müsstest du eine Fliese zerschneiden. Die größte solche Seite ist der ggT.
+
+$\text{ggT}(36, 48) = 12$
+
+Die Fliesen sind 12 cm lang: Es passen 3 Fliesen in die Breite und 4 in die Höhe, zusammen 12 Fliesen.
 
 ### Üben
 
-- Aufgabe `verstehen` (unten)
-
 - Aufgabe `aufgaben` (unten)
 
-### Aufgabe verstehen
+- Aufgabe `verstehen` (unten)
 
-- Aufgabe: Was ist das kgV von 4 und 6?
-- Antwortformat: eine Antwort wählen
-- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ 12 – Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ist der größte gemeinsame Teiler (ggT) 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also ist das kleinste gemeinsame Vielfache (kgV) von 4 und 6 gleich 12.
-  - ✗ 2 – 2 ist der größte gemeinsame Teiler, aber kein Vielfaches von 4 und 6.
-  - ✗ 24 – 24 ist ein gemeinsames Vielfaches, aber 12 ist kleiner und ebenfalls gemeinsam.
-- Lösung: 12
-- Erklärung: Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ist der größte gemeinsame Teiler (ggT) 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also ist das kleinste gemeinsame Vielfache (kgV) von 4 und 6 gleich 12.
-- Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
+- Aufgabe `ggt-listen` (unten)
+
+- Aufgabe `kgv-listen` (unten)
+
+- Aufgabe `ggt-primfaktoren` (unten)
+
+- Aufgabe `kgv-primfaktoren` (unten)
+
+- Aufgabe `fahrplan` (unten)
+
+- Aufgabe `fliesen` (unten)
+
+- Aufgabe `zuordnen` (unten)
 
 ### Aufgabe aufgaben
 
@@ -104,3 +153,179 @@ Nr. | e.basis | e.doppelt | Lösung | F1 | F2
 5 | 6 | 12 | 6 | 12 | 1
 6 | 3 | 6 | 3 | 6 | 1
 ```
+
+### Aufgabe verstehen
+
+- Aufgabe: Was ist das kgV von 4 und 6?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ 12 – 12 ist das erste Vielfache, das in beiden Reihen vorkommt: 4, 8, 12 und 6, 12.
+  - ✗ 2 – 2 ist der größte gemeinsame Teiler von 4 und 6 (ggT), kein Vielfaches von beiden.
+  - ✗ 24 – 24 ist ein gemeinsames Vielfaches, aber 12 ist kleiner und ebenfalls gemeinsam. Gesucht ist das kleinste.
+- Lösung: 12
+- Erklärung: Vielfache von 4: 4, 8, 12, … Vielfache von 6: 6, 12, … Das erste gemeinsame Vielfache ist 12.
+- Link: [../?via=tutor#verstehen](../?via=tutor#verstehen)
+
+### Aufgabe ggt-listen
+
+- Aufgabe: „Schreibe die Teiler von {e.a} und von {e.b} auf. Wie groß ist der ggT von {e.a} und {e.b}?“
+- Antwortformat: eine Zahl eintippen
+- Tipp der App: „Schreibe zuerst alle Teiler jeder Zahl als Paare von Malaufgaben auf. Suche dann die größte Zahl, die in beiden Listen steht.“
+- Lösungsweg:
+  - Teiler von {e.a}: {e.teilera}. Teiler von {e.b}: {e.teilerb}.
+  - In beiden Listen stehen: {e.gemeinsam}. Die größte davon ist {answer}, also ggT({e.a}, {e.b}) = {answer}.
+- Typische Fehler und was die App sagt:
+  - F1: „Das ist das kgV, ein Vielfaches. Der ggT ist ein Teiler und kann nicht größer sein als {e.a}.“
+  - F2: „1 teilt beide Zahlen, aber es gibt einen größeren gemeinsamen Teiler. Vergleiche die beiden Teilerlisten.“
+  - F3: „{e.a} teilt {e.b} nicht ohne Rest. Ein gemeinsamer Teiler muss beide Zahlen teilen.“
+- Link zu Nummer n: `../?ggt-listen=n&via=tutor#ggt-listen`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
+
+```
+Nr. | e.a | e.b | e.teilera | e.teilerb | e.gemeinsam | Lösung | F1 | F2 | F3
+1 | 6 | 8 | 1, 2, 3, 6 | 1, 2, 4, 8 | 1, 2 | 2 | 24 | 1 | 6
+2 | 8 | 12 | 1, 2, 4, 8 | 1, 2, 3, 4, 6, 12 | 1, 2, 4 | 4 | 24 | 1 | 8
+3 | 6 | 10 | 1, 2, 3, 6 | 1, 2, 5, 10 | 1, 2 | 2 | 30 | 1 | 6
+4 | 10 | 15 | 1, 2, 5, 10 | 1, 3, 5, 15 | 1, 5 | 5 | 30 | 1 | 10
+5 | 14 | 21 | 1, 2, 7, 14 | 1, 3, 7, 21 | 1, 7 | 7 | 42 | 1 | 14
+6 | 12 | 16 | 1, 2, 3, 4, 6, 12 | 1, 2, 4, 8, 16 | 1, 2, 4 | 4 | 48 | 1 | 12
+7 | 4 | 6 | 1, 2, 4 | 1, 2, 3, 6 | 1, 2 | 2 | 12 | 1 | 4
+8 | 9 | 12 | 1, 3, 9 | 1, 2, 3, 4, 6, 12 | 1, 3 | 3 | 36 | 1 | 9
+9 | 9 | 15 | 1, 3, 9 | 1, 3, 5, 15 | 1, 3 | 3 | 45 | 1 | 9
+```
+
+### Aufgabe kgv-listen
+
+- Aufgabe: „Schreibe Vielfache von {e.a} und von {e.b} auf. Wie groß ist das kgV von {e.a} und {e.b}?“
+- Antwortformat: eine Zahl eintippen
+- Tipp der App: „Schreibe die Reihen von {e.a} und von {e.b} nebeneinander, bis eine Zahl in beiden steht.“
+- Lösungsweg:
+  - Vielfache von {e.a}: {e.vielfachea}. Vielfache von {e.b}: {e.vielfacheb}.
+  - Die erste Zahl, die in beiden Reihen steht, ist {answer}. Also ist kgV({e.a}, {e.b}) = {answer}.
+- Typische Fehler und was die App sagt:
+  - F1: „Das ist der ggT, ein Teiler. Gesucht ist ein gemeinsames Vielfaches, und das ist mindestens so groß wie {e.b}.“
+  - F2: „Das Produkt {e.a} · {e.b} ist ein gemeinsames Vielfaches, aber nicht das kleinste: Es gibt ein kleineres in beiden Reihen.“
+- Link zu Nummer n: `../?kgv-listen=n&via=tutor#kgv-listen`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
+
+```
+Nr. | e.a | e.b | e.vielfachea | e.vielfacheb | Lösung | F1 | F2
+1 | 6 | 8 | 6, 12, 18, 24 | 8, 16, 24 | 24 | 2 | 48
+2 | 14 | 21 | 14, 28, 42 | 21, 42 | 42 | 7 | 294
+3 | 10 | 15 | 10, 20, 30 | 15, 30 | 30 | 5 | 150
+4 | 4 | 6 | 4, 8, 12 | 6, 12 | 12 | 2 | 24
+5 | 9 | 15 | 9, 18, 27, 36, 45 | 15, 30, 45 | 45 | 3 | 135
+6 | 8 | 12 | 8, 16, 24 | 12, 24 | 24 | 4 | 96
+7 | 9 | 12 | 9, 18, 27, 36 | 12, 24, 36 | 36 | 3 | 108
+8 | 6 | 10 | 6, 12, 18, 24, 30 | 10, 20, 30 | 30 | 2 | 60
+9 | 12 | 16 | 12, 24, 36, 48 | 16, 32, 48 | 48 | 4 | 192
+```
+
+### Aufgabe ggt-primfaktoren
+
+- Aufgabe: „Gegeben sind {e.a} = {e.ta} und {e.b} = {e.tb}. Bestimme den ggT von {e.a} und {e.b} aus den Primfaktoren.“
+- Antwortformat: eine Zahl eintippen
+- Tipp der App: „Der ggT besteht aus den Primfaktoren, die in beiden Zahlen vorkommen, jeweils mit dem kleineren Exponenten.“
+- Lösungsweg:
+  - Gemeinsame Primfaktoren mit dem kleinsten Exponenten: {e.tggt}.
+  - Ausgerechnet ist das {answer}. Also ist ggT({e.a}, {e.b}) = {answer}.
+- Typische Fehler und was die App sagt:
+  - F1: „Das ist das kgV: Du hast die größten Exponenten genommen. Für den ggT nimmst du die kleinsten Exponenten.“
+  - F2: „Du hast jeden gemeinsamen Primfaktor nur einmal genommen. Nimm ihn mit dem kleinsten Exponenten, der in beiden Zahlen vorkommt.“
+- Link zu Nummer n: `../?ggt-primfaktoren=n&via=tutor#ggt-primfaktoren`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
+
+```
+Nr. | e.a | e.ta | e.b | e.tb | e.tggt | Lösung | F1 | F2
+1 | 40 | 2³ · 5 | 100 | 2² · 5² | 2² · 5 | 20 | 200 | 10
+2 | 48 | 2⁴ · 3 | 180 | 2² · 3² · 5 | 2² · 3 | 12 | 720 | 6
+3 | 36 | 2² · 3² | 48 | 2⁴ · 3 | 2² · 3 | 12 | 144 | 6
+4 | 24 | 2³ · 3 | 60 | 2² · 3 · 5 | 2² · 3 | 12 | 120 | 6
+5 | 72 | 2³ · 3² | 120 | 2³ · 3 · 5 | 2³ · 3 | 24 | 360 | 6
+6 | 54 | 2 · 3³ | 90 | 2 · 3² · 5 | 2 · 3² | 18 | 270 | 6
+```
+
+### Aufgabe kgv-primfaktoren
+
+- Aufgabe: „Gegeben sind {e.a} = {e.ta} und {e.b} = {e.tb}. Bestimme das kgV von {e.a} und {e.b} aus den Primfaktoren.“
+- Antwortformat: eine Zahl eintippen
+- Tipp der App: „Das kgV besteht aus allen Primfaktoren, die in einer der beiden Zahlen vorkommen, jeweils mit dem größeren Exponenten.“
+- Lösungsweg:
+  - Alle Primfaktoren mit dem größten Exponenten: {e.tkgv}.
+  - Ausgerechnet ist das {answer}. Also ist kgV({e.a}, {e.b}) = {answer}.
+- Typische Fehler und was die App sagt:
+  - F1: „Das ist der ggT: Du hast die kleinsten Exponenten genommen. Für das kgV nimmst du die größten Exponenten.“
+  - F2: „Du hast jeden Primfaktor nur einmal genommen. Nimm ihn mit dem größten Exponenten, der in einer der Zahlen vorkommt.“
+  - F3: „Du hast beide Zahlen malgenommen. Dann zählen die gemeinsamen Primfaktoren doppelt. Beim kgV zählt jeder nur einmal, mit dem größten Exponenten.“
+- Link zu Nummer n: `../?kgv-primfaktoren=n&via=tutor#kgv-primfaktoren`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
+
+```
+Nr. | e.a | e.ta | e.b | e.tb | e.tkgv | Lösung | F1 | F2 | F3
+1 | 40 | 2³ · 5 | 100 | 2² · 5² | 2³ · 5² | 200 | 20 | 10 | 4000
+2 | 36 | 2² · 3² | 48 | 2⁴ · 3 | 2⁴ · 3² | 144 | 12 | 6 | 1728
+3 | 72 | 2³ · 3² | 120 | 2³ · 3 · 5 | 2³ · 3² · 5 | 360 | 24 | 30 | 8640
+4 | 54 | 2 · 3³ | 90 | 2 · 3² · 5 | 2 · 3³ · 5 | 270 | 18 | 30 | 4860
+5 | 48 | 2⁴ · 3 | 180 | 2² · 3² · 5 | 2⁴ · 3² · 5 | 720 | 12 | 30 | 8640
+6 | 24 | 2³ · 3 | 60 | 2² · 3 · 5 | 2³ · 3 · 5 | 120 | 12 | 30 | 1440
+```
+
+### Aufgabe fahrplan
+
+- Aufgabe: „Zwei Buslinien fahren um 7 Uhr gleichzeitig an der Haltestelle ab. Linie 1 fährt alle {e.a} Minuten, Linie 2 alle {e.b} Minuten. Nach wie vielen Minuten fahren beide zum ersten Mal wieder gleichzeitig ab?“
+- Antwortformat: eine Zahl eintippen
+- Tipp der App: „Die Abfahrten von Linie 1 sind Vielfache von {e.a}, die von Linie 2 Vielfache von {e.b}. Gesucht ist das erste gemeinsame Vielfache.“
+- Lösungsweg:
+  - Gesucht ist das kgV von {e.a} und {e.b}. Das ist {answer}.
+  - Nach {answer} Minuten ist Linie 1 genau {e.ra}-mal und Linie 2 genau {e.rb}-mal gefahren: {e.ra} · {e.a} = {e.rb} · {e.b} = {answer}.
+- Typische Fehler und was die App sagt:
+  - F1: „Nach {e.a} · {e.b} Minuten treffen sich die Busse auch, aber nicht zum ersten Mal. Gesucht ist das kleinste gemeinsame Vielfache.“
+  - F2: „Das ist der ggT, ein Teiler. Die Busse treffen sich nach einem Vielfachen beider Abstände, und das ist mindestens {e.b}.“
+- Link zu Nummer n: `../?fahrplan=n&via=tutor#fahrplan`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
+
+```
+Nr. | e.a | e.b | e.ra | e.rb | Lösung | F1 | F2
+1 | 8 | 12 | 3 | 2 | 24 | 96 | 4
+2 | 20 | 30 | 3 | 2 | 60 | 600 | 10
+3 | 15 | 20 | 4 | 3 | 60 | 300 | 5
+4 | 12 | 20 | 5 | 3 | 60 | 240 | 4
+5 | 10 | 15 | 3 | 2 | 30 | 150 | 5
+6 | 12 | 18 | 3 | 2 | 36 | 216 | 6
+7 | 18 | 24 | 4 | 3 | 72 | 432 | 6
+8 | 9 | 12 | 4 | 3 | 36 | 108 | 3
+```
+
+### Aufgabe fliesen
+
+- Aufgabe: „Ein Wandstück ist {e.l} cm breit und {e.b} cm hoch. Sie soll ohne Zuschneiden mit gleich großen, quadratischen Fliesen belegt werden. Wie viele Zentimeter ist die Seite der größten möglichen Fliese lang?“
+- Antwortformat: eine Zahl eintippen
+- Tipp der App: „Die Seite der Fliese muss {e.l} und {e.b} ohne Rest teilen. Suche die größte Zahl, die das schafft.“
+- Lösungsweg:
+  - Die Seitenlänge muss ein gemeinsamer Teiler von {e.l} und {e.b} sein. Die größte ist der ggT: {answer}.
+  - Die Fliesen sind {answer} cm lang. Es liegen {e.rl} Fliesen nebeneinander und {e.rb} übereinander.
+- Typische Fehler und was die App sagt:
+  - F1: „Das ist das kgV. Eine Fliese, die größer als die Wand ist, passt nicht. Die Seite muss ein Teiler beider Maße sein.“
+  - F2: „Diese Fliese passt auch ohne Zuschneiden, aber es geht noch eine größere. Gesucht ist der größte gemeinsame Teiler.“
+- Link zu Nummer n: `../?fliesen=n&via=tutor#fliesen`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
+
+```
+Nr. | e.l | e.b | e.rl | e.rb | Lösung | F1 | F2
+1 | 45 | 75 | 3 | 5 | 15 | 225 | 5
+2 | 90 | 120 | 3 | 4 | 30 | 360 | 15
+3 | 48 | 72 | 2 | 3 | 24 | 144 | 12
+4 | 80 | 100 | 4 | 5 | 20 | 400 | 10
+5 | 84 | 60 | 7 | 5 | 12 | 420 | 6
+6 | 36 | 48 | 3 | 4 | 12 | 144 | 6
+7 | 72 | 96 | 3 | 4 | 24 | 288 | 12
+8 | 60 | 45 | 4 | 3 | 15 | 180 | 5
+```
+
+### Aufgabe zuordnen
+
+- Aufgabe: Ordne jeder Aufgabe das Werkzeug zu, das sie löst.
+- Antwortformat: jedem Eintrag links den passenden rechts zuordnen
+- Lösung: Zwei Busse fahren wieder gleichzeitig ab – kgV der beiden Zeitabstände; Eine Wand mit möglichst großen quadratischen Fliesen belegen – ggT der beiden Wandmaße; Einen Bruch vollständig kürzen – ggT von Zähler und Nenner; Zwei Brüche auf einen gemeinsamen Nenner bringen – kgV der beiden Nenner
+- Erklärung: Muss etwas in ganze gleiche Stücke passen und möglichst groß sein, ist es ein Teilerproblem: ggT. Treffen sich zwei Reihen oder Nenner irgendwann wieder, ist es ein Vielfachenproblem: kgV. Beim Kürzen und beim gemeinsamen Nenner begegnest du beiden später wieder.
+- Link: [../?via=tutor#zuordnen](../?via=tutor#zuordnen)

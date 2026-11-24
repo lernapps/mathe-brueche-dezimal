@@ -69,6 +69,8 @@ $\frac{2}{3} = \frac{8}{12}$ und $\frac{3}{4} = \frac{9}{12}$. Daher ist $\frac{
 
 - Aufgabe `aufgaben` (unten)
 
+- Aufgabe `ordnen` (unten)
+
 ### Aufgabe modell
 
 - Was zu tun ist: Bruchmodell verändern, fehlende Größe berechnen oder Brüche vergleichen; die Frage nennt den gesuchten Wert.
@@ -170,3 +172,11 @@ Nr. | n | Lösung | F1 | F2
 5 | 6 | 2 | 1 | 6
 6 | 3 | 2 | 1 | 3
 ```
+
+### Aufgabe ordnen
+
+- Aufgabe: Ordne die Anteile der Größe nach, den kleinsten zuerst.
+- Antwortformat: die Einträge in die richtige Reihenfolge bringen (die App zeigt sie gemischt)
+- Lösung: 1. ein Viertel, 2. ein Drittel, 3. ein Halb, 4. drei Viertel
+- Erklärung: Bringe alle auf den Nenner 12: $\frac{3}{12}$, $\frac{4}{12}$, $\frac{6}{12}$, $\frac{9}{12}$. Bei gleichem Nenner ist der Bruch mit dem größeren Zähler größer.
+- Link: [../?via=tutor#ordnen](../?via=tutor#ordnen)

@@ -58,7 +58,7 @@ Auf dieser Seite geht es um Plus und Minus. Schreibe die Zahlen so untereinander
 In der Tabelle stehen sieben Zehntel und fünf Hundertstel in der ersten Zahl, fünf Zehntel und null Hundertstel in der zweiten. Lege Hundertstel zu Hundertsteln und Zehntel zu Zehnteln. Werden es zehn kleinere Teile, kannst du sie gegen einen Teil der nächstgrößeren Sorte tauschen.
 
 Beide Zahlen sind nach Stellenwerten ausgerichtet:
-- Zahl | Ganze | Zehntel | Hundertstel
+- Zahl | E Einer | z Zehntel | h Hundertstel
 - 0,75 | 0 | 7 | 5
 - 0,50 | 0 | 5 | 0
 
@@ -67,7 +67,7 @@ Beide Zahlen sind nach Stellenwerten ausgerichtet:
 Beim Subtrahieren nimmst du gleich große Teile weg. Wenn an einer Stelle zu wenig vorhanden ist, tauschst du einen größeren Teil in zehn kleinere: ein Ganzes in zehn Zehntel oder ein Zehntel in zehn Hundertstel. Der Wert der Zahl bleibt dabei gleich. Bei 1,20 − 0,35 reicht es nicht, nur die Ziffern direkt voneinander abzuziehen; zuerst musst du tauschen.
 
 Der Anfang der Minusrechnung:
-- Zahl | Ganze | Zehntel | Hundertstel
+- Zahl | E Einer | z Zehntel | h Hundertstel
 - 1,20 | 1 | 2 | 0
 - 0,35 | 0 | 3 | 5
 
@@ -97,6 +97,8 @@ $1,20 - 0,35 = 0,85$
 
 - Aufgabe `minus-aufgaben` (unten)
 
+- Aufgabe `schaetzen` (unten)
+
 ### Aufgabe verstehen
 
 - Aufgabe: Warum kannst du 0,5 als 0,50 schreiben?
@@ -120,17 +122,22 @@ $1,20 - 0,35 = 0,85$
 - Typische Fehler und was die App sagt:
   - F1: „Diese Anzahl zählt Hundertstel, nicht Ganze. Setze das Komma passend.“
   - F2: „Die Teile sind Hundertstel, keine Tausendstel.“
+  - F3: „Das Komma steht an der falschen Stelle: Dein Ergebnis ist zehnmal so groß wie die Summe. Schätze vorher: Runde beide Zahlen auf ganze Zahlen und addiere sie.“
 - Link zu Nummer n: `../?aufgaben=n&via=tutor#aufgaben`
 - Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
 
 ```
-Nr. | e.azahl | e.bzahl | e.a100 | e.b100 | e.summe100 | Lösung | F1 | F2
-1 | 1,03 | 0,27 | 103 | 27 | 130 | 1,3 | 130 | 0,13
-2 | 0,57 | 0,18 | 57 | 18 | 75 | 0,75 | 75 | 0,075
-3 | 0,84 | 0,25 | 84 | 25 | 109 | 1,09 | 109 | 0,109
-4 | 2,4 | 0,65 | 240 | 65 | 305 | 3,05 | 305 | 0,305
-5 | 1,25 | 0,5 | 125 | 50 | 175 | 1,75 | 175 | 0,175
-6 | 0,76 | 0,4 | 76 | 40 | 116 | 1,16 | 116 | 0,116
+Nr. | e.azahl | e.bzahl | e.a100 | e.b100 | e.summe100 | Lösung | F1 | F2 | F3
+1 | 4,1 | 1,3 | 410 | 130 | 540 | 5,4 | 540 | 0,54 | 54
+2 | 2,4 | 0,65 | 240 | 65 | 305 | 3,05 | 305 | 0,305 | 30,5
+3 | 0,57 | 0,18 | 57 | 18 | 75 | 0,75 | 75 | 0,075 | 7,5
+4 | 3,05 | 0,45 | 305 | 45 | 350 | 3,5 | 350 | 0,35 | 35
+5 | 1,03 | 0,27 | 103 | 27 | 130 | 1,3 | 130 | 0,13 | 13
+6 | 1,5 | 0,75 | 150 | 75 | 225 | 2,25 | 225 | 0,225 | 22,5
+7 | 1,25 | 0,5 | 125 | 50 | 175 | 1,75 | 175 | 0,175 | 17,5
+8 | 0,92 | 0,58 | 92 | 58 | 150 | 1,5 | 150 | 0,15 | 15
+9 | 0,84 | 0,25 | 84 | 25 | 109 | 1,09 | 109 | 0,109 | 10,9
+10 | 0,76 | 0,4 | 76 | 40 | 116 | 1,16 | 116 | 0,116 | 11,6
 ```
 
 ### Aufgabe minus-aufgaben
@@ -139,20 +146,33 @@ Nr. | e.azahl | e.bzahl | e.a100 | e.b100 | e.summe100 | Lösung | F1 | F2
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Ordne gleiche Stellen untereinander. Tausche bei Bedarf ein größeres Teil in zehn kleinere.“
 - Lösungsweg:
-  - Die Beträge entsprechen {e.a100} und {e.b100} Hundertsteln.
+  - Als Hundertstel sind das {e.a100} und {e.b100}.
   - Nach dem Wegnehmen bleiben {e.differenz100} Hundertstel: {answer}. Prüfe, indem du {e.bzahl} wieder addierst.
 - Typische Fehler und was die App sagt:
   - F1: „Das ist die Summe. Bei Minus nimmst du den zweiten Betrag weg.“
   - F2: „Der zweite Betrag besteht aus Hundertsteln, nicht aus Tausendsteln.“
+  - F3: „Das Komma steht an der falschen Stelle: Dein Ergebnis ist zehnmal so groß wie die Differenz. Schätze vorher: {e.azahl} − {e.bzahl} ist kleiner als {e.azahl}.“
 - Link zu Nummer n: `../?minus-aufgaben=n&via=tutor#minus-aufgaben`
 - Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
 
 ```
-Nr. | e.azahl | e.bzahl | e.a100 | e.b100 | e.differenz100 | Lösung | F1 | F2
-1 | 0,57 | 0,18 | 57 | 18 | 39 | 0,39 | 0,75 | 0,552
-2 | 1,03 | 0,27 | 103 | 27 | 76 | 0,76 | 1,3 | 1,003
-3 | 1,25 | 0,5 | 125 | 50 | 75 | 0,75 | 1,75 | 1,2
-4 | 2,4 | 0,65 | 240 | 65 | 175 | 1,75 | 3,05 | 2,335
-5 | 0,76 | 0,4 | 76 | 40 | 36 | 0,36 | 1,16 | 0,72
-6 | 0,84 | 0,25 | 84 | 25 | 59 | 0,59 | 1,09 | 0,815
+Nr. | e.azahl | e.bzahl | e.a100 | e.b100 | e.differenz100 | Lösung | F1 | F2 | F3
+1 | 2,4 | 0,65 | 240 | 65 | 175 | 1,75 | 3,05 | 2,335 | 17,5
+2 | 1,25 | 0,5 | 125 | 50 | 75 | 0,75 | 1,75 | 1,2 | 7,5
+3 | 1,5 | 0,75 | 150 | 75 | 75 | 0,75 | 2,25 | 1,425 | 7,5
+4 | 1,03 | 0,27 | 103 | 27 | 76 | 0,76 | 1,3 | 1,003 | 7,6
+5 | 0,92 | 0,58 | 92 | 58 | 34 | 0,34 | 1,5 | 0,862 | 3,4
+6 | 3,05 | 0,45 | 305 | 45 | 260 | 2,6 | 3,5 | 3,005 | 26
+7 | 0,76 | 0,4 | 76 | 40 | 36 | 0,36 | 1,16 | 0,72 | 3,6
+8 | 4,1 | 1,3 | 410 | 130 | 280 | 2,8 | 5,4 | 3,97 | 28
+9 | 0,84 | 0,25 | 84 | 25 | 59 | 0,59 | 1,09 | 0,815 | 5,9
+10 | 0,57 | 0,18 | 57 | 18 | 39 | 0,39 | 0,75 | 0,552 | 3,9
 ```
+
+### Aufgabe schaetzen
+
+- Aufgabe: Ben rechnet 0,75 + 0,5 = 0,80. Kann das stimmen?
+- Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
+- Lösung: Die Aussage stimmt nicht.
+- Erklärung: Schätze: 0,75 + 0,5 ist mehr als 0,75 + 0,25 = 1. Ben hat 0,5 wie 0,05 gelesen und Hundertstel mit Zehnteln addiert. Schreibe 0,5 = 0,50 und lege Komma unter Komma: 0,75 + 0,50 = 1,25.
+- Link: [../?via=tutor#schaetzen](../?via=tutor#schaetzen)

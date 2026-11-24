@@ -69,6 +69,8 @@ Ganzes = Bruchteil : Anteil. Du kannst zuerst durch den Zähler teilen und dann 
 
 - Aufgabe `aufgaben` (unten)
 
+- Aufgabe `ganzes-zahl` (unten)
+
 ### Aufgabe modell
 
 - Was zu tun ist: Bruchmodell verändern, fehlende Größe berechnen oder Brüche vergleichen; die Frage nennt den gesuchten Wert.
@@ -170,3 +172,11 @@ Nr. | e.dreifach | e.basis | Lösung | F1 | F2
 5 | 18 | 6 | 24 | 18 | 6
 6 | 9 | 3 | 12 | 9 | 3
 ```
+
+### Aufgabe ganzes-zahl
+
+- Aufgabe: Zwei Plättchen sind ein Drittel von allen Plättchen. Wie viele Plättchen sind das Ganze?
+- Antwortformat: eine Zahl eintippen
+- Lösung: 6
+- Erklärung: Ein Drittel sind 2 Plättchen. Drei Drittel sind das Ganze: 3 · 2 = 6 Plättchen.
+- Link: [../?via=tutor#ganzes-zahl](../?via=tutor#ganzes-zahl)

@@ -41,7 +41,7 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 ## Kontext: die Seite „Addieren und subtrahieren“
 
-Kannst du halbe und drittel Stücke sofort zusammenzählen?
+Halbe und drittel Stücke zusammenzählen oder wegnehmen: erst gleich groß machen, dann rechnen.
 
 ### Zusammenlegen und wegnehmen
 
@@ -51,9 +51,7 @@ Du legst Bruchstücke zusammen oder nimmst welche weg. Damit du sie zählen kann
 
 ### Ausprobieren
 
-Wenn du Brüche mit verschiedenen Nennern addieren willst, brauchst du gleich große Teile. Dafür hilft ein feineres Raster. Jeder Streifen steht für ein gleich großes Ganzes. Suche mit „Teile pro Ganzem“ eine feinere Unterteilung, die alle alten Teilgrenzen trifft. Das Raster muss zu beiden Nennern passen; die kleinste passende Anzahl ist ihr kgV. Nun sind die Bruchstücke gleich groß: Du kannst sie bei Plus zusammenzählen oder bei Minus wegnehmen. Gib den Ergebnisbruch selbst ein.
-
-Die gemeinsame Unterteilung noch einmal ausprobieren. Der ggT hilft dagegen beim Zusammenfassen zu größeren Gruppen, etwa beim Kürzen.
+Wenn du Brüche mit verschiedenen Nennern addieren willst, brauchst du gleich große Teile. Dafür hilft ein feineres Raster. Jeder Streifen steht für ein gleich großes Ganzes. Suche mit „Teile pro Ganzem“ eine feinere Unterteilung, die alle alten Teilgrenzen trifft. Das Raster muss zu beiden Nennern passen; die kleinste passende Anzahl ist ihr kgV. Nun sind die Bruchstücke gleich groß: Du kannst sie bei Plus zusammenzählen oder bei Minus wegnehmen. Gib den Ergebnisbruch selbst ein. Die gemeinsame Unterteilung noch einmal ausprobieren. Der ggT hilft dagegen beim Zusammenfassen zu größeren Gruppen, etwa beim Kürzen.
 
 - Aufgabe `modell` (unten)
 
@@ -65,15 +63,45 @@ Zum Addieren oder Subtrahieren brauchst du gleich große Bruchstücke. Bringe be
 
 ### Am Beispiel nachvollziehen
 
-**Beispiel: Schritt für Schritt**
+- **Kleinster gemeinsamer Nenner**: Der kleinste gemeinsame Nenner zweier Brüche ist das kgV ihrer Nenner. Bei $\frac{1}{4}$ und $\frac{1}{6}$ ist er 12, denn 12 ist das kleinste gemeinsame Vielfache von 4 und 6.
 
-$\frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}$. Ebenso: $\frac{3}{4} - \frac{1}{2} = \frac{3}{4} - \frac{2}{4} = \frac{1}{4}$.
+**Beispiel: Plus mit verschiedenen Nennern**
+
+Der kleinste gemeinsame Nenner von 2 und 3 ist das kgV 6. Du erweiterst beide Brüche auf Sechstel und addierst die Zähler:
+
+$\frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}$
+
+**Beispiel: Minus mit verschiedenen Nennern**
+
+Das kgV von 4 und 6 ist 12, also rechnest du in Zwölfteln. Du nimmst nur die Zähler weg:
+
+$\frac{3}{4} - \frac{1}{6} = \frac{9}{12} - \frac{2}{12} = \frac{7}{12}$
+
+**Beispiel: Eine Summe größer als 1**
+
+Wird die Summe größer als ein Ganzes, kannst du sie als gemischte Zahl schreiben: 19 Zwölftel sind ein Ganzes (12 Zwölftel) und 7 Zwölftel.
+
+$\frac{3}{4} + \frac{5}{6} = \frac{9}{12} + \frac{10}{12} = \frac{19}{12} = 1\,\frac{7}{12}$
+
+**Merke: Typischer Fehler: Nenner mitaddieren**
+
+$\frac{1}{2} + \frac{1}{3}$ ist nicht $\frac{2}{5}$. Das kannst du schon schätzen: $\frac{2}{5}$ ist kleiner als $\frac{1}{2}$, die Summe muss aber größer als $\frac{1}{2}$ sein. Der Nenner sagt, wie groß die Stücke sind. Er bleibt, sobald die Stücke gleich groß sind. Rechnest du mit dem Produkt der Nenner statt mit dem kgV, ist das Ergebnis auch richtig, du musst nur mehr kürzen: $\frac{1}{4} + \frac{1}{6} = \frac{10}{24} = \frac{5}{12}$.
 
 ### Üben
 
 - Aufgabe `verstehen` (unten)
 
 - Aufgabe `aufgaben` (unten)
+
+- Aufgabe `nenner` (unten)
+
+- Aufgabe `schaetzen` (unten)
+
+- Aufgabe `ungleichnamig` (unten)
+
+- Aufgabe `minus-ungleich` (unten)
+
+- Aufgabe `ueber-eins` (unten)
 
 ### Aufgabe modell
 
@@ -155,56 +183,73 @@ Nr. | z | n | b | d | f (verdeckt) | Lösung | F1 | F2
 
 ```
 Nr. | z | n | b | d | f (verdeckt) | Lösung | F1 | F2
-1 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
-2 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
-3 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
-4 | 2 | 6 | 1 | 6 | 2 | $\frac{1}{6}$ | $\frac{7}{6}$ | Keine Eingabe
-5 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
-6 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
-7 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
-8 | 2 | 6 | 1 | 6 | 2 | $\frac{1}{6}$ | $\frac{7}{6}$ | Keine Eingabe
-9 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
-10 | 3 | 4 | 1 | 4 | 2 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
-11 | 3 | 5 | 1 | 5 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
-12 | 3 | 6 | 1 | 6 | 2 | $\frac{2}{6}$ | $\frac{8}{6}$ | Keine Eingabe
-13 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
-14 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
-15 | 4 | 5 | 1 | 5 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
-16 | 4 | 6 | 1 | 6 | 2 | $\frac{3}{6}$ | $\frac{9}{6}$ | Keine Eingabe
-17 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
-18 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
-19 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
-20 | 5 | 6 | 1 | 6 | 2 | $\frac{4}{6}$ | $\frac{10}{6}$ | Keine Eingabe
-21 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
-22 | 3 | 4 | 1 | 4 | 2 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
-23 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
-24 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
-25 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
-26 | 3 | 5 | 1 | 5 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
-27 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
-28 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
-29 | 4 | 5 | 1 | 5 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
-30 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
-31 | 3 | 4 | 1 | 4 | 2 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
-32 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
-33 | 2 | 3 | 1 | 3 | 2 | $\frac{1}{3}$ | $\frac{4}{3}$ | Keine Eingabe
-34 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
-35 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
-36 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
-37 | 3 | 5 | 1 | 5 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
-38 | 3 | 4 | 1 | 4 | 2 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
-39 | 4 | 5 | 1 | 5 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
-40 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
-41 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
-42 | 2 | 4 | 1 | 4 | 2 | $\frac{1}{4}$ | $\frac{5}{4}$ | Keine Eingabe
-43 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
-44 | 3 | 4 | 1 | 4 | 2 | $\frac{2}{4}$ | $\frac{6}{4}$ | Keine Eingabe
-45 | 3 | 5 | 1 | 5 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
-46 | 4 | 5 | 1 | 5 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
-47 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
-48 | 2 | 5 | 1 | 5 | 2 | $\frac{1}{5}$ | $\frac{6}{5}$ | Keine Eingabe
-49 | 3 | 5 | 1 | 5 | 2 | $\frac{2}{5}$ | $\frac{7}{5}$ | Keine Eingabe
-50 | 4 | 5 | 1 | 5 | 2 | $\frac{3}{5}$ | $\frac{8}{5}$ | Keine Eingabe
+1 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+2 | 5 | 6 | 1 | 3 | 2 | $\frac{9}{18}$ | $\frac{27}{18}$ | Keine Eingabe
+3 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+4 | 3 | 4 | 1 | 6 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+5 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+6 | 7 | 10 | 1 | 2 | 2 | $\frac{4}{20}$ | $\frac{24}{20}$ | Keine Eingabe
+7 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+8 | 5 | 6 | 1 | 3 | 2 | $\frac{9}{18}$ | $\frac{27}{18}$ | Keine Eingabe
+9 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+10 | 3 | 4 | 1 | 6 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+11 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+12 | 7 | 10 | 1 | 2 | 2 | $\frac{4}{20}$ | $\frac{24}{20}$ | Keine Eingabe
+13 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+14 | 5 | 6 | 1 | 3 | 2 | $\frac{9}{18}$ | $\frac{27}{18}$ | Keine Eingabe
+15 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+16 | 3 | 4 | 1 | 6 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+17 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+18 | 7 | 10 | 1 | 2 | 2 | $\frac{4}{20}$ | $\frac{24}{20}$ | Keine Eingabe
+19 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+20 | 5 | 6 | 1 | 3 | 2 | $\frac{9}{18}$ | $\frac{27}{18}$ | Keine Eingabe
+21 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+22 | 3 | 4 | 1 | 6 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+23 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+24 | 7 | 10 | 1 | 2 | 2 | $\frac{4}{20}$ | $\frac{24}{20}$ | Keine Eingabe
+25 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+26 | 5 | 6 | 1 | 3 | 2 | $\frac{9}{18}$ | $\frac{27}{18}$ | Keine Eingabe
+27 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+28 | 3 | 4 | 1 | 6 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+29 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+30 | 7 | 10 | 1 | 2 | 2 | $\frac{4}{20}$ | $\frac{24}{20}$ | Keine Eingabe
+31 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+32 | 5 | 6 | 1 | 3 | 2 | $\frac{9}{18}$ | $\frac{27}{18}$ | Keine Eingabe
+33 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+34 | 3 | 4 | 1 | 6 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+35 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+36 | 7 | 10 | 1 | 2 | 2 | $\frac{4}{20}$ | $\frac{24}{20}$ | Keine Eingabe
+37 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+38 | 5 | 6 | 1 | 3 | 2 | $\frac{9}{18}$ | $\frac{27}{18}$ | Keine Eingabe
+39 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+40 | 3 | 4 | 1 | 6 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+41 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+42 | 7 | 10 | 1 | 2 | 2 | $\frac{4}{20}$ | $\frac{24}{20}$ | Keine Eingabe
+43 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+44 | 5 | 6 | 1 | 3 | 2 | $\frac{9}{18}$ | $\frac{27}{18}$ | Keine Eingabe
+45 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+46 | 3 | 4 | 1 | 6 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+47 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+48 | 7 | 10 | 1 | 2 | 2 | $\frac{4}{20}$ | $\frac{24}{20}$ | Keine Eingabe
+49 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+50 | 5 | 6 | 1 | 3 | 2 | $\frac{9}{18}$ | $\frac{27}{18}$ | Keine Eingabe
+51 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+52 | 3 | 4 | 1 | 6 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+53 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+54 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+55 | 5 | 6 | 1 | 3 | 2 | $\frac{9}{18}$ | $\frac{27}{18}$ | Keine Eingabe
+56 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+57 | 3 | 4 | 1 | 6 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+58 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+59 | 7 | 10 | 1 | 2 | 2 | $\frac{4}{20}$ | $\frac{24}{20}$ | Keine Eingabe
+60 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+61 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+62 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+63 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+64 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
+65 | 5 | 6 | 1 | 4 | 2 | $\frac{14}{24}$ | $\frac{38}{24}$ | Keine Eingabe
+66 | 3 | 4 | 1 | 2 | 2 | $\frac{2}{8}$ | $\frac{10}{8}$ | Keine Eingabe
+67 | 2 | 3 | 1 | 4 | 2 | $\frac{5}{12}$ | $\frac{17}{12}$ | Keine Eingabe
 ```
 
 ### Aufgabe verstehen
@@ -241,4 +286,120 @@ Nr. | n | Lösung | F1 | F2
 4 | 8 | 3 | 16 | 2
 5 | 6 | 3 | 12 | 2
 6 | 3 | 3 | 6 | 2
+```
+
+### Aufgabe nenner
+
+- Aufgabe: „Du willst $\frac{1}{{e.n}}$ und $\frac{1}{{e.d}}$ addieren. Welcher Nenner ist der kleinste gemeinsame Nenner?“
+- Antwortformat: eine Zahl eintippen
+- Tipp der App: „Schreibe die Vielfachen von {e.n} und von {e.d} auf. Das erste Vielfache, das in beiden Listen steht, ist das kgV.“
+- Lösungsweg:
+  - Vielfache von {e.n}: {e.va}. Vielfache von {e.d}: {e.vb}.
+  - Das erste gemeinsame Vielfache ist {answer}. Das ist das kgV und damit der kleinste gemeinsame Nenner.
+- Typische Fehler und was die App sagt:
+  - F1: „Das Produkt der Nenner ist ein gemeinsamer Nenner, aber nicht der kleinste. Gesucht ist das kleinste gemeinsame Vielfache (kgV) von {e.n} und {e.d}.“
+  - F2: „Du hast die Nenner addiert. Der gemeinsame Nenner ist ein Vielfaches von {e.n} und von {e.d}, keine Summe.“
+  - F3: „Das ist nur das Vielfache einer der beiden Zahlen. Der gemeinsame Nenner muss auch ein Vielfaches der anderen sein.“
+- Link zu Nummer n: `../?nenner=n&via=tutor#nenner`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
+
+```
+Nr. | e.n | e.d | e.va | e.vb | Lösung | F1 | F2 | F3
+1 | 6 | 10 | 6, 12, 18, 24, 30 | 10, 20, 30 | 30 | 60 | 16 | 10
+2 | 6 | 8 | 6, 12, 18, 24 | 8, 16, 24 | 24 | 48 | 14 | 8
+3 | 8 | 12 | 8, 16, 24 | 12, 24 | 24 | 96 | 20 | 12
+4 | 6 | 9 | 6, 12, 18 | 9, 18 | 18 | 54 | 15 | 9
+5 | 4 | 10 | 4, 8, 12, 16, 20 | 10, 20 | 20 | 40 | 14 | 10
+6 | 10 | 15 | 10, 20, 30 | 15, 30 | 30 | 150 | 25 | 15
+7 | 9 | 12 | 9, 18, 27, 36 | 12, 24, 36 | 36 | 108 | 21 | 12
+8 | 4 | 6 | 4, 8, 12 | 6, 12 | 12 | 24 | 10 | 6
+```
+
+### Aufgabe schaetzen
+
+- Aufgabe: Anna rechnet $\frac{1}{2} + \frac{1}{3} = \frac{2}{5}$. Kann das stimmen?
+- Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
+- Lösung: Die Aussage stimmt nicht.
+- Erklärung: $\frac{2}{5}$ ist kleiner als $\frac{1}{2}$. Wenn du zu $\frac{1}{2}$ noch etwas dazulegst, muss die Summe aber größer als $\frac{1}{2}$ sein. Richtig ist $\frac{5}{6}$: Anna hat Zähler und Nenner einzeln addiert.
+- Link: [../?via=tutor#schaetzen](../?via=tutor#schaetzen)
+
+### Aufgabe ungleichnamig
+
+- Was zu tun ist: Brüche addieren, subtrahieren, multiplizieren oder dividieren; die Aufgabe nennt die Rechnung und verlangt das vollständig gekürzte Ergebnis.
+- Aufgabe: „Berechne {z}/{n} + {b}/{d}. Nutze den kleinsten gemeinsamen Nenner und gib das Ergebnis vollständig gekürzt an.“
+- Antwortformat: Ergebnis als Bruch (zum Beispiel 5/6), als ganze Zahl oder als gemischte Zahl (zum Beispiel 1 1/12) eintippen; danach Prüfen drücken.
+- Was als richtig zählt: Der Wert stimmt und der Bruch ist vollständig gekürzt; gemischte Zahl und unechter Bruch gelten gleich.
+- Typische Fehler (die Meldung der App passt zu einem davon):
+  - F1: Keine oder ungültige Eingabe.
+  - F2: Ergebnis stimmt im Wert, ist aber nicht vollständig gekürzt.
+  - F3: Erster typischer Fehler der Aufgabenart: bei Plus und Minus Zähler und Nenner einzeln gerechnet, bei Mal Nenner addiert oder Nenner mitmultipliziert, bei Geteilt mit dem Teiler multipliziert oder den Kehrbruch weggelassen.
+  - F4: Zweiter typischer Fehler: bei Plus und Minus den Zähler nicht mit erweitert, bei Mal Kehrbruch benutzt, bei Geteilt Dividend und Divisor vertauscht.
+  - F5: Dritter typischer Fehler: bei Geteilt durch einen Bruch beide Brüche umgekehrt.
+- Link zu Nummer n: `../?ungleichnamig=n&via=tutor#ungleichnamig`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.
+
+```
+Nr. | z | n | b | d | k (verdeckt) | Lösung | F1 | F2 | F3 | F4
+1 | 1 | 2 | 1 | 3 | 0 | $\frac{5}{6}$ | Keine Eingabe | $\frac{10}{12}$ | $\frac{2}{5}$ | $\frac{2}{6}$
+2 | 1 | 3 | 1 | 4 | 0 | $\frac{7}{12}$ | Keine Eingabe | $\frac{14}{24}$ | $\frac{2}{7}$ | $\frac{2}{12}$
+3 | 1 | 4 | 1 | 6 | 0 | $\frac{5}{12}$ | Keine Eingabe | $\frac{10}{24}$ | $\frac{2}{10}$ | $\frac{2}{12}$
+4 | 1 | 2 | 1 | 5 | 0 | $\frac{7}{10}$ | Keine Eingabe | $\frac{14}{20}$ | $\frac{2}{7}$ | $\frac{2}{10}$
+5 | 2 | 3 | 1 | 6 | 0 | $\frac{5}{6}$ | Keine Eingabe | $\frac{15}{18}$ | $\frac{3}{9}$ | $\frac{3}{6}$
+6 | 3 | 8 | 1 | 4 | 0 | $\frac{5}{8}$ | Keine Eingabe | $\frac{20}{32}$ | $\frac{4}{12}$ | $\frac{4}{8}$
+7 | 1 | 6 | 1 | 4 | 0 | $\frac{5}{12}$ | Keine Eingabe | $\frac{10}{24}$ | $\frac{2}{10}$ | $\frac{2}{12}$
+8 | 1 | 2 | 1 | 6 | 0 | $\frac{2}{3}$ | Keine Eingabe | $\frac{4}{6}$ | $\frac{2}{8}$ | $\frac{2}{6}$
+```
+
+### Aufgabe minus-ungleich
+
+- Was zu tun ist: Brüche addieren, subtrahieren, multiplizieren oder dividieren; die Aufgabe nennt die Rechnung und verlangt das vollständig gekürzte Ergebnis.
+- Aufgabe: „Berechne {z}/{n} − {b}/{d}. Nutze den kleinsten gemeinsamen Nenner und gib das Ergebnis vollständig gekürzt an.“
+- Antwortformat: Ergebnis als Bruch (zum Beispiel 5/6), als ganze Zahl oder als gemischte Zahl (zum Beispiel 1 1/12) eintippen; danach Prüfen drücken.
+- Was als richtig zählt: Der Wert stimmt und der Bruch ist vollständig gekürzt; gemischte Zahl und unechter Bruch gelten gleich.
+- Typische Fehler (die Meldung der App passt zu einem davon):
+  - F1: Keine oder ungültige Eingabe.
+  - F2: Ergebnis stimmt im Wert, ist aber nicht vollständig gekürzt.
+  - F3: Erster typischer Fehler der Aufgabenart: bei Plus und Minus Zähler und Nenner einzeln gerechnet, bei Mal Nenner addiert oder Nenner mitmultipliziert, bei Geteilt mit dem Teiler multipliziert oder den Kehrbruch weggelassen.
+  - F4: Zweiter typischer Fehler: bei Plus und Minus den Zähler nicht mit erweitert, bei Mal Kehrbruch benutzt, bei Geteilt Dividend und Divisor vertauscht.
+  - F5: Dritter typischer Fehler: bei Geteilt durch einen Bruch beide Brüche umgekehrt.
+- Link zu Nummer n: `../?minus-ungleich=n&via=tutor#minus-ungleich`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.
+
+```
+Nr. | z | n | b | d | k (verdeckt) | Lösung | F1 | F2 | F3 | F4
+1 | 3 | 4 | 1 | 2 | 0 | $\frac{1}{4}$ | Keine Eingabe | $\frac{2}{8}$ | $\frac{2}{2}$ | $\frac{2}{4}$
+2 | 5 | 6 | 1 | 3 | 0 | $\frac{1}{2}$ | Keine Eingabe | $\frac{3}{6}$ | $\frac{4}{3}$ | $\frac{4}{6}$
+3 | 2 | 3 | 1 | 4 | 0 | $\frac{5}{12}$ | Keine Eingabe | $\frac{10}{24}$ | $\frac{1}{1}$ | $\frac{1}{12}$
+4 | 3 | 4 | 1 | 6 | 0 | $\frac{7}{12}$ | Keine Eingabe | $\frac{14}{24}$ | $\frac{2}{2}$ | $\frac{2}{12}$
+5 | 5 | 6 | 1 | 4 | 0 | $\frac{7}{12}$ | Keine Eingabe | $\frac{14}{24}$ | $\frac{4}{2}$ | $\frac{4}{12}$
+6 | 7 | 10 | 1 | 2 | 0 | $\frac{1}{5}$ | Keine Eingabe | $\frac{2}{10}$ | $\frac{6}{8}$ | $\frac{6}{10}$
+7 | 3 | 4 | 1 | 3 | 0 | $\frac{5}{12}$ | Keine Eingabe | $\frac{10}{24}$ | $\frac{2}{1}$ | $\frac{2}{12}$
+8 | 5 | 6 | 3 | 8 | 0 | $\frac{11}{24}$ | Keine Eingabe | $\frac{22}{48}$ | $\frac{2}{2}$ | $\frac{2}{24}$
+```
+
+### Aufgabe ueber-eins
+
+- Was zu tun ist: Brüche addieren, subtrahieren, multiplizieren oder dividieren; die Aufgabe nennt die Rechnung und verlangt das vollständig gekürzte Ergebnis.
+- Aufgabe: „Berechne {z}/{n} + {b}/{d}. Die Summe ist größer als 1. Gib sie vollständig gekürzt als gemischte Zahl oder als unechten Bruch an.“
+- Antwortformat: Ergebnis als Bruch (zum Beispiel 5/6), als ganze Zahl oder als gemischte Zahl (zum Beispiel 1 1/12) eintippen; danach Prüfen drücken.
+- Was als richtig zählt: Der Wert stimmt und der Bruch ist vollständig gekürzt; gemischte Zahl und unechter Bruch gelten gleich.
+- Typische Fehler (die Meldung der App passt zu einem davon):
+  - F1: Keine oder ungültige Eingabe.
+  - F2: Ergebnis stimmt im Wert, ist aber nicht vollständig gekürzt.
+  - F3: Erster typischer Fehler der Aufgabenart: bei Plus und Minus Zähler und Nenner einzeln gerechnet, bei Mal Nenner addiert oder Nenner mitmultipliziert, bei Geteilt mit dem Teiler multipliziert oder den Kehrbruch weggelassen.
+  - F4: Zweiter typischer Fehler: bei Plus und Minus den Zähler nicht mit erweitert, bei Mal Kehrbruch benutzt, bei Geteilt Dividend und Divisor vertauscht.
+  - F5: Dritter typischer Fehler: bei Geteilt durch einen Bruch beide Brüche umgekehrt.
+- Link zu Nummer n: `../?ueber-eins=n&via=tutor#ueber-eins`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.
+
+```
+Nr. | z | n | b | d | k (verdeckt) | Lösung | F1 | F2 | F3 | F4
+1 | 3 | 4 | 1 | 2 | 0 | 1 $\frac{1}{4}$ | Keine Eingabe | $\frac{10}{8}$ | $\frac{4}{6}$ | $\frac{4}{4}$
+2 | 2 | 3 | 3 | 4 | 0 | 1 $\frac{5}{12}$ | Keine Eingabe | $\frac{34}{24}$ | $\frac{5}{7}$ | $\frac{5}{12}$
+3 | 3 | 4 | 5 | 6 | 0 | 1 $\frac{7}{12}$ | Keine Eingabe | $\frac{38}{24}$ | $\frac{8}{10}$ | $\frac{8}{12}$
+4 | 5 | 6 | 2 | 3 | 0 | 1 $\frac{1}{2}$ | Keine Eingabe | $\frac{9}{6}$ | $\frac{7}{9}$ | $\frac{7}{6}$
+5 | 3 | 5 | 7 | 10 | 0 | 1 $\frac{3}{10}$ | Keine Eingabe | $\frac{65}{50}$ | $\frac{10}{15}$ | $\frac{10}{10}$
+6 | 5 | 8 | 3 | 4 | 0 | 1 $\frac{3}{8}$ | Keine Eingabe | $\frac{44}{32}$ | $\frac{8}{12}$ | $\frac{8}{8}$
+7 | 4 | 5 | 1 | 2 | 0 | 1 $\frac{3}{10}$ | Keine Eingabe | $\frac{26}{20}$ | $\frac{5}{7}$ | $\frac{5}{10}$
+8 | 7 | 8 | 1 | 2 | 0 | 1 $\frac{3}{8}$ | Keine Eingabe | $\frac{22}{16}$ | $\frac{8}{10}$ | $\frac{8}{8}$
 ```

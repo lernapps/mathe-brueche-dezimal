@@ -51,9 +51,9 @@ Links und rechts vom Gleichheitszeichen soll derselbe Wert stehen. Welche Zahl f
 
 ### Anschaulich erklärt
 
-Gesucht ist ein fehlender Anteil: $x + \frac{1}{4}$ soll genau $\frac{3}{4}$ ergeben. x ist der Platzhalter für die Zahl, die du noch nicht kennst. Der Streifen zeigt das Ziel $\frac{3}{4}$. Davon ist $\frac{1}{4}$ schon bekannt. Überlege, welcher Anteil noch fehlt. Rechne zur Kontrolle deinen Vorschlag plus $\frac{1}{4}$. Kommt dabei $\frac{3}{4}$ heraus? In den Übungen ersetzt du den Platzhalter durch deine Zahl und prüfst auf dieselbe Weise nach.
+Gesucht ist ein fehlender Anteil: $x + \frac{1}{4}$ soll genau $\frac{3}{4}$ ergeben. $x$ ist der Platzhalter für die Zahl, die du noch nicht kennst. Der Streifen zeigt das Ziel $\frac{3}{4}$. Davon ist $\frac{1}{4}$ schon bekannt. Überlege, welcher Anteil noch fehlt. Rechne zur Kontrolle deinen Vorschlag plus $\frac{1}{4}$. Kommt dabei $\frac{3}{4}$ heraus? In den Übungen ersetzt du den Platzhalter durch deine Zahl und prüfst auf dieselbe Weise nach.
 
-Bild: Ein ganzer Streifen ist in vier gleich große Teile geteilt. Drei Teile sind gefüllt: das Ziel 3 durch 4. Ein Viertel davon ist bereits bekannt; der fehlende Anteil ergänzt dieses Viertel zu drei Vierteln. Bildunterschrift: Ziel: $\frac{3}{4}$. Davon ist $\frac{1}{4}$ schon bekannt. Welcher Anteil fehlt?
+Bild: Ein Streifen aus vier gleich großen Feldern. Drei Felder sind gefüllt und von einer Klammer mit dem Ziel drei Viertel überspannt. Das erste gefüllte Feld ist hell und als bekannt beschriftet, ein Viertel. Die beiden übrigen gefüllten Felder sind dunkel und mit einem Fragezeichen beschriftet: gesucht ist $x$. Das vierte Feld ist leer. Bildunterschrift: Ziel: $\frac{3}{4}$. Das helle Feld ist mit $\frac{1}{4}$ schon bekannt. Welcher Anteil $x$ fehlt?
 
 **Merke: Was du dabei beobachten kannst**
 
@@ -71,6 +71,12 @@ $x + \frac{1}{4} = \frac{3}{4}$. Also $x = \frac{3}{4} - \frac{1}{4} = \frac{2}{
 
 - Aufgabe `aufgaben` (unten)
 
+- Aufgabe `summand` (unten)
+
+- Aufgabe `probe` (unten)
+
+- Aufgabe `faktor` (unten)
+
 ### Aufgabe verstehen
 
 - Aufgabe: Welche Zahl löst $x + \frac{1}{4} = \frac{3}{4}$?
@@ -85,24 +91,87 @@ $x + \frac{1}{4} = \frac{3}{4}$. Also $x = \frac{3}{4} - \frac{1}{4} = \frac{2}{
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Ergänze: $\frac{x}{{n}} + \frac{1}{{n}} = 1$. Welchen Wert hat der Zähler x?“
+- Aufgabe: „Ergänze: $\frac{x}{{n}} + \frac{1}{{n}} = 1$. Welchen Wert hat der Zähler $x$?“
 - Antwortformat: eine Zahl eintippen
 - Tipp der App: „Bei einer Gleichung soll links und rechts derselbe Wert stehen.“
 - Lösungsweg:
   - Ein Ganzes besteht aus $\frac{{n}}{{n}}$. Ein {n}-tel ist schon vorhanden.
-  - Es fehlen {n} − 1 = {answer} weitere {n}-tel. Das ist der gesuchte Zähler x.
+  - Es fehlen {n} − 1 = {answer} weitere {n}-tel. Das ist der gesuchte Zähler $x$.
 - Typische Fehler und was die App sagt:
   - F1: „Der fehlende Summand entsteht durch Subtrahieren, nicht durch Addieren.“
-  - F2: „Das wäre ein ganzes Ganzes vor dem zusätzlichen Bruchteil.“
+  - F2: „Mit dem Zähler {n} wäre der erste Bruch schon ein ganzes Ganzes, und der zweite Bruch kommt noch dazu. Dann ist die Summe größer als 1.“
+  - F3: „Auf der rechten Seite steht ein Ganzes, das sind {n} Stücke gleicher Größe. Der Zähler $x$ ergänzt die 1 zu {n}, nicht zu 1.“
 - Link zu Nummer n: `../?aufgaben=n&via=tutor#aufgaben`
 - Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
 
 ```
-Nr. | n | Lösung | F1 | F2
-1 | 10 | 9 | 11 | 10
-2 | 5 | 4 | 6 | 5
-3 | 4 | 3 | 5 | 4
-4 | 8 | 7 | 9 | 8
-5 | 6 | 5 | 7 | 6
-6 | 3 | 2 | 4 | 3
+Nr. | n | Lösung | F1 | F2 | F3
+1 | 10 | 9 | 11 | 10 | 1
+2 | 5 | 4 | 6 | 5 | 1
+3 | 4 | 3 | 5 | 4 | 1
+4 | 8 | 7 | 9 | 8 | 1
+5 | 6 | 5 | 7 | 6 | 1
+6 | 3 | 2 | 4 | 3 | 1
+```
+
+### Aufgabe summand
+
+- Was zu tun ist: Brüche addieren, subtrahieren, multiplizieren oder dividieren; die Aufgabe nennt die Rechnung und verlangt das vollständig gekürzte Ergebnis.
+- Aufgabe: „Löse x + {b}/{d} = {z}/{n}. Gib x vollständig gekürzt an.“
+- Antwortformat: Ergebnis als Bruch (zum Beispiel 5/6), als ganze Zahl oder als gemischte Zahl (zum Beispiel 1 1/12) eintippen; danach Prüfen drücken.
+- Was als richtig zählt: Der Wert stimmt und der Bruch ist vollständig gekürzt; gemischte Zahl und unechter Bruch gelten gleich.
+- Typische Fehler (die Meldung der App passt zu einem davon):
+  - F1: Keine oder ungültige Eingabe.
+  - F2: Ergebnis stimmt im Wert, ist aber nicht vollständig gekürzt.
+  - F3: Erster typischer Fehler der Aufgabenart: bei Plus und Minus Zähler und Nenner einzeln gerechnet, bei Mal Nenner addiert oder Nenner mitmultipliziert, bei Geteilt mit dem Teiler multipliziert oder den Kehrbruch weggelassen.
+  - F4: Zweiter typischer Fehler: bei Plus und Minus den Zähler nicht mit erweitert, bei Mal Kehrbruch benutzt, bei Geteilt Dividend und Divisor vertauscht.
+  - F5: Dritter typischer Fehler: bei Geteilt durch einen Bruch beide Brüche umgekehrt.
+- Link zu Nummer n: `../?summand=n&via=tutor#summand`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.
+
+```
+Nr. | z | n | b | d | k (verdeckt) | Lösung | F1 | F2 | F3 | F4
+1 | 3 | 4 | 1 | 4 | 0 | $\frac{1}{2}$ | Keine Eingabe | $\frac{4}{8}$ | $\frac{16}{16}$ | –
+2 | 3 | 4 | 1 | 2 | 0 | $\frac{1}{4}$ | Keine Eingabe | $\frac{2}{8}$ | $\frac{10}{8}$ | $\frac{2}{2}$
+3 | 5 | 6 | 1 | 3 | 0 | $\frac{1}{2}$ | Keine Eingabe | $\frac{3}{6}$ | $\frac{21}{18}$ | $\frac{4}{3}$
+4 | 7 | 8 | 1 | 4 | 0 | $\frac{5}{8}$ | Keine Eingabe | $\frac{20}{32}$ | $\frac{36}{32}$ | $\frac{6}{4}$
+5 | 2 | 3 | 1 | 6 | 0 | $\frac{1}{2}$ | Keine Eingabe | $\frac{3}{6}$ | $\frac{15}{18}$ | $\frac{1}{3}$
+6 | 4 | 5 | 1 | 2 | 0 | $\frac{3}{10}$ | Keine Eingabe | $\frac{6}{20}$ | $\frac{13}{10}$ | $\frac{3}{3}$
+7 | 5 | 6 | 1 | 4 | 0 | $\frac{7}{12}$ | Keine Eingabe | $\frac{14}{24}$ | $\frac{26}{24}$ | $\frac{4}{2}$
+8 | 7 | 10 | 2 | 5 | 0 | $\frac{3}{10}$ | Keine Eingabe | $\frac{15}{50}$ | $\frac{55}{50}$ | $\frac{5}{5}$
+```
+
+### Aufgabe probe
+
+- Aufgabe: Für die Gleichung $x + \frac{1}{3} = \frac{5}{6}$ ist $x = \frac{1}{2}$ die Lösung.
+- Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
+- Lösung: Die Aussage stimmt.
+- Erklärung: Probe: Du setzt $\frac{1}{2}$ für $x$ ein. $\frac{1}{2} + \frac{1}{3} = \frac{3}{6} + \frac{2}{6} = \frac{5}{6}$. Links und rechts steht derselbe Wert, also stimmt die Lösung.
+- Link: [../?via=tutor#probe](../?via=tutor#probe)
+
+### Aufgabe faktor
+
+- Was zu tun ist: Brüche addieren, subtrahieren, multiplizieren oder dividieren; die Aufgabe nennt die Rechnung und verlangt das vollständig gekürzte Ergebnis.
+- Aufgabe: „Löse x · {b}/{d} = {z}/{n}. Gib x vollständig gekürzt an, als Bruch, ganze oder gemischte Zahl.“
+- Antwortformat: Ergebnis als Bruch (zum Beispiel 5/6), als ganze Zahl oder als gemischte Zahl (zum Beispiel 1 1/12) eintippen; danach Prüfen drücken.
+- Was als richtig zählt: Der Wert stimmt und der Bruch ist vollständig gekürzt; gemischte Zahl und unechter Bruch gelten gleich.
+- Typische Fehler (die Meldung der App passt zu einem davon):
+  - F1: Keine oder ungültige Eingabe.
+  - F2: Ergebnis stimmt im Wert, ist aber nicht vollständig gekürzt.
+  - F3: Erster typischer Fehler der Aufgabenart: bei Plus und Minus Zähler und Nenner einzeln gerechnet, bei Mal Nenner addiert oder Nenner mitmultipliziert, bei Geteilt mit dem Teiler multipliziert oder den Kehrbruch weggelassen.
+  - F4: Zweiter typischer Fehler: bei Plus und Minus den Zähler nicht mit erweitert, bei Mal Kehrbruch benutzt, bei Geteilt Dividend und Divisor vertauscht.
+  - F5: Dritter typischer Fehler: bei Geteilt durch einen Bruch beide Brüche umgekehrt.
+- Link zu Nummer n: `../?faktor=n&via=tutor#faktor`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.
+
+```
+Nr. | z | n | b | d | k (verdeckt) | Lösung | F1 | F2 | F3 | F4
+1 | 3 | 4 | 3 | 8 | 0 | 2 | Keine Eingabe | $\frac{8}{4}$ | $\frac{9}{32}$ | $\frac{12}{24}$
+2 | 1 | 2 | 1 | 4 | 0 | 2 | Keine Eingabe | $\frac{4}{2}$ | $\frac{1}{8}$ | $\frac{2}{4}$
+3 | 2 | 3 | 1 | 6 | 0 | 4 | Keine Eingabe | $\frac{12}{3}$ | $\frac{2}{18}$ | $\frac{3}{12}$
+4 | 3 | 4 | 1 | 2 | 0 | 1 $\frac{1}{2}$ | Keine Eingabe | $\frac{6}{4}$ | $\frac{3}{8}$ | $\frac{4}{6}$
+5 | 5 | 6 | 5 | 12 | 0 | 2 | Keine Eingabe | $\frac{12}{6}$ | $\frac{25}{72}$ | $\frac{30}{60}$
+6 | 2 | 5 | 1 | 10 | 0 | 4 | Keine Eingabe | $\frac{20}{5}$ | $\frac{2}{50}$ | $\frac{5}{20}$
+7 | 3 | 5 | 3 | 10 | 0 | 2 | Keine Eingabe | $\frac{10}{5}$ | $\frac{9}{50}$ | $\frac{15}{30}$
+8 | 3 | 4 | 1 | 3 | 0 | 2 $\frac{1}{4}$ | Keine Eingabe | $\frac{18}{8}$ | $\frac{3}{12}$ | $\frac{4}{9}$
 ```

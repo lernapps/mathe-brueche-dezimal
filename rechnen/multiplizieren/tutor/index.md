@@ -69,11 +69,29 @@ Nun folgt eine eigene Malaufgabe mit wechselnden Zahlen. Die blaue Breite und di
 
 Kuchen: Von jedem der drei Viertelstücke werden zwei von drei Stückchen genommen. Das sind 3 · 2 = 6 Stückchen. Der ganze Kuchen hätte 4 · 3 = 12 solcher Stückchen. Rechteck: Drei von vier Spalten und zwei von drei Zeilen bilden ein Rechteck aus 3 · 2 = 6 von insgesamt 4 · 3 = 12 Feldern. Beide Bilder zeigen $\frac{2}{3} \cdot \frac{3}{4} = \frac{6}{12} = \frac{1}{2}$. So wird verständlich, warum du Zähler mit Zähler und Nenner mit Nenner multiplizierst.
 
+**Beispiel: Mal eine natürliche Zahl**
+
+$3 \cdot \frac{2}{5}$ heißt: dreimal zwei Fünftel. Eine natürliche Zahl kannst du als Bruch mit Nenner 1 schreiben. Nur der Zähler wird mit 3 multipliziert, die Stückgröße (Fünftel) bleibt:
+
+$3 \cdot \frac{2}{5} = \frac{2}{5} + \frac{2}{5} + \frac{2}{5} = \frac{3 \cdot 2}{5} = \frac{6}{5} = 1\,\frac{1}{5}$
+
+**Beispiel: Erst kürzen, dann multiplizieren**
+
+Bei $\frac{4}{9} \cdot \frac{3}{8}$ haben die 4 oben und die 8 unten den gemeinsamen Teiler 4, die 3 oben und die 9 unten den Teiler 3. Du kürzt über Kreuz, also immer einen Zähler mit einem Nenner. Dann sind die Zahlen klein und das Ergebnis ist gleich vollständig gekürzt:
+
+$\frac{4}{9} \cdot \frac{3}{8} = \frac{4 : 4}{9 : 3} \cdot \frac{3 : 3}{8 : 4} = \frac{1}{3} \cdot \frac{1}{2} = \frac{1}{6}$
+
 ### Üben
 
 - Aufgabe `verstehen` (unten)
 
 - Aufgabe `aufgaben` (unten)
+
+- Aufgabe `kleiner` (unten)
+
+- Aufgabe `mit-zahl` (unten)
+
+- Aufgabe `kuerzen-vorher` (unten)
 
 ### Aufgabe modell
 
@@ -175,4 +193,66 @@ Nr. | n | Lösung | F1 | F2
 4 | 8 | 24 | 11 | 8
 5 | 6 | 18 | 9 | 6
 6 | 3 | 9 | 6 | 3
+```
+
+### Aufgabe kleiner
+
+- Aufgabe: Das Ergebnis von $\frac{2}{3} \cdot \frac{3}{4}$ ist kleiner als $\frac{3}{4}$.
+- Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
+- Lösung: Die Aussage stimmt.
+- Erklärung: Du nimmst nur zwei Drittel von $\frac{3}{4}$, also weniger als das Ganze von $\frac{3}{4}$. Das Ergebnis ist $\frac{1}{2}$. Malnehmen mit einem Bruch kleiner als 1 verkleinert.
+- Link: [../?via=tutor#kleiner](../?via=tutor#kleiner)
+
+### Aufgabe mit-zahl
+
+- Was zu tun ist: Brüche addieren, subtrahieren, multiplizieren oder dividieren; die Aufgabe nennt die Rechnung und verlangt das vollständig gekürzte Ergebnis.
+- Aufgabe: „Berechne {k} · {z}/{n}. Gib das Ergebnis vollständig gekürzt an, als Bruch, ganze oder gemischte Zahl.“
+- Antwortformat: Ergebnis als Bruch (zum Beispiel 5/6), als ganze Zahl oder als gemischte Zahl (zum Beispiel 1 1/12) eintippen; danach Prüfen drücken.
+- Was als richtig zählt: Der Wert stimmt und der Bruch ist vollständig gekürzt; gemischte Zahl und unechter Bruch gelten gleich.
+- Typische Fehler (die Meldung der App passt zu einem davon):
+  - F1: Keine oder ungültige Eingabe.
+  - F2: Ergebnis stimmt im Wert, ist aber nicht vollständig gekürzt.
+  - F3: Erster typischer Fehler der Aufgabenart: bei Plus und Minus Zähler und Nenner einzeln gerechnet, bei Mal Nenner addiert oder Nenner mitmultipliziert, bei Geteilt mit dem Teiler multipliziert oder den Kehrbruch weggelassen.
+  - F4: Zweiter typischer Fehler: bei Plus und Minus den Zähler nicht mit erweitert, bei Mal Kehrbruch benutzt, bei Geteilt Dividend und Divisor vertauscht.
+  - F5: Dritter typischer Fehler: bei Geteilt durch einen Bruch beide Brüche umgekehrt.
+- Link zu Nummer n: `../?mit-zahl=n&via=tutor#mit-zahl`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.
+
+```
+Nr. | z | n | b (verdeckt) | d (verdeckt) | k | Lösung | F1 | F2 | F3 | F4
+1 | 3 | 8 | 0 | 0 | 4 | 1 $\frac{1}{2}$ | Keine Eingabe | $\frac{6}{4}$ | $\frac{12}{32}$ | $\frac{7}{8}$
+2 | 2 | 5 | 0 | 0 | 3 | 1 $\frac{1}{5}$ | Keine Eingabe | $\frac{12}{10}$ | $\frac{6}{15}$ | $\frac{5}{5}$
+3 | 5 | 6 | 0 | 0 | 3 | 2 $\frac{1}{2}$ | Keine Eingabe | $\frac{10}{4}$ | $\frac{15}{18}$ | $\frac{8}{6}$
+4 | 3 | 4 | 0 | 0 | 2 | 1 $\frac{1}{2}$ | Keine Eingabe | $\frac{6}{4}$ | $\frac{6}{8}$ | $\frac{5}{4}$
+5 | 7 | 10 | 0 | 0 | 5 | 3 $\frac{1}{2}$ | Keine Eingabe | $\frac{14}{4}$ | $\frac{35}{50}$ | $\frac{12}{10}$
+6 | 2 | 9 | 0 | 0 | 3 | $\frac{2}{3}$ | Keine Eingabe | $\frac{4}{6}$ | $\frac{6}{27}$ | $\frac{5}{9}$
+7 | 5 | 12 | 0 | 0 | 4 | 1 $\frac{2}{3}$ | Keine Eingabe | $\frac{10}{6}$ | $\frac{20}{48}$ | $\frac{9}{12}$
+8 | 4 | 15 | 0 | 0 | 5 | 1 $\frac{1}{3}$ | Keine Eingabe | $\frac{8}{6}$ | $\frac{20}{75}$ | $\frac{9}{15}$
+```
+
+### Aufgabe kuerzen-vorher
+
+- Was zu tun ist: Brüche addieren, subtrahieren, multiplizieren oder dividieren; die Aufgabe nennt die Rechnung und verlangt das vollständig gekürzte Ergebnis.
+- Aufgabe: „Berechne {z}/{n} · {b}/{d}. Kürze am besten schon vor dem Multiplizieren und gib das Ergebnis vollständig gekürzt an.“
+- Antwortformat: Ergebnis als Bruch (zum Beispiel 5/6), als ganze Zahl oder als gemischte Zahl (zum Beispiel 1 1/12) eintippen; danach Prüfen drücken.
+- Was als richtig zählt: Der Wert stimmt und der Bruch ist vollständig gekürzt; gemischte Zahl und unechter Bruch gelten gleich.
+- Typische Fehler (die Meldung der App passt zu einem davon):
+  - F1: Keine oder ungültige Eingabe.
+  - F2: Ergebnis stimmt im Wert, ist aber nicht vollständig gekürzt.
+  - F3: Erster typischer Fehler der Aufgabenart: bei Plus und Minus Zähler und Nenner einzeln gerechnet, bei Mal Nenner addiert oder Nenner mitmultipliziert, bei Geteilt mit dem Teiler multipliziert oder den Kehrbruch weggelassen.
+  - F4: Zweiter typischer Fehler: bei Plus und Minus den Zähler nicht mit erweitert, bei Mal Kehrbruch benutzt, bei Geteilt Dividend und Divisor vertauscht.
+  - F5: Dritter typischer Fehler: bei Geteilt durch einen Bruch beide Brüche umgekehrt.
+- Link zu Nummer n: `../?kuerzen-vorher=n&via=tutor#kuerzen-vorher`
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.
+
+```
+Nr. | z | n | b | d | k (verdeckt) | Lösung | F1 | F2 | F3 | F4
+1 | 4 | 9 | 3 | 8 | 0 | $\frac{1}{6}$ | Keine Eingabe | $\frac{2}{12}$ | $\frac{12}{17}$ | $\frac{32}{27}$
+2 | 3 | 10 | 5 | 6 | 0 | $\frac{1}{4}$ | Keine Eingabe | $\frac{2}{8}$ | $\frac{15}{16}$ | $\frac{18}{50}$
+3 | 6 | 7 | 14 | 15 | 0 | $\frac{4}{5}$ | Keine Eingabe | $\frac{8}{10}$ | $\frac{84}{22}$ | $\frac{90}{98}$
+4 | 2 | 3 | 9 | 10 | 0 | $\frac{3}{5}$ | Keine Eingabe | $\frac{6}{10}$ | $\frac{18}{13}$ | $\frac{20}{27}$
+5 | 5 | 8 | 4 | 15 | 0 | $\frac{1}{6}$ | Keine Eingabe | $\frac{2}{12}$ | $\frac{20}{23}$ | $\frac{75}{32}$
+6 | 9 | 14 | 7 | 12 | 0 | $\frac{3}{8}$ | Keine Eingabe | $\frac{6}{16}$ | $\frac{63}{26}$ | $\frac{108}{98}$
+7 | 8 | 15 | 5 | 12 | 0 | $\frac{2}{9}$ | Keine Eingabe | $\frac{6}{27}$ | $\frac{40}{27}$ | $\frac{96}{75}$
+8 | 3 | 4 | 8 | 9 | 0 | $\frac{2}{3}$ | Keine Eingabe | $\frac{4}{6}$ | $\frac{24}{13}$ | $\frac{27}{32}$
 ```
