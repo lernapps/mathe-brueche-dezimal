@@ -1,0 +1,180 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+{
+  "title": "Was bedeutet ein Bruch?",
+  "competencies": ["brueche-begriff"],
+  "description": "Was ein Bruch bedeutet und wie Zähler und Nenner zusammengehören.",
+  "scope": "Der Nenner nennt die Anzahl gleich großer Teile **pro Ganzem**. Der Zähler nennt die ausgewählten Teile. Der Bruchstrich bedeutet auch geteilt durch. Ein Ganzes muss feststehen: Ein Viertel einer großen Tafel kann mehr sein als ein Viertel einer kleinen Tafel. Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: $\\frac{3}{4}$. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.",
+  "blocks":
+    [
+      {
+        "type": "section",
+        "id": "regel",
+        "title": "Was ist ein Bruch?",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "Was ist überhaupt ein Bruch? Mit einem Beinbruch hat er hier nichts zu tun. Mit einem Teil des Ganzen schon eher! Stell dir vor, ihr teilt eine Pizza in vier gleich große Stücke. Du nimmst eines: Das ist ein Viertel der Pizza.",
+            },
+            {
+              "type": "definition",
+              "term": "Bruch",
+              "explanation": "Ein Ganzes wird in gleich große Teile geteilt. Der Nenner sagt, wie viele Teile ein Ganzes bilden; der Zähler zählt die ausgewählten Teile. Zähler und Nenner trennt der Bruchstrich.",
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "entdecken",
+        "title": "Ausprobieren",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "Hier siehst du denselben Anteil als Kreis, als Streifen und als Plättchen. Mit „Nenner“ legst du fest, in wie viele gleich große Teile das Ganze zerlegt wird. Mit „Zähler“ wählst du aus, wie viele Teile gefärbt sind.",
+            },
+            {
+              "type": "vue-component",
+              "component": "BruchEntdecken",
+              "props":
+                {
+                  "numerator": "Zähler",
+                  "denominator": "Nenner",
+                  "note": "Die Bilder zeigen denselben Anteil in verschiedenen Formen. Ändere zuerst nur den Zähler oder nur den Nenner und beobachte, was sich ändert.",
+                  "labels":
+                    {
+                      "circle": "Kreis",
+                      "strip": "Bruchstreifen",
+                      "line": "Zahlenstrahl",
+                      "set": "Menge",
+                      "whole": "Ganzes",
+                      "selected": "Ausgewählt",
+                    },
+                  "stage": "parts",
+                },
+              "nojs": "Ein Bruch beschreibt einen Teil von einem Ganzen. In den Bildern ist das Ganze ein Kreis, ein Streifen oder die gesamte Menge an Plättchen. Die grünen Stücke sind ausgewählt; Die Streifenflächen sind zusätzlich schraffiert; in der Mengenansicht sind ausgewählte Punkte ausgefüllt. Mit „Nenner“ stellst du ein, in wie viele gleich große Teile du das Ganze zerlegst. Mit „Zähler“ wählst du aus, wie viele davon dazugehören. Ändere zuerst nur einen Regler und vergleiche die Bilder. In der Übung klickst du die benötigten Teile an; ein weiterer Klick nimmt die Markierung zurück. Danach drückst du „Prüfen“.\n\nIm Anfangsbild sind drei von vier Kreisteilen und drei von vier Streifenfeldern markiert. Im Mengenbild sind drei von vier Plättchen markiert. Jedes Bild zeigt denselben Anteil: $\\frac{3}{4}$.",
+            },
+            {
+              "type": "note",
+              "title": "Was du dabei beobachten kannst",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Ändere nur den Zähler: Was bleibt gleich, was ändert sich? Ändere nur den Nenner: Was passiert mit den Teilen? Stellst du den Nenner kleiner ein als den Zähler, wird der Zähler automatisch kleiner: In diesem Bild kannst du nie mehr Teile auswählen, als das Ganze hat. Und das Ganze muss immer feststehen: Ein Viertel einer großen Pizza ist mehr als ein Viertel einer kleinen Pizza.",
+                  },
+                ],
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "beispiel",
+        "title": "Am Beispiel nachvollziehen",
+        "blocks":
+          [
+            {
+              "type": "example",
+              "title": "Schritt für Schritt",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Ein Streifen besteht aus acht gleich großen Feldern. Fünf sind markiert: $\\frac{5}{8}$. Die 8 unter dem Bruchstrich sagt: Acht gleich große Teile bilden das Ganze. Die 5 darüber sagt: Fünf davon sind ausgewählt.",
+                  },
+                ],
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "ueben",
+        "title": "Üben",
+        "blocks":
+          [
+            {
+              "type": "vue-component",
+              "id": "modell",
+              "component": "BruchModelle",
+              "examples":
+                {
+                  "accepted": [{ "answer": 2, "seed": 1 }],
+                  "rejected": [{ "answer": 3, "seed": 1 }, { "answer": 0, "seed": 1 }],
+                },
+              "props":
+                {
+                  "task": "Markiere {z}/{n}. Alle Teile sind gleich groß; ihre Anordnung darfst du frei wählen.",
+                  "mode": "mark",
+                  "mistakes":
+                    [
+                      "Du hast mehr Teile markiert, als der Zähler {z} verlangt. Zähle noch einmal nach.",
+                      "Wähle zuerst Teile oder einen Teilstrich aus.",
+                      "Du hast weniger Teile markiert, als der Zähler {z} verlangt. Der Nenner {n} sagt nur, in wie viele Teile das Ganze geteilt ist.",
+                    ],
+                  "cell": "Teil {i}, {n} Teile pro Ganzem",
+                  "counter": "Deine Darstellung: {z}/{n}",
+                  "labels":
+                    {
+                      "circle": "Kreis",
+                      "strip": "Bruchstreifen",
+                      "line": "Zahlenstrahl",
+                      "set": "Menge",
+                      "whole": "Ganzes",
+                      "selected": "Ausgewählt",
+                    },
+                },
+              "nojs": "Ein Bruch beschreibt einen Teil von einem Ganzen. In den Bildern ist das Ganze ein Kreis, ein Streifen oder die gesamte Menge an Plättchen. Die grünen Stücke sind ausgewählt; Die Streifenflächen sind zusätzlich schraffiert; in der Mengenansicht sind ausgewählte Punkte ausgefüllt. Mit „Nenner“ stellst du ein, in wie viele gleich große Teile du das Ganze zerlegst. Mit „Zähler“ wählst du aus, wie viele davon dazugehören. Ändere zuerst nur einen Regler und vergleiche die Bilder. In der Übung klickst du die benötigten Teile an; ein weiterer Klick nimmt die Markierung zurück. Danach drückst du „Prüfen“.",
+            },
+            {
+              "type": "single-choice",
+              "id": "verstehen",
+              "text": "Was beschreibt der Nenner bei $\\frac{3}{4}$?",
+              "options":
+                [
+                  {
+                    "text": "Vier gleich große Teile pro Ganzem.",
+                    "correct": true,
+                    "info": "Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: $\\frac{3}{4}$. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.",
+                  },
+                  {
+                    "text": "Drei ausgewählte Teile.",
+                    "correct": false,
+                    "info": "Das ist die Aufgabe des Zählers: Er zählt die ausgewählten Teile.",
+                  },
+                  {
+                    "text": "Vier ausgewählte Ganze.",
+                    "correct": false,
+                    "info": "Der Nenner beschreibt die Unterteilung eines Ganzen, nicht die Zahl ausgewählter Ganzer.",
+                  },
+                ],
+              "explanation": "Ein Streifen besteht aus vier gleich großen Feldern. Drei sind markiert: $\\frac{3}{4}$. Die 4 unter dem Bruchstrich sagt: Vier gleich große Teile bilden das Ganze. Die 3 darüber sagt: Drei davon sind ausgewählt.",
+            },
+            {
+              "type": "generated",
+              "id": "aufgaben",
+              "given": { "n": { "oneOf": [3, 4, 5, 6, 8, 10] } },
+              "task":
+                {
+                  "text": "Ein Ganzes ist in {{n}} gleiche Teile geteilt. Ein Teil ist markiert. Gib den fehlenden Nenner an: $\\frac{1}{?}$",
+                },
+              "answer": { "value": "n", "compare": "number" },
+              "mistakes":
+                [
+                  {
+                    "value": "1",
+                    "message": "Du hast den Zähler angegeben. Gesucht ist die Zahl aller gleich großen Teile pro Ganzem.",
+                  },
+                  { "value": "n+1", "message": "Zähle Teile, nicht Teilstriche einschließlich beider Ränder." },
+                ],
+              "hint": "Der Nenner nennt die Anzahl gleich großer Teile **pro Ganzem**.",
+              "steps":
+                [
+                  "Der Nenner beschreibt die Unterteilung des Ganzen. Hier besteht das Ganze aus {{n}} gleich großen Teilen.",
+                  "Ein ausgewählter Teil heißt deshalb ein {{n}}-tel; unten steht {{answer}}.",
+                ],
+              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+          ],
+      },
+    ],
+}

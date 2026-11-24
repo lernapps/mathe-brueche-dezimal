@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+{
+  "format": 2,
+  "strand": "mathematik/arithmetik",
+  "title": "Brüche und Dezimalzahlen",
+  "intro": "Entdecke Brüche mit Kreis, Streifen, Mengen und Zahlenstrahl. Verändere die Modelle, begründe deine Schritte und übe mit neuen Aufgaben. Für die Klassen 5 und 6; orientiert an den hessischen Gymnasialvorgaben.",
+  "languages": ["de"],
+  "chapters": ["anteile", "teilbarkeit", "umformen", "grundaufgaben", "rechnen", "anwendungen"],
+  "sources":
+    [
+      { "title": "Lernlandkarte Mathematik", "url": "https://lernapps.net/apps/map/mathematik/" },
+      {
+        "title": "KMK-Bildungsstandards Mathematik Erster und Mittlerer Schulabschluss (2022)",
+        "url": "https://www.kmk.org/fileadmin/Dateien/veroeffentlichungen_beschluesse/2022/2022_06_23-Bista-ESA-MSA-Mathe.pdf",
+      },
+      {
+        "title": "Kerncurriculum Mathematik Hessen – Gymnasium, S. 26",
+        "url": "https://kultus.hessen.de/sites/kultus.hessen.de/files/2021-07/kerncurriculum_mathematik_gymnasium.pdf",
+      },
+    ],
+  "scope":
+    {
+      "text": "Bruchrechnung mit anschaulichen Modellen. Hilf zuerst mit einer Frage zum nächsten Schritt. Zeige auf Wunsch einen Lösungsweg. Unterscheide Anteil, Bruchteil und Ganzes, prüfe Einheiten und erkenne gleichwertige Brüche an.",
+      "out": ["Negative Brüche", "Doppelbrüche", "Algebraische Umwandlung periodischer Dezimalzahlen"],
+    },
+}

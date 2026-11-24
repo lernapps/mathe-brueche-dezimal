@@ -1,0 +1,177 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+{
+  "title": "Mehr als ein Ganzes",
+  "competencies": ["brueche-begriff"],
+  "description": "Kann der Zähler größer als der Nenner sein? Baue mehrere Ganze aus gleich großen Bruchteilen.",
+  "scope": "Ein unechter Bruch hat den Wert 1 oder mehr: Sein Zähler ist mindestens so groß wie sein Nenner. Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch, also einem Bruch, der kleiner als 1 ist. Beim Umwandeln teilst du den Zähler durch den Nenner: Ganze plus Rest. 7/3 sind zwei Ganze und ein Drittel: 2 + 1/3. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
+  "blocks":
+    [
+      {
+        "type": "section",
+        "id": "regel",
+        "title": "Eine ganze Pizza reicht nicht",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "Eine Pizza reicht nicht immer. Was, wenn du eine ganze Pizza und noch eine halbe zweite Pizza meinst?",
+            },
+            {
+              "type": "definition",
+              "term": "Gemischte Zahl",
+              "explanation": "Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch, also einem Bruch, der kleiner als 1 ist. Beide Teile werden addiert.",
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "entdecken",
+        "title": "Ausprobieren",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "Ein Streifen steht für ein Ganzes. Alle Streifen sind gleich groß und gleich unterteilt. Wählst du mehr Teile aus, als in einen Streifen passen, geht es im nächsten weiter. Lass den Nenner gleich und erhöhe den Zähler: Wann ist ein Streifen voll? Wie viele Teile bleiben im nächsten übrig? Die vollen Streifen ergeben die ganzen Zahlen, die übrigen Teile den Restbruch. In der Übung klickst du die gefragte Anzahl Teilstücke an. Mit erneutem Klicken entfernst du eine Markierung.",
+            },
+            {
+              "type": "vue-component",
+              "component": "BruchEntdecken",
+              "props":
+                {
+                  "numerator": "Zähler",
+                  "denominator": "Nenner",
+                  "note": "Erhöhe zuerst den Zähler über den Nenner hinaus. Ein voller Streifen ist ein Ganzes. Zähle volle Streifen und übrige Teilstücke getrennt.",
+                  "labels":
+                    {
+                      "circle": "Kreis",
+                      "strip": "Bruchstreifen",
+                      "line": "Zahlenstrahl",
+                      "set": "Menge",
+                      "whole": "Ganzes",
+                      "selected": "Ausgewählt",
+                    },
+                  "stage": "mixed",
+                },
+              "nojs": "Ein Streifen steht für ein Ganzes. Alle Streifen sind gleich groß und gleich unterteilt. Wählst du mehr Teile aus, als in einen Streifen passen, geht es im nächsten weiter. Lass den Nenner gleich und erhöhe den Zähler: Wann ist ein Streifen voll? Wie viele Teile bleiben im nächsten übrig? Die vollen Streifen ergeben die ganzen Zahlen, die übrigen Teile den Restbruch. In der Übung klickst du die gefragte Anzahl Teilstücke an. Mit erneutem Klicken entfernst du eine Markierung.\n\nIm Anfangsbild sind fünf Viertel ausgewählt: Ein Streifen mit vier Vierteln ist voll, im nächsten ist ein Viertel markiert. Das ist 1 Ganzes und $\\frac{1}{4}$, kurz $1\\frac{1}{4}$.",
+            },
+            {
+              "type": "note",
+              "title": "Was du dabei beobachten kannst",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Ein unechter Bruch hat den Wert 1 oder mehr: Sein Zähler ist mindestens so groß wie sein Nenner. Eine gemischte Zahl besteht aus einer ganzen Zahl und einem echten Bruch, also einem Bruch, der kleiner als 1 ist. Beim Umwandeln teilst du den Zähler durch den Nenner: Ganze plus Rest.",
+                  },
+                ],
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "beispiel",
+        "title": "Am Beispiel nachvollziehen",
+        "blocks":
+          [
+            {
+              "type": "example",
+              "title": "Schritt für Schritt",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "$\\frac{7}{3}$ sind zwei Ganze und ein Drittel: $2 + \\frac{1}{3}$. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
+                  },
+                ],
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "ueben",
+        "title": "Üben",
+        "blocks":
+          [
+            {
+              "type": "vue-component",
+              "id": "modell",
+              "component": "BruchModelle",
+              "examples":
+                {
+                  "accepted": [{ "answer": 5, "seed": 1 }],
+                  "rejected": [{ "answer": 6, "seed": 1 }, { "answer": 0, "seed": 1 }],
+                },
+              "props":
+                {
+                  "task": "Markiere {z}/{n}. Alle Teile sind gleich groß; ihre Anordnung darfst du frei wählen.",
+                  "mode": "mixed",
+                  "mistakes":
+                    [
+                      "Du hast mehr Felder markiert, als gefragt sind. Zähle die Felder über alle Streifen zusammen.",
+                      "Markiere zuerst Felder.",
+                      "Du hast weniger Felder markiert, als gefragt sind. Der Zähler {z} sagt, wie viele Felder gehören dazu.",
+                    ],
+                  "cell": "Teil {i}, {n} Teile pro Ganzem",
+                  "counter": "Deine Darstellung: {z}/{n}",
+                  "labels":
+                    {
+                      "circle": "Kreis",
+                      "strip": "Bruchstreifen",
+                      "line": "Zahlenstrahl",
+                      "set": "Menge",
+                      "whole": "Ganzes",
+                      "selected": "Ausgewählt",
+                    },
+                },
+              "nojs": "Ein Streifen steht für ein Ganzes. Alle Streifen sind gleich groß und gleich unterteilt. Wählst du mehr Teile aus, als in einen Streifen passen, geht es im nächsten weiter. Lass den Nenner gleich und erhöhe den Zähler: Wann ist ein Streifen voll? Wie viele Teile bleiben im nächsten übrig? Die vollen Streifen ergeben die ganzen Zahlen, die übrigen Teile den Restbruch. In der Übung klickst du die gefragte Anzahl Teilstücke an. Mit erneutem Klicken entfernst du eine Markierung.",
+            },
+            {
+              "type": "single-choice",
+              "id": "verstehen",
+              "text": "Wie viele Ganze stecken in $\\frac{7}{3}$?",
+              "options":
+                [
+                  {
+                    "text": "Zwei Ganze.",
+                    "correct": true,
+                    "info": "$\\frac{7}{3}$ sind zwei Ganze und ein Drittel: $2 + \\frac{1}{3}$. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
+                  },
+                  {
+                    "text": "Drei Ganze.",
+                    "correct": false,
+                    "info": "Drei Ganze wären neun Drittel; sieben Drittel reichen dafür nicht.",
+                  },
+                  {
+                    "text": "Sieben Ganze.",
+                    "correct": false,
+                    "info": "Sieben Drittel sind sieben Teilstücke, nicht sieben Ganze.",
+                  },
+                ],
+              "explanation": "$\\frac{7}{3}$ sind zwei Ganze und ein Drittel: $2 + \\frac{1}{3}$. Umgekehrt ergeben 2 · 3 + 1 insgesamt sieben Drittel.",
+            },
+            {
+              "type": "generated",
+              "id": "aufgaben",
+              "given": { "n": { "oneOf": [2, 3, 4, 5, 6, 7] } },
+              "task":
+                {
+                  "text": "Schreibe $2 + \\frac{1}{{{n}}}$ als unechten Bruch. Welcher Zähler gehört über den Nenner {{n}}?",
+                },
+              "answer": { "value": "2*n+1", "compare": "number" },
+              "mistakes":
+                [
+                  { "value": "n+1", "message": "Zwei Ganze enthalten zweimal so viele Teilstücke wie ein Ganzes." },
+                  { "value": "2*n", "message": "Der zusätzliche Bruchteil fehlt noch." },
+                ],
+              "hint": "Ein unechter Bruch hat den Wert 1 oder mehr: Sein Zähler ist mindestens so groß wie sein Nenner.",
+              "steps":
+                [
+                  "Ein Ganzes enthält {{n}} Teilstücke. Zwei Ganze enthalten zweimal {{n}} Teilstücke.",
+                  "Dazu kommt ein weiteres Teilstück: $2 \\cdot {{n}} + 1 = {{answer}}$. Der Nenner bleibt {{n}}.",
+                ],
+              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+          ],
+      },
+    ],
+}

@@ -1,0 +1,93 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+{
+  "title": "Das brauchst du für dieses Kapitel",
+  "description": "Klammern, Vorrangregeln und das Distributivgesetz, die du für Rechnungen mit mehreren Schritten brauchst: Kurzwiederholung mit Selbsttest.",
+  "recap": "mathematik/grundrechenarten-rechengesetze",
+  "scope": "Kurze Wiederholung von Klammern, Vorrangregeln und Distributivgesetz als Voraussetzung für Rechnungen mit Brüchen in mehreren Schritten, mit Selbsttest.",
+  "blocks":
+    [
+      {
+        "type": "text",
+        "text": "**Wofür ist diese Seite?** Auf der Seite „Rechenregeln und Klammern“ rechnest du Brüche in mehreren Schritten. Dafür brauchst du dieselben Regeln wie bei natürlichen Zahlen. Hier ist die Kurzfassung mit zwei Aufgaben zum Selbsttest.",
+      },
+      {
+        "type": "section",
+        "id": "rechengesetze-kurz",
+        "title": "Vorrangregeln und Rechengesetze",
+        "blocks":
+          [
+            {
+              "type": "example",
+              "title": "Kurz erinnert",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "**Klammern** gehen zuerst. Dann kommt die **Punktrechnung** (Multiplikation und Division, · und :) vor der **Strichrechnung** (Addition und Subtraktion, + und −). Das **Distributivgesetz** verteilt eine Zahl auf die **Summanden** in einer Klammer, das sind die Zahlen, die addiert werden: $4 \\cdot (2 + 3) = 4 \\cdot 2 + 4 \\cdot 3 = 20$. Alle Begriffe stehen mit Erklärung auf der Seite „Das brauchst du für dieses Kapitel“ im Kapitel „Teilbarkeit nutzen“.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.",
+            },
+            {
+              "type": "single-choice",
+              "id": "test-klammer",
+              "text": "Was ergibt 3 · (14 − 6) + 12 : 4?",
+              "explanation": "Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27.",
+              "options":
+                [
+                  {
+                    "text": "27",
+                    "correct": true,
+                    "info": "Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27.",
+                  },
+                  {
+                    "text": "39",
+                    "correct": false,
+                    "info": "Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst.",
+                  },
+                  {
+                    "text": "9",
+                    "correct": false,
+                    "info": "Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.",
+                  },
+                ],
+            },
+            {
+              "type": "single-choice",
+              "id": "test-verteilen-2",
+              "text": "Was ergibt 12 · 35? Zerlege 35 in 30 + 5.",
+              "explanation": "12 · 30 + 12 · 5 = 360 + 60 = 420.",
+              "options":
+                [
+                  {
+                    "text": "365",
+                    "correct": false,
+                    "info": "Du hast 12 · 30 + 5 gerechnet. Auch die 5 muss mit 12 multipliziert werden.",
+                  },
+                  { "text": "420", "correct": true, "info": "12 · 30 + 12 · 5 = 360 + 60 = 420." },
+                  { "text": "360", "correct": false, "info": "Das ist nur 12 · 30. Es fehlt noch 12 · 5 = 60." },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.",
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "bereit",
+        "title": "Du bist bereit, wenn du …",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "- bei einer Rechnung mit Klammern die richtige Reihenfolge nennen kannst\n- mit dem Distributivgesetz eine Zahl auf die Summanden verteilen kannst",
+            },
+          ],
+      },
+    ],
+}

@@ -1,0 +1,187 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+{
+  "title": "Das brauchst du für dieses Kapitel",
+  "description": "Vorrangregeln, Rechengesetze und Potenzen, die du für Teiler und Primfaktoren brauchst: mit Begriffen, Beispielen und Selbsttest.",
+  "recap": ["mathematik/grundrechenarten-rechengesetze", "mathematik/potenzen"],
+  "scope": "Wiederholung von Vorrangregeln, Rechengesetzen (Vertauschungs-, Verbindungs-, Distributivgesetz) und Potenzen (Basis, Exponent, Zehnerpotenz) als Voraussetzung für Teiler und Primfaktoren, mit Selbsttest.",
+  "blocks":
+    [
+      {
+        "type": "text",
+        "text": "**Wofür ist diese Seite?** Für Teiler und Primfaktoren rechnest du viel mit Malaufgaben und mit Potenzen. Du solltest außerdem das Teilen mit Rest kennen, zum Beispiel $17 : 5 = 3$ Rest 2. Unten stehen die Begriffe, die du dafür brauchst, je ein Beispiel und Kurzaufgaben zum Selbsttest. Lies die Lösungen: So merkst du, ob du bereit bist.",
+      },
+      {
+        "type": "section",
+        "id": "rechengesetze",
+        "title": "Vorrangregeln und Rechengesetze",
+        "blocks":
+          [
+            {
+              "type": "definition",
+              "term": "Vorrangregel",
+              "explanation": "Die **Vorrangregel** sagt, was du zuerst rechnest: Klammern zuerst, dann Punktrechnung (· und :), dann Strichrechnung (+ und −). Es ist $3 + 4 \\cdot 2 = 11$, aber $(3 + 4) \\cdot 2 = 14$.",
+            },
+            {
+              "type": "definition",
+              "term": "Summand",
+              "explanation": "Ein **Summand** ist eine Zahl, die addiert wird. In $7 + 3$ sind 7 und 3 die Summanden.",
+            },
+            {
+              "type": "definition",
+              "term": "Vertauschungsgesetz",
+              "explanation": "Das **Vertauschungsgesetz** (Kommutativgesetz) erlaubt beim Addieren und beim Multiplizieren, die Zahlen zu tauschen: $3 + 5 = 5 + 3$ und $7 \\cdot 4 = 4 \\cdot 7 = 28$.",
+            },
+            {
+              "type": "definition",
+              "term": "Verbindungsgesetz",
+              "explanation": "Das **Verbindungsgesetz** (Assoziativgesetz) erlaubt beim Addieren und beim Multiplizieren, die Klammern anders zu setzen: $(8 + 5) + 5 = 8 + (5 + 5) = 18$ und $(25 \\cdot 4) \\cdot 7 = 25 \\cdot (4 \\cdot 7) = 700$.",
+            },
+            {
+              "type": "definition",
+              "term": "Distributivgesetz",
+              "explanation": "Das **Distributivgesetz** (Verteilungsgesetz) sagt: Eine Zahl, die mit einer Summe multipliziert wird, darfst du auf jeden Summanden verteilen: $6 \\cdot (7 + 3) = 6 \\cdot 7 + 6 \\cdot 3 = 60$.",
+            },
+            {
+              "type": "example",
+              "title": "Mehrere Rechenzeichen",
+              "blocks":
+                [
+                  { "type": "formula", "formula": "30 + 4 \\cdot 5 - 2 \\cdot 3" },
+                  { "type": "formula", "formula": "= 30 + 20 - 6 = 44" },
+                  {
+                    "type": "text",
+                    "text": "Zuerst rechnest du jede Punktrechnung für sich (4 · 5 und 2 · 3), dann von links nach rechts plus und minus.",
+                  },
+                ],
+            },
+            {
+              "type": "example",
+              "title": "Vorteilhaft rechnen",
+              "blocks":
+                [
+                  { "type": "formula", "formula": "6 \\cdot 17 + 6 \\cdot 3 = 6 \\cdot (17 + 3)" },
+                  { "type": "formula", "formula": "= 6 \\cdot 20 = 120" },
+                  {
+                    "type": "text",
+                    "text": "Die 6 steht in beiden Produkten. Du ziehst sie vor die Klammer und rechnest zuerst die Summe 17 + 3 = 20: Das geht schneller als beide Produkte einzeln.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.",
+            },
+            {
+              "type": "single-choice",
+              "id": "test-verteilen",
+              "text": "Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten.",
+              "explanation": "Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700.",
+              "options":
+                [
+                  { "text": "266", "correct": false, "info": "Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434." },
+                  {
+                    "text": "328",
+                    "correct": false,
+                    "info": "Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7.",
+                  },
+                  {
+                    "text": "700",
+                    "correct": true,
+                    "info": "Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.",
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "potenzen",
+        "title": "Potenzen und Zehnerpotenzen",
+        "blocks":
+          [
+            {
+              "type": "definition",
+              "term": "Potenz",
+              "explanation": "Eine **Potenz** ist eine Kurzschreibweise für ein Produkt aus gleichen Faktoren: $2^3 = 2 \\cdot 2 \\cdot 2 = 8$.",
+            },
+            {
+              "type": "definition",
+              "term": "Basis",
+              "explanation": "Die **Basis** einer Potenz ist der Faktor, der sich wiederholt. In $2^3$ ist die Basis 2.",
+            },
+            {
+              "type": "definition",
+              "term": "Exponent",
+              "explanation": "Der **Exponent** einer Potenz sagt, wie oft die Basis als Faktor vorkommt. In $2^3$ ist der Exponent 3.",
+            },
+            {
+              "type": "definition",
+              "term": "Zehnerpotenz",
+              "explanation": "Eine **Zehnerpotenz** hat die Basis 10. Ausgeschrieben hat sie so viele Nullen, wie der Exponent angibt: $10^3 = 10 \\cdot 10 \\cdot 10 = 1000$ hat drei Nullen.",
+            },
+            {
+              "type": "example",
+              "title": "Potenzen ausrechnen",
+              "blocks":
+                [
+                  { "type": "formula", "formula": "3^2 = 3 \\cdot 3 = 9" },
+                  { "type": "formula", "formula": "2^4 = 2 \\cdot 2 \\cdot 2 \\cdot 2 = 16" },
+                  { "type": "formula", "formula": "3 \\cdot 3 \\cdot 3 \\cdot 7 \\cdot 7 = 3^3 \\cdot 7^2" },
+                  {
+                    "type": "text",
+                    "text": "Der Exponent sagt nicht, womit du malnimmst, sondern wie oft die Basis als Faktor steht: $2^4$ ist nicht $2 \\cdot 4$.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.",
+            },
+            {
+              "type": "single-choice",
+              "id": "test-potenz",
+              "text": "Was ist 2⁵ + 3²?",
+              "explanation": "2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41.",
+              "options":
+                [
+                  {
+                    "text": "41",
+                    "correct": true,
+                    "info": "2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41.",
+                  },
+                  {
+                    "text": "16",
+                    "correct": false,
+                    "info": "Du hast die Exponenten als Faktoren genommen: 2 · 5 und 3 · 2. Der Exponent sagt, wie oft die Basis als Faktor steht.",
+                  },
+                  {
+                    "text": "34",
+                    "correct": false,
+                    "info": "Du hast Basis und Exponent vertauscht: 5² = 25. In 2⁵ ist die Basis 2, es sind fünf Faktoren 2: 32.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Potenzen und Zehnerpotenzen“ auf der Lernlandkarte ([Lernlandkarte: Potenzen und Zehnerpotenzen](https://lernapps.net/apps/map/mathematik/c/potenzen/)) und rechne die Aufgaben danach noch einmal.",
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "bereit",
+        "title": "Du bist bereit, wenn du …",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "- bei einer Rechnung mit Klammern, Punkt- und Strichrechnung die richtige Reihenfolge nennen kannst\n- mit Vertauschungs-, Verbindungs- und Distributivgesetz vorteilhaft rechnen kannst\n- eine Potenz wie $2^4$ als Produkt schreiben und ausrechnen kannst\n- Basis und Exponent unterscheiden kannst",
+            },
+          ],
+      },
+    ],
+}

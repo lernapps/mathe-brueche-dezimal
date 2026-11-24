@@ -1,0 +1,113 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+{
+  "title": "Das brauchst du für dieses Kapitel",
+  "description": "Was du über natürliche Zahlen können solltest, bevor es um Brüche geht: mit Begriffen, Beispiel und Selbsttest.",
+  "recap": "mathematik/natuerliche-zahlen",
+  "scope": "Wiederholung der natürlichen Zahlen im Stellenwertsystem (Stellenwert, Ziffer) als Voraussetzung für Brüche, mit Selbsttest.",
+  "blocks":
+    [
+      {
+        "type": "text",
+        "text": "**Wofür ist diese Seite?** Dieses Kapitel beginnt mit Brüchen. Ein Bruch teilt ein Ganzes in gleich große Teile, und die Teile zählst du mit natürlichen Zahlen. Darum musst du natürliche Zahlen sicher lesen und schreiben. Unten stehen die Begriffe, ein Beispiel und zwei Kurzaufgaben. Rechne sie und lies die Lösungen: So merkst du, ob du bereit bist.",
+      },
+      {
+        "type": "section",
+        "id": "natuerliche-zahlen",
+        "title": "Natürliche Zahlen im Stellenwertsystem",
+        "blocks":
+          [
+            {
+              "type": "definition",
+              "term": "Ziffer",
+              "explanation": "Eine **Ziffer** ist eines der Zeichen 0 bis 9. Die Zahl 4305 hat vier Ziffern: 4, 3, 0 und 5.",
+            },
+            {
+              "type": "definition",
+              "term": "Stellenwert",
+              "explanation": "Der **Stellenwert** sagt, wie viel eine Ziffer an ihrem Platz wert ist. In 4305 steht die 3 an der Hunderterstelle: Sie ist 300 wert.",
+            },
+            {
+              "type": "example",
+              "title": "Eine Zahl auseinanderlegen",
+              "blocks":
+                [
+                  { "type": "formula", "formula": "4305 = 4 \\cdot 1000 + 3 \\cdot 100 + 0 \\cdot 10 + 5 \\cdot 1" },
+                  {
+                    "type": "text",
+                    "text": "Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz frei, damit die anderen Ziffern ihren Stellenwert behalten. Die Hunderterstelle ist die dritte Stelle von rechts.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "**Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.",
+            },
+            {
+              "type": "single-choice",
+              "id": "test-wert",
+              "text": "Welchen Wert hat die 5 in der Zahl 25 084?",
+              "explanation": "Die 5 steht an der Tausenderstelle: 5 · 1000 = 5000.",
+              "options":
+                [
+                  { "text": "5000", "correct": true, "info": "Die 5 steht an der Tausenderstelle: 5 · 1000 = 5000." },
+                  {
+                    "text": "5",
+                    "correct": false,
+                    "info": "Das ist die Ziffer selbst. Ihr Wert hängt vom Platz ab: Sie steht bei den Tausendern.",
+                  },
+                  {
+                    "text": "50",
+                    "correct": false,
+                    "info": "50 wäre die 5 an der Zehnerstelle. In 25 084 steht dort eine 8.",
+                  },
+                  {
+                    "text": "500",
+                    "correct": false,
+                    "info": "500 wäre die 5 an der Hunderterstelle. In 25 084 steht dort eine 0.",
+                  },
+                ],
+            },
+            {
+              "type": "single-choice",
+              "id": "test-schreiben",
+              "text": "Wie lautet die Zahl aus 6 Tausendern, 12 Hundertern und 9 Einern?",
+              "explanation": "12 Hunderter = 1 Tausender + 2 Hunderter. Also 7 Tausender, 2 Hunderter, 0 Zehner, 9 Einer: 7209.",
+              "options":
+                [
+                  {
+                    "text": "6129",
+                    "correct": false,
+                    "info": "Du hast die 12 einfach hinter die 6 geschrieben. 12 Hunderter sind 1200, das ist 1 Tausender und 2 Hunderter.",
+                  },
+                  {
+                    "text": "7209",
+                    "correct": true,
+                    "info": "12 Hunderter = 1 Tausender + 2 Hunderter. Also 7 Tausender, 2 Hunderter, 0 Zehner, 9 Einer: 7209.",
+                  },
+                  {
+                    "text": "7029",
+                    "correct": false,
+                    "info": "Hier steht die 2 an der Zehnerstelle. 12 Hunderter sind 1 Tausender und 2 Hunderter, die Zehnerstelle bleibt 0.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Natürliche Zahlen im Stellenwertsystem“ auf der Lernlandkarte ([Lernlandkarte: Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/)) und rechne die Aufgaben danach noch einmal.",
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "bereit",
+        "title": "Du bist bereit, wenn du …",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "- eine Zahl wie 4305 in Tausender, Hunderter, Zehner und Einer zerlegen kannst\n- den Stellenwert einer Ziffer nennen kannst\n- eine Zahl aus ihren Tausendern, Hundertern, Zehnern und Einern aufschreiben kannst",
+            },
+          ],
+      },
+    ],
+}
