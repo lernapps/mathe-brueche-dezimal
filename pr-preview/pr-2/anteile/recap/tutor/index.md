@@ -55,9 +55,7 @@ Was du über natürliche Zahlen können solltest, bevor es um Brüche geht: mit 
 
 **Beispiel: Eine Zahl auseinanderlegen**
 
-$4305 = 4 \cdot 1000 + 3 \cdot 100$
-
-$+ 0 \cdot 10 + 5 \cdot 1$
+$4305 = 4 \cdot 1000 + 3 \cdot 100 + 0 \cdot 10 + 5 \cdot 1$
 
 Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz frei, damit die anderen Ziffern ihren Stellenwert behalten. Die Hunderterstelle ist die dritte Stelle von rechts.
 

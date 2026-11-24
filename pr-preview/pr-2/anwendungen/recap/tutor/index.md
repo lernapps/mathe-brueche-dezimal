@@ -69,7 +69,13 @@ Gleiche Stellen stehen untereinander. Einer: 8 + 5 = 13, du schreibst 3 und merk
 
 $348 + 275 = 623$
 
-**Schriftlich teilen: 156 : 12.** 12 passt 1-mal in 15, das sind 12 und es bleibt Rest 3. Du holst die 6 herunter: 36. 12 passt 3-mal in 36. Das Ergebnis ist 13. Subtrahieren und Multiplizieren gehen ebenfalls Stelle für Stelle.
+**Beispiel: Schriftlich teilen: 156 : 12**
+
+12 passt 1-mal in 15, das sind 12 und es bleibt Rest 3. Du holst die 6 herunter: 36. 12 passt 3-mal in 36.
+
+$156 : 12 = 13$
+
+Probe: 13 · 12 = 156. Auch beim Multiplizieren rechnest du Stelle für Stelle.
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
@@ -87,14 +93,14 @@ Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Schriftliche R
 
 ### Aufgabe test-subtrahieren
 
-- Aufgabe: Was ergibt 5002 − 1789?
+- Aufgabe: Was ergibt 6004 − 2357?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✗ 4787 – Du hast in jeder Stelle die kleinere Ziffer von der größeren abgezogen. Steht oben die kleinere Ziffer, musst du entbündeln.
-  - ✓ 3213 – Entbündeln über die Nullen: 5002 = 4 Tausender, 9 Hunderter, 9 Zehner, 12 Einer. Einer: 12 − 9 = 3, Zehner: 9 − 8 = 1, Hunderter: 9 − 7 = 2, Tausender: 4 − 1 = 3. Probe: 3213 + 1789 = 5002.
-  - ✗ 4213 – Du hast die Tausenderstelle nach dem Entbündeln nicht um 1 verkleinert.
-- Lösung: 3213
-- Erklärung: Entbündeln über die Nullen: 5002 = 4 Tausender, 9 Hunderter, 9 Zehner, 12 Einer. Einer: 12 − 9 = 3, Zehner: 9 − 8 = 1, Hunderter: 9 − 7 = 2, Tausender: 4 − 1 = 3. Probe: 3213 + 1789 = 5002.
+  - ✗ 4353 – Du hast in jeder Stelle die kleinere Ziffer von der größeren abgezogen. Steht oben die kleinere Ziffer, musst du entbündeln.
+  - ✓ 3647 – Entbündeln über die Nullen: 6004 = 5 Tausender, 9 Hunderter, 9 Zehner, 14 Einer. Einer: 14 − 7 = 7, Zehner: 9 − 5 = 4, Hunderter: 9 − 3 = 6, Tausender: 5 − 2 = 3. Probe: 3647 + 2357 = 6004.
+  - ✗ 4647 – Du hast die Tausenderstelle nach dem Entbündeln nicht um 1 verkleinert.
+- Lösung: 3647
+- Erklärung: Entbündeln über die Nullen: 6004 = 5 Tausender, 9 Hunderter, 9 Zehner, 14 Einer. Einer: 14 − 7 = 7, Zehner: 9 − 5 = 4, Hunderter: 9 − 3 = 6, Tausender: 5 − 2 = 3. Probe: 3647 + 2357 = 6004.
 - Link: [../?via=tutor#test-subtrahieren](../?via=tutor#test-subtrahieren)
 
 ### Aufgabe test-teilen
