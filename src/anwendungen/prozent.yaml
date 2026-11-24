@@ -1,0 +1,265 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+{
+  "title": "Prozent heißt Hundertstel",
+  "competencies": ["prozent-grundbegriffe"],
+  "description": "Wie viel von 100? Bruch, Dezimalzahl und Prozent beschreiben denselben Anteil.",
+  "scope": "Prozent heißt Hundertstel: 1 % ist 1/100 vom Ganzen. Ein Anteil lässt sich als Bruch, als Dezimalzahl und in Prozent schreiben, zum Beispiel 3/4 = 75/100 = 0,75 = 75 %. Um einen Bruch in Prozent zu schreiben, erweiterst du ihn auf den Nenner 100; dann steht die Prozentzahl im Zähler. Die Prozentrechnung mit Grundwert, Prozentwert und Prozentsatz gehört nicht zu dieser Seite.",
+  "blocks":
+    [
+      {
+        "type": "section",
+        "id": "regel",
+        "title": "Dein Akku zeigt 75 %",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "Dein Handy zeigt: Akku 75 %. Stell dir den Akku in 100 gleich große Kästchen geteilt vor, zehn Reihen mit je zehn Kästchen. Dann sind 75 Kästchen gefüllt.",
+            },
+            {
+              "type": "figure",
+              "draw": { "kind": "hundred-grid", "filled": 75 },
+              "alt": "Ein Hunderterfeld mit 100 Kästchen, zehn Reihen mit je zehn. 75 Kästchen sind gefärbt, 25 sind leer.",
+              "caption": "Das Ganze sind 100 Kästchen. Gefärbt sind 75, leer sind 25.",
+            },
+            {
+              "type": "definition",
+              "term": "Prozent",
+              "explanation": "Ein Kästchen ist ein Hundertstel vom Ganzen, also $\\frac{1}{100}$. Prozent heißt Hundertstel: 75 gefärbte Kästchen sind 75 Hundertstel, also 75 %.",
+            },
+            {
+              "type": "text",
+              "text": "So kannst du denselben Anteil auf drei Arten schreiben: als Bruch $\\frac{75}{100}$, als Dezimalzahl 0,75 (zwei Stellen nach dem Komma, wie bei Hundertsteln) und als Prozent 75 %.",
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "entdecken",
+        "title": "Anschaulich erklärt: dasselbe Ganze, drei Schreibweisen",
+        "blocks":
+          [
+            {
+              "type": "text",
+              "text": "Ein Viertel vom Ganzen sind 25 von 100 Kästchen. Du kannst also sagen: Ein Viertel ist $\\frac{25}{100}$, das sind 0,25 oder 25 %. Das ganze Hunderterfeld sind 100 %.",
+            },
+            {
+              "type": "figure",
+              "draw": { "kind": "hundred-grid", "filled": 25 },
+              "alt": "Ein Hunderterfeld mit 100 Kästchen, 25 davon sind gefärbt: ein Viertel des Ganzen.",
+              "caption": "Ein Viertel: 25 von 100 Kästchen sind gefärbt, das sind 25 %.",
+            },
+            {
+              "type": "note",
+              "title": "Das Ganze muss feststehen",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "50 % sind immer die Hälfte vom Ganzen. Aber die Hälfte einer großen Pizza ist mehr als die Hälfte einer kleinen Pizza. Darum musst du immer wissen, was das Ganze ist.",
+                  },
+                ],
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "beispiel",
+        "title": "Am Beispiel nachvollziehen",
+        "blocks":
+          [
+            {
+              "type": "example",
+              "title": "Vom Bruch zu Prozent und Dezimalzahl",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Wie viel Prozent sind $\\frac{3}{5}$? Prozent heißt Hundertstel, also muss im Nenner 100 stehen. Dazu erweiterst du mit 20, denn 5 · 20 = 100:",
+                  },
+                  { "type": "formula", "formula": "\\frac{3}{5} = \\frac{3 \\cdot 20}{5 \\cdot 20} = \\frac{60}{100}" },
+                  {
+                    "type": "text",
+                    "text": "60 Hundertstel sind 60 %. Als Dezimalzahl schreibst du 0,60, also 0,6: Hundertstel haben zwei Stellen nach dem Komma. Umgekehrt gilt: 8 % sind 8 Hundertstel:",
+                  },
+                  { "type": "formula", "formula": "8\\,\\% = \\frac{8}{100} = 0{,}08" },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "So wandelst du die wichtigsten Anteile um. Prüfe bei jeder Zeile, mit welcher Zahl du auf den Nenner 100 erweitern kannst.",
+            },
+            {
+              "type": "table",
+              "caption": "Wichtige Anteile in drei Schreibweisen",
+              "header": ["Bruch", "Dezimalzahl", "Prozent"],
+              "rows":
+                [
+                  ["$\\frac{1}{2}$", "0,5", "50 %"],
+                  ["$\\frac{1}{4}$", "0,25", "25 %"],
+                  ["$\\frac{3}{4}$", "0,75", "75 %"],
+                  ["$\\frac{1}{10}$", "0,1", "10 %"],
+                  ["$\\frac{1}{5}$", "0,2", "20 %"],
+                ],
+            },
+            {
+              "type": "note",
+              "title": "Achtung beim Komma",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "8 % sind 0,08 und nicht 0,8. 0,8 sind 80 Hundertstel, also 80 %. Prozent verschiebt das Komma immer um zwei Stellen.",
+                  },
+                ],
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "ueben",
+        "title": "Üben",
+        "blocks":
+          [
+            {
+              "type": "generated",
+              "id": "ablesen",
+              "given": { "n": { "oneOf": [12, 35, 40, 64, 75, 90] } },
+              "task": { "text": "Im Hunderterfeld sind {{n}} von 100 Kästchen gefärbt. Wie viel Prozent sind das?" },
+              "answer": { "value": "n", "compare": { "number": { "format": "percent" } } },
+              "mistakes":
+                [
+                  {
+                    "value": "n/100",
+                    "message": "Das ist die Dezimalzahl. Gefragt ist die Prozentzahl: {{n}} von 100 sind {{n}} %.",
+                  },
+                  {
+                    "value": "n/10",
+                    "message": "Du hast durch 10 geteilt. Das Ganze sind 100 Kästchen, nicht 10: {{n}} von 100 sind {{n}} %.",
+                  },
+                  {
+                    "value": "100 - n",
+                    "message": "Das sind die Kästchen, die nicht gefärbt sind. Gefragt ist der gefärbte Teil.",
+                  },
+                ],
+              "hint": "Prozent heißt Hundertstel. Das Ganze sind 100 Kästchen: Wie viele davon sind gefärbt?",
+              "steps": ["{{n}} von 100 Kästchen sind {{n}} Hundertstel. Hundertstel heißen Prozent: Es sind {{n}} %."],
+            },
+            {
+              "type": "single-choice",
+              "id": "verstehen",
+              "text": "Was bedeutet 8 %?",
+              "options":
+                [
+                  {
+                    "text": "8 von 100 gleich großen Teilen",
+                    "correct": true,
+                    "info": "Richtig: Prozent heißt Hundertstel, 8 % sind also 8 Hundertstel.",
+                  },
+                  {
+                    "text": "0,8 vom Ganzen",
+                    "correct": false,
+                    "info": "0,8 vom Ganzen sind 80 von 100 Teilen, also 80 %. Bei 8 % sind es nur 8 von 100, das ist 0,08.",
+                  },
+                  {
+                    "text": "8 Ganze",
+                    "correct": false,
+                    "info": "Prozent zählt keine Ganzen: Prozent heißt Hundertstel, also 8 Hundertstel.",
+                  },
+                ],
+              "explanation": "8 % bedeutet 8 von 100 gleich großen Teilen, also $\\frac{8}{100}$ oder 0,08.",
+            },
+            {
+              "type": "generated",
+              "id": "bruch",
+              "given": { "e": { "pick": 1, "from": { "data": "prozentpaare" } } },
+              "task":
+                {
+                  "text": "Schreibe $\\frac{{{e.z}}}{{{e.n}}}$ mit Nenner 100: Erweitere mit {{e.faktor}}. Wie viel Prozent sind das?",
+                },
+              "answer": { "value": "e.p", "compare": { "number": { "format": "percent" } } },
+              "mistakes":
+                [
+                  {
+                    "value": "e.z",
+                    "message": "Du hast den Zähler nicht mitgerechnet. Zähler und Nenner werden beide mit {{e.faktor}} multipliziert.",
+                  },
+                  {
+                    "value": "e.n * e.faktor",
+                    "message": "Das ist der neue Nenner 100. Die Prozentzahl steht im Zähler.",
+                  },
+                ],
+              "hint": "Multipliziere Zähler und Nenner mit derselben Zahl, bis im Nenner 100 steht. Der neue Zähler ist die Prozentzahl.",
+              "steps":
+                [
+                  "$\\frac{{{e.z}}}{{{e.n}}} = \\frac{{{e.z}} \\cdot {{e.faktor}}}{{{e.n}} \\cdot {{e.faktor}}} = \\frac{{{e.p}}}{100}$, also {{e.p}} %.",
+                ],
+            },
+            {
+              "type": "generated",
+              "id": "dezimal",
+              "given": { "e": { "pick": 1, "from": { "data": "prozentpaare" } } },
+              "task": { "text": "Schreibe {{e.p}} % als Dezimalzahl." },
+              "answer": { "value": "e.p / 100", "compare": { "number": { "format": "decimal", "decimals": 2 } } },
+              "mistakes":
+                [
+                  {
+                    "value": "e.p / 10",
+                    "message": "Du hast das Komma nur um eine Stelle verschoben. Prozent heißt Hundertstel: Verschiebe es um zwei Stellen.",
+                  },
+                  {
+                    "value": "e.p",
+                    "message": "Das ist die Prozentzahl. Gefragt ist die Dezimalzahl: {{e.p}} Hundertstel.",
+                  },
+                  {
+                    "value": "e.p / 1000",
+                    "message": "Du hast das Komma um drei Stellen verschoben. Prozent heißt Hundertstel: Es sind zwei Stellen.",
+                  },
+                ],
+              "hint": "{{e.p}} % sind {{e.p}} Hundertstel. Schreibe sie mit zwei Stellen nach dem Komma.",
+              "steps":
+                [
+                  "{{e.p}} % sind {{e.p}} Hundertstel, also $\\frac{{{e.p}}}{100}$. Das Komma wandert um zwei Stellen nach links.",
+                ],
+            },
+            {
+              "type": "generated",
+              "id": "kuerzen",
+              "given": { "e": { "pick": 1, "from": { "data": "prozentpaare" } } },
+              "task":
+                {
+                  "text": "Schreibe {{e.p}} % als Bruch mit Nenner 100 und kürze vollständig. Welchen Nenner hat der gekürzte Bruch?",
+                },
+              "answer": { "value": "e.n", "compare": { "number": { "format": "integer" } } },
+              "mistakes":
+                [
+                  {
+                    "value": "100",
+                    "message": "Das ist der Nenner vor dem Kürzen. Kürze Zähler und Nenner, bis es nicht mehr geht.",
+                  },
+                  { "value": "e.z", "message": "Das ist der Zähler des gekürzten Bruchs. Gefragt ist der Nenner." },
+                ],
+              "hint": "Schreibe zuerst {{e.p}} Hundertstel als Bruch. Kürze dann Zähler und Nenner mit derselben Zahl.",
+              "steps":
+                [
+                  "{{e.p}} % sind $\\frac{{{e.p}}}{100}$. Mit {{e.faktor}} gekürzt: $\\frac{{{e.z}}}{{{e.n}}}$. Der Nenner ist {{e.n}}.",
+                ],
+            },
+            {
+              "type": "matching",
+              "id": "zuordnen",
+              "text": "Ordne jedem Bruch die passende Prozentzahl zu.",
+              "pairs":
+                [
+                  { "left": "Ein Fünftel", "right": "20 %" },
+                  { "left": "Zwei Fünftel", "right": "40 %" },
+                  { "left": "Drei Zehntel", "right": "30 %" },
+                  { "left": "Ein Zwanzigstel", "right": "5 %" },
+                ],
+              "distractors": ["25 %"],
+              "explanation": "Erweitere jeden Bruch auf den Nenner 100: $\\frac{1}{5}$ = $\\frac{20}{100}$, $\\frac{2}{5}$ = $\\frac{40}{100}$, $\\frac{3}{10}$ = $\\frac{30}{100}$, $\\frac{1}{20}$ = $\\frac{5}{100}$. Die Zähler sind die Prozentzahlen.",
+            },
+          ],
+      },
+    ],
+}

@@ -1,99 +1,114 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
-  "title": "Teilbarkeit und Primzahlen",
+  "title": "Teiler, Vielfache und Teilbarkeitsregeln",
   "competencies": ["teilbarkeit"],
-  "description": "Zahlen als Produkte zerlegen und dabei Primzahlen entdecken.",
-  "scope": "Faktor und Produkt an Reihen von Bauklötzen erläutern. Zusammengesetzte Zahlen wiederholt in Faktoren größer als 1 zerlegen; am Ende bleiben Primzahlen. Primzahlen größer als 1 haben genau zwei positive Teiler, 1 ist keine Primzahl. Erst danach Teilbarkeitsregeln als Abkürzungen nutzen.",
+  "description": "Teiler und Vielfache finden und mit Teilbarkeitsregeln schnell prüfen, ob eine Zahl teilbar ist.",
+  "scope": "Faktor, Produkt, Teiler und Vielfaches an Reihen von Bauklötzen erläutern: Ein Teiler teilt eine Zahl ohne Rest, ein Vielfaches entsteht durch Malnehmen mit 1, 2, 3, … . Alle Teiler einer Zahl als Paare von Malaufgaben finden. Teilbarkeitsregeln für 2, 3, 4, 5, 9, 10, 25 und 100 anwenden: letzte Ziffer, letzte zwei Ziffern, Quersumme. Typische Fehler: bei 3 und 9 nur die letzte Ziffer prüfen, die Quersumme falsch addieren, bei 4 nur die letzte Ziffer ansehen. Primzahlen und Primfaktoren gehören erst zur nächsten Seite.",
   "blocks":
     [
       {
         "type": "section",
         "id": "regel",
-        "title": "Zahlen als Malaufgabe",
+        "title": "Zwölf Bauklötze in Reihen",
         "blocks":
           [
             {
               "type": "text",
-              "text": "Stell dir zwölf Bauklötze vor. Du kannst daraus drei Reihen mit je vier Klötzen legen – oder zwei Reihen mit je sechs. Dieselbe Anzahl lässt sich also auf verschiedene Arten als Malaufgabe schreiben.",
+              "text": "Nach dieser Seite kannst du alle Teiler und Vielfache einer Zahl finden. Mit Teilbarkeitsregeln erkennst du außerdem schnell, ob eine Zahl durch 2, 3, 4, 5, 9, 10, 25 oder 100 teilbar ist. Du brauchst dafür nur das Malnehmen und das Teilen.",
+            },
+            {
+              "type": "text",
+              "text": "Zwölf Bauklötze kannst du in gleich lange Reihen legen: eine Reihe mit 12, zwei Reihen mit je 6 oder drei Reihen mit je 4. Jede Anordnung ist eine Malaufgabe.",
+            },
+            {
+              "type": "figure",
+              "image": "images/teiler-rechtecke.svg",
+              "source": "eigene Zeichnung",
+              "licence": "MIT",
+              "alt": "Dreimal zwölf gleich große Quadrate. Oben liegen sie in einer Reihe mit 12, in der Mitte in 2 Reihen mit je 6, unten in 3 Reihen mit je 4. Neben jeder Anordnung steht die Malaufgabe.",
+              "caption": "Zwölf Klötze, drei Anordnungen: 1 · 12, 2 · 6 und 3 · 4.",
             },
             {
               "type": "definition",
               "term": "Faktor",
               "explanation": "Die Zahlen, die du miteinander multiplizierst, heißen Faktoren. Das Ergebnis heißt Produkt. Bei 3 · 4 = 12 sind 3 und 4 die Faktoren.",
             },
+            {
+              "type": "definition",
+              "term": "Teiler",
+              "explanation": "Eine Zahl ist ein Teiler einer anderen, wenn sie diese ohne Rest teilt. 3 ist ein Teiler von 12, denn 12 : 3 = 4 ohne Rest. 5 ist kein Teiler von 12, denn es bleibt der Rest 2.",
+            },
+            {
+              "type": "definition",
+              "term": "Vielfaches",
+              "explanation": "Ein Vielfaches von 3 entsteht, wenn du 3 mit 1, 2, 3, … malnimmst: 3, 6, 9, 12, … Die 12 ist also ein Vielfaches von 3.",
+            },
+            {
+              "type": "text",
+              "text": "Teiler und Vielfache gehören zusammen. Aus 3 · 4 = 12 liest du ab: 3 und 4 sind Teiler von 12, und 12 ist ein Vielfaches von 3 und von 4.",
+            },
           ],
       },
       {
         "type": "section",
         "id": "entdecken",
-        "title": "Ausprobieren",
+        "title": "Alle Teiler finden",
         "blocks":
           [
             {
               "type": "text",
-              "text": "Stell dir 12 Bauklötze vor: Du kannst daraus 3 Reihen mit je 4 Klötzen legen. Die Rechnung 3 · 4 beschreibt diese Anordnung. Die Zahlen 3 und 4 heißen Faktoren. Unten kannst du so eine Zahl immer weiter aufteilen: Wähle einen Faktor und darunter eine passende Malaufgabe. Die neuen Faktoren ersetzen den alten, aber das Ergebnis bleibt gleich. Ein Stern bedeutet: Diese Zahl lässt sich nicht weiter in zwei ganze Faktoren größer als 1 zerlegen. Probiere unterschiedliche Zerlegungen aus und vergleiche die Zahlen, bei denen du landest.",
+              "text": "Wenn du alle Zahlen finden willst, die in eine Zahl passen, suchst du ihre Teiler. So gehst du vor: Suche alle Malaufgaben mit dem Ergebnis dieser Zahl. Jede Malaufgabe liefert zwei Teiler. Nur bei einer Aufgabe wie 4 · 4 ergibt sich bloß ein Teiler. Du musst nur bis zu dem Faktor suchen, bei dem sich die Paare wiederholen.",
             },
             {
-              "type": "vue-component",
-              "component": "FaktorEntdecken",
-              "props":
-                {
-                  "numberLabel": "Deine Zahl",
-                  "instruction": "Wähle eine Zahl. Tippe dann auf einen Faktor, den du weiter zerlegen möchtest, und wähle eine passende Malaufgabe. Was bleibt am Ende übrig?",
-                  "chooseLabel": "Faktor {n} untersuchen",
-                  "splitLabel": "So kannst du den gewählten Faktor zerlegen:",
-                  "primeLabel": "{n} lässt sich nicht in zwei ganze Faktoren größer als 1 zerlegen. Mit solchen Zahlen endet das Zerlegen.",
-                  "finishedLabel": "Jetzt lässt sich keiner der Faktoren weiter zerlegen. Alle sind Primzahlen; die Sterne markieren diese Endpunkte.",
-                  "resetLabel": "Noch einmal zerlegen",
-                },
-              "nojs": "Stell dir 12 Bauklötze vor: Du kannst daraus 3 Reihen mit je 4 Klötzen legen. Die Rechnung 3 · 4 beschreibt diese Anordnung. Die Zahlen 3 und 4 heißen Faktoren. Unten kannst du so eine Zahl immer weiter aufteilen: Wähle einen Faktor und darunter eine passende Malaufgabe. Die neuen Faktoren ersetzen den alten, aber das Ergebnis bleibt gleich. Ein Stern bedeutet: Diese Zahl lässt sich nicht weiter in zwei ganze Faktoren größer als 1 zerlegen. Probiere unterschiedliche Zerlegungen aus und vergleiche die Zahlen, bei denen du landest.\n\nBeispiel: 12 = 3 · 4 = 3 · 2 · 2. Die Faktoren 3, 2 und 2 lassen sich nicht weiter in ganze Faktoren größer als 1 zerlegen.",
-            },
-            {
-              "type": "section",
-              "id": "primzahlen",
-              "title": "Wo das Zerlegen endet",
-              "blocks":
+              "type": "table",
+              "caption": "Alle Malaufgaben und alle Teiler von drei Zahlen",
+              "header": ["Zahl", "Malaufgaben", "Alle Teiler"],
+              "rows":
                 [
-                  {
-                    "type": "text",
-                    "text": "Du kannst 12 als 3 · 4 schreiben. Die 4 lässt sich weiter zerlegen: 4 = 2 · 2. Bei 12 = 3 · 2 · 2 geht es nicht weiter, wenn alle Faktoren größer als 1 sein sollen.",
-                  },
-                  {
-                    "type": "definition",
-                    "term": "Primzahl",
-                    "explanation": "Eine Primzahl ist eine natürliche Zahl größer als 1, die sich nicht in zwei ganze Faktoren größer als 1 zerlegen lässt. Sie hat genau zwei positive Teiler: 1 und sich selbst. Die 1 ist keine Primzahl.",
-                  },
-                  {
-                    "type": "definition",
-                    "term": "Primfaktorzerlegung",
-                    "explanation": "Bei einer Primfaktorzerlegung wird eine Zahl als Produkt von Primzahlen geschrieben. Du zerlegst zusammengesetzte Faktoren weiter, bis nur noch Primzahlen übrig sind.",
-                  },
+                  ["12", "1 · 12, 2 · 6, 3 · 4", "1, 2, 3, 4, 6, 12"],
+                  ["18", "1 · 18, 2 · 9, 3 · 6", "1, 2, 3, 6, 9, 18"],
+                  ["16", "1 · 16, 2 · 8, 4 · 4", "1, 2, 4, 8, 16"],
                 ],
             },
             {
               "type": "section",
               "id": "abkuerzungen",
-              "title": "Abkürzungen beim Suchen",
+              "title": "Abkürzungen: Teilbarkeitsregeln",
               "blocks":
                 [
                   {
                     "type": "text",
-                    "text": "Wenn du die Faktoren ausprobieren kannst, helfen diese Regeln, schneller einen passenden zu finden. Die Quersumme ist die Summe aller Ziffern einer Zahl.",
+                    "text": "Bei großen Zahlen ist das Suchen mühsam. Für einige Teiler verrät dir eine Regel sofort, ob sie passen. Die Quersumme ist die Summe aller Ziffern einer Zahl: 351 hat die Quersumme 3 + 5 + 1 = 9.",
                   },
                   {
                     "type": "table",
-                    "caption": "Teilbarkeitsregeln helfen beim Finden von Faktoren",
-                    "header": ["Teilbar durch", "Woran du es erkennst"],
+                    "caption": "Teilbarkeitsregeln mit je einem Beispiel",
+                    "header": ["Teilbar durch", "Woran du es erkennst", "Beispiel"],
                     "rows":
                       [
-                        ["2", "Die letzte Ziffer ist gerade"],
-                        ["5", "Letzte Ziffer 0 oder 5"],
-                        ["10", "Letzte Ziffer 0"],
-                        ["4", "Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl"],
-                        ["25", "Die letzten beiden Ziffern sind 00 oder ein Vielfaches von 25"],
-                        ["100", "Endung 00"],
-                        ["3", "Quersumme durch 3 teilbar"],
-                        ["9", "Quersumme durch 9 teilbar"],
+                        ["2", "Die letzte Ziffer ist gerade (0, 2, 4, 6 oder 8)", "478 endet auf 8"],
+                        ["5", "Die letzte Ziffer ist 0 oder 5", "435 endet auf 5"],
+                        ["10", "Die letzte Ziffer ist 0", "370 endet auf 0"],
+                        [
+                          "4",
+                          "Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl",
+                          "1316: 16 : 4 = 4 ohne Rest",
+                        ],
+                        ["25", "Die letzten zwei Ziffern sind 00, 25, 50 oder 75", "1375 endet auf 75"],
+                        ["100", "Die Zahl endet auf 00", "2500 endet auf 00"],
+                        ["3", "Die Quersumme ist durch 3 teilbar", "123: 1 + 2 + 3 = 6"],
+                        ["9", "Die Quersumme ist durch 9 teilbar", "477: 4 + 7 + 7 = 18"],
+                      ],
+                  },
+                  {
+                    "type": "note",
+                    "title": "Merke",
+                    "blocks":
+                      [
+                        {
+                          "type": "text",
+                          "text": "Bei 3 und 9 entscheidet die Quersumme, nicht die letzte Ziffer: 703 endet auf 3, aber die Quersumme 10 ist nicht durch 3 teilbar. Bei 4 reicht die letzte Ziffer auch nicht: 14 endet auf 4, ist aber nicht durch 4 teilbar.\n\nBei 2, 5 und 10 genügt die letzte Ziffer, weil 10 durch 2, 5 und 10 teilbar ist. Alle Zehner davor sind dann schon teilbar. Genauso genügen bei 4, 25 und 100 die letzten zwei Ziffern, weil 100 durch 4, 25 und 100 teilbar ist.",
+                        },
                       ],
                   },
                 ],
@@ -108,15 +123,17 @@
           [
             {
               "type": "example",
-              "title": "24 Schritt für Schritt zerlegen",
+              "title": "Wodurch ist 2376 teilbar?",
               "blocks":
                 [
-                  { "type": "formula", "formula": "24 = 4 \\cdot 6" },
-                  { "type": "text", "text": "Die Faktoren 4 und 6 lassen sich beide weiter zerlegen." },
-                  { "type": "formula", "formula": "24 = (2 \\cdot 2) \\cdot (2 \\cdot 3)" },
                   {
                     "type": "text",
-                    "text": "Jetzt bleiben nur Primzahlen übrig: 2, 2, 2 und 3. Du könntest auch mit 24 = 2 · 12 beginnen; am Ende erhältst du dieselben Primfaktoren in vielleicht anderer Reihenfolge.",
+                    "text": "Prüfe 2376 nacheinander mit den Regeln:\n\n- Die letzte Ziffer 6 ist gerade: durch 2 teilbar.\n- Die letzte Ziffer ist weder 0 noch 5: nicht durch 5 teilbar.\n- Die letzten zwei Ziffern 76: 76 : 4 = 19 ohne Rest, also durch 4 teilbar.\n- Die Quersumme von 2376 ist:",
+                  },
+                  { "type": "formula", "formula": "2 + 3 + 7 + 6 = 18" },
+                  {
+                    "type": "text",
+                    "text": "18 ist durch 3 und durch 9 teilbar. Also ist 2376 durch 3 und durch 9 teilbar. Zur Probe: 2376 : 9 = 264 ohne Rest.",
                   },
                 ],
             },
@@ -128,26 +145,6 @@
         "title": "Üben",
         "blocks":
           [
-            {
-              "type": "single-choice",
-              "id": "verstehen",
-              "text": "Welche Zahl ist eine Primzahl?",
-              "options":
-                [
-                  {
-                    "text": "13",
-                    "correct": true,
-                    "info": "13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler.",
-                  },
-                  {
-                    "text": "1",
-                    "correct": false,
-                    "info": "Die 1 hat nur einen positiven Teiler. Eine Primzahl braucht genau zwei.",
-                  },
-                  { "text": "15", "correct": false, "info": "15 hat außer 1 und 15 auch die Teiler 3 und 5." },
-                ],
-              "explanation": "13 ist nur durch 1 und 13 teilbar, denn 2, 3, 5, 7 und 11 teilen sie nicht. Sie hat also genau zwei Teiler.",
-            },
             {
               "type": "generated",
               "id": "aufgaben",
@@ -162,40 +159,130 @@
                   { "value": "e.dreifach", "message": "Das ist die Gesamtmenge, nicht die Menge in einer Gruppe." },
                   { "value": "1", "message": "Teile die gesamte Menge in drei gleich große Gruppen." },
                 ],
-              "hint": "Verteile gleichmäßig: Teile die Anzahl durch 3. Eine Zahl ist durch 3 teilbar, wenn ihre Quersumme durch 3 teilbar ist.",
+              "hint": "Verteile gleichmäßig: Teile die Anzahl durch 3. Es bleibt kein Rest, also ist 3 ein Teiler der Anzahl.",
               "steps":
                 [
                   "Die {{e.dreifach}} Gegenstände werden auf drei gleich große Gruppen verteilt.",
-                  "{{e.dreifach}} : 3 = {{answer}}. So viele Gegenstände liegen in jeder Gruppe.",
+                  "{{e.dreifach}} : 3 = {{answer}}. So viele Gegenstände liegen in jeder Gruppe. Es bleibt kein Rest, darum ist 3 ein Teiler von {{e.dreifach}}.",
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
             },
             {
+              "type": "number",
+              "id": "teiler-zaehlen",
+              "text": "Wie viele Teiler hat die Zahl 18? Zähle 1 und 18 mit.",
+              "answer": 6,
+              "tolerance": 0,
+              "explanation": "Die Malaufgaben 1 · 18, 2 · 9 und 3 · 6 liefern die sechs Teiler 1, 2, 3, 6, 9 und 18. Wer nur 4 oder 5 nennt, hat meist nur die kleinen Faktoren gezählt und die großen Partner 18, 9 und 6 vergessen.",
+            },
+            {
+              "type": "multiple-choice",
+              "id": "vielfache",
+              "text": "Welche Zahlen sind Vielfache von 6?",
+              "options":
+                [
+                  { "text": "18", "correct": true, "info": "18 = 3 · 6, also ein Vielfaches von 6." },
+                  { "text": "36", "correct": true, "info": "36 = 6 · 6, also ein Vielfaches von 6." },
+                  {
+                    "text": "3",
+                    "correct": false,
+                    "info": "3 ist ein Teiler von 6, kein Vielfaches. Vielfache von 6 sind mindestens so groß wie 6.",
+                  },
+                  { "text": "16", "correct": false, "info": "16 steht nicht in der Reihe 6, 12, 18, 24, … ." },
+                ],
+              "explanation": "Die Vielfachen von 6 sind 6, 12, 18, 24, 30, 36, … Teiler sind kleiner oder gleich der Zahl, Vielfache größer oder gleich.",
+            },
+            {
+              "type": "matching",
+              "id": "regeln-zuordnen",
+              "text": "Ordne jeder Regel zu, wofür sie gilt.",
+              "pairs":
+                [
+                  { "left": "Die letzte Ziffer ist 0 oder 5", "right": "durch 5 teilbar" },
+                  { "left": "Die Quersumme ist durch 3 teilbar", "right": "durch 3 teilbar" },
+                  { "left": "Die letzten zwei Ziffern bilden eine durch 4 teilbare Zahl", "right": "durch 4 teilbar" },
+                  { "left": "Die Zahl endet auf 00", "right": "durch 100 teilbar" },
+                ],
+              "explanation": "Die Endziffer entscheidet bei 2, 5 und 10, die letzten zwei Ziffern bei 4, 25 und 100 und die Quersumme bei 3 und 9. Für 8 gibt es hier keine Regel.",
+            },
+            {
+              "type": "multiple-choice",
+              "id": "durch-3",
+              "text": "Welche dieser Zahlen sind durch 3 teilbar?",
+              "options":
+                [
+                  { "text": "123", "correct": true, "info": "Die Quersumme 1 + 2 + 3 = 6 ist durch 3 teilbar." },
+                  {
+                    "text": "703",
+                    "correct": false,
+                    "info": "Die letzte Ziffer 3 entscheidet nicht. Die Quersumme 7 + 0 + 3 = 10 ist nicht durch 3 teilbar.",
+                  },
+                  { "text": "351", "correct": true, "info": "Die Quersumme 3 + 5 + 1 = 9 ist durch 3 teilbar." },
+                  {
+                    "text": "245",
+                    "correct": false,
+                    "info": "Die Quersumme 2 + 4 + 5 = 11 ist nicht durch 3 teilbar.",
+                  },
+                  {
+                    "text": "1002",
+                    "correct": true,
+                    "info": "Die Quersumme 1 + 0 + 0 + 2 = 3 ist durch 3 teilbar. Auch Nullen zählen mit, sie ändern die Summe nur nicht.",
+                  },
+                ],
+              "explanation": "Du zählst alle Ziffern zusammen und prüfst die Summe. Nur die letzte Ziffer anzusehen führt bei 3 in die Irre.",
+            },
+            {
               "type": "generated",
-              "id": "primfaktoren",
-              "given": { "e": { "pick": 1, "from": { "data": "primfaktoren" } } },
+              "id": "ziffer-ergaenzen",
+              "given": { "e": { "pick": 1, "from": { "data": "ziffernergaenzen" } } },
               "task":
                 {
-                  "text": "Zerlege {{e.zahl}} vollständig in Primfaktoren. Eine 2 ist schon gefunden: {{e.zahl}} = 2 · … . Welcher Primfaktor fehlt?",
+                  "text": "Die Zahl {{e.zahl}}□ hat als letzte Ziffer ein leeres Kästchen. Welche ist die kleinste Ziffer, die du einsetzen kannst, damit die Zahl durch {{e.d}} teilbar wird?",
                 },
-              "answer": { "value": "e.prime", "compare": "number" },
+              "answer": { "value": "e.ziffer", "compare": "number" },
               "mistakes":
                 [
                   {
-                    "value": "1",
-                    "message": "Mit 1 bleibt der andere Faktor unverändert. Gesucht ist ein Primfaktor größer als 1.",
+                    "value": "e.rest",
+                    "message": "Das ist der Rest, der bei der Quersumme von {{e.zahl}} bleibt. Gesucht ist die Ziffer, die bis zum nächsten Vielfachen von {{e.d}} fehlt.",
                   },
                   {
-                    "value": "e.zahl",
-                    "message": "Das ist die Ausgangszahl. Teile sie durch den schon gefundenen Faktor 2.",
+                    "value": "e.slip",
+                    "message": "Du hast eine Ziffer gewählt, die selbst durch {{e.d}} teilbar ist. Bei {{e.d}} entscheidet aber die Quersumme aller Ziffern, nicht die letzte Ziffer allein.",
                   },
                 ],
-              "hint": "Suche die Zahl, die mit 2 multipliziert die Ausgangszahl ergibt. Prüfe danach, ob sie selbst prim ist.",
+              "hint": "Berechne die Quersumme von {{e.zahl}}. Welche Ziffer musst du dazuzählen, damit die Summe in der {{e.d}}er-Reihe steht?",
               "steps":
                 [
-                  "Teile {{e.zahl}} durch den schon gefundenen Primfaktor 2. Das ergibt {{answer}}.",
-                  "{{answer}} ist eine Primzahl. Damit ist {{e.zahl}} = 2 · {{answer}} vollständig in Primfaktoren zerlegt.",
+                  "Die Quersumme von {{e.zahl}} ist {{e.rechnung}} = {{e.q}}.",
+                  "{{e.q}} steht noch nicht in der {{e.d}}er-Reihe. Mit der Ziffer {{answer}} wird die Quersumme {{e.qneu}}, und die steht drin.",
+                  "Die Zahl {{e.neu}} ist also durch {{e.d}} teilbar, und keine kleinere Ziffer passt.",
                 ],
+              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "single-choice",
+              "id": "durch-4",
+              "text": "Mia sagt: „2154 ist durch 4 teilbar, weil die letzte Ziffer 4 durch 4 teilbar ist.“ Stimmt das?",
+              "options":
+                [
+                  {
+                    "text": "Nein, denn die letzten zwei Ziffern 54 sind nicht durch 4 teilbar.",
+                    "correct": true,
+                    "info": "54 : 4 = 13 Rest 2. Bei 4 prüfst du die letzten zwei Ziffern.",
+                  },
+                  {
+                    "text": "Ja, die letzte Ziffer genügt.",
+                    "correct": false,
+                    "info": "Für 4 genügt die letzte Ziffer nicht. Dann wäre auch 14 durch 4 teilbar, aber 14 : 4 hat den Rest 2.",
+                  },
+                  {
+                    "text": "Nein, denn die Zahl ist ungerade.",
+                    "correct": false,
+                    "info": "2154 endet auf 4 und ist gerade. Gerade Zahlen sind durch 2 teilbar, für 4 braucht es mehr.",
+                  },
+                ],
+              "explanation": "Für die Teilbarkeit durch 4 zählen die letzten zwei Ziffern. 54 ist nicht durch 4 teilbar, also ist auch 2154 nicht durch 4 teilbar.",
             },
           ],
       },

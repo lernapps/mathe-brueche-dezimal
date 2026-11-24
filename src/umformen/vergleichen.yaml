@@ -38,7 +38,7 @@
                   "task": "Vergleiche {z}/{n} und {b}/{d}. Wähle das passende Zeichen.",
                   "mistakes":
                     [
-                      "Vergleiche noch einmal: Bringe beide Brüche auf denselben Nenner und vergleiche dann die Zähler.",
+                      "Vergleiche noch einmal: Haben beide Brüche denselben Nenner, vergleichst du die Zähler. Sonst bringst du sie zuerst auf denselben Nenner.",
                       "Wähle eines der Zeichen <, > oder =.",
                       "Der Wert stimmt, aber Zähler und Nenner haben noch einen gemeinsamen Teiler größer als 1. Kürze noch weiter.",
                       "Der Wert stimmt. Verwende aber den in der Aufgabe verlangten Erweiterungsfaktor für Zähler und Nenner.",
@@ -149,6 +149,13 @@
                   "Zwei solcher Teile sind mehr als eines. Der größere Bruch hat daher den Zähler 2.",
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "ordering",
+              "id": "ordnen",
+              "text": "Ordne die Anteile der Größe nach, den kleinsten zuerst.",
+              "items": ["ein Viertel", "ein Drittel", "ein Halb", "drei Viertel"],
+              "explanation": "Bringe alle auf den Nenner 12: $\\frac{3}{12}$, $\\frac{4}{12}$, $\\frac{6}{12}$, $\\frac{9}{12}$. Bei gleichem Nenner ist der Bruch mit dem größeren Zähler größer.",
             },
           ],
       },

@@ -41,11 +41,10 @@ const strings = (value: unknown, out: string[] = []): string[] => {
   return out;
 };
 const withoutFormulas = (text: string) => text.replace(/\$[^$]*\$/g, "");
-const sources = import.meta.glob<string>(["../*/*.yaml", "!../components/*", "!../data/*"], {
-  query: "?raw",
-  import: "default",
-  eager: true,
-});
+const all = import.meta.glob<string>("../*/*.yaml", { query: "?raw", import: "default", eager: true });
+const sources = Object.fromEntries(
+  Object.entries(all).filter(([path]) => !path.startsWith("../components/") && !path.startsWith("../data/")),
+);
 const files = Object.keys(sources);
 
 test("every page is covered", () => {

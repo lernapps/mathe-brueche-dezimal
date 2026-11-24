@@ -6,4 +6,8 @@
   { "zahl": 14, "prime": 7 },
   { "zahl": 22, "prime": 11 },
   { "zahl": 26, "prime": 13 },
+  { "zahl": 34, "prime": 17 },
+  { "zahl": 38, "prime": 19 },
+  { "zahl": 46, "prime": 23 },
+  { "zahl": 58, "prime": 29 },
 ]

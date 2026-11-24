@@ -45,7 +45,7 @@
                   {
                     "type": "table",
                     "caption": "Beide Zahlen sind nach Stellenwerten ausgerichtet",
-                    "header": ["Zahl", "Ganze", "Zehntel", "Hundertstel"],
+                    "header": ["Zahl", "E Einer", "z Zehntel", "h Hundertstel"],
                     "rows": [["0,75", "0", "7", "5"], ["0,50", "0", "5", "0"]],
                   },
                 ],
@@ -63,7 +63,7 @@
                   {
                     "type": "table",
                     "caption": "Der Anfang der Minusrechnung",
-                    "header": ["Zahl", "Ganze", "Zehntel", "Hundertstel"],
+                    "header": ["Zahl", "E Einer", "z Zehntel", "h Hundertstel"],
                     "rows": [["1,20", "1", "2", "0"], ["0,35", "0", "3", "5"]],
                   },
                 ],
@@ -146,6 +146,10 @@
                     "message": "Diese Anzahl zählt Hundertstel, nicht Ganze. Setze das Komma passend.",
                   },
                   { "value": "(e.a100+e.b100)/1000", "message": "Die Teile sind Hundertstel, keine Tausendstel." },
+                  {
+                    "value": "(e.a100+e.b100)/10",
+                    "message": "Das Komma steht an der falschen Stelle: Dein Ergebnis ist zehnmal so groß wie die Summe. Schätze vorher: Runde beide Zahlen auf ganze Zahlen und addiere sie.",
+                  },
                 ],
               "hint": "Schreibe beide Zahlen in Hundertsteln und ordne Komma unter Komma.",
               "steps":
@@ -172,14 +176,25 @@
                     "value": "e.a100/100-e.b100/1000",
                     "message": "Der zweite Betrag besteht aus Hundertsteln, nicht aus Tausendsteln.",
                   },
+                  {
+                    "value": "(e.a100-e.b100)/10",
+                    "message": "Das Komma steht an der falschen Stelle: Dein Ergebnis ist zehnmal so groß wie die Differenz. Schätze vorher: {{e.azahl}} − {{e.bzahl}} ist kleiner als {{e.azahl}}.",
+                  },
                 ],
               "hint": "Ordne gleiche Stellen untereinander. Tausche bei Bedarf ein größeres Teil in zehn kleinere.",
               "steps":
                 [
-                  "Die Beträge entsprechen {{e.a100}} und {{e.b100}} Hundertsteln.",
+                  "Als Hundertstel sind das {{e.a100}} und {{e.b100}}.",
                   "Nach dem Wegnehmen bleiben {{e.differenz100}} Hundertstel: {{answer}}. Prüfe, indem du {{e.bzahl}} wieder addierst.",
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "true-false",
+              "id": "schaetzen",
+              "text": "Ben rechnet 0,75 + 0,5 = 0,80. Kann das stimmen?",
+              "answer": false,
+              "explanation": "Schätze: 0,75 + 0,5 ist mehr als 0,75 + 0,25 = 1. Ben hat 0,5 wie 0,05 gelesen und Hundertstel mit Zehnteln addiert. Schreibe 0,5 = 0,50 und lege Komma unter Komma: 0,75 + 0,50 = 1,25.",
             },
           ],
       },

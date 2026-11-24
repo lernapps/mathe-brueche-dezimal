@@ -1,6 +1,16 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
   "title": "Dezimalzahlen und Anwendungen",
-  "summary": "Ein halber Liter lässt sich auch als 0,5 Liter schreiben. Zuerst wechselst du zwischen Bruch und Dezimalzahl. Danach lernst du auf getrennten Seiten Plus und Minus sowie Mal und Geteilt mit Dezimalzahlen. Anschließend rundest du und löst Sachaufgaben mit Brüchen, Mengen und Einheiten.",
-  "pages": ["recap", "dezimaldarstellung", "dezimalrechnen", "dezimal-mal-geteilt", "runden", "sachaufgaben"],
+  "summary": "Ein halber Liter lässt sich auch als 0,5 Liter schreiben. Zuerst wechselst du zwischen Bruch und Dezimalzahl und lernst, wann das Teilen nie endet (Periode). Du erfährst, dass Prozent Hundertstel heißt und wie du Bruch, Dezimalzahl und Prozent ineinander umwandelst. Danach lernst du auf getrennten Seiten Plus und Minus sowie Mal und Geteilt mit Dezimalzahlen. Anschließend rundest du und löst Sachaufgaben mit Brüchen, Mengen und Einheiten.",
+  "pages":
+    [
+      "recap",
+      "dezimaldarstellung",
+      "periode",
+      "prozent",
+      "dezimalrechnen",
+      "dezimal-mal-geteilt",
+      "runden",
+      "sachaufgaben",
+    ],
 }

@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
-  "title": "Brüche im Alltag anwenden",
+  "title": "Brüche und Dezimalzahlen im Alltag",
   "competencies": ["bruchrechnung-grundaufgaben"],
-  "description": "Was ist gegeben und was wird gesucht? Zeichne zuerst die Situation.",
-  "scope": "Ordne die Angaben: Ganzes, Bruchteil oder Anteil. Entscheide dann, welche Rechnung die Frage beantwortet. Nenne die Einheit und prüfe durch Schätzen, ob das Ergebnis sinnvoll ist. Beim Vergleichen von Anteilen brauchst du dieselbe Bezugsgröße. 3/4 Liter Saft werden gleich auf zwei Gefäße verteilt: 3/4 : 2 = 3/8 Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit 5/20 = 1/4 = 25 %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage.",
+  "description": "Was ist gegeben und was wird gesucht? Sachaufgaben mit Brüchen, Dezimalzahlen und Einheiten.",
+  "scope": "Ordne die Angaben: Ganzes, Bruchteil oder Anteil. Entscheide dann, welche Rechnung die Frage beantwortet. Nenne die Einheit und prüfe durch Schätzen, ob das Ergebnis sinnvoll ist. Beim Vergleichen von Anteilen brauchst du dieselbe Bezugsgröße. 3/4 Liter Saft werden gleich auf zwei Gefäße verteilt: 3/4 : 2 = 3/8 Liter pro Gefäß. Bei 20 Würfen fällt 5-mal eine Sechs: relative Häufigkeit 5/20 = 1/4 = 25 %. Das beschreibt die beobachteten Würfe und keine sichere Vorhersage. Auch mit Dezimalzahlen und Einheiten: Ein Heft kostet 1,60 €, vier Hefte kosten 4 · 1,60 € = 6,40 €. 1,2 Liter auf 4 Gläser: 1,2 : 4 = 0,3 Liter pro Glas. 2,5 Kilometer von 7,8 Kilometern gefahren: 7,8 − 2,5 = 5,3 Kilometer bleiben. Ein Tank mit 40 Litern ist zu 2/5 gefüllt: 40 : 5 · 2 = 16 Liter. Schätze vorher und nenne zum Ergebnis die Einheit.",
   "blocks":
     [
       {
@@ -14,7 +14,7 @@
           [
             {
               "type": "text",
-              "text": "Eine Geschichte beschreibt Mengen und Anteile. Bevor du rechnest, klärst du, was du schon weißt und was du herausfinden möchtest.",
+              "text": "Eine Geschichte beschreibt Mengen, Preise und Anteile. Die Zahlen können Brüche oder Dezimalzahlen sein, oft mit einer Einheit wie Liter, Euro oder Kilometer. Bevor du rechnest, klärst du, was du schon weißt und was du herausfinden möchtest.",
             },
           ],
       },
@@ -64,6 +64,22 @@
                   },
                 ],
             },
+            {
+              "type": "example",
+              "title": "Mit Dezimalzahlen und Einheiten",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Ein Heft kostet 1,60 €. Du kaufst 4 Hefte. Gesucht ist der Gesamtpreis, also malnehmen. Du schätzt: etwa 4 · 2 € = 8 €, es muss etwas weniger sein. Dann rechnest du genau:",
+                  },
+                  { "type": "formula", "formula": "4 \\cdot 1{,}60\\,€ = 6{,}40\\,€" },
+                  {
+                    "type": "text",
+                    "text": "Teilen geht genauso: 1,2 l Saft auf 4 Gläser ergibt 1,2 l : 4 = 0,3 l pro Glas. Das Ergebnis bekommt immer seine Einheit.",
+                  },
+                ],
+            },
           ],
       },
       {
@@ -102,7 +118,7 @@
               "given": { "e": { "pick": 1, "from": { "data": "grundzahlen" } } },
               "task":
                 {
-                  "text": "Eine Strecke ist {{e.vierfach}} km lang. Du gehst $\\frac{3}{4}$ davon. Wie viele Kilometer sind das?",
+                  "text": "Eine Strecke ist {{e.vierfach}} km lang. Du fährst $\\frac{3}{4}$ davon. Wie viele Kilometer sind das?",
                 },
               "answer": { "value": "e.vierfach / 4 * 3", "compare": "number" },
               "mistakes":
@@ -117,6 +133,112 @@
                   "Drei Viertel sind {{e.basis}} · 3 = {{answer}} km.",
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "generated",
+              "id": "strecke",
+              "given": { "x": { "decimal": [5, 12], "step": 0.1 }, "y": { "decimal": [1, 4.5], "step": 0.1 } },
+              "task":
+                {
+                  "text": "Ein Radweg ist {{x}} km lang. Du bist schon {{y}} km gefahren. Wie viele Kilometer musst du noch fahren?",
+                },
+              "answer": { "value": "x - y", "compare": { "number": { "format": "decimal", "decimals": 1 } } },
+              "mistakes":
+                [
+                  {
+                    "value": "x + y",
+                    "message": "Du hast addiert. Gesucht ist der Rest: Du nimmst das Stück, das du schon gefahren bist, von der ganzen Strecke weg.",
+                  },
+                  {
+                    "value": "y - x",
+                    "message": "Du hast die Zahlen vertauscht. Von der längeren Strecke ziehst du die kürzere ab.",
+                  },
+                ],
+              "hint": "Gegeben ist die ganze Strecke und ein Teil. Gesucht ist der Rest. Du subtrahierst.",
+              "steps":
+                [
+                  "Ganzes: {{x}} km. Schon gefahren: {{y}} km. Gesucht ist der Rest, also subtrahierst du.",
+                  "{{x}} − {{y}} = {{answer}}. Es bleiben {{answer}} km. Schätzen hilft: Der Rest muss kleiner als die ganze Strecke sein.",
+                ],
+            },
+            {
+              "type": "generated",
+              "id": "preis",
+              "given": { "p": { "decimal": [1.6, 4.8], "step": 0.05 }, "m": { "int": [3, 9] } },
+              "task": { "text": "Ein Heft kostet {{p}} €. Du kaufst {{m}} Hefte. Wie viel Euro zahlst du?" },
+              "answer": { "value": "p * m", "compare": { "number": { "format": "money" } } },
+              "mistakes":
+                [
+                  {
+                    "value": "p + m",
+                    "message": "Du hast addiert. {{m}} gleiche Hefte kosten {{m}}-mal so viel wie ein Heft: Du multiplizierst.",
+                  },
+                  {
+                    "value": "p / m",
+                    "message": "Du hast geteilt. Gesucht ist der Preis für alle {{m}} Hefte, nicht für ein Heft.",
+                  },
+                ],
+              "hint": "Gegeben ist der Preis für ein Heft. Gesucht ist der Preis für mehrere Hefte. Du multiplizierst.",
+              "steps":
+                [
+                  "Ein Heft kostet {{p}} €. {{m}} Hefte kosten {{m}}-mal so viel.",
+                  "{{m}} · {{p}} = {{answer}}. Schätze zur Kontrolle: {{m}} Hefte zu etwa 2 € kosten etwa {{m}}-mal 2 €.",
+                ],
+            },
+            {
+              "type": "generated",
+              "id": "glaeser",
+              "given": { "L": { "oneOf": [0.5, 1, 1.5, 2, 2.5, 3] }, "g": { "int": [2, 5] } },
+              "where": ["decimals(L / g) <= 2", "decimals(g / L) <= 2", "L / g != g / L"],
+              "task":
+                {
+                  "text": "{{L}} Liter Saft werden gleichmäßig auf {{g}} Gläser verteilt. Wie viel Liter kommen in ein Glas?",
+                },
+              "answer": { "value": "L / g", "compare": { "number": { "format": "decimal", "decimals": 2 } } },
+              "mistakes":
+                [
+                  {
+                    "value": "L * g",
+                    "message": "Du hast multipliziert. Beim gleichmäßigen Verteilen wird jeder Anteil kleiner: Du teilst die Gesamtmenge durch die Zahl der Gläser.",
+                  },
+                  {
+                    "value": "g / L",
+                    "message": "Du hast die Zahlen vertauscht. Die Gesamtmenge ({{L}} Liter) ist der Dividend, die {{g}} Gläser sind der Divisor.",
+                  },
+                ],
+              "hint": "Gegeben ist die Gesamtmenge und die Zahl der Gläser. Gesucht ist die Menge in einem Glas: Du teilst.",
+              "steps":
+                [
+                  "Die Gesamtmenge ({{L}} Liter) wird auf {{g}} gleiche Teile verteilt, also rechnest du {{L}} : {{g}}.",
+                  "{{L}} : {{g}} = {{answer}}. In jedes Glas kommen {{answer}} Liter, weniger als die Gesamtmenge.",
+                ],
+            },
+            {
+              "type": "generated",
+              "id": "tank",
+              "given": { "T": { "int": [20, 60], "step": 5 }, "z": { "oneOf": [2, 3, 4] } },
+              "task":
+                {
+                  "text": "Ein Tank fasst {{T}} Liter. Er ist zu $\\frac{{{z}}}{5}$ gefüllt. Wie viel Liter sind im Tank?",
+                },
+              "answer": { "value": "T / 5 * z", "compare": { "number": { "format": "integer" } } },
+              "mistakes":
+                [
+                  {
+                    "value": "T / 5",
+                    "message": "Das ist erst ein Fünftel. Gefragt sind {{z}} Fünftel: Du musst noch mit {{z}} multiplizieren.",
+                  },
+                  {
+                    "value": "T * z",
+                    "message": "Du hast mit {{z}} multipliziert und den Nenner 5 vergessen. Ein Fünftel bekommst du durch Teilen durch 5.",
+                  },
+                ],
+              "hint": "Ordne die Angaben: Das Ganze sind {{T}} Liter, der Anteil ist ein Bruch. Gesucht ist der Bruchteil.",
+              "steps":
+                [
+                  "Ein Fünftel des Tanks ist {{T}} : 5 Liter.",
+                  "$\\frac{{{z}}}{5}$ sind {{z}} Fünftel, also {{T}} : 5 · {{z}} = {{answer}} Liter.",
+                ],
             },
           ],
       },

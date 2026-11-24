@@ -2,8 +2,8 @@
 {
   "title": "Addieren und subtrahieren",
   "competencies": ["brueche-addieren-subtrahieren"],
-  "description": "Kannst du halbe und drittel Stücke sofort zusammenzählen?",
-  "scope": "Zum Addieren oder Subtrahieren brauchst du gleich große Bruchstücke. Bringe beide Brüche auf einen gemeinsamen Nenner. Rechne dann mit den Zählern; der Nenner bleibt. Prüfe, ob du das Ergebnis kürzen kannst. 1/2 + 1/3 = 3/6 + 2/6 = 5/6. Ebenso: 3/4 − 1/2 = 3/4 − 2/4 = 1/4.",
+  "description": "Halbe und drittel Stücke zusammenzählen oder wegnehmen: erst gleich groß machen, dann rechnen.",
+  "scope": "Zum Addieren oder Subtrahieren brauchst du gleich große Bruchstücke. Bei verschiedenen Nennern bringst du beide Brüche auf den kleinsten gemeinsamen Nenner, das ist das kgV der Nenner. Dann rechnest du nur mit den Zählern, der Nenner bleibt. Zähler und Nenner dürfen nie einzeln addiert oder subtrahiert werden: 1/2 + 1/3 ist nicht 2/5. Danach kürzt du das Ergebnis vollständig. Ist die Summe größer als 1, schreibst du sie als unechten Bruch oder als gemischte Zahl. Beispiele: 1/2 + 1/3 = 3/6 + 2/6 = 5/6. 3/4 − 1/6 = 9/12 − 2/12 = 7/12. 3/4 + 5/6 = 9/12 + 10/12 = 19/12 = 1 7/12. Mit dem Produkt der Nenner statt dem kgV rechnest du auch richtig, musst dann aber mehr kürzen: 1/4 + 1/6 = 6/24 + 4/24 = 10/24 = 5/12.",
   "blocks":
     [
       {
@@ -31,11 +31,7 @@
           [
             {
               "type": "text",
-              "text": "Wenn du Brüche mit verschiedenen Nennern addieren willst, brauchst du gleich große Teile. Dafür hilft ein feineres Raster. Jeder Streifen steht für ein gleich großes Ganzes. Suche mit „Teile pro Ganzem“ eine feinere Unterteilung, die alle alten Teilgrenzen trifft. Das Raster muss zu beiden Nennern passen; die kleinste passende Anzahl ist ihr kgV. Nun sind die Bruchstücke gleich groß: Du kannst sie bei Plus zusammenzählen oder bei Minus wegnehmen. Gib den Ergebnisbruch selbst ein.",
-            },
-            {
-              "type": "text",
-              "text": "[Die gemeinsame Unterteilung noch einmal ausprobieren](/teilbarkeit/teiler-vielfache/#entdecken). Der ggT hilft dagegen beim Zusammenfassen zu größeren Gruppen, etwa beim Kürzen.",
+              "text": "Wenn du Brüche mit verschiedenen Nennern addieren willst, brauchst du gleich große Teile. Dafür hilft ein feineres Raster. Jeder Streifen steht für ein gleich großes Ganzes. Suche mit „Teile pro Ganzem“ eine feinere Unterteilung, die alle alten Teilgrenzen trifft. Das Raster muss zu beiden Nennern passen; die kleinste passende Anzahl ist ihr kgV. Nun sind die Bruchstücke gleich groß: Du kannst sie bei Plus zusammenzählen oder bei Minus wegnehmen. Gib den Ergebnisbruch selbst ein. [Die gemeinsame Unterteilung noch einmal ausprobieren](/teilbarkeit/teiler-vielfache/#entdecken). Der ggT hilft dagegen beim Zusammenfassen zu größeren Gruppen, etwa beim Kürzen.",
             },
             {
               "type": "vue-component",
@@ -47,10 +43,12 @@
                   "task": "Berechne {z}/{n} + {b}/{d}. Finde eine gemeinsame Unterteilung und gib das Ergebnis als Bruch ein.",
                   "mistakes":
                     [
-                      "Prüfe die gefragte Größe und die Unterteilung. Rechne den Schritt aus dem Beispiel mit deinen Zahlen nach.",
-                      "Schreibe eine ganze Zahl oder einen Bruch mit / (zum Beispiel 13/12). Eine gemischte Zahl schreibst du als einen Bruch.",
+                      "Das stimmt nicht. Das kgV der Nenner {n} und {d} ist {l}: Suche mit dem Regler ein Raster, das beide Streifen trifft, und zähle dann die gleich großen Stücke zusammen.",
+                      "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
+                      "Du hast Zähler und Nenner einzeln gerechnet. Das darfst du nicht: {z}/{n} und {b}/{d} sind verschieden große Stücke. Erst ein gemeinsames Raster suchen, dann nur die Zähler rechnen.",
+                      "Du hast zwar den gemeinsamen Nenner {l} genommen, aber die Zähler nicht mit erweitert. Jedes Stück der beiden Streifen muss in {l}-tel zerlegt werden.",
                     ],
-                  "inputLabel": "Deine Antwort (Bruch mit / oder ganze Zahl)",
+                  "inputLabel": "Deine Antwort (Bruch mit /, ganze oder gemischte Zahl)",
                   "givenLabel": "Gegeben",
                   "ownLabel": "So schreibst du das",
                   "toolLabel": "Lege wie bei den gemeinsamen Vielfachen ein Raster über beide Streifen. Die gestrichelten Linien folgen „Teile pro Ganzem“. Trifft das Raster alle ursprünglichen Teilgrenzen? Dann kannst du gleich große Stücke zusammenzählen oder wegnehmen. Das Ergebnis gibst du selbst ein.",
@@ -83,10 +81,12 @@
                   "task": "Berechne {z}/{n} − {b}/{d}. Finde eine gemeinsame Unterteilung und gib den Rest als Bruch ein.",
                   "mistakes":
                     [
-                      "Prüfe die gefragte Größe und die Unterteilung. Rechne den Schritt aus dem Beispiel mit deinen Zahlen nach.",
-                      "Schreibe eine ganze Zahl oder einen Bruch mit / (zum Beispiel 13/12). Eine gemischte Zahl schreibst du als einen Bruch.",
+                      "Das stimmt nicht. Das kgV der Nenner {n} und {d} ist {l}: Suche mit dem Regler ein Raster, das beide Streifen trifft, und nimm dann die gleich großen Stücke weg.",
+                      "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
+                      "Du hast Zähler und Nenner einzeln gerechnet. Das darfst du nicht: {z}/{n} und {b}/{d} sind verschieden große Stücke. Erst ein gemeinsames Raster suchen, dann nur die Zähler rechnen.",
+                      "Du hast zwar den gemeinsamen Nenner {l} genommen, aber die Zähler nicht mit erweitert. Jedes Stück der beiden Streifen muss in {l}-tel zerlegt werden.",
                     ],
-                  "inputLabel": "Deine Antwort (Bruch mit / oder ganze Zahl)",
+                  "inputLabel": "Deine Antwort (Bruch mit /, ganze oder gemischte Zahl)",
                   "givenLabel": "Gegeben",
                   "ownLabel": "So schreibst du das",
                   "toolLabel": "Lege wie bei den gemeinsamen Vielfachen ein Raster über beide Streifen. Die gestrichelten Linien folgen „Teile pro Ganzem“. Trifft das Raster alle ursprünglichen Teilgrenzen? Dann kannst du gleich große Stücke zusammenzählen oder wegnehmen. Das Ergebnis gibst du selbst ein.",
@@ -104,7 +104,7 @@
                 },
               "examples":
                 {
-                  "accepted": [{ "answer": "1/3", "seed": 1 }, { "answer": "2/6", "seed": 1 }],
+                  "accepted": [{ "answer": "1/4", "seed": 1 }, { "answer": "2/8", "seed": 1 }],
                   "rejected": [{ "answer": "1/0" }, { "answer": "" }],
                 },
               "nojs": "Wenn du Brüche mit verschiedenen Nennern addieren willst, brauchst du gleich große Teile. Dafür hilft ein feineres Raster. Jeder Streifen steht für ein gleich großes Ganzes. Suche mit „Teile pro Ganzem“ eine feinere Unterteilung, die alle alten Teilgrenzen trifft. Das Raster muss zu beiden Nennern passen; die kleinste passende Anzahl ist ihr kgV. Nun sind die Bruchstücke gleich groß: Du kannst sie bei Plus zusammenzählen oder bei Minus wegnehmen. Gib den Ergebnisbruch selbst ein.",
@@ -129,13 +129,63 @@
         "blocks":
           [
             {
+              "type": "definition",
+              "term": "Kleinster gemeinsamer Nenner",
+              "explanation": "Der kleinste gemeinsame Nenner zweier Brüche ist das kgV ihrer Nenner. Bei $\\frac{1}{4}$ und $\\frac{1}{6}$ ist er 12, denn 12 ist das kleinste gemeinsame Vielfache von 4 und 6.",
+            },
+            {
               "type": "example",
-              "title": "Schritt für Schritt",
+              "title": "Plus mit verschiedenen Nennern",
               "blocks":
                 [
                   {
                     "type": "text",
-                    "text": "$\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$. Ebenso: $\\frac{3}{4} - \\frac{1}{2} = \\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$.",
+                    "text": "Der kleinste gemeinsame Nenner von 2 und 3 ist das kgV 6. Du erweiterst beide Brüche auf Sechstel und addierst die Zähler:",
+                  },
+                  {
+                    "type": "formula",
+                    "formula": "\\frac{1}{2} + \\frac{1}{3} = \\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}",
+                  },
+                ],
+            },
+            {
+              "type": "example",
+              "title": "Minus mit verschiedenen Nennern",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Das kgV von 4 und 6 ist 12, also rechnest du in Zwölfteln. Du nimmst nur die Zähler weg:",
+                  },
+                  {
+                    "type": "formula",
+                    "formula": "\\frac{3}{4} - \\frac{1}{6} = \\frac{9}{12} - \\frac{2}{12} = \\frac{7}{12}",
+                  },
+                ],
+            },
+            {
+              "type": "example",
+              "title": "Eine Summe größer als 1",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Wird die Summe größer als ein Ganzes, kannst du sie als gemischte Zahl schreiben: 19 Zwölftel sind ein Ganzes (12 Zwölftel) und 7 Zwölftel.",
+                  },
+                  {
+                    "type": "formula",
+                    "formula": "\\frac{3}{4} + \\frac{5}{6} = \\frac{9}{12} + \\frac{10}{12} = \\frac{19}{12} = 1\\,\\frac{7}{12}",
+                  },
+                ],
+            },
+            {
+              "type": "note",
+              "title": "Typischer Fehler: Nenner mitaddieren",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "$\\frac{1}{2} + \\frac{1}{3}$ ist nicht $\\frac{2}{5}$. Das kannst du schon schätzen: $\\frac{2}{5}$ ist kleiner als $\\frac{1}{2}$, die Summe muss aber größer als $\\frac{1}{2}$ sein. Der Nenner sagt, wie groß die Stücke sind. Er bleibt, sobald die Stücke gleich groß sind. Rechnest du mit dem Produkt der Nenner statt mit dem kgV, ist das Ergebnis auch richtig, du musst nur mehr kürzen: $\\frac{1}{4} + \\frac{1}{6} = \\frac{10}{24} = \\frac{5}{12}$.",
                   },
                 ],
             },
@@ -192,6 +242,113 @@
                   "Ein Teil plus zwei Teile sind drei Teile. Nur die Zähler werden addiert: 1 + 2 = 3.",
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "generated",
+              "id": "nenner",
+              "given": { "e": { "pick": 1, "from": { "data": "nennerpaare" } } },
+              "task":
+                {
+                  "text": "Du willst $\\frac{1}{{{e.n}}}$ und $\\frac{1}{{{e.d}}}$ addieren. Welcher Nenner ist der kleinste gemeinsame Nenner?",
+                },
+              "answer": { "value": "e.kgv", "compare": { "number": { "format": "integer" } } },
+              "mistakes":
+                [
+                  {
+                    "value": "e.produkt",
+                    "message": "Das Produkt der Nenner ist ein gemeinsamer Nenner, aber nicht der kleinste. Gesucht ist das kleinste gemeinsame Vielfache (kgV) von {{e.n}} und {{e.d}}.",
+                  },
+                  {
+                    "value": "e.summe",
+                    "message": "Du hast die Nenner addiert. Der gemeinsame Nenner ist ein Vielfaches von {{e.n}} und von {{e.d}}, keine Summe.",
+                  },
+                  {
+                    "value": "e.groesser",
+                    "message": "Das ist nur das Vielfache einer der beiden Zahlen. Der gemeinsame Nenner muss auch ein Vielfaches der anderen sein.",
+                  },
+                ],
+              "hint": "Schreibe die Vielfachen von {{e.n}} und von {{e.d}} auf. Das erste Vielfache, das in beiden Listen steht, ist das kgV.",
+              "steps":
+                [
+                  "Vielfache von {{e.n}}: {{e.va}}. Vielfache von {{e.d}}: {{e.vb}}.",
+                  "Das erste gemeinsame Vielfache ist {{answer}}. Das ist das kgV und damit der kleinste gemeinsame Nenner.",
+                ],
+            },
+            {
+              "type": "true-false",
+              "id": "schaetzen",
+              "text": "Anna rechnet $\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}$. Kann das stimmen?",
+              "answer": false,
+              "explanation": "$\\frac{2}{5}$ ist kleiner als $\\frac{1}{2}$. Wenn du zu $\\frac{1}{2}$ noch etwas dazulegst, muss die Summe aber größer als $\\frac{1}{2}$ sein. Richtig ist $\\frac{5}{6}$: Anna hat Zähler und Nenner einzeln addiert.",
+            },
+            {
+              "type": "vue-component",
+              "component": "BruchTippen",
+              "id": "ungleichnamig",
+              "props":
+                {
+                  "kind": "add-ungleich",
+                  "task": "Berechne {z}/{n} + {b}/{d}. Nutze den kleinsten gemeinsamen Nenner und gib das Ergebnis vollständig gekürzt an.",
+                  "mistakes":
+                    [
+                      "Das ist nicht richtig. Der kleinste gemeinsame Nenner von {n} und {d} ist das kgV, also {l}. Mit dem Nenner {l} sind es {ez}/{l} und {eb}/{l}. Dann zählst du nur die Zähler zusammen.",
+                      "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
+                      "Der Wert stimmt, aber du kannst noch kürzen. Teile Zähler und Nenner durch dieselbe Zahl, bis es nicht mehr geht. Das passiert oft, wenn du mit einem größeren gemeinsamen Nenner als dem kleinsten gerechnet hast, zum Beispiel mit dem Produkt der Nenner.",
+                      "Du hast Zähler und Nenner einzeln addiert. Das darfst du nicht: {z}/{n} und {b}/{d} sind verschieden große Stücke. Bringe sie erst auf den Nenner {l} und addiere dann nur die Zähler.",
+                      "Du hast den gemeinsamen Nenner {l} genommen, aber die Zähler nicht mit erweitert. Die Zähler werden mit erweitert: {z}/{n} = {ez}/{l} und {b}/{d} = {eb}/{l}.",
+                    ],
+                  "inputLabel": "Dein Ergebnis (Bruch mit Schrägstrich, gemischte Zahl mit Leerzeichen)",
+                  "ownLabel": "So schreibst du das",
+                },
+              "examples":
+                { "accepted": [{ "answer": "5/6", "seed": 1 }], "rejected": [{ "answer": "" }, { "answer": "1/0" }] },
+            },
+            {
+              "type": "vue-component",
+              "component": "BruchTippen",
+              "id": "minus-ungleich",
+              "props":
+                {
+                  "kind": "sub-ungleich",
+                  "task": "Berechne {z}/{n} − {b}/{d}. Nutze den kleinsten gemeinsamen Nenner und gib das Ergebnis vollständig gekürzt an.",
+                  "mistakes":
+                    [
+                      "Das ist nicht richtig. Der kleinste gemeinsame Nenner von {n} und {d} ist das kgV, also {l}. Mit dem Nenner {l} sind es {ez}/{l} und {eb}/{l}. Dann nimmst du nur die Zähler weg.",
+                      "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
+                      "Der Wert stimmt, aber du kannst noch kürzen. Teile Zähler und Nenner durch dieselbe Zahl, bis es nicht mehr geht. Das passiert oft, wenn du mit einem größeren gemeinsamen Nenner als dem kleinsten gerechnet hast, zum Beispiel mit dem Produkt der Nenner.",
+                      "Du hast Zähler und Nenner einzeln subtrahiert. Das darfst du nicht: {z}/{n} und {b}/{d} sind verschieden große Stücke. Bringe sie erst auf den Nenner {l} und subtrahiere dann nur die Zähler.",
+                      "Du hast den gemeinsamen Nenner {l} genommen, aber die Zähler nicht mit erweitert. Die Zähler werden mit erweitert: {z}/{n} = {ez}/{l} und {b}/{d} = {eb}/{l}.",
+                    ],
+                  "inputLabel": "Dein Ergebnis (Bruch mit Schrägstrich, gemischte Zahl mit Leerzeichen)",
+                  "ownLabel": "So schreibst du das",
+                },
+              "examples":
+                { "accepted": [{ "answer": "1/4", "seed": 1 }], "rejected": [{ "answer": "" }, { "answer": "1/0" }] },
+            },
+            {
+              "type": "vue-component",
+              "component": "BruchTippen",
+              "id": "ueber-eins",
+              "props":
+                {
+                  "kind": "add-gemischt",
+                  "task": "Berechne {z}/{n} + {b}/{d}. Die Summe ist größer als 1. Gib sie vollständig gekürzt als gemischte Zahl oder als unechten Bruch an.",
+                  "mistakes":
+                    [
+                      "Das ist nicht richtig. Der kleinste gemeinsame Nenner von {n} und {d} ist {l}. Erweitere {z}/{n} zu {ez}/{l} und {b}/{d} zu {eb}/{l} und addiere die Zähler. Die Summe ist größer als ein Ganzes: Schreibe sie als unechten Bruch oder als gemischte Zahl.",
+                      "Das kann ich nicht lesen. Tippe einen Bruch mit Schrägstrich (Zähler, Schrägstrich, Nenner), eine ganze Zahl oder eine gemischte Zahl mit einem Leerzeichen zwischen Ganzen und Bruch.",
+                      "Der Wert stimmt, aber du kannst noch kürzen. Teile Zähler und Nenner durch dieselbe Zahl, bis es nicht mehr geht. Das passiert oft, wenn du mit einem größeren gemeinsamen Nenner als dem kleinsten gerechnet hast, zum Beispiel mit dem Produkt der Nenner.",
+                      "Du hast Zähler und Nenner einzeln addiert. Das darfst du nicht: {z}/{n} und {b}/{d} sind verschieden große Stücke. Bringe sie erst auf den Nenner {l} und addiere dann nur die Zähler.",
+                      "Du hast den gemeinsamen Nenner {l} genommen, aber die Zähler nicht mit erweitert. Die Zähler werden mit erweitert: {z}/{n} = {ez}/{l} und {b}/{d} = {eb}/{l}.",
+                    ],
+                  "inputLabel": "Dein Ergebnis (Bruch mit Schrägstrich, gemischte Zahl mit Leerzeichen)",
+                  "ownLabel": "So schreibst du das",
+                },
+              "examples":
+                {
+                  "accepted": [{ "answer": "5/4", "seed": 1 }, { "answer": "1 1/4", "seed": 1 }],
+                  "rejected": [{ "answer": "" }, { "answer": "1/0" }],
+                },
             },
           ],
       },

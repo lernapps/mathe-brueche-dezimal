@@ -6,4 +6,9 @@
   { "azahl": "0,6", "bzahl": "0,2", "a10": 6, "b10": 2, "produkt": 12 },
   { "azahl": "1,2", "bzahl": "0,3", "a10": 12, "b10": 3, "produkt": 36 },
   { "azahl": "1,5", "bzahl": "0,6", "a10": 15, "b10": 6, "produkt": 90 },
+  { "azahl": "0,7", "bzahl": "0,8", "a10": 7, "b10": 8, "produkt": 56 },
+  { "azahl": "2,5", "bzahl": "0,4", "a10": 25, "b10": 4, "produkt": 100 },
+  { "azahl": "1,2", "bzahl": "1,5", "a10": 12, "b10": 15, "produkt": 180 },
+  { "azahl": "0,9", "bzahl": "0,9", "a10": 9, "b10": 9, "produkt": 81 },
+  { "azahl": "3,2", "bzahl": "0,5", "a10": 32, "b10": 5, "produkt": 160 },
 ]

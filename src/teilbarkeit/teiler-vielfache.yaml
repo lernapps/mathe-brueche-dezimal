@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 {
-  "title": "Gemeinsame Teiler und Vielfache",
+  "title": "ggT und kgV",
   "competencies": ["primfaktoren-ggt-kgv"],
-  "description": "Welche Gruppengröße passt zu zwei Mengen? Welche Unterteilung passt zu zwei Brüchen?",
-  "scope": "Teiler teilen eine Zahl ohne Rest. Vielfache entstehen durch Multiplikation mit natürlichen Zahlen. Der ggT ist der größte gemeinsame positive Teiler. Das kgV ist das kleinste gemeinsame positive Vielfache. Bei Brüchen hilft der ggT beim Kürzen und das kgV beim Hauptnenner. Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ist der größte gemeinsame Teiler (ggT) 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also ist das kleinste gemeinsame Vielfache (kgV) von 4 und 6 gleich 12.",
+  "description": "Den größten gemeinsamen Teiler und das kleinste gemeinsame Vielfache bestimmen: aus Listen und aus den Primfaktoren.",
+  "scope": "Teiler teilen eine Zahl ohne Rest, Vielfache entstehen durch Malnehmen mit 1, 2, 3, … (beides von der Seite Teiler und Vielfache bekannt). Der ggT (größter gemeinsamer Teiler) ist der größte gemeinsame positive Teiler, das kgV (kleinstes gemeinsames Vielfaches) das kleinste gemeinsame positive Vielfache. Bestimmen durch Auflisten und aus den Primfaktorzerlegungen: ggT mit den gemeinsamen Primfaktoren und den kleinsten Exponenten, kgV mit allen Primfaktoren und den größten Exponenten. Beispiel 36 = 2^2 · 3^2 und 48 = 2^4 · 3: ggT 12, kgV 144. Alltag: Fahrplan (kgV) und Fliesen (ggT). Beide kehren beim Kürzen (ggT) und beim gemeinsamen Nenner (kgV) wieder; Brüche selbst gehören nicht auf diese Seite. Typische Fehler: Produkt der Zahlen statt kgV, ggT und kgV vertauscht, bei den Primfaktoren die falschen Exponenten.",
   "blocks":
     [
       {
@@ -14,12 +14,21 @@
           [
             {
               "type": "text",
-              "text": "Zwölf und achtzehn Plättchen sollen in gleich große Päckchen. Welche Päckchengröße funktioniert für beide Mengen?",
+              "text": "Nach dieser Seite kannst du zu zwei Zahlen den größten Teiler und das kleinste Vielfache finden, das beiden gemeinsam ist. Du kannst sie aufschreiben oder aus den Primfaktoren ablesen. Du brauchst dafür Teiler und Vielfache sowie die Primfaktorzerlegung der Seiten davor.",
+            },
+            {
+              "type": "text",
+              "text": "Zwei Bilder aus dem Alltag zeigen, wofür das gut ist. **Fliesen:** Du willst eine Wand mit gleich großen, quadratischen Fliesen belegen, ohne eine zu zerschneiden. Welche Seitenlänge ist für beide Wandmaße möglich, und welche ist die größte? **Fahrplan:** Zwei Buslinien fahren zusammen los, die eine alle 12, die andere alle 18 Minuten. Wann fahren beide wieder gleichzeitig ab? Den ggT brauchst du später beim Kürzen von Brüchen, das kgV beim Finden eines gemeinsamen Nenners: Beide Werkzeuge kommen wieder.",
             },
             {
               "type": "definition",
-              "term": "Teiler und Vielfache",
-              "explanation": "Ein Teiler teilt eine Zahl ohne Rest. Ein Vielfaches entsteht, wenn du eine Zahl mit einer natürlichen Zahl multiplizierst.",
+              "term": "ggT",
+              "explanation": "Der größte gemeinsame Teiler (ggT) zweier Zahlen ist die größte Zahl, die beide ohne Rest teilt. Die Zahlen 12 und 18 haben die gemeinsamen Teiler 1, 2, 3 und 6, also ist ggT(12, 18) = 6.",
+            },
+            {
+              "type": "definition",
+              "term": "kgV",
+              "explanation": "Das kleinste gemeinsame Vielfache (kgV) zweier Zahlen ist die kleinste Zahl größer als 0, die in beiden Einmaleinsreihen vorkommt. Bei 4 und 6 sind 12, 24, 36, … gemeinsame Vielfache, also ist kgV(4, 6) = 12.",
             },
           ],
       },
@@ -75,12 +84,89 @@
           [
             {
               "type": "example",
-              "title": "Schritt für Schritt",
+              "title": "Mit Listen: ggT(12, 18) und kgV(4, 6)",
               "blocks":
                 [
                   {
                     "type": "text",
-                    "text": "Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ist der größte gemeinsame Teiler (ggT) 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also ist das kleinste gemeinsame Vielfache (kgV) von 4 und 6 gleich 12.",
+                    "text": "Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Gemeinsam sind 1, 2, 3 und 6, also ist der ggT 6.",
+                  },
+                  {
+                    "type": "text",
+                    "text": "Vielfache von 4: 4, 8, 12, 16, … Vielfache von 6: 6, 12, 18, … Das erste gemeinsame Vielfache ist 12, also ist das kgV von 4 und 6 gleich 12.",
+                  },
+                ],
+            },
+            {
+              "type": "text",
+              "text": "Bei großen Zahlen werden die Listen lang. Dann helfen die Primfaktoren. Jeder Primfaktor hat in beiden Zahlen einen Exponenten; kommt er in einer Zahl nicht vor, ist sein Exponent dort 0.",
+            },
+            {
+              "type": "example",
+              "title": "Mit Primfaktoren: ggT und kgV von 36 und 48",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Die Zerlegungen sind $36 = 2^2 \\cdot 3^2$ und $48 = 2^4 \\cdot 3$. Die Tabelle zeigt, mit welchem Exponenten jeder Primfaktor vorkommt.",
+                  },
+                  {
+                    "type": "table",
+                    "caption": "Exponenten der Primfaktoren 2 und 3",
+                    "header": ["Faktor", "in 36", "in 48", "kleinster", "größter"],
+                    "rows": [["2", "2", "4", "2", "4"], ["3", "2", "1", "1", "2"]],
+                  },
+                  {
+                    "type": "text",
+                    "text": "Für den **ggT** nimmst du jeden Primfaktor mit dem kleinsten Exponenten. Für das **kgV** nimmst du jeden Primfaktor mit dem größten Exponenten.",
+                  },
+                  { "type": "formula", "formula": "\\text{ggT} = 2^2 \\cdot 3 = 12" },
+                  { "type": "formula", "formula": "\\text{kgV} = 2^4 \\cdot 3^2 = 16 \\cdot 9 = 144" },
+                  {
+                    "type": "text",
+                    "text": "Zur Probe: 36 : 12 = 3 und 48 : 12 = 4 gehen ohne Rest auf. 144 : 36 = 4 und 144 : 48 = 3 gehen ebenfalls auf.",
+                  },
+                ],
+            },
+          ],
+      },
+      {
+        "type": "section",
+        "id": "alltag",
+        "title": "Fahrplan und Fliesen",
+        "blocks":
+          [
+            {
+              "type": "example",
+              "title": "Fahrplan: Wann treffen sich die Busse wieder?",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Linie 1 fährt alle 12 Minuten, Linie 2 alle 18 Minuten, beide starten um 7 Uhr. Beide fahren zu einem Zeitpunkt ab, der ein Vielfaches von 12 und von 18 ist. Der erste solche Zeitpunkt ist das kgV.",
+                  },
+                  { "type": "formula", "formula": "12 = 2^2 \\cdot 3" },
+                  { "type": "formula", "formula": "18 = 2 \\cdot 3^2" },
+                  { "type": "formula", "formula": "\\text{kgV} = 2^2 \\cdot 3^2 = 36" },
+                  {
+                    "type": "text",
+                    "text": "Nach 36 Minuten fahren beide wieder gleichzeitig ab: Linie 1 zum dritten Mal (3 · 12), Linie 2 zum zweiten Mal (2 · 18).",
+                  },
+                ],
+            },
+            {
+              "type": "example",
+              "title": "Fliesen: Wie groß ist die größte quadratische Fliese?",
+              "blocks":
+                [
+                  {
+                    "type": "text",
+                    "text": "Ein Wandstück ist 36 cm breit und 48 cm hoch. Die Seite einer quadratischen Fliese muss ein Teiler von 36 und von 48 sein, sonst müsstest du eine Fliese zerschneiden. Die größte solche Seite ist der ggT.",
+                  },
+                  { "type": "formula", "formula": "\\text{ggT}(36, 48) = 12" },
+                  {
+                    "type": "text",
+                    "text": "Die Fliesen sind 12 cm lang: Es passen 3 Fliesen in die Breite und 4 in die Höhe, zusammen 12 Fliesen.",
                   },
                 ],
             },
@@ -92,30 +178,6 @@
         "title": "Üben",
         "blocks":
           [
-            {
-              "type": "single-choice",
-              "id": "verstehen",
-              "text": "Was ist das kgV von 4 und 6?",
-              "options":
-                [
-                  {
-                    "text": "12",
-                    "correct": true,
-                    "info": "Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ist der größte gemeinsame Teiler (ggT) 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also ist das kleinste gemeinsame Vielfache (kgV) von 4 und 6 gleich 12.",
-                  },
-                  {
-                    "text": "2",
-                    "correct": false,
-                    "info": "2 ist der größte gemeinsame Teiler, aber kein Vielfaches von 4 und 6.",
-                  },
-                  {
-                    "text": "24",
-                    "correct": false,
-                    "info": "24 ist ein gemeinsames Vielfaches, aber 12 ist kleiner und ebenfalls gemeinsam.",
-                  },
-                ],
-              "explanation": "Teiler von 12: 1, 2, 3, 4, 6, 12. Teiler von 18: 1, 2, 3, 6, 9, 18. Also ist der größte gemeinsame Teiler (ggT) 6. Positive Vielfache von 4: 4, 8, 12, …; von 6: 6, 12, … . Also ist das kleinste gemeinsame Vielfache (kgV) von 4 und 6 gleich 12.",
-            },
             {
               "type": "generated",
               "id": "aufgaben",
@@ -137,6 +199,222 @@
                   "Ein positiver Teiler kann nicht größer als die kleinere Zahl sein. Daher ist {{answer}} der größte gemeinsame Teiler.",
                 ],
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "single-choice",
+              "id": "verstehen",
+              "text": "Was ist das kgV von 4 und 6?",
+              "options":
+                [
+                  {
+                    "text": "12",
+                    "correct": true,
+                    "info": "12 ist das erste Vielfache, das in beiden Reihen vorkommt: 4, 8, 12 und 6, 12.",
+                  },
+                  {
+                    "text": "2",
+                    "correct": false,
+                    "info": "2 ist der größte gemeinsame Teiler von 4 und 6 (ggT), kein Vielfaches von beiden.",
+                  },
+                  {
+                    "text": "24",
+                    "correct": false,
+                    "info": "24 ist ein gemeinsames Vielfaches, aber 12 ist kleiner und ebenfalls gemeinsam. Gesucht ist das kleinste.",
+                  },
+                ],
+              "explanation": "Vielfache von 4: 4, 8, 12, … Vielfache von 6: 6, 12, … Das erste gemeinsame Vielfache ist 12.",
+            },
+            {
+              "type": "generated",
+              "id": "ggt-listen",
+              "given": { "e": { "pick": 1, "from": { "data": "teilerpaare" } } },
+              "task":
+                {
+                  "text": "Schreibe die Teiler von {{e.a}} und von {{e.b}} auf. Wie groß ist der ggT von {{e.a}} und {{e.b}}?",
+                },
+              "answer": { "value": "e.ggt", "compare": "number" },
+              "mistakes":
+                [
+                  {
+                    "value": "e.kgv",
+                    "message": "Das ist das kgV, ein Vielfaches. Der ggT ist ein Teiler und kann nicht größer sein als {{e.a}}.",
+                  },
+                  {
+                    "value": "1",
+                    "message": "1 teilt beide Zahlen, aber es gibt einen größeren gemeinsamen Teiler. Vergleiche die beiden Teilerlisten.",
+                  },
+                  {
+                    "value": "e.a",
+                    "message": "{{e.a}} teilt {{e.b}} nicht ohne Rest. Ein gemeinsamer Teiler muss beide Zahlen teilen.",
+                  },
+                ],
+              "hint": "Schreibe zuerst alle Teiler jeder Zahl als Paare von Malaufgaben auf. Suche dann die größte Zahl, die in beiden Listen steht.",
+              "steps":
+                [
+                  "Teiler von {{e.a}}: {{e.teilera}}. Teiler von {{e.b}}: {{e.teilerb}}.",
+                  "In beiden Listen stehen: {{e.gemeinsam}}. Die größte davon ist {{answer}}, also ggT({{e.a}}, {{e.b}}) = {{answer}}.",
+                ],
+              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "generated",
+              "id": "kgv-listen",
+              "given": { "e": { "pick": 1, "from": { "data": "teilerpaare" } } },
+              "task":
+                {
+                  "text": "Schreibe Vielfache von {{e.a}} und von {{e.b}} auf. Wie groß ist das kgV von {{e.a}} und {{e.b}}?",
+                },
+              "answer": { "value": "e.kgv", "compare": "number" },
+              "mistakes":
+                [
+                  {
+                    "value": "e.ggt",
+                    "message": "Das ist der ggT, ein Teiler. Gesucht ist ein gemeinsames Vielfaches, und das ist mindestens so groß wie {{e.b}}.",
+                  },
+                  {
+                    "value": "e.produkt",
+                    "message": "Das Produkt {{e.a}} · {{e.b}} ist ein gemeinsames Vielfaches, aber nicht das kleinste: Es gibt ein kleineres in beiden Reihen.",
+                  },
+                ],
+              "hint": "Schreibe die Reihen von {{e.a}} und von {{e.b}} nebeneinander, bis eine Zahl in beiden steht.",
+              "steps":
+                [
+                  "Vielfache von {{e.a}}: {{e.vielfachea}}. Vielfache von {{e.b}}: {{e.vielfacheb}}.",
+                  "Die erste Zahl, die in beiden Reihen steht, ist {{answer}}. Also ist kgV({{e.a}}, {{e.b}}) = {{answer}}.",
+                ],
+              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "generated",
+              "id": "ggt-primfaktoren",
+              "given": { "e": { "pick": 1, "from": { "data": "primpaare" } } },
+              "task":
+                {
+                  "text": "Gegeben sind {{e.a}} = {{e.ta}} und {{e.b}} = {{e.tb}}. Bestimme den ggT von {{e.a}} und {{e.b}} aus den Primfaktoren.",
+                },
+              "answer": { "value": "e.ggt", "compare": "number" },
+              "mistakes":
+                [
+                  {
+                    "value": "e.kgv",
+                    "message": "Das ist das kgV: Du hast die größten Exponenten genommen. Für den ggT nimmst du die kleinsten Exponenten.",
+                  },
+                  {
+                    "value": "e.ggtein",
+                    "message": "Du hast jeden gemeinsamen Primfaktor nur einmal genommen. Nimm ihn mit dem kleinsten Exponenten, der in beiden Zahlen vorkommt.",
+                  },
+                ],
+              "hint": "Der ggT besteht aus den Primfaktoren, die in beiden Zahlen vorkommen, jeweils mit dem kleineren Exponenten.",
+              "steps":
+                [
+                  "Gemeinsame Primfaktoren mit dem kleinsten Exponenten: {{e.tggt}}.",
+                  "Ausgerechnet ist das {{answer}}. Also ist ggT({{e.a}}, {{e.b}}) = {{answer}}.",
+                ],
+              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "generated",
+              "id": "kgv-primfaktoren",
+              "given": { "e": { "pick": 1, "from": { "data": "primpaare" } } },
+              "task":
+                {
+                  "text": "Gegeben sind {{e.a}} = {{e.ta}} und {{e.b}} = {{e.tb}}. Bestimme das kgV von {{e.a}} und {{e.b}} aus den Primfaktoren.",
+                },
+              "answer": { "value": "e.kgv", "compare": "number" },
+              "mistakes":
+                [
+                  {
+                    "value": "e.ggt",
+                    "message": "Das ist der ggT: Du hast die kleinsten Exponenten genommen. Für das kgV nimmst du die größten Exponenten.",
+                  },
+                  {
+                    "value": "e.kgvein",
+                    "message": "Du hast jeden Primfaktor nur einmal genommen. Nimm ihn mit dem größten Exponenten, der in einer der Zahlen vorkommt.",
+                  },
+                  {
+                    "value": "e.produkt",
+                    "message": "Du hast beide Zahlen malgenommen. Dann zählen die gemeinsamen Primfaktoren doppelt. Beim kgV zählt jeder nur einmal, mit dem größten Exponenten.",
+                  },
+                ],
+              "hint": "Das kgV besteht aus allen Primfaktoren, die in einer der beiden Zahlen vorkommen, jeweils mit dem größeren Exponenten.",
+              "steps":
+                [
+                  "Alle Primfaktoren mit dem größten Exponenten: {{e.tkgv}}.",
+                  "Ausgerechnet ist das {{answer}}. Also ist kgV({{e.a}}, {{e.b}}) = {{answer}}.",
+                ],
+              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "generated",
+              "id": "fahrplan",
+              "given": { "e": { "pick": 1, "from": { "data": "fahrplaene" } } },
+              "task":
+                {
+                  "text": "Zwei Buslinien fahren um 7 Uhr gleichzeitig an der Haltestelle ab. Linie 1 fährt alle {{e.a}} Minuten, Linie 2 alle {{e.b}} Minuten. Nach wie vielen Minuten fahren beide zum ersten Mal wieder gleichzeitig ab?",
+                },
+              "answer": { "value": "e.kgv", "compare": "number" },
+              "mistakes":
+                [
+                  {
+                    "value": "e.produkt",
+                    "message": "Nach {{e.a}} · {{e.b}} Minuten treffen sich die Busse auch, aber nicht zum ersten Mal. Gesucht ist das kleinste gemeinsame Vielfache.",
+                  },
+                  {
+                    "value": "e.ggt",
+                    "message": "Das ist der ggT, ein Teiler. Die Busse treffen sich nach einem Vielfachen beider Abstände, und das ist mindestens {{e.b}}.",
+                  },
+                ],
+              "hint": "Die Abfahrten von Linie 1 sind Vielfache von {{e.a}}, die von Linie 2 Vielfache von {{e.b}}. Gesucht ist das erste gemeinsame Vielfache.",
+              "steps":
+                [
+                  "Gesucht ist das kgV von {{e.a}} und {{e.b}}. Das ist {{answer}}.",
+                  "Nach {{answer}} Minuten ist Linie 1 genau {{e.ra}}-mal und Linie 2 genau {{e.rb}}-mal gefahren: {{e.ra}} · {{e.a}} = {{e.rb}} · {{e.b}} = {{answer}}.",
+                ],
+              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "generated",
+              "id": "fliesen",
+              "given": { "e": { "pick": 1, "from": { "data": "fliesenboeden" } } },
+              "task":
+                {
+                  "text": "Ein Wandstück ist {{e.l}} cm breit und {{e.b}} cm hoch. Sie soll ohne Zuschneiden mit gleich großen, quadratischen Fliesen belegt werden. Wie viele Zentimeter ist die Seite der größten möglichen Fliese lang?",
+                },
+              "answer": { "value": "e.ggt", "compare": "number" },
+              "mistakes":
+                [
+                  {
+                    "value": "e.kgv",
+                    "message": "Das ist das kgV. Eine Fliese, die größer als die Wand ist, passt nicht. Die Seite muss ein Teiler beider Maße sein.",
+                  },
+                  {
+                    "value": "e.halb",
+                    "message": "Diese Fliese passt auch ohne Zuschneiden, aber es geht noch eine größere. Gesucht ist der größte gemeinsame Teiler.",
+                  },
+                ],
+              "hint": "Die Seite der Fliese muss {{e.l}} und {{e.b}} ohne Rest teilen. Suche die größte Zahl, die das schafft.",
+              "steps":
+                [
+                  "Die Seitenlänge muss ein gemeinsamer Teiler von {{e.l}} und {{e.b}} sein. Die größte ist der ggT: {{answer}}.",
+                  "Die Fliesen sind {{answer}} cm lang. Es liegen {{e.rl}} Fliesen nebeneinander und {{e.rb}} übereinander.",
+                ],
+              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+            },
+            {
+              "type": "matching",
+              "id": "zuordnen",
+              "text": "Ordne jeder Aufgabe das Werkzeug zu, das sie löst.",
+              "pairs":
+                [
+                  { "left": "Zwei Busse fahren wieder gleichzeitig ab", "right": "kgV der beiden Zeitabstände" },
+                  {
+                    "left": "Eine Wand mit möglichst großen quadratischen Fliesen belegen",
+                    "right": "ggT der beiden Wandmaße",
+                  },
+                  { "left": "Einen Bruch vollständig kürzen", "right": "ggT von Zähler und Nenner" },
+                  { "left": "Zwei Brüche auf einen gemeinsamen Nenner bringen", "right": "kgV der beiden Nenner" },
+                ],
+              "explanation": "Muss etwas in ganze gleiche Stücke passen und möglichst groß sein, ist es ein Teilerproblem: ggT. Treffen sich zwei Reihen oder Nenner irgendwann wieder, ist es ein Vielfachenproblem: kgV. Beim Kürzen und beim gemeinsamen Nenner begegnest du beiden später wieder.",
             },
           ],
       },
