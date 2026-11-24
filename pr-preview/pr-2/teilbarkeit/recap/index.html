@@ -10,7 +10,6 @@
     <meta name="description" content="Vorrangregeln, Rechengesetze und Potenzen, die du für Teiler und Primfaktoren brauchst: mit Begriffen, Beispielen und Selbsttest." />
     <meta name="lernapps-archetype" content="explainer" />
     <link rel="alternate" hreflang="de" href="../../teilbarkeit/recap/" />
-    <script type="module" crossorigin src="../../assets/islands-CAqF-p5j.js"></script>
     <meta name="robots" content="noindex" />
   </head>
   <body>
@@ -36,7 +35,7 @@
 </details>
 <p class="explainer-tutor-bar" hidden><button type="button" class="explainer-tutor-go"></button></p>
 <p class="explainer-tutor-status" role="status" aria-live="polite"></p>
-<script type="application/json" class="explainer-tutor-prompt">{"start":"Lade ⟦base⟧teilbarkeit/recap/tutor/⟦query⟧ und sei mein Tutor.","base":"⟦base⟧","query":"⟦query⟧","root":"../../","storage":"mathe-brueche-dezimal","page":{"id":"recap","title":"Das brauchst du für dieses Kapitel","exercises":[],"sections":["rechengesetze","potenzen","bereit"]},"tutor":"teilbarkeit/recap/tutor/","markdown":"teilbarkeit/recap/tutor/index.md","ways":[{"name":"Claude","url":"https://claude.ai/new?q={prompt}"},{"name":"ChatGPT","url":"https://chatgpt.com/?q={prompt}"},{"name":"Mistral Vibe","url":"https://chat.mistral.ai/chat?q={prompt}","paste":true}],"placeholder":"Ich brauche Hilfe bei einer Lern-Einheit. Ich schreibe Dir gleich, worum es geht.","go":"Mit {name} lernen","done":"✓ Kopiert – jetzt in {name} einfügen","copy":"Text kopieren","copied":"Der Prompt ist kopiert. Füg ihn in den Chat deines KI-Assistenten ein.","failed":"Kopieren ging nicht. Versuch es noch einmal."}</script>
+<script type="application/json" class="explainer-tutor-prompt">{"start":"Lade ⟦base⟧teilbarkeit/recap/tutor/⟦query⟧ und sei mein Tutor.","base":"⟦base⟧","query":"⟦query⟧","root":"../../","storage":"mathe-brueche-dezimal","page":{"id":"recap","title":"Das brauchst du für dieses Kapitel","exercises":[{"id":"test-verteilen","section":"rechengesetze","numbered":false},{"id":"test-potenz","section":"potenzen","numbered":false}],"sections":["rechengesetze","potenzen","bereit"]},"tutor":"teilbarkeit/recap/tutor/","markdown":"teilbarkeit/recap/tutor/index.md","ways":[{"name":"Claude","url":"https://claude.ai/new?q={prompt}"},{"name":"ChatGPT","url":"https://chatgpt.com/?q={prompt}"},{"name":"Mistral Vibe","url":"https://chat.mistral.ai/chat?q={prompt}","paste":true}],"placeholder":"Ich brauche Hilfe bei einer Lern-Einheit. Ich schreibe Dir gleich, worum es geht.","go":"Mit {name} lernen","done":"✓ Kopiert – jetzt in {name} einfügen","copy":"Text kopieren","copied":"Der Prompt ist kopiert. Füg ihn in den Chat deines KI-Assistenten ein.","failed":"Kopieren ging nicht. Versuch es noch einmal."}</script>
 </div>
 </div>
 <div class="explainer-block" data-block="1" data-block-id="75a33b4e" data-block-type="text" data-block-order="1">
@@ -90,86 +89,119 @@
 <div class="explainer-block" data-block="rechengesetze/8" data-block-id="7df40469" data-block-type="text" data-block-order="15">
 <div class="block-text"><p><strong>Kannst du das?</strong> Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.</p></div>
 </div>
-<div class="explainer-block" data-block="rechengesetze/9" data-block-id="1c391b14" data-block-type="vue-component" data-block-order="16">
-<div class="explainer-component" id="test-vorrang" data-component="Kurztest">
-<div class="explainer-island" hidden><fieldset class="kurztest" data-v-344ad6d3><legend data-v-344ad6d3>Was ergibt 48 + 6 · 7 − 3 · 5?</legend><!--[--><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-482236730" value="0" data-v-344ad6d3> 1875</label><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-482236730" value="1" data-v-344ad6d3> 90</label><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-482236730" value="2" data-v-344ad6d3> 75</label><!--]--><p class="kurztest-result" aria-live="polite" data-v-344ad6d3></p></fieldset></div>
-<div class="explainer-nojs"><p>Kurztest: Was ergibt 48 + 6 · 7 − 3 · 5? Antworten: 1875; 90; 75. Richtig ist 75. Punkt vor Strich: 6 · 7 = 42 und 3 · 5 = 15. Dann 48 + 42 − 15 = 75. Falsche Antworten: 1875: Du hast von links nach rechts gerechnet. Zuerst kommt die Punktrechnung: 6 · 7 und 3 · 5. 90: Du hast − 3 · 5 vergessen: 48 + 42 = 90, dann noch − 15.</p></div>
-<script type="application/json" class="explainer-component-props">{"question":"Was ergibt 48 + 6 · 7 − 3 · 5?","options":[{"text":"1875","correct":false,"info":"Du hast von links nach rechts gerechnet. Zuerst kommt die Punktrechnung: 6 · 7 und 3 · 5."},{"text":"90","correct":false,"info":"Du hast − 3 · 5 vergessen: 48 + 42 = 90, dann noch − 15."},{"text":"75","correct":true,"info":"Punkt vor Strich: 6 · 7 = 42 und 3 · 5 = 15. Dann 48 + 42 − 15 = 75."}],"right":"Richtig.","wrong":"Nicht richtig."}</script>
+<div class="explainer-block" data-block="rechengesetze/9" data-block-id="98e89643" data-block-type="single-choice" data-block-order="16">
+<div class="explainer-exercise explainer-question" id="test-verteilen">
+<p class="explainer-exercise-label">Aufgabe</p>
+<div class="question" id="frage-test-verteilen" data-id="test-verteilen" data-type="single-choice">
+<form class="question-form" novalidate>
+<fieldset>
+<legend class="question-text">Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten.</legend>
+<label class="question-option"><input type="radio" name="frage-test-verteilen" value="0"> <span>266</span></label>
+<label class="question-option"><input type="radio" name="frage-test-verteilen" value="1"> <span>328</span></label>
+<label class="question-option"><input type="radio" name="frage-test-verteilen" value="2"> <span>700</span></label>
+</fieldset>
+<div class="question-feedback-row"><div class="question-feedback" role="status"></div></div>
+<div class="question-reveal" hidden>
+<ul class="question-infos">
+<li class="question-info" data-option="0"><p class="question-info-head"><strong>266</strong></p><p>Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434.</p></li>
+<li class="question-info" data-option="1"><p class="question-info-head"><strong>328</strong></p><p>Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7.</p></li>
+<li class="question-info question-info-right" data-option="2"><p class="question-info-head"><strong>700</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700.</p></li>
+</ul>
+<p class="question-explanation">Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700.</p>
+</div>
+<p class="question-actions" hidden><button type="submit" class="question-check">Prüfen</button></p>
+</form>
+</div>
+<details class="explainer-solution"><summary>Lösung</summary>
+<ul class="question-infos">
+<li class="question-info" data-option="0"><p class="question-info-head"><strong>266</strong></p><p>Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434.</p></li>
+<li class="question-info" data-option="1"><p class="question-info-head"><strong>328</strong></p><p>Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7.</p></li>
+<li class="question-info question-info-right" data-option="2"><p class="question-info-head"><strong>700</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700.</p></li>
+</ul>
+<p class="question-explanation">Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700.</p>
+</details>
+<script type="application/json" class="explainer-exercise-data">{"kind":"question","lang":"de","question":{"id":"test-verteilen","text":"Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten.","explanation":"Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700.","links":[],"type":"single-choice","options":[{"text":"266","correct":false,"info":"Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434."},{"text":"328","correct":false,"info":"Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7."},{"text":"700","correct":true,"info":"Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700."}]},"rendered":{}}</script>
 </div>
 </div>
-<div class="explainer-block" data-block="rechengesetze/10" data-block-id="394b5f2a" data-block-type="vue-component" data-block-order="17">
-<div class="explainer-component" id="test-verteilen" data-component="Kurztest">
-<div class="explainer-island" hidden><fieldset class="kurztest" data-v-344ad6d3><legend data-v-344ad6d3>Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten.</legend><!--[--><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-1369864865" value="0" data-v-344ad6d3> 700</label><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-1369864865" value="1" data-v-344ad6d3> 266</label><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-1369864865" value="2" data-v-344ad6d3> 328</label><!--]--><p class="kurztest-result" aria-live="polite" data-v-344ad6d3></p></fieldset></div>
-<div class="explainer-nojs"><p>Kurztest: Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten. Antworten: 700; 266; 328. Richtig ist 700. Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700. Falsche Antworten: 266: Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434. 328: Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7.</p></div>
-<script type="application/json" class="explainer-component-props">{"question":"Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten.","options":[{"text":"700","correct":true,"info":"Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700."},{"text":"266","correct":false,"info":"Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434."},{"text":"328","correct":false,"info":"Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7."}],"right":"Richtig.","wrong":"Nicht richtig."}</script>
-</div>
-</div>
-<div class="explainer-block" data-block="rechengesetze/11" data-block-id="c6bda875" data-block-type="vue-component" data-block-order="18">
-<div class="explainer-component" id="test-tauschen" data-component="Kurztest">
-<div class="explainer-island" hidden><fieldset class="kurztest" data-v-344ad6d3><legend data-v-344ad6d3>Was ergibt 5 · 13 · 20? Tausche die Faktoren so, dass du leicht rechnest.</legend><!--[--><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-797740659" value="0" data-v-344ad6d3> 65</label><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-797740659" value="1" data-v-344ad6d3> 1300</label><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-797740659" value="2" data-v-344ad6d3> 100</label><!--]--><p class="kurztest-result" aria-live="polite" data-v-344ad6d3></p></fieldset></div>
-<div class="explainer-nojs"><p>Kurztest: Was ergibt 5 · 13 · 20? Tausche die Faktoren so, dass du leicht rechnest. Antworten: 65; 1300; 100. Richtig ist 1300. Tausche: 5 · 20 = 100, dann 100 · 13 = 1300. Falsche Antworten: 65: Das ist 5 · 13. Es fehlt noch der Faktor 20. 100: Das ist 5 · 20. Es fehlt noch der Faktor 13: 100 · 13.</p></div>
-<script type="application/json" class="explainer-component-props">{"question":"Was ergibt 5 · 13 · 20? Tausche die Faktoren so, dass du leicht rechnest.","options":[{"text":"65","correct":false,"info":"Das ist 5 · 13. Es fehlt noch der Faktor 20."},{"text":"1300","correct":true,"info":"Tausche: 5 · 20 = 100, dann 100 · 13 = 1300."},{"text":"100","correct":false,"info":"Das ist 5 · 20. Es fehlt noch der Faktor 13: 100 · 13."}],"right":"Richtig.","wrong":"Nicht richtig."}</script>
-</div>
-</div>
-<div class="explainer-block" data-block="rechengesetze/12" data-block-id="5b3bc00a" data-block-type="text" data-block-order="19">
+<div class="explainer-block" data-block="rechengesetze/10" data-block-id="5b3bc00a" data-block-type="text" data-block-order="17">
 <div class="block-text"><p>Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte (<a href="https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/" rel="noopener">Lernlandkarte: Vorrangregeln und Rechengesetze</a>) und rechne die Aufgaben danach noch einmal.</p></div>
 </div>
 </section>
 <section class="explainer-section">
 <h2 id="potenzen">Potenzen und Zehnerpotenzen</h2>
-<div class="explainer-block" data-block="potenzen/1" data-block-id="7abc3411" data-block-type="definition" data-block-order="20">
+<div class="explainer-block" data-block="potenzen/1" data-block-id="7abc3411" data-block-type="definition" data-block-order="18">
 <dl class="explainer-definition"><dt><dfn id="begriff-potenz"><a href="../../glossar/#potenz">Potenz</a></dfn></dt><dd><p>Eine <strong>Potenz</strong> ist eine Kurzschreibweise für ein Produkt aus gleichen Faktoren: <math><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>2</mn><mo>⋅</mo><mn>2</mn><mo>⋅</mo><mn>2</mn><mo>=</mo><mn>8</mn></mrow></math>.</p></dd></dl>
 </div>
-<div class="explainer-block" data-block="potenzen/2" data-block-id="f3a45b8a" data-block-type="definition" data-block-order="21">
+<div class="explainer-block" data-block="potenzen/2" data-block-id="f3a45b8a" data-block-type="definition" data-block-order="19">
 <dl class="explainer-definition"><dt><dfn id="begriff-basis"><a href="../../glossar/#basis">Basis</a></dfn></dt><dd><p>Die <strong>Basis</strong> einer Potenz ist der Faktor, der sich wiederholt. In <math><msup><mn>2</mn><mn>3</mn></msup></math> ist die Basis 2.</p></dd></dl>
 </div>
-<div class="explainer-block" data-block="potenzen/3" data-block-id="1a05ca54" data-block-type="definition" data-block-order="22">
+<div class="explainer-block" data-block="potenzen/3" data-block-id="1a05ca54" data-block-type="definition" data-block-order="20">
 <dl class="explainer-definition"><dt><dfn id="begriff-exponent"><a href="../../glossar/#exponent">Exponent</a></dfn></dt><dd><p>Der <strong>Exponent</strong> einer Potenz sagt, wie oft die Basis als Faktor vorkommt. In <math><msup><mn>2</mn><mn>3</mn></msup></math> ist der Exponent 3.</p></dd></dl>
 </div>
-<div class="explainer-block" data-block="potenzen/4" data-block-id="6e2da521" data-block-type="definition" data-block-order="23">
+<div class="explainer-block" data-block="potenzen/4" data-block-id="6e2da521" data-block-type="definition" data-block-order="21">
 <dl class="explainer-definition"><dt><dfn id="begriff-zehnerpotenz"><a href="../../glossar/#zehnerpotenz">Zehnerpotenz</a></dfn></dt><dd><p>Eine <strong>Zehnerpotenz</strong> hat die Basis 10. Ausgeschrieben hat sie so viele Nullen, wie der Exponent angibt: <math><mrow><msup><mn>10</mn><mn>3</mn></msup><mo>=</mo><mn>10</mn><mo>⋅</mo><mn>10</mn><mo>⋅</mo><mn>10</mn><mo>=</mo><mn>1000</mn></mrow></math> hat drei Nullen.</p></dd></dl>
 </div>
-<div class="explainer-block" data-block="potenzen/5" data-block-id="11ed5a68" data-block-type="example" data-block-order="24">
+<div class="explainer-block" data-block="potenzen/5" data-block-id="11ed5a68" data-block-type="example" data-block-order="22">
 <div class="explainer-box explainer-example">
 <h3 class="explainer-box-title">Potenzen ausrechnen</h3>
-<div class="explainer-block" data-block="potenzen/5/1" data-block-id="33099ef0" data-block-type="formula" data-block-order="25">
+<div class="explainer-block" data-block="potenzen/5/1" data-block-id="33099ef0" data-block-type="formula" data-block-order="23">
 <div class="block-formula"><math display="block" class="tml-display" style="display:block math;"><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>3</mn><mo>⋅</mo><mn>3</mn><mo>=</mo><mn>9</mn></mrow></math></div>
 </div>
-<div class="explainer-block" data-block="potenzen/5/2" data-block-id="f08f8599" data-block-type="formula" data-block-order="26">
+<div class="explainer-block" data-block="potenzen/5/2" data-block-id="f08f8599" data-block-type="formula" data-block-order="24">
 <div class="block-formula"><math display="block" class="tml-display" style="display:block math;"><mrow><msup><mn>2</mn><mn>4</mn></msup><mo>=</mo><mn>2</mn><mo>⋅</mo><mn>2</mn><mo>⋅</mo><mn>2</mn><mo>⋅</mo><mn>2</mn><mo>=</mo><mn>16</mn></mrow></math></div>
 </div>
-<div class="explainer-block" data-block="potenzen/5/3" data-block-id="300c5591" data-block-type="formula" data-block-order="27">
+<div class="explainer-block" data-block="potenzen/5/3" data-block-id="300c5591" data-block-type="formula" data-block-order="25">
 <div class="block-formula"><math display="block" class="tml-display" style="display:block math;"><mrow><mn>3</mn><mo>⋅</mo><mn>3</mn><mo>⋅</mo><mn>3</mn><mo>⋅</mo><mn>7</mn><mo>⋅</mo><mn>7</mn><mo>=</mo><msup><mn>3</mn><mn>3</mn></msup><mo>⋅</mo><msup><mn>7</mn><mn>2</mn></msup></mrow></math></div>
 </div>
-<div class="explainer-block" data-block="potenzen/5/4" data-block-id="143d86f7" data-block-type="text" data-block-order="28">
+<div class="explainer-block" data-block="potenzen/5/4" data-block-id="143d86f7" data-block-type="text" data-block-order="26">
 <div class="block-text"><p>Der Exponent sagt nicht, womit du malnimmst, sondern wie oft die Basis als Faktor steht: <math><msup><mn>2</mn><mn>4</mn></msup></math> ist nicht <math><mrow><mn>2</mn><mo>⋅</mo><mn>4</mn></mrow></math>.</p></div>
 </div>
 </div>
 </div>
-<div class="explainer-block" data-block="potenzen/6" data-block-id="7df40469" data-block-type="text" data-block-order="29">
+<div class="explainer-block" data-block="potenzen/6" data-block-id="7df40469" data-block-type="text" data-block-order="27">
 <div class="block-text"><p><strong>Kannst du das?</strong> Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.</p></div>
 </div>
-<div class="explainer-block" data-block="potenzen/7" data-block-id="07ab0298" data-block-type="vue-component" data-block-order="30">
-<div class="explainer-component" id="test-potenz" data-component="Kurztest">
-<div class="explainer-island" hidden><fieldset class="kurztest" data-v-344ad6d3><legend data-v-344ad6d3>Was ist 2⁵ + 3²?</legend><!--[--><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-328220478" value="0" data-v-344ad6d3> 16</label><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-328220478" value="1" data-v-344ad6d3> 34</label><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-328220478" value="2" data-v-344ad6d3> 41</label><!--]--><p class="kurztest-result" aria-live="polite" data-v-344ad6d3></p></fieldset></div>
-<div class="explainer-nojs"><p>Kurztest: Was ist 2⁵ + 3²? Antworten: 16; 34; 41. Richtig ist 41. 2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41. Falsche Antworten: 16: Du hast die Exponenten als Faktoren genommen: 2 · 5 und 3 · 2. Der Exponent sagt, wie oft die Basis als Faktor steht. 34: Du hast Basis und Exponent vertauscht: 5² = 25. In 2⁵ ist die Basis 2, es sind fünf Faktoren 2: 32.</p></div>
-<script type="application/json" class="explainer-component-props">{"question":"Was ist 2⁵ + 3²?","options":[{"text":"16","correct":false,"info":"Du hast die Exponenten als Faktoren genommen: 2 · 5 und 3 · 2. Der Exponent sagt, wie oft die Basis als Faktor steht."},{"text":"34","correct":false,"info":"Du hast Basis und Exponent vertauscht: 5² = 25. In 2⁵ ist die Basis 2, es sind fünf Faktoren 2: 32."},{"text":"41","correct":true,"info":"2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41."}],"right":"Richtig.","wrong":"Nicht richtig."}</script>
+<div class="explainer-block" data-block="potenzen/7" data-block-id="350127e3" data-block-type="single-choice" data-block-order="28">
+<div class="explainer-exercise explainer-question" id="test-potenz">
+<p class="explainer-exercise-label">Aufgabe</p>
+<div class="question" id="frage-test-potenz" data-id="test-potenz" data-type="single-choice">
+<form class="question-form" novalidate>
+<fieldset>
+<legend class="question-text">Was ist 2⁵ + 3²?</legend>
+<label class="question-option"><input type="radio" name="frage-test-potenz" value="0"> <span>41</span></label>
+<label class="question-option"><input type="radio" name="frage-test-potenz" value="1"> <span>16</span></label>
+<label class="question-option"><input type="radio" name="frage-test-potenz" value="2"> <span>34</span></label>
+</fieldset>
+<div class="question-feedback-row"><div class="question-feedback" role="status"></div></div>
+<div class="question-reveal" hidden>
+<ul class="question-infos">
+<li class="question-info question-info-right" data-option="0"><p class="question-info-head"><strong>41</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41.</p></li>
+<li class="question-info" data-option="1"><p class="question-info-head"><strong>16</strong></p><p>Du hast die Exponenten als Faktoren genommen: 2 · 5 und 3 · 2. Der Exponent sagt, wie oft die Basis als Faktor steht.</p></li>
+<li class="question-info" data-option="2"><p class="question-info-head"><strong>34</strong></p><p>Du hast Basis und Exponent vertauscht: 5² = 25. In 2⁵ ist die Basis 2, es sind fünf Faktoren 2: 32.</p></li>
+</ul>
+<p class="question-explanation">2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41.</p>
+</div>
+<p class="question-actions" hidden><button type="submit" class="question-check">Prüfen</button></p>
+</form>
+</div>
+<details class="explainer-solution"><summary>Lösung</summary>
+<ul class="question-infos">
+<li class="question-info question-info-right" data-option="0"><p class="question-info-head"><strong>41</strong> <span class="question-badge question-badge-right">richtige Antwort</span></p><p>2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41.</p></li>
+<li class="question-info" data-option="1"><p class="question-info-head"><strong>16</strong></p><p>Du hast die Exponenten als Faktoren genommen: 2 · 5 und 3 · 2. Der Exponent sagt, wie oft die Basis als Faktor steht.</p></li>
+<li class="question-info" data-option="2"><p class="question-info-head"><strong>34</strong></p><p>Du hast Basis und Exponent vertauscht: 5² = 25. In 2⁵ ist die Basis 2, es sind fünf Faktoren 2: 32.</p></li>
+</ul>
+<p class="question-explanation">2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41.</p>
+</details>
+<script type="application/json" class="explainer-exercise-data">{"kind":"question","lang":"de","question":{"id":"test-potenz","text":"Was ist 2⁵ + 3²?","explanation":"2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41.","links":[],"type":"single-choice","options":[{"text":"41","correct":true,"info":"2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41."},{"text":"16","correct":false,"info":"Du hast die Exponenten als Faktoren genommen: 2 · 5 und 3 · 2. Der Exponent sagt, wie oft die Basis als Faktor steht."},{"text":"34","correct":false,"info":"Du hast Basis und Exponent vertauscht: 5² = 25. In 2⁵ ist die Basis 2, es sind fünf Faktoren 2: 32."}]},"rendered":{}}</script>
 </div>
 </div>
-<div class="explainer-block" data-block="potenzen/8" data-block-id="b179a1f6" data-block-type="vue-component" data-block-order="31">
-<div class="explainer-component" id="test-exponent" data-component="Kurztest">
-<div class="explainer-island" hidden><fieldset class="kurztest" data-v-344ad6d3><legend data-v-344ad6d3>Schreibe 2 · 2 · 2 · 5 · 5 als Potenzen.</legend><!--[--><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-1515183723" value="0" data-v-344ad6d3> 2³ · 5²</label><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-1515183723" value="1" data-v-344ad6d3> 2⁵ · 5²</label><label class="kurztest-option" data-v-344ad6d3><input type="radio" name="kurztest-1515183723" value="2" data-v-344ad6d3> 3² · 5²</label><!--]--><p class="kurztest-result" aria-live="polite" data-v-344ad6d3></p></fieldset></div>
-<div class="explainer-nojs"><p>Kurztest: Schreibe 2 · 2 · 2 · 5 · 5 als Potenzen. Antworten: 2³ · 5²; 2⁵ · 5²; 3² · 5². Richtig ist 2³ · 5². Dreimal die 2 und zweimal die 5: 2³ · 5² = 8 · 25 = 200. Falsche Antworten: 2⁵ · 5²: Du hast alle fünf Faktoren gezählt und der 2 zugeschrieben. Die 2 steht nur dreimal. 3² · 5²: Du hast bei beiden Potenzen Basis und Exponent vertauscht: dreimal die 2 ist 2³, nicht 3², und zweimal die 5 ist 5², nicht 2².</p></div>
-<script type="application/json" class="explainer-component-props">{"question":"Schreibe 2 · 2 · 2 · 5 · 5 als Potenzen.","options":[{"text":"2³ · 5²","correct":true,"info":"Dreimal die 2 und zweimal die 5: 2³ · 5² = 8 · 25 = 200."},{"text":"2⁵ · 5²","correct":false,"info":"Du hast alle fünf Faktoren gezählt und der 2 zugeschrieben. Die 2 steht nur dreimal."},{"text":"3² · 5²","correct":false,"info":"Du hast bei beiden Potenzen Basis und Exponent vertauscht: dreimal die 2 ist 2³, nicht 3², und zweimal die 5 ist 5², nicht 2²."}],"right":"Richtig.","wrong":"Nicht richtig."}</script>
-</div>
-</div>
-<div class="explainer-block" data-block="potenzen/9" data-block-id="5ad1c44a" data-block-type="text" data-block-order="32">
+<div class="explainer-block" data-block="potenzen/8" data-block-id="5ad1c44a" data-block-type="text" data-block-order="29">
 <div class="block-text"><p>Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Potenzen und Zehnerpotenzen“ auf der Lernlandkarte (<a href="https://lernapps.net/apps/map/mathematik/c/potenzen/" rel="noopener">Lernlandkarte: Potenzen und Zehnerpotenzen</a>) und rechne die Aufgaben danach noch einmal.</p></div>
 </div>
 </section>
 <section class="explainer-section">
 <h2 id="bereit">Du bist bereit, wenn du …</h2>
-<div class="explainer-block" data-block="bereit/1" data-block-id="26355742" data-block-type="text" data-block-order="33">
+<div class="explainer-block" data-block="bereit/1" data-block-id="26355742" data-block-type="text" data-block-order="30">
 <div class="block-text"><ul>
 <li>bei einer Rechnung mit Klammern, Punkt- und Strichrechnung die richtige Reihenfolge nennen kannst</li>
 <li>mit Vertauschungs-, Verbindungs- und Distributivgesetz vorteilhaft rechnen kannst</li>
@@ -216,7 +248,7 @@
 <span class="explainer-feedback-local">Nur in diesem Browser gespeichert</span>
 <button type="button" class="explainer-feedback-off">Beenden</button>
 </div>
-<script type="application/json" class="explainer-feedback-data">{"storage":"mathe-brueche-dezimal","app":"Brüche und Dezimalzahlen","root":"../../","repository":"lernapps/mathe-brueche-dezimal","revision":"6d4b7b8","page":{"title":"Das brauchst du für dieses Kapitel","order":4}}</script>
+<script type="application/json" class="explainer-feedback-data">{"storage":"mathe-brueche-dezimal","app":"Brüche und Dezimalzahlen","root":"../../","repository":"lernapps/mathe-brueche-dezimal","revision":"8684f78","page":{"title":"Das brauchst du für dieses Kapitel","order":4}}</script>
 </aside>
 </template>
 <nav class="explainer-pager" aria-label="Weiterblättern"><a rel="prev" href="../../anteile/gemischte-zahlen/">Zurück: Mehr als ein Ganzes</a><a rel="next" href="../../teilbarkeit/regeln/">Weiter: Teiler, Vielfache und Teilbarkeitsregeln</a></nav>

@@ -51,7 +51,7 @@ Du legst Bruchstücke zusammen oder nimmst welche weg. Damit du sie zählen kann
 
 ### Ausprobieren
 
-Erinnerst du dich an das gestrichelte Raster bei gemeinsamen Vielfachen? Hier benutzt du dieselbe Bildidee zum Rechnen. Jeder Streifen steht für ein gleich großes Ganzes. Suche mit „Teile pro Ganzem“ eine feinere Unterteilung, die alle alten Teilgrenzen trifft. Das Raster muss zu beiden Nennern passen; die kleinste passende Anzahl ist ihr kgV. Nun sind die Bruchstücke gleich groß: Du kannst sie bei Plus zusammenzählen oder bei Minus wegnehmen. Gib den Ergebnisbruch selbst ein. Die gemeinsame Unterteilung noch einmal ausprobieren. Der ggT hilft dagegen beim Zusammenfassen zu größeren Gruppen, etwa beim Kürzen.
+Wenn du Brüche mit verschiedenen Nennern addieren willst, brauchst du gleich große Teile. Dafür hilft ein feineres Raster. Jeder Streifen steht für ein gleich großes Ganzes. Suche mit „Teile pro Ganzem“ eine feinere Unterteilung, die alle alten Teilgrenzen trifft. Das Raster muss zu beiden Nennern passen; die kleinste passende Anzahl ist ihr kgV. Nun sind die Bruchstücke gleich groß: Du kannst sie bei Plus zusammenzählen oder bei Minus wegnehmen. Gib den Ergebnisbruch selbst ein. Die gemeinsame Unterteilung noch einmal ausprobieren. Der ggT hilft dagegen beim Zusammenfassen zu größeren Gruppen, etwa beim Kürzen.
 
 - Aufgabe `modell` (unten)
 

@@ -63,7 +63,7 @@ Interaktiv: Eine Zahl wird Schritt für Schritt in Faktoren zerlegt, bis keiner 
 
 ### Der Faktorbaum
 
-Den Weg der Zerlegung zeichnest du als Faktorbaum. Oben steht die Zahl. Von jeder Zahl, die sich zerlegen lässt, gehen zwei Äste zu den Faktoren. Ein Faktor, der eine Primzahl ist, bekommt keine Äste mehr.
+Damit du bei einer langen Zerlegung nichts übersiehst, zeichnest du den Weg als Faktorbaum. Oben steht die Zahl. Von jeder Zahl, die sich zerlegen lässt, gehen zwei Äste zu den Faktoren. Ein Faktor, der eine Primzahl ist, bekommt keine Äste mehr.
 
 Bild: Faktorbaum von 24. Oben steht 24, darunter 4 und 6. Unter der 4 stehen 2 und 2, unter der 6 stehen 2 und 3. Die Primzahlen 2, 2, 2 und 3 am unteren Ende sind ausgefüllt. Bildunterschrift: 24 = 4 · 6, dann 4 = 2 · 2 und 6 = 2 · 3. Ausgefüllte Kreise sind Primzahlen, die Enden der Äste.
 
@@ -73,7 +73,7 @@ Zerlege nie mit der 1: 24 = 1 · 24 ändert nichts, und die 1 ist keine Primzahl
 
 ### Kurz schreiben mit Potenzen
 
-Im Faktorbaum von 24 steht die 2 dreimal. Gleiche Faktoren schreibst du als Potenz: Die Basis ist der Faktor, der Exponent zählt, wie oft er vorkommt.
+Wenn derselbe Faktor oft vorkommt, wird die Zerlegung lang. Im Faktorbaum von 24 steht die 2 dreimal. Gleiche Faktoren schreibst du als Potenz: Die Basis ist der Faktor, der Exponent zählt, wie oft er vorkommt.
 
 $24 = 2 \cdot 2 \cdot 2 \cdot 3 = 2^3 \cdot 3$
 

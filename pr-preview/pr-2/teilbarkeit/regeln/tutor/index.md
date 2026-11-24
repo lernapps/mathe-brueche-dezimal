@@ -61,7 +61,7 @@ Teiler und Vielfache gehören zusammen. Aus 3 · 4 = 12 liest du ab: 3 und 4 sin
 
 ### Alle Teiler finden
 
-So findest du alle Teiler einer Zahl: Suche alle Malaufgaben mit dem Ergebnis dieser Zahl. Jede Malaufgabe liefert zwei Teiler. Nur bei einer Aufgabe wie 4 · 4 ergibt sich bloß ein Teiler. Du musst nur bis zu dem Faktor suchen, bei dem sich die Paare wiederholen.
+Wenn du alle Zahlen finden willst, die in eine Zahl passen, suchst du ihre Teiler. So gehst du vor: Suche alle Malaufgaben mit dem Ergebnis dieser Zahl. Jede Malaufgabe liefert zwei Teiler. Nur bei einer Aufgabe wie 4 · 4 ergibt sich bloß ein Teiler. Du musst nur bis zu dem Faktor suchen, bei dem sich die Paare wiederholen.
 
 Alle Malaufgaben und alle Teiler von drei Zahlen:
 - Zahl | Malaufgaben | Alle Teiler

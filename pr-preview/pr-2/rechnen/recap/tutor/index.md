@@ -22,9 +22,11 @@ Der Lernumfang dieser Seite, mit dem, was dazugehört und was nicht: [Scope](../
 
 ## Wo das Kind gerade ist
 
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=test-klammer`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/rechnen/recap/?via=tutor#test-klammer`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -53,9 +55,9 @@ Klammern, Vorrangregeln und das Distributivgesetz, die du für Rechnungen mit me
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-Interaktiv: Kurztest: Was ergibt 3 · (14 − 6) + 12 : 4? Antworten: 39; 27; 9. Richtig ist 27. Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27. Falsche Antworten: 39: Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst. 9: Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.
+- Aufgabe `test-klammer` (unten)
 
-Interaktiv: Kurztest: Was ergibt 12 · 35? Zerlege 35 in 30 + 5. Antworten: 365; 360; 420. Richtig ist 420. 12 · 30 + 12 · 5 = 360 + 60 = 420. Falsche Antworten: 365: Du hast 12 · 30 + 5 gerechnet. Auch die 5 muss mit 12 multipliziert werden. 360: Das ist nur 12 · 30. Es fehlt noch 12 · 5 = 60.
+- Aufgabe `test-verteilen-2` (unten)
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.
 
@@ -63,3 +65,27 @@ Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln 
 
 - bei einer Rechnung mit Klammern die richtige Reihenfolge nennen kannst
 - mit dem Distributivgesetz eine Zahl auf die Summanden verteilen kannst
+
+### Aufgabe test-klammer
+
+- Aufgabe: Was ergibt 3 · (14 − 6) + 12 : 4?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ 27 – Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27.
+  - ✗ 39 – Du hast die Klammer nicht zuerst gerechnet: 3 · 14 − 6 + 12 : 4 = 39. Hier geht die Klammer zuerst.
+  - ✗ 9 – Du hast die Strichrechnung vor der Punktrechnung gerechnet: (24 + 12) : 4 = 9. Punkt vor Strich.
+- Lösung: 27
+- Erklärung: Klammer zuerst: 14 − 6 = 8. Dann 3 · 8 = 24 und 12 : 4 = 3. Zuletzt 24 + 3 = 27.
+- Link: [../?via=tutor#test-klammer](../?via=tutor#test-klammer)
+
+### Aufgabe test-verteilen-2
+
+- Aufgabe: Was ergibt 12 · 35? Zerlege 35 in 30 + 5.
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✗ 365 – Du hast 12 · 30 + 5 gerechnet. Auch die 5 muss mit 12 multipliziert werden.
+  - ✓ 420 – 12 · 30 + 12 · 5 = 360 + 60 = 420.
+  - ✗ 360 – Das ist nur 12 · 30. Es fehlt noch 12 · 5 = 60.
+- Lösung: 420
+- Erklärung: 12 · 30 + 12 · 5 = 360 + 60 = 420.
+- Link: [../?via=tutor#test-verteilen-2](../?via=tutor#test-verteilen-2)

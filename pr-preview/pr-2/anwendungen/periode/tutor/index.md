@@ -60,7 +60,7 @@ Der Rest ist jedes Mal 1. Darum rechnest du immer wieder 10 : 3 = 3. Die Rechnun
 
 ### Anschaulich erklärt
 
-Vergleiche mit $\frac{3}{4}$. Hier wird der Rest nach drei Schritten 0.
+Wenn du wissen willst, warum die Ziffern bei $\frac{1}{3}$ nie enden, vergleichst du mit $\frac{3}{4}$. Hier wird der Rest nach drei Schritten 0.
 
 Die Rechnung 3 : 4 Stelle für Stelle:
 - Stelle | Rechnung | Rest

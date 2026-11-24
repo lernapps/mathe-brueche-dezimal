@@ -22,9 +22,11 @@ Der Lernumfang dieser Seite, mit dem, was dazugehört und was nicht: [Scope](../
 
 ## Wo das Kind gerade ist
 
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=test-subtrahieren`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/anwendungen/recap/?via=tutor#test-subtrahieren`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -71,11 +73,9 @@ $348 + 275 = 623$
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-Interaktiv: Kurztest: Was ergibt 4765 + 3689? Antworten: 7344; 8454; 7454. Richtig ist 8454. Einer: 5 + 9 = 14 (4, Übertrag 1). Zehner: 6 + 8 + 1 = 15 (5, Übertrag 1). Hunderter: 7 + 6 + 1 = 14 (4, Übertrag 1). Tausender: 4 + 3 + 1 = 8. Falsche Antworten: 7344: Du hast alle Überträge vergessen. Jede Stelle über 9 gibt einen Übertrag an die nächste Stelle. 7454: Du hast den Übertrag der Hunderter vergessen: Bei den Tausendern rechnest du 4 + 3 + 1.
+- Aufgabe `test-subtrahieren` (unten)
 
-Interaktiv: Kurztest: Was ergibt 5002 − 1789? Antworten: 4787; 4213; 3213. Richtig ist 3213. Entbündeln über die Nullen: 5002 = 4 Tausender, 9 Hunderter, 9 Zehner, 12 Einer. Einer: 12 − 9 = 3, Zehner: 9 − 8 = 1, Hunderter: 9 − 7 = 2, Tausender: 4 − 1 = 3. Probe: 3213 + 1789 = 5002. Falsche Antworten: 4787: Du hast in jeder Stelle die kleinere Ziffer von der größeren abgezogen. Steht oben die kleinere Ziffer, musst du entbündeln. 4213: Du hast die Tausenderstelle nach dem Entbündeln nicht um 1 verkleinert.
-
-Interaktiv: Kurztest: Was ergibt 624 : 12? Antworten: 52; 5; 25. Richtig ist 52. 12 passt 5-mal in 62 (Rest 2), dann holst du die 4 herunter: 12 passt 2-mal in 24. Probe: 52 · 12 = 624. Falsche Antworten: 5: Du hast die letzte Ziffer 4 nicht heruntergeholt. Nach 62 : 12 = 5 Rest 2 kommt noch 24 : 12 = 2. 25: Du hast die Ziffern des Ergebnisses vertauscht. Probe: 25 · 12 = 300, nicht 624. Erst kommt die 5, dann die 2.
+- Aufgabe `test-teilen` (unten)
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Schriftliche Rechenverfahren“ auf der Lernlandkarte ([Lernlandkarte: Schriftliche Rechenverfahren](https://lernapps.net/apps/map/mathematik/c/schriftliche-verfahren/)) und rechne die Aufgaben danach noch einmal.
 
@@ -84,3 +84,27 @@ Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Schriftliche R
 - zwei Zahlen wie 348 und 275 schriftlich addieren kannst und dir den Übertrag merkst
 - schriftlich subtrahieren, multiplizieren und dividieren kannst
 - bei einer Division den Rest angeben kannst
+
+### Aufgabe test-subtrahieren
+
+- Aufgabe: Was ergibt 5002 − 1789?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✗ 4787 – Du hast in jeder Stelle die kleinere Ziffer von der größeren abgezogen. Steht oben die kleinere Ziffer, musst du entbündeln.
+  - ✓ 3213 – Entbündeln über die Nullen: 5002 = 4 Tausender, 9 Hunderter, 9 Zehner, 12 Einer. Einer: 12 − 9 = 3, Zehner: 9 − 8 = 1, Hunderter: 9 − 7 = 2, Tausender: 4 − 1 = 3. Probe: 3213 + 1789 = 5002.
+  - ✗ 4213 – Du hast die Tausenderstelle nach dem Entbündeln nicht um 1 verkleinert.
+- Lösung: 3213
+- Erklärung: Entbündeln über die Nullen: 5002 = 4 Tausender, 9 Hunderter, 9 Zehner, 12 Einer. Einer: 12 − 9 = 3, Zehner: 9 − 8 = 1, Hunderter: 9 − 7 = 2, Tausender: 4 − 1 = 3. Probe: 3213 + 1789 = 5002.
+- Link: [../?via=tutor#test-subtrahieren](../?via=tutor#test-subtrahieren)
+
+### Aufgabe test-teilen
+
+- Aufgabe: Was ergibt 624 : 12?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✗ 5 – Du hast die letzte Ziffer 4 nicht heruntergeholt. Nach 62 : 12 = 5 Rest 2 kommt noch 24 : 12 = 2.
+  - ✗ 25 – Du hast die Ziffern des Ergebnisses vertauscht. Probe: 25 · 12 = 300, nicht 624. Erst kommt die 5, dann die 2.
+  - ✓ 52 – 12 passt 5-mal in 62 (Rest 2), dann holst du die 4 herunter: 12 passt 2-mal in 24. Probe: 52 · 12 = 624.
+- Lösung: 52
+- Erklärung: 12 passt 5-mal in 62 (Rest 2), dann holst du die 4 herunter: 12 passt 2-mal in 24. Probe: 52 · 12 = 624.
+- Link: [../?via=tutor#test-teilen](../?via=tutor#test-teilen)
