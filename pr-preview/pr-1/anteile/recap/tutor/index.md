@@ -22,9 +22,11 @@ Der Lernumfang dieser Seite, mit dem, was dazugehört und was nicht: [Scope](../
 
 ## Wo das Kind gerade ist
 
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=test-wert`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/anteile/recap/?via=tutor#test-wert`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -61,9 +63,9 @@ Die 0 steht an der Zehnerstelle: Es gibt keine Zehner. Die 0 hält den Platz fre
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-Interaktiv: Kurztest: Welchen Wert hat die 5 in der Zahl 25 084? Antworten: 5000; 5; 50; 500. Richtig ist 5000. Die 5 steht an der Tausenderstelle: 5 · 1000 = 5000. Falsche Antworten: 5: Das ist die Ziffer selbst. Ihr Wert hängt vom Platz ab: Sie steht bei den Tausendern. 50: 50 wäre die 5 an der Zehnerstelle. In 25 084 steht dort eine 8. 500: 500 wäre die 5 an der Hunderterstelle. In 25 084 steht dort eine 0.
+- Aufgabe `test-wert` (unten)
 
-Interaktiv: Kurztest: Wie lautet die Zahl aus 6 Tausendern, 12 Hundertern und 9 Einern? Antworten: 6129; 7209; 7029. Richtig ist 7209. 12 Hunderter = 1 Tausender + 2 Hunderter. Also 7 Tausender, 2 Hunderter, 0 Zehner, 9 Einer: 7209. Falsche Antworten: 6129: Du hast die 12 einfach hinter die 6 geschrieben. 12 Hunderter sind 1200, das ist 1 Tausender und 2 Hunderter. 7029: Hier steht die 2 an der Zehnerstelle. 12 Hunderter sind 1 Tausender und 2 Hunderter, die Zehnerstelle bleibt 0.
+- Aufgabe `test-schreiben` (unten)
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Natürliche Zahlen im Stellenwertsystem“ auf der Lernlandkarte ([Lernlandkarte: Natürliche Zahlen im Stellenwertsystem](https://lernapps.net/apps/map/mathematik/c/natuerliche-zahlen/)) und rechne die Aufgaben danach noch einmal.
 
@@ -72,3 +74,28 @@ Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Natürliche Za
 - eine Zahl wie 4305 in Tausender, Hunderter, Zehner und Einer zerlegen kannst
 - den Stellenwert einer Ziffer nennen kannst
 - eine Zahl aus ihren Tausendern, Hundertern, Zehnern und Einern aufschreiben kannst
+
+### Aufgabe test-wert
+
+- Aufgabe: Welchen Wert hat die 5 in der Zahl 25 084?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ 5000 – Die 5 steht an der Tausenderstelle: 5 · 1000 = 5000.
+  - ✗ 5 – Das ist die Ziffer selbst. Ihr Wert hängt vom Platz ab: Sie steht bei den Tausendern.
+  - ✗ 50 – 50 wäre die 5 an der Zehnerstelle. In 25 084 steht dort eine 8.
+  - ✗ 500 – 500 wäre die 5 an der Hunderterstelle. In 25 084 steht dort eine 0.
+- Lösung: 5000
+- Erklärung: Die 5 steht an der Tausenderstelle: 5 · 1000 = 5000.
+- Link: [../?via=tutor#test-wert](../?via=tutor#test-wert)
+
+### Aufgabe test-schreiben
+
+- Aufgabe: Wie lautet die Zahl aus 6 Tausendern, 12 Hundertern und 9 Einern?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✗ 6129 – Du hast die 12 einfach hinter die 6 geschrieben. 12 Hunderter sind 1200, das ist 1 Tausender und 2 Hunderter.
+  - ✓ 7209 – 12 Hunderter = 1 Tausender + 2 Hunderter. Also 7 Tausender, 2 Hunderter, 0 Zehner, 9 Einer: 7209.
+  - ✗ 7029 – Hier steht die 2 an der Zehnerstelle. 12 Hunderter sind 1 Tausender und 2 Hunderter, die Zehnerstelle bleibt 0.
+- Lösung: 7209
+- Erklärung: 12 Hunderter = 1 Tausender + 2 Hunderter. Also 7 Tausender, 2 Hunderter, 0 Zehner, 9 Einer: 7209.
+- Link: [../?via=tutor#test-schreiben](../?via=tutor#test-schreiben)

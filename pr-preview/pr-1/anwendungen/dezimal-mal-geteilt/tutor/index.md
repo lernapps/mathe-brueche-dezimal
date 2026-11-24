@@ -51,7 +51,7 @@ Wie viel sind drei Zehntel von zwei Zehnteln? Und wie viele Portionen von 0,25 
 
 #### Mal: Zehntel mal Zehntel ergeben Hundertstel
 
-Erinnerst du dich an das Rechteckmodell für Brüche? Das Quadrat unten ist ein Ganzes. Seine Breite und Höhe sind jeweils in zehn gleiche Abschnitte geteilt. Zwei Spalten entsprechen der Breite 0,2, drei Zeilen der Höhe 0,3. Ihr gemeinsames Rechteck enthält sechs der hundert Kästchen: 0,06. So erklärt sich, warum du die Nachkommastellen beider Faktoren zusammenzählst.
+Wenn du wissen willst, warum beim Malnehmen die Nachkommastellen zusammenzählen, hilft ein Rechteck. Das Quadrat unten ist ein Ganzes. Seine Breite und Höhe sind jeweils in zehn gleiche Abschnitte geteilt. Zwei Spalten entsprechen der Breite 0,2, drei Zeilen der Höhe 0,3. Ihr gemeinsames Rechteck enthält sechs der hundert Kästchen: 0,06. So erklärt sich, warum du die Nachkommastellen beider Faktoren zusammenzählst.
 
 Bild: Ein Einheitsquadrat ist in zehn Spalten und zehn Zeilen geteilt. Ein grünes Rechteck umfasst die ersten zwei Spalten und drei Zeilen, also sechs der hundert Kästchen. Die Breite ist mit 0,2 und die Höhe mit 0,3 beschriftet. Seine Fläche ist 0,06 des Ganzen. Bildunterschrift: Breite 0,2 · Höhe 0,3 = sechs Hundertstel Fläche.
 

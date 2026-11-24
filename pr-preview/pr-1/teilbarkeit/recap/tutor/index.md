@@ -22,9 +22,11 @@ Der Lernumfang dieser Seite, mit dem, was dazugehört und was nicht: [Scope](../
 
 ## Wo das Kind gerade ist
 
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=test-verteilen`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/teilbarkeit/recap/?via=tutor#test-verteilen`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -75,11 +77,7 @@ Die 6 steht in beiden Produkten. Du ziehst sie vor die Klammer und rechnest zuer
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-Interaktiv: Kurztest: Was ergibt 48 + 6 · 7 − 3 · 5? Antworten: 1875; 90; 75. Richtig ist 75. Punkt vor Strich: 6 · 7 = 42 und 3 · 5 = 15. Dann 48 + 42 − 15 = 75. Falsche Antworten: 1875: Du hast von links nach rechts gerechnet. Zuerst kommt die Punktrechnung: 6 · 7 und 3 · 5. 90: Du hast − 3 · 5 vergessen: 48 + 42 = 90, dann noch − 15.
-
-Interaktiv: Kurztest: Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten. Antworten: 700; 266; 328. Richtig ist 700. Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700. Falsche Antworten: 266: Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434. 328: Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7.
-
-Interaktiv: Kurztest: Was ergibt 5 · 13 · 20? Tausche die Faktoren so, dass du leicht rechnest. Antworten: 65; 1300; 100. Richtig ist 1300. Tausche: 5 · 20 = 100, dann 100 · 13 = 1300. Falsche Antworten: 65: Das ist 5 · 13. Es fehlt noch der Faktor 20. 100: Das ist 5 · 20. Es fehlt noch der Faktor 13: 100 · 13.
+- Aufgabe `test-verteilen` (unten)
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Vorrangregeln und Rechengesetze“ auf der Lernlandkarte ([Lernlandkarte: Vorrangregeln und Rechengesetze](https://lernapps.net/apps/map/mathematik/c/grundrechenarten-rechengesetze/)) und rechne die Aufgaben danach noch einmal.
 
@@ -105,9 +103,7 @@ Der Exponent sagt nicht, womit du malnimmst, sondern wie oft die Basis als Fakto
 
 **Kannst du das?** Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.
 
-Interaktiv: Kurztest: Was ist 2⁵ + 3²? Antworten: 16; 34; 41. Richtig ist 41. 2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41. Falsche Antworten: 16: Du hast die Exponenten als Faktoren genommen: 2 · 5 und 3 · 2. Der Exponent sagt, wie oft die Basis als Faktor steht. 34: Du hast Basis und Exponent vertauscht: 5² = 25. In 2⁵ ist die Basis 2, es sind fünf Faktoren 2: 32.
-
-Interaktiv: Kurztest: Schreibe 2 · 2 · 2 · 5 · 5 als Potenzen. Antworten: 2³ · 5²; 2⁵ · 5²; 3² · 5². Richtig ist 2³ · 5². Dreimal die 2 und zweimal die 5: 2³ · 5² = 8 · 25 = 200. Falsche Antworten: 2⁵ · 5²: Du hast alle fünf Faktoren gezählt und der 2 zugeschrieben. Die 2 steht nur dreimal. 3² · 5²: Du hast bei beiden Potenzen Basis und Exponent vertauscht: dreimal die 2 ist 2³, nicht 3², und zweimal die 5 ist 5², nicht 2².
+- Aufgabe `test-potenz` (unten)
 
 Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Potenzen und Zehnerpotenzen“ auf der Lernlandkarte ([Lernlandkarte: Potenzen und Zehnerpotenzen](https://lernapps.net/apps/map/mathematik/c/potenzen/)) und rechne die Aufgaben danach noch einmal.
 
@@ -117,3 +113,27 @@ Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Potenzen und Z
 - mit Vertauschungs-, Verbindungs- und Distributivgesetz vorteilhaft rechnen kannst
 - eine Potenz wie $2^4$ als Produkt schreiben und ausrechnen kannst
 - Basis und Exponent unterscheiden kannst
+
+### Aufgabe test-verteilen
+
+- Aufgabe: Was ergibt 7 · 38 + 7 · 62? Die 7 steht in beiden Produkten.
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✗ 266 – Das ist nur 7 · 38. Es fehlt noch 7 · 62 = 434.
+  - ✗ 328 – Du hast nur eine 7 verteilt: 7 · 38 + 62 = 328. Beide Produkte brauchen die 7.
+  - ✓ 700 – Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700.
+- Lösung: 700
+- Erklärung: Ziehe die 7 vor die Klammer: 7 · (38 + 62) = 7 · 100 = 700.
+- Link: [../?via=tutor#test-verteilen](../?via=tutor#test-verteilen)
+
+### Aufgabe test-potenz
+
+- Aufgabe: Was ist 2⁵ + 3²?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ 41 – 2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41.
+  - ✗ 16 – Du hast die Exponenten als Faktoren genommen: 2 · 5 und 3 · 2. Der Exponent sagt, wie oft die Basis als Faktor steht.
+  - ✗ 34 – Du hast Basis und Exponent vertauscht: 5² = 25. In 2⁵ ist die Basis 2, es sind fünf Faktoren 2: 32.
+- Lösung: 41
+- Erklärung: 2⁵ = 2 · 2 · 2 · 2 · 2 = 32 und 3² = 3 · 3 = 9. Dann 32 + 9 = 41.
+- Link: [../?via=tutor#test-potenz](../?via=tutor#test-potenz)

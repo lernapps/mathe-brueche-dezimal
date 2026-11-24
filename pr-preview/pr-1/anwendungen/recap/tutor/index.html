@@ -30,9 +30,11 @@
 </ul>
 <h2>Wo das Kind gerade ist</h2>
 <ul>
+<li>Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. <code>?uebung=test-subtrahieren</code>. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt <code>uebung=</code> die Aufgabe und <code>abschnitt=</code> ihren Abschnitt.</li>
 <li>Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.</li>
 <li>Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.</li>
 <li>„Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.</li>
+<li>Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne <code>tutor/</code> und ohne <code>?…</code>, mit der Nummer und <code>via=tutor</code>, z. B. <code>…/anwendungen/recap/?via=tutor#test-subtrahieren</code>. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. <code>https://</code>). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“</li>
 </ul>
 <h2>Besondere Anforderungen</h2>
 <p>Nennt die Adresse dieser Seite <code>bedarf=</code>, gilt jeder Abschnitt, den sie nennt, mehrere durch Komma getrennt. Er geht dem oben Gesagten vor; widersprechen sich zwei, gilt der strengere. Ohne <code>bedarf=</code> gilt keiner.</p>
@@ -66,15 +68,46 @@
 <p>$348 + 275 = 623$</p>
 <p><strong>Schriftlich teilen: 156 : 12.</strong> 12 passt 1-mal in 15, das sind 12 und es bleibt Rest 3. Du holst die 6 herunter: 36. 12 passt 3-mal in 36. Das Ergebnis ist 13. Subtrahieren und Multiplizieren gehen ebenfalls Stelle für Stelle.</p>
 <p><strong>Kannst du das?</strong> Rechne im Kopf oder auf Papier und wähle dann eine Antwort. Du siehst sofort, ob sie stimmt und warum.</p>
-<p>Interaktiv: Kurztest: Was ergibt 4765 + 3689? Antworten: 7344; 8454; 7454. Richtig ist 8454. Einer: 5 + 9 = 14 (4, Übertrag 1). Zehner: 6 + 8 + 1 = 15 (5, Übertrag 1). Hunderter: 7 + 6 + 1 = 14 (4, Übertrag 1). Tausender: 4 + 3 + 1 = 8. Falsche Antworten: 7344: Du hast alle Überträge vergessen. Jede Stelle über 9 gibt einen Übertrag an die nächste Stelle. 7454: Du hast den Übertrag der Hunderter vergessen: Bei den Tausendern rechnest du 4 + 3 + 1.</p>
-<p>Interaktiv: Kurztest: Was ergibt 5002 − 1789? Antworten: 4787; 4213; 3213. Richtig ist 3213. Entbündeln über die Nullen: 5002 = 4 Tausender, 9 Hunderter, 9 Zehner, 12 Einer. Einer: 12 − 9 = 3, Zehner: 9 − 8 = 1, Hunderter: 9 − 7 = 2, Tausender: 4 − 1 = 3. Probe: 3213 + 1789 = 5002. Falsche Antworten: 4787: Du hast in jeder Stelle die kleinere Ziffer von der größeren abgezogen. Steht oben die kleinere Ziffer, musst du entbündeln. 4213: Du hast die Tausenderstelle nach dem Entbündeln nicht um 1 verkleinert.</p>
-<p>Interaktiv: Kurztest: Was ergibt 624 : 12? Antworten: 52; 5; 25. Richtig ist 52. 12 passt 5-mal in 62 (Rest 2), dann holst du die 4 herunter: 12 passt 2-mal in 24. Probe: 52 · 12 = 624. Falsche Antworten: 5: Du hast die letzte Ziffer 4 nicht heruntergeholt. Nach 62 : 12 = 5 Rest 2 kommt noch 24 : 12 = 2. 25: Du hast die Ziffern des Ergebnisses vertauscht. Probe: 25 · 12 = 300, nicht 624. Erst kommt die 5, dann die 2.</p>
+<ul>
+<li><p>Aufgabe <code>test-subtrahieren</code> (unten)</p>
+</li>
+<li><p>Aufgabe <code>test-teilen</code> (unten)</p>
+</li>
+</ul>
 <p>Wenn du dir bei einer Aufgabe unsicher bist: Lies den Baustein „Schriftliche Rechenverfahren“ auf der Lernlandkarte (<a href="https://lernapps.net/apps/map/mathematik/c/schriftliche-verfahren/">Lernlandkarte: Schriftliche Rechenverfahren</a>) und rechne die Aufgaben danach noch einmal.</p>
 <h3>Du bist bereit, wenn du …</h3>
 <ul>
 <li>zwei Zahlen wie 348 und 275 schriftlich addieren kannst und dir den Übertrag merkst</li>
 <li>schriftlich subtrahieren, multiplizieren und dividieren kannst</li>
 <li>bei einer Division den Rest angeben kannst</li>
+</ul>
+<h3>Aufgabe test-subtrahieren</h3>
+<ul>
+<li>Aufgabe: Was ergibt 5002 − 1789?</li>
+<li>Antwortformat: eine Antwort wählen</li>
+<li>Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):<ul>
+<li>✗ 4787 – Du hast in jeder Stelle die kleinere Ziffer von der größeren abgezogen. Steht oben die kleinere Ziffer, musst du entbündeln.</li>
+<li>✓ 3213 – Entbündeln über die Nullen: 5002 = 4 Tausender, 9 Hunderter, 9 Zehner, 12 Einer. Einer: 12 − 9 = 3, Zehner: 9 − 8 = 1, Hunderter: 9 − 7 = 2, Tausender: 4 − 1 = 3. Probe: 3213 + 1789 = 5002.</li>
+<li>✗ 4213 – Du hast die Tausenderstelle nach dem Entbündeln nicht um 1 verkleinert.</li>
+</ul>
+</li>
+<li>Lösung: 3213</li>
+<li>Erklärung: Entbündeln über die Nullen: 5002 = 4 Tausender, 9 Hunderter, 9 Zehner, 12 Einer. Einer: 12 − 9 = 3, Zehner: 9 − 8 = 1, Hunderter: 9 − 7 = 2, Tausender: 4 − 1 = 3. Probe: 3213 + 1789 = 5002.</li>
+<li>Link: <a href="../?via=tutor#test-subtrahieren">../?via=tutor#test-subtrahieren</a></li>
+</ul>
+<h3>Aufgabe test-teilen</h3>
+<ul>
+<li>Aufgabe: Was ergibt 624 : 12?</li>
+<li>Antwortformat: eine Antwort wählen</li>
+<li>Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):<ul>
+<li>✗ 5 – Du hast die letzte Ziffer 4 nicht heruntergeholt. Nach 62 : 12 = 5 Rest 2 kommt noch 24 : 12 = 2.</li>
+<li>✗ 25 – Du hast die Ziffern des Ergebnisses vertauscht. Probe: 25 · 12 = 300, nicht 624. Erst kommt die 5, dann die 2.</li>
+<li>✓ 52 – 12 passt 5-mal in 62 (Rest 2), dann holst du die 4 herunter: 12 passt 2-mal in 24. Probe: 52 · 12 = 624.</li>
+</ul>
+</li>
+<li>Lösung: 52</li>
+<li>Erklärung: 12 passt 5-mal in 62 (Rest 2), dann holst du die 4 herunter: 12 passt 2-mal in 24. Probe: 52 · 12 = 624.</li>
+<li>Link: <a href="../?via=tutor#test-teilen">../?via=tutor#test-teilen</a></li>
 </ul>
 </main>
 </body>
