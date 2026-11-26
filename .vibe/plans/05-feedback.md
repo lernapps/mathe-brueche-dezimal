@@ -8,7 +8,7 @@ phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: {}
+failedChecks: { plan-file: 1 }
 ---
 
 # Increment: feedback
@@ -49,6 +49,8 @@ Befund und Vorschlag je Notiz (Stand c6f30e3):
 7. `rechnen/multiplizieren`, Idee 1, `KuchenMultiplizieren`: Stückchen, die du weggibst, sind heute leer. Vorschlag: sie werden ganz hellrot (mit Muster, nicht nur Farbe), damit man sieht: „weggenommen“.
 8. `rechnen/multiplizieren`, Idee 2, `BruchRechnen` (Rechteck): Die Beschriftung der linken Seite steht senkrecht gedreht, dadurch zerfällt der Bruch („2|3“). Vorschlag: Beschriftung waagerecht neben die Seite, der Bruch normal gesetzt.
 9. `rechnen/gleichungen`, Bild `p4-gleichung-streifen.svg`: Der Nenner 4 von 3/4 liegt auf der Klammer. Vorschlag: Bruch höher setzen, Bild etwas höher.
+
+**Plan auf `main`:** mit Ja des Menschen („passt“) gepusht.
 
 ## Explore
 
@@ -154,20 +156,22 @@ Befund und Vorschlag je Notiz (Stand c6f30e3):
       as it says. Commit.
 - [x] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
       says.
-- [ ] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
+- [x] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
       and wait for the yes.
-- [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: the pull request squash-merged into
+      Creator: Creator hat PR #6 selbst zusammengeführt (Ja durch Merge)
+- [x] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: the pull request squash-merged into
       `main`, the run of `Pages` watched to its end.
-- [ ] Open the address the job `deploy` printed and confirm the new content. Never use a derived address.
-- [ ] The app is listed and its entry changes (school years, summary): load skill `lernapps-listing` and write the
+- [x] Open the address the job `deploy` printed and confirm the new content. Never use a derived address.
+- [x] (skipped: Eintrag unverändert: Klassen und Zusammenfassung gleich) The app is listed and its entry changes (school years, summary): load skill `lernapps-listing` and write the
       changed entry. Else skip this task.
-- [ ] Fill the retrospective.
-- [ ] Commit this plan on `main` and push it. A push of only `.vibe/` publishes nothing.
-- [ ] The entry changed: open the pull request to the catalog as skill `lernapps-listing` says, without asking first,
+- [x] Fill the retrospective.
+- [x] Commit this plan on `main` and push it. A push of only `.vibe/` publishes nothing.
+- [x] (skipped: entry unchanged) The entry changed: open the pull request to the catalog as skill `lernapps-listing` says, without asking first,
       and see it to "bestanden". Else skip this task: `npx --no -- lernapps plan skip "entry unchanged"`.
-- [ ] **Checkpoint:** list. Tell the creator the result: the pull request and its result, or, when the entry did not
+- [x] **Checkpoint:** list. Tell the creator the result: the pull request and its result, or, when the entry did not
       change, that the catalog takes over the app by itself. Tick it with their reply.
-- [ ] If the plan changed since its last push, commit it on `main` and push again.
+      Creator: passt
+- [x] If the plan changed since its last push, commit it on `main` and push again.
 
 ## Retrospective
 
@@ -175,12 +179,18 @@ Befund und Vorschlag je Notiz (Stand c6f30e3):
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+commit; Recherche und Plan bestätigt (eine Antwort für beide), veröffentlicht (PR #6, vom Menschen zusammengeführt), live bestätigt unter https://lernapps.net/mathe-brueche-dezimal/.
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+2: „Power“ (Vorschau-PR öffnen); „passt“ (Katalog übernimmt selbst, Plan auf `main`). Veröffentlicht hat der Mensch durch den Merge.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, content guide, messages or answers, and your choice. "None" if none. -->
+- Plan 04 stand in Commit, war aber schon veröffentlicht: neuer Plan 05 statt Plan 04 abschließen.
+- Branch der Session statt `increment/05-feedback`.
+- Notiz 6 brach ab; Rückfrage, Antwort als Reihen der Länge Ganzes : Nenner umgesetzt.
+- Zahlenfelder nehmen keine Brüche an: Zahlenstrahl-Übung fragt den Nenner.
+- Notationstest las die Lizenz-ID als Dezimalzahl: Feld `licence` ausgenommen.
+- Der Squash-Commit auf `main` trägt den Titel des letzten Plan-Commits („docs(plan): preview pull request green“), nicht den des Inkrements; der Mensch hat zusammengeführt.
+- Plan auf `main`: die Session darf nur ihren Branch pushen; der Plan liegt dort.
