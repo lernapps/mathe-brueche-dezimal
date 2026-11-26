@@ -123,6 +123,8 @@ export function solution(t: Task): string {
 }
 export const wrong = (t: Task): string => (t.kind === "compare" ? (t.rz < 0 ? ">" : "<") : `${t.rz + t.rn}/${t.rn}`);
 export const mistakes = (t: Task): string[] => [wrong(t), ""];
+/** Length of a row in the ratio picture: the size of one of the n groups, so the part fills whole rows. */
+export const rowLength = (t: Task): number => t.G / t.n;
 export function params(t: Task): Record<string, number> {
   const values: Record<string, number> = { z: t.z, n: t.n, b: t.b, d: t.d, f: t.f };
   if (t.kind === "part" || t.kind === "ratio") values["G"] = t.G;

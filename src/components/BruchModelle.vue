@@ -18,6 +18,7 @@ const current = computed(() =>
   generate(props.seed, { task: props.task, mode: props.mode ?? "mark", mistakes: props.mistakes }),
 );
 const selected = ref<number[]>([]);
+const focused = ref(0);
 const position = ref(0);
 const count = computed(() => (current.value.mode === "line" ? position.value : selected.value.length));
 const wholes = computed(() => Math.max(1, Math.ceil(current.value.z / current.value.n)));
@@ -77,6 +78,14 @@ function toggle(i: number): void {
           @click="toggle((whole - 1) * current.n + i)"
           @keydown.enter.prevent="toggle((whole - 1) * current.n + i)"
           @keydown.space.prevent="toggle((whole - 1) * current.n + i)"
+          @focus="focused = (whole - 1) * current.n + i"
+          @blur="focused = 0"
+        />
+        <path
+          v-if="focused > (whole - 1) * current.n && focused <= whole * current.n"
+          :d="sector(focused - (whole - 1) * current.n - 1, current.n)"
+          class="focus-ring"
+          aria-hidden="true"
         /></svg
     ></template>
     <template v-else
@@ -132,10 +141,24 @@ path {
 path.on {
   fill: #16765d;
 }
-path:focus-visible {
-  stroke: var(--page-text);
-  stroke-width: 3;
+path {
+  -webkit-tap-highlight-color: transparent;
+}
+/* No rectangular focus box of the browser around a piece: the piece's own outline shows the keyboard focus. */
+path:focus {
   outline: none;
+}
+/* Keyboard focus: the piece's outline, drawn on top of its neighbours. */
+.focus-ring {
+  display: none;
+  fill: none;
+  stroke: var(--page-text);
+  stroke-width: 4;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+svg:has(path:focus-visible) .focus-ring {
+  display: inline;
 }
 line {
   stroke: currentColor;
