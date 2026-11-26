@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+[
+  { "a": 2, "b": 3, "c": 3, "d": 5, "g": 15, "ea": 10, "ec": 9, "zeichen": ">", "falsch": "<" },
+  { "a": 5, "b": 8, "c": 3, "d": 4, "g": 8, "ea": 5, "ec": 6, "zeichen": "<", "falsch": ">" },
+  { "a": 2, "b": 6, "c": 1, "d": 3, "g": 6, "ea": 2, "ec": 2, "zeichen": "=", "falsch": ">" },
+  { "a": 3, "b": 4, "c": 4, "d": 5, "g": 20, "ea": 15, "ec": 16, "zeichen": "<", "falsch": "=" },
+  { "a": 5, "b": 6, "c": 7, "d": 9, "g": 18, "ea": 15, "ec": 14, "zeichen": ">", "falsch": "<" },
+  { "a": 3, "b": 10, "c": 1, "d": 4, "g": 20, "ea": 6, "ec": 5, "zeichen": ">", "falsch": "<" },
+  { "a": 4, "b": 6, "c": 6, "d": 9, "g": 18, "ea": 12, "ec": 12, "zeichen": "=", "falsch": "<" },
+  { "a": 2, "b": 5, "c": 3, "d": 7, "g": 35, "ea": 14, "ec": 15, "zeichen": "<", "falsch": ">" },
+]

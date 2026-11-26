@@ -261,6 +261,25 @@
               "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
             },
             {
+              "type": "generated",
+              "id": "ziffer-ergaenzen-4-6",
+              "given": { "e": { "pick": 1, "from": { "data": "ziffernergaenzen46" } } },
+              "task":
+                {
+                  "text": "Die Zahl {{e.zahl}}□ hat als letzte Ziffer ein leeres Kästchen. Welche ist die kleinste Ziffer, die du einsetzen kannst, damit die Zahl durch {{e.d}} teilbar wird?",
+                },
+              "answer": { "value": "e.ziffer", "compare": "number" },
+              "mistakes": [{ "value": "e.f1", "message": "{{e.m1}}" }, { "value": "e.f2", "message": "{{e.m2}}" }],
+              "hint": "{{e.tipp}}",
+              "steps":
+                [
+                  "{{e.s1}}",
+                  "{{e.s2}}",
+                  "Die kleinste passende Ziffer ist {{answer}}: {{e.neu}} ist durch {{e.d}} teilbar.",
+                ],
+              "examples": { "accepted": ["answer"], "rejected": ["e.f1", "e.f2"] },
+            },
+            {
               "type": "single-choice",
               "id": "durch-4",
               "text": "Mia sagt: „2154 ist durch 4 teilbar, weil die letzte Ziffer 4 durch 4 teilbar ist.“ Stimmt das?",

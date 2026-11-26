@@ -152,27 +152,30 @@
             {
               "type": "generated",
               "id": "aufgaben",
-              "given": { "n": { "oneOf": [3, 4, 5, 6, 8, 10] } },
+              "given": { "e": { "pick": 1, "from": { "data": "teilstriche" } } },
               "task":
                 {
-                  "text": "Eine Einheit hat {{n}} gleiche Abstände. Wie viele davon brauchst du für $\\frac{{{n}}}{{{n}}}$?",
+                  "text": "Ein Zahlenstrahl von 0 bis 1 hat dazwischen {{e.s}} Teilstriche, alle mit gleichem Abstand. Ein Punkt liegt am {{e.k}}. Teilstrich nach der 0. Welchen Nenner hat der Bruch an diesem Punkt?",
                 },
-              "answer": { "value": "n", "compare": "number" },
+              "answer": { "value": "e.n", "compare": "number" },
               "mistakes":
                 [
                   {
-                    "value": "n+1",
-                    "message": "Du hast den Startpunkt mitgezählt. Gefragt ist die Anzahl der Abstände.",
+                    "value": "e.s",
+                    "message": "Du hast die Teilstriche gezählt. Der Nenner sagt, in wie viele gleich lange Abstände die Strecke von 0 bis 1 geteilt ist. Zähle die Lücken zwischen den Strichen.",
                   },
-                  { "value": "1", "message": "Ein Ganzes ist hier in mehrere gleich große Abstände unterteilt." },
+                  {
+                    "value": "e.s + 2",
+                    "message": "Du hast die Striche bei 0 und 1 mitgezählt. Zähle die Abstände, nicht die Striche.",
+                  },
                 ],
-              "hint": "Teile jede Einheit in so viele gleich große **Abstände**, wie der Nenner angibt.",
+              "hint": "Zeichne die Strecke mit {{e.s}} Teilstrichen auf und zähle die Abstände von 0 bis 1.",
               "steps":
                 [
-                  "Zwischen 0 und 1 liegen {{n}} gleich große Abstände. Ein Schritt ist also $\\frac{1}{{{n}}}$ lang.",
-                  "Für $\\frac{{{n}}}{{{n}}}$ gehst du alle {{n}} Schritte und erreichst genau 1. Der Startpunkt zählt nicht als Schritt.",
+                  "{{e.s}} Teilstriche teilen die Strecke von 0 bis 1 in {{e.n}} gleich lange Abstände. Der Nenner ist also {{e.n}}.",
+                  "Der {{e.k}}. Teilstrich liegt {{e.k}} Abstände nach der 0. Dort liegt $\\frac{{{e.k}}}{{{e.n}}}$.",
                 ],
-              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+              "examples": { "accepted": ["answer"], "rejected": ["e.s", "answer+1"] },
             },
           ],
       },
