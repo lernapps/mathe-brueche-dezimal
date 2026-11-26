@@ -107,7 +107,7 @@ Die obigen Muster gelten. Jede Seite nutzt stabile Übungs-IDs `verstehen` und `
 
 ## Figures
 
-Kreis, Streifen, Menge und Zahlenstrahl mit gleichen Teilen, ausgewiesenem Ganzen und auswählbaren Elementen. Markierungen zusätzlich zur Farbe. Alle Bilder eigene SVG-Zeichnungen unter CC-BY-4.0. In Aufgaben nur Gegebenes darstellen. Texte und Beschriftungen über Props.
+Kreis, Streifen, Menge und Zahlenstrahl mit gleichen Teilen, ausgewiesenem Ganzen und auswählbaren Elementen. Markierungen zusätzlich zur Farbe. Alle Bilder eigene SVG-Zeichnungen unter CC BY-SA 4.0 (`licence: CC-BY-SA-4.0`, Wunsch aus #5); Texte bleiben wie bisher. In Aufgaben nur Gegebenes darstellen. Texte und Beschriftungen über Props.
 
 ### Umfang und Annahmen
 
