@@ -38,7 +38,7 @@
                     "type": "figure",
                     "image": "images/dezimalprodukt.svg",
                     "source": "eigene Zeichnung",
-                    "licence": "MIT",
+                    "licence": "CC-BY-SA-4.0",
                     "alt": "Ein Einheitsquadrat ist in zehn Spalten und zehn Zeilen geteilt. Ein grünes Rechteck umfasst die ersten zwei Spalten und drei Zeilen, also sechs der hundert Kästchen. Die Breite ist mit 0,2 und die Höhe mit 0,3 beschriftet. Seine Fläche ist 0,06 des Ganzen.",
                     "caption": "Breite 0,2 · Höhe 0,3 = sechs Hundertstel Fläche.",
                   },

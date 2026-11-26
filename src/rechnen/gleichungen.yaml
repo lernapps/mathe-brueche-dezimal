@@ -37,7 +37,7 @@
               "type": "figure",
               "image": "images/p4-gleichung-streifen.svg",
               "source": "eigene Zeichnung",
-              "licence": "MIT",
+              "licence": "CC-BY-SA-4.0",
               "alt": "Ein Streifen aus vier gleich großen Feldern. Drei Felder sind gefüllt und von einer Klammer mit dem Ziel drei Viertel überspannt. Das erste gefüllte Feld ist hell und als bekannt beschriftet, ein Viertel. Die beiden übrigen gefüllten Felder sind dunkel und mit einem Fragezeichen beschriftet: gesucht ist $x$. Das vierte Feld ist leer.",
               "caption": "Ziel: $\\frac{3}{4}$. Das helle Feld ist mit $\\frac{1}{4}$ schon bekannt. Welcher Anteil $x$ fehlt?",
             },

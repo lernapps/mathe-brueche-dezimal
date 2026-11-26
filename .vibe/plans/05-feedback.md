@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -33,6 +33,7 @@ Die neun Notizen aus dem Feedback (lernapps/mathe-brueche-dezimal#5) sind behobe
 
 - Branch: `claude/magical-pascal-ydarht` statt `increment/05-feedback`, weil die Session nur diesen Branch pushen darf.
 - Plan 04 steht noch in Commit, sein Inhalt ist aber schon in `main` (Squash 7209c01) und online. Darum neuer Plan 05; Plan 04 bleibt unverändert.
+- `scope`: bleibt wie in den früheren Plänen (jede Seite hat `scope`); dieses Inkrement ändert ihn nur, wo eine Übung neu ist.
 - Keine neue Kompetenz, keine neue Seite: nur Korrekturen an bestehenden Seiten, Komponenten und Bildern. Recherche entfällt.
 
 ## Notes
@@ -70,8 +71,9 @@ Befund und Vorschlag je Notiz (Stand c6f30e3):
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] (skipped: keine neue Art von Inhalt: bestehende Komponenten und Aufgabentypen) The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Ja, passt so, setz alle neun um
 
 ### Answers
 
@@ -88,25 +90,24 @@ Befund und Vorschlag je Notiz (Stand c6f30e3):
 
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
-- [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
+- [x] (skipped: keine neue Komponente und keine neue Übungsart) Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
+- [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Ja, passt so, setz alle neun um (Antwort auf die neun Vorschläge, die Inhalt und Methode dieses Plans sind)
 
 ### Content method
 
-<!-- One line each: the guide's patterns, figures and components used, and where; anything new, what it does and
-cannot. Something new goes into the guide in the slice that adds it. -->
-<!-- An explainer: per figure, model and component its learning action in two to four sentences
-(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
-page, which a link. -->
-
+- F1: Bilder bleiben eigene SVG; nur `licence` und Lage der Beschriftung. Leitfaden „Figures“: CC BY-SA 4.0.
+- F2: bestehende Komponenten, Prüfvertrag unverändert. Kreis: Fokus als Kontur des Sektors. Kuchen: weggegebene Stückchen hellrot + Punktmuster (zusätzlich zur Farbe), Hell- und Dunkelmodus. Rechteck: Beschriftung links waagerecht mit `BruchZahl`. Plättchen: Raster mit Reihenlänge G/n (Größe einer Nennergruppe), Teil = z volle Reihen; nichts vorausgefüllt.
+- F3: Muster `generated` mit Datensatz (`pick: 1` aus `src/data`), damit die Schritte jede Zahl nennen. Zahlenstrahl: Antwort als Bruch über `compare: number` (exakter Bruch) — (guess) falls die Eingabe „2/4“ nicht annimmt, Frage nach dem Nenner. Vergleichen: `{ choice: ["<", "=", ">"] }`. Ziffer ergänzen 4/6: eigene Aufgabe `ziffer-ergaenzen-4-6`.
+- Neu ist nichts; Muster des Leitfadens passen.
 ## Code
 
 <!--
@@ -118,17 +119,20 @@ page, which a link. -->
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] (skipped: Session-Branch claude/magical-pascal-ydarht von main, siehe Key decisions) `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [x] F1 Bilder: Lizenz aller neun Zeichnungen CC BY-SA 4.0; Klammer-Überlappung in p4-gleichung-streifen.svg (Notizen 4, 9). Du allein. Check, Commit.
+- [ ] F2 Komponenten: Kreis ohne Browser-Rahmen (BruchModelle), weggegebene Kuchenstückchen hellrot mit Muster (KuchenMultiplizieren), Seitenbeschriftung waagerecht (BruchRechnen), Plättchen in Reihen und Text ohne „eigene Zahlen“ (AnteilGanzes, grundaufgaben/anteil) (Notizen 1, 6, 7, 8). Du allein. Tests, Check, Commit.
+- [ ] F3 Übungen: Zahlenstrahl Teilstriche vs. Abstände (anteile/zahlenstrahl), Vergleichen mit verschiedenen Nennern (umformen/vergleichen), Ziffer ergänzen für 4 und 6 (teilbarkeit/regeln), mit Daten in src/data (Notizen 2, 3, 5). Du allein. Check, Commit.
+<!-- tasks: slices (3 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.

@@ -32,7 +32,7 @@
               "type": "figure",
               "image": "images/p4-runden-zahlenstrahl.svg",
               "source": "eigene Zeichnung",
-              "licence": "MIT",
+              "licence": "CC-BY-SA-4.0",
               "alt": "Zwei Zahlenstrahlen zwischen 0,74 und 0,75 mit elf Strichen, die Mitte 0,745 ist beschriftet. Beispiel A: Der Punkt 0,746 liegt rechts von der Mitte, eine Linie unter dem Zahlenstrahl zeigt zum näheren Nachbarn 0,75. Beispiel B: Der Punkt 0,743 liegt links von der Mitte, eine Linie unter dem Zahlenstrahl zeigt zum näheren Nachbarn 0,74.",
               "caption": "Zwei Zahlen zwischen 0,74 und 0,75: 0,746 liegt näher an 0,75, 0,743 liegt näher an 0,74.",
             },
