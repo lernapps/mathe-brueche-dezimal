@@ -152,7 +152,7 @@ Befund und Vorschlag je Notiz (Stand c6f30e3):
 
 - [x] (skipped: Die App hat keine Selbsteinschätzung (selfAssessment); ob sie eine bekommt, ist offen seit Plan 04 und nicht Teil von #5) If pages or exercises changed, load skill `lernapps-explainer-self-assessment` and update the self-assessment
       as it says. Commit.
-- [ ] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
+- [x] Load skill `lernapps-github`. Push the branch, open the preview pull request and see its checks to green, as it
       says.
 - [ ] **Checkpoint:** publish. Show what the increment adds and the preview link. Ask whether it may go online. Stop
       and wait for the yes.
