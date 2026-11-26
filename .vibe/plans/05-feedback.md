@@ -50,7 +50,7 @@ Befund und Vorschlag je Notiz (Stand c6f30e3):
 8. `rechnen/multiplizieren`, Idee 2, `BruchRechnen` (Rechteck): Die Beschriftung der linken Seite steht senkrecht gedreht, dadurch zerfällt der Bruch („2|3“). Vorschlag: Beschriftung waagerecht neben die Seite, der Bruch normal gesetzt.
 9. `rechnen/gleichungen`, Bild `p4-gleichung-streifen.svg`: Der Nenner 4 von 3/4 liegt auf der Klammer. Vorschlag: Bruch höher setzen, Bild etwas höher.
 
-**Offen (Commit):** Plan auf `main` pushen: die Session darf nur `claude/magical-pascal-ydarht` pushen; der Plan liegt dort, `main` braucht das Ja des Menschen.
+**Plan auf `main`:** mit Ja des Menschen („passt“) gepusht.
 
 ## Explore
 
@@ -165,12 +165,13 @@ Befund und Vorschlag je Notiz (Stand c6f30e3):
 - [x] (skipped: Eintrag unverändert: Klassen und Zusammenfassung gleich) The app is listed and its entry changes (school years, summary): load skill `lernapps-listing` and write the
       changed entry. Else skip this task.
 - [x] Fill the retrospective.
-- [ ] Commit this plan on `main` and push it. A push of only `.vibe/` publishes nothing.
-- [ ] The entry changed: open the pull request to the catalog as skill `lernapps-listing` says, without asking first,
+- [x] Commit this plan on `main` and push it. A push of only `.vibe/` publishes nothing.
+- [x] (skipped: entry unchanged) The entry changed: open the pull request to the catalog as skill `lernapps-listing` says, without asking first,
       and see it to "bestanden". Else skip this task: `npx --no -- lernapps plan skip "entry unchanged"`.
-- [ ] **Checkpoint:** list. Tell the creator the result: the pull request and its result, or, when the entry did not
+- [x] **Checkpoint:** list. Tell the creator the result: the pull request and its result, or, when the entry did not
       change, that the catalog takes over the app by itself. Tick it with their reply.
-- [ ] If the plan changed since its last push, commit it on `main` and push again.
+      Creator: passt
+- [x] If the plan changed since its last push, commit it on `main` and push again.
 
 ## Retrospective
 
@@ -182,7 +183,7 @@ commit; Recherche und Plan bestätigt (eine Antwort für beide), veröffentlicht
 
 ### Creator turns after the plan
 
-1: „Power“ (Vorschau-PR öffnen). Veröffentlicht hat der Mensch durch den Merge, ohne Nachricht.
+2: „Power“ (Vorschau-PR öffnen); „passt“ (Katalog übernimmt selbst, Plan auf `main`). Veröffentlicht hat der Mensch durch den Merge.
 
 ### Where I had to guess
 
