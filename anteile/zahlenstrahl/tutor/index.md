@@ -138,24 +138,28 @@ Nr. | z | n | Lösung | F1 | F2
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Eine Einheit hat {n} gleiche Abstände. Wie viele davon brauchst du für $\frac{{n}}{{n}}$?“
+- Aufgabe: „Ein Zahlenstrahl von 0 bis 1 hat dazwischen {e.s} Teilstriche, alle mit gleichem Abstand. Ein Punkt liegt am {e.k}. Teilstrich nach der 0. Welchen Nenner hat der Bruch an diesem Punkt?“
 - Antwortformat: eine Zahl eintippen
-- Tipp der App: „Teile jede Einheit in so viele gleich große **Abstände**, wie der Nenner angibt.“
+- Tipp der App: „Zeichne die Strecke mit {e.s} Teilstrichen auf und zähle die Abstände von 0 bis 1.“
 - Lösungsweg:
-  - Zwischen 0 und 1 liegen {n} gleich große Abstände. Ein Schritt ist also $\frac{1}{{n}}$ lang.
-  - Für $\frac{{n}}{{n}}$ gehst du alle {n} Schritte und erreichst genau 1. Der Startpunkt zählt nicht als Schritt.
+  - {e.s} Teilstriche teilen die Strecke von 0 bis 1 in {e.n} gleich lange Abstände. Der Nenner ist also {e.n}.
+  - Der {e.k}. Teilstrich liegt {e.k} Abstände nach der 0. Dort liegt $\frac{{e.k}}{{e.n}}$.
 - Typische Fehler und was die App sagt:
-  - F1: „Du hast den Startpunkt mitgezählt. Gefragt ist die Anzahl der Abstände.“
-  - F2: „Ein Ganzes ist hier in mehrere gleich große Abstände unterteilt.“
+  - F1: „Du hast die Teilstriche gezählt. Der Nenner sagt, in wie viele gleich lange Abstände die Strecke von 0 bis 1 geteilt ist. Zähle die Lücken zwischen den Strichen.“
+  - F2: „Du hast die Striche bei 0 und 1 mitgezählt. Zähle die Abstände, nicht die Striche.“
 - Link zu Nummer n: `../?aufgaben=n&via=tutor#aufgaben`
 - Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.
 
 ```
-Nr. | n | Lösung | F1 | F2
-1 | 10 | 10 | 11 | 1
-2 | 5 | 5 | 6 | 1
-3 | 4 | 4 | 5 | 1
-4 | 8 | 8 | 9 | 1
-5 | 6 | 6 | 7 | 1
-6 | 3 | 3 | 4 | 1
+Nr. | e.s | e.k | e.n | Lösung | F1 | F2
+1 | 9 | 7 | 10 | 10 | 9 | 11
+2 | 4 | 2 | 5 | 5 | 4 | 6
+3 | 2 | 2 | 3 | 3 | 2 | 4
+4 | 5 | 4 | 6 | 6 | 5 | 7
+5 | 4 | 3 | 5 | 5 | 4 | 6
+6 | 7 | 3 | 8 | 8 | 7 | 9
+7 | 3 | 3 | 4 | 4 | 3 | 5
+8 | 6 | 5 | 7 | 7 | 6 | 8
+9 | 2 | 1 | 3 | 3 | 2 | 4
+10 | 1 | 1 | 2 | 2 | 1 | 3
 ```

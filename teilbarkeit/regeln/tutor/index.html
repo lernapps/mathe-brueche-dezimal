@@ -111,6 +111,8 @@
 </li>
 <li><p>Aufgabe <code>ziffer-ergaenzen</code> (unten)</p>
 </li>
+<li><p>Aufgabe <code>ziffer-ergaenzen-4-6</code> (unten)</p>
+</li>
 <li><p>Aufgabe <code>durch-4</code> (unten)</p>
 </li>
 </ul>
@@ -221,6 +223,36 @@
 12 | 47 | 9 | 4 + 7 | 11 | 18 | 477 | 7 | 2 | 9
 13 | 215 | 3 | 2 + 1 + 5 | 8 | 9 | 2151 | 1 | 2 | 3
 14 | 86 | 3 | 8 + 6 | 14 | 15 | 861 | 1 | 2 | 3
+</code></pre>
+<h3>Aufgabe ziffer-ergaenzen-4-6</h3>
+<ul>
+<li>Aufgabe: „Die Zahl {e.zahl}□ hat als letzte Ziffer ein leeres Kästchen. Welche ist die kleinste Ziffer, die du einsetzen kannst, damit die Zahl durch {e.d} teilbar wird?“</li>
+<li>Antwortformat: eine Zahl eintippen</li>
+<li>Tipp der App: „{e.tipp}“</li>
+<li>Lösungsweg:<ul>
+<li>{e.s1}</li>
+<li>{e.s2}</li>
+<li>Die kleinste passende Ziffer ist {answer}: {e.neu} ist durch {e.d} teilbar.</li>
+</ul>
+</li>
+<li>Typische Fehler und was die App sagt:<ul>
+<li>F1: „{e.m1}“</li>
+<li>F2: „{e.m2}“</li>
+</ul>
+</li>
+<li>Link zu Nummer n: <code>../?ziffer-ergaenzen-4-6=n&amp;via=tutor#ziffer-ergaenzen-4-6</code></li>
+<li>Aufgaben nach Nummer: die Werte für <code>{…}</code>, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. <code>{answer}</code> ist die Lösung.</li>
+</ul>
+<pre><code>Nr. | e.zahl | e.d | e.tipp | e.s1 | e.s2 | e.neu | e.m1 | e.m2 | Lösung | F1 | F2
+1 | 71 | 4 | Bei 4 zählen die letzten zwei Ziffern. Welche Zahl aus 1 und der neuen Ziffer ist durch 4 teilbar? | Bei 4 entscheiden die letzten zwei Ziffern. Die vorletzte Ziffer ist 1. | 10 und 11 sind nicht durch 4 teilbar, aber 12 : 4 = 3. | 712 | Die Ziffer 4 ist durch 4 teilbar, aber bei 4 zählen die letzten zwei Ziffern: 14 ist nicht durch 4 teilbar. | Mit 0 wird die Zahl gerade, also durch 2 teilbar. Für 4 reicht das nicht: 10 ist nicht durch 4 teilbar. | 2 | 4 | 0
+2 | 41 | 6 | Durch 6 teilbar heißt: durch 2 und durch 3 teilbar. Die Ziffer muss gerade sein, und die Quersumme muss durch 3 teilbar sein. | Die Ziffer muss gerade sein: 0, 2, 4, 6 oder 8. Die Quersumme von 41 ist 4 + 1 = 5. | Mit 0 ist die Quersumme 5, nicht durch 3 teilbar. Mit 2 ist sie 7, auch nicht. Mit 4 ist sie 9, und die ist durch 3 teilbar. | 414 | Mit 1 ist die Quersumme durch 3 teilbar, aber die Zahl endet ungerade. Durch 6 teilbar heißt auch: durch 2 teilbar. | Mit 0 ist die Zahl gerade, aber die Quersumme 5 ist nicht durch 3 teilbar. Durch 6 teilbar heißt auch: durch 3 teilbar. | 4 | 1 | 0
+3 | 23 | 6 | Durch 6 teilbar heißt: durch 2 und durch 3 teilbar. Die Ziffer muss gerade sein, und die Quersumme muss durch 3 teilbar sein. | Die Ziffer muss gerade sein: 0, 2, 4, 6 oder 8. Die Quersumme von 23 ist 2 + 3 = 5. | Mit 0 ist die Quersumme 5, nicht durch 3 teilbar. Mit 2 ist sie 7, auch nicht. Mit 4 ist sie 9, und die ist durch 3 teilbar. | 234 | Mit 1 ist die Quersumme durch 3 teilbar, aber die Zahl endet ungerade. Durch 6 teilbar heißt auch: durch 2 teilbar. | Mit 0 ist die Zahl gerade, aber die Quersumme 5 ist nicht durch 3 teilbar. Durch 6 teilbar heißt auch: durch 3 teilbar. | 4 | 1 | 0
+4 | 39 | 4 | Bei 4 zählen die letzten zwei Ziffern. Welche Zahl aus 9 und der neuen Ziffer ist durch 4 teilbar? | Bei 4 entscheiden die letzten zwei Ziffern. Die vorletzte Ziffer ist 9. | 90 und 91 sind nicht durch 4 teilbar, aber 92 : 4 = 23. | 392 | Die Ziffer 4 ist durch 4 teilbar, aber bei 4 zählen die letzten zwei Ziffern: 94 ist nicht durch 4 teilbar. | Mit 0 wird die Zahl gerade, also durch 2 teilbar. Für 4 reicht das nicht: 90 ist nicht durch 4 teilbar. | 2 | 4 | 0
+5 | 53 | 4 | Bei 4 zählen die letzten zwei Ziffern. Welche Zahl aus 3 und der neuen Ziffer ist durch 4 teilbar? | Bei 4 entscheiden die letzten zwei Ziffern. Die vorletzte Ziffer ist 3. | 30 und 31 sind nicht durch 4 teilbar, aber 32 : 4 = 8. | 532 | Die Ziffer 4 ist durch 4 teilbar, aber bei 4 zählen die letzten zwei Ziffern: 34 ist nicht durch 4 teilbar. | Mit 0 wird die Zahl gerade, also durch 2 teilbar. Für 4 reicht das nicht: 30 ist nicht durch 4 teilbar. | 2 | 4 | 0
+6 | 58 | 6 | Durch 6 teilbar heißt: durch 2 und durch 3 teilbar. Die Ziffer muss gerade sein, und die Quersumme muss durch 3 teilbar sein. | Die Ziffer muss gerade sein: 0, 2, 4, 6 oder 8. Die Quersumme von 58 ist 5 + 8 = 13. | Mit 0 ist die Quersumme 13, nicht durch 3 teilbar. Mit 2 ist sie 15, und die ist durch 3 teilbar. | 582 | Mit 5 ist die Quersumme durch 3 teilbar, aber die Zahl endet ungerade. Durch 6 teilbar heißt auch: durch 2 teilbar. | Mit 0 ist die Zahl gerade, aber die Quersumme 13 ist nicht durch 3 teilbar. Durch 6 teilbar heißt auch: durch 3 teilbar. | 2 | 5 | 0
+7 | 70 | 6 | Durch 6 teilbar heißt: durch 2 und durch 3 teilbar. Die Ziffer muss gerade sein, und die Quersumme muss durch 3 teilbar sein. | Die Ziffer muss gerade sein: 0, 2, 4, 6 oder 8. Die Quersumme von 70 ist 7 + 0 = 7. | Mit 0 ist die Quersumme 7, nicht durch 3 teilbar. Mit 2 ist sie 9, und die ist durch 3 teilbar. | 702 | Mit 5 ist die Quersumme durch 3 teilbar, aber die Zahl endet ungerade. Durch 6 teilbar heißt auch: durch 2 teilbar. | Mit 0 ist die Zahl gerade, aber die Quersumme 7 ist nicht durch 3 teilbar. Durch 6 teilbar heißt auch: durch 3 teilbar. | 2 | 5 | 0
+8 | 255 | 4 | Bei 4 zählen die letzten zwei Ziffern. Welche Zahl aus 5 und der neuen Ziffer ist durch 4 teilbar? | Bei 4 entscheiden die letzten zwei Ziffern. Die vorletzte Ziffer ist 5. | 50 und 51 sind nicht durch 4 teilbar, aber 52 : 4 = 13. | 2552 | Die Ziffer 4 ist durch 4 teilbar, aber bei 4 zählen die letzten zwei Ziffern: 54 ist nicht durch 4 teilbar. | Mit 0 wird die Zahl gerade, also durch 2 teilbar. Für 4 reicht das nicht: 50 ist nicht durch 4 teilbar. | 2 | 4 | 0
+9 | 134 | 6 | Durch 6 teilbar heißt: durch 2 und durch 3 teilbar. Die Ziffer muss gerade sein, und die Quersumme muss durch 3 teilbar sein. | Die Ziffer muss gerade sein: 0, 2, 4, 6 oder 8. Die Quersumme von 134 ist 1 + 3 + 4 = 8. | Mit 0 ist die Quersumme 8, nicht durch 3 teilbar. Mit 2 ist sie 10, auch nicht. Mit 4 ist sie 12, und die ist durch 3 teilbar. | 1344 | Mit 1 ist die Quersumme durch 3 teilbar, aber die Zahl endet ungerade. Durch 6 teilbar heißt auch: durch 2 teilbar. | Mit 0 ist die Zahl gerade, aber die Quersumme 8 ist nicht durch 3 teilbar. Durch 6 teilbar heißt auch: durch 3 teilbar. | 4 | 1 | 0
 </code></pre>
 <h3>Aufgabe durch-4</h3>
 <ul>

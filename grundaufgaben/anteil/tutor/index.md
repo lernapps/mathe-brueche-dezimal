@@ -51,7 +51,7 @@ Du kennst die Größe einer ganzen Menge und die Größe eines Teils davon. Wie 
 
 ### Ausprobieren
 
-Alle Plättchen zusammen bilden das Ganze. Gesucht ist diesmal keine Anzahl, sondern ein Bruch: Wie viele Plättchen gehören zum ausgewählten Teil, verglichen mit allen? Die Aufgabe nennt beide Anzahlen. Du kannst die passende Anzahl Plättchen anklicken, um den Teil sichtbar zu machen. Zähle dann ausgewählte und alle Plättchen. Die erste Anzahl kommt über den Bruchstrich, die zweite darunter. Gib den Bruch mit / ein und kürze ihn, wenn möglich. Das Anklicken füllt das Antwortfeld nicht aus.
+Alle Plättchen zusammen bilden das Ganze. Gesucht ist diesmal keine Anzahl, sondern ein Bruch: Wie viele Plättchen gehören zum ausgewählten Teil, verglichen mit allen? Die Aufgabe nennt beide Anzahlen. Die Plättchen stehen in gleich langen Reihen. Klicke so viele Plättchen an, wie die Aufgabe nennt: Der Teil füllt ganze Reihen. Zähle dann ausgewählte und alle Plättchen, oder ausgewählte und alle Reihen. Die erste Anzahl kommt über den Bruchstrich, die zweite darunter. Gib den Bruch mit / ein und kürze ihn, wenn möglich. Das Anklicken füllt das Antwortfeld nicht aus.
 
 - Aufgabe `modell` (unten)
 

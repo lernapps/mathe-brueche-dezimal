@@ -151,26 +151,27 @@ Nr. | z | n | b | d | f (verdeckt) | Lösung | F1 | F2
 
 ### Aufgabe aufgaben
 
-- Aufgabe: „Vergleiche $\frac{1}{{n}}$ und $\frac{2}{{n}}$. Gib den Zähler des größeren Bruchs an.“
-- Antwortformat: eine Zahl eintippen
-- Tipp der App: „Bei gleichem Nenner entscheidet der Zähler.“
+- Aufgabe: „Vergleiche $\frac{{e.a}}{{e.b}}$ und $\frac{{e.c}}{{e.d}}$. Welches Zeichen gehört dazwischen?“
+- Antwortformat: eine Antwort wählen
+- Tipp der App: „Erweitere beide Brüche auf den Nenner {e.g}. Dann sind alle Teilstücke gleich groß.“
 - Lösungsweg:
-  - Beide Brüche haben den Nenner {n}. Ihre Teilstücke sind deshalb gleich groß.
-  - Zwei solcher Teile sind mehr als eines. Der größere Bruch hat daher den Zähler 2.
+  - Gemeinsamer Nenner {e.g}: $\frac{{e.a}}{{e.b}} = \frac{{e.ea}}{{e.g}}$ und $\frac{{e.c}}{{e.d}} = \frac{{e.ec}}{{e.g}}$.
+  - Jetzt sind die Teilstücke gleich groß, und du vergleichst die Zähler {e.ea} und {e.ec}. Also gilt $\frac{{e.a}}{{e.b}} {answer} \frac{{e.c}}{{e.d}}$.
 - Typische Fehler und was die App sagt:
-  - F1: „Bei gleichem Nenner vergleichst du die Zähler. Gefragt ist der Zähler des größeren Bruchs.“
-  - F2: „Das ist der gemeinsame Nenner, nicht der gesuchte Zähler.“
+  - F1: „Bei verschiedenen Nennern sind die Teilstücke verschieden groß. Vergleiche nicht nur die Zähler oder nur die Nenner, sondern bringe beide Brüche auf denselben Nenner.“
 - Link zu Nummer n: `../?aufgaben=n&via=tutor#aufgaben`
-- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.
+- Aufgaben nach Nummer: die Werte für `{…}`, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. `{answer}` ist die Lösung.
 
 ```
-Nr. | n | Lösung | F1 | F2
-1 | 10 | 2 | 1 | 10
-2 | 5 | 2 | 1 | 5
-3 | 4 | 2 | 1 | 4
-4 | 8 | 2 | 1 | 8
-5 | 6 | 2 | 1 | 6
-6 | 3 | 2 | 1 | 3
+Nr. | e.a | e.b | e.c | e.d | e.g | e.ea | e.ec | Zur Wahl | Lösung | F1
+1 | 2 | 5 | 3 | 7 | 35 | 14 | 15 | <; =; > | < | >
+2 | 3 | 4 | 4 | 5 | 20 | 15 | 16 | <; =; > | < | =
+3 | 2 | 6 | 1 | 3 | 6 | 2 | 2 | <; =; > | = | >
+4 | 3 | 10 | 1 | 4 | 20 | 6 | 5 | <; =; > | > | <
+5 | 5 | 6 | 7 | 9 | 18 | 15 | 14 | <; =; > | > | <
+6 | 4 | 6 | 6 | 9 | 18 | 12 | 12 | <; =; > | = | <
+7 | 5 | 8 | 3 | 4 | 8 | 5 | 6 | <; =; > | < | >
+8 | 2 | 3 | 3 | 5 | 15 | 10 | 9 | <; =; > | > | <
 ```
 
 ### Aufgabe ordnen

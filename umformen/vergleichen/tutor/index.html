@@ -150,29 +150,30 @@
 </ul>
 <h3>Aufgabe aufgaben</h3>
 <ul>
-<li>Aufgabe: „Vergleiche $\frac{1}{{n}}$ und $\frac{2}{{n}}$. Gib den Zähler des größeren Bruchs an.“</li>
-<li>Antwortformat: eine Zahl eintippen</li>
-<li>Tipp der App: „Bei gleichem Nenner entscheidet der Zähler.“</li>
+<li>Aufgabe: „Vergleiche $\frac{{e.a}}{{e.b}}$ und $\frac{{e.c}}{{e.d}}$. Welches Zeichen gehört dazwischen?“</li>
+<li>Antwortformat: eine Antwort wählen</li>
+<li>Tipp der App: „Erweitere beide Brüche auf den Nenner {e.g}. Dann sind alle Teilstücke gleich groß.“</li>
 <li>Lösungsweg:<ul>
-<li>Beide Brüche haben den Nenner {n}. Ihre Teilstücke sind deshalb gleich groß.</li>
-<li>Zwei solcher Teile sind mehr als eines. Der größere Bruch hat daher den Zähler 2.</li>
+<li>Gemeinsamer Nenner {e.g}: $\frac{{e.a}}{{e.b}} = \frac{{e.ea}}{{e.g}}$ und $\frac{{e.c}}{{e.d}} = \frac{{e.ec}}{{e.g}}$.</li>
+<li>Jetzt sind die Teilstücke gleich groß, und du vergleichst die Zähler {e.ea} und {e.ec}. Also gilt $\frac{{e.a}}{{e.b}} {answer} \frac{{e.c}}{{e.d}}$.</li>
 </ul>
 </li>
 <li>Typische Fehler und was die App sagt:<ul>
-<li>F1: „Bei gleichem Nenner vergleichst du die Zähler. Gefragt ist der Zähler des größeren Bruchs.“</li>
-<li>F2: „Das ist der gemeinsame Nenner, nicht der gesuchte Zähler.“</li>
+<li>F1: „Bei verschiedenen Nennern sind die Teilstücke verschieden groß. Vergleiche nicht nur die Zähler oder nur die Nenner, sondern bringe beide Brüche auf denselben Nenner.“</li>
 </ul>
 </li>
 <li>Link zu Nummer n: <code>../?aufgaben=n&amp;via=tutor#aufgaben</code></li>
-<li>Aufgaben nach Nummer: die Werte für <code>{…}</code>, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt.</li>
+<li>Aufgaben nach Nummer: die Werte für <code>{…}</code>, die Lösung und was bei den Fehlern herauskommt. Ein Fehler ohne Spalte hat keinen festen Wert; die Meldung der App sagt, ob er vorliegt. <code>{answer}</code> ist die Lösung.</li>
 </ul>
-<pre><code>Nr. | n | Lösung | F1 | F2
-1 | 10 | 2 | 1 | 10
-2 | 5 | 2 | 1 | 5
-3 | 4 | 2 | 1 | 4
-4 | 8 | 2 | 1 | 8
-5 | 6 | 2 | 1 | 6
-6 | 3 | 2 | 1 | 3
+<pre><code>Nr. | e.a | e.b | e.c | e.d | e.g | e.ea | e.ec | Zur Wahl | Lösung | F1
+1 | 2 | 5 | 3 | 7 | 35 | 14 | 15 | &lt;; =; &gt; | &lt; | &gt;
+2 | 3 | 4 | 4 | 5 | 20 | 15 | 16 | &lt;; =; &gt; | &lt; | =
+3 | 2 | 6 | 1 | 3 | 6 | 2 | 2 | &lt;; =; &gt; | = | &gt;
+4 | 3 | 10 | 1 | 4 | 20 | 6 | 5 | &lt;; =; &gt; | &gt; | &lt;
+5 | 5 | 6 | 7 | 9 | 18 | 15 | 14 | &lt;; =; &gt; | &gt; | &lt;
+6 | 4 | 6 | 6 | 9 | 18 | 12 | 12 | &lt;; =; &gt; | = | &lt;
+7 | 5 | 8 | 3 | 4 | 8 | 5 | 6 | &lt;; =; &gt; | &lt; | &gt;
+8 | 2 | 3 | 3 | 5 | 15 | 10 | 9 | &lt;; =; &gt; | &gt; | &lt;
 </code></pre>
 <h3>Aufgabe ordnen</h3>
 <ul>
