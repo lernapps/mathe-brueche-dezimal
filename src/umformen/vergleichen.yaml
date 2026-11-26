@@ -128,27 +128,26 @@
             {
               "type": "generated",
               "id": "aufgaben",
-              "given": { "n": { "oneOf": [3, 4, 5, 6, 8, 10] } },
+              "given": { "e": { "pick": 1, "from": { "data": "vergleichspaare" } } },
               "task":
                 {
-                  "text": "Vergleiche $\\frac{1}{{{n}}}$ und $\\frac{2}{{{n}}}$. Gib den Zähler des größeren Bruchs an.",
+                  "text": "Vergleiche $\\frac{{{e.a}}}{{{e.b}}}$ und $\\frac{{{e.c}}}{{{e.d}}}$. Welches Zeichen gehört dazwischen?",
                 },
-              "answer": { "value": "2", "compare": "number" },
+              "answer": { "value": "e.zeichen", "compare": { "choice": ["<", "=", ">"] } },
               "mistakes":
                 [
                   {
-                    "value": "1",
-                    "message": "Bei gleichem Nenner vergleichst du die Zähler. Gefragt ist der Zähler des größeren Bruchs.",
+                    "value": "e.falsch",
+                    "message": "Bei verschiedenen Nennern sind die Teilstücke verschieden groß. Vergleiche nicht nur die Zähler oder nur die Nenner, sondern bringe beide Brüche auf denselben Nenner.",
                   },
-                  { "value": "n", "message": "Das ist der gemeinsame Nenner, nicht der gesuchte Zähler." },
                 ],
-              "hint": "Bei gleichem Nenner entscheidet der Zähler.",
+              "hint": "Erweitere beide Brüche auf den Nenner {{e.g}}. Dann sind alle Teilstücke gleich groß.",
               "steps":
                 [
-                  "Beide Brüche haben den Nenner {{n}}. Ihre Teilstücke sind deshalb gleich groß.",
-                  "Zwei solcher Teile sind mehr als eines. Der größere Bruch hat daher den Zähler 2.",
+                  "Gemeinsamer Nenner {{e.g}}: $\\frac{{{e.a}}}{{{e.b}}} = \\frac{{{e.ea}}}{{{e.g}}}$ und $\\frac{{{e.c}}}{{{e.d}}} = \\frac{{{e.ec}}}{{{e.g}}}$.",
+                  "Jetzt sind die Teilstücke gleich groß, und du vergleichst die Zähler {{e.ea}} und {{e.ec}}. Also gilt $\\frac{{{e.a}}}{{{e.b}}} {{answer}} \\frac{{{e.c}}}{{{e.d}}}$.",
                 ],
-              "examples": { "accepted": ["answer"], "rejected": ["answer+1"] },
+              "examples": { "accepted": ["answer"], "rejected": ["e.falsch"] },
             },
             {
               "type": "ordering",

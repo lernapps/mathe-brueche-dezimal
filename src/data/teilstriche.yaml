@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v1.schema.json
+[
+  { "s": 1, "n": 2, "k": 1 },
+  { "s": 2, "n": 3, "k": 1 },
+  { "s": 2, "n": 3, "k": 2 },
+  { "s": 3, "n": 4, "k": 3 },
+  { "s": 4, "n": 5, "k": 2 },
+  { "s": 4, "n": 5, "k": 3 },
+  { "s": 5, "n": 6, "k": 4 },
+  { "s": 6, "n": 7, "k": 5 },
+  { "s": 7, "n": 8, "k": 3 },
+  { "s": 9, "n": 10, "k": 7 },
+]

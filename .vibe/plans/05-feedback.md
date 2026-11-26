@@ -131,7 +131,7 @@ Befund und Vorschlag je Notiz (Stand c6f30e3):
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] F1 Bilder: Lizenz aller neun Zeichnungen CC BY-SA 4.0; Klammer-Überlappung in p4-gleichung-streifen.svg (Notizen 4, 9). Du allein. Check, Commit.
 - [x] F2 Komponenten: Kreis ohne Browser-Rahmen (BruchModelle), weggegebene Kuchenstückchen hellrot mit Muster (KuchenMultiplizieren), Seitenbeschriftung waagerecht (BruchRechnen), Plättchen in Reihen und Text ohne „eigene Zahlen“ (AnteilGanzes, grundaufgaben/anteil) (Notizen 1, 6, 7, 8). Du allein. Tests, Check, Commit.
-- [ ] F3 Übungen: Zahlenstrahl Teilstriche vs. Abstände (anteile/zahlenstrahl), Vergleichen mit verschiedenen Nennern (umformen/vergleichen), Ziffer ergänzen für 4 und 6 (teilbarkeit/regeln), mit Daten in src/data (Notizen 2, 3, 5). Du allein. Check, Commit.
+- [x] F3 Übungen: Zahlenstrahl Teilstriche vs. Abstände (anteile/zahlenstrahl), Vergleichen mit verschiedenen Nennern (umformen/vergleichen), Ziffer ergänzen für 4 und 6 (teilbarkeit/regeln), mit Daten in src/data (Notizen 2, 3, 5). Du allein. Check, Commit.
 <!-- tasks: slices (3 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
