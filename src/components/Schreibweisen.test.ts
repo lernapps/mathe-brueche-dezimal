@@ -19,6 +19,7 @@ const SKIP = new Set([
   "title",
   "scope",
   "formula",
+  "licence",
 ]);
 const CHECKS: [string, RegExp][] = [
   ["Bruch als a/b statt gesetzt ($\\frac{a}{b}$)", /\d\/\d|\d\/\{\{|\}\}\/\d|\}\}\/\{\{/],
