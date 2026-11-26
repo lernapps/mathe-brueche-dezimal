@@ -31,7 +31,7 @@
           [
             {
               "type": "text",
-              "text": "Alle Plättchen zusammen bilden das Ganze. Gesucht ist diesmal keine Anzahl, sondern ein Bruch: Wie viele Plättchen gehören zum ausgewählten Teil, verglichen mit allen? Die Aufgabe nennt beide Anzahlen. Du kannst die passende Anzahl Plättchen anklicken, um den Teil sichtbar zu machen. Zähle dann ausgewählte und alle Plättchen. Die erste Anzahl kommt über den Bruchstrich, die zweite darunter. Gib den Bruch mit / ein und kürze ihn, wenn möglich. Das Anklicken füllt das Antwortfeld nicht aus.",
+              "text": "Alle Plättchen zusammen bilden das Ganze. Gesucht ist diesmal keine Anzahl, sondern ein Bruch: Wie viele Plättchen gehören zum ausgewählten Teil, verglichen mit allen? Die Aufgabe nennt beide Anzahlen. Die Plättchen stehen in gleich langen Reihen. Klicke so viele Plättchen an, wie die Aufgabe nennt: Der Teil füllt ganze Reihen. Zähle dann ausgewählte und alle Plättchen, oder ausgewählte und alle Reihen. Die erste Anzahl kommt über den Bruchstrich, die zweite darunter. Gib den Bruch mit / ein und kürze ihn, wenn möglich. Das Anklicken füllt das Antwortfeld nicht aus.",
             },
             {
               "type": "vue-component",
@@ -50,7 +50,7 @@
                   "inputLabel": "Deine Antwort (Bruch mit / oder ganze Zahl)",
                   "givenLabel": "Gegeben",
                   "ownLabel": "So schreibst du das",
-                  "toolLabel": "Diese Aufgabe hat eigene Zahlen. Alle Plättchen sind das Ganze. Markiere als Hilfe die in der Aufgabe genannte Teilmenge. Schreibe ausgewählte Anzahl / gesamte Anzahl ins Antwortfeld; kürze, wenn möglich.",
+                  "toolLabel": "Kürze, wenn möglich.",
                   "pieceLabel": "Teil",
                   "stepLabel": "Gegenstände pro Gruppe",
                   "labels":
@@ -68,7 +68,7 @@
                   "accepted": [{ "answer": "1/3", "seed": 1 }],
                   "rejected": [{ "answer": "2/6", "seed": 1 }, { "answer": "1/0" }, { "answer": "" }],
                 },
-              "nojs": "Alle Plättchen zusammen bilden das Ganze. Gesucht ist diesmal keine Anzahl, sondern ein Bruch: Wie viele Plättchen gehören zum ausgewählten Teil, verglichen mit allen? Die Aufgabe nennt beide Anzahlen. Du kannst die passende Anzahl Plättchen anklicken, um den Teil sichtbar zu machen. Zähle dann ausgewählte und alle Plättchen. Die erste Anzahl kommt über den Bruchstrich, die zweite darunter. Gib den Bruch mit / ein und kürze ihn, wenn möglich. Das Anklicken füllt das Antwortfeld nicht aus.",
+              "nojs": "Alle Plättchen zusammen bilden das Ganze. Gesucht ist diesmal keine Anzahl, sondern ein Bruch: Wie viele Plättchen gehören zum ausgewählten Teil, verglichen mit allen? Die Aufgabe nennt beide Anzahlen. Die Plättchen stehen in gleich langen Reihen. Klicke so viele Plättchen an, wie die Aufgabe nennt: Der Teil füllt ganze Reihen. Zähle dann ausgewählte und alle Plättchen, oder ausgewählte und alle Reihen. Die erste Anzahl kommt über den Bruchstrich, die zweite darunter. Gib den Bruch mit / ein und kürze ihn, wenn möglich. Das Anklicken füllt das Antwortfeld nicht aus.",
             },
             {
               "type": "note",

@@ -223,3 +223,10 @@ Zuerst Kompetenz, Quelle und Methode hier ergänzen, dann `src/<kapitel>/chapter
 - Vier Recap-Seiten (`anteile/recap`, `teilbarkeit/recap`, `anwendungen/recap`, `rechnen/recap`), je Voraussetzung von außen ein Abschnitt in der Wortwahl der Karte: fette Fachbegriffe als `definition` (ein Begriff einmal im ganzen Explainer, sie stehen im Glossar), ein Beispielkasten, „Kannst du das?“ mit ein bis zwei Aufgaben und Lösungskasten (mit dem häufigsten Fehler), Kartenlink, Schluss „Du bist bereit, wenn du …“.
 - Der Seitentyp `recap` erlaubt keine Aufgabenblöcke (Build: „descriptive blocks only“): der Selbsttest ist Aufgabe plus Lösungskasten ohne sofortige Rückmeldung. Das vom Werkzeug erzeugte Kopffeld zeigt die Karten-ID als Text.
 - Begriffe nur dort als `definition`: Ziffer, Stellenwert (`anteile/recap`); Summand, Vorrangregel, Vertauschungs-, Verbindungs-, Distributivgesetz, Potenz, Basis, Exponent, Zehnerpotenz (`teilbarkeit/recap`); Übertrag, Rest (`anwendungen/recap`). `rechnen/recap` erinnert nur kurz und verweist auf den Recap im Kapitel Teilbarkeit.
+
+## Korrekturen aus dem Feedback #5 (Plan 05)
+
+- Kreisstücke (`BruchModelle`): kein Fokusrahmen des Browsers; der Tastaturfokus ist ein dicker Rand entlang des Stücks, über die Nachbarn gezeichnet.
+- `KuchenMultiplizieren`: Stückchen deiner Viertel, die du weglegst, sind hellrot mit Punkten (in hell und dunkel gleich), genommene grün; Legende unter den Kuchen.
+- Rechteck (`BruchRechnen`, Mal): die Beschriftung der Höhe steht waagerecht links neben dem Rechteck, nie gedreht (ein gedrehter Bruch zerfällt).
+- `AnteilGanzes`, Art `ratio`: Plättchen in Reihen der Länge Ganzes : Nenner; der Teil füllt ganze Reihen, so wird das Kürzen sichtbar. Hilfetext nur „Kürze, wenn möglich.“

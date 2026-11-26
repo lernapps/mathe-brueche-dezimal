@@ -229,12 +229,14 @@ input[type="range"] {
   margin: 0 0 0 28px;
   text-align: center;
 }
+/* Horizontal, beside the height: a rotated caption breaks the fraction apart. */
 .row-caption {
   grid-row: 2;
+  align-self: center;
+  max-width: 5.5rem;
   margin: 0;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  text-align: center;
+  text-align: right;
+  line-height: 1.3;
 }
 .column-part,
 .row-part {

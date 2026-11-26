@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, useId } from "vue";
-import { cakeSelection } from "./KuchenMultiplizieren.ts";
+import { cakePieces } from "./KuchenMultiplizieren.ts";
 import { sector, fill, spoken } from "./BruchMath.ts";
 defineOptions({ nojs: "caption" });
 const props = defineProps<{
@@ -11,11 +11,14 @@ const props = defineProps<{
   afterLabel: string;
   imageLabel: string;
   resultLabel: string;
+  takenLegend: string;
+  removedLegend: string;
 }>();
 const d = ref(3);
 const b = ref(3);
 const patternId = useId();
-const selection = computed(() => cakeSelection(3, 4, b.value, d.value));
+const removedId = useId();
+const pieces = computed(() => cakePieces(3, 4, b.value, d.value));
 function subdivide(value: number): void {
   d.value = value;
   b.value = value;
@@ -61,17 +64,34 @@ import BruchZahl from "./BruchZahl.vue";
       </figure>
       <figure>
         <svg viewBox="0 0 120 120" role="img" :aria-label="spoken(fill(imageLabel, { z: 3 * b, n: 4 * d }))">
+          <defs>
+            <pattern :id="removedId" width="6" height="6" patternUnits="userSpaceOnUse">
+              <rect width="6" height="6" class="removed-fill" />
+              <circle cx="3" cy="3" r="0.9" class="removed-dot" />
+            </pattern>
+          </defs>
           <path
-            v-for="(selected, index) in selection"
+            v-for="(piece, index) in pieces"
             :key="index"
             :d="sector(index, 4 * d)"
-            :style="{ fill: selected ? `url(#${patternId})` : 'var(--page-background)' }"
+            :style="{
+              fill:
+                piece === 'taken'
+                  ? `url(#${patternId})`
+                  : piece === 'removed'
+                    ? `url(#${removedId})`
+                    : 'var(--page-background)',
+            }"
           />
           <path v-for="i in 4" :key="`original-${i}`" :d="sector(i - 1, 4)" class="original" />
         </svg>
         <figcaption>{{ afterLabel }}: <BruchZahl :z="b" :n="d" /> · <BruchZahl :z="3" :n="4" /></figcaption>
       </figure>
     </div>
+    <ul class="legend">
+      <li><span class="swatch taken" aria-hidden="true"></span>{{ takenLegend }}</li>
+      <li><span class="swatch removed" aria-hidden="true"></span>{{ removedLegend }}</li>
+    </ul>
     <p aria-live="polite"><RichText :text="fill(resultLabel, { b, d, z: 3 * b, n: 4 * d })" /></p>
   </div>
 </template>
@@ -117,5 +137,40 @@ svg > path {
 }
 figcaption {
   margin-top: 0.5rem;
+}
+/* Light red in both themes: the subject's colour for "put away", with dots as a second mark. */
+.removed-fill {
+  fill: #f8d3cf;
+}
+.removed-dot {
+  fill: #a1281f;
+  opacity: 0.5;
+}
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.swatch {
+  display: inline-block;
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 1px solid var(--page-text);
+}
+.swatch.taken {
+  background: #16765d;
+}
+.swatch.removed {
+  background-color: #f8d3cf;
+  background-image: radial-gradient(circle, rgb(161 40 31 / 0.5) 1.5px, transparent 1.6px);
+  background-size: 6px 6px;
 }
 </style>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
 import BruchEingabe from "./BruchEingabe.vue";
-import { generate, params } from "./BruchAufgaben.ts";
+import { generate, params, rowLength } from "./BruchAufgaben.ts";
 import { fill, spoken } from "./BruchMath.ts";
 const props = defineProps<{
   kind: string;
@@ -35,7 +35,11 @@ import RichText from "./RichText.vue";
     <p><RichText :text="fill(task, params(taskNow))" /></p>
     <p>{{ givenLabel }}</p>
     <template v-if="kind !== 'whole'"
-      ><div class="cells">
+      ><div
+        class="cells"
+        :class="{ rows: kind === 'ratio' }"
+        :style="kind === 'ratio' ? { gridTemplateColumns: `repeat(${rowLength(taskNow)}, 44px)` } : {}"
+      >
         <button
           v-for="i in taskNow.G"
           :key="i"
@@ -94,6 +98,11 @@ input {
   flex-wrap: wrap;
   gap: 0.25rem;
   margin: 0.75rem 0;
+}
+/* Rows as long as the part's group: the part fills whole rows, so the reduced fraction can be seen. */
+.cells.rows {
+  display: grid;
+  gap: 0.25rem;
 }
 .cells button,
 .signs button,
